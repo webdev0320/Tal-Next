@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { taxationConfig } from '../legacy-templates/taxationConfig';
+import { taxationConfig } from '@/src/legacy-templates/taxationConfig';
 
 export default function TaxationRenderer({ configKey }) {
   const data = taxationConfig[configKey];

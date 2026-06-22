@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogOld from '../legacy-templates/BlogOld';
+import BlogOld from '@/src/legacy-templates/BlogOld';
 
 export default function Blog() {
   return <BlogOld />;
