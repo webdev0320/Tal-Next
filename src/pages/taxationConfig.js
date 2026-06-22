@@ -1,22 +1,21 @@
-// Import the new taxation assets
-import cryptoImg from '../assets/taxation-cryptocurrency.png';
-import filmImg from '../assets/taxation-film-tax-relief.png';
-import letPropertyImg from '../assets/taxation-let-property-campaign.png';
-import personalIncomeImg from '../assets/taxation-personal-income-tax-professionals-and-chartered-accountants.png';
-import worldwideImg from '../assets/taxation-worldwide-disclosure-facility.png';
+// Import the new taxation assets as placeholder URLs to prevent missing asset build errors
+const cryptoImg = 'https://placehold.co/800x600?text=Cryptocurrency+Taxation';
+const filmImg = 'https://placehold.co/800x600?text=Film+Tax+Relief';
+const letPropertyImg = 'https://placehold.co/800x600?text=Let+Property+Campaign';
+const personalIncomeImg = 'https://placehold.co/800x600?text=Personal+Income+Tax';
+const worldwideImg = 'https://placehold.co/800x600?text=Worldwide+Disclosure+Facility';
 
 // New imports
-import companyTaxReturnImg from '../assets/taxation-company-tax-return.png';
-import vatAccountantsImg from '../assets/taxation-vat-accountants.png';
-import inheritanceTaxImg from '../assets/taxation-inheritance-tax.png';
-// import taxInvestigationImg from '../assets/taxation-tax-investigation.png';
+const companyTaxReturnImg = 'https://placehold.co/800x600?text=Company+Tax+Return';
+const vatAccountantsImg = 'https://placehold.co/800x600?text=VAT+Accountants';
+const inheritanceTaxImg = 'https://placehold.co/800x600?text=Inheritance+Tax+Planning';
 const taxInvestigationImg = 'https://placehold.co/800x600?text=Tax+Investigation';
-import capitalGainsTaxImg from '../assets/taxation-capital-gains-tax.png';
-import estatePropertyTaxImg from '../assets/taxation-estate-tax-planning.png';
-import taxAdvisorsImg from '../assets/taxation-tax-advisors.png';
+const capitalGainsTaxImg = 'https://placehold.co/800x600?text=Capital+Gains+Tax';
+const estatePropertyTaxImg = 'https://placehold.co/800x600?text=Estate+Tax+Planning';
+const taxAdvisorsImg = 'https://placehold.co/800x600?text=Tax+Advisors';
 const nonUkResidentTaxationImg = 'https://placehold.co/800x600?text=Non-UK+Resident+Taxation';
-// Reusing an existing taxation image for EMI and SEIS as no specific assets were provided for them in the list.
-import emiSeisPlaceholderImg from '../assets/taxation-company-tax-return.png';
+const emiSeisPlaceholderImg = 'https://placehold.co/800x600?text=EMI+and+SEIS+Taxation';
+
 
 
 export const taxationConfig = {

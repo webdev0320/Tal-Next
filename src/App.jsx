@@ -52,10 +52,59 @@ import ConsolidatedAccounts from './react-pages/ConsolidatedAccounts';
 import SingleBlog from './react-pages/SingleBlog';
 import MainLayout from '@/src/components/Layout/MainLayout';
 import DynamicWpPage from './react-pages/DynamicWpPage';
+import { useLocation } from 'react-router-dom';
+
+const SPECIAL_WORDS = {
+  'ir35': 'IR35',
+  'vat': 'VAT',
+  'ltd': 'Ltd',
+  'spvs': 'SPVs',
+  'emi': 'EMI',
+  'hmrc': 'HMRC',
+  'saas': 'SaaS',
+};
+
+function humanize(segment) {
+  return segment
+    .split('-')
+    .map(word => {
+      const lower = word.toLowerCase();
+      if (SPECIAL_WORDS[lower]) {
+        return SPECIAL_WORDS[lower];
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(' ');
+}
+
+function TitleUpdater() {
+  const location = useLocation();
+
+  React.useEffect(() => {
+    const path = location.pathname;
+    let title = 'Taxaccolega';
+
+    if (path && path !== '/') {
+      const segments = path.split('/').filter(Boolean);
+      if (segments.length > 0) {
+        const lastSegment = segments[segments.length - 1];
+        const formattedSegment = humanize(lastSegment);
+        title = `${formattedSegment} | Taxaccolega`;
+      }
+    } else {
+      title = 'Taxaccolega | Chartered Accountants & Tax Advisors';
+    }
+
+    document.title = title;
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
+      <TitleUpdater />
       <Routes>
         <Route path="/" element={<MainLayout><Home /></MainLayout>} />
         <Route path="/about-us" element={<MainLayout><AboutUs /></MainLayout>} />
