@@ -3,13 +3,9 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 
-const NextPageWrapper = dynamic(() => import('@/src/components/NextPageWrapper'), { ssr: false });
-const SoleTraderPackage = dynamic(() => import('@/src/react-pages/SoleTraderPackage').then(mod => mod.default || mod), { ssr: false });
+// Dynamically import the main App with SSR disabled to keep it fully client-side (SPA style)
+const App = dynamic(() => import('../../../App'), { ssr: false });
 
 export default function Page() {
-  return (
-    <NextPageWrapper>
-      <SoleTraderPackage />
-    </NextPageWrapper>
-  );
+  return <App />;
 }
