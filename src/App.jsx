@@ -50,7 +50,7 @@ import CryptocurrencyTax from './react-pages/CryptocurrencyTax';
 import PersonalIncomeTax from './react-pages/PersonalIncomeTax';
 import ConsolidatedAccounts from './react-pages/ConsolidatedAccounts';
 import SingleBlog from './react-pages/SingleBlog';
-import MainLayout from './components/Layout/MainLayout';
+import MainLayout from './components/Layout/MainLayout.jsx';
 import DynamicWpPage from './react-pages/DynamicWpPage';
 
 function App() {
