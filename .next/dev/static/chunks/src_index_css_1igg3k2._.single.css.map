@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/index.css"],"sourcesContent":["@import \"tailwindcss\";\r\n\r\n@theme {\r\n  /* Colors */\r\n  --color-brand-dark:         #1d3c45;\r\n  --color-brand-darker:       #11252b;\r\n  --color-brand-orange:       #d2601a;\r\n  --color-brand-orange-light: #e8a274;\r\n  --color-brand-orange-dark:  #b8500e;\r\n\r\n  /* Font families */\r\n  --font-inter:   'Inter', sans-serif;\r\n  --font-outfit:  'Outfit', sans-serif;\r\n}\r\n"],"names":[],"mappings":"AAEA"}}]
+}

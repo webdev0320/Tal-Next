@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/taxation/layout,_N_T_/taxation/let-property-campaign/layout,_N_T_/taxation/let-property-campaign/page,_N_T_/taxation/let-property-campaign"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/taxation/let-property-campaign/__PAGE__",
+    "/taxation/let-property-campaign",
+    "/taxation",
+    "/_index",
+    "/_head"
+  ]
+}

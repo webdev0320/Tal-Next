@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/refer-and-earn/layout,_N_T_/refer-and-earn/page,_N_T_/refer-and-earn"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/refer-and-earn/__PAGE__",
+    "/refer-and-earn",
+    "/_index",
+    "/_head"
+  ]
+}

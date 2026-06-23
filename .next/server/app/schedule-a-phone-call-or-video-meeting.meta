@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/schedule-a-phone-call-or-video-meeting/layout,_N_T_/schedule-a-phone-call-or-video-meeting/page,_N_T_/schedule-a-phone-call-or-video-meeting"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/schedule-a-phone-call-or-video-meeting/__PAGE__",
+    "/schedule-a-phone-call-or-video-meeting",
+    "/_index",
+    "/_head"
+  ]
+}

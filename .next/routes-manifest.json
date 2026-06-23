@@ -1,0 +1,404 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/blog/[slug]",
+      "regex": "^/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/industries/[slug]",
+      "regex": "^/industries/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/industries/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/packages/[slug]",
+      "regex": "^/packages/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/packages/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/taxation/[slug]",
+      "regex": "^/taxation/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/taxation/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[...slug]",
+      "regex": "^/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/(?<nxtPslug>.+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about-us",
+      "regex": "^/about\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us(?:/)?$"
+    },
+    {
+      "page": "/accounts",
+      "regex": "^/accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts(?:/)?$"
+    },
+    {
+      "page": "/accounts/annual-accounts",
+      "regex": "^/accounts/annual\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/annual\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/accounts/auto-enrolment-pension-contributions",
+      "regex": "^/accounts/auto\\-enrolment\\-pension\\-contributions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/auto\\-enrolment\\-pension\\-contributions(?:/)?$"
+    },
+    {
+      "page": "/accounts/bookkeeping-services",
+      "regex": "^/accounts/bookkeeping\\-services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/bookkeeping\\-services(?:/)?$"
+    },
+    {
+      "page": "/accounts/cash-flow-forecasting",
+      "regex": "^/accounts/cash\\-flow\\-forecasting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/cash\\-flow\\-forecasting(?:/)?$"
+    },
+    {
+      "page": "/accounts/consolidated-accounts",
+      "regex": "^/accounts/consolidated\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/consolidated\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/accounts/financial-forecasting",
+      "regex": "^/accounts/financial\\-forecasting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/financial\\-forecasting(?:/)?$"
+    },
+    {
+      "page": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+      "regex": "^/accounts/hmrc\\-self\\-assessment\\-tax\\-returns\\-accountant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/hmrc\\-self\\-assessment\\-tax\\-returns\\-accountant(?:/)?$"
+    },
+    {
+      "page": "/accounts/management-accounts",
+      "regex": "^/accounts/management\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/management\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/accounts/payroll-services",
+      "regex": "^/accounts/payroll\\-services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/payroll\\-services(?:/)?$"
+    },
+    {
+      "page": "/accounts/statutory-accounts",
+      "regex": "^/accounts/statutory\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/statutory\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/awards-accolades-accreditations",
+      "regex": "^/awards\\-accolades\\-accreditations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/awards\\-accolades\\-accreditations(?:/)?$"
+    },
+    {
+      "page": "/banks",
+      "regex": "^/banks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/banks(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/charities",
+      "regex": "^/charities(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/charities(?:/)?$"
+    },
+    {
+      "page": "/company-formation",
+      "regex": "^/company\\-formation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/company\\-formation(?:/)?$"
+    },
+    {
+      "page": "/company-secretarial",
+      "regex": "^/company\\-secretarial(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/company\\-secretarial(?:/)?$"
+    },
+    {
+      "page": "/contact-us",
+      "regex": "^/contact\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact\\-us(?:/)?$"
+    },
+    {
+      "page": "/employment-agreement",
+      "regex": "^/employment\\-agreement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/employment\\-agreement(?:/)?$"
+    },
+    {
+      "page": "/legal",
+      "regex": "^/legal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/legal(?:/)?$"
+    },
+    {
+      "page": "/packages/charities",
+      "regex": "^/packages/charities(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/charities(?:/)?$"
+    },
+    {
+      "page": "/packages/charities-pricing",
+      "regex": "^/packages/charities\\-pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/charities\\-pricing(?:/)?$"
+    },
+    {
+      "page": "/packages/contractor-ltd",
+      "regex": "^/packages/contractor\\-ltd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/contractor\\-ltd(?:/)?$"
+    },
+    {
+      "page": "/packages/contractor-ltd-pricing",
+      "regex": "^/packages/contractor\\-ltd\\-pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/contractor\\-ltd\\-pricing(?:/)?$"
+    },
+    {
+      "page": "/packages/landlords",
+      "regex": "^/packages/landlords(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/landlords(?:/)?$"
+    },
+    {
+      "page": "/packages/landlords-3",
+      "regex": "^/packages/landlords\\-3(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/landlords\\-3(?:/)?$"
+    },
+    {
+      "page": "/packages/ltd-company",
+      "regex": "^/packages/ltd\\-company(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/ltd\\-company(?:/)?$"
+    },
+    {
+      "page": "/packages/ltd-company-pricing",
+      "regex": "^/packages/ltd\\-company\\-pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/ltd\\-company\\-pricing(?:/)?$"
+    },
+    {
+      "page": "/packages/sole-trader",
+      "regex": "^/packages/sole\\-trader(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/sole\\-trader(?:/)?$"
+    },
+    {
+      "page": "/packages/sole-trader-pricing",
+      "regex": "^/packages/sole\\-trader\\-pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/sole\\-trader\\-pricing(?:/)?$"
+    },
+    {
+      "page": "/packages/spvs-ltd",
+      "regex": "^/packages/spvs\\-ltd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/spvs\\-ltd(?:/)?$"
+    },
+    {
+      "page": "/packages/spvs-ltd-pricing",
+      "regex": "^/packages/spvs\\-ltd\\-pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/packages/spvs\\-ltd\\-pricing(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/refer-a-friend",
+      "regex": "^/refer\\-a\\-friend(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/refer\\-a\\-friend(?:/)?$"
+    },
+    {
+      "page": "/refer-and-earn",
+      "regex": "^/refer\\-and\\-earn(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/refer\\-and\\-earn(?:/)?$"
+    },
+    {
+      "page": "/registered-address",
+      "regex": "^/registered\\-address(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/registered\\-address(?:/)?$"
+    },
+    {
+      "page": "/schedule-a-phone-call-or-video-meeting",
+      "regex": "^/schedule\\-a\\-phone\\-call\\-or\\-video\\-meeting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/schedule\\-a\\-phone\\-call\\-or\\-video\\-meeting(?:/)?$"
+    },
+    {
+      "page": "/share-transfer",
+      "regex": "^/share\\-transfer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/share\\-transfer(?:/)?$"
+    },
+    {
+      "page": "/software",
+      "regex": "^/software(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/software(?:/)?$"
+    },
+    {
+      "page": "/switch-accountant",
+      "regex": "^/switch\\-accountant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/switch\\-accountant(?:/)?$"
+    },
+    {
+      "page": "/taxation",
+      "regex": "^/taxation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation(?:/)?$"
+    },
+    {
+      "page": "/taxation/company-tax-return-accountants",
+      "regex": "^/taxation/company\\-tax\\-return\\-accountants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/company\\-tax\\-return\\-accountants(?:/)?$"
+    },
+    {
+      "page": "/taxation/cryptocurrency",
+      "regex": "^/taxation/cryptocurrency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/cryptocurrency(?:/)?$"
+    },
+    {
+      "page": "/taxation/emi-schemes",
+      "regex": "^/taxation/emi\\-schemes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/emi\\-schemes(?:/)?$"
+    },
+    {
+      "page": "/taxation/inheritance-tax-planning",
+      "regex": "^/taxation/inheritance\\-tax\\-planning(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/inheritance\\-tax\\-planning(?:/)?$"
+    },
+    {
+      "page": "/taxation/let-property-campaign",
+      "regex": "^/taxation/let\\-property\\-campaign(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/let\\-property\\-campaign(?:/)?$"
+    },
+    {
+      "page": "/taxation/personal-income-tax-professionals-and-chartered-accountants",
+      "regex": "^/taxation/personal\\-income\\-tax\\-professionals\\-and\\-chartered\\-accountants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/personal\\-income\\-tax\\-professionals\\-and\\-chartered\\-accountants(?:/)?$"
+    },
+    {
+      "page": "/taxation/vat-accountants",
+      "regex": "^/taxation/vat\\-accountants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/vat\\-accountants(?:/)?$"
+    },
+    {
+      "page": "/taxation/worldwide-disclosure-facility",
+      "regex": "^/taxation/worldwide\\-disclosure\\-facility(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/worldwide\\-disclosure\\-facility(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

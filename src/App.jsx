@@ -53,6 +53,7 @@ import SingleBlog from './react-pages/SingleBlog';
 import MainLayout from '@/src/components/Layout/MainLayout';
 import DynamicWpPage from './react-pages/DynamicWpPage';
 import { useLocation } from 'react-router-dom';
+import IDVerificationModal from '@/src/components/IDVerificationModal';
 
 const SPECIAL_WORDS = {
   'ir35': 'IR35',
@@ -178,6 +179,7 @@ function App() {
         {/* Catch-all for imported WordPress Pages */}
         <Route path="*" element={<MainLayout><DynamicWpPage /></MainLayout>} />
       </Routes>
+      <IDVerificationModal />
     </Router>
   );
 }

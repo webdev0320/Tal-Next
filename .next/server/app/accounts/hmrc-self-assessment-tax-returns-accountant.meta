@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/accounts/layout,_N_T_/accounts/hmrc-self-assessment-tax-returns-accountant/layout,_N_T_/accounts/hmrc-self-assessment-tax-returns-accountant/page,_N_T_/accounts/hmrc-self-assessment-tax-returns-accountant"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/accounts/hmrc-self-assessment-tax-returns-accountant/__PAGE__",
+    "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "/accounts",
+    "/_index",
+    "/_head"
+  ]
+}

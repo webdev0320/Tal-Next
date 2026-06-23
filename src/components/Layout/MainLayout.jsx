@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import IDVerificationModal from '@/src/components/IDVerificationModal';
 
 export default function MainLayout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -125,6 +126,9 @@ export default function MainLayout({ children }) {
           </div>
         </div>
       </footer>
+
+      {/* Global ID Verification Floating Button + Modal */}
+      <IDVerificationModal />
     </div>
   );
 }

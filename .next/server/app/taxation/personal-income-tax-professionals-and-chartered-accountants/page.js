@@ -1,0 +1,13 @@
+var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/taxation/personal-income-tax-professionals-and-chartered-accountants/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1oj223q._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1ixn_u4.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0bg7xqn._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0100oqz._.js")
+R.c("server/chunks/ssr/src_app_layout_tsx_0r5yz5t._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_0wpq8j3._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_0symwr9.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_0-o-goa.js")
+R.c("server/chunks/ssr/0w-3_personal-income-tax-professionals-and-chartered-accountants_page_actions_049c4o5.js")
+R.m(23123)
+module.exports=R.m(23123).exports

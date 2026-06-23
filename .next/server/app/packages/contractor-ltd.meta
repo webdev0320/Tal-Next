@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/packages/layout,_N_T_/packages/contractor-ltd/layout,_N_T_/packages/contractor-ltd/page,_N_T_/packages/contractor-ltd"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/packages/contractor-ltd/__PAGE__",
+    "/packages/contractor-ltd",
+    "/packages",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import '../index.css';
 import '../../css/styles.css';
-
 export const metadata: Metadata = {
   title: 'Taxaccolega',
   description: 'Chartered Accountants & Tax Advisors',

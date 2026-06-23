@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/packages/layout,_N_T_/packages/spvs-ltd-pricing/layout,_N_T_/packages/spvs-ltd-pricing/page,_N_T_/packages/spvs-ltd-pricing"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/packages/spvs-ltd-pricing/__PAGE__",
+    "/packages/spvs-ltd-pricing",
+    "/packages",
+    "/_index",
+    "/_head"
+  ]
+}

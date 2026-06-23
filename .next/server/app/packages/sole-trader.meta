@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/packages/layout,_N_T_/packages/sole-trader/layout,_N_T_/packages/sole-trader/page,_N_T_/packages/sole-trader"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/packages/sole-trader/__PAGE__",
+    "/packages/sole-trader",
+    "/packages",
+    "/_index",
+    "/_head"
+  ]
+}

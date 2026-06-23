@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/accounts/layout,_N_T_/accounts/auto-enrolment-pension-contributions/layout,_N_T_/accounts/auto-enrolment-pension-contributions/page,_N_T_/accounts/auto-enrolment-pension-contributions"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/accounts/auto-enrolment-pension-contributions/__PAGE__",
+    "/accounts/auto-enrolment-pension-contributions",
+    "/accounts",
+    "/_index",
+    "/_head"
+  ]
+}
