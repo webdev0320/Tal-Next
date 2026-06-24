@@ -270,34 +270,14 @@ const IndustryPage = ({ pageData }) => {
         </div>
       </section>
 
-      {pageData.contentHtml ? (
-        <>
-          <section className="py-5 bg-white">
-            <div className="container py-3">
-              <div className="row justify-content-center">
-                <div className="col-lg-10">
-                  <div
-                    className="wp-content-wrapper"
-                    dangerouslySetInnerHTML={{ __html: pageData.contentHtml }}
-                  />
-                </div>
-              </div>
-            </div>
-          </section>
-          <IndustryLinksBar />
-        </>
-      ) : (
-        <>
-          {pageData.sections.map((section, index) => (
-            <div key={`${section.title}-${index}`}>
-              <SectionBlock section={section} index={index} />
-              {index === 0 && <IndustryLinksBar />}
-            </div>
-          ))}
+      {pageData.sections.map((section, index) => (
+        <div key={`${section.title}-${index}`}>
+          <SectionBlock section={section} index={index} />
+          {index === 0 && <IndustryLinksBar />}
+        </div>
+      ))}
 
-          {pageData.sections.length === 0 && <IndustryLinksBar />}
-        </>
-      )}
+      {pageData.sections.length === 0 && <IndustryLinksBar />}
 
       <section className="py-5 bg-white">
         <div className="container">

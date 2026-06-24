@@ -31,14 +31,6 @@
       "namedRegex": "^/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
     },
     {
-      "page": "/industries/[slug]",
-      "regex": "^/industries/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPslug": "nxtPslug"
-      },
-      "namedRegex": "^/industries/(?<nxtPslug>[^/]+?)(?:/)?$"
-    },
-    {
       "page": "/packages/[slug]",
       "regex": "^/packages/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -213,6 +205,96 @@
       "regex": "^/employment\\-agreement(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/employment\\-agreement(?:/)?$"
+    },
+    {
+      "page": "/industries/automobile",
+      "regex": "^/industries/automobile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/automobile(?:/)?$"
+    },
+    {
+      "page": "/industries/charities",
+      "regex": "^/industries/charities(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/charities(?:/)?$"
+    },
+    {
+      "page": "/industries/charity",
+      "regex": "^/industries/charity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/charity(?:/)?$"
+    },
+    {
+      "page": "/industries/construction",
+      "regex": "^/industries/construction(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/construction(?:/)?$"
+    },
+    {
+      "page": "/industries/ecommerce",
+      "regex": "^/industries/ecommerce(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/ecommerce(?:/)?$"
+    },
+    {
+      "page": "/industries/expatriates",
+      "regex": "^/industries/expatriates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/expatriates(?:/)?$"
+    },
+    {
+      "page": "/industries/healthcare-professionals",
+      "regex": "^/industries/healthcare\\-professionals(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/healthcare\\-professionals(?:/)?$"
+    },
+    {
+      "page": "/industries/hospitality",
+      "regex": "^/industries/hospitality(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/hospitality(?:/)?$"
+    },
+    {
+      "page": "/industries/it-professionals",
+      "regex": "^/industries/it\\-professionals(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/it\\-professionals(?:/)?$"
+    },
+    {
+      "page": "/industries/leisure-industry",
+      "regex": "^/industries/leisure\\-industry(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/leisure\\-industry(?:/)?$"
+    },
+    {
+      "page": "/industries/logistics",
+      "regex": "^/industries/logistics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/logistics(?:/)?$"
+    },
+    {
+      "page": "/industries/non-uk-resident-taxation",
+      "regex": "^/industries/non\\-uk\\-resident\\-taxation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/non\\-uk\\-resident\\-taxation(?:/)?$"
+    },
+    {
+      "page": "/industries/real-estate",
+      "regex": "^/industries/real\\-estate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/real\\-estate(?:/)?$"
+    },
+    {
+      "page": "/industries/restaurants",
+      "regex": "^/industries/restaurants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/restaurants(?:/)?$"
+    },
+    {
+      "page": "/industries/wholesellers-retailers",
+      "regex": "^/industries/wholesellers\\-retailers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/wholesellers\\-retailers(?:/)?$"
     },
     {
       "page": "/legal",
