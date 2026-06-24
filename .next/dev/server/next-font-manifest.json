@@ -1,6 +1,15 @@
 {
-  "app": {},
-  "appUsingSizeAdjust": false,
+  "app": {
+    "[project]/test/src/app/[...slug]/page": [],
+    "[project]/test/src/app/accounts/self-assessment/page": [],
+    "[project]/test/src/app/blog/[slug]/page": [],
+    "[project]/test/src/app/blog/page": [],
+    "[project]/test/src/app/industries/[slug]/page": [],
+    "[project]/test/src/app/legal/page": [],
+    "[project]/test/src/app/page": [],
+    "[project]/test/src/app/taxation/company-tax-return-accountants/page": []
+  },
+  "appUsingSizeAdjust": true,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }

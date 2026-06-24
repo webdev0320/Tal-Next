@@ -1,6 +1,8 @@
 {
   "pages": {},
-  "app": {},
-  "appUsingSizeAdjust": false,
+  "app": {
+    "[project]/test/src/app/packages/spvs-ltd/page": []
+  },
+  "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false
 }

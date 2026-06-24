@@ -1,0 +1,55 @@
+/* Tailwind v4 — skip preflight to avoid conflicts with Bootstrap CDN */
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+
+/* ─── System-wide brand buttons ─── */
+.btn-brand,
+a.btn-brand,
+button.btn-brand {
+  background-color: #d2601a !important;
+  color: #ffffff !important;
+  border: none !important;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-brand:hover,
+.btn-brand:focus,
+.btn-brand:focus-visible,
+a.btn-brand:hover,
+a.btn-brand:focus,
+button.btn-brand:hover,
+button.btn-brand:focus {
+  background-color: #243d45 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  box-shadow: none;
+}
+
+.accounts-link-pill,
+.taxation-link-pill {
+  text-decoration: none !important;
+}
+
+.accounts-link-pill:hover,
+.taxation-link-pill:hover {
+  text-decoration: none !important;
+}
+
+/* ─── Brand Design Tokens ─── */
+/* In Tailwind v4, @theme variables generate utility classes automatically:
+   --color-brand-dark  →  bg-brand-dark, text-brand-dark, border-brand-dark, etc.
+   --font-inter        →  font-inter
+*/
+@theme {
+  /* Colors */
+  --color-brand-dark:         #1d3c45;
+  --color-brand-darker:       #11252b;
+  --color-brand-orange:       #d2601a;
+  --color-brand-orange-light: #e8a274;
+  --color-brand-orange-dark:  #b8500e;
+
+  /* Font families — must use --font-* (NOT --font-family-*) for font-{name} utility */
+  --font-inter:   'Inter', sans-serif;
+  --font-outfit:  'Outfit', sans-serif;
+}

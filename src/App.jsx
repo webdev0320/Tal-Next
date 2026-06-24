@@ -1,111 +1,63 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './react-pages/Home';
-import AboutUs from './react-pages/AboutUs';
-import Blog from './react-pages/Blog';
-import ContactUs from './react-pages/ContactUs';
-import SwitchAccountant from './react-pages/SwitchAccountant';
-import ReferAndEarn from './react-pages/ReferAndEarn';
-import Awards from './react-pages/Awards';
-import ScheduleCall from './react-pages/ScheduleCall';
-import Taxation from './react-pages/Taxation';
-import Accounts from './react-pages/Accounts';
-import Legal from './react-pages/Legal';
-import CompanyFormation from './react-pages/CompanyFormation';
-import RegisteredAddress from './react-pages/RegisteredAddress';
-import CompanySecretarial from './react-pages/CompanySecretarial';
-import EmploymentAgreement from './react-pages/EmploymentAgreement';
-import ShareTransfer from './react-pages/ShareTransfer';
-import Software from './react-pages/Software';
-import Banks from './react-pages/Banks';
-import BookkeepingServices from './react-pages/BookkeepingServices';
-import PayrollServices from './react-pages/PayrollServices';
-import SelfAssessment from './react-pages/SelfAssessment';
-import Pensions from './react-pages/Pensions';
-import FinancialForecasting from './react-pages/FinancialForecasting';
-import IndustryPage from './react-pages/IndustryPage';
-import PackagePage from './react-pages/PackagePage';
-import TaxationSubPage from './react-pages/TaxationSubPage';
+// react-router-dom removed;
+import Home from './Home';
+import AboutUs from './views/AboutUs';
+import Blog from './views/Blog';
+import ContactUs from './views/ContactUs';
+import SwitchAccountant from './views/SwitchAccountant';
+import ReferAndEarn from './views/ReferAndEarn';
+import Awards from './views/Awards';
+import ScheduleCall from './views/ScheduleCall';
+import Taxation from './views/Taxation';
+import Accounts from './views/Accounts';
+import Legal from './views/Legal';
+import CompanyFormation from './views/CompanyFormation';
+import RegisteredAddress from './views/RegisteredAddress';
+import CompanySecretarial from './views/CompanySecretarial';
+import EmploymentAgreement from './views/EmploymentAgreement';
+import ShareTransfer from './views/ShareTransfer';
+import Software from './views/Software';
+import Banks from './views/Banks';
+import BookkeepingServices from './views/BookkeepingServices';
+import PayrollServices from './views/PayrollServices';
+import SelfAssessment from './views/SelfAssessment';
+import Pensions from './views/Pensions';
+import FinancialForecasting from './views/FinancialForecasting';
+import IndustryPage from './views/IndustryPage';
+import PackagePage from './views/PackagePage';
+import TaxationSubPage from './views/TaxationSubPage';
 
 // New Imports
-import AnnualAccounts from './react-pages/AnnualAccounts';
-import StatutoryAccounts from './react-pages/StatutoryAccounts';
-import ManagementAccounts from './react-pages/ManagementAccounts';
-import CashFlowForecasting from './react-pages/CashFlowForecasting';
-import SoleTraderPackage from './react-pages/SoleTraderPackage';
-import LtdCompanyPackage from './react-pages/LtdCompanyPackage';
-import ContractorLtdPackage from './react-pages/ContractorLtdPackage';
-import LandlordsPackage from './react-pages/LandlordsPackage';
-import SpvsLtdPackage from './react-pages/SpvsLtdPackage';
-import CharitiesPackage from './react-pages/CharitiesPackage';
-import ReferAFriend from './react-pages/ReferAFriend';
-import PrivacyPolicy from './react-pages/PrivacyPolicy';
-import CompanyTaxReturn from './react-pages/CompanyTaxReturn';
-import VatAccountants from './react-pages/VatAccountants';
-import InheritanceTaxPlanning from './react-pages/InheritanceTaxPlanning';
-import EmiSchemesPage from './react-pages/EmiSchemes';
-import LetPropertyCampaign from './react-pages/LetPropertyCampaign';
-import WorldwideDisclosureFacility from './react-pages/WorldwideDisclosureFacility';
-import CryptocurrencyTax from './react-pages/CryptocurrencyTax';
-import PersonalIncomeTax from './react-pages/PersonalIncomeTax';
-import ConsolidatedAccounts from './react-pages/ConsolidatedAccounts';
-import SingleBlog from './react-pages/SingleBlog';
-import MainLayout from '@/src/components/Layout/MainLayout';
-import DynamicWpPage from './react-pages/DynamicWpPage';
-import { useLocation } from 'react-router-dom';
-import IDVerificationModal from '@/src/components/IDVerificationModal';
-
-const SPECIAL_WORDS = {
-  'ir35': 'IR35',
-  'vat': 'VAT',
-  'ltd': 'Ltd',
-  'spvs': 'SPVs',
-  'emi': 'EMI',
-  'hmrc': 'HMRC',
-  'saas': 'SaaS',
-};
-
-function humanize(segment) {
-  return segment
-    .split('-')
-    .map(word => {
-      const lower = word.toLowerCase();
-      if (SPECIAL_WORDS[lower]) {
-        return SPECIAL_WORDS[lower];
-      }
-      return word.charAt(0).toUpperCase() + word.slice(1);
-    })
-    .join(' ');
-}
-
-function TitleUpdater() {
-  const location = useLocation();
-
-  React.useEffect(() => {
-    const path = location.pathname;
-    let title = 'Taxaccolega';
-
-    if (path && path !== '/') {
-      const segments = path.split('/').filter(Boolean);
-      if (segments.length > 0) {
-        const lastSegment = segments[segments.length - 1];
-        const formattedSegment = humanize(lastSegment);
-        title = `${formattedSegment} | Taxaccolega`;
-      }
-    } else {
-      title = 'Taxaccolega | Chartered Accountants & Tax Advisors';
-    }
-
-    document.title = title;
-  }, [location]);
-
-  return null;
-}
+import AnnualAccounts from './views/AnnualAccounts';
+import StatutoryAccounts from './views/StatutoryAccounts';
+import ManagementAccounts from './views/ManagementAccounts';
+import CashFlowForecasting from './views/CashFlowForecasting';
+import SoleTraderPackage from './views/SoleTraderPackage';
+import LtdCompanyPackage from './views/LtdCompanyPackage';
+import ContractorLtdPackage from './views/ContractorLtdPackage';
+import LandlordsPackage from './views/LandlordsPackage';
+import SpvsLtdPackage from './views/SpvsLtdPackage';
+import CharitiesPackage from './views/CharitiesPackage';
+import ReferAFriend from './views/ReferAFriend';
+import PrivacyPolicy from './views/PrivacyPolicy';
+import CompanyTaxReturn from './views/CompanyTaxReturn';
+import VatAccountants from './views/VatAccountants';
+import InheritanceTaxPlanning from './views/InheritanceTaxPlanning';
+import EmiSchemesPage from './views/EmiSchemes';
+import LetPropertyCampaign from './views/LetPropertyCampaign';
+import WorldwideDisclosureFacility from './views/WorldwideDisclosureFacility';
+import CryptocurrencyTax from './views/CryptocurrencyTax';
+import PersonalIncomeTax from './views/PersonalIncomeTax';
+import ConsolidatedAccounts from './views/ConsolidatedAccounts';
+import SingleBlog from './views/SingleBlog';
+import MainLayout from './components/Layout/MainLayout';
+import DynamicWpPage from './views/DynamicWpPage';
+import IDVerificationModal from './components/IDVerificationModal';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      <TitleUpdater />
       <Routes>
         <Route path="/" element={<MainLayout><Home /></MainLayout>} />
         <Route path="/about-us" element={<MainLayout><AboutUs /></MainLayout>} />

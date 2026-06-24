@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useCallback, useRef } from "react";
-import countries from "@/src/data/countries";
+import countries from "../data/countries";
 import "./IDVerificationModal.css";
 
 const TOTAL_STEPS = 7; // 0-6

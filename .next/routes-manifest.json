@@ -107,6 +107,12 @@
       "namedRegex": "^/accounts/auto\\-enrolment\\-pension\\-contributions(?:/)?$"
     },
     {
+      "page": "/accounts/bookkeeping",
+      "regex": "^/accounts/bookkeeping(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/bookkeeping(?:/)?$"
+    },
+    {
       "page": "/accounts/bookkeeping-services",
       "regex": "^/accounts/bookkeeping\\-services(?:/)?$",
       "routeKeys": {},
@@ -149,10 +155,22 @@
       "namedRegex": "^/accounts/payroll\\-services(?:/)?$"
     },
     {
+      "page": "/accounts/self-assessment",
+      "regex": "^/accounts/self\\-assessment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/self\\-assessment(?:/)?$"
+    },
+    {
       "page": "/accounts/statutory-accounts",
       "regex": "^/accounts/statutory\\-accounts(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/accounts/statutory\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/api/contact",
+      "regex": "^/api/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/contact(?:/)?$"
     },
     {
       "page": "/awards-accolades-accreditations",
@@ -171,12 +189,6 @@
       "regex": "^/blog(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/blog(?:/)?$"
-    },
-    {
-      "page": "/charities",
-      "regex": "^/charities(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/charities(?:/)?$"
     },
     {
       "page": "/company-formation",
@@ -303,6 +315,12 @@
       "regex": "^/registered\\-address(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/registered\\-address(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
     },
     {
       "page": "/schedule-a-phone-call-or-video-meeting",

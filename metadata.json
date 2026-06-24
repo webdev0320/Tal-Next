@@ -1,6 +1,0 @@
-{
-  "name": "TAL React Next.js Migration",
-  "description": "Vite-based TAL React application successfully migrated and prepared inside Next.js App Router workspace.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
