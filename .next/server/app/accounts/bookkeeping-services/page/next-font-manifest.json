@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/accounts/bookkeeping-services/page": []
+    "[project]/src/app/accounts/bookkeeping-services/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

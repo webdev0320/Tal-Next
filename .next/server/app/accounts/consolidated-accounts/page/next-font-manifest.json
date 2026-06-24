@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/accounts/consolidated-accounts/page": []
+    "[project]/src/app/accounts/consolidated-accounts/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

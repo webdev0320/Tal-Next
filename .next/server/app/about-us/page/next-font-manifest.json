@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/about-us/page": []
+    "[project]/src/app/about-us/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

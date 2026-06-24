@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/accounts/financial-forecasting/page": []
+    "[project]/src/app/accounts/financial-forecasting/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

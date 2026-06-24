@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/share-transfer/page": []
+    "[project]/src/app/share-transfer/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

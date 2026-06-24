@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/taxation/cryptocurrency/page": []
+    "[project]/src/app/taxation/cryptocurrency/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

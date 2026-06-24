@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/packages/ltd-company-pricing/page": []
+    "[project]/src/app/packages/ltd-company-pricing/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

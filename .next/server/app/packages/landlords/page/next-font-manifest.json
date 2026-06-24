@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/packages/landlords/page": []
+    "[project]/src/app/packages/landlords/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

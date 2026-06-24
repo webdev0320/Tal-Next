@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/packages/charities-pricing/page": []
+    "[project]/src/app/packages/charities-pricing/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

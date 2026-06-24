@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/taxation/inheritance-tax-planning/page": []
+    "[project]/src/app/taxation/inheritance-tax-planning/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/accounts/payroll-services/page": []
+    "[project]/src/app/accounts/payroll-services/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

@@ -104,7 +104,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\projects\\Tal-Next",
+    "outputFileTracingRoot": "D:\\projects\\Tal-Next-Project",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -305,12 +305,12 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "D:\\projects\\Tal-Next"
+      "root": "D:\\projects\\Tal-Next-Project"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "D:\\projects\\Tal-Next\\test",
-  "relativeAppDir": "test",
+  "appDir": "D:\\projects\\Tal-Next-Project",
+  "relativeAppDir": "",
   "files": [
     ".next\\package.json",
     ".next\\routes-manifest.json",

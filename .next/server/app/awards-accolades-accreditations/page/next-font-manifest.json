@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/awards-accolades-accreditations/page": []
+    "[project]/src/app/awards-accolades-accreditations/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

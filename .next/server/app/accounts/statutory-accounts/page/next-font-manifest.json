@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/accounts/statutory-accounts/page": []
+    "[project]/src/app/accounts/statutory-accounts/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/packages/spvs-ltd-pricing/page": []
+    "[project]/src/app/packages/spvs-ltd-pricing/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

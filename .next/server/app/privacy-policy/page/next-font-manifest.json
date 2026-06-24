@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/privacy-policy/page": []
+    "[project]/src/app/privacy-policy/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

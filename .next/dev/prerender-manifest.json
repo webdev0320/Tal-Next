@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/industries/automobile":{},"/industries/charities":{},"/industries/charity":{},"/industries/construction":{},"/industries/ecommerce":{},"/industries/expatriates":{},"/industries/healthcare-professionals":{},"/industries/hospitality":{},"/industries/it-professionals":{},"/industries/leisure-industry":{},"/industries/logistics":{},"/industries/non-uk-resident-taxation":{},"/industries/real-estate":{},"/industries/restaurants":{},"/industries/wholesellers-retailers":{}},"dynamicRoutes":{"/industries/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/industries/[slug]","routeRegex":"^\\/industries\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"deb78fe19431417c54b0d35f259a1c03","previewModeSigningKey":"788806d88842ff6d8102c9a33d55eacc9865533b2306a48846bd7e566311068d","previewModeEncryptionKey":"b28eabe101b7c81d128fe867a88b791d7fcb1805a3c528af5456996686944f28"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "5f7f65e13276fb69379cbfee0f110626",
+    "previewModeSigningKey": "7d88c912fbd510e58842da8f43b2345f7cd7a6c353b207b96fd816a6fc443442",
+    "previewModeEncryptionKey": "1e9280e5b3554ad144002392565dcd68e120fe512830cd9d69edf1ed275c0fb4"
+  }
+}

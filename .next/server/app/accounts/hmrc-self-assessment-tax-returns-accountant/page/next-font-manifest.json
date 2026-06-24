@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/accounts/hmrc-self-assessment-tax-returns-accountant/page": []
+    "[project]/src/app/accounts/hmrc-self-assessment-tax-returns-accountant/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

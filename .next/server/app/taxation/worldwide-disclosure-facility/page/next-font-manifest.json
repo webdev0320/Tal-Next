@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/taxation/worldwide-disclosure-facility/page": []
+    "[project]/src/app/taxation/worldwide-disclosure-facility/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

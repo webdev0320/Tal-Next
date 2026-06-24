@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/taxation/let-property-campaign/page": []
+    "[project]/src/app/taxation/let-property-campaign/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

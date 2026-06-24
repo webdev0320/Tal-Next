@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/company-formation/page": []
+    "[project]/src/app/company-formation/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

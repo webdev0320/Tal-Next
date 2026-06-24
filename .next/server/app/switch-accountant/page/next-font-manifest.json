@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/switch-accountant/page": []
+    "[project]/src/app/switch-accountant/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/packages/sole-trader-pricing/page": []
+    "[project]/src/app/packages/sole-trader-pricing/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false

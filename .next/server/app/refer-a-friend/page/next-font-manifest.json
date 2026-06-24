@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/test/src/app/refer-a-friend/page": []
+    "[project]/src/app/refer-a-friend/page": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false
