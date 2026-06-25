@@ -2,7 +2,7 @@ const page = {
   "slug": "wholesellers-retailers",
   "title": "Wholesellers & Retailers",
   "subtitle": "Wholesellers & Retailers",
-  "heroImage": "/images/2023/10/thumbnail_1536x1536.webp",
+  "heroImage": "/images/2023/10/shutterstock_1237494658.jpg",
   "path": "/industries/wholesellers-retailers",
   "quickNav": [
     {

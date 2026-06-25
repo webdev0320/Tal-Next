@@ -2,7 +2,7 @@ const page = {
   "slug": "construction",
   "title": "Construction",
   "subtitle": "Construction Industry",
-  "heroImage": "/images/2023/10/Vin-vesti-proaste-pentru-romanii-care-vor-sa-si-cumpere-apartament-la-bloc-2-1024x539.jpg",
+  "heroImage": "/images/2023/10/Commercial-Construction-Industry-Management-vs.-General-Contractors.jpg",
   "path": "/industries/construction",
   "quickNav": [
     {

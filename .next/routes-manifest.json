@@ -47,6 +47,22 @@
       "namedRegex": "^/taxation/(?<nxtPslug>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/wp-content/[...path]",
+      "regex": "^/wp\\-content/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPpath": "nxtPpath"
+      },
+      "namedRegex": "^/wp\\-content/(?<nxtPpath>.+?)(?:/)?$"
+    },
+    {
+      "page": "/wp-data/[...path]",
+      "regex": "^/wp\\-data/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPpath": "nxtPpath"
+      },
+      "namedRegex": "^/wp\\-data/(?<nxtPpath>.+?)(?:/)?$"
+    },
+    {
       "page": "/[...slug]",
       "regex": "^/(.+?)(?:/)?$",
       "routeKeys": {

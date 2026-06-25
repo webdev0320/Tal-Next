@@ -2,7 +2,7 @@ const page = {
   "slug": "healthcare-professionals",
   "title": "Healthcare Professionals",
   "subtitle": "Medical & Healthcare Professionals",
-  "heroImage": "/images/2023/10/primarycarenow-november17-cme1-hot-topics.webp",
+  "heroImage": "/images/2023/10/Medicine-in-Italy-6-arianaapply.com_-1.png",
   "path": "/industries/healthcare-professionals",
   "quickNav": [
     {

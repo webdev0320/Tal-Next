@@ -1,9 +1,0 @@
-{
-  "[project]/test/node_modules/react-calendly/dist/index.es.js [app-client] (ecmascript, next/dynamic entry)": {
-    "id": "[project]/test/node_modules/react-calendly/dist/index.es.js [app-client] (ecmascript, next/dynamic entry)",
-    "files": [
-      "static/chunks/1dcy_react-calendly_dist_index_es_1bx2_8k.js",
-      "static/chunks/1dcy_react-calendly_dist_index_es_1u7n388.js"
-    ]
-  }
-}

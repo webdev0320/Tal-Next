@@ -2,7 +2,7 @@ const page = {
   "slug": "real-estate",
   "title": "Real Estate",
   "subtitle": "Property & Real estate",
-  "heroImage": "/images/2023/10/XXL-2.webp",
+  "heroImage": "/images/2023/10/sP-aAWZ-VkpcfzEswIOyQV4ARU0fUnZMPAhA6N8nqyD7pLmdiHnLfgvMZoZbmitupA8pQtKCbV1IXYx7GmXdDWIo.jpg",
   "path": "/industries/real-estate",
   "quickNav": [
     {

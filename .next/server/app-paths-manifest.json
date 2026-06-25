@@ -73,5 +73,7 @@
   "/taxation/page": "app/taxation/page.js",
   "/taxation/personal-income-tax-professionals-and-chartered-accountants/page": "app/taxation/personal-income-tax-professionals-and-chartered-accountants/page.js",
   "/taxation/vat-accountants/page": "app/taxation/vat-accountants/page.js",
-  "/taxation/worldwide-disclosure-facility/page": "app/taxation/worldwide-disclosure-facility/page.js"
+  "/taxation/worldwide-disclosure-facility/page": "app/taxation/worldwide-disclosure-facility/page.js",
+  "/wp-content/[...path]/route": "app/wp-content/[...path]/route.js",
+  "/wp-data/[...path]/route": "app/wp-data/[...path]/route.js"
 }

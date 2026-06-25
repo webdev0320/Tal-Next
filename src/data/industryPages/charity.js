@@ -2,7 +2,7 @@ const page = {
   "slug": "charity",
   "title": "Charity",
   "subtitle": "We empower startups for success.",
-  "heroImage": "/images/2023/10/24393325c4f05ffe8a393133fe0e99a8.jpg",
+  "heroImage": "/images/2023/10/Transporte-terrestre-local-xl2.jpg",
   "path": "/industries/charity",
   "quickNav": [
     {

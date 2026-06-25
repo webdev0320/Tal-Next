@@ -2,7 +2,7 @@ const page = {
   "slug": "restaurants",
   "title": "Restaurants",
   "subtitle": "Restaurants & Hotels",
-  "heroImage": "/images/2023/10/the-santa-maria-luxury-collection-hotel-aqva-pool-bar-513401.webp",
+  "heroImage": "/images/2023/10/cipriani.jpg",
   "path": "/industries/restaurants",
   "quickNav": [
     {

@@ -2,7 +2,7 @@ const page = {
   "slug": "expatriates",
   "title": "Expatriates",
   "subtitle": "We empower startups for success.",
-  "heroImage": "/images/2023/10/0201f13455884339eef687e7c07fec40.webp",
+  "heroImage": "/images/2023/10/UAE_Main.jpg",
   "path": "/industries/expatriates",
   "quickNav": [
     {

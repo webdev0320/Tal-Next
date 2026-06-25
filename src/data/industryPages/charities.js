@@ -2,7 +2,7 @@ const page = {
   "slug": "charities",
   "title": "Charities",
   "subtitle": "Empowering Your Mission, Managing Your Finances.",
-  "heroImage": "/images/2023/08/Untitled-design-6.png",
+  "heroImage": "/images/2023/08/group-of-volunteers-with-working-in-community-char-2023-04-06-17-25-40-utc-scaled.jpg",
   "path": "/industries/charities",
   "quickNav": [
     {

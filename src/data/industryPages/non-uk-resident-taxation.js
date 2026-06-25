@@ -2,7 +2,7 @@ const page = {
   "slug": "non-uk-resident-taxation",
   "title": "Non-UK Resident Taxation​",
   "subtitle": "Non-UK Resident taxation",
-  "heroImage": "/images/2023/10/13650326454_c2474b5750_b.jpg",
+  "heroImage": "/images/2023/10/Sprachaufenthalte-sind-enorm-wichtig-fuer-die-Persoenlichkeitsentwicklung-shutterstock_248267557.jpg",
   "path": "/industries/non-uk-resident-taxation",
   "quickNav": [
     {

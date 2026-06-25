@@ -2,8 +2,22 @@ const page = {
   "slug": "it-professionals",
   "title": "IT Professionals",
   "subtitle": "IT professionals & contractors",
-  "heroImage": "",
+  "heroImage": "/images/2023/10/gettyimages-921019710.jpg",
   "path": "/industries/it-professionals",
+  "sectionImages": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
   "quickNav": [
     {
       "title": "Real Estate",
@@ -49,7 +63,10 @@ const page = {
         "The businesses that usually struggle are not necessarily the ones losing money. Often, they are growing quickly without structured financial control underneath the growth."
       ],
       "bullets": [],
-      "image": null,
+      "image": {
+        "src": "/images/2023/10/g-23-1.jpg",
+        "alt": "Accountants for IT Professionals, Contractors & Technology Companies"
+      },
       "cta": {
         "text": "Contact us",
         "href": "/contact-us"
@@ -73,7 +90,10 @@ const page = {
         "directors work remotely",
         "investment discussions begin"
       ],
-      "image": null,
+      "image": {
+        "src": "/images/2023/10/iStock-1194430821.jpg",
+        "alt": "Why Financial Visibility Changes for IT Professionals"
+      },
       "cta": {
         "text": "Contact Us",
         "href": "/contact-us"
@@ -132,7 +152,10 @@ const page = {
         "overseas disclosures become necessary",
         "personal and corporate tax positions start conflicting"
       ],
-      "image": null,
+      "image": {
+        "src": "/images/2024/11/view-messy-office-workspace-with-tablet-device-scaled.webp",
+        "alt": "Technology Businesses and International Tax Exposure"
+      },
       "cta": {
         "text": "Contact Us",
         "href": "/contact-us"
@@ -174,7 +197,10 @@ const page = {
         "By the time directors realise the structure no longer reflects operational reality properly, several accounting periods may already have been affected."
       ],
       "bullets": [],
-      "image": null,
+      "image": {
+        "src": "/images/2024/11/view-messy-office-workspace-with-tablet-device-scaled.webp",
+        "alt": "Why Technology Businesses Often Outgrow Their Financial Structure Quietly"
+      },
       "cta": {
         "text": "Contact Us",
         "href": "/contact-us"
@@ -226,7 +252,10 @@ const page = {
         "split operational functions",
         "establish holding structures before investment"
       ],
-      "image": null,
+      "image": {
+        "src": "/images/2024/11/view-messy-office-workspace-with-tablet-device-scaled.webp",
+        "alt": "Consolidated Reporting Becomes Necessary Faster Than Expected"
+      },
       "cta": {
         "text": "Contact Us",
         "href": "/contact-us"
@@ -249,7 +278,10 @@ const page = {
         "pension contribution planning",
         "self assessment complexity"
       ],
-      "image": null,
+      "image": {
+        "src": "/images/2023/10/iStock-1194430821.jpg",
+        "alt": "Technology Contractors and Personal Tax Exposure"
+      },
       "cta": {
         "text": "Contact Us",
         "href": "/contact-us"
@@ -273,7 +305,10 @@ const page = {
         "tax liabilities become reactive rather than planned",
         "ownership structures start changing"
       ],
-      "image": null,
+      "image": {
+        "src": "/images/2026/05/Services-Accounts-Cash-Flow-Forecasting-Decision-Trigger-When-You-Should.webp",
+        "alt": "When IT Professionals Usually Need Financial Restructuring"
+      },
       "cta": {
         "text": "Contact Us",
         "href": "/contact-us"
@@ -290,7 +325,10 @@ const page = {
         "Because the commercial consequences become harder to reverse once complexity has already formed underneath the business."
       ],
       "bullets": [],
-      "image": null,
+      "image": {
+        "src": "/images/2026/05/Services-Accounts-Cash-Flow-Forecasting-Speak-to-Cashflow-Forecasting-Consultants.webp",
+        "alt": "Accountants for IT Professionals in London & Across the UK"
+      },
       "cta": {
         "text": "Contact Us",
         "href": "/contact-us"

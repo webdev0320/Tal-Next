@@ -2,7 +2,7 @@ const page = {
   "slug": "ecommerce",
   "title": "E-Commerce",
   "subtitle": "Top Rated Accountants for E-Commerce Enterprises",
-  "heroImage": "/images/2023/10/unnamed-1.jpg",
+  "heroImage": "/images/2023/10/e-Commerce-scaled-1.webp",
   "path": "/industries/ecommerce",
   "quickNav": [
     {
@@ -46,7 +46,7 @@ const page = {
       ],
       "bullets": [],
       "image": {
-        "src": "/images/2023/10/unnamed-1.jpg",
+        "src": "/images/2023/10/Which-eCommerce-Platform-is-the-Best-for-Small-Business.jpg",
         "alt": "How do we help ?"
       },
       "cta": {

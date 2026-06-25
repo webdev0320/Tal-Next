@@ -2,7 +2,7 @@ const page = {
   "slug": "hospitality",
   "title": "Hospitality",
   "subtitle": "We empower startups for success.",
-  "heroImage": "/images/2023/10/137640_1.webp",
+  "heroImage": "/images/2024/06/Hospitality.jpg",
   "path": "/industries/hospitality",
   "quickNav": [
     {

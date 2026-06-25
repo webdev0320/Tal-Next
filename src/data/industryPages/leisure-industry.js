@@ -2,7 +2,7 @@ const page = {
   "slug": "leisure-industry",
   "title": "Leisure Industry",
   "subtitle": "Leisure Industry",
-  "heroImage": "/images/2023/10/H400a2b7c5b2b4215af7e4839ef5d28d9f.jpg",
+  "heroImage": "/images/2023/10/page_bkgd4.jpg",
   "path": "/industries/leisure-industry",
   "quickNav": [
     {

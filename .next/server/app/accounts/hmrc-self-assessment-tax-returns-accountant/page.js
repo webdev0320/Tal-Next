@@ -9,5 +9,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_0-o-goa.js")
 R.c("server/chunks/ssr/1jng_app_accounts_hmrc-self-assessment-tax-returns-accountant_page_actions_179olpo.js")
-R.m(26592)
-module.exports=R.m(26592).exports
+R.m(726592)
+module.exports=R.m(726592).exports

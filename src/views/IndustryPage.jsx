@@ -42,13 +42,15 @@ const WHY_CHOOSE_ITEMS = [
   },
 ];
 
-const SectionBlock = ({ section, index }) => {
+const SectionBlock = ({ section, index, pageSectionImages, pageTitle }) => {
   const altBg = index % 2 === 1 ? 'bg-light border-top border-bottom border-light' : 'bg-white';
   const imageLeft = index % 2 === 1;
   const ctaHref = section.cta?.href?.startsWith('http') || section.cta?.href?.startsWith('tel:')
     ? section.cta.href
     : section.cta?.href || '/contact-us';
   const ctaIsExternal = ctaHref.startsWith('http') || ctaHref.startsWith('tel:');
+  const fallbackSectionImage = pageSectionImages?.[index];
+  const image = section.image || (fallbackSectionImage ? { src: fallbackSectionImage, alt: pageTitle } : null);
 
   const textColumn = (
     <>
@@ -87,11 +89,11 @@ const SectionBlock = ({ section, index }) => {
     </>
   );
 
-  const imageColumn = section.image ? (
+  const imageColumn = image ? (
     <div className="p-2 border rounded-4 shadow-lg bg-white">
       <img
-        src={section.image.src}
-        alt={section.image.alt}
+        src={image.src}
+        alt={image.alt}
         className="img-fluid rounded-3"
         style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
         loading="lazy"
@@ -102,7 +104,7 @@ const SectionBlock = ({ section, index }) => {
   return (
     <section className={`py-5 ${altBg}`}>
       <div className="container">
-        {section.image ? (
+        {image ? (
           <div className="row g-5 align-items-center">
             {imageLeft && (
               <div className="col-lg-5 order-2 order-lg-1">{imageColumn}</div>
@@ -135,6 +137,7 @@ const IndustryPage = ({ pageData }) => {
         backgroundPosition: 'center',
       }
     : { background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)' };
+  const pageSectionImages = pageData.sectionImages || [];
 
   return (
     <div className="bg-light min-h-screen">
@@ -272,7 +275,12 @@ const IndustryPage = ({ pageData }) => {
 
       {pageData.sections.map((section, index) => (
         <div key={`${section.title}-${index}`}>
-          <SectionBlock section={section} index={index} />
+          <SectionBlock
+            section={section}
+            index={index}
+            pageSectionImages={pageSectionImages}
+            pageTitle={pageData.title}
+          />
           {index === 0 && <IndustryLinksBar />}
         </div>
       ))}

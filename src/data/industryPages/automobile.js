@@ -2,7 +2,7 @@ const page = {
   "slug": "automobile",
   "title": "Automobile",
   "subtitle": "Driving Innovation in the Automobile Industry",
-  "heroImage": "/images/2023/10/gmRRGNDVCTUBJnSbgrqxTGNAJ_Y_1XZSuZ7HBIrHg5xhJPMrRG6Ec9j7Ca8fMxXaxCWH50_LbO0Gm0HicyhQ05Ts.jpg",
+  "heroImage": "/images/2023/10/commuterparking.jpg",
   "path": "/industries/automobile",
   "quickNav": [
     {
