@@ -1,4 +1,4 @@
 <IfModule mod_mime.c>
-    AddType text/javascript js
-    AddType text/javascript mjs
+    AddType text/javascript .js
+    AddType text/javascript .mjs
 </IfModule>
