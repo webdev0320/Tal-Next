@@ -30,7 +30,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Remote Server
-        uses: Burnett01/rsync-deployments@v7.0.1
+        uses: Burnett01/rsync-deployments@v9
         with:
           switches: -avzr --delete
           # This automatically determines if it's a static 'out' export or Next.js production build
