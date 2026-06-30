@@ -1,6 +1,6 @@
 import { readFileSync, existsSync } from 'fs';
 import path from 'path';
-import { createMetadata, stripHtml } from '../lib/seo.js';
+import { createMetadata, stripHtml } from './seo.js';
 import { industryPages } from '../data/industryPages/index.js';
 import { taxationSeo } from '../data/seo/taxationSeo.js';
 import { packagesSeo } from '../data/seo/packagesSeo.js';

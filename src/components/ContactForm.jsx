@@ -11,8 +11,6 @@ const initialFormData = {
 
 const ContactForm = ({ source = 'Website contact form' }) => {
   const [formData, setFormData] = useState(initialFormData);
-  const [status, setStatus] = useState('idle');
-  const [error, setError] = useState('');
 
   const handleChange = (event) => {
     setFormData((current) => ({
@@ -21,33 +19,11 @@ const ContactForm = ({ source = 'Website contact form' }) => {
     }));
   };
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
-    setStatus('submitting');
-    setError('');
-
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...formData, source }),
-      });
-
-      const result = await response.json().catch(() => ({}));
-
-      if (!response.ok) {
-        throw new Error(result.error || 'Unable to send your message right now.');
-      }
-
-      setFormData(initialFormData);
-      setStatus('success');
-    } catch (submitError) {
-      setError(submitError.message);
-      setStatus('error');
-    }
+    // Online form submission is currently unavailable.
+    // Please contact us directly via phone or email.
   };
-
-  const isSubmitting = status === 'submitting';
 
   return (
     <section id="contact-block" className="py-12 bg-white">
@@ -144,17 +120,11 @@ const ContactForm = ({ source = 'Website contact form' }) => {
                 Request a call back or drop details of your accounts enquiry.
               </p>
 
-              {status === 'success' && (
-                <div className="mb-4 rounded-xl border border-green-200 bg-green-50 p-4 text-sm text-green-800">
-                  Thank you. Your message has been sent and an expert advisor will reply shortly.
-                </div>
-              )}
-
-              {status === 'error' && (
-                <div className="mb-4 rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">
-                  {error}
-                </div>
-              )}
+              <div className="mb-4 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
+                <strong>Online form temporarily unavailable.</strong> Please contact us directly via{' '}
+                <a href="tel:02081270728" className="underline font-semibold">phone</a> or{' '}
+                <a href="mailto:info@taxaccolega.co.uk" className="underline font-semibold">email</a>.
+              </div>
 
               <form onSubmit={handleSubmit} className="flex flex-col flex-grow gap-4">
                 <div className="grid sm:grid-cols-2 gap-4">
@@ -213,10 +183,10 @@ const ContactForm = ({ source = 'Website contact form' }) => {
                 </div>
                 <button
                   type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-[#d2601a] text-white font-bold py-4 rounded-xl hover:bg-[#b85014] disabled:opacity-60 disabled:cursor-not-allowed transition-all mt-auto"
+                  disabled
+                  className="w-full bg-[#d2601a] text-white font-bold py-4 rounded-xl opacity-60 cursor-not-allowed transition-all mt-auto"
                 >
-                  {isSubmitting ? 'Sending...' : 'Send Message'}
+                  Send Message (Unavailable)
                 </button>
               </form>
             </div>

@@ -7,7 +7,6 @@ import AccountsLinksBar from './AccountsLinksBar';
 import ContactForm from './ContactForm';
 import Partners from './Partners';
 import ReviewsSlider from './ReviewsSlider';
-import '../views/wp-content.css';
 import './AccountsSubPage.css';
 
 const cleanBody = (html) => {

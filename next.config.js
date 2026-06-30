@@ -1,9 +1,11 @@
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  compress: false, // Disables Gzip/Brotli generation that triggers the MIME error
-  images: {
-    unoptimized: true, // Needed for standard public_html static hosting
-  }
+  output: 'export',
+  
+  // webpack config removed as it broke wp-content.js file imports
 };
 
 export default nextConfig;

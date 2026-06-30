@@ -11,7 +11,7 @@ self.__SERVER_FILES_MANIFEST={
     "cleanDistDir": true,
     "assetPrefix": "",
     "cacheMaxMemorySize": 52428800,
-    "configOrigin": "default",
+    "configOrigin": "next.config.js",
     "useFileSystemPublicRoutes": true,
     "generateEtags": true,
     "pageExtensions": [
@@ -96,6 +96,7 @@ self.__SERVER_FILES_MANIFEST={
     "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
+    "output": "export",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
@@ -220,7 +221,6 @@ self.__SERVER_FILES_MANIFEST={
       "turbopackFileSystemCacheForBuild": false,
       "turbopackInferModuleSideEffects": true,
       "turbopackPluginRuntimeStrategy": "childProcesses",
-      "middlewarePrefetch": "flexible",
       "optimizePackageImports": [
         "lucide-react",
         "date-fns",
@@ -320,6 +320,8 @@ self.__SERVER_FILES_MANIFEST={
     ".next\\server\\functions-config-manifest.json",
     ".next\\server\\middleware-manifest.json",
     ".next\\server\\middleware-build-manifest.js",
+    ".next\\server\\middleware-react-loadable-manifest.js",
+    ".next\\react-loadable-manifest.json",
     ".next\\server\\app-paths-manifest.json",
     ".next\\app-path-routes-manifest.json",
     ".next\\server\\server-reference-manifest.js",

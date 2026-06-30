@@ -7,7 +7,6 @@ import ReviewsSlider from '../components/ReviewsSlider';
 import ContactForm from '../components/ContactForm';
 import IndustryLinksBar from '../components/IndustryLinksBar';
 import { CheckIcon } from '../components/accounts/AccountsPageIcons';
-import './wp-content.css';
 
 const WHY_CHOOSE_ITEMS = [
   {

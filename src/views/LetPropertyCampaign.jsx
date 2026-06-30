@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Section from '../components/Layout/Section';
 import TaxationLinksBar from '../components/TaxationLinksBar';
 import ContactForm from '../components/ContactForm';
+import TwoColumnGrid from '../components/Layout/TwoColumnGrid';
 
 const PlaceholderImage = () => <div className="bg-gray-200 h-64 w-full flex items-center justify-center text-gray-500">Image Placeholder</div>;
 

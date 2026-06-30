@@ -5,8 +5,7 @@ import PageHero from '../components/PageHero';
 import ContactForm from '../components/ContactForm';
 import ReviewsSlider from '../components/ReviewsSlider';
 import FAQSection from '../components/FAQSection';
-import { cleanContent, extractHeading } from '../lib/wp-content';
-import './wp-content.css';
+import { cleanContent, extractHeading } from '../lib/wp-content.js';
 
 const DynamicWpPage = ({ slug: propSlug }) => {
   const pathname = usePathname();

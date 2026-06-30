@@ -1,3 +1,4 @@
+export const dynamic = 'force-static'; // 👈 Add this line at the top
 import { ALLOW_INDEXING, SITE } from '../lib/seo.js';
 
 /** @returns {import('next').MetadataRoute.Robots} */
