@@ -29,21 +29,13 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy
-        shell: bash
-        run: |
-          set -euo pipefail
-          DEST=/home/taxaccolega.co.uk/public_html
-          if [ -d out ]; then
-            rsync -a --delete out/ "$DEST"/
-          elif [ -d .next/standalone ]; then
-            rsync -a --delete .next/standalone/ "$DEST"/
-            mkdir -p "$DEST/.next"
-            rsync -a --delete .next/static/ "$DEST/.next/static"/
-            if [ -d public ]; then
-              rsync -a public/ "$DEST"/
-            fi
-          else
-            echo "No out/ or .next/standalone build output found" >&2
-            exit 1
-          fi-
+      - name: Deploy to Remote Server
+        uses: Burnett01/rsync-deployments@v7.0.1
+        with:
+          switches: -avzr --delete
+          # This automatically determines if it's a static 'out' export or Next.js production build
+          path: ${{ hashFiles('out/**') != '' && './out/' || './' }} 
+          remote_path: /home/taxaccolega.co.uk/public_html
+          remote_host: ${{ secrets.SERVER_HOST }}
+          remote_user: ${{ secrets.SERVER_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
