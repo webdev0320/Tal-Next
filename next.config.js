@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  compress: false, // Disables Gzip/Brotli generation that triggers the MIME error
+  output: 'export',
+  compress: false,
   images: {
-    unoptimized: true, // Needed for standard public_html static hosting
-  }
+    unoptimized: true,
+  },
+  // Forces trailing slashes on all URLs so folders/files resolve correctly on Apache
+  trailingSlash: true, 
 };
 
 export default nextConfig;
