@@ -1,3 +1,0 @@
-Title: Payment Confirmation
-
-[simpay_payment_receipt]

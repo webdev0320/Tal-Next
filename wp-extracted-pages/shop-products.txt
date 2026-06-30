@@ -1,3 +1,0 @@
-Title: Shop
-
-[wpec_show_all_products]

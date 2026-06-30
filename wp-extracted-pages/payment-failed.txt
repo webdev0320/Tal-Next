@@ -1,3 +1,0 @@
-Title: Payment Failed
-
-We're sorry, but your transaction failed to process. Please try again or contact site support.
