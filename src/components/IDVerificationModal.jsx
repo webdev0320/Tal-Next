@@ -110,8 +110,19 @@ export default function IDVerificationModal() {
     if (step > 0) { setStep(step - 1); scrollTop(); }
   };
 
-  const openModal = () => { setOpen(true); setStep(0); document.body.style.overflow = "hidden"; };
-  const closeModal = () => { setOpen(false); document.body.style.overflow = ""; };
+  const openModal = () => { setOpen(true); setStep(0); };
+  const closeModal = () => { setOpen(false); };
+
+  React.useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
 
   /* ── Input helper ── */
   const inputClass = (key) => `idv-input${errors[key] ? " error" : ""}`;

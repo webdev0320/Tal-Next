@@ -1460,6 +1460,12 @@
       "namedRegex": "^/shopify(?:/)?$"
     },
     {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
       "page": "/small-business",
       "regex": "^/small\\-business(?:/)?$",
       "routeKeys": {},
