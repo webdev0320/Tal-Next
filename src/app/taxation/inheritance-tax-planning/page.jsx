@@ -1,7 +1,10 @@
-import { metadataForPath } from '../../../lib/seo';
-import InheritanceTaxPlanning from '../../../views/InheritanceTaxPlanning';
 
-export const metadata = metadataForPath('/taxation/inheritance-tax-planning');
+import InheritanceTaxPlanning from '../../../views/taxation/InheritanceTaxPlanning';
+import { metadataForTaxationSlug } from '../../../lib/seo-generators';
+
+export async function generateMetadata() {
+  return metadataForTaxationSlug('inheritance-tax-planning');
+}
 
 export default function Page() {
   return <InheritanceTaxPlanning />;

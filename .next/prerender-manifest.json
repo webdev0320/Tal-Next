@@ -410,6 +410,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/amazon-seller": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/amazon-seller",
+      "dataRoute": "/amazon-seller.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/anna": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/anna",
+      "dataRoute": "/anna.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/autumn-budget-2024": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/autumn-budget-2024",
+      "dataRoute": "/autumn-budget-2024.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/awards-accolades-accreditations": {
       "experimentalBypassFor": [
         {
@@ -495,7 +567,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/4-reasons-why-you-should-incorporate-your-property-business",
       "dataRoute": "/blog/4-reasons-why-you-should-incorporate-your-property-business.rsc",
       "allowHeader": [
         "host",
@@ -519,7 +591,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/4-things-you-should-consider-while-choosing-the-company-structure-of-your-property-business",
       "dataRoute": "/blog/4-things-you-should-consider-while-choosing-the-company-structure-of-your-property-business.rsc",
       "allowHeader": [
         "host",
@@ -543,7 +615,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/4-ways-to-reduce-cgt-when-selling-your-property",
       "dataRoute": "/blog/4-ways-to-reduce-cgt-when-selling-your-property.rsc",
       "allowHeader": [
         "host",
@@ -567,7 +639,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/4-ways-you-can-reduce-your-capital-gains-tax-bill-when-selling-shares",
       "dataRoute": "/blog/4-ways-you-can-reduce-your-capital-gains-tax-bill-when-selling-shares.rsc",
       "allowHeader": [
         "host",
@@ -591,7 +663,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/5-tax-tips-for-the-landlords-that-can-save-you-money",
       "dataRoute": "/blog/5-tax-tips-for-the-landlords-that-can-save-you-money.rsc",
       "allowHeader": [
         "host",
@@ -615,7 +687,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/6-things-you-should-know-about-reporting-the-capital-gains-tax-when-selling-property",
       "dataRoute": "/blog/6-things-you-should-know-about-reporting-the-capital-gains-tax-when-selling-property.rsc",
       "allowHeader": [
         "host",
@@ -639,7 +711,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/a-new-post-by-rizwan",
       "dataRoute": "/blog/a-new-post-by-rizwan.rsc",
       "allowHeader": [
         "host",
@@ -663,7 +735,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/accountants-in-croydon",
       "dataRoute": "/blog/accountants-in-croydon.rsc",
       "allowHeader": [
         "host",
@@ -687,7 +759,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/airbnb-income-what-tax-exemptions-can-i-get",
       "dataRoute": "/blog/airbnb-income-what-tax-exemptions-can-i-get.rsc",
       "allowHeader": [
         "host",
@@ -711,7 +783,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/amazon-online-sellers-vat-guide-uk",
       "dataRoute": "/blog/amazon-online-sellers-vat-guide-uk.rsc",
       "allowHeader": [
         "host",
@@ -735,7 +807,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/amazon-sellers-accounting-guide-uk",
       "dataRoute": "/blog/amazon-sellers-accounting-guide-uk.rsc",
       "allowHeader": [
         "host",
@@ -759,7 +831,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/amazon-sellers-vat-guide-uk",
       "dataRoute": "/blog/amazon-sellers-vat-guide-uk.rsc",
       "allowHeader": [
         "host",
@@ -783,7 +855,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/as-a-landlord-how-will-i-be-taxed-on-the-rental-income-and-what-tax-deadlines-should-i-be-aware-of",
       "dataRoute": "/blog/as-a-landlord-how-will-i-be-taxed-on-the-rental-income-and-what-tax-deadlines-should-i-be-aware-of.rsc",
       "allowHeader": [
         "host",
@@ -807,7 +879,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/ated-2025",
       "dataRoute": "/blog/ated-2025.rsc",
       "allowHeader": [
         "host",
@@ -831,7 +903,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/best-accounting-firms-in-croydon",
       "dataRoute": "/blog/best-accounting-firms-in-croydon.rsc",
       "allowHeader": [
         "host",
@@ -855,7 +927,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/business-asset-disposal-relief",
       "dataRoute": "/blog/business-asset-disposal-relief.rsc",
       "allowHeader": [
         "host",
@@ -879,7 +951,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/business-asset-disposal-relief-uk-guide",
       "dataRoute": "/blog/business-asset-disposal-relief-uk-guide.rsc",
       "allowHeader": [
         "host",
@@ -903,7 +975,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/buying-a-car-for-your-limited-company-uk-guide",
       "dataRoute": "/blog/buying-a-car-for-your-limited-company-uk-guide.rsc",
       "allowHeader": [
         "host",
@@ -927,7 +999,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/buying-a-new-house-before-selling-my-old-home-what-will-be-the-tax-implications",
       "dataRoute": "/blog/buying-a-new-house-before-selling-my-old-home-what-will-be-the-tax-implications.rsc",
       "allowHeader": [
         "host",
@@ -951,7 +1023,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/calculate-rental-profits-losses-uk",
       "dataRoute": "/blog/calculate-rental-profits-losses-uk.rsc",
       "allowHeader": [
         "host",
@@ -975,7 +1047,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/can-i-make-gifts-which-are-exempt-from-tax",
       "dataRoute": "/blog/can-i-make-gifts-which-are-exempt-from-tax.rsc",
       "allowHeader": [
         "host",
@@ -999,7 +1071,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/chancellor-in-autumn-statement-9-4",
       "dataRoute": "/blog/chancellor-in-autumn-statement-9-4.rsc",
       "allowHeader": [
         "host",
@@ -1023,7 +1095,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/closing-limited-company-uk-guide",
       "dataRoute": "/blog/closing-limited-company-uk-guide.rsc",
       "allowHeader": [
         "host",
@@ -1047,7 +1119,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/complete-guide-to-unique-tax-reference-numbers",
       "dataRoute": "/blog/complete-guide-to-unique-tax-reference-numbers.rsc",
       "allowHeader": [
         "host",
@@ -1071,7 +1143,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/construction-vat-reverse-charge-uk",
       "dataRoute": "/blog/construction-vat-reverse-charge-uk.rsc",
       "allowHeader": [
         "host",
@@ -1095,7 +1167,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/contractor-and-ir-35-when-does-it-apply-to-you",
       "dataRoute": "/blog/contractor-and-ir-35-when-does-it-apply-to-you.rsc",
       "allowHeader": [
         "host",
@@ -1119,7 +1191,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/corporation-tax-increase-by-6-will-it-affect-your-property-business",
       "dataRoute": "/blog/corporation-tax-increase-by-6-will-it-affect-your-property-business.rsc",
       "allowHeader": [
         "host",
@@ -1143,7 +1215,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/deadline-for-reporting-capital-gains-tax-do-i-have-to-report-them-with-the-self-assessment-tax-return",
       "dataRoute": "/blog/deadline-for-reporting-capital-gains-tax-do-i-have-to-report-them-with-the-self-assessment-tax-return.rsc",
       "allowHeader": [
         "host",
@@ -1167,7 +1239,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/discretionery-trusts",
       "dataRoute": "/blog/discretionery-trusts.rsc",
       "allowHeader": [
         "host",
@@ -1191,7 +1263,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/do-i-get-any-relief-if-i-am-a-sme-and-am-starting-a-new-business-due-to-covid",
       "dataRoute": "/blog/do-i-get-any-relief-if-i-am-a-sme-and-am-starting-a-new-business-due-to-covid.rsc",
       "allowHeader": [
         "host",
@@ -1215,7 +1287,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/do-i-have-everything-i-need-to-file-my-accounts-in-september-2021",
       "dataRoute": "/blog/do-i-have-everything-i-need-to-file-my-accounts-in-september-2021.rsc",
       "allowHeader": [
         "host",
@@ -1239,7 +1311,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader",
       "dataRoute": "/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader.rsc",
       "allowHeader": [
         "host",
@@ -1263,7 +1335,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/do-i-need-a-cashflow-forecast-for-my-startup",
       "dataRoute": "/blog/do-i-need-a-cashflow-forecast-for-my-startup.rsc",
       "allowHeader": [
         "host",
@@ -1287,7 +1359,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/do-limited-companies-pay-capital-gains-tax",
       "dataRoute": "/blog/do-limited-companies-pay-capital-gains-tax.rsc",
       "allowHeader": [
         "host",
@@ -1311,7 +1383,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/employee-benefits-and-what-are-the-related-taxes",
       "dataRoute": "/blog/employee-benefits-and-what-are-the-related-taxes.rsc",
       "allowHeader": [
         "host",
@@ -1335,7 +1407,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/employee-shareholder-what-tax-advantages-do-i-have",
       "dataRoute": "/blog/employee-shareholder-what-tax-advantages-do-i-have.rsc",
       "allowHeader": [
         "host",
@@ -1359,7 +1431,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/everything-you-need-to-know-about-being-taxed-through-an-umbrella-company",
       "dataRoute": "/blog/everything-you-need-to-know-about-being-taxed-through-an-umbrella-company.rsc",
       "allowHeader": [
         "host",
@@ -1383,7 +1455,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/gift-holdover-relief-gifting-assets-without-triggering-capital-gains-tax",
       "dataRoute": "/blog/gift-holdover-relief-gifting-assets-without-triggering-capital-gains-tax.rsc",
       "allowHeader": [
         "host",
@@ -1407,7 +1479,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/higher-employer-nics-in-2025",
       "dataRoute": "/blog/higher-employer-nics-in-2025.rsc",
       "allowHeader": [
         "host",
@@ -1431,7 +1503,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/hmrc-penalties-investigations",
       "dataRoute": "/blog/hmrc-penalties-investigations.rsc",
       "allowHeader": [
         "host",
@@ -1455,7 +1527,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/hmrc-tax-rule-changes-april-2026",
       "dataRoute": "/blog/hmrc-tax-rule-changes-april-2026.rsc",
       "allowHeader": [
         "host",
@@ -1479,7 +1551,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/holdover-relief-capital-gains-tax",
       "dataRoute": "/blog/holdover-relief-capital-gains-tax.rsc",
       "allowHeader": [
         "host",
@@ -1503,7 +1575,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/home-baker-business-expenses-you-can-claim-if-you-are-self-employed",
       "dataRoute": "/blog/home-baker-business-expenses-you-can-claim-if-you-are-self-employed.rsc",
       "allowHeader": [
         "host",
@@ -1527,7 +1599,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-ai-is-changing-accounting-education",
       "dataRoute": "/blog/how-ai-is-changing-accounting-education.rsc",
       "allowHeader": [
         "host",
@@ -1551,7 +1623,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-can-i-minimise-my-taxes-on-my-property-income",
       "dataRoute": "/blog/how-can-i-minimise-my-taxes-on-my-property-income.rsc",
       "allowHeader": [
         "host",
@@ -1575,7 +1647,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-can-i-prepare-my-business-for-ioss",
       "dataRoute": "/blog/how-can-i-prepare-my-business-for-ioss.rsc",
       "allowHeader": [
         "host",
@@ -1599,7 +1671,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-much-do-accountants-charge-and-why-fees-vary",
       "dataRoute": "/blog/how-much-do-accountants-charge-and-why-fees-vary.rsc",
       "allowHeader": [
         "host",
@@ -1623,7 +1695,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-much-does-it-cost-to-outsource-payroll-in-the-uk",
       "dataRoute": "/blog/how-much-does-it-cost-to-outsource-payroll-in-the-uk.rsc",
       "allowHeader": [
         "host",
@@ -1647,7 +1719,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-much-salary-to-pay-yourself-uk-2025",
       "dataRoute": "/blog/how-much-salary-to-pay-yourself-uk-2025.rsc",
       "allowHeader": [
         "host",
@@ -1671,7 +1743,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home",
       "dataRoute": "/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home.rsc",
       "allowHeader": [
         "host",
@@ -1695,7 +1767,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-to-avoid-inheritance-tax-when-the-second-parent-dies",
       "dataRoute": "/blog/how-to-avoid-inheritance-tax-when-the-second-parent-dies.rsc",
       "allowHeader": [
         "host",
@@ -1719,7 +1791,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-to-close-a-limited-company",
       "dataRoute": "/blog/how-to-close-a-limited-company.rsc",
       "allowHeader": [
         "host",
@@ -1743,7 +1815,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-to-open-a-business-bank-account-in-the-uk",
       "dataRoute": "/blog/how-to-open-a-business-bank-account-in-the-uk.rsc",
       "allowHeader": [
         "host",
@@ -1767,7 +1839,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-to-reduce-capital-gains-tax-bill",
       "dataRoute": "/blog/how-to-reduce-capital-gains-tax-bill.rsc",
       "allowHeader": [
         "host",
@@ -1791,7 +1863,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-uk-companies-can-pay-their-corporation-tax-in-installments",
       "dataRoute": "/blog/how-uk-companies-can-pay-their-corporation-tax-in-installments.rsc",
       "allowHeader": [
         "host",
@@ -1815,7 +1887,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-will-seiss-grant-be-taxed",
       "dataRoute": "/blog/how-will-seiss-grant-be-taxed.rsc",
       "allowHeader": [
         "host",
@@ -1839,7 +1911,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/how-will-vat-change-after-brexit",
       "dataRoute": "/blog/how-will-vat-change-after-brexit.rsc",
       "allowHeader": [
         "host",
@@ -1863,7 +1935,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-am-a-landlord-how-much-ni-will-i-have-to-pay",
       "dataRoute": "/blog/i-am-a-landlord-how-much-ni-will-i-have-to-pay.rsc",
       "allowHeader": [
         "host",
@@ -1887,7 +1959,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-am-a-taxi-driver-can-i-apply-for-a-grant-through-self-employment-income-support-scheme",
       "dataRoute": "/blog/i-am-a-taxi-driver-can-i-apply-for-a-grant-through-self-employment-income-support-scheme.rsc",
       "allowHeader": [
         "host",
@@ -1911,7 +1983,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-am-renting-a-room-can-rent-a-room-relief-apply-to-me",
       "dataRoute": "/blog/i-am-renting-a-room-can-rent-a-room-relief-apply-to-me.rsc",
       "allowHeader": [
         "host",
@@ -1935,7 +2007,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-am-running-a-charity-what-are-my-accounting-requirements",
       "dataRoute": "/blog/i-am-running-a-charity-what-are-my-accounting-requirements.rsc",
       "allowHeader": [
         "host",
@@ -1959,7 +2031,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it",
       "dataRoute": "/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it.rsc",
       "allowHeader": [
         "host",
@@ -1983,7 +2055,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-have-income-from-abroad-do-i-report-it-to-hmrc",
       "dataRoute": "/blog/i-have-income-from-abroad-do-i-report-it-to-hmrc.rsc",
       "allowHeader": [
         "host",
@@ -2007,7 +2079,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-have-inherited-a-property-should-i-pay-capital-gains-tax-on-it",
       "dataRoute": "/blog/i-have-inherited-a-property-should-i-pay-capital-gains-tax-on-it.rsc",
       "allowHeader": [
         "host",
@@ -2031,7 +2103,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-have-inherited-shares-do-i-pay-any-taxes",
       "dataRoute": "/blog/i-have-inherited-shares-do-i-pay-any-taxes.rsc",
       "allowHeader": [
         "host",
@@ -2055,7 +2127,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-own-a-property-how-can-i-reduce-my-inheritance-tax-bill",
       "dataRoute": "/blog/i-own-a-property-how-can-i-reduce-my-inheritance-tax-bill.rsc",
       "allowHeader": [
         "host",
@@ -2079,7 +2151,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/i-sell-goods-on-ebay-do-i-need-to-register-for-ioss-import-one-stop-shop",
       "dataRoute": "/blog/i-sell-goods-on-ebay-do-i-need-to-register-for-ioss-import-one-stop-shop.rsc",
       "allowHeader": [
         "host",
@@ -2103,7 +2175,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/identity-for-companies-house",
       "dataRoute": "/blog/identity-for-companies-house.rsc",
       "allowHeader": [
         "host",
@@ -2127,7 +2199,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/income-tax-additional-rate-threshold-uk",
       "dataRoute": "/blog/income-tax-additional-rate-threshold-uk.rsc",
       "allowHeader": [
         "host",
@@ -2151,7 +2223,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/increase-in-the-personal-allowance-how-does-it-affect-you",
       "dataRoute": "/blog/increase-in-the-personal-allowance-how-does-it-affect-you.rsc",
       "allowHeader": [
         "host",
@@ -2175,7 +2247,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/inheritance-tax-planning-and-business-property-relief",
       "dataRoute": "/blog/inheritance-tax-planning-and-business-property-relief.rsc",
       "allowHeader": [
         "host",
@@ -2199,7 +2271,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/is-it-a-good-idea-to-invest-in-btl-property",
       "dataRoute": "/blog/is-it-a-good-idea-to-invest-in-btl-property.rsc",
       "allowHeader": [
         "host",
@@ -2223,7 +2295,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/locum-doctor-limited-company-uk",
       "dataRoute": "/blog/locum-doctor-limited-company-uk.rsc",
       "allowHeader": [
         "host",
@@ -2247,7 +2319,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/making-tax-digital",
       "dataRoute": "/blog/making-tax-digital.rsc",
       "allowHeader": [
         "host",
@@ -2271,7 +2343,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/making-tax-digital-mtd-for-vat-explained-in-the-uk",
       "dataRoute": "/blog/making-tax-digital-mtd-for-vat-explained-in-the-uk.rsc",
       "allowHeader": [
         "host",
@@ -2295,7 +2367,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/maximise-savings-minimise-tax",
       "dataRoute": "/blog/maximise-savings-minimise-tax.rsc",
       "allowHeader": [
         "host",
@@ -2319,7 +2391,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/mergers-and-acquisitions",
       "dataRoute": "/blog/mergers-and-acquisitions.rsc",
       "allowHeader": [
         "host",
@@ -2343,7 +2415,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/mini-budget-how-will-it-affect-you",
       "dataRoute": "/blog/mini-budget-how-will-it-affect-you.rsc",
       "allowHeader": [
         "host",
@@ -2367,7 +2439,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/my-business-is-making-losses-will-i-be-better-off-if-i-incorporate-my-business",
       "dataRoute": "/blog/my-business-is-making-losses-will-i-be-better-off-if-i-incorporate-my-business.rsc",
       "allowHeader": [
         "host",
@@ -2391,7 +2463,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/my-parents-gifted-me-their-house-what-taxes-do-we-need-to-pay",
       "dataRoute": "/blog/my-parents-gifted-me-their-house-what-taxes-do-we-need-to-pay.rsc",
       "allowHeader": [
         "host",
@@ -2415,7 +2487,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options",
       "dataRoute": "/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options.rsc",
       "allowHeader": [
         "host",
@@ -2439,7 +2511,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/my-tax-return",
       "dataRoute": "/blog/my-tax-return.rsc",
       "allowHeader": [
         "host",
@@ -2463,7 +2535,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/my-taxes-if-i-sell-on-amazon-as-a-sole-trader",
       "dataRoute": "/blog/my-taxes-if-i-sell-on-amazon-as-a-sole-trader.rsc",
       "allowHeader": [
         "host",
@@ -2487,7 +2559,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/national-insurance-contributions-guide-uk",
       "dataRoute": "/blog/national-insurance-contributions-guide-uk.rsc",
       "allowHeader": [
         "host",
@@ -2511,7 +2583,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/national-insurance-how-much-do-i-have-to-pay",
       "dataRoute": "/blog/national-insurance-how-much-do-i-have-to-pay.rsc",
       "allowHeader": [
         "host",
@@ -2535,7 +2607,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/national-insurance-increase-impact-uk",
       "dataRoute": "/blog/national-insurance-increase-impact-uk.rsc",
       "allowHeader": [
         "host",
@@ -2559,7 +2631,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/national-minimum-living-wage-uk-2025",
       "dataRoute": "/blog/national-minimum-living-wage-uk-2025.rsc",
       "allowHeader": [
         "host",
@@ -2583,7 +2655,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/non-resident-sdlt-property-surcharge-uk",
       "dataRoute": "/blog/non-resident-sdlt-property-surcharge-uk.rsc",
       "allowHeader": [
         "host",
@@ -2607,7 +2679,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/non-uk-domiciled-individuals-tax-changes",
       "dataRoute": "/blog/non-uk-domiciled-individuals-tax-changes.rsc",
       "allowHeader": [
         "host",
@@ -2631,7 +2703,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/online-selling-what-is-my-corporate-social-responsibility",
       "dataRoute": "/blog/online-selling-what-is-my-corporate-social-responsibility.rsc",
       "allowHeader": [
         "host",
@@ -2655,7 +2727,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/online-store-vat-implication-uk",
       "dataRoute": "/blog/online-store-vat-implication-uk.rsc",
       "allowHeader": [
         "host",
@@ -2679,7 +2751,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/online-tutor-tax-and-expenses-in-uk",
       "dataRoute": "/blog/online-tutor-tax-and-expenses-in-uk.rsc",
       "allowHeader": [
         "host",
@@ -2703,7 +2775,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/payroll-outsourcing-for-small-businesses-vs-medium-enterprises",
       "dataRoute": "/blog/payroll-outsourcing-for-small-businesses-vs-medium-enterprises.rsc",
       "allowHeader": [
         "host",
@@ -2727,7 +2799,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/post-brexit-vat-what-should-you-be-aware-of-if-you-sell-on-e-bay-or-amazon",
       "dataRoute": "/blog/post-brexit-vat-what-should-you-be-aware-of-if-you-sell-on-e-bay-or-amazon.rsc",
       "allowHeader": [
         "host",
@@ -2751,7 +2823,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/property-income-reporting-hmrc-uk",
       "dataRoute": "/blog/property-income-reporting-hmrc-uk.rsc",
       "allowHeader": [
         "host",
@@ -2775,7 +2847,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/rd-tax-relief-regulations-2025-merged-rdec-eris",
       "dataRoute": "/blog/rd-tax-relief-regulations-2025-merged-rdec-eris.rsc",
       "allowHeader": [
         "host",
@@ -2799,7 +2871,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/report-covid-grants-loans-self-assessment",
       "dataRoute": "/blog/report-covid-grants-loans-self-assessment.rsc",
       "allowHeader": [
         "host",
@@ -2823,7 +2895,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/research-and-development-tax-relief-and-benefits-in-uk",
       "dataRoute": "/blog/research-and-development-tax-relief-and-benefits-in-uk.rsc",
       "allowHeader": [
         "host",
@@ -2847,7 +2919,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/running-my-side-business-as-a-sole-trader-or-a-limited-company-which-one-will-be-more-tax-efficient",
       "dataRoute": "/blog/running-my-side-business-as-a-sole-trader-or-a-limited-company-which-one-will-be-more-tax-efficient.rsc",
       "allowHeader": [
         "host",
@@ -2871,7 +2943,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/seis-and-eis-tax-relief-london",
       "dataRoute": "/blog/seis-and-eis-tax-relief-london.rsc",
       "allowHeader": [
         "host",
@@ -2895,7 +2967,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/self-assessment-accountant-in-london",
       "dataRoute": "/blog/self-assessment-accountant-in-london.rsc",
       "allowHeader": [
         "host",
@@ -2919,7 +2991,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/self-assessment-deadline-extended",
       "dataRoute": "/blog/self-assessment-deadline-extended.rsc",
       "allowHeader": [
         "host",
@@ -2943,7 +3015,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/self-assessment-tax-return-and-capital-gains-tax",
       "dataRoute": "/blog/self-assessment-tax-return-and-capital-gains-tax.rsc",
       "allowHeader": [
         "host",
@@ -2967,7 +3039,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/selling-business-tax-liabilities-profits-uk",
       "dataRoute": "/blog/selling-business-tax-liabilities-profits-uk.rsc",
       "allowHeader": [
         "host",
@@ -2991,7 +3063,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/selling-on-amazon-things-i-should-know-if-i-am-selling-as-a-sole-trader-or-a-limited-company",
       "dataRoute": "/blog/selling-on-amazon-things-i-should-know-if-i-am-selling-as-a-sole-trader-or-a-limited-company.rsc",
       "allowHeader": [
         "host",
@@ -3015,7 +3087,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/selling-online-do-i-need-an-accountant",
       "dataRoute": "/blog/selling-online-do-i-need-an-accountant.rsc",
       "allowHeader": [
         "host",
@@ -3039,7 +3111,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/selling-property-can-i-claim-entrepreneurs-relief-on-its-disposal",
       "dataRoute": "/blog/selling-property-can-i-claim-entrepreneurs-relief-on-its-disposal.rsc",
       "allowHeader": [
         "host",
@@ -3063,7 +3135,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/selling-property-how-to-reduce-cgt-bill",
       "dataRoute": "/blog/selling-property-how-to-reduce-cgt-bill.rsc",
       "allowHeader": [
         "host",
@@ -3087,7 +3159,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/setting-up-a-charity-6-things-you-need-to-know",
       "dataRoute": "/blog/setting-up-a-charity-6-things-you-need-to-know.rsc",
       "allowHeader": [
         "host",
@@ -3111,7 +3183,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/setting-up-an-online-store",
       "dataRoute": "/blog/setting-up-an-online-store.rsc",
       "allowHeader": [
         "host",
@@ -3135,7 +3207,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/should-i-incorporate-my-property-business",
       "dataRoute": "/blog/should-i-incorporate-my-property-business.rsc",
       "allowHeader": [
         "host",
@@ -3159,7 +3231,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/should-i-take-the-directors-loan-and-how-should-i-treat-them-in-my-accounts",
       "dataRoute": "/blog/should-i-take-the-directors-loan-and-how-should-i-treat-them-in-my-accounts.rsc",
       "allowHeader": [
         "host",
@@ -3183,7 +3255,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/social-influencer-will-i-be-taxed",
       "dataRoute": "/blog/social-influencer-will-i-be-taxed.rsc",
       "allowHeader": [
         "host",
@@ -3207,7 +3279,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/social-media-influencers-and-endorsers-tax-guide-uk",
       "dataRoute": "/blog/social-media-influencers-and-endorsers-tax-guide-uk.rsc",
       "allowHeader": [
         "host",
@@ -3231,7 +3303,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc",
       "dataRoute": "/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc.rsc",
       "allowHeader": [
         "host",
@@ -3255,7 +3327,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/stamp-duty-cut-and-what-does-it-mean-to-the-landlords",
       "dataRoute": "/blog/stamp-duty-cut-and-what-does-it-mean-to-the-landlords.rsc",
       "allowHeader": [
         "host",
@@ -3279,7 +3351,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/stamp-duty-holiday-eligibility-uk",
       "dataRoute": "/blog/stamp-duty-holiday-eligibility-uk.rsc",
       "allowHeader": [
         "host",
@@ -3303,7 +3375,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/tax-due-in-july-as-a-sole-trader-payment-on-account",
       "dataRoute": "/blog/tax-due-in-july-as-a-sole-trader-payment-on-account.rsc",
       "allowHeader": [
         "host",
@@ -3327,7 +3399,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/the-company-is-offering-me-car-benefits-will-i-be-able-to-pause-if-the-circumstances-change-such-as-covid-19",
       "dataRoute": "/blog/the-company-is-offering-me-car-benefits-will-i-be-able-to-pause-if-the-circumstances-change-such-as-covid-19.rsc",
       "allowHeader": [
         "host",
@@ -3351,7 +3423,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/the-complete-uk-crypto-tax-playbook-in-2025",
       "dataRoute": "/blog/the-complete-uk-crypto-tax-playbook-in-2025.rsc",
       "allowHeader": [
         "host",
@@ -3375,7 +3447,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/trading-loss-should-i-de-register-as-being-self-employed",
       "dataRoute": "/blog/trading-loss-should-i-de-register-as-being-self-employed.rsc",
       "allowHeader": [
         "host",
@@ -3399,7 +3471,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/trusts-to-reduce-inheritance-tax",
       "dataRoute": "/blog/trusts-to-reduce-inheritance-tax.rsc",
       "allowHeader": [
         "host",
@@ -3423,7 +3495,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/uber-drivers-and-taxation",
       "dataRoute": "/blog/uber-drivers-and-taxation.rsc",
       "allowHeader": [
         "host",
@@ -3447,7 +3519,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/uk-autumn-budget-2025",
       "dataRoute": "/blog/uk-autumn-budget-2025.rsc",
       "allowHeader": [
         "host",
@@ -3471,7 +3543,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/uk-corporation-tax-2025-changes-guide",
       "dataRoute": "/blog/uk-corporation-tax-2025-changes-guide.rsc",
       "allowHeader": [
         "host",
@@ -3495,7 +3567,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/uk-tax-codes-explained",
       "dataRoute": "/blog/uk-tax-codes-explained.rsc",
       "allowHeader": [
         "host",
@@ -3519,7 +3591,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money",
       "dataRoute": "/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money.rsc",
       "allowHeader": [
         "host",
@@ -3543,7 +3615,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/vat-registration-in-the-uk",
       "dataRoute": "/blog/vat-registration-in-the-uk.rsc",
       "allowHeader": [
         "host",
@@ -3567,7 +3639,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/what-are-dividends-and-what-taxes-do-i-pay-on-them",
       "dataRoute": "/blog/what-are-dividends-and-what-taxes-do-i-pay-on-them.rsc",
       "allowHeader": [
         "host",
@@ -3591,7 +3663,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/what-are-the-tax-implications-if-i-put-my-money-in-a-trust",
       "dataRoute": "/blog/what-are-the-tax-implications-if-i-put-my-money-in-a-trust.rsc",
       "allowHeader": [
         "host",
@@ -3615,7 +3687,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/what-do-i-need-to-do-if-i-want-to-close-my-limited-company",
       "dataRoute": "/blog/what-do-i-need-to-do-if-i-want-to-close-my-limited-company.rsc",
       "allowHeader": [
         "host",
@@ -3639,7 +3711,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/what-do-i-need-to-do-if-i-want-to-run-my-online-business-through-amazon",
       "dataRoute": "/blog/what-do-i-need-to-do-if-i-want-to-run-my-online-business-through-amazon.rsc",
       "allowHeader": [
         "host",
@@ -3663,7 +3735,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/what-do-landlords-need-to-do-for-mtd-for-income-tax",
       "dataRoute": "/blog/what-do-landlords-need-to-do-for-mtd-for-income-tax.rsc",
       "allowHeader": [
         "host",
@@ -3687,7 +3759,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/what-to-look-for-when-choosing-an-accountant",
       "dataRoute": "/blog/what-to-look-for-when-choosing-an-accountant.rsc",
       "allowHeader": [
         "host",
@@ -3711,7 +3783,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/what-uk-businesses-need-to-know-about-identity-verification-for-people-and-companies-in-2025",
       "dataRoute": "/blog/what-uk-businesses-need-to-know-about-identity-verification-for-people-and-companies-in-2025.rsc",
       "allowHeader": [
         "host",
@@ -3735,7 +3807,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/what-will-be-the-consequences-if-i-delay-my-self-assessment-tax-bill",
       "dataRoute": "/blog/what-will-be-the-consequences-if-i-delay-my-self-assessment-tax-bill.rsc",
       "allowHeader": [
         "host",
@@ -3759,7 +3831,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/when-do-i-need-an-accountant-for-my-startup-business",
       "dataRoute": "/blog/when-do-i-need-an-accountant-for-my-startup-business.rsc",
       "allowHeader": [
         "host",
@@ -3783,7 +3855,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/when-will-i-have-to-pay-capital-gains-tax-on-crypto-assets",
       "dataRoute": "/blog/when-will-i-have-to-pay-capital-gains-tax-on-crypto-assets.rsc",
       "allowHeader": [
         "host",
@@ -3807,7 +3879,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/why-submit-self-assessment-tax-return-in-uk",
       "dataRoute": "/blog/why-submit-self-assessment-tax-return-in-uk.rsc",
       "allowHeader": [
         "host",
@@ -3831,8 +3903,80 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
+      "srcRoute": "/blog/will-i-have-to-pay-taxes-on-my-state-pension",
       "dataRoute": "/blog/will-i-have-to-pay-taxes-on-my-state-pension.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/btc-software": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/btc-software",
+      "dataRoute": "/btc-software.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/business-plan": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/business-plan",
+      "dataRoute": "/business-plan.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/business-start-up": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/business-start-up",
+      "dataRoute": "/business-start-up.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -3890,6 +4034,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/construction-builders": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/construction-builders",
+      "dataRoute": "/construction-builders.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/construction-industry-scheme": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/construction-industry-scheme",
+      "dataRoute": "/construction-industry-scheme.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/contact-us": {
       "experimentalBypassFor": [
         {
@@ -3914,6 +4106,198 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/contractors": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/contractors",
+      "dataRoute": "/contractors.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/contractors-insurance": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/contractors-insurance",
+      "dataRoute": "/contractors-insurance.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/core-package": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/core-package",
+      "dataRoute": "/core-package.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dentists": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dentists",
+      "dataRoute": "/dentists.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dext": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dext",
+      "dataRoute": "/dext.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dropshipping": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dropshipping",
+      "dataRoute": "/dropshipping.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/e-commerce": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/e-commerce",
+      "dataRoute": "/e-commerce.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ebay-seller": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ebay-seller",
+      "dataRoute": "/ebay-seller.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/employment-agreement": {
       "experimentalBypassFor": [
         {
@@ -3929,6 +4313,150 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/employment-agreement",
       "dataRoute": "/employment-agreement.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/flow": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/flow",
+      "dataRoute": "/flow.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/freeagent": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/freeagent",
+      "dataRoute": "/freeagent.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/freelancers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/freelancers",
+      "dataRoute": "/freelancers.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/furnished-holiday-letting": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/furnished-holiday-letting",
+      "dataRoute": "/furnished-holiday-letting.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hairdressers-beauty-barbers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/hairdressers-beauty-barbers",
+      "dataRoute": "/hairdressers-beauty-barbers.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hotels-restaurants-bars": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/hotels-restaurants-bars",
+      "dataRoute": "/hotels-restaurants-bars.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4298,6 +4826,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ir35-contractors-review": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ir35-contractors-review",
+      "dataRoute": "/ir35-contractors-review.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/jewellers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/jewellers",
+      "dataRoute": "/jewellers.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/legal": {
       "experimentalBypassFor": [
         {
@@ -4313,6 +4889,102 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/legal",
       "dataRoute": "/legal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/media-creative-industries": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/media-creative-industries",
+      "dataRoute": "/media-creative-industries.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/mettle": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/mettle",
+      "dataRoute": "/mettle.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/monzo": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/monzo",
+      "dataRoute": "/monzo.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/optician-optometrists": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/optician-optometrists",
+      "dataRoute": "/optician-optometrists.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4610,6 +5282,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/payment-confirmation": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/payment-confirmation",
+      "dataRoute": "/payment-confirmation.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/payment-failed": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/payment-failed",
+      "dataRoute": "/payment-failed.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pricing": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pricing",
+      "dataRoute": "/pricing.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/privacy-policy": {
       "experimentalBypassFor": [
         {
@@ -4625,6 +5369,54 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/privacy-policy",
       "dataRoute": "/privacy-policy.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/property-landlords": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/property-landlords",
+      "dataRoute": "/property-landlords.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/quickbooks": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/quickbooks",
+      "dataRoute": "/quickbooks.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4706,11 +5498,35 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/revolut": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/revolut",
+      "dataRoute": "/revolut.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/robots.txt": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
         "content-type": "text/plain",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/robots.txt/layout,_N_T_/robots.txt/route,_N_T_/robots.txt"
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/robots.txt/layout,_N_T_/robots.txt/route,_N_T_/robots.txt/"
       },
       "experimentalBypassFor": [
         {
@@ -4726,6 +5542,54 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/robots.txt",
       "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/saas": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saas",
+      "dataRoute": "/saas.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sage": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sage",
+      "dataRoute": "/sage.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4759,6 +5623,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/self-employed": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/self-employed",
+      "dataRoute": "/self-employed.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/share-transfer": {
       "experimentalBypassFor": [
         {
@@ -4783,6 +5671,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/shopify": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/shopify",
+      "dataRoute": "/shopify.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/small-business": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/small-business",
+      "dataRoute": "/small-business.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/software": {
       "experimentalBypassFor": [
         {
@@ -4798,6 +5734,78 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/software",
       "dataRoute": "/software.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/spvs": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/spvs",
+      "dataRoute": "/spvs.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/starling": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/starling",
+      "dataRoute": "/starling.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/start-ups-basic": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/start-ups-basic",
+      "dataRoute": "/start-ups-basic.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4855,6 +5863,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/taxation/capital-gains-tax": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/capital-gains-tax",
+      "dataRoute": "/taxation/capital-gains-tax.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/capital-gains-tax-accountant": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/capital-gains-tax-accountant",
+      "dataRoute": "/taxation/capital-gains-tax-accountant.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/capital-gains-tax-accountants": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/capital-gains-tax-accountants",
+      "dataRoute": "/taxation/capital-gains-tax-accountants.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/taxation/company-tax-return-accountants": {
       "experimentalBypassFor": [
         {
@@ -4870,6 +5950,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/taxation/company-tax-return-accountants",
       "dataRoute": "/taxation/company-tax-return-accountants.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/corporate-tax-return": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/corporate-tax-return",
+      "dataRoute": "/taxation/corporate-tax-return.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4927,6 +6031,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/taxation/estate-and-property-tax-planning-accountants": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/estate-and-property-tax-planning-accountants",
+      "dataRoute": "/taxation/estate-and-property-tax-planning-accountants.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/estate-property-tax-planning": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/estate-property-tax-planning",
+      "dataRoute": "/taxation/estate-property-tax-planning.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/estate-tax": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/estate-tax",
+      "dataRoute": "/taxation/estate-tax.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/taxation/film-tax-relief": {
       "experimentalBypassFor": [
         {
@@ -4940,8 +6116,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/taxation/[slug]",
+      "srcRoute": "/taxation/film-tax-relief",
       "dataRoute": "/taxation/film-tax-relief.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/income-tax": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/income-tax",
+      "dataRoute": "/taxation/income-tax.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/inheritance-tax": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/inheritance-tax",
+      "dataRoute": "/taxation/inheritance-tax.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4975,6 +6199,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/taxation/inheritance-tax-planning-advisors": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/inheritance-tax-planning-advisors",
+      "dataRoute": "/taxation/inheritance-tax-planning-advisors.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/let-property": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/let-property",
+      "dataRoute": "/taxation/let-property.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/taxation/let-property-campaign": {
       "experimentalBypassFor": [
         {
@@ -4999,6 +6271,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/taxation/non-uk-resident": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/non-uk-resident",
+      "dataRoute": "/taxation/non-uk-resident.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/non-uk-resident-taxation": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/non-uk-resident-taxation",
+      "dataRoute": "/taxation/non-uk-resident-taxation.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/taxation/personal-income-tax": {
       "experimentalBypassFor": [
         {
@@ -5012,7 +6332,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/taxation/[slug]",
+      "srcRoute": "/taxation/personal-income-tax",
       "dataRoute": "/taxation/personal-income-tax.rsc",
       "allowHeader": [
         "host",
@@ -5047,6 +6367,126 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/taxation/rd": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/rd",
+      "dataRoute": "/taxation/rd.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/seed-enterprise-investment-scheme-tax-relief": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/seed-enterprise-investment-scheme-tax-relief",
+      "dataRoute": "/taxation/seed-enterprise-investment-scheme-tax-relief.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/seis-tax-relief": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/seis-tax-relief",
+      "dataRoute": "/taxation/seis-tax-relief.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/tax-advisors": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/tax-advisors",
+      "dataRoute": "/taxation/tax-advisors.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/taxation/tax-investigation": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/tax-investigation",
+      "dataRoute": "/taxation/tax-investigation.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/taxation/tax-investigation-insurance": {
       "experimentalBypassFor": [
         {
@@ -5060,7 +6500,7 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/taxation/[slug]",
+      "srcRoute": "/taxation/tax-investigation-insurance",
       "dataRoute": "/taxation/tax-investigation-insurance.rsc",
       "allowHeader": [
         "host",
@@ -5095,6 +6535,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/taxation/worldwide-disclosure": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxation/worldwide-disclosure",
+      "dataRoute": "/taxation/worldwide-disclosure.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/taxation/worldwide-disclosure-facility": {
       "experimentalBypassFor": [
         {
@@ -5118,10 +6582,8 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    }
-  },
-  "dynamicRoutes": {
-    "/blog/[slug]": {
+    },
+    "/taxcalc": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -5133,13 +6595,9 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "routeRegex": "^/blog/([^/]+?)(?:/)?$",
-      "dataRoute": "/blog/[slug].rsc",
-      "fallback": null,
-      "fallbackRootParams": [],
-      "fallbackRouteParams": [],
-      "dataRouteRegex": "^/blog/([^/]+?)\\.rsc$",
-      "prefetchDataRoute": null,
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/taxcalc",
+      "dataRoute": "/taxcalc.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -5149,7 +6607,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/packages/[slug]": {
+    "/team-member": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -5161,13 +6619,9 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "routeRegex": "^/packages/([^/]+?)(?:/)?$",
-      "dataRoute": "/packages/[slug].rsc",
-      "fallback": null,
-      "fallbackRootParams": [],
-      "fallbackRouteParams": [],
-      "dataRouteRegex": "^/packages/([^/]+?)\\.rsc$",
-      "prefetchDataRoute": null,
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/team-member",
+      "dataRoute": "/team-member.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -5177,7 +6631,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/taxation/[slug]": {
+    "/testimonial": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -5189,13 +6643,81 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "routeRegex": "^/taxation/([^/]+?)(?:/)?$",
-      "dataRoute": "/taxation/[slug].rsc",
-      "fallback": null,
-      "fallbackRootParams": [],
-      "fallbackRouteParams": [],
-      "dataRouteRegex": "^/taxation/([^/]+?)\\.rsc$",
-      "prefetchDataRoute": null,
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/testimonial",
+      "dataRoute": "/testimonial.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/tide",
+      "dataRoute": "/tide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/woocommerce": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/woocommerce",
+      "dataRoute": "/woocommerce.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/xero": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/xero",
+      "dataRoute": "/xero.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -5206,6 +6728,7 @@
       ]
     }
   },
+  "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
     "previewModeId": "bd5504126dfed27bae926116bdffb65f",

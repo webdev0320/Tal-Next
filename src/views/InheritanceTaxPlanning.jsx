@@ -76,7 +76,7 @@ const InheritanceTaxPlanning = () => {
                     ))}
                 </ul>
             </div>
-            <img src="/placeholder-hero-image.jpg" alt="Inheritance Tax Planning" className="rounded-lg shadow-lg" />
+            <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Inheritance-Tax-Accountant-scaled.webp" alt="Inheritance Tax Planning" className="rounded-lg shadow-lg" />
           </section>
 
           <section>
@@ -95,7 +95,7 @@ const InheritanceTaxPlanning = () => {
           </section>
 
           <section className="grid md:grid-cols-2 gap-12 items-center">
-              <img src="/placeholder-review-image.jpg" alt="Review" className="rounded-lg shadow-lg" />
+              <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Inheritance-Tax-What-an-Inheritance-Tax-Advisor-Actually-Reviews.webp" alt="Review" className="rounded-lg shadow-lg" />
               <div>
                   <h3 className="text-2xl font-bold mb-4">What an Inheritance Tax Advisor Actually Reviews</h3>
                   <p className="leading-relaxed text-slate-700">The review usually involves checking how assets are owned, whether ownership structures still make sense, how gifts have been handled, and whether future exposure is increasing unnecessarily.</p>
@@ -143,7 +143,7 @@ const InheritanceTaxPlanning = () => {
                   </ul>
                   <p className="mt-4 font-semibold">The 7-year rule is often a major hurdle if records are not kept.</p>
               </div>
-              <img src="/placeholder-rule-image.jpg" alt="7 Year Rule" className="rounded-lg shadow-lg" />
+              <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Inheritance-Tax-Why-Inheritance-Tax-Planning-Often-Gets-Delayed.webp" alt="7 Year Rule" className="rounded-lg shadow-lg" />
           </section>
 
           <Partners />
@@ -153,7 +153,7 @@ const InheritanceTaxPlanning = () => {
                   <h3 className="text-2xl font-bold mb-4">Insight: Families often create inheritance tax exposure while trying to simplify things</h3>
                   <p className="leading-relaxed text-slate-700">One of the common, non-urgent, yet complex area in planning is IHT. A rarely discussed fact is that IHT exposure often develops not from complex tax schemes, but from everyday life decisions. Families do not realise that the assets they have created are already caught in an IHT liability.</p>
               </div>
-              <img src="/placeholder-insight-image.jpg" alt="Insight" className="rounded-lg shadow-lg" />
+              <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Inheritance-Tax-Insight-Families-often-create-inheritance-tax-exposure-while-trying-to-simplify-things.webp" alt="Insight" className="rounded-lg shadow-lg" />
           </section>
           
           <section className="grid md:grid-cols-2 gap-12 items-center">
@@ -162,7 +162,7 @@ const InheritanceTaxPlanning = () => {
                   <p className="leading-relaxed text-slate-700 mb-4">Property ownership is at the centre of inheritance tax exposure in the UK. Assets such as properties often increase in value. One property may be formerly owned, then made a second, or a third, often with complex ownership arrangements.</p>
                   <p className="leading-relaxed text-slate-700">The estate these property owners have created often has an IHT liability far higher than they expected. For these there are ways to manage ownership and reduce IHT.</p>
               </div>
-              <img src="/placeholder-property-image.jpg" alt="Property Owners" className="rounded-lg shadow-lg" />
+              <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Inheritance-Tax-Inheritance-Tax-Planning-Advisors-for-Individuals-Families-and-Property-Owners.webp" alt="Property Owners" className="rounded-lg shadow-lg" />
           </section>
 
           <section>
@@ -213,7 +213,7 @@ const InheritanceTaxPlanning = () => {
                   <h3 className="text-2xl font-bold mb-4">Inheritance Tax Specialists and Long-Term Financial Planning</h3>
                   <p className="leading-relaxed text-slate-700">Inheritance tax planning is not a one-time event. It requires ongoing review to ensure it remains aligned with changing laws and estate goals.</p>
               </div>
-              <img src="/placeholder-specialist-image.jpg" alt="Specialist" className="rounded-lg shadow-lg" />
+              <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Inheritance-Tax-Inheritance-Tax-Specialists.webp" alt="Specialist" className="rounded-lg shadow-lg" />
           </section>
 
           {/* Services Change */}
@@ -228,7 +228,7 @@ const InheritanceTaxPlanning = () => {
                   <h3 className="text-2xl font-bold mb-4">When You Should Speak To An Inheritance Tax Advisor</h3>
                   <p>People often wait until a crisis occurs before speaking to an advisor.</p>
               </div>
-              <img src="/placeholder-speak-image.jpg" alt="Speak" className="rounded-lg shadow-lg" />
+              <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Inheritance-Tax-When-You-Should-Speak-to-an-Inheritance-Tax-Advisor.webp" alt="Speak" className="rounded-lg shadow-lg" />
           </section>
         </div>
       </main>

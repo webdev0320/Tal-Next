@@ -179,7 +179,7 @@ const CryptocurrencyTax = () => {
       {/* Component Index 10: Corporate Structures and Treasury Management */}
       <section className="bg-[#F9FAFB] py-12">
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="border border-gray-300 bg-white flex items-center justify-center p-12">Company Portfolio Assets Placeholder</div>
+            <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Cryptocurrency-Cryptocurrency-Tax-and-Business-Structures.webp" alt="Cryptocurrency Tax and Business Structures" className="rounded-lg shadow-lg w-full object-cover" />
             <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency Tax and Business Structures</h2>
                 <p>Cryptocurrency held inside companies creates another layer of complexity entirely. In those situations, the issue is no longer limited to personal capital gains tax. The business may also face corporation tax cryptocurrency implications, accounting treatment considerations, valuation questions, and reporting obligations within statutory accounts.</p>

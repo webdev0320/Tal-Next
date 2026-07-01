@@ -814,6 +814,317 @@ delaying action does not pause the enquiry — it allows it to develop without c
       { q: `Does the insurance cover penalties or unpaid tax?`, a: `No, the insurance exclusively covers the professional fees incurred for defending you during an investigation. It does not cover any tax liabilities, interest, or penalties that HMRC may levy as a result of the investigation findings.` },
       { q: `How common are HMRC tax investigations?`, a: `HMRC conducts hundreds of thousands of inquiries each year. While full-scale investigations are less frequent, many businesses and individuals face aspect inquiries, compliance checks, or random audits.` },
       { q: `Can I get this insurance if I'm already under investigation?`, a: `Typically, tax investigation insurance cannot be purchased once an investigation has already been initiated. It is designed to cover future, unforeseen inquiries, making proactive purchase essential.` }
+
     ]
-  }
-};
+  },
+
+  // ─── Alias / variant slugs ────────────────────────────────────────────────
+  // These slugs exist in generateStaticParams but are SEO variants / aliases of
+  // existing config entries.  We give them a proper entry so DynamicWpPage is
+  // never reached (which would 404 because /wp-data/ JSON doesn't exist).
+
+  'worldwide-disclosure': {
+    title: `Worldwide Disclosure Facility`,
+    subtitle: `Confidential HMRC Offshore Income Disclosures`,
+    img: worldwideImg,
+    heroIntro: `The Worldwide Disclosure Facility (WDF) allows taxpayers to voluntarily correct offshore tax irregularities before HMRC escalates. International data-sharing agreements now automatically share bank and financial details with HMRC, making voluntary disclosure the safest path.`,
+    heroDetails: `At Taxaccolega, we support property owners, non-UK residents, and investors in bringing their offshore affairs under control through the WDF process. Contact us today to discuss your options confidentially.`,
+    sections: [],
+    faqs: [
+      { q: `What is the Worldwide Disclosure Facility?`, a: `The WDF is an HMRC disclosure route for taxpayers with undisclosed offshore income, gains, or assets. Making a voluntary disclosure before HMRC acts results in significantly lower penalties.` },
+      { q: `How do I start a Worldwide Disclosure?`, a: `You must register for the WDF through HMRC Online and then submit a full disclosure of offshore tax liabilities within 90 days. Our team manages the entire process on your behalf.` },
+    ],
+  },
+
+  'inheritance-tax': {
+    title: `Inheritance Tax Planning`,
+    subtitle: `Preserving Your Wealth for Future Generations`,
+    img: inheritanceTaxImg,
+    heroIntro: `Inheritance Tax (IHT) can significantly erode the estate you pass on to your loved ones. Effective and timely planning is crucial to minimise this burden and ensure your legacy is preserved.`,
+    heroDetails: `Our specialist Inheritance Tax advisors provide comprehensive, tailored planning — from utilising the Nil-Rate Band and Residence Nil-Rate Band, through gifting strategies and trust structures, to reviewing your will in the context of IHT objectives.`,
+    sections: [],
+    faqs: [
+      { q: `What is Inheritance Tax?`, a: `IHT is charged on estates worth more than the £325,000 Nil-Rate Band at 40%. With a Residence Nil-Rate Band of up to £175,000, careful planning can significantly reduce exposure.` },
+      { q: `How can I reduce Inheritance Tax?`, a: `Key strategies include making use of annual gifting exemptions, setting up trusts, investing in Business Property Relief-qualifying assets, and ensuring your will is structured tax-efficiently.` },
+    ],
+  },
+
+  'inheritance-tax-planning-advisors': {
+    title: `Inheritance Tax Planning Advisors`,
+    subtitle: `Expert IHT Advisory from Taxaccolega's Chartered Accountants`,
+    img: inheritanceTaxImg,
+    heroIntro: `Our chartered accountants and tax planning advisors have deep expertise in Inheritance Tax mitigation, trust planning, and intergenerational wealth transfer strategies.`,
+    heroDetails: `We work closely with your solicitor and financial advisors to build a comprehensive, long-term IHT plan that integrates your will, trust structures, lifetime gifting, and pension planning.`,
+    sections: [],
+    faqs: [
+      { q: `When should I start IHT planning?`, a: `IHT planning is most effective when started early. The 7-year rule for gifts means that planning done today can remove significant assets from your estate by the time they are needed.` },
+      { q: `Do you work with solicitors on IHT planning?`, a: `Yes. We collaborate closely with your legal advisors to ensure your will, trusts, and lifetime giving strategies are fully aligned and legally robust.` },
+    ],
+  },
+
+  'let-property': {
+    title: `Let Property Campaign`,
+    subtitle: `Declare Undisclosed Property Income Confidently`,
+    img: letPropertyImg,
+    heroIntro: `The HMRC Let Property Campaign allows residential landlords to voluntarily disclose undeclared rental income and bring their tax affairs up to date under favourable penalty terms.`,
+    heroDetails: `At Taxaccolega, we guide landlords through every stage of the Let Property Campaign disclosure — from calculating historic liabilities and preparing the disclosure pack to liaising directly with HMRC on your behalf.`,
+    sections: [],
+    faqs: [
+      { q: `What is the Let Property Campaign?`, a: `It is an ongoing HMRC amnesty allowing residential landlords to disclose previously unreported rental income with reduced penalties compared to a prompted investigation.` },
+      { q: `How far back can HMRC investigate rental income?`, a: `Up to 20 years for deliberate non-compliance, 6 years for careless mistakes, and 4 years for innocent errors. Voluntary disclosure significantly reduces penalty exposure.` },
+    ],
+  },
+
+  'non-uk-resident': {
+    title: `Non-UK Resident Taxation`,
+    subtitle: `Expert Tax Advice for Non-UK Residents and Expats`,
+    img: personalIncomeImg,
+    heroIntro: `Non-UK residents with UK income sources — rental property, employment, pensions, or investments — have specific HMRC reporting obligations that are easily misunderstood.`,
+    heroDetails: `Taxaccolega provides specialist non-resident tax advice, helping you navigate the UK Statutory Residence Test, double tax treaties, Non-Resident Landlord Scheme (NRLS), and Self Assessment requirements.`,
+    sections: [],
+    faqs: [
+      { q: `Do non-UK residents pay UK tax?`, a: `Non-UK residents are generally subject to UK tax only on UK-sourced income, such as rental income, employment income from UK work, and UK pension income.` },
+      { q: `What is the Non-Resident Landlord Scheme?`, a: `The NRLS requires UK letting agents (or tenants paying rent over £100/week) to deduct basic rate tax from rental payments unless HMRC approves the landlord to receive rent gross.` },
+    ],
+  },
+
+  'income-tax': {
+    title: `Income Tax Accountants`,
+    subtitle: `Personal Income Tax Planning & Returns from Taxaccolega`,
+    img: personalIncomeImg,
+    heroIntro: `Whether you are an employee, director, sole trader, landlord, or investor, managing personal income tax efficiently requires understanding how different income sources interact with rates, bands, and allowances.`,
+    heroDetails: `Taxaccolega's income tax accountants prepare accurate Self Assessment returns, identify all available reliefs, and provide ongoing tax planning to minimise your annual liability legally.`,
+    sections: [],
+    faqs: [
+      { q: `Who needs to file a Self Assessment return?`, a: `You must file if you are self-employed, a company director, have rental income, earn over £100,000, or have undisclosed income from savings, investments, or overseas sources.` },
+      { q: `What is the personal allowance for 2024/25?`, a: `The standard personal allowance is £12,570. This reduces by £1 for every £2 earned above £100,000, disappearing entirely at £125,140.` },
+    ],
+  },
+
+  'tax-investigation': {
+    title: `Tax Investigation Insurance`,
+    subtitle: `Protecting You from Unforeseen HMRC Inquiry Costs`,
+    img: taxInvestigationImg,
+    heroIntro: `HMRC enquiries are often triggered by patterns or routine checks rather than obvious errors. Once one begins, the focus shifts quickly from what was submitted to how it can be evidenced.`,
+    heroDetails: `Tax investigation insurance covers the professional fees involved in handling an HMRC enquiry. At Taxaccolega, we provide both the insurance arrangement and the specialist defence — so you have a single, experienced team managing your case from start to finish.`,
+    sections: [],
+    faqs: [
+      { q: `What does tax investigation insurance cover?`, a: `It covers professional fees charged by your accountant for responding to HMRC — including correspondence, document preparation, and representation. It does not cover the tax, interest, or penalties themselves.` },
+      { q: `Can I take out insurance after an investigation starts?`, a: `No. Tax investigation insurance must be in place before an enquiry is opened. Contact us to arrange cover proactively.` },
+    ],
+  },
+
+  'corporate-tax-return': {
+    title: `Company Tax Return Accountants`,
+    subtitle: `Your Trusted Partner for Expert Corporation Tax Compliance`,
+    img: companyTaxReturnImg,
+    heroIntro: `Preparing and filing a company tax return (CT600) accurately requires a thorough understanding of allowable expenses, capital allowances, group relief, and R&D credits.`,
+    heroDetails: `Our corporation tax accountants handle everything from calculating your taxable profit and preparing the CT600, to liaising with HMRC and advising on tax-efficient structures for the year ahead.`,
+    sections: [],
+    faqs: [
+      { q: `When is a Company Tax Return due?`, a: `The CT600 must be filed within 12 months of the end of your accounting period. Corporation Tax itself is due nine months and one day after the accounting period ends.` },
+      { q: `What are capital allowances?`, a: `Capital allowances let companies deduct the cost of qualifying capital expenditure from taxable profits, reducing the corporation tax bill. The Annual Investment Allowance (AIA) currently stands at £1 million.` },
+    ],
+  },
+
+  // ─── Capital Gains Tax variants ───────────────────────────────────────────
+  'capital-gains-tax': {
+    title: `Capital Gains Tax Accountants`,
+    subtitle: `Expert CGT Planning, Calculation & HMRC Reporting`,
+    img: capitalGainsTaxImg,
+    heroIntro: `Capital Gains Tax (CGT) arises when you sell or dispose of an asset that has increased in value. Whether it is residential property, shares, a business, or another asset, calculating the correct gain and claiming all available reliefs requires specialist knowledge.`,
+    heroDetails: `At Taxaccolega, our Capital Gains Tax accountants prepare accurate CGT calculations, advise on timing of disposals, apply Private Residence Relief, Business Asset Disposal Relief, and other exemptions, and report gains to HMRC within the required 60-day window for residential property.`,
+    sections: [
+      {
+        type: `difficult`,
+        title: `When Does Capital Gains Tax Apply?`,
+        subtitle: `CGT is triggered by disposals — not just sales.`,
+        content: `Many taxpayers are unaware that CGT applies to a wide range of transactions beyond simply selling a second home.`,
+        bullets: [
+          `Selling or gifting UK residential property that is not your main home`,
+          `Disposing of shares, investment funds, and unit trusts`,
+          `Selling a business or business assets`,
+          `Receiving cryptocurrency proceeds (treated as a disposal)`,
+          `Gifting assets to a spouse or civil partner (in some circumstances)`,
+          `Selling foreign property or overseas investments`,
+        ],
+        footer: `CGT rates for 2024/25 are 18% and 24% for residential property (basic/higher rate respectively), and 10% and 20% for other assets. Timing disposals across tax years can significantly reduce the overall liability.`,
+      },
+    ],
+    faqs: [
+      { q: `What is Capital Gains Tax?`, a: `CGT is a tax on the profit (gain) made when you sell or dispose of an asset that has increased in value. You pay CGT on the gain, not the total amount received.` },
+      { q: `Do I have to report a capital gain immediately?`, a: `For UK residential property sold since April 2020, you must report the gain and pay any tax owed within 60 days of completion. Other gains are reported through your annual Self Assessment return.` },
+      { q: `What reliefs are available?`, a: `Key reliefs include Private Residence Relief (for your main home), Business Asset Disposal Relief (formerly Entrepreneurs' Relief — 10% rate on qualifying business assets), Gift Hold-Over Relief, and Rollover Relief.` },
+      { q: `How is CGT calculated?`, a: `The gain equals sale proceeds minus the original cost (plus allowable costs such as legal fees and improvements). You then deduct your annual CGT exempt amount (£3,000 for 2024/25) and apply the relevant rate.` },
+    ],
+  },
+
+  'capital-gains-tax-accountant': {
+    title: `Capital Gains Tax Accountant`,
+    subtitle: `Personal CGT Advice, Calculations & HMRC Reporting`,
+    img: capitalGainsTaxImg,
+    heroIntro: `A specialist Capital Gains Tax accountant ensures you pay only the tax you legally owe, claim every available relief, and meet all HMRC reporting deadlines — including the 60-day residential property window.`,
+    heroDetails: `Taxaccolega's CGT accountants work with individuals, property investors, business owners, and expats to manage both planned disposals and unexpected gains efficiently and compliantly.`,
+    sections: [],
+    faqs: [
+      { q: `When do I need a CGT accountant?`, a: `You need specialist advice whenever you are selling a second property, shares above the exempt amount, a business, or any high-value asset. Early advice — before the disposal — can save significant amounts in tax.` },
+      { q: `Can I spread a gain over two tax years?`, a: `In limited circumstances, careful timing of a disposal can straddle two tax years, allowing you to use two annual exempt amounts and potentially two sets of lower-rate bands.` },
+    ],
+  },
+
+  'capital-gains-tax-accountants': {
+    title: `Capital Gains Tax Accountants`,
+    subtitle: `Expert CGT Planning, Calculation & HMRC Reporting`,
+    img: capitalGainsTaxImg,
+    heroIntro: `Capital Gains Tax applies to property, shares, business assets, and cryptocurrency. Getting the calculations right and claiming every available relief requires experienced specialist accountants.`,
+    heroDetails: `Taxaccolega's team of Capital Gains Tax accountants has extensive experience handling complex multi-asset disposals, overseas property sales, and business exit strategies. We also handle all HMRC reporting on your behalf.`,
+    sections: [],
+    faqs: [
+      { q: `What CGT rate do I pay on residential property?`, a: `For the 2024/25 tax year, basic rate taxpayers pay 18% and higher/additional rate taxpayers pay 24% on gains from UK residential property (not your primary residence).` },
+      { q: `Is there any CGT on my main home?`, a: `Private Residence Relief (PRR) typically exempts your main home from CGT entirely. However, if the property was let, used for business, or was very large, a partial exemption may apply.` },
+    ],
+  },
+
+  // ─── Estate / property tax planning ──────────────────────────────────────
+  'estate-property-tax-planning': {
+    title: `Estate & Property Tax Planning`,
+    subtitle: `Protecting Your Property Wealth for Future Generations`,
+    img: estatePropertyTaxImg,
+    heroIntro: `Estate and property tax planning sits at the intersection of Capital Gains Tax, Inheritance Tax, Income Tax, and Stamp Duty Land Tax. Getting the structure right from the start can save tens of thousands of pounds.`,
+    heroDetails: `Taxaccolega's estate and property tax advisors help property investors, landlords, and families create tax-efficient ownership structures, plan disposals, and pass assets to the next generation in the most tax-advantageous way possible.`,
+    sections: [
+      {
+        type: `cards`,
+        title: `Areas of Estate & Property Tax We Cover`,
+        intro: `Our advisory service spans the full property tax lifecycle.`,
+        cards: [
+          { title: `Inheritance Tax on Property`, text: `Structuring property ownership to maximise the use of the Nil-Rate Band and Residence Nil-Rate Band, and exploring trust solutions for investment property.` },
+          { title: `Capital Gains Tax on Disposal`, text: `Advising on timing, relief eligibility (PRR, Hold-Over, Rollover), and offshore considerations when selling UK or overseas property.` },
+          { title: `Stamp Duty Land Tax`, text: `Planning transactions to minimise SDLT exposure, including the correct application of multiple dwellings relief and the 3% additional-dwelling surcharge.` },
+        ],
+      },
+    ],
+    faqs: [
+      { q: `Can I put property into a trust to avoid IHT?`, a: `Transferring property into a discretionary trust can remove it from your estate for IHT, but it may trigger an immediate CGT charge or SDLT liability. Careful planning is essential.` },
+      { q: `What is the 7-year rule for property gifts?`, a: `If you give property to someone and survive for 7 years, the gift is fully exempt from IHT. Between 3 and 7 years, taper relief reduces the IHT due on a sliding scale.` },
+    ],
+  },
+
+  'estate-and-property-tax-planning-accountants': {
+    title: `Estate & Property Tax Planning Accountants`,
+    subtitle: `Specialist Advisors for Property Investors and Estates`,
+    img: estatePropertyTaxImg,
+    heroIntro: `Our estate and property tax planning accountants combine deep expertise across IHT, CGT, income tax, and SDLT to deliver holistic tax advice for property-owning clients.`,
+    heroDetails: `Whether you are building a buy-to-let portfolio, planning to pass assets to your children, or navigating a complex estate, Taxaccolega provides joined-up advice that considers all the taxes at play.`,
+    sections: [],
+    faqs: [
+      { q: `Do I need both a solicitor and an accountant for estate planning?`, a: `Yes. Solicitors draft the legal documents (wills, trusts, deeds), while accountants calculate the tax implications and design the most efficient structure. We work alongside your legal advisors.` },
+      { q: `How is rental income taxed in an estate context?`, a: `Rental income continues to be assessed on the beneficial owner. Where properties are held in trust, the trustees pay income tax at the trust rate (45% for discretionary trusts).` },
+    ],
+  },
+
+  'estate-tax': {
+    title: `Estate Tax Planning`,
+    subtitle: `Minimise IHT and Protect Your Estate`,
+    img: estatePropertyTaxImg,
+    heroIntro: `Estate tax planning is about more than Inheritance Tax. It involves structuring assets, coordinating wills and trusts, and planning lifetime gifts to ensure your estate passes to your beneficiaries as intact as possible.`,
+    heroDetails: `Taxaccolega's advisors help you understand your current IHT exposure, identify planning opportunities, and implement strategies proportionate to your estate value and family circumstances.`,
+    sections: [],
+    faqs: [
+      { q: `What counts as part of my estate for IHT?`, a: `Your estate includes all property, savings, investments, and personal possessions you own at the date of death. Certain trusts and gifts made within 7 years may also be included.` },
+      { q: `Are pensions included in my estate?`, a: `Defined contribution pension funds are generally outside your estate for IHT purposes, making pensions a useful vehicle for intergenerational wealth transfer.` },
+    ],
+  },
+
+  // ─── R&D and SEIS ──────────────────────────────────────────────────────────
+  'rd': {
+    title: `R&D Tax Credits`,
+    subtitle: `Maximise Your Research & Development Tax Relief`,
+    img: emiSeisPlaceholderImg,
+    heroIntro: `Research and Development (R&D) Tax Credits are one of the most valuable reliefs available to UK companies, yet many qualifying businesses never claim them — often because they don't realise their work qualifies.`,
+    heroDetails: `Taxaccolega's R&D specialists work with technology, engineering, manufacturing, life sciences, and creative businesses to identify qualifying R&D activity, build robust technical narratives, and submit compliant HMRC claims that maximise the relief.`,
+    sections: [
+      {
+        type: `cards`,
+        title: `How R&D Tax Credits Work`,
+        intro: `The UK R&D tax credit regime rewards companies that invest in innovation.`,
+        cards: [
+          { title: `SME R&D Relief`, text: `Under the merged RDEC scheme from April 2024, SMEs can claim a 20% credit on qualifying R&D expenditure, providing a direct cash benefit or corporation tax reduction.` },
+          { title: `Qualifying Expenditure`, text: `Staffing costs, subcontractor costs (65% for third parties), consumables, software, and certain cloud computing costs all qualify — if the work meets the technical advancement test.` },
+          { title: `The Technical Test`, text: `Work qualifies if it seeks an advance in science or technology by resolving technical uncertainties. A competent professional in the field must not know the outcome in advance.` },
+        ],
+      },
+    ],
+    faqs: [
+      { q: `What activities qualify for R&D tax credits?`, a: `Any work that seeks to resolve scientific or technological uncertainty qualifies — including software development, engineering design, new product development, and process improvement.` },
+      { q: `Can I claim R&D credits for previous years?`, a: `Yes. R&D claims can be submitted within two years of the accounting period end date. This means you may be able to make retrospective claims for up to two prior years.` },
+      { q: `Does my company need to be profitable to claim?`, a: `No. Loss-making SMEs can claim a payable tax credit (cash payment from HMRC) instead of a corporation tax reduction.` },
+    ],
+  },
+
+  'seed-enterprise-investment-scheme-tax-relief': {
+    title: `SEIS & EIS Tax Relief`,
+    subtitle: `Maximise Tax Reliefs on Early-Stage Investments`,
+    img: emiSeisPlaceholderImg,
+    heroIntro: `The Seed Enterprise Investment Scheme (SEIS) and Enterprise Investment Scheme (EIS) offer generous income tax reliefs, CGT deferral, and loss relief to investors in qualifying early-stage UK companies.`,
+    heroDetails: `Taxaccolega advises both investors and investee companies on SEIS and EIS eligibility, advance assurance applications, compliance, and the interaction of these schemes with existing tax positions.`,
+    sections: [],
+    faqs: [
+      { q: `What relief does SEIS offer investors?`, a: `SEIS investors can claim 50% income tax relief on investments up to £200,000 per tax year. Gains on disposal after 3 years are also exempt from CGT. Loss relief is available if the investment fails.` },
+      { q: `What is the difference between SEIS and EIS?`, a: `SEIS targets very early-stage companies (up to 3 years old, fewer than 25 employees, less than £350k raised). EIS covers later-stage companies and allows larger investments (up to £1m/£2m) with 30% income tax relief.` },
+    ],
+  },
+
+  'seis-tax-relief': {
+    title: `SEIS & EIS Tax Relief`,
+    subtitle: `Expert Advice on Seed Enterprise Investment Scheme Relief`,
+    img: emiSeisPlaceholderImg,
+    heroIntro: `SEIS and EIS offer some of the most generous tax reliefs in the UK tax code, designed to encourage private investment into early-stage and growth businesses.`,
+    heroDetails: `Our advisors help investors structure their portfolios tax-efficiently using SEIS, EIS, and VCT schemes, and assist qualifying companies in obtaining HMRC advance assurance and issuing compliant certificates to investors.`,
+    sections: [],
+    faqs: [
+      { q: `How do I know if my investment qualifies for SEIS?`, a: `The company must have traded for less than 3 years, have fewer than 25 full-time employees, assets under £350,000 before the investment, and carry out a qualifying trade. HMRC advance assurance confirms eligibility.` },
+      { q: `Can I carry back SEIS relief to a previous tax year?`, a: `Yes. Up to half your SEIS investment can be carried back to the previous tax year, allowing you to claim relief against the previous year's income tax liability.` },
+    ],
+  },
+
+  // ─── Tax Advisors ─────────────────────────────────────────────────────────
+  'tax-advisors': {
+    title: `Tax Advisors`,
+    subtitle: `Expert UK Tax Advisory from Taxaccolega Chartered Accountants`,
+    img: taxAdvisorsImg,
+    heroIntro: `Tax advice goes beyond compliance. A good tax advisor identifies opportunities, structures your affairs efficiently, and gives you confidence that your tax position is correct and resilient to HMRC scrutiny.`,
+    heroDetails: `Taxaccolega's chartered accountants and tax advisors work with individuals, company directors, landlords, and businesses across all sectors to provide practical, actionable tax planning tailored to your specific circumstances.`,
+    sections: [
+      {
+        type: `cards`,
+        title: `Our Tax Advisory Services`,
+        intro: `We cover the full spectrum of UK taxes for individuals and businesses.`,
+        cards: [
+          { title: `Personal Tax Planning`, text: `Optimising income sources, pension contributions, dividend strategies, and the use of annual allowances to minimise your personal tax liability.` },
+          { title: `Business Tax Advisory`, text: `Corporation tax planning, R&D credits, capital allowances, group structures, and exit planning to maximise after-tax returns.` },
+          { title: `Property Tax Planning`, text: `Structuring property portfolios, advising on IHT, CGT, SDLT, and the most appropriate ownership vehicle for your circumstances.` },
+        ],
+      },
+    ],
+    faqs: [
+      { q: `What does a tax advisor do?`, a: `A tax advisor prepares and reviews tax returns, identifies planning opportunities, advises on the tax implications of major transactions, and represents you in dealings with HMRC.` },
+      { q: `When should I use a tax advisor?`, a: `Key trigger points include starting a business, buying or selling property, receiving an inheritance, planning retirement, or when your tax affairs become more complex than your accountant's standard service covers.` },
+      { q: `How much does tax advice cost?`, a: `Our fees are transparent and agreed in advance. For a no-obligation initial discussion, contact us directly and we'll provide a clear fee estimate based on your specific requirements.` },
+    ],
+  },
+
+  // ─── Non-UK resident taxation variant ────────────────────────────────────
+  'non-uk-resident-taxation': {
+    title: `Non-UK Resident Taxation`,
+    subtitle: `Expert Tax Advice for Non-UK Residents with UK Income`,
+    img: personalIncomeImg,
+    heroIntro: `Non-UK residents with UK property income, employment income, or investment returns face specific HMRC obligations. The Statutory Residence Test, double tax treaties, and the Non-Resident Landlord Scheme all interact in ways that require specialist advice.`,
+    heroDetails: `Taxaccolega provides clear, practical advice on UK tax obligations for non-UK residents — whether you are a British expat living abroad, a foreign national with UK property, or an internationally mobile professional.`,
+    sections: [],
+    faqs: [
+      { q: `Do I need to file a UK tax return if I live abroad?`, a: `If you have UK-source income above certain thresholds (e.g. rental income, UK employment), you are generally required to file a UK Self Assessment tax return even if you are non-resident.` },
+      { q: `What is the Statutory Residence Test?`, a: `The SRT is the legal framework HMRC uses to determine whether an individual is UK-resident for tax purposes in a given tax year. It considers days spent in the UK and ties to the UK.` },
+    ],
+  },
+};

@@ -86,7 +86,7 @@ const EmiSchemesPage = () => {
               <p className="mt-4">because these companies often need strong employee retention while preserving operational cash.</p>
             </div>
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <span className="text-slate-500">EMI Scheme Diagram Placeholder</span>
+                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-EMI-Scheme-Explained.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
           </section>
 
@@ -97,7 +97,7 @@ const EmiSchemesPage = () => {
                 <h3 className="text-2xl font-bold mb-4">EMI Schemes and Strategic Alignment</h3>
                 <p className="leading-relaxed text-slate-700 mb-4">An EMI scheme allows qualifying UK businesses to grant selected employees the option to acquire shares under tax-advantaged conditions. It creates alignment between company growth, employee performance, and long-term value creation.</p>
             </div>
-            <img src="/placeholder-hero-image.jpg" alt="EMI Schemes" className="rounded-lg shadow-lg" />
+            <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/EMI-Scheme-scaled.webp" alt="EMI Schemes" className="rounded-lg shadow-lg" />
           </section>
 
           <section>
@@ -146,7 +146,7 @@ const EmiSchemesPage = () => {
 
           <section className="grid md:grid-cols-2 gap-12 items-center">
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <span className="text-slate-500">EMI Scheme Works Diagram Placeholder</span>
+                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-How-an-EMI-Share-Scheme-Works-in-Practice.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
             <div>
               <h3 className="text-3xl font-bold text-slate-950 mb-6">How an EMI Share Scheme Works in Practice</h3>
@@ -193,7 +193,7 @@ const EmiSchemesPage = () => {
               <p className="mb-4">This is particularly important for EMI scheme holding company structures, where ownership layering can affect EMI qualification unexpectedly.</p>
             </div>
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <span className="text-slate-500">EMI Eligibility Diagram Placeholder</span>
+                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-EMI-Scheme-Eligibility.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
           </section>
 
@@ -220,7 +220,7 @@ const EmiSchemesPage = () => {
               </ul>
             </div>
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <span className="text-slate-500">EMI Valuation Diagram Placeholder</span>
+                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/EMI-Scheme-scaled.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
           </section>
 
@@ -251,7 +251,7 @@ const EmiSchemesPage = () => {
                   <p className="mt-4">Especially where scaling businesses expect future investment rounds or acquisition discussions.</p>
               </div>
               <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                  <span className="text-slate-500">EMI SEIS/EIS Diagram Placeholder</span>
+                  <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-EMI-Schemes-and-SEIS.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
               </div>
           </section>
 
@@ -281,7 +281,7 @@ const EmiSchemesPage = () => {
 
           <section className="grid md:grid-cols-2 gap-12 items-center">
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <span className="text-slate-500">EMI Insight Diagram Placeholder</span>
+                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-What-Our-EMI-Scheme-Services-Actually-Change.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
             <div>
               <h3 className="text-3xl font-bold text-slate-950 mb-6">Insight Section: The Biggest EMI Mistake Usually Happens Before the Scheme Even Starts</h3>
@@ -353,7 +353,7 @@ const EmiSchemesPage = () => {
           <section className="row g-4 align-items-center">
               <div className="col-md-4">
                   <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                      <span className="text-slate-500">EMI Services Image Placeholder</span>
+                      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-What-Our-EMI-Scheme-Services-Actually-Change.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
                   </div>
               </div>
               <div className="col-md-8">
@@ -413,7 +413,7 @@ const EmiSchemesPage = () => {
               </div>
               <div className="col-md-4">
                   <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                      <span className="text-slate-500">EMI Advice Image Placeholder</span>
+                      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-When-Businesses-Should-Speak-to-EMI-Scheme-Advisors.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
                   </div>
               </div>
           </section>
@@ -436,7 +436,7 @@ const EmiSchemesPage = () => {
               </div>
               <div className="col-md-6">
                   <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                      <span className="text-slate-500">EMI Business Reporting Image Placeholder</span>
+                      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-EMI-Schemes-and-Wider-Business-Reporting.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
                   </div>
               </div>
           </section>
@@ -444,7 +444,7 @@ const EmiSchemesPage = () => {
           <section className="row g-4 align-items-center">
               <div className="col-md-6">
                   <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                      <span className="text-slate-500">EMI Advisors Contact Image Placeholder</span>
+                      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-When-Businesses-Should-Speak-to-EMI-Scheme-Advisors.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
                   </div>
               </div>
               <div className="col-md-6">

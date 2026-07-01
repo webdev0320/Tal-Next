@@ -1,0 +1,1008 @@
+[
+  {
+    "path": "/business-start-up"
+  },
+  {
+    "path": "/construction-industry-scheme"
+  },
+  {
+    "path": "/start-ups-basic"
+  },
+  {
+    "path": "/dentists"
+  },
+  {
+    "path": "/contractors"
+  },
+  {
+    "path": "/payment-confirmation"
+  },
+  {
+    "path": "/payment-failed"
+  },
+  {
+    "path": "/business-plan"
+  },
+  {
+    "path": "/flow"
+  },
+  {
+    "path": "/xero"
+  },
+  {
+    "path": "/quickbooks"
+  },
+  {
+    "path": "/sage"
+  },
+  {
+    "path": "/freeagent"
+  },
+  {
+    "path": "/dext"
+  },
+  {
+    "path": "/taxcalc"
+  },
+  {
+    "path": "/btc-software"
+  },
+  {
+    "path": "/anna"
+  },
+  {
+    "path": "/tide"
+  },
+  {
+    "path": "/mettle"
+  },
+  {
+    "path": "/monzo"
+  },
+  {
+    "path": "/revolut"
+  },
+  {
+    "path": "/starling"
+  },
+  {
+    "path": "/self-employed"
+  },
+  {
+    "path": "/e-commerce"
+  },
+  {
+    "path": "/amazon-seller"
+  },
+  {
+    "path": "/shopify"
+  },
+  {
+    "path": "/saas"
+  },
+  {
+    "path": "/ebay-seller"
+  },
+  {
+    "path": "/woocommerce"
+  },
+  {
+    "path": "/dropshipping"
+  },
+  {
+    "path": "/freelancers"
+  },
+  {
+    "path": "/small-business"
+  },
+  {
+    "path": "/property-landlords"
+  },
+  {
+    "path": "/furnished-holiday-letting"
+  },
+  {
+    "path": "/contractors-insurance"
+  },
+  {
+    "path": "/ir35-contractors-review"
+  },
+  {
+    "path": "/hotels-restaurants-bars"
+  },
+  {
+    "path": "/hairdressers-beauty-barbers"
+  },
+  {
+    "path": "/jewellers"
+  },
+  {
+    "path": "/construction-builders"
+  },
+  {
+    "path": "/media-creative-industries"
+  },
+  {
+    "path": "/optician-optometrists"
+  },
+  {
+    "path": "/core-package"
+  },
+  {
+    "path": "/spvs"
+  },
+  {
+    "path": "/pricing"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-westminster",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/autumn-budget-2024"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-marylebone",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-euston",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-beckenham",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-bexley",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-brixton",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-bromley",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-dartford",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-guildford",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-south-london",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-streatham",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-sutton",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-thornton-heath",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-twickenham",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-wimbledon",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-woking",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-beckenham",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-bexley",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-brixton",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-bromley",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-dartford",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-guildford",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-streatham",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-south-london",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-sutton",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-thornton-heath",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-twickenham",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-wimbledon",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-woking",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-east-london",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-enfield",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-hounslow",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-harrow",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountants-barking",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-harlow",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-kingston",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-staines",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-watford",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-romford",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-erith",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-east-london",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-enfield",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-hounslow",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-harrow",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-kingston",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-staines",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-watford",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-romford",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-harlow",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-erith",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-hornchruch",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-barking",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-hornchurch",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/team-member"
+  },
+  {
+    "path": "/testimonial"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-westminster",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-pimlico",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-convent-garden",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-leiscester-square",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-canan-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-mansion-house",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-temple",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-blackfriars",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-south-kensington",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-solane-square",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-holbom",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-picadility-road",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-charing-cross",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-st-james-park",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-tottenham-court-road",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-green-park",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-gloucester-road",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-knightsbridge",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-hyde-park-corner",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-high-street-kensington",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-marble-arch",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-queensway",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-aidgate",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-moorgate",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-st-pauls-bank",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-barbican",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-chancery-lane",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-farringdon",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-rusell-square",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-euston",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-goodge-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-oxford-circus",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-regents-park",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-warren-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-lancaster-gate",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-bond-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-nothing-hill-gate",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-edgeware-road",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-marylebone",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-baker-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-shoreditch-high-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-great-portland-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-bayswater",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-kings-cross-st-pancras",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-angel",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-hoxton",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-high-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-liverpool-street",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-aldgate-east",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-tower-hill",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-london-bridge",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-monument",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-borough",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-ambeth-north",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-bayswater",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-edgware-road",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-waterloo",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-southwark",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-embankment",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-shoreditch-high-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-tower-hill",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-edgware-road",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-euston-square",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-euston-square",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/self-assessment-tax-return-accountant-paddington",
+    "likelyRedirectTo": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-paddington",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-nothing-hill-gate",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-lancaster-gate",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-great-portland-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-kings-cross-st-pancras",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-angel",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-aldgate-east",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-hoxton",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-liverpool-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-high-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-baker-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-monument",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-borough",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-lambeth-north",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-southwark",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-embankment",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-waterloo",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-london-bridge",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-south-kensington",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-pimlico",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-solane-square",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-blackfriars",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-temple",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-mansion-house",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-canan-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-leiscester-square",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-convent-garden",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-holbom",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-picadility-road",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-charing-cross",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-st-james-park",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-tottenham-court-road",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-green-park",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-gloucester-road",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-knightsbridge",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-hyde-park-corner",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-high-street-kensington",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-marble-arch",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-queensway",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-aidgate",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-moorgate",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-st-pauls-bank",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-chancery-lane",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-barbican",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-farringdon",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-rusell-square",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-goodge-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-oxford-circus",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-regents-park",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-warren-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-bond-street",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/accounts/bookkeeping-services-for-small-business-edgeware-road",
+    "likelyRedirectTo": "/accounts/bookkeeping-services",
+    "note": "Looks like a location-specific variant of an existing page — consider a redirect"
+  },
+  {
+    "path": "/id-verification-form-for-companies-house"
+  },
+  {
+    "path": "/thank-you-transaction-result"
+  },
+  {
+    "path": "/shop-products"
+  },
+  {
+    "path": "/id-verification-form-for-companies-house/thank-you"
+  }
+]

@@ -143,15 +143,15 @@ const LetPropertyCampaign = () => {
               <p className="text-lg font-semibold mt-4">especially where property ownership has existed for several years.</p>
             </div>
           }
-          right={<PlaceholderImage />}
+          right={<img src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/08/young-asian-household-woman-busy-with-bills-and-ta-2023-03-13-21-42-15-utc-scaled.jpg" alt="Let Property Campaign" className="rounded-lg shadow-lg w-full object-cover" />}
         />
       </Section>
 
       {/* Section 4: Dual Growth-Dilemma */}
       <Section bg="bg-brand-panel-light-grey">
         <div className="space-y-12">
-          <TwoColumnGrid left={<div><h3 className="text-2xl font-bold text-brand-teal">Why EMI Schemes Become Strategically Important as Businesses Grow</h3><h4 className="text-xl font-semibold mb-2">Property income rarely stays simple over time</h4><p className="text-lg text-gray-700">At the beginning, a landlord may own only one property. The rental income feels straightforward. One tenant. One payment stream. One mortgage. Then circumstances change. Mortgage structures are refinanced. Ownership percentages shift. Rental gaps occur. Properties are sold. Overseas movement happens. Improvements are mixed with repairs. Records become fragmented between accountants, spreadsheets, bank statements, and letting agents. At that point, the tax position usually stops matching the landlord’s understanding of it. The problem is not just “undeclared rent.” It becomes a wider issue involving how the property activity was tracked, reported, and structured over time.</p></div>} right={<PlaceholderImage />} />
-          <TwoColumnGrid reverse={true} left={<div><h4 className="text-xl font-semibold mb-2">Delay quietly increases the risk</h4><p className="text-lg text-gray-700">Many landlords postpone disclosure because the issue feels uncomfortable rather than urgent. That delay is where the exposure grows. Interest continues building. Penalty positioning changes. Records become harder to retrieve. Mortgage histories disappear. Older expense evidence weakens. Disposal decisions happen before the historic income position is corrected. By the time many landlords seek professional help, the position is no longer about routine tax filing. It has become a disclosure strategy issue.</p></div>} right={<PlaceholderImage />} />
+          <TwoColumnGrid left={<div><h3 className="text-2xl font-bold text-brand-teal">Why EMI Schemes Become Strategically Important as Businesses Grow</h3><h4 className="text-xl font-semibold mb-2">Property income rarely stays simple over time</h4><p className="text-lg text-gray-700">At the beginning, a landlord may own only one property. The rental income feels straightforward. One tenant. One payment stream. One mortgage. Then circumstances change. Mortgage structures are refinanced. Ownership percentages shift. Rental gaps occur. Properties are sold. Overseas movement happens. Improvements are mixed with repairs. Records become fragmented between accountants, spreadsheets, bank statements, and letting agents. At that point, the tax position usually stops matching the landlord’s understanding of it. The problem is not just “undeclared rent.” It becomes a wider issue involving how the property activity was tracked, reported, and structured over time.</p></div>} right={<img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Let-Property-Campaign-Insight-Section-–-Most-Let-Property-Campaign-Problems-Start-scaled.webp" alt="Let Property Campaign" className="rounded-lg shadow-lg w-full object-cover" />} />
+          <TwoColumnGrid reverse={true} left={<div><h4 className="text-xl font-semibold mb-2">Delay quietly increases the risk</h4><p className="text-lg text-gray-700">Many landlords postpone disclosure because the issue feels uncomfortable rather than urgent. That delay is where the exposure grows. Interest continues building. Penalty positioning changes. Records become harder to retrieve. Mortgage histories disappear. Older expense evidence weakens. Disposal decisions happen before the historic income position is corrected. By the time many landlords seek professional help, the position is no longer about routine tax filing. It has become a disclosure strategy issue.</p></div>} right={<img src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/08/young-asian-household-woman-busy-with-bills-and-ta-2023-03-13-21-42-15-utc-scaled.jpg" alt="Let Property Campaign" className="rounded-lg shadow-lg w-full object-cover" />} />
         </div>
       </Section>
 
@@ -179,7 +179,7 @@ const LetPropertyCampaign = () => {
       {/* Section 7: Timing */}
       <Section>
         <TwoColumnGrid 
-          left={<PlaceholderImage />}
+          left={<img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Let-Property-Campaign-The-Difference-Between-a-Prompted-Unprompted-Disclosure.webp" alt="Let Property Campaign" className="rounded-lg shadow-lg w-full object-cover" />}
           right={
             <div>
               <h2 className="text-3xl font-bold text-brand-teal mb-4">The Difference Between a Prompted and Unprompted Disclosure</h2>
@@ -215,7 +215,7 @@ const LetPropertyCampaign = () => {
               <p className="text-lg font-semibold mt-4">This creates a direct overlap between: Let Property Campaign disclosures, capital gains tax planning, inheritance tax planning, tax advisory services, self assessment corrections particularly where properties have been held for many years.</p>
             </div>
           }
-          right={<PlaceholderImage />}
+          right={<img src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/08/young-asian-household-woman-busy-with-bills-and-ta-2023-03-13-21-42-15-utc-scaled.jpg" alt="Let Property Campaign" className="rounded-lg shadow-lg w-full object-cover" />}
         />
       </Section>
 
@@ -231,7 +231,7 @@ const LetPropertyCampaign = () => {
       <Section>
         <TwoColumnGrid 
           reverse={true}
-          left={<PlaceholderImage />}
+          left={<img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Let-Property-Campaign-Let-Property-Campaign-and-Non-UK-Resident-Landlords.webp" alt="Let Property Campaign" className="rounded-lg shadow-lg w-full object-cover" />}
           right={
             <div>
               <h2 className="text-3xl font-bold text-brand-teal mb-4">Let Property Campaign and Non-UK Resident Landlords</h2>
@@ -302,7 +302,7 @@ const LetPropertyCampaign = () => {
               <p className="text-lg font-semibold mt-4">This becomes especially important where multiple tax years are involved.</p>
             </div>
           }
-          right={<PlaceholderImage />}
+          right={<img src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/08/young-asian-household-woman-busy-with-bills-and-ta-2023-03-13-21-42-15-utc-scaled.jpg" alt="Let Property Campaign" className="rounded-lg shadow-lg w-full object-cover" />}
         />
       </Section>
 
@@ -310,7 +310,7 @@ const LetPropertyCampaign = () => {
       <Section bg="bg-brand-panel-light-grey">
         <TwoColumnGrid 
           reverse={true}
-          left={<PlaceholderImage />}
+          left={<img src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/08/young-asian-household-woman-busy-with-bills-and-ta-2023-03-13-21-42-15-utc-scaled.jpg" alt="Let Property Campaign" className="rounded-lg shadow-lg w-full object-cover" />}
           right={
             <div>
               <h2 className="text-3xl font-bold text-brand-teal mb-4">Let Property Campaign and Wider Financial Reporting</h2>

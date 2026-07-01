@@ -6,12 +6,26 @@
   "basePath": "",
   "redirects": [
     {
-      "source": "/:path+/",
-      "destination": "/:path+",
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "priority": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
       "internal": true,
       "priority": true,
       "statusCode": 308,
-      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
     }
   ],
   "headers": [],
@@ -21,32 +35,7 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [
-    {
-      "page": "/blog/[slug]",
-      "regex": "^/blog/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPslug": "nxtPslug"
-      },
-      "namedRegex": "^/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/packages/[slug]",
-      "regex": "^/packages/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPslug": "nxtPslug"
-      },
-      "namedRegex": "^/packages/(?<nxtPslug>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/taxation/[slug]",
-      "regex": "^/taxation/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPslug": "nxtPslug"
-      },
-      "namedRegex": "^/taxation/(?<nxtPslug>[^/]+?)(?:/)?$"
-    }
-  ],
+  "dynamicRoutes": [],
   "staticRoutes": [
     {
       "page": "/",
@@ -151,6 +140,24 @@
       "namedRegex": "^/accounts/statutory\\-accounts(?:/)?$"
     },
     {
+      "page": "/amazon-seller",
+      "regex": "^/amazon\\-seller(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/amazon\\-seller(?:/)?$"
+    },
+    {
+      "page": "/anna",
+      "regex": "^/anna(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/anna(?:/)?$"
+    },
+    {
+      "page": "/autumn-budget-2024",
+      "regex": "^/autumn\\-budget\\-2024(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/autumn\\-budget\\-2024(?:/)?$"
+    },
+    {
       "page": "/awards-accolades-accreditations",
       "regex": "^/awards\\-accolades\\-accreditations(?:/)?$",
       "routeKeys": {},
@@ -169,6 +176,864 @@
       "namedRegex": "^/blog(?:/)?$"
     },
     {
+      "page": "/blog/4-reasons-why-you-should-incorporate-your-property-business",
+      "regex": "^/blog/4\\-reasons\\-why\\-you\\-should\\-incorporate\\-your\\-property\\-business(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/4\\-reasons\\-why\\-you\\-should\\-incorporate\\-your\\-property\\-business(?:/)?$"
+    },
+    {
+      "page": "/blog/4-things-you-should-consider-while-choosing-the-company-structure-of-your-property-business",
+      "regex": "^/blog/4\\-things\\-you\\-should\\-consider\\-while\\-choosing\\-the\\-company\\-structure\\-of\\-your\\-property\\-business(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/4\\-things\\-you\\-should\\-consider\\-while\\-choosing\\-the\\-company\\-structure\\-of\\-your\\-property\\-business(?:/)?$"
+    },
+    {
+      "page": "/blog/4-ways-to-reduce-cgt-when-selling-your-property",
+      "regex": "^/blog/4\\-ways\\-to\\-reduce\\-cgt\\-when\\-selling\\-your\\-property(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/4\\-ways\\-to\\-reduce\\-cgt\\-when\\-selling\\-your\\-property(?:/)?$"
+    },
+    {
+      "page": "/blog/4-ways-you-can-reduce-your-capital-gains-tax-bill-when-selling-shares",
+      "regex": "^/blog/4\\-ways\\-you\\-can\\-reduce\\-your\\-capital\\-gains\\-tax\\-bill\\-when\\-selling\\-shares(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/4\\-ways\\-you\\-can\\-reduce\\-your\\-capital\\-gains\\-tax\\-bill\\-when\\-selling\\-shares(?:/)?$"
+    },
+    {
+      "page": "/blog/5-tax-tips-for-the-landlords-that-can-save-you-money",
+      "regex": "^/blog/5\\-tax\\-tips\\-for\\-the\\-landlords\\-that\\-can\\-save\\-you\\-money(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/5\\-tax\\-tips\\-for\\-the\\-landlords\\-that\\-can\\-save\\-you\\-money(?:/)?$"
+    },
+    {
+      "page": "/blog/6-things-you-should-know-about-reporting-the-capital-gains-tax-when-selling-property",
+      "regex": "^/blog/6\\-things\\-you\\-should\\-know\\-about\\-reporting\\-the\\-capital\\-gains\\-tax\\-when\\-selling\\-property(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/6\\-things\\-you\\-should\\-know\\-about\\-reporting\\-the\\-capital\\-gains\\-tax\\-when\\-selling\\-property(?:/)?$"
+    },
+    {
+      "page": "/blog/a-new-post-by-rizwan",
+      "regex": "^/blog/a\\-new\\-post\\-by\\-rizwan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/a\\-new\\-post\\-by\\-rizwan(?:/)?$"
+    },
+    {
+      "page": "/blog/accountants-in-croydon",
+      "regex": "^/blog/accountants\\-in\\-croydon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/accountants\\-in\\-croydon(?:/)?$"
+    },
+    {
+      "page": "/blog/airbnb-income-what-tax-exemptions-can-i-get",
+      "regex": "^/blog/airbnb\\-income\\-what\\-tax\\-exemptions\\-can\\-i\\-get(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/airbnb\\-income\\-what\\-tax\\-exemptions\\-can\\-i\\-get(?:/)?$"
+    },
+    {
+      "page": "/blog/amazon-online-sellers-vat-guide-uk",
+      "regex": "^/blog/amazon\\-online\\-sellers\\-vat\\-guide\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/amazon\\-online\\-sellers\\-vat\\-guide\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/amazon-sellers-accounting-guide-uk",
+      "regex": "^/blog/amazon\\-sellers\\-accounting\\-guide\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/amazon\\-sellers\\-accounting\\-guide\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/amazon-sellers-vat-guide-uk",
+      "regex": "^/blog/amazon\\-sellers\\-vat\\-guide\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/amazon\\-sellers\\-vat\\-guide\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/as-a-landlord-how-will-i-be-taxed-on-the-rental-income-and-what-tax-deadlines-should-i-be-aware-of",
+      "regex": "^/blog/as\\-a\\-landlord\\-how\\-will\\-i\\-be\\-taxed\\-on\\-the\\-rental\\-income\\-and\\-what\\-tax\\-deadlines\\-should\\-i\\-be\\-aware\\-of(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/as\\-a\\-landlord\\-how\\-will\\-i\\-be\\-taxed\\-on\\-the\\-rental\\-income\\-and\\-what\\-tax\\-deadlines\\-should\\-i\\-be\\-aware\\-of(?:/)?$"
+    },
+    {
+      "page": "/blog/ated-2025",
+      "regex": "^/blog/ated\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/ated\\-2025(?:/)?$"
+    },
+    {
+      "page": "/blog/best-accounting-firms-in-croydon",
+      "regex": "^/blog/best\\-accounting\\-firms\\-in\\-croydon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/best\\-accounting\\-firms\\-in\\-croydon(?:/)?$"
+    },
+    {
+      "page": "/blog/business-asset-disposal-relief",
+      "regex": "^/blog/business\\-asset\\-disposal\\-relief(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/business\\-asset\\-disposal\\-relief(?:/)?$"
+    },
+    {
+      "page": "/blog/business-asset-disposal-relief-uk-guide",
+      "regex": "^/blog/business\\-asset\\-disposal\\-relief\\-uk\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/business\\-asset\\-disposal\\-relief\\-uk\\-guide(?:/)?$"
+    },
+    {
+      "page": "/blog/buying-a-car-for-your-limited-company-uk-guide",
+      "regex": "^/blog/buying\\-a\\-car\\-for\\-your\\-limited\\-company\\-uk\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/buying\\-a\\-car\\-for\\-your\\-limited\\-company\\-uk\\-guide(?:/)?$"
+    },
+    {
+      "page": "/blog/buying-a-new-house-before-selling-my-old-home-what-will-be-the-tax-implications",
+      "regex": "^/blog/buying\\-a\\-new\\-house\\-before\\-selling\\-my\\-old\\-home\\-what\\-will\\-be\\-the\\-tax\\-implications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/buying\\-a\\-new\\-house\\-before\\-selling\\-my\\-old\\-home\\-what\\-will\\-be\\-the\\-tax\\-implications(?:/)?$"
+    },
+    {
+      "page": "/blog/calculate-rental-profits-losses-uk",
+      "regex": "^/blog/calculate\\-rental\\-profits\\-losses\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/calculate\\-rental\\-profits\\-losses\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/can-i-make-gifts-which-are-exempt-from-tax",
+      "regex": "^/blog/can\\-i\\-make\\-gifts\\-which\\-are\\-exempt\\-from\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/can\\-i\\-make\\-gifts\\-which\\-are\\-exempt\\-from\\-tax(?:/)?$"
+    },
+    {
+      "page": "/blog/chancellor-in-autumn-statement-9-4",
+      "regex": "^/blog/chancellor\\-in\\-autumn\\-statement\\-9\\-4(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/chancellor\\-in\\-autumn\\-statement\\-9\\-4(?:/)?$"
+    },
+    {
+      "page": "/blog/closing-limited-company-uk-guide",
+      "regex": "^/blog/closing\\-limited\\-company\\-uk\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/closing\\-limited\\-company\\-uk\\-guide(?:/)?$"
+    },
+    {
+      "page": "/blog/complete-guide-to-unique-tax-reference-numbers",
+      "regex": "^/blog/complete\\-guide\\-to\\-unique\\-tax\\-reference\\-numbers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/complete\\-guide\\-to\\-unique\\-tax\\-reference\\-numbers(?:/)?$"
+    },
+    {
+      "page": "/blog/construction-vat-reverse-charge-uk",
+      "regex": "^/blog/construction\\-vat\\-reverse\\-charge\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/construction\\-vat\\-reverse\\-charge\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/contractor-and-ir-35-when-does-it-apply-to-you",
+      "regex": "^/blog/contractor\\-and\\-ir\\-35\\-when\\-does\\-it\\-apply\\-to\\-you(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/contractor\\-and\\-ir\\-35\\-when\\-does\\-it\\-apply\\-to\\-you(?:/)?$"
+    },
+    {
+      "page": "/blog/corporation-tax-increase-by-6-will-it-affect-your-property-business",
+      "regex": "^/blog/corporation\\-tax\\-increase\\-by\\-6\\-will\\-it\\-affect\\-your\\-property\\-business(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/corporation\\-tax\\-increase\\-by\\-6\\-will\\-it\\-affect\\-your\\-property\\-business(?:/)?$"
+    },
+    {
+      "page": "/blog/deadline-for-reporting-capital-gains-tax-do-i-have-to-report-them-with-the-self-assessment-tax-return",
+      "regex": "^/blog/deadline\\-for\\-reporting\\-capital\\-gains\\-tax\\-do\\-i\\-have\\-to\\-report\\-them\\-with\\-the\\-self\\-assessment\\-tax\\-return(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/deadline\\-for\\-reporting\\-capital\\-gains\\-tax\\-do\\-i\\-have\\-to\\-report\\-them\\-with\\-the\\-self\\-assessment\\-tax\\-return(?:/)?$"
+    },
+    {
+      "page": "/blog/discretionery-trusts",
+      "regex": "^/blog/discretionery\\-trusts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/discretionery\\-trusts(?:/)?$"
+    },
+    {
+      "page": "/blog/do-i-get-any-relief-if-i-am-a-sme-and-am-starting-a-new-business-due-to-covid",
+      "regex": "^/blog/do\\-i\\-get\\-any\\-relief\\-if\\-i\\-am\\-a\\-sme\\-and\\-am\\-starting\\-a\\-new\\-business\\-due\\-to\\-covid(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/do\\-i\\-get\\-any\\-relief\\-if\\-i\\-am\\-a\\-sme\\-and\\-am\\-starting\\-a\\-new\\-business\\-due\\-to\\-covid(?:/)?$"
+    },
+    {
+      "page": "/blog/do-i-have-everything-i-need-to-file-my-accounts-in-september-2021",
+      "regex": "^/blog/do\\-i\\-have\\-everything\\-i\\-need\\-to\\-file\\-my\\-accounts\\-in\\-september\\-2021(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/do\\-i\\-have\\-everything\\-i\\-need\\-to\\-file\\-my\\-accounts\\-in\\-september\\-2021(?:/)?$"
+    },
+    {
+      "page": "/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader",
+      "regex": "^/blog/do\\-i\\-have\\-to\\-pay\\-taxes\\-in\\-the\\-first\\-year\\-of\\-my\\-business\\-as\\-a\\-sole\\-trader(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/do\\-i\\-have\\-to\\-pay\\-taxes\\-in\\-the\\-first\\-year\\-of\\-my\\-business\\-as\\-a\\-sole\\-trader(?:/)?$"
+    },
+    {
+      "page": "/blog/do-i-need-a-cashflow-forecast-for-my-startup",
+      "regex": "^/blog/do\\-i\\-need\\-a\\-cashflow\\-forecast\\-for\\-my\\-startup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/do\\-i\\-need\\-a\\-cashflow\\-forecast\\-for\\-my\\-startup(?:/)?$"
+    },
+    {
+      "page": "/blog/do-limited-companies-pay-capital-gains-tax",
+      "regex": "^/blog/do\\-limited\\-companies\\-pay\\-capital\\-gains\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/do\\-limited\\-companies\\-pay\\-capital\\-gains\\-tax(?:/)?$"
+    },
+    {
+      "page": "/blog/employee-benefits-and-what-are-the-related-taxes",
+      "regex": "^/blog/employee\\-benefits\\-and\\-what\\-are\\-the\\-related\\-taxes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/employee\\-benefits\\-and\\-what\\-are\\-the\\-related\\-taxes(?:/)?$"
+    },
+    {
+      "page": "/blog/employee-shareholder-what-tax-advantages-do-i-have",
+      "regex": "^/blog/employee\\-shareholder\\-what\\-tax\\-advantages\\-do\\-i\\-have(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/employee\\-shareholder\\-what\\-tax\\-advantages\\-do\\-i\\-have(?:/)?$"
+    },
+    {
+      "page": "/blog/everything-you-need-to-know-about-being-taxed-through-an-umbrella-company",
+      "regex": "^/blog/everything\\-you\\-need\\-to\\-know\\-about\\-being\\-taxed\\-through\\-an\\-umbrella\\-company(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/everything\\-you\\-need\\-to\\-know\\-about\\-being\\-taxed\\-through\\-an\\-umbrella\\-company(?:/)?$"
+    },
+    {
+      "page": "/blog/gift-holdover-relief-gifting-assets-without-triggering-capital-gains-tax",
+      "regex": "^/blog/gift\\-holdover\\-relief\\-gifting\\-assets\\-without\\-triggering\\-capital\\-gains\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/gift\\-holdover\\-relief\\-gifting\\-assets\\-without\\-triggering\\-capital\\-gains\\-tax(?:/)?$"
+    },
+    {
+      "page": "/blog/higher-employer-nics-in-2025",
+      "regex": "^/blog/higher\\-employer\\-nics\\-in\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/higher\\-employer\\-nics\\-in\\-2025(?:/)?$"
+    },
+    {
+      "page": "/blog/hmrc-penalties-investigations",
+      "regex": "^/blog/hmrc\\-penalties\\-investigations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/hmrc\\-penalties\\-investigations(?:/)?$"
+    },
+    {
+      "page": "/blog/hmrc-tax-rule-changes-april-2026",
+      "regex": "^/blog/hmrc\\-tax\\-rule\\-changes\\-april\\-2026(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/hmrc\\-tax\\-rule\\-changes\\-april\\-2026(?:/)?$"
+    },
+    {
+      "page": "/blog/holdover-relief-capital-gains-tax",
+      "regex": "^/blog/holdover\\-relief\\-capital\\-gains\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/holdover\\-relief\\-capital\\-gains\\-tax(?:/)?$"
+    },
+    {
+      "page": "/blog/home-baker-business-expenses-you-can-claim-if-you-are-self-employed",
+      "regex": "^/blog/home\\-baker\\-business\\-expenses\\-you\\-can\\-claim\\-if\\-you\\-are\\-self\\-employed(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/home\\-baker\\-business\\-expenses\\-you\\-can\\-claim\\-if\\-you\\-are\\-self\\-employed(?:/)?$"
+    },
+    {
+      "page": "/blog/how-ai-is-changing-accounting-education",
+      "regex": "^/blog/how\\-ai\\-is\\-changing\\-accounting\\-education(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-ai\\-is\\-changing\\-accounting\\-education(?:/)?$"
+    },
+    {
+      "page": "/blog/how-can-i-minimise-my-taxes-on-my-property-income",
+      "regex": "^/blog/how\\-can\\-i\\-minimise\\-my\\-taxes\\-on\\-my\\-property\\-income(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-can\\-i\\-minimise\\-my\\-taxes\\-on\\-my\\-property\\-income(?:/)?$"
+    },
+    {
+      "page": "/blog/how-can-i-prepare-my-business-for-ioss",
+      "regex": "^/blog/how\\-can\\-i\\-prepare\\-my\\-business\\-for\\-ioss(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-can\\-i\\-prepare\\-my\\-business\\-for\\-ioss(?:/)?$"
+    },
+    {
+      "page": "/blog/how-much-do-accountants-charge-and-why-fees-vary",
+      "regex": "^/blog/how\\-much\\-do\\-accountants\\-charge\\-and\\-why\\-fees\\-vary(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-much\\-do\\-accountants\\-charge\\-and\\-why\\-fees\\-vary(?:/)?$"
+    },
+    {
+      "page": "/blog/how-much-does-it-cost-to-outsource-payroll-in-the-uk",
+      "regex": "^/blog/how\\-much\\-does\\-it\\-cost\\-to\\-outsource\\-payroll\\-in\\-the\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-much\\-does\\-it\\-cost\\-to\\-outsource\\-payroll\\-in\\-the\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/how-much-salary-to-pay-yourself-uk-2025",
+      "regex": "^/blog/how\\-much\\-salary\\-to\\-pay\\-yourself\\-uk\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-much\\-salary\\-to\\-pay\\-yourself\\-uk\\-2025(?:/)?$"
+    },
+    {
+      "page": "/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home",
+      "regex": "^/blog/how\\-much\\-tax\\-will\\-i\\-pay\\-on\\-my\\-bonus\\-and\\-how\\-much\\-will\\-i\\-take\\-home(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-much\\-tax\\-will\\-i\\-pay\\-on\\-my\\-bonus\\-and\\-how\\-much\\-will\\-i\\-take\\-home(?:/)?$"
+    },
+    {
+      "page": "/blog/how-to-avoid-inheritance-tax-when-the-second-parent-dies",
+      "regex": "^/blog/how\\-to\\-avoid\\-inheritance\\-tax\\-when\\-the\\-second\\-parent\\-dies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-to\\-avoid\\-inheritance\\-tax\\-when\\-the\\-second\\-parent\\-dies(?:/)?$"
+    },
+    {
+      "page": "/blog/how-to-close-a-limited-company",
+      "regex": "^/blog/how\\-to\\-close\\-a\\-limited\\-company(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-to\\-close\\-a\\-limited\\-company(?:/)?$"
+    },
+    {
+      "page": "/blog/how-to-open-a-business-bank-account-in-the-uk",
+      "regex": "^/blog/how\\-to\\-open\\-a\\-business\\-bank\\-account\\-in\\-the\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-to\\-open\\-a\\-business\\-bank\\-account\\-in\\-the\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/how-to-reduce-capital-gains-tax-bill",
+      "regex": "^/blog/how\\-to\\-reduce\\-capital\\-gains\\-tax\\-bill(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-to\\-reduce\\-capital\\-gains\\-tax\\-bill(?:/)?$"
+    },
+    {
+      "page": "/blog/how-uk-companies-can-pay-their-corporation-tax-in-installments",
+      "regex": "^/blog/how\\-uk\\-companies\\-can\\-pay\\-their\\-corporation\\-tax\\-in\\-installments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-uk\\-companies\\-can\\-pay\\-their\\-corporation\\-tax\\-in\\-installments(?:/)?$"
+    },
+    {
+      "page": "/blog/how-will-seiss-grant-be-taxed",
+      "regex": "^/blog/how\\-will\\-seiss\\-grant\\-be\\-taxed(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-will\\-seiss\\-grant\\-be\\-taxed(?:/)?$"
+    },
+    {
+      "page": "/blog/how-will-vat-change-after-brexit",
+      "regex": "^/blog/how\\-will\\-vat\\-change\\-after\\-brexit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-will\\-vat\\-change\\-after\\-brexit(?:/)?$"
+    },
+    {
+      "page": "/blog/i-am-a-landlord-how-much-ni-will-i-have-to-pay",
+      "regex": "^/blog/i\\-am\\-a\\-landlord\\-how\\-much\\-ni\\-will\\-i\\-have\\-to\\-pay(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-am\\-a\\-landlord\\-how\\-much\\-ni\\-will\\-i\\-have\\-to\\-pay(?:/)?$"
+    },
+    {
+      "page": "/blog/i-am-a-taxi-driver-can-i-apply-for-a-grant-through-self-employment-income-support-scheme",
+      "regex": "^/blog/i\\-am\\-a\\-taxi\\-driver\\-can\\-i\\-apply\\-for\\-a\\-grant\\-through\\-self\\-employment\\-income\\-support\\-scheme(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-am\\-a\\-taxi\\-driver\\-can\\-i\\-apply\\-for\\-a\\-grant\\-through\\-self\\-employment\\-income\\-support\\-scheme(?:/)?$"
+    },
+    {
+      "page": "/blog/i-am-renting-a-room-can-rent-a-room-relief-apply-to-me",
+      "regex": "^/blog/i\\-am\\-renting\\-a\\-room\\-can\\-rent\\-a\\-room\\-relief\\-apply\\-to\\-me(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-am\\-renting\\-a\\-room\\-can\\-rent\\-a\\-room\\-relief\\-apply\\-to\\-me(?:/)?$"
+    },
+    {
+      "page": "/blog/i-am-running-a-charity-what-are-my-accounting-requirements",
+      "regex": "^/blog/i\\-am\\-running\\-a\\-charity\\-what\\-are\\-my\\-accounting\\-requirements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-am\\-running\\-a\\-charity\\-what\\-are\\-my\\-accounting\\-requirements(?:/)?$"
+    },
+    {
+      "page": "/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it",
+      "regex": "^/blog/i\\-have\\-crypto\\-currency\\-will\\-i\\-be\\-paying\\-taxes\\-on\\-it(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-have\\-crypto\\-currency\\-will\\-i\\-be\\-paying\\-taxes\\-on\\-it(?:/)?$"
+    },
+    {
+      "page": "/blog/i-have-income-from-abroad-do-i-report-it-to-hmrc",
+      "regex": "^/blog/i\\-have\\-income\\-from\\-abroad\\-do\\-i\\-report\\-it\\-to\\-hmrc(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-have\\-income\\-from\\-abroad\\-do\\-i\\-report\\-it\\-to\\-hmrc(?:/)?$"
+    },
+    {
+      "page": "/blog/i-have-inherited-a-property-should-i-pay-capital-gains-tax-on-it",
+      "regex": "^/blog/i\\-have\\-inherited\\-a\\-property\\-should\\-i\\-pay\\-capital\\-gains\\-tax\\-on\\-it(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-have\\-inherited\\-a\\-property\\-should\\-i\\-pay\\-capital\\-gains\\-tax\\-on\\-it(?:/)?$"
+    },
+    {
+      "page": "/blog/i-have-inherited-shares-do-i-pay-any-taxes",
+      "regex": "^/blog/i\\-have\\-inherited\\-shares\\-do\\-i\\-pay\\-any\\-taxes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-have\\-inherited\\-shares\\-do\\-i\\-pay\\-any\\-taxes(?:/)?$"
+    },
+    {
+      "page": "/blog/i-own-a-property-how-can-i-reduce-my-inheritance-tax-bill",
+      "regex": "^/blog/i\\-own\\-a\\-property\\-how\\-can\\-i\\-reduce\\-my\\-inheritance\\-tax\\-bill(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-own\\-a\\-property\\-how\\-can\\-i\\-reduce\\-my\\-inheritance\\-tax\\-bill(?:/)?$"
+    },
+    {
+      "page": "/blog/i-sell-goods-on-ebay-do-i-need-to-register-for-ioss-import-one-stop-shop",
+      "regex": "^/blog/i\\-sell\\-goods\\-on\\-ebay\\-do\\-i\\-need\\-to\\-register\\-for\\-ioss\\-import\\-one\\-stop\\-shop(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/i\\-sell\\-goods\\-on\\-ebay\\-do\\-i\\-need\\-to\\-register\\-for\\-ioss\\-import\\-one\\-stop\\-shop(?:/)?$"
+    },
+    {
+      "page": "/blog/identity-for-companies-house",
+      "regex": "^/blog/identity\\-for\\-companies\\-house(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/identity\\-for\\-companies\\-house(?:/)?$"
+    },
+    {
+      "page": "/blog/income-tax-additional-rate-threshold-uk",
+      "regex": "^/blog/income\\-tax\\-additional\\-rate\\-threshold\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/income\\-tax\\-additional\\-rate\\-threshold\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/increase-in-the-personal-allowance-how-does-it-affect-you",
+      "regex": "^/blog/increase\\-in\\-the\\-personal\\-allowance\\-how\\-does\\-it\\-affect\\-you(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/increase\\-in\\-the\\-personal\\-allowance\\-how\\-does\\-it\\-affect\\-you(?:/)?$"
+    },
+    {
+      "page": "/blog/inheritance-tax-planning-and-business-property-relief",
+      "regex": "^/blog/inheritance\\-tax\\-planning\\-and\\-business\\-property\\-relief(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/inheritance\\-tax\\-planning\\-and\\-business\\-property\\-relief(?:/)?$"
+    },
+    {
+      "page": "/blog/is-it-a-good-idea-to-invest-in-btl-property",
+      "regex": "^/blog/is\\-it\\-a\\-good\\-idea\\-to\\-invest\\-in\\-btl\\-property(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/is\\-it\\-a\\-good\\-idea\\-to\\-invest\\-in\\-btl\\-property(?:/)?$"
+    },
+    {
+      "page": "/blog/locum-doctor-limited-company-uk",
+      "regex": "^/blog/locum\\-doctor\\-limited\\-company\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/locum\\-doctor\\-limited\\-company\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/making-tax-digital",
+      "regex": "^/blog/making\\-tax\\-digital(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/making\\-tax\\-digital(?:/)?$"
+    },
+    {
+      "page": "/blog/making-tax-digital-mtd-for-vat-explained-in-the-uk",
+      "regex": "^/blog/making\\-tax\\-digital\\-mtd\\-for\\-vat\\-explained\\-in\\-the\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/making\\-tax\\-digital\\-mtd\\-for\\-vat\\-explained\\-in\\-the\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/maximise-savings-minimise-tax",
+      "regex": "^/blog/maximise\\-savings\\-minimise\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/maximise\\-savings\\-minimise\\-tax(?:/)?$"
+    },
+    {
+      "page": "/blog/mergers-and-acquisitions",
+      "regex": "^/blog/mergers\\-and\\-acquisitions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/mergers\\-and\\-acquisitions(?:/)?$"
+    },
+    {
+      "page": "/blog/mini-budget-how-will-it-affect-you",
+      "regex": "^/blog/mini\\-budget\\-how\\-will\\-it\\-affect\\-you(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/mini\\-budget\\-how\\-will\\-it\\-affect\\-you(?:/)?$"
+    },
+    {
+      "page": "/blog/my-business-is-making-losses-will-i-be-better-off-if-i-incorporate-my-business",
+      "regex": "^/blog/my\\-business\\-is\\-making\\-losses\\-will\\-i\\-be\\-better\\-off\\-if\\-i\\-incorporate\\-my\\-business(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/my\\-business\\-is\\-making\\-losses\\-will\\-i\\-be\\-better\\-off\\-if\\-i\\-incorporate\\-my\\-business(?:/)?$"
+    },
+    {
+      "page": "/blog/my-parents-gifted-me-their-house-what-taxes-do-we-need-to-pay",
+      "regex": "^/blog/my\\-parents\\-gifted\\-me\\-their\\-house\\-what\\-taxes\\-do\\-we\\-need\\-to\\-pay(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/my\\-parents\\-gifted\\-me\\-their\\-house\\-what\\-taxes\\-do\\-we\\-need\\-to\\-pay(?:/)?$"
+    },
+    {
+      "page": "/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options",
+      "regex": "^/blog/my\\-parents\\-want\\-to\\-help\\-me\\-buy\\-a\\-house\\-what\\-are\\-the\\-2\\-options(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/my\\-parents\\-want\\-to\\-help\\-me\\-buy\\-a\\-house\\-what\\-are\\-the\\-2\\-options(?:/)?$"
+    },
+    {
+      "page": "/blog/my-tax-return",
+      "regex": "^/blog/my\\-tax\\-return(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/my\\-tax\\-return(?:/)?$"
+    },
+    {
+      "page": "/blog/my-taxes-if-i-sell-on-amazon-as-a-sole-trader",
+      "regex": "^/blog/my\\-taxes\\-if\\-i\\-sell\\-on\\-amazon\\-as\\-a\\-sole\\-trader(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/my\\-taxes\\-if\\-i\\-sell\\-on\\-amazon\\-as\\-a\\-sole\\-trader(?:/)?$"
+    },
+    {
+      "page": "/blog/national-insurance-contributions-guide-uk",
+      "regex": "^/blog/national\\-insurance\\-contributions\\-guide\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/national\\-insurance\\-contributions\\-guide\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/national-insurance-how-much-do-i-have-to-pay",
+      "regex": "^/blog/national\\-insurance\\-how\\-much\\-do\\-i\\-have\\-to\\-pay(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/national\\-insurance\\-how\\-much\\-do\\-i\\-have\\-to\\-pay(?:/)?$"
+    },
+    {
+      "page": "/blog/national-insurance-increase-impact-uk",
+      "regex": "^/blog/national\\-insurance\\-increase\\-impact\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/national\\-insurance\\-increase\\-impact\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/national-minimum-living-wage-uk-2025",
+      "regex": "^/blog/national\\-minimum\\-living\\-wage\\-uk\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/national\\-minimum\\-living\\-wage\\-uk\\-2025(?:/)?$"
+    },
+    {
+      "page": "/blog/non-resident-sdlt-property-surcharge-uk",
+      "regex": "^/blog/non\\-resident\\-sdlt\\-property\\-surcharge\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/non\\-resident\\-sdlt\\-property\\-surcharge\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/non-uk-domiciled-individuals-tax-changes",
+      "regex": "^/blog/non\\-uk\\-domiciled\\-individuals\\-tax\\-changes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/non\\-uk\\-domiciled\\-individuals\\-tax\\-changes(?:/)?$"
+    },
+    {
+      "page": "/blog/online-selling-what-is-my-corporate-social-responsibility",
+      "regex": "^/blog/online\\-selling\\-what\\-is\\-my\\-corporate\\-social\\-responsibility(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/online\\-selling\\-what\\-is\\-my\\-corporate\\-social\\-responsibility(?:/)?$"
+    },
+    {
+      "page": "/blog/online-store-vat-implication-uk",
+      "regex": "^/blog/online\\-store\\-vat\\-implication\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/online\\-store\\-vat\\-implication\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/online-tutor-tax-and-expenses-in-uk",
+      "regex": "^/blog/online\\-tutor\\-tax\\-and\\-expenses\\-in\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/online\\-tutor\\-tax\\-and\\-expenses\\-in\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/payroll-outsourcing-for-small-businesses-vs-medium-enterprises",
+      "regex": "^/blog/payroll\\-outsourcing\\-for\\-small\\-businesses\\-vs\\-medium\\-enterprises(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/payroll\\-outsourcing\\-for\\-small\\-businesses\\-vs\\-medium\\-enterprises(?:/)?$"
+    },
+    {
+      "page": "/blog/post-brexit-vat-what-should-you-be-aware-of-if-you-sell-on-e-bay-or-amazon",
+      "regex": "^/blog/post\\-brexit\\-vat\\-what\\-should\\-you\\-be\\-aware\\-of\\-if\\-you\\-sell\\-on\\-e\\-bay\\-or\\-amazon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/post\\-brexit\\-vat\\-what\\-should\\-you\\-be\\-aware\\-of\\-if\\-you\\-sell\\-on\\-e\\-bay\\-or\\-amazon(?:/)?$"
+    },
+    {
+      "page": "/blog/property-income-reporting-hmrc-uk",
+      "regex": "^/blog/property\\-income\\-reporting\\-hmrc\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/property\\-income\\-reporting\\-hmrc\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/rd-tax-relief-regulations-2025-merged-rdec-eris",
+      "regex": "^/blog/rd\\-tax\\-relief\\-regulations\\-2025\\-merged\\-rdec\\-eris(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/rd\\-tax\\-relief\\-regulations\\-2025\\-merged\\-rdec\\-eris(?:/)?$"
+    },
+    {
+      "page": "/blog/report-covid-grants-loans-self-assessment",
+      "regex": "^/blog/report\\-covid\\-grants\\-loans\\-self\\-assessment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/report\\-covid\\-grants\\-loans\\-self\\-assessment(?:/)?$"
+    },
+    {
+      "page": "/blog/research-and-development-tax-relief-and-benefits-in-uk",
+      "regex": "^/blog/research\\-and\\-development\\-tax\\-relief\\-and\\-benefits\\-in\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/research\\-and\\-development\\-tax\\-relief\\-and\\-benefits\\-in\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/running-my-side-business-as-a-sole-trader-or-a-limited-company-which-one-will-be-more-tax-efficient",
+      "regex": "^/blog/running\\-my\\-side\\-business\\-as\\-a\\-sole\\-trader\\-or\\-a\\-limited\\-company\\-which\\-one\\-will\\-be\\-more\\-tax\\-efficient(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/running\\-my\\-side\\-business\\-as\\-a\\-sole\\-trader\\-or\\-a\\-limited\\-company\\-which\\-one\\-will\\-be\\-more\\-tax\\-efficient(?:/)?$"
+    },
+    {
+      "page": "/blog/seis-and-eis-tax-relief-london",
+      "regex": "^/blog/seis\\-and\\-eis\\-tax\\-relief\\-london(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/seis\\-and\\-eis\\-tax\\-relief\\-london(?:/)?$"
+    },
+    {
+      "page": "/blog/self-assessment-accountant-in-london",
+      "regex": "^/blog/self\\-assessment\\-accountant\\-in\\-london(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/self\\-assessment\\-accountant\\-in\\-london(?:/)?$"
+    },
+    {
+      "page": "/blog/self-assessment-deadline-extended",
+      "regex": "^/blog/self\\-assessment\\-deadline\\-extended(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/self\\-assessment\\-deadline\\-extended(?:/)?$"
+    },
+    {
+      "page": "/blog/self-assessment-tax-return-and-capital-gains-tax",
+      "regex": "^/blog/self\\-assessment\\-tax\\-return\\-and\\-capital\\-gains\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/self\\-assessment\\-tax\\-return\\-and\\-capital\\-gains\\-tax(?:/)?$"
+    },
+    {
+      "page": "/blog/selling-business-tax-liabilities-profits-uk",
+      "regex": "^/blog/selling\\-business\\-tax\\-liabilities\\-profits\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/selling\\-business\\-tax\\-liabilities\\-profits\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/selling-on-amazon-things-i-should-know-if-i-am-selling-as-a-sole-trader-or-a-limited-company",
+      "regex": "^/blog/selling\\-on\\-amazon\\-things\\-i\\-should\\-know\\-if\\-i\\-am\\-selling\\-as\\-a\\-sole\\-trader\\-or\\-a\\-limited\\-company(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/selling\\-on\\-amazon\\-things\\-i\\-should\\-know\\-if\\-i\\-am\\-selling\\-as\\-a\\-sole\\-trader\\-or\\-a\\-limited\\-company(?:/)?$"
+    },
+    {
+      "page": "/blog/selling-online-do-i-need-an-accountant",
+      "regex": "^/blog/selling\\-online\\-do\\-i\\-need\\-an\\-accountant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/selling\\-online\\-do\\-i\\-need\\-an\\-accountant(?:/)?$"
+    },
+    {
+      "page": "/blog/selling-property-can-i-claim-entrepreneurs-relief-on-its-disposal",
+      "regex": "^/blog/selling\\-property\\-can\\-i\\-claim\\-entrepreneurs\\-relief\\-on\\-its\\-disposal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/selling\\-property\\-can\\-i\\-claim\\-entrepreneurs\\-relief\\-on\\-its\\-disposal(?:/)?$"
+    },
+    {
+      "page": "/blog/selling-property-how-to-reduce-cgt-bill",
+      "regex": "^/blog/selling\\-property\\-how\\-to\\-reduce\\-cgt\\-bill(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/selling\\-property\\-how\\-to\\-reduce\\-cgt\\-bill(?:/)?$"
+    },
+    {
+      "page": "/blog/setting-up-a-charity-6-things-you-need-to-know",
+      "regex": "^/blog/setting\\-up\\-a\\-charity\\-6\\-things\\-you\\-need\\-to\\-know(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/setting\\-up\\-a\\-charity\\-6\\-things\\-you\\-need\\-to\\-know(?:/)?$"
+    },
+    {
+      "page": "/blog/setting-up-an-online-store",
+      "regex": "^/blog/setting\\-up\\-an\\-online\\-store(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/setting\\-up\\-an\\-online\\-store(?:/)?$"
+    },
+    {
+      "page": "/blog/should-i-incorporate-my-property-business",
+      "regex": "^/blog/should\\-i\\-incorporate\\-my\\-property\\-business(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/should\\-i\\-incorporate\\-my\\-property\\-business(?:/)?$"
+    },
+    {
+      "page": "/blog/should-i-take-the-directors-loan-and-how-should-i-treat-them-in-my-accounts",
+      "regex": "^/blog/should\\-i\\-take\\-the\\-directors\\-loan\\-and\\-how\\-should\\-i\\-treat\\-them\\-in\\-my\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/should\\-i\\-take\\-the\\-directors\\-loan\\-and\\-how\\-should\\-i\\-treat\\-them\\-in\\-my\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/blog/social-influencer-will-i-be-taxed",
+      "regex": "^/blog/social\\-influencer\\-will\\-i\\-be\\-taxed(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/social\\-influencer\\-will\\-i\\-be\\-taxed(?:/)?$"
+    },
+    {
+      "page": "/blog/social-media-influencers-and-endorsers-tax-guide-uk",
+      "regex": "^/blog/social\\-media\\-influencers\\-and\\-endorsers\\-tax\\-guide\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/social\\-media\\-influencers\\-and\\-endorsers\\-tax\\-guide\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc",
+      "regex": "^/blog/sold\\-my\\-property\\-back\\-home\\-when\\-and\\-how\\-do\\-i\\-report\\-it\\-to\\-hmrc(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/sold\\-my\\-property\\-back\\-home\\-when\\-and\\-how\\-do\\-i\\-report\\-it\\-to\\-hmrc(?:/)?$"
+    },
+    {
+      "page": "/blog/stamp-duty-cut-and-what-does-it-mean-to-the-landlords",
+      "regex": "^/blog/stamp\\-duty\\-cut\\-and\\-what\\-does\\-it\\-mean\\-to\\-the\\-landlords(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/stamp\\-duty\\-cut\\-and\\-what\\-does\\-it\\-mean\\-to\\-the\\-landlords(?:/)?$"
+    },
+    {
+      "page": "/blog/stamp-duty-holiday-eligibility-uk",
+      "regex": "^/blog/stamp\\-duty\\-holiday\\-eligibility\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/stamp\\-duty\\-holiday\\-eligibility\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/tax-due-in-july-as-a-sole-trader-payment-on-account",
+      "regex": "^/blog/tax\\-due\\-in\\-july\\-as\\-a\\-sole\\-trader\\-payment\\-on\\-account(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/tax\\-due\\-in\\-july\\-as\\-a\\-sole\\-trader\\-payment\\-on\\-account(?:/)?$"
+    },
+    {
+      "page": "/blog/the-company-is-offering-me-car-benefits-will-i-be-able-to-pause-if-the-circumstances-change-such-as-covid-19",
+      "regex": "^/blog/the\\-company\\-is\\-offering\\-me\\-car\\-benefits\\-will\\-i\\-be\\-able\\-to\\-pause\\-if\\-the\\-circumstances\\-change\\-such\\-as\\-covid\\-19(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/the\\-company\\-is\\-offering\\-me\\-car\\-benefits\\-will\\-i\\-be\\-able\\-to\\-pause\\-if\\-the\\-circumstances\\-change\\-such\\-as\\-covid\\-19(?:/)?$"
+    },
+    {
+      "page": "/blog/the-complete-uk-crypto-tax-playbook-in-2025",
+      "regex": "^/blog/the\\-complete\\-uk\\-crypto\\-tax\\-playbook\\-in\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/the\\-complete\\-uk\\-crypto\\-tax\\-playbook\\-in\\-2025(?:/)?$"
+    },
+    {
+      "page": "/blog/trading-loss-should-i-de-register-as-being-self-employed",
+      "regex": "^/blog/trading\\-loss\\-should\\-i\\-de\\-register\\-as\\-being\\-self\\-employed(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/trading\\-loss\\-should\\-i\\-de\\-register\\-as\\-being\\-self\\-employed(?:/)?$"
+    },
+    {
+      "page": "/blog/trusts-to-reduce-inheritance-tax",
+      "regex": "^/blog/trusts\\-to\\-reduce\\-inheritance\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/trusts\\-to\\-reduce\\-inheritance\\-tax(?:/)?$"
+    },
+    {
+      "page": "/blog/uber-drivers-and-taxation",
+      "regex": "^/blog/uber\\-drivers\\-and\\-taxation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/uber\\-drivers\\-and\\-taxation(?:/)?$"
+    },
+    {
+      "page": "/blog/uk-autumn-budget-2025",
+      "regex": "^/blog/uk\\-autumn\\-budget\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/uk\\-autumn\\-budget\\-2025(?:/)?$"
+    },
+    {
+      "page": "/blog/uk-corporation-tax-2025-changes-guide",
+      "regex": "^/blog/uk\\-corporation\\-tax\\-2025\\-changes\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/uk\\-corporation\\-tax\\-2025\\-changes\\-guide(?:/)?$"
+    },
+    {
+      "page": "/blog/uk-tax-codes-explained",
+      "regex": "^/blog/uk\\-tax\\-codes\\-explained(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/uk\\-tax\\-codes\\-explained(?:/)?$"
+    },
+    {
+      "page": "/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money",
+      "regex": "^/blog/vat\\-accountants\\-in\\-london\\-how\\-taxaccolega\\-helps\\-businesses\\-stay\\-compliant\\-and\\-save\\-money(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/vat\\-accountants\\-in\\-london\\-how\\-taxaccolega\\-helps\\-businesses\\-stay\\-compliant\\-and\\-save\\-money(?:/)?$"
+    },
+    {
+      "page": "/blog/vat-registration-in-the-uk",
+      "regex": "^/blog/vat\\-registration\\-in\\-the\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/vat\\-registration\\-in\\-the\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/what-are-dividends-and-what-taxes-do-i-pay-on-them",
+      "regex": "^/blog/what\\-are\\-dividends\\-and\\-what\\-taxes\\-do\\-i\\-pay\\-on\\-them(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/what\\-are\\-dividends\\-and\\-what\\-taxes\\-do\\-i\\-pay\\-on\\-them(?:/)?$"
+    },
+    {
+      "page": "/blog/what-are-the-tax-implications-if-i-put-my-money-in-a-trust",
+      "regex": "^/blog/what\\-are\\-the\\-tax\\-implications\\-if\\-i\\-put\\-my\\-money\\-in\\-a\\-trust(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/what\\-are\\-the\\-tax\\-implications\\-if\\-i\\-put\\-my\\-money\\-in\\-a\\-trust(?:/)?$"
+    },
+    {
+      "page": "/blog/what-do-i-need-to-do-if-i-want-to-close-my-limited-company",
+      "regex": "^/blog/what\\-do\\-i\\-need\\-to\\-do\\-if\\-i\\-want\\-to\\-close\\-my\\-limited\\-company(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/what\\-do\\-i\\-need\\-to\\-do\\-if\\-i\\-want\\-to\\-close\\-my\\-limited\\-company(?:/)?$"
+    },
+    {
+      "page": "/blog/what-do-i-need-to-do-if-i-want-to-run-my-online-business-through-amazon",
+      "regex": "^/blog/what\\-do\\-i\\-need\\-to\\-do\\-if\\-i\\-want\\-to\\-run\\-my\\-online\\-business\\-through\\-amazon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/what\\-do\\-i\\-need\\-to\\-do\\-if\\-i\\-want\\-to\\-run\\-my\\-online\\-business\\-through\\-amazon(?:/)?$"
+    },
+    {
+      "page": "/blog/what-do-landlords-need-to-do-for-mtd-for-income-tax",
+      "regex": "^/blog/what\\-do\\-landlords\\-need\\-to\\-do\\-for\\-mtd\\-for\\-income\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/what\\-do\\-landlords\\-need\\-to\\-do\\-for\\-mtd\\-for\\-income\\-tax(?:/)?$"
+    },
+    {
+      "page": "/blog/what-to-look-for-when-choosing-an-accountant",
+      "regex": "^/blog/what\\-to\\-look\\-for\\-when\\-choosing\\-an\\-accountant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/what\\-to\\-look\\-for\\-when\\-choosing\\-an\\-accountant(?:/)?$"
+    },
+    {
+      "page": "/blog/what-uk-businesses-need-to-know-about-identity-verification-for-people-and-companies-in-2025",
+      "regex": "^/blog/what\\-uk\\-businesses\\-need\\-to\\-know\\-about\\-identity\\-verification\\-for\\-people\\-and\\-companies\\-in\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/what\\-uk\\-businesses\\-need\\-to\\-know\\-about\\-identity\\-verification\\-for\\-people\\-and\\-companies\\-in\\-2025(?:/)?$"
+    },
+    {
+      "page": "/blog/what-will-be-the-consequences-if-i-delay-my-self-assessment-tax-bill",
+      "regex": "^/blog/what\\-will\\-be\\-the\\-consequences\\-if\\-i\\-delay\\-my\\-self\\-assessment\\-tax\\-bill(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/what\\-will\\-be\\-the\\-consequences\\-if\\-i\\-delay\\-my\\-self\\-assessment\\-tax\\-bill(?:/)?$"
+    },
+    {
+      "page": "/blog/when-do-i-need-an-accountant-for-my-startup-business",
+      "regex": "^/blog/when\\-do\\-i\\-need\\-an\\-accountant\\-for\\-my\\-startup\\-business(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/when\\-do\\-i\\-need\\-an\\-accountant\\-for\\-my\\-startup\\-business(?:/)?$"
+    },
+    {
+      "page": "/blog/when-will-i-have-to-pay-capital-gains-tax-on-crypto-assets",
+      "regex": "^/blog/when\\-will\\-i\\-have\\-to\\-pay\\-capital\\-gains\\-tax\\-on\\-crypto\\-assets(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/when\\-will\\-i\\-have\\-to\\-pay\\-capital\\-gains\\-tax\\-on\\-crypto\\-assets(?:/)?$"
+    },
+    {
+      "page": "/blog/why-submit-self-assessment-tax-return-in-uk",
+      "regex": "^/blog/why\\-submit\\-self\\-assessment\\-tax\\-return\\-in\\-uk(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/why\\-submit\\-self\\-assessment\\-tax\\-return\\-in\\-uk(?:/)?$"
+    },
+    {
+      "page": "/blog/will-i-have-to-pay-taxes-on-my-state-pension",
+      "regex": "^/blog/will\\-i\\-have\\-to\\-pay\\-taxes\\-on\\-my\\-state\\-pension(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/will\\-i\\-have\\-to\\-pay\\-taxes\\-on\\-my\\-state\\-pension(?:/)?$"
+    },
+    {
+      "page": "/btc-software",
+      "regex": "^/btc\\-software(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/btc\\-software(?:/)?$"
+    },
+    {
+      "page": "/business-plan",
+      "regex": "^/business\\-plan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/business\\-plan(?:/)?$"
+    },
+    {
+      "page": "/business-start-up",
+      "regex": "^/business\\-start\\-up(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/business\\-start\\-up(?:/)?$"
+    },
+    {
       "page": "/company-formation",
       "regex": "^/company\\-formation(?:/)?$",
       "routeKeys": {},
@@ -181,16 +1046,112 @@
       "namedRegex": "^/company\\-secretarial(?:/)?$"
     },
     {
+      "page": "/construction-builders",
+      "regex": "^/construction\\-builders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/construction\\-builders(?:/)?$"
+    },
+    {
+      "page": "/construction-industry-scheme",
+      "regex": "^/construction\\-industry\\-scheme(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/construction\\-industry\\-scheme(?:/)?$"
+    },
+    {
       "page": "/contact-us",
       "regex": "^/contact\\-us(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/contact\\-us(?:/)?$"
     },
     {
+      "page": "/contractors",
+      "regex": "^/contractors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contractors(?:/)?$"
+    },
+    {
+      "page": "/contractors-insurance",
+      "regex": "^/contractors\\-insurance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contractors\\-insurance(?:/)?$"
+    },
+    {
+      "page": "/core-package",
+      "regex": "^/core\\-package(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/core\\-package(?:/)?$"
+    },
+    {
+      "page": "/dentists",
+      "regex": "^/dentists(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dentists(?:/)?$"
+    },
+    {
+      "page": "/dext",
+      "regex": "^/dext(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dext(?:/)?$"
+    },
+    {
+      "page": "/dropshipping",
+      "regex": "^/dropshipping(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dropshipping(?:/)?$"
+    },
+    {
+      "page": "/e-commerce",
+      "regex": "^/e\\-commerce(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/e\\-commerce(?:/)?$"
+    },
+    {
+      "page": "/ebay-seller",
+      "regex": "^/ebay\\-seller(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ebay\\-seller(?:/)?$"
+    },
+    {
       "page": "/employment-agreement",
       "regex": "^/employment\\-agreement(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/employment\\-agreement(?:/)?$"
+    },
+    {
+      "page": "/flow",
+      "regex": "^/flow(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/flow(?:/)?$"
+    },
+    {
+      "page": "/freeagent",
+      "regex": "^/freeagent(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/freeagent(?:/)?$"
+    },
+    {
+      "page": "/freelancers",
+      "regex": "^/freelancers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/freelancers(?:/)?$"
+    },
+    {
+      "page": "/furnished-holiday-letting",
+      "regex": "^/furnished\\-holiday\\-letting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/furnished\\-holiday\\-letting(?:/)?$"
+    },
+    {
+      "page": "/hairdressers-beauty-barbers",
+      "regex": "^/hairdressers\\-beauty\\-barbers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hairdressers\\-beauty\\-barbers(?:/)?$"
+    },
+    {
+      "page": "/hotels-restaurants-bars",
+      "regex": "^/hotels\\-restaurants\\-bars(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hotels\\-restaurants\\-bars(?:/)?$"
     },
     {
       "page": "/industries/automobile",
@@ -283,10 +1244,46 @@
       "namedRegex": "^/industries/wholesellers\\-retailers(?:/)?$"
     },
     {
+      "page": "/ir35-contractors-review",
+      "regex": "^/ir35\\-contractors\\-review(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ir35\\-contractors\\-review(?:/)?$"
+    },
+    {
+      "page": "/jewellers",
+      "regex": "^/jewellers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/jewellers(?:/)?$"
+    },
+    {
       "page": "/legal",
       "regex": "^/legal(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/legal(?:/)?$"
+    },
+    {
+      "page": "/media-creative-industries",
+      "regex": "^/media\\-creative\\-industries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/media\\-creative\\-industries(?:/)?$"
+    },
+    {
+      "page": "/mettle",
+      "regex": "^/mettle(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mettle(?:/)?$"
+    },
+    {
+      "page": "/monzo",
+      "regex": "^/monzo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/monzo(?:/)?$"
+    },
+    {
+      "page": "/optician-optometrists",
+      "regex": "^/optician\\-optometrists(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/optician\\-optometrists(?:/)?$"
     },
     {
       "page": "/packages/charities",
@@ -361,10 +1358,40 @@
       "namedRegex": "^/packages/spvs\\-ltd\\-pricing(?:/)?$"
     },
     {
+      "page": "/payment-confirmation",
+      "regex": "^/payment\\-confirmation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/payment\\-confirmation(?:/)?$"
+    },
+    {
+      "page": "/payment-failed",
+      "regex": "^/payment\\-failed(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/payment\\-failed(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
       "page": "/privacy-policy",
       "regex": "^/privacy\\-policy(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/property-landlords",
+      "regex": "^/property\\-landlords(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/property\\-landlords(?:/)?$"
+    },
+    {
+      "page": "/quickbooks",
+      "regex": "^/quickbooks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/quickbooks(?:/)?$"
     },
     {
       "page": "/refer-a-friend",
@@ -385,10 +1412,28 @@
       "namedRegex": "^/registered\\-address(?:/)?$"
     },
     {
+      "page": "/revolut",
+      "regex": "^/revolut(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/revolut(?:/)?$"
+    },
+    {
       "page": "/robots.txt",
       "regex": "^/robots\\.txt(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/saas",
+      "regex": "^/saas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saas(?:/)?$"
+    },
+    {
+      "page": "/sage",
+      "regex": "^/sage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sage(?:/)?$"
     },
     {
       "page": "/schedule-a-phone-call-or-video-meeting",
@@ -397,16 +1442,52 @@
       "namedRegex": "^/schedule\\-a\\-phone\\-call\\-or\\-video\\-meeting(?:/)?$"
     },
     {
+      "page": "/self-employed",
+      "regex": "^/self\\-employed(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/self\\-employed(?:/)?$"
+    },
+    {
       "page": "/share-transfer",
       "regex": "^/share\\-transfer(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/share\\-transfer(?:/)?$"
     },
     {
+      "page": "/shopify",
+      "regex": "^/shopify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shopify(?:/)?$"
+    },
+    {
+      "page": "/small-business",
+      "regex": "^/small\\-business(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/small\\-business(?:/)?$"
+    },
+    {
       "page": "/software",
       "regex": "^/software(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/software(?:/)?$"
+    },
+    {
+      "page": "/spvs",
+      "regex": "^/spvs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/spvs(?:/)?$"
+    },
+    {
+      "page": "/starling",
+      "regex": "^/starling(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/starling(?:/)?$"
+    },
+    {
+      "page": "/start-ups-basic",
+      "regex": "^/start\\-ups\\-basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/start\\-ups\\-basic(?:/)?$"
     },
     {
       "page": "/switch-accountant",
@@ -421,10 +1502,34 @@
       "namedRegex": "^/taxation(?:/)?$"
     },
     {
+      "page": "/taxation/capital-gains-tax",
+      "regex": "^/taxation/capital\\-gains\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/capital\\-gains\\-tax(?:/)?$"
+    },
+    {
+      "page": "/taxation/capital-gains-tax-accountant",
+      "regex": "^/taxation/capital\\-gains\\-tax\\-accountant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/capital\\-gains\\-tax\\-accountant(?:/)?$"
+    },
+    {
+      "page": "/taxation/capital-gains-tax-accountants",
+      "regex": "^/taxation/capital\\-gains\\-tax\\-accountants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/capital\\-gains\\-tax\\-accountants(?:/)?$"
+    },
+    {
       "page": "/taxation/company-tax-return-accountants",
       "regex": "^/taxation/company\\-tax\\-return\\-accountants(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/taxation/company\\-tax\\-return\\-accountants(?:/)?$"
+    },
+    {
+      "page": "/taxation/corporate-tax-return",
+      "regex": "^/taxation/corporate\\-tax\\-return(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/corporate\\-tax\\-return(?:/)?$"
     },
     {
       "page": "/taxation/cryptocurrency",
@@ -439,10 +1544,58 @@
       "namedRegex": "^/taxation/emi\\-schemes(?:/)?$"
     },
     {
+      "page": "/taxation/estate-and-property-tax-planning-accountants",
+      "regex": "^/taxation/estate\\-and\\-property\\-tax\\-planning\\-accountants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/estate\\-and\\-property\\-tax\\-planning\\-accountants(?:/)?$"
+    },
+    {
+      "page": "/taxation/estate-property-tax-planning",
+      "regex": "^/taxation/estate\\-property\\-tax\\-planning(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/estate\\-property\\-tax\\-planning(?:/)?$"
+    },
+    {
+      "page": "/taxation/estate-tax",
+      "regex": "^/taxation/estate\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/estate\\-tax(?:/)?$"
+    },
+    {
+      "page": "/taxation/film-tax-relief",
+      "regex": "^/taxation/film\\-tax\\-relief(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/film\\-tax\\-relief(?:/)?$"
+    },
+    {
+      "page": "/taxation/income-tax",
+      "regex": "^/taxation/income\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/income\\-tax(?:/)?$"
+    },
+    {
+      "page": "/taxation/inheritance-tax",
+      "regex": "^/taxation/inheritance\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/inheritance\\-tax(?:/)?$"
+    },
+    {
       "page": "/taxation/inheritance-tax-planning",
       "regex": "^/taxation/inheritance\\-tax\\-planning(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/taxation/inheritance\\-tax\\-planning(?:/)?$"
+    },
+    {
+      "page": "/taxation/inheritance-tax-planning-advisors",
+      "regex": "^/taxation/inheritance\\-tax\\-planning\\-advisors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/inheritance\\-tax\\-planning\\-advisors(?:/)?$"
+    },
+    {
+      "page": "/taxation/let-property",
+      "regex": "^/taxation/let\\-property(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/let\\-property(?:/)?$"
     },
     {
       "page": "/taxation/let-property-campaign",
@@ -451,10 +1604,64 @@
       "namedRegex": "^/taxation/let\\-property\\-campaign(?:/)?$"
     },
     {
+      "page": "/taxation/non-uk-resident",
+      "regex": "^/taxation/non\\-uk\\-resident(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/non\\-uk\\-resident(?:/)?$"
+    },
+    {
+      "page": "/taxation/non-uk-resident-taxation",
+      "regex": "^/taxation/non\\-uk\\-resident\\-taxation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/non\\-uk\\-resident\\-taxation(?:/)?$"
+    },
+    {
+      "page": "/taxation/personal-income-tax",
+      "regex": "^/taxation/personal\\-income\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/personal\\-income\\-tax(?:/)?$"
+    },
+    {
       "page": "/taxation/personal-income-tax-professionals-and-chartered-accountants",
       "regex": "^/taxation/personal\\-income\\-tax\\-professionals\\-and\\-chartered\\-accountants(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/taxation/personal\\-income\\-tax\\-professionals\\-and\\-chartered\\-accountants(?:/)?$"
+    },
+    {
+      "page": "/taxation/rd",
+      "regex": "^/taxation/rd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/rd(?:/)?$"
+    },
+    {
+      "page": "/taxation/seed-enterprise-investment-scheme-tax-relief",
+      "regex": "^/taxation/seed\\-enterprise\\-investment\\-scheme\\-tax\\-relief(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/seed\\-enterprise\\-investment\\-scheme\\-tax\\-relief(?:/)?$"
+    },
+    {
+      "page": "/taxation/seis-tax-relief",
+      "regex": "^/taxation/seis\\-tax\\-relief(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/seis\\-tax\\-relief(?:/)?$"
+    },
+    {
+      "page": "/taxation/tax-advisors",
+      "regex": "^/taxation/tax\\-advisors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/tax\\-advisors(?:/)?$"
+    },
+    {
+      "page": "/taxation/tax-investigation",
+      "regex": "^/taxation/tax\\-investigation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/tax\\-investigation(?:/)?$"
+    },
+    {
+      "page": "/taxation/tax-investigation-insurance",
+      "regex": "^/taxation/tax\\-investigation\\-insurance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/tax\\-investigation\\-insurance(?:/)?$"
     },
     {
       "page": "/taxation/vat-accountants",
@@ -463,10 +1670,52 @@
       "namedRegex": "^/taxation/vat\\-accountants(?:/)?$"
     },
     {
+      "page": "/taxation/worldwide-disclosure",
+      "regex": "^/taxation/worldwide\\-disclosure(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxation/worldwide\\-disclosure(?:/)?$"
+    },
+    {
       "page": "/taxation/worldwide-disclosure-facility",
       "regex": "^/taxation/worldwide\\-disclosure\\-facility(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/taxation/worldwide\\-disclosure\\-facility(?:/)?$"
+    },
+    {
+      "page": "/taxcalc",
+      "regex": "^/taxcalc(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/taxcalc(?:/)?$"
+    },
+    {
+      "page": "/team-member",
+      "regex": "^/team\\-member(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/team\\-member(?:/)?$"
+    },
+    {
+      "page": "/testimonial",
+      "regex": "^/testimonial(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/testimonial(?:/)?$"
+    },
+    {
+      "page": "/tide",
+      "regex": "^/tide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tide(?:/)?$"
+    },
+    {
+      "page": "/woocommerce",
+      "regex": "^/woocommerce(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/woocommerce(?:/)?$"
+    },
+    {
+      "page": "/xero",
+      "regex": "^/xero(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/xero(?:/)?$"
     }
   ],
   "dataRoutes": [],

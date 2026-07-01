@@ -1,7 +1,10 @@
-import { metadataForPath } from '../../../lib/seo';
-import WorldwideDisclosureFacility from '../../../views/WorldwideDisclosureFacility';
 
-export const metadata = metadataForPath('/taxation/worldwide-disclosure-facility');
+import WorldwideDisclosureFacility from '../../../views/taxation/WorldwideDisclosureFacility';
+import { metadataForTaxationSlug } from '../../../lib/seo-generators';
+
+export async function generateMetadata() {
+  return metadataForTaxationSlug('worldwide-disclosure-facility');
+}
 
 export default function Page() {
   return <WorldwideDisclosureFacility />;
