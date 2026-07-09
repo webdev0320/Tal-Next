@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HeroBanner = () => {
   return (
@@ -10,7 +11,7 @@ const HeroBanner = () => {
         {/* Left Content */}
         <div className="space-y-8">
           <h1 className="text-4xl lg:text-5xl font-extrabold text-[#1e293b] leading-tight">
-            Chartered Accountants in London for Small Businesses, Contractors, Landlords and Startups
+            Award Winning Accountants in London for Small Businesses, Contractors, Landlords and Startups
           </h1>
           
           <p className="text-lg text-[#475569]">
@@ -56,19 +57,21 @@ const HeroBanner = () => {
          </div>
 
           {/* Trust Footer */}
-          <div className="pt-6 border-t border-slate-100 flex flex-col gap-3">
-            <div className="flex items-center gap-3">
-              <div className="flex -space-x-2">
-                <div className="w-8 h-8 rounded-full bg-slate-200 border-2 border-white"></div>
-                <div className="w-8 h-8 rounded-full bg-slate-300 border-2 border-white"></div>
-              </div>
-              <span className="font-semibold text-[#475569]">300+ 5-star Reviews</span>
+        <div className="pt-6 border-t border-slate-100 flex flex-col gap-3">
+          <div className="flex items-center gap-3">
+            <div className="flex -space-x-2">
+              <Image src="images/avatar-1.webp" alt="Client" width={32} height={32} className="rounded-full border-2 border-white" />
+              <Image src="images/avatar-2.webp" alt="Client" width={32} height={32} className="rounded-full border-2 border-white" />
+              <Image src="images/avatar-3.webp" alt="Client" width={32} height={32} className="rounded-full border-2 border-white" />
             </div>
-            <p className="text-sm text-[#475569]">
-              Average first response under hour • 99% client retention
-            </p>
+            <span className="font-semibold text-[#475569]">300+ 5-star Reviews</span>
           </div>
+          <p className="text-sm text-[#475569]">
+            Average first response under hour • 99% client retention
+          </p>
         </div>
+      </div>
+
 
         {/* Right Content (Image) */}
         <div className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl">
