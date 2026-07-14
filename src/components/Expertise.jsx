@@ -30,7 +30,7 @@ const Expertise = () => {
             
             <div className="row g-4">
               {services.map((service, index) => (
-                <div key={index} className="col-md-6 col-lg-4">
+                <div key={index} className="col-md-6 col-lg-3">
                     <div className="card h-100 shadow-sm service-card p-4 d-flex flex-column justify-content-between transition-all duration-300 hover:bg-[#1D3C45] group">
                         <div>
                             <div className="bg-brand-orange text-white rounded-circle d-flex align-items-center justify-content-center mb-4 transition-colors duration-300" style={{ width: "60px", height: "60px", fontSize: "1.5rem" }}>

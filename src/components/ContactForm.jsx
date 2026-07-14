@@ -11,6 +11,7 @@ const initialFormData = {
 
 const ContactForm = ({ source = 'Website contact form' }) => {
   const [formData, setFormData] = useState(initialFormData);
+  const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
   const handleChange = (event) => {
     setFormData((current) => ({
@@ -19,16 +20,33 @@ const ContactForm = ({ source = 'Website contact form' }) => {
     }));
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Online form submission is currently unavailable.
-    // Please contact us directly via phone or email.
+    setStatus('loading');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...formData, source }),
+      });
+
+      if (!res.ok) throw new Error('Request failed');
+
+      setStatus('success');
+      setFormData(initialFormData);
+    } catch (err) {
+      console.error(err);
+      setStatus('error');
+    }
   };
 
   return (
     <section id="contact-block" className="py-12 bg-white">
       <div className="container py-4">
         <div className="grid md:grid-cols-2 gap-8 items-stretch">
+
+          {/* LEFT CARD — office info + map */}
           <div className="h-full">
             <div className="p-8 border border-slate-100 shadow-sm rounded-3xl bg-white h-full flex flex-col gap-6">
               <div>
@@ -113,6 +131,7 @@ const ContactForm = ({ source = 'Website contact form' }) => {
             </div>
           </div>
 
+          {/* RIGHT CARD — working contact form */}
           <div className="h-full">
             <div className="p-8 border border-slate-100 shadow-sm rounded-3xl bg-white h-full flex flex-col">
               <h3 className="mb-2 font-bold text-[#1D3C45]">Send Us a Message</h3>
@@ -120,11 +139,19 @@ const ContactForm = ({ source = 'Website contact form' }) => {
                 Request a call back or drop details of your accounts enquiry.
               </p>
 
-              <div className="mb-4 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
-                <strong>Online form temporarily unavailable.</strong> Please contact us directly via{' '}
-                <a href="tel:02081270728" className="underline font-semibold">phone</a> or{' '}
-                <a href="mailto:info@taxaccolega.co.uk" className="underline font-semibold">email</a>.
-              </div>
+              {status === 'success' && (
+                <div className="mb-4 rounded-xl border border-green-200 bg-green-50 p-4 text-sm text-green-800">
+                  <strong>Message sent!</strong> We'll get back to you shortly.
+                </div>
+              )}
+
+              {status === 'error' && (
+                <div className="mb-4 rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">
+                  <strong>Something went wrong.</strong> Please try again or contact us directly via{' '}
+                  <a href="tel:02081270728" className="underline font-semibold">phone</a> or{' '}
+                  <a href="mailto:info@taxaccolega.co.uk" className="underline font-semibold">email</a>.
+                </div>
+              )}
 
               <form onSubmit={handleSubmit} className="flex flex-col flex-grow gap-4">
                 <div className="grid sm:grid-cols-2 gap-4">
@@ -183,14 +210,15 @@ const ContactForm = ({ source = 'Website contact form' }) => {
                 </div>
                 <button
                   type="submit"
-                  disabled
-                  className="w-full bg-[#d2601a] text-white font-bold py-4 rounded-xl opacity-60 cursor-not-allowed transition-all mt-auto"
+                  disabled={status === 'loading'}
+                  className="w-full bg-[#d2601a] text-white font-bold py-4 rounded-xl transition-all mt-auto disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  Send Message (Unavailable)
+                  {status === 'loading' ? 'Sending...' : 'Send Message'}
                 </button>
               </form>
             </div>
           </div>
+
         </div>
       </div>
     </section>

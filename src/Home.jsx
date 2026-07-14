@@ -31,17 +31,15 @@ function Home() {
       <CharteredAccountantInfo />      
       <Achievements />
       <OnlineAccountants />
-      <ContactForm />
       <TargetSegments />
       <SwitchAccountantsCTA />
       <StatsCounter />
       <TopRatedCTA />
-
       <ReviewsSlider />
       <SoftwareSection />
       <TeamRefer />
       <FAQSection />
-      <HomeContact />
+      <ContactForm />
       
     </div>
   )

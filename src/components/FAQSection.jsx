@@ -63,7 +63,6 @@ const FAQSection = ({ faqs: propFaqs }) => {
                                 <div className="flex gap-4">
                                     <a href="https://www.facebook.com/Taxaccolega/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-[#d2601a] text-[#1D3C45] hover:text-white transition-all"><i className="fab fa-facebook-f"></i></a>
                                     <a href="https://x.com/taxaccolega" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-[#d2601a] text-[#1D3C45] hover:text-white transition-all"><i className="fab fa-twitter"></i></a>
-                                    <a href="https://plus.google.com/u/0/100672948850520944033" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-[#d2601a] text-[#1D3C45] hover:text-white transition-all"><i className="fab fa-google"></i></a>
                                 </div>
                             </div>
                         </div>

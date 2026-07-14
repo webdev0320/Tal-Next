@@ -8,7 +8,7 @@ const Achievements = () => {
         <div className="container py-4">
             <div className="row align-items-center g-5">
                 <div className="col-lg-5 order-2 order-lg-1">
-                    <img src="/wp-content/uploads/2025/08/Award-Winning-1024x1020.webp" alt="Award Winning Recognitions and Accreditations" className="img-fluid rounded-4" />
+                    <img src="/images/2026/05/Award-Winning-768x765.webp" alt="Award Winning Recognitions and Accreditations" className="img-fluid rounded-4" />
                 </div>
                 <div className="col-lg-7 order-1 order-lg-2">
                     <span style={{ fontFamily: '"Pinyon Script", Sans-serif', fontSize: '30px', fontWeight: 400, color: '#1D3C45', textAlign: 'start', display: 'block', marginBottom: '8px' }}>Our Achievements</span>
