@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Can Setting Up a Trust Reduce Inheritance Tax in the UK? | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   I want to set up a trust,
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -85,7 +87,7 @@ export default function Page() {
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -93,6 +95,8 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Can Setting Up a Trust Reduce Inheritance Tax in the UK? | Taxaccolega","description":"I want to set up a trust, will it reduce my Inheritance tax bill? The answer is Yes it will. This is because when you set up a trust and transfer your assets w…","datePublished":"2021-10-30 12:36:29","dateModified":"2021-10-30 12:36:29","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/trusts-to-reduce-inheritance-tax/"}}) }} />
       <ContactSection />
     </div>
   );

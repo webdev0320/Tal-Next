@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Stamp Duty Cut for Landlords - What It Means in 2025 | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Stamp Duty Cut for Landlords  
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -124,7 +126,7 @@ export default function Page() {
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -132,6 +134,8 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Stamp Duty Cut for Landlords - What It Means in 2025 | Taxaccolega","description":"Stamp Duty Cut for Landlords What does it mean to the landlords? What is stamp duty? Stamp duty is a tax which you have to pay when you buy a property over a c…","datePublished":"2022-10-20 11:10:32","dateModified":"2022-10-20 11:10:32","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/stamp-duty-cut-and-what-does-it-mean-to-the-landlords/"}}) }} />
       <ContactSection />
     </div>
   );

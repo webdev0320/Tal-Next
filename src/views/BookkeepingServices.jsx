@@ -6,6 +6,8 @@ import ReviewsSlider from '../components/ReviewsSlider';
 import ContactForm from '../components/ContactForm';
 import AccountsLinksBar from '../components/AccountsLinksBar';
 import { CheckIcon } from '../components/accounts/AccountsPageIcons';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 const BookkeepingServices = () => {
   const [activeFaqIndex, setActiveFaqIndex] = useState(null);
@@ -571,6 +573,17 @@ const BookkeepingServices = () => {
       </section>
 
       <Partners />
+      <BreadcrumbJsonLd items={[
+        { name: 'Home', url: 'https://www.taxaccolega.co.uk' },
+        { name: 'Accounts', url: 'https://www.taxaccolega.co.uk/accounts/' },
+        { name: 'Bookkeeping Services', url: '' }
+      ]} />
+      {(() => { const faqData = faqJsonLd([
+        { q: 'What do bookkeeping services include?', a: 'Bookkeeping services include recording financial transactions, reconciling accounts, maintaining records, and preparing data for reporting and tax purposes.' },
+        { q: 'How much do bookkeeping services cost in the UK?', a: 'Bookkeeping service fees vary depending on business size, transaction volume, and service level. Some businesses use fixed monthly packages, while others pay based on workload.' },
+        { q: 'Do I need bookkeeping services for a small business?', a: 'Yes. Small business bookkeeping services help maintain accurate records, making it easier to manage tax, reporting, and financial decisions.' },
+        { q: 'What is the difference between bookkeeping and accounting?', a: 'Bookkeeping involves recording financial activity, while accounting involves analysing and interpreting that information for decision-making.' }
+      ]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
     </div>
   );
 };

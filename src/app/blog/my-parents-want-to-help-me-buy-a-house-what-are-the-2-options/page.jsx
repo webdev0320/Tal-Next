@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Parents Helping You Buy a House? 2 Tax-Smart UK Options | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   My parents want to help me buy a house
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -90,7 +92,7 @@ export default function Page() {
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -98,6 +100,8 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Parents Helping You Buy a House? 2 Tax-Smart UK Options | Taxaccolega","description":"My parents want to help me buy a house What are the 2 options? It","datePublished":"2020-08-04 11:30:03","dateModified":"2020-08-04 11:30:03","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options/"}}) }} />
       <ContactSection />
     </div>
   );

@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "A Brand New Post | Taxaccolega",
@@ -33,8 +35,8 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><a href="http://a-new-test-post-by-rizwan" target="_blank">A New Test Post By Rizwan</a></h1>				
-		<p>This is another new test post added by Rizwan.</p>` }} />
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><a href="http://a-new-test-post-by-rizwan" target="_blank">A New Test Post By Rizwan</a></h1>				
+		<p>This is another new test post added by Rizwan.</p>`) }} />
         </article>
       </main>
 
@@ -42,6 +44,8 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"A Brand New Post | Taxaccolega","description":"A New Test Post By Rizwan This is another new test post added by Rizwan.","datePublished":"2025-01-08 13:24:22","dateModified":"2025-01-08 13:24:22","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/a-new-post-by-rizwan/"}}) }} />
       <ContactSection />
     </div>
   );

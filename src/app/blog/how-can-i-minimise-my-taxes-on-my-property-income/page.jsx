@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "How can I minimise my taxes on my property income? | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   How can I minimise my taxes <br>on my property income?
 </h1>
 </h1>				
@@ -102,7 +104,7 @@ export default function Page() {
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -110,6 +112,8 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How can I minimise my taxes on my property income? | Taxaccolega","description":"How can I minimise my taxes on my property income? There is a simple rule if you have income you have to report it to HMRC and if you have profits you should p…","datePublished":"2020-09-01 11:36:34","dateModified":"2020-09-01 11:36:34","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/how-can-i-minimise-my-taxes-on-my-property-income/"}}) }} />
       <ContactSection />
     </div>
   );

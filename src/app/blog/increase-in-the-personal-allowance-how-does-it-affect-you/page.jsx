@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "How the Personal Allowance Increase Affects You – UK Tax | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Increase in the Personal Allowance-
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -171,7 +173,7 @@ export default function Page() {
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -179,6 +181,8 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How the Personal Allowance Increase Affects You – UK Tax | Taxaccolega","description":"Increase in the Personal Allowance- How does it affect you? In the budget last week, the chancellor, Rishi Sunak announced that there will be an increase in th…","datePublished":"2021-03-07 14:51:19","dateModified":"2021-03-07 14:51:19","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/increase-in-the-personal-allowance-how-does-it-affect-you/"}}) }} />
       <ContactSection />
     </div>
   );

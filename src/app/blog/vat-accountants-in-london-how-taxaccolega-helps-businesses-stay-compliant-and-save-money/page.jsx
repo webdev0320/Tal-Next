@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "VAT Accountants in London | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   VAT Accountants in London
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:30px">
@@ -167,7 +169,7 @@ Many business owners find VAT duties confusing and scary.  Understanding VAT leg
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -175,6 +177,8 @@ Many business owners find VAT duties confusing and scary.  Understanding VAT leg
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"VAT Accountants in London | Taxaccolega","description":"VAT Accountants in London How Taxaccolega Helps Businesses Stay Compliant and Save Money Many business owners find VAT duties confusing and scary. Understandin…","datePublished":"2025-11-29 07:49:32","dateModified":"2025-11-29 07:49:32","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money/"}}) }} />
       <ContactSection />
     </div>
   );

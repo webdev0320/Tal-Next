@@ -2,6 +2,8 @@
 import React from 'react';
 import Link from 'next/link';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 const CryptocurrencyTax = () => {
   return (
@@ -207,6 +209,19 @@ const CryptocurrencyTax = () => {
             ))}
         </div>
       </section>
+      <BreadcrumbJsonLd items={[
+        { name: 'Home', url: 'https://www.taxaccolega.co.uk' },
+        { name: 'Taxation', url: 'https://www.taxaccolega.co.uk/taxation/' },
+        { name: 'Cryptocurrency Tax', url: '' }
+      ]} />
+      {(() => { const faqData = faqJsonLd([
+        { q: 'Do you have to pay tax on cryptocurrency in the UK?', a: 'Yes, depending on the type of crypto activity involved. HMRC may apply capital gains tax, income tax, or corporation tax.' },
+        { q: 'Is cryptocurrency taxed even if I did not withdraw money?', a: 'Yes. Disposing of crypto (including trading one crypto for another) can trigger a taxable event even without withdrawing to fiat currency.' },
+        { q: 'How is cryptocurrency taxed in the UK?', a: 'HMRC generally treats crypto as capital assets for individuals, subject to capital gains tax. For businesses, crypto profits may be subject to corporation tax or income tax.' },
+        { q: 'Can HMRC track cryptocurrency transactions?', a: 'Yes. HMRC has sophisticated tools to track crypto transactions through blockchain analysis and data-sharing agreements with exchanges.' },
+        { q: 'Do staking rewards create tax liabilities?', a: 'Yes. Staking rewards are generally treated as income at the point they are received, and may also be subject to capital gains tax when disposed of.' },
+        { q: 'What happens if previous cryptocurrency gains were not reported?', a: 'You should contact HMRC or use the Worldwide Disclosure Facility to voluntarily disclose undeclared crypto gains to minimize penalties.' }
+      ]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
     </div>
   );
 };

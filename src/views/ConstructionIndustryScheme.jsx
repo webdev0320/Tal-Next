@@ -5,6 +5,8 @@ import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
 import ContactForm from '../components/ContactForm';
 import FAQSection from '../components/FAQSection';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 const CheckIcon = () => (
   <svg className="me-2 flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--brand-orange)' }}>
@@ -166,7 +168,9 @@ const ConstructionIndustryScheme = () => {
       <Partners />
       <ContactForm source="ConstructionIndustryScheme" />
       <ReviewsSlider />
-    </div>
+    
+      <BreadcrumbJsonLd items={[{"name":"Home","url":"https://www.taxaccolega.co.uk/"},{"name":"Construction Industry Scheme","url":""}]} />
+      </div>
   );
 };
 

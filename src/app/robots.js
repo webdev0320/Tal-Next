@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 import { SITE } from '../lib/seo.js';
 
 /** @returns {import('next').MetadataRoute.Robots} */

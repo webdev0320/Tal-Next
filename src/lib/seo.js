@@ -5,7 +5,7 @@ import { getStaticPageSeo } from '../data/seo/staticPages.js';
 export const SITE = {
   name: 'Taxaccolega',
   legalName: 'Taxaccolega Chartered Accountants',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://staging.taxaccolega.co.uk',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.taxaccolega.co.uk',
   locale: 'en_GB',
   defaultImage: '/images/favicon.png',
   defaultDescription:

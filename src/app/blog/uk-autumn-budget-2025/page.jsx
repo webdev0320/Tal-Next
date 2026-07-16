@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "UK Autumn Budget 2025 | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   UK Autumn Budget 2025
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:30px">
@@ -411,7 +413,7 @@ Get in touch with us at Taxaccolega today to ensure you’re ahead of the curve.
 					<a href="https://plus.google.com/u/0/100672948850520944033" target="_blank">
 						Icon-google-review
 											</a>
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -419,6 +421,8 @@ Get in touch with us at Taxaccolega today to ensure you’re ahead of the curve.
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"UK Autumn Budget 2025 | Taxaccolega","description":"UK Autumn Budget 2025 When Is It and How It Affects You Every business owner, landlord and individual taxpayer in the UK should sit up and take notice of the u…","datePublished":"2025-11-14 15:10:15","dateModified":"2025-11-14 15:10:15","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/uk-autumn-budget-2025/"}}) }} />
       <ContactSection />
     </div>
   );

@@ -5,6 +5,8 @@ import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
 import ContactForm from '../components/ContactForm';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 // Inline styled icons matching Lucide / SVG style
 const CheckIcon = () => (
@@ -826,7 +828,9 @@ const CompanyTaxReturn = () => {
 
       {/* ── SECTION 18: DOUBLE LOGOS GRID / CERTIFICATES ── */}
       <Partners />
-    </div>
+    
+      {(() => { const faqData = faqJsonLd([{"q":"What is corporation tax in the UK?","a":"Corporation tax is the tax paid by UK limited companies on their taxable profits after deducting allowable business expenses and capital allowances."},{"q":"When is corporation tax due?","a":"Payment is due 9 months and 1 day after the end of the accounting period, while the tax return (CT600) itself must be filed within 12 months."},{"q":"How do I file a corporation tax return online?","a":"You complete the CT600 tax return form, attach your company statutory accounts and tax calculations, and submit electronically via HMRC-approved software."},{"q":"Do I need an accountant for corporation tax?","a":"Not legally, but most businesses use chartered accountants to ensure accuracy, leverage tax allowances, stay compliant, and avoid costly HMRC penalties."},{"q":"What happens if corporation tax is filed late?","a":"Late filing results in automatic financial penalties starting at £100 and rising. In addition, HMRC charges interest on any late-paid tax."},{"q":"Can corporation tax be reduced legally?","a":"Yes. Through proper tax planning, utilizing all allowable expenses, claims like R&D tax credits, and correct salary/dividend structuring, tax can be significantly reduced within HMRC rules."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
+      </div>
   );
 };
 

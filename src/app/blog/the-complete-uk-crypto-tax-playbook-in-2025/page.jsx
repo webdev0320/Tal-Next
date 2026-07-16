@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "The Complete UK Crypto Tax Playbook in 2025 | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   The Complete 
 </h1>
 <h2 style="color:#d2601a;font-weight:600;font-size:60px">
@@ -734,7 +736,7 @@ This is where firms like Taxaccolega, with long standing experience in crypto, c
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -742,6 +744,8 @@ This is where firms like Taxaccolega, with long standing experience in crypto, c
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"The Complete UK Crypto Tax Playbook in 2025 | Taxaccolega","description":"The Complete UK Crypto Tax In 2025 Real Rules, Real Calculations, Real HMRC , Triggers If you trade crypto in the UK, you already know something strange about…","datePublished":"2025-12-04 21:52:24","dateModified":"2025-12-04 21:52:24","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/the-complete-uk-crypto-tax-playbook-in-2025/"}}) }} />
       <ContactSection />
     </div>
   );

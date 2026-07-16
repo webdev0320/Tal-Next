@@ -6,6 +6,8 @@ import ReviewsSlider from '../components/ReviewsSlider';
 import ContactForm from '../components/ContactForm';
 import AccountsLinksBar from '../components/AccountsLinksBar';
 import { CheckIcon } from '../components/accounts/AccountsPageIcons';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 const ConsolidatedAccounts = () => {
   const [activeFaqIndex, setActiveFaqIndex] = useState(null);
@@ -665,6 +667,19 @@ const ConsolidatedAccounts = () => {
       </section>
 
       <Partners />
+      <BreadcrumbJsonLd items={[
+        { name: 'Home', url: 'https://www.taxaccolega.co.uk' },
+        { name: 'Accounts', url: 'https://www.taxaccolega.co.uk/accounts/' },
+        { name: 'Consolidated Accounts', url: '' }
+      ]} />
+      {(() => { const faqData = faqJsonLd([
+        { q: 'What are consolidated accounts?', a: 'Consolidated accounts are financial statements that combine the financial results of a parent company and its subsidiaries into a single set of accounts.' },
+        { q: 'When are consolidated accounts required in the UK?', a: 'They are generally required when one company controls another, subject to group thresholds and reporting exemptions.' },
+        { q: 'What are consolidated financial statements?', a: 'Consolidated financial statements include the group income statement, consolidated balance sheet, and supporting disclosures covering the group collectively.' },
+        { q: 'Why are intercompany eliminations important?', a: 'They remove internal transactions and balances so revenue, costs, assets, and liabilities are not overstated.' },
+        { q: 'Do all company groups need consolidated accounts?', a: 'No. Some groups may qualify for exemptions, but this should be reviewed properly against UK reporting requirements.' },
+        { q: 'How do consolidated accounts differ from statutory accounts?', a: 'Statutory accounts report individual companies separately. Consolidated accounts report the overall financial position of the group together.' }
+      ]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
     </div>
   );
 };

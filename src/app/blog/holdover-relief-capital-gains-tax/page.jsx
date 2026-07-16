@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Holdover Relief Explained – Capital Gains Tax Guide UK | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Holdover Relief
 </h1>
 </h1>				
@@ -68,7 +70,7 @@ https://www.gov.uk/gift-holdover-relief
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -76,6 +78,8 @@ https://www.gov.uk/gift-holdover-relief
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Holdover Relief Explained – Capital Gains Tax Guide UK | Taxaccolega","description":"Holdover Relief I am selling my business to my friend will holdover relief apply to me? If you are eligible for gift holdover relief or not depends on all indi…","datePublished":"2020-07-21 11:14:39","dateModified":"2020-07-21 11:14:39","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/holdover-relief-capital-gains-tax/"}}) }} />
       <ContactSection />
     </div>
   );

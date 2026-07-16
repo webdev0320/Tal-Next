@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import FloatingConsultationButton from '../components/FloatingConsultationButton';
 import IDVerificationModal from '../components/IDVerificationModal';
 import JsonLd from '../components/JsonLd';
+import Analytics from '../components/Analytics';
 import { rootMetadata } from '../lib/seo';
 import '../tailwind.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,6 +16,9 @@ export const metadata = rootMetadata;
 export default function RootLayout({ children }) {
   return (
     <html lang="en-GB">
+      <head>
+        <Analytics />
+      </head>
       <body className="antialiased">
         <JsonLd />
         <TopBar />

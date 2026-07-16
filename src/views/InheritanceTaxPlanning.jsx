@@ -6,6 +6,8 @@ import Partners from '../components/Partners';
 import TaxationLinksBar from '../components/TaxationLinksBar';
 import ContactForm from '../components/ContactForm';
 import { CheckCircle, ChevronDown, ChevronUp, Star } from 'lucide-react';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 const InheritanceTaxPlanning = () => {
   const [activeFaqIndex, setActiveFaqIndex] = useState(null);
@@ -251,7 +253,10 @@ const InheritanceTaxPlanning = () => {
           </div>
         </div>
       </section>
-    </div>
+    
+      <BreadcrumbJsonLd items={[{"name":"Home","url":"https://www.taxaccolega.co.uk/"},{"name":"Taxation","url":"https://www.taxaccolega.co.uk/taxation"},{"name":"Inheritance Tax Planning Advice","url":""}]} />
+      {(() => { const faqData = faqJsonLd([{"q":"What does an inheritance tax advisor do?","a":"An inheritance tax advisor reviews your estate structure, ownership arrangements, gifts, and long-term tax exposure to help reduce unnecessary inheritance tax risk."},{"q":"What is the 7 year gift rule in inheritance tax?","a":"Gifts made more than 7 years before death are generally exempt from IHT. Gifts made within 7 years may be subject to IHT, with the tax reducing on a sliding scale (taper relief) after 3 years."},{"q":"When should inheritance tax planning start?","a":"Planning works best early, while ownership and structure still remain flexible, before events like retirement or asset transfers occur."},{"q":"Can inheritance tax planning involve property?","a":"Yes, property usually sits at the centre of inheritance tax exposure in the UK due to value increases and complex ownership arrangements."},{"q":"Is inheritance tax planning only for wealthy families?","a":"No, with rising property values, many ordinary estates can become liable to inheritance tax if not structured appropriately."},{"q":"Why do inheritance tax problems appear late?","a":"Inheritance tax issues are often created gradually through ordinary decisions over years, rather than one major mistake, becoming visible only during estate administration."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
+      </div>
   );
 };
 

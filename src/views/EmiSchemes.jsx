@@ -6,6 +6,8 @@ import ContactForm from '../components/ContactForm';
 import ReviewsSlider from '../components/ReviewsSlider';
 import TaxationLinksBar from '../components/TaxationLinksBar';
 import { CheckCircle, ChevronDown, ChevronUp, Star } from 'lucide-react';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 const EmiSchemesPage = () => {
   const [activeFaqIndex, setActiveFaqIndex] = useState(null);
@@ -505,7 +507,10 @@ const EmiSchemesPage = () => {
       <div id="contact-section">
         <ContactForm />
       </div>
-    </div>
+    
+      <BreadcrumbJsonLd items={[{"name":"Home","url":"https://www.taxaccolega.co.uk/"},{"name":"Taxation","url":"https://www.taxaccolega.co.uk/taxation"},{"name":"EMI Schemes","url":""}]} />
+      {(() => { const faqData = faqJsonLd([{"q":"What is an EMI scheme?","a":"An EMI scheme is a tax-advantaged employee share option scheme designed for qualifying UK businesses."},{"q":"How does an EMI share scheme work?","a":"Employees receive options to acquire company shares later under agreed conditions and pricing structures."},{"q":"Who qualifies for an EMI scheme UK?","a":"Eligibility depends on company size, trade activity, employee conditions, and HMRC qualifying rules."},{"q":"What are the benefits of an EMI scheme?","a":"Potential benefits include employee retention, tax efficiency, long-term incentives, and growth alignment."},{"q":"Can HMRC challenge an EMI valuation?","a":"Yes. EMI scheme valuation HMRC reviews are important because unsupported valuations may create future disputes."},{"q":"What happens if an employee leaves an EMI scheme?","a":"The outcome depends on the option agreement, timing, and whether the employee qualifies as a good or bad leaver."},{"q":"When should a company set up an EMI scheme?","a":"Usually before major growth, investment activity, or valuation increases make structuring less flexible."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
+      </div>
   );
 };
 

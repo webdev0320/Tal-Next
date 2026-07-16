@@ -5,6 +5,7 @@ const require = createRequire(import.meta.url);
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  poweredByHeader: false,
   images: {
     unoptimized: true,    // Next.js default image optimization requires a live Node.js server
   },

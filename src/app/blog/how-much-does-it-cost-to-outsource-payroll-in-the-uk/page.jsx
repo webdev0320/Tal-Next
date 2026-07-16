@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "A Complete 2026 Pricing Guide for Businesses | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   How Much Does It Cost to Outsource Payroll in the UK?
 </h1>
 <h2 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -1305,7 +1307,7 @@ In most UK SMEs, the shift to outsourcing does not happen because payroll become
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -1313,6 +1315,8 @@ In most UK SMEs, the shift to outsourcing does not happen because payroll become
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"A Complete 2026 Pricing Guide for Businesses | Taxaccolega","description":"How Much Does It Cost to Outsource Payroll in the UK? A Complete 2026 Pricing Guide for Businesses Table of Contents What Payroll Outsourcing Actually Means in…","datePublished":"2026-04-02 03:09:04","dateModified":"2026-04-02 03:09:04","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/how-much-does-it-cost-to-outsource-payroll-in-the-uk/"}}) }} />
       <ContactSection />
     </div>
   );

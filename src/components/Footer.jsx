@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="bg-dark text-white-50 py-12">
@@ -46,8 +47,8 @@ const Footer = () => {
             <div className="d-flex flex-column flex-md-row justify-content-between align-items-center small gap-3">
                 <p className="mb-0">&copy; 2011 - 2026 Taxaccolega. All Copyrights reserved.</p>
                 <div className="d-flex gap-4">
-                    <a href="#" className="text-white-50 text-decoration-none hover:text-white transition-colors">Privacy Policy</a>
-                    <a href="#" className="text-white-50 text-decoration-none hover:text-white transition-colors">Terms of Use</a>
+                    <Link href="/privacy-policy/" className="text-white-50 text-decoration-none hover:text-white transition-colors">Privacy Policy</Link>
+                    <Link href="/legal/" className="text-white-50 text-decoration-none hover:text-white transition-colors">Terms of Use</Link>
                 </div>
             </div>
         </div>

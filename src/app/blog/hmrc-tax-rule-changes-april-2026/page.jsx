@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "HMRC Tax Rule Changes April 2026 | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   HMRC Tax Rule Changes April 2026
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:35px">
@@ -687,7 +689,7 @@ If you want to discuss your position, reduce risk, and build a clear plan for <s
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -695,6 +697,8 @@ If you want to discuss your position, reduce risk, and build a clear plan for <s
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"HMRC Tax Rule Changes April 2026 | Taxaccolega","description":"HMRC Tax Rule Changes April 2026 What UK Individuals and Businesses Must Prepare for Now April is when UK tax reality changes, not in theory, but in the day-to…","datePublished":"2026-02-09 17:32:46","dateModified":"2026-02-09 17:32:46","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/hmrc-tax-rule-changes-april-2026/"}}) }} />
       <ContactSection />
     </div>
   );

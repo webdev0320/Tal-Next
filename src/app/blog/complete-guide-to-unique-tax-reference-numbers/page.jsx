@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Unique Tax Reference Number | Complete Guide By Taxaccolega | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Complete Guide to Unique
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -461,7 +463,7 @@ When you receive your activation code, link the service in your account and comp
 					<a href="https://plus.google.com/u/0/100672948850520944033" target="_blank">
 						Icon-google-review
 											</a>
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -469,6 +471,8 @@ When you receive your activation code, link the service in your account and comp
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Unique Tax Reference Number | Complete Guide By Taxaccolega | Taxaccolega","description":"Complete Guide to Unique Tax Reference Numbers Table of Contents What does a UTR number mean? Who needs a UTR? Where do I look for my UTR? How can I get a UTR…","datePublished":"2025-09-25 13:44:25","dateModified":"2025-09-25 13:44:25","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/complete-guide-to-unique-tax-reference-numbers/"}}) }} />
       <ContactSection />
     </div>
   );

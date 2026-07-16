@@ -1,5 +1,7 @@
 "use client";
 import { useState } from 'react';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 /* ── Sidebar Cards ── */
 export const SidebarCards = () => {
@@ -339,6 +341,8 @@ export const FAQSection = () => {
             ))}
           </div>
         </div>
+      
+      {(() => { const faqData = faqJsonLd([{"q":"What is corporation tax in the UK?","a":"Corporation tax is the tax paid by UK limited companies on their profits after allowable expenses."},{"q":"When is corporation tax due?","a":"Payment is due 9 months and 1 day after the end of the accounting period, while the return must be filed within 12 months."},{"q":"How do I file a corporation tax return online?","a":"You complete the CT600, attach company accounts and tax calculations, and submit via HMRC-approved software."},{"q":"Do I need an accountant for corporation tax?","a":"Not legally, but most businesses use accountants to ensure accuracy and avoid costly errors."},{"q":"What happens if corporation tax is filed late?","a":"Late filing results in penalties, and interest is charged on late payments."},{"q":"Can corporation tax be reduced legally?","a":"Yes. Through proper planning, allowable expenses, and correct structuring, tax can be reduced within HMRC rules."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
       </div>
     </section>
   );

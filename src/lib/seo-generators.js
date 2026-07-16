@@ -7,6 +7,15 @@ import { packagesSeo } from '../data/seo/packagesSeo.js';
 
 const publicDir = path.join(process.cwd(), 'public');
 
+/**
+ * Strip <h1> tags from HTML content to avoid duplicate H1 violations.
+ * @param {string} html
+ * @returns {string}
+ */
+export function stripH1(html) {
+  return String(html || '').replace(/<h1[^>]*>/gi, '').replace(/<\/h1>/gi, '');
+}
+
 // ── JSON SEO maps loaded once at module level ──────────────────────────────
 let _seoMetadata = null;
 let _blogSeo = null;
@@ -238,146 +247,4 @@ export function metadataForCatchAllSlug(slugParts) {
   });
 }
 
-// ── JSON-LD Structured Data helpers ───────────────────────────────────────
-
-/**
- * Organisation + LocalBusiness JSON-LD (for every page)
- */
-export function organizationJsonLd() {
-  return {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': ['Organization', 'AccountingService'],
-        '@id': `${SITE.url}/#organization`,
-        name: SITE.legalName,
-        url: SITE.url,
-        logo: {
-          '@type': 'ImageObject',
-          url: absoluteUrl('/images/logo.png'),
-          width: 300,
-          height: 60,
-        },
-        contactPoint: {
-          '@type': 'ContactPoint',
-          telephone: SITE.phone,
-          contactType: 'customer service',
-          areaServed: 'GB',
-          availableLanguage: 'English',
-        },
-        address: {
-          '@type': 'PostalAddress',
-          streetAddress: SITE.address.street,
-          addressLocality: SITE.address.city,
-          addressRegion: SITE.address.region,
-          postalCode: SITE.address.postalCode,
-          addressCountry: SITE.address.country,
-        },
-        sameAs: [
-          'https://www.facebook.com/Taxaccolega',
-          'https://twitter.com/Taxaccolega',
-          'https://www.linkedin.com/company/taxaccolega',
-        ],
-      },
-      {
-        '@type': 'LocalBusiness',
-        '@id': `${SITE.url}/#localbusiness`,
-        name: SITE.legalName,
-        url: SITE.url,
-        telephone: SITE.phone,
-        email: SITE.email,
-        address: {
-          '@type': 'PostalAddress',
-          streetAddress: SITE.address.street,
-          addressLocality: SITE.address.city,
-          addressRegion: SITE.address.region,
-          postalCode: SITE.address.postalCode,
-          addressCountry: SITE.address.country,
-        },
-        geo: {
-          '@type': 'GeoCoordinates',
-          latitude: 51.3727,
-          longitude: -0.0995,
-        },
-        openingHoursSpecification: [
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-            opens: '09:00',
-            closes: '17:30',
-          },
-        ],
-        priceRange: '££',
-      },
-    ],
-  };
-}
-
-/**
- * Breadcrumb JSON-LD
- * @param {Array<{name: string, url: string}>} items
- */
-export function breadcrumbJsonLd(items) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: items.map((item, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: item.name,
-      item: item.url,
-    })),
-  };
-}
-
-/**
- * Article/Blog post JSON-LD
- * @param {{ title: string, description: string, date: string, author: string, url: string, imageUrl?: string }} post
- */
-export function articleJsonLd(post) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: post.title,
-    description: post.description,
-    datePublished: post.date,
-    dateModified: post.date,
-    author: {
-      '@type': 'Person',
-      name: post.author || SITE.legalName,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: SITE.name,
-      logo: {
-        '@type': 'ImageObject',
-        url: absoluteUrl('/images/logo.png'),
-      },
-    },
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': post.url,
-    },
-    image: post.imageUrl || absoluteUrl(SITE.defaultImage),
-  };
-}
-
-/**
- * FAQ JSON-LD
- * @param {Array<{q: string, a: string}>} faqs
- */
-export function faqJsonLd(faqs) {
-  if (!faqs?.length) return null;
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqs.map((faq) => ({
-      '@type': 'Question',
-      name: faq.q,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: stripHtml(faq.a, 500),
-      },
-    })),
-  };
-}
+// JSON-LD helpers moved to src/lib/jsonld.js (client-safe, no fs dependency)

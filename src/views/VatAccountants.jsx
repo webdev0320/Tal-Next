@@ -5,6 +5,8 @@ import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
 import ContactForm from '../components/ContactForm';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 // Inline styled icons matching Lucide / SVG style
 const CheckIcon = () => (
@@ -634,7 +636,9 @@ const VatAccountants = () => {
 
       {/* ── SECTION 15: BOTTOM PARTNERS LOGOS ── */}
       <Partners />
-    </div>
+    
+      {(() => { const faqData = faqJsonLd([{"q":"What does a VAT accountant do?","a":"A VAT accountant manages the full VAT life-cycle for your business. This includes registering your company for VAT, choosing the most cost-effective VAT scheme, preparing and reconciling VAT figures, submitting accurate quarterly or monthly VAT returns online to HMRC, and managing any audits or queries from HMRC."},{"q":"How do I submit a VAT return online UK?","a":"All VAT returns must now be submitted electronically using Making Tax Digital (MTD) compatible software. You must link your accounting records, reconcile sales and purchases, generate the 9-box VAT return, and submit it online via the HMRC MTD gateway. A VAT accountant ensures your calculations are fully aligned with your invoices before submitting."},{"q":"When do I need a VAT registration accountant?","a":"You are legally required to register for VAT if your taxable business turnover exceeds the threshold of £90,000 (rolling 12-month period). You can also choose to register voluntarily before reaching the threshold to reclaim input VAT. A VAT registration accountant helps analyze when to register, structures the process, and ensures you select the correct scheme."},{"q":"Can VAT accountants fix previous filing errors?","a":"Yes. If you discover a mistake on a previously submitted VAT return, our VAT accountants can review your transaction history, calculate the adjustments required, and submit the necessary correction notifications (such as form VAT652) to HMRC to resolve the errors cleanly."},{"q":"What is the Flat Rate VAT scheme?","a":"The Flat Rate Scheme is a simplified HMRC VAT structure designed for small businesses with an expected turnover under £150,000. Instead of calculating VAT on every purchase and sale, you pay HMRC a fixed percentage of your gross turnover. The percentage depends on your industry sector."},{"q":"What are the penalties for late VAT filing or payment?","a":"HMRC operates a points-based system for late submissions and payments. Each late return incurs 1 penalty point. Once a point threshold is reached, you are charged an automatic £200 penalty. Late payments also attract interest charges and percentage-based financial surcharges depending on how late the payment is."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
+      </div>
   );
 };
 

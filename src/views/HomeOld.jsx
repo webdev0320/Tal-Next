@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import ContactForm from '../components/ContactForm';
+import { faqJsonLd } from '../lib/jsonld';
+import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
 // Reusable Star SVG
 const StarIcon = () => (
@@ -669,7 +671,9 @@ const HomeOld = () => {
 
         <ContactForm source="HomeOldFooter" />
       </footer>
-    </div>
+    
+      {(() => { const faqData = faqJsonLd([{"q":"What is the process for non-domiciled tax filings?","a":"Non-domiciled individuals first report UK income and can choose to pay tax on foreign income only when the income is brought in to the UK. From April 2025 new rules will apply. so it’s worth checking your tax status, as new arrivals qualify for 100% tax relief on foreign income and gains during their first 4 years in the UK."},{"q":"What should I do if I’ve missed a tax deadline?","a":"Act quickly file or pay as immediately to avoid penalties and interest. Then contact HMRC or your tax consultant to discuss late filing or paying."},{"q":"What’s the difference between tax avoidance and tax evasion?","a":"Tax avoidance occurs within legal confines to reduce taxation whereas tax evasion is illegal and involves deliberately hiding income or falsifying information. We guide to help you to stay in compliance and legality."},{"q":"How can I reduce my tax bill legally?","a":"You can reduce tax by using allowances, structuring income efficiently, claiming expenses, and timing income or asset sales smartly. We provide personalised tax planning to help you do this legally."},{"q":"What should I do if I disagree with a tax bill or HMRC assessment?","a":"You have the right to appeal or request a review. Start by contacting HMRC or your tax adviser quickly. We can help with appeals, negotiations, and representing you if needed."},{"q":"How can I protect my business from future tax audits or disputes?","a":"Maintain accurate records, stay compliant with reporting rules, and check your tax strategy regularly. We offer audit protection, risk evaluation, and ongoing support to keep you prepared."},{"q":"How do I ensure compliance with the IR35 rules?","a":"IR35 applies if you’re hired through a limited company but are actually an employee. Regular checking of your contracts and your employment status is important. We can examine your arrangements and advise you on compliance."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
+      </div>
   );
 };
 

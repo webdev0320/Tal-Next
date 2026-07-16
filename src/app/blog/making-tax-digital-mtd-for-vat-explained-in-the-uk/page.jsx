@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
+import { stripH1 } from '../../../lib/seo-generators';
+import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Making Tax Digital (MTD) for VAT Explained in the UK: Registration, Software, HMRC Rules and Deadlines | Taxaccolega",
@@ -33,7 +35,7 @@ export default function Page() {
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Making Tax Digital (MTD) for VAT Explained in the UK
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:30px">
@@ -545,7 +547,7 @@ Whether you are a small business in Croydon or operating UK wide, getting MTD ri
 									
 				
 									
-					` }} />
+					`) }} />
         </article>
       </main>
 
@@ -553,6 +555,8 @@ Whether you are a small business in Croydon or operating UK wide, getting MTD ri
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
+      
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Making Tax Digital (MTD) for VAT Explained in the UK: Registration, Software, HMRC Rules and Deadlines | Taxaccolega","description":"Making Tax Digital (MTD) for VAT Explained in the UK Registration, Software, HMRC Rules and Deadlines Table of Contents A Complete Guide for Businesses Introdu…","datePublished":"2025-12-20 10:13:27","dateModified":"2025-12-20 10:13:27","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/making-tax-digital-mtd-for-vat-explained-in-the-uk/"}}) }} />
       <ContactSection />
     </div>
   );
