@@ -25,18 +25,27 @@ const ContactForm = ({ source = 'Website contact form' }) => {
     setStatus('loading');
 
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('https://taxaccolega.co.uk/api/mail.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...formData, source }),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: `${formData.message}\n\n(Source: ${source})`,
+        }),
       });
 
-      if (!res.ok) throw new Error('Request failed');
+      const result = await res.json();
+
+      if (!res.ok || result.status !== 'success') {
+        throw new Error(result.message || 'Failed to send message');
+      }
 
       setStatus('success');
       setFormData(initialFormData);
     } catch (err) {
-      console.error(err);
+      console.error('Contact form error:', err);
       setStatus('error');
     }
   };
@@ -46,7 +55,7 @@ const ContactForm = ({ source = 'Website contact form' }) => {
       <div className="container py-4">
         <div className="grid md:grid-cols-2 gap-8 items-stretch">
 
-          {/* LEFT CARD — office info + map */}
+          {/* LEFT CARD — unchanged */}
           <div className="h-full">
             <div className="p-8 border border-slate-100 shadow-sm rounded-3xl bg-white h-full flex flex-col gap-6">
               <div>
@@ -131,7 +140,7 @@ const ContactForm = ({ source = 'Website contact form' }) => {
             </div>
           </div>
 
-          {/* RIGHT CARD — working contact form */}
+          {/* RIGHT CARD — form now posts to PHP mail.php */}
           <div className="h-full">
             <div className="p-8 border border-slate-100 shadow-sm rounded-3xl bg-white h-full flex flex-col">
               <h3 className="mb-2 font-bold text-[#1D3C45]">Send Us a Message</h3>
