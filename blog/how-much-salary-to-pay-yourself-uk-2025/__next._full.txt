@@ -1,0 +1,90 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","how-much-salary-to-pay-yourself-uk-2025",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["how-much-salary-to-pay-yourself-uk-2025",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$La","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L6",null,{}]
+f:T14a0,
+  How much salary should 
+
+
+  I give myself in the tax year 2020-2021?
+				
+		<p><!-- wp:image {"align":"center"} --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>In the budget announced in March 2021, the threshold for personal allowance has been increased. There is an increase from £12, 500 to £12, 570 in the tax <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/march/increase-in-the-personal-allowance-how-does-it-affect-you">free personal allowance</a></strong>. The basic tax rate bracket has been increased to £37 700. This means that an individual will not pay any tax on its earning till £12, 570 and they will pay 20% on their income up to £37 700.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>HOW WILL IT AFFECT YOU IF YOU HAVE INCORPORATED YOUR BUSINESS AND YOU ARE THE DIRECTOR OF THE COMPANY?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you have your business incorporated this means that your business is a separate legal entity and all the profits and losses of the company do not belong to you. They belong to the company itself .</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In this case there are 2 ways in which you can an individual can earn money from the company.</p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true} --></p>
+<ol><!-- wp:list-item -->
+<li><strong>      1. </strong>Work as an employee</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>      2. </strong>Work as a <strong><a href="https://www.taxaccolega.co.uk/factsheets/general-business/directors-responsibilities">director of the company</a></strong></li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>You can be an employee as well as the director of your company.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>IF YOU ARE WORKING AS AN EMPLOYEE OF THE COMPANY</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you are working as an employee of the company, the company will give you salary.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>As an individual you will be paying income tax and NI on this salary depending on the amount of salary that you are receiving from the company.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In the company accounts, this salary is treated as an expense to the company. It is deducted from the income of the company thereby reducing taxable profit which in turn reduces the corporation tax that the company pays.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>IF YOU ARE THE DIRECTOR OF THE COMPANY</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you are working as a director of a company you will be entitled to dividends.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p> The dividends is the money given to the director of a company after it has paid its corporation tax and other tax liabilities such as <a href="https://www.taxaccolega.co.uk/factsheets/vat/vat-seven-key-points-for-the-smaller-business"><strong>VAT</strong>.</a></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The most tax efficient way to extract money from your company is to pay yourself a combination of salary and dividends.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>From the tax year starting April 2023,there is an expected increase in the corporation tax as well we will have to incorporate that change in analysing the salary and dividends being paid to the individuals.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Right now the question is does the increase in the threshold mean that you will be better off giving yourself more salary?</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>A low salary means that you do not have to pay income tax or NI on it. Since there is an increase in the income tax thresholds it is worth noting what the NI thresholds are .</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In the year 2020-2021 the NI primary threshold is £9 568 and the secondary threshold is £8 840.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>This means that when the salary of an individual reaches £9 568 the employees will start paying NI. If the salary of an individual is £8 840 the employer will start paying NI. To avoid paying NI all together it is suggested that the salary of an individual is set at £8 840 per year which comes out to be £736.66 each month for the tax year 2020- 2021. This amount of salary is covered by the personal allowance and is within the NI threshold.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You might need a <strong><a href="https://www.taxaccolega.co.uk/contact-us">PAYE accountant</a></strong> who can look after the payments to made to your employees. We at <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> , are affordable accountants in Croydon. If you run a company and you need advice in any matter we will be there to help you. Call us at <strong><a href="tel:02081270728">020 8127 0728</a></strong> and we will be happy to help you.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"How Much Salary Should You Pay Yourself in UK 2025?"}],["$","p",null,{"className":"text-white-50","children":"3 March 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","2401","static/chunks/app/blog/how-much-salary-to-pay-yourself-uk-2025/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","2401","static/chunks/app/blog/how-much-salary-to-pay-yourself-uk-2025/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"How Much Salary Should You Pay Yourself in UK 2025? | Taxaccolega\",\"description\":\"How much salary should I give myself in the tax year 2020-2021? In the budget announced in March 2021, the threshold for personal allowance has been increased.…\",\"datePublished\":\"2021-03-03 14:48:23\",\"dateModified\":\"2021-03-03 14:48:23\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/how-much-salary-to-pay-yourself-uk-2025/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"How Much Salary Should You Pay Yourself in UK 2025? | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"How much salary should I give myself in the tax year 2020-2021? In the budget announced in March 2021, the threshold for personal allowance has been increased.…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/how-much-salary-to-pay-yourself-uk-2025/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"How Much Salary Should You Pay Yourself in UK 2025? | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"How much salary should I give myself in the tax year 2020-2021? In the budget announced in March 2021, the threshold for personal allowance has been increased.…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/how-much-salary-to-pay-yourself-uk-2025/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2021-03-03 14:48:23"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"How Much Salary Should You Pay Yourself in UK 2025? | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"How much salary should I give myself in the tax year 2020-2021? In the budget announced in March 2021, the threshold for personal allowance has been increased.…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

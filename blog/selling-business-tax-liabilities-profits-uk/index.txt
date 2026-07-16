@@ -1,0 +1,115 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","selling-business-tax-liabilities-profits-uk",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["selling-business-tax-liabilities-profits-uk",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,"$La"]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]
+f:T1663,
+  Selling Your Business in the UK
+
+
+  Tax Liabilities &amp; Profit Maximisation
+				
+		<p><!-- wp:image {"width":"717px","height":"auto","aspectRatio":"35.84722222222222","align":"center"} --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<h2><strong>I am selling my business- What are my Tax Liabilities and How do I maximize my Profits?</strong></h2>
+<p>When you are selling your business as a sole trader or a partner you will have to pay Capital Gains Tax on any profits that you make.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>On the other hand, you won't be paying CGT. If you run your business as a limited company and you make a gain on its sale instead you pay <a href="https://www.taxaccolega.co.uk/small-businesses/sole-trader-or-limited-company">corporation tax</a>.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In this blog we will discuss how you can make use of the reliefs available to you if you sell your sole trader or a partnership business to reduce your Capital Gains tax and therefore maximize your profits.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>What is Capital Gains Tax</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/capital-gains-tax">Capital Gains Tax</a> is the tax on the profit when you sell something which has increased in value.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You have to pay capital gains if you make a profit when you sell( or dispose of) all or part of the business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Annual Exempt Amount</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>There is an annual exempt amount available which is £12 300 you won't have to pay any taxes if your gain is within the annual exempt amount.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will be able to utilize the annual exempt amount most efficiently if you sell or dispose of your business in parts. </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>What are the reliefs available to me if I am selling my business?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>There are certain eligibility criteria for each relief and if you are eligible you can get the relief depending on your circumstances and you can save on your taxes by</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● paying the reduced percentage of the taxes</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>or</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● by delaying certain taxes that you pay for example capital gains tax</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p> Let's look at the following reliefs available to you and see if you are eligible and we accountants in Croydon Can help you claim them .</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Business Asset Disposal Relief:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can pay the reduced amount of CGT(10 %)instead of the <a href="https://www.taxaccolega.co.uk/factsheets/capital-taxes/capital-gains-tax">normal rates </a>if the following applies to you</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● You are a <a href="https://www.taxaccolega.co.uk/small-businesses/sole-trader-or-limited-company">sole trader </a>or a partner</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● You have owned the business for at least 2 years.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p><strong>Gift Hold Over Relief:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are just giving away your asset you won't be paying any taxes on it. Instead CGT will be paid when the person you gave your asset sells it.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can claim this relief when you have used the business asset for business purposes as a sole trader or a partner.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Delaying the Payment of Capital Gains Tax:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>You can claim incorporation Relief:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can delay the payment of CGT if you transfer all your business and its assets in return for the shares in a company.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>This is not actual selling, it is when you transfer your business to a company.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>How do I claim</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You do not have to claim incorporation relief you will get it automatically,</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Business Asset disposal Relief:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can claim this relief if you dispose of your assets and replace them with the new ones within 3 years of disposing of them.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are planning to sell your business and you need more advice on how to go about it and how to submit the the tax returns, please feel free to <a href="https://www.taxaccolega.co.uk/contact-us">contact Taxaccolega</a> and our team of expert accountant will be happy to help you,</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Selling Your Business in the UK: Tax Liabilities & Profit Maximisation"}],["$","p",null,{"className":"text-white-50","children":"20 July 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5776","static/chunks/app/blog/selling-business-tax-liabilities-profits-uk/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5776","static/chunks/app/blog/selling-business-tax-liabilities-profits-uk/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Selling Your Business in the UK: Tax Liabilities & Profit Maximisation | Taxaccolega\",\"description\":\"Selling Your Business in the UK Tax Liabilities Profit Maximisation I am selling my business- What are my Tax Liabilities and How do I maximize my Profits? Whe…\",\"datePublished\":\"2020-07-20 11:49:13\",\"dateModified\":\"2020-07-20 11:49:13\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/selling-business-tax-liabilities-profits-uk/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"Selling Your Business in the UK: Tax Liabilities & Profit Maximisation | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"Selling Your Business in the UK Tax Liabilities Profit Maximisation I am selling my business- What are my Tax Liabilities and How do I maximize my Profits? Whe…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/selling-business-tax-liabilities-profits-uk/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"Selling Your Business in the UK: Tax Liabilities & Profit Maximisation | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"Selling Your Business in the UK Tax Liabilities Profit Maximisation I am selling my business- What are my Tax Liabilities and How do I maximize my Profits? Whe…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/selling-business-tax-liabilities-profits-uk/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2020-07-20 11:49:13"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Selling Your Business in the UK: Tax Liabilities & Profit Maximisation | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"Selling Your Business in the UK Tax Liabilities Profit Maximisation I am selling my business- What are my Tax Liabilities and How do I maximize my Profits? Whe…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

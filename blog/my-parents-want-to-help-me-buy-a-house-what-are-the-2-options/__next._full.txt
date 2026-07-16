@@ -1,0 +1,90 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","my-parents-want-to-help-me-buy-a-house-what-are-the-2-options",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["my-parents-want-to-help-me-buy-a-house-what-are-the-2-options",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$La",{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+f:T164a,
+  My parents want to help me buy a house
+
+
+  What are the 2 options?
+				
+		<p><!-- wp:image {"align":"center"} --></p>
+<figure><img src="https://www.taxaccolega.co.uk/img/blog/buy-a-house.jpg" alt="" /></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>It's a good chance for many first time buyers to buy a house. The stamp duty holiday till March has accelerated the sale of property and has encouraged individuals to buy property early. Those who had saved to buy houses next year are now planning to buy properties before March to make use of the <a href="https://www.taxaccolega.co.uk/news/latest-news-for-business/archive/news-article/2020/july/stamp-duty-temporarily-reduced"><strong>stamp duty relief.</strong></a></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Since the outbreak of coronavirus the priorities of people have changed, they are either looking for houses with bigger outdoor space or may be a house which can be extended to make office to work from home.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Many parents are willing to help their young children financially to buy a house at this time and save as much as £15000. They can either lend the money for down payments or they can agree to contribute to the monthly instalments. This will help the children buy a more spacious house and will increase their chances of getting a mortgage with favourable terms. </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>There are 2 options:</p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true} --></p>
+<ol><!-- wp:list-item -->
+<li><strong>      1. </strong>Either give a gift</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>      2. </strong>Give a loan</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>      3. Give a gift</strong><strong>:</strong></li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If you give cash gift to your children , your annual allowance is £3000 which can be carried forward to one year up to this amount you can make a tax free gift to your friends and family. However, if you want to give large amounts as gifts to your children no tax will be payable provided you survive for 7 years after making that gift. If you don't survive for 7 years an <a href="https://www.taxaccolega.co.uk/factsheets/capital-taxes/inheritance-tax-avoidance-pre-owned-assets"><strong>inheritance tax liability</strong></a> will be incurred according to <strong><a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/inheritance-tax">a 7 year rule</a></strong> at the time of your death. You might want to read our article on inheritance tax and gifting to family: <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2019/February/inheritance-tax">https://www.taxaccolega.co.uk/news/blog/archive/article/2019/February/inheritance-tax</a></strong></p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true,"start":2} --></p>
+<ol start="2"><!-- wp:list-item -->
+<li><strong>      1. Give a loan</strong>: <br />If you want to give a loan, you can charge interest each month. You can charge interest which is less than the market value to benefit the children.</li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p><strong>Is there any income tax that the children will have to pay</strong>?</p>
+<p>The answer is no. The children will not have to pay any income tax on the money that is given to them.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>What happens if the property is sold</strong>:</p>
+<p>A deed of trust is drawn by a solicitor and it will state how much money is given to the children and how much money will be given back to the parents when the property is sold. It is very important to keep proper documentation.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you do not want to give a loan or a gift some of the other options available to you are the following:</p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true} --></p>
+<ol><!-- wp:list-item -->
+<li><strong>      2. Guarantor mortgage:</strong></li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If the parents prefer, instead of lending the money directly they can be act as a guarantor on their mortgage, and this will be done at the time of making the mortgage deal. By agreeing to be the guarantor at the mortgage the parents are accepting the responsibility of paying the monthly instalments if the children are unable to do so.</p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true,"start":2} --></p>
+<ol start="2"><!-- wp:list-item -->
+<li><strong>      3. Joint Mortgage:</strong></li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If you are on a joint mortgage with your children. You will be liable for any payments which your children can't afford. However, in this case you will be legally owning a share of your property. There can be other tax implications as well. However, In this way you can borrow more and have more options.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you want advice you can call <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> at <a href="tel:02081270728"><strong>020 8127 0728</strong></a>, we can sort out all the inheritance tax issues, including estate planning and all sorts of property taxes. We realise that everyone's financial situation and circumstances are different we make sure that we advise you in such a way which helps you saves money.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Parents Helping You Buy a House? 2 Tax-Smart UK Options"}],["$","p",null,{"className":"text-white-50","children":"4 August 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","4140","static/chunks/app/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","4140","static/chunks/app/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Parents Helping You Buy a House? 2 Tax-Smart UK Options | Taxaccolega\",\"description\":\"My parents want to help me buy a house What are the 2 options? It\",\"datePublished\":\"2020-08-04 11:30:03\",\"dateModified\":\"2020-08-04 11:30:03\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"Parents Helping You Buy a House? 2 Tax-Smart UK Options | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"My parents want to help me buy a house What are the 2 options? It's a good chance for many first time buyers to buy a house. The stamp duty holiday till March…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"Parents Helping You Buy a House? 2 Tax-Smart UK Options | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"My parents want to help me buy a house What are the 2 options? It's a good chance for many first time buyers to buy a house. The stamp duty holiday till March…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2020-08-04 11:30:03"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Parents Helping You Buy a House? 2 Tax-Smart UK Options | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"My parents want to help me buy a house What are the 2 options? It's a good chance for many first time buyers to buy a house. The stamp duty holiday till March…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

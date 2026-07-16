@@ -1,0 +1,96 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","business-asset-disposal-relief",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["business-asset-disposal-relief",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$La","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L6",null,{}]
+f:T1330,
+  Business Asset Disposal Relief
+
+				
+		<figure><img src="https://www.taxaccolega.co.uk/img/blog/business-asset-disposal.jpg" alt="" /></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>Business Asset disposal relief which was previously known as entrepreneur`s relief is the relief given to individuals who are working as <a href="https://www.taxaccolega.co.uk/factsheets/starting-up-in-business/business-structures-which-should-i-use"><strong>sole traders</strong></a> or partners and have owned the business for 2 years.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If an individual who is fulfilling the above mentioned conditions, sells the business in the tax tear 2020/2021 and afterwards they will pay <a href="https://www.taxaccolega.co.uk/factsheets/capital-taxes/capital-gains-tax">capital gains tax</a> at a reduced rate of 10% on the first £ 1 million of the gains profit that they will make on selling the business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>This life time allowance of entrepreneur's relief has been slashed in the 2020 budget which was previously £10million. So if you have already used your £ 1 million allowance you won't be able to claim relief.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Do buy to let landlords qualify for entrepreneur relief?</strong> The answer is maybe not. This is because HMRC clearly mentions that to qualify for the entrepreneur's relief the 'business' will include any trade or profession or vocation but it will not include the letting of the property unless it is holiday lettings unless it is furnished holiday lettings in UK or EEA.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Can I claim the relief on the following assets?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:table --></p>
+<figure>
+<table>
+<tbody>
+<tr>
+<td><strong>Assets</strong></td>
+<td><strong>Do they qualify for the relief?</strong></td>
+<td><strong>Conditions</strong></td>
+</tr>
+<tr>
+<td>Selling all or part of the business</td>
+<td>yes</td>
+<td>You are a sole trader or a partnerYou owned the business for at least 2 years</td>
+</tr>
+<tr>
+<td>Shares or Securities</td>
+<td>Yes</td>
+<td>You are an employee of the company. The company`s main activities are in trading</td>
+</tr>
+<tr>
+<td>Assets you lent to the business</td>
+<td>Yes</td>
+<td>You've sold at least 5% of your part of a business partnership or your shares in a personal company. You owned the assets but let your business partnership or personal company use them for at least one year up to the date you sold your business or shares - or the date the business closed<a href="https://www.gov.uk/business-asset-disposal-relief">https://www.gov.uk/business-asset-disposal-relief</a></td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --><!-- wp:paragraph --></p>
+<p><strong>How to calculate the relief?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Suppose all your Gains qualify for the relief. The gain will be the difference between what you sold the assets for and how much you paid to buy it. (In some cases we will use the market value as well)</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Deduct the tax free allowance of £12300(for individuals and personal representatives) and £6150 for the trustees If you are a basic rate tax payer you will have to use your basic rat band first and pay 10 % on all the gains.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Once calculated the gain we will look for the expenses which can be deducted such as SDLT or advertising expense.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Other situations in which the CGT can be deffered is making use of rollover relief where the proceeds of a business is reinvested in new business assets or when the business assets are transferred to the spouse or a civil partner instead of being sold.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>How to claim the relief and what are the deadlines?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The relief can be claimed in the self-assessment tax return in the 'Capital Gains summary section'. The deadline is the 31 of January following the disposal. For example, if the disposal was made in Sep 2020 the last date to make the claim would be 31 Jan 2023</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Selling of the business has complex tax implications, if you need an accountant to sort out this for you don't hesitate to contact at for Taxaccolega based in Croydon and Southall 020 8127 0728 or email us at <strong><a href="mailto:info@taxaccolega.co.uk">info@taxaccolega.co.uk</a></strong> for the <strong><a href="https://www.taxaccolega.co.uk/about-us/fees">reasonable packages.</a></strong></p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Business Asset Disposal Relief"}],["$","p",null,{"className":"text-white-50","children":"22 July 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","2717","static/chunks/app/blog/business-asset-disposal-relief/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","2717","static/chunks/app/blog/business-asset-disposal-relief/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Business Asset Disposal Relief | Taxaccolega\",\"description\":\"Business Asset Disposal Relief Business Asset disposal relief which was previously known as entrepreneur`s relief is the relief given to individuals who are wo…\",\"datePublished\":\"2020-07-22 11:16:16\",\"dateModified\":\"2020-07-22 11:16:16\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/business-asset-disposal-relief/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"Business Asset Disposal Relief | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"Business Asset Disposal Relief Business Asset disposal relief which was previously known as entrepreneur`s relief is the relief given to individuals who are wo…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/business-asset-disposal-relief/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"Business Asset Disposal Relief | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"Business Asset Disposal Relief Business Asset disposal relief which was previously known as entrepreneur`s relief is the relief given to individuals who are wo…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/business-asset-disposal-relief/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2020-07-22 11:16:16"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Business Asset Disposal Relief | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"Business Asset Disposal Relief Business Asset disposal relief which was previously known as entrepreneur`s relief is the relief given to individuals who are wo…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

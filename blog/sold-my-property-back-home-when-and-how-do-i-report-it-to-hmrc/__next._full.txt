@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$La",{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+f:T1310,
+  Sold my property back home
+
+
+  When and how do I Report it to HMRC?
+				
+		<p>What taxes do you need to pay if you sell your property abroad depends on your living status in UK.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>There are different rules if you are a</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● UK resident</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Non UK resident</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Temporary Non-resident or</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● If you are domiciled outside UK.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:heading --></p>
+<h2><strong>UK RESIDENT</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>According to HMRC Website if an overseas property is sold Capital Gains Tax will need to be paid on the gains if the seller is a UK resident.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You might also have to <strong><a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/capital-gains-tax">pay taxes</a></strong> in the country where you sold the property, in that case you can claim a relief. You can either apply before you are taxed or you can even apply after you are taxed on your foreign income. How to apply for the relief visit the <a href="https://www.gov.uk/tax-foreign-income/taxed-twice" target="_blank" rel="noreferrer noopener"><strong>website here</strong>.</a></p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>UK NON- RESIDENT</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you are Non UK resident but living in UK for work you won`t have to pay any Capital Gains Tax on the sale of the property abroad.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>TEMPORARY NON- RESIDENT</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>You are considered temporary non-resident if you return to UK within 5 years of moving aboard ( and you lived in UK for at least 4 in 7 years as a UK resident before moving abroad )</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are non- resident in UK but return to UK within 5 years of selling the property then you have to pay Capital Gains Tax. If after returning you are still domiciled outside UK you won't be paying any tax on the gains from the sale of foreign property.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>IF YOU ARE DOMICILED OUTSIDE UK.</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>Domiciled outside UK means if you are UK resident( you are considered a resident if you lived for 183 days in UK in the tax year or you rented, owned the home in UK and lived in it for at least 91 days) but your main home is outside UK.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are non- domiciled and your income is less than £ 2000 and you don't bring it to UK you don't have to report it to HMRC. However, if the income is more than £ 2000 you must report them to HMRC in the Self-Assessment.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>To summarise, you will have to report and pay tax on your gains from the sale of foreign property if you are UK resident or you are non-domiciled but your gains were more than £2000.</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You need to report gains in the annual self-assessment tax return. You will have to report the gains in the 'foreign' section of the tax return. Make sure you have already done all your Capital Gains Tax calculations and you have all the relevant records such as document that has date and the sale price at which the property was sold.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you do not usually fill in the self-assessment tax return you can register for self-assessment in the tax year after the sale was made. The deadline for registering for self-assessment is 5 Oct. the deadline for submitting your self-assessment tax return in the paper form in 31 Oct ad deadline for submitting online is 31 Jan .</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>WE CAN HELP YOU</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>Calculating the capital gains tax can be tricky and there are various reliefs which might apply to you and it can lower your tax bill we at <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> have a team of expert accountants and we will be very happy to help you. Don't hesitate to call us at <a href="https://www.taxaccolega.co.uk/"><strong>020 8127 0728</strong></a> or email us at <strong><a href="mailto:info@taxaccolega.co.uk">info@taxaccolega.co.uk</a></strong></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Sold Overseas Property? Report to HMRC the Right Way"}],["$","p",null,{"className":"text-white-50","children":"13 October 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","2539","static/chunks/app/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","2539","static/chunks/app/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sold Overseas Property? Report to HMRC the Right Way | Taxaccolega\",\"description\":\"Sold my property back home When and how do I Report it to HMRC? What taxes do you need to pay if you sell your property abroad depends on your living status in…\",\"datePublished\":\"2020-10-13 11:59:36\",\"dateModified\":\"2020-10-13 11:59:36\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"Sold Overseas Property? Report to HMRC the Right Way | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"Sold my property back home When and how do I Report it to HMRC? What taxes do you need to pay if you sell your property abroad depends on your living status in…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"Sold Overseas Property? Report to HMRC the Right Way | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"Sold my property back home When and how do I Report it to HMRC? What taxes do you need to pay if you sell your property abroad depends on your living status in…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2020-10-13 11:59:36"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Sold Overseas Property? Report to HMRC the Right Way | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"Sold my property back home When and how do I Report it to HMRC? What taxes do you need to pay if you sell your property abroad depends on your living status in…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

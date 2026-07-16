@@ -1,0 +1,43 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","4762","static/chunks/app/blog/tax-due-in-july-as-a-sole-trader-payment-on-account/page-c7860c4bf7235c4a.js"],""]
+8:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","4762","static/chunks/app/blog/tax-due-in-july-as-a-sole-trader-payment-on-account/page-c7860c4bf7235c4a.js"],"default"]
+9:I[90484,[],"OutletBoundary"]
+a:"$Sreact.suspense"
+2:Tfeb,
+  Tax due in July as a sole trader
+
+
+  payment on account 
+				
+		<p><!-- wp:image --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you are self-employed running your own business as a sole trader you will have to pay your income tax through a self assessment tax return. For your trading income that will fall in the tax year running from April 2020 to April 2021, the taxes on that income will be due in full on 31 Jan 2022. This means you are not paying at source.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In order to make sure that the self-employed are not paying their tax bills in arrears HMRC has a system known as payment on account. You have to make these payments twice a year. You will be making these payments on accounts If your tax bill for a tax year is more than £1000, you won't have to make these payments if your tax bill is less than £1000 or 80% of your income is taxed at source, for example if you are employed full time at a company.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>How does it work? </strong></p>
+<p>Payment on accounts are the advance payments towards your tax bill which is due in Jan the following year. These payments are calculated by HMRC based on your tax liability for the previous year. You pay 50% of the estimated tax liability on 31 Jan and the other 50% of the tax liability on 31 July. The payments on account will therefore mean that the self employed person will end paying 150% of their tax bill in a particular year.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>These payments on accounts include tax on your trading income and class 4 NI. It will not include any capital gains tax or student loan tax. These taxes are then paid as part of the balancing payment on 31 Jan the following year.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>This can be best explained with an example below:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Claire is a sole trader and her tax liability for the tradings in the tax year 2019- 2020 were £6000. Based on her previous tax bill she will make 2 advance payments of £3000 each. One on 31 Jan 2021 and the second on 31 July 2020. If her actual tax bill for the tax year 2020-2021 comes out to be £7500 then she will have to make the balancing payment of £1500 on 31 Jan 2022 along with the first payment on account of £3750 which is an advance payment towards her tax bill.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Claire will have to pay a total of £5250 on 31 Jan 2022. It is therefore important that you understand your tax bills and set your money aside accordingly in order to avoid financial shocks. If you make an underpayment of your taxes you might have to face penalty charges which is an extra cost to your business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you have a business in which the profits fluctuate or they are fluctuating because of any other reason such as Lockdown you can reduce your payments on account by simply filling in the <strong><a href="https://www.gov.uk/government/publications/self-assessment-claim-to-reduce-payments-on-account-sa303" target="_blank" rel="noreferrer noopener">form</a></strong> and letting HMRC why you want to reduce your payments on account. You cannot simply ask to reduce your payments on account because you cannot afford to pay the tax bill.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you want to sort out your taxes and stay worry free you can contact <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> and we will do the numbers for you. We make sure that all your taxes are calculated accurately and all your tax bills paid on time. We are accountants based in Croydon and Surrey and we can help you with the personal taxes as well as corporation taxes and liabilities.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Sole Trader Tax: July Payment on Account Explained"}],["$","p",null,{"className":"text-white-50","children":"15 May 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TU--D1OteM_PjRebDpOWu"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sole Trader Tax: July Payment on Account Explained | Taxaccolega\",\"description\":\"Tax due in July as a sole trader payment on account If you are self-employed running your own business as a sole trader you will have to pay your income tax th…\",\"datePublished\":\"2021-05-15 14:38:15\",\"dateModified\":\"2021-05-15 14:38:15\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/tax-due-in-july-as-a-sole-trader-payment-on-account/\"}}"}}]
+5:["$","$L8",null,{}]
+6:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

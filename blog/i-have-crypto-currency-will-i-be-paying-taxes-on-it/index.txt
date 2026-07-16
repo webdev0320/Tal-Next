@@ -1,0 +1,98 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","i-have-crypto-currency-will-i-be-paying-taxes-on-it",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["i-have-crypto-currency-will-i-be-paying-taxes-on-it",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$La",{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+f:T154e,
+  I have crypto currency
+
+
+  Will I be paying taxes on it?
+				
+		<p><!-- wp:image --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>How you will be taxed on the cryptocurrency will depend on the nature and use of the crypto asset or the crypto currency as we normally call it.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>So What are CryptoAssets ?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Cryptoassets are not any money or currency but it includes different tokens. All of these tokens work in different ways and they will be taxed differently. These tokens include Exchange tokens for example, bitcoin, utility tokens, security tokens and stable coins.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Are you a business or an Individual?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Different taxes will apply if the transaction of the crypto asset involves businesses and companies. If you are an individual dealing with crypto assets you will have different taxes that will be applied to you and we have discussed that below.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>IF YOU ARE AN INDIVIDUAL</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are an individual and you got crypto assets from your employer as a form of non cash payment you will have to pay the following taxes when you receive them:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li><strong>      ● Income tax</strong></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>      ● National Insurance Contributions</strong></li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If you have bought cryptocurrency as an individual with the intention of selling it and making profit when the value of the cryptocurrency increases you will have to pay the tax on the disposal of asset. You will be paying tax even if you got the crypto asset from your employer and you sell it subsequently. The tax which is paid on the disposal is:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li><strong>      ● Capital Gains tax</strong></li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>you can report and pay Capital Gains Tax when you realise a gain in your self assessment tax return alternatively you can use Capital Gains Tax real time service to report it straight away.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The disposal of an asset includes but not only selling but the exchange of the crypto assets as well. HMRC describes disposal as the following:</p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true} --></p>
+<ol><!-- wp:list-item -->
+<li><strong>          1. </strong>Selling tokens for money</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>         2. </strong>Exchanging tokens for a different types of token</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>         3. </strong>Using tokens to pay for goods or services</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>        4. </strong>Giving away tokens to another person. You won't be paying taxes if it's a gift to your spouse or a civil partner.</li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>You will not be considered as making a disposal if you are giving away the cryptocurrency in charity as a donation.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In calculating Capital Gains Tax you are allowed to deduct certain expenses which can lower the tax that you will pay on the gain. These expenses include consideration originally paid for the asset, any transaction fees, advertising fees when looking for a purchaser, any professional costs involved this will include any fees paid to an accountant as well, costs of valuations.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Calculating Capital Gains tax involves many other considerations and you might want to consult an <a href="https://www.taxaccolega.co.uk/"><strong>accountant</strong>,</a> we at Taxaccolega have experienced accountants who can calculate your taxes in the most efficient way and save4 you money.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you own crypto assets it will be considered your property and you will have to pay inheritance tax on it. All the rules of <strong>inheritance tax</strong> will apply as they apply on any property that you own.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Other taxes involved can include <strong>stamp duty land tax</strong> but that only applies when the exchange tokens are given as a consideration for a land transaction.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you own cryptocurrency and you are worried about your taxes, you can seek professional advice at Taxaccolega, accountants based in Croydon, Surrey. Our team of accountants at <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> can advise you on the taxes that you are liable to pay, calculate the taxes for you and meet the tax deadlines. Please don't hesitate to call us at <strong>020 8020 8127</strong> and we will be very happy to help you.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"I have crypto currency. Will I be paying taxes on it?"}],["$","p",null,{"className":"text-white-50","children":"13 May 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1468","static/chunks/app/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1468","static/chunks/app/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"I have crypto currency. Will I be paying taxes on it? | Taxaccolega\",\"description\":\"I have crypto currency Will I be paying taxes on it? How you will be taxed on the cryptocurrency will depend on the nature and use of the crypto asset or the c…\",\"datePublished\":\"2021-05-13 14:36:41\",\"dateModified\":\"2021-05-13 14:36:41\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"I have crypto currency. Will I be paying taxes on it? | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"I have crypto currency Will I be paying taxes on it? How you will be taxed on the cryptocurrency will depend on the nature and use of the crypto asset or the c…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"I have crypto currency. Will I be paying taxes on it? | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"I have crypto currency Will I be paying taxes on it? How you will be taxed on the cryptocurrency will depend on the nature and use of the crypto asset or the c…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2021-05-13 14:36:41"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"I have crypto currency. Will I be paying taxes on it? | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"I have crypto currency Will I be paying taxes on it? How you will be taxed on the cryptocurrency will depend on the nature and use of the crypto asset or the c…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

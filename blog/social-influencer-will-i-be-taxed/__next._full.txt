@@ -1,0 +1,79 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","social-influencer-will-i-be-taxed",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["social-influencer-will-i-be-taxed",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$La","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L6",null,{}]
+f:T1146,
+  Social Influencer - 
+
+
+  Will I be taxed?
+				
+		<p>Sitting home and making money couldn't get any easier as it has now. We have seen lots of success stories of people around us who are making so much money through social media that they have quit their jobs. It is a dream job for many as they can just peruse their hobby such as travel, wood work etc and make money by sharing their experiences.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/phone.jpg" alt="" width="824" height="549" /></p>
+<p>By the sound of it, it seems that its just a hobby that is being pursued however, in reality the more you are getting noticed by the people around you the more chances are that your income will be scrutinised by the HMRC.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>As I always say , when you have money coming in you will have to pay taxes. If you are doing some activity through which you are earning money and you are spending some money so that you are able to do that activity HMRC will consider it a business and you will be liable to pay taxes.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>It is always a good idea to get in touch with an <strong><a href="https://www.taxaccolega.co.uk/factsheets/vat/vat-seven-key-points-for-the-smaller-business">accountant</a></strong> who can advise you on taxes in this area so you are not worried about getting a penalty from HMRC for not reporting your income.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>HOW DO I REPORT MY INCOME</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>You will have to report your income from social media such as YouTube on the self-assessment tax return.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you have income of more than £1000 in a single tax year you will have to register for self-assessment tax return by 5 Oct and fill in the self- assessment tax return and file it by 31 Jan of the following year. See our <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2020/december/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader">blog here</a></strong> to understand the deadlines.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can register for self-assessment as self-employed online by following the <strong><a href="https://www.gov.uk/register-for-self-assessment/self-employed">link here</a></strong></p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>HOW MUCH TAX WILL I BE PAYING?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>How much tax you will be paying will depend on the income that you are earning.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>When you are a social influencer such as a you tuber, its not always your main job.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>For example, you might have a stable job on which you are paying taxes and you are just uploading videos. The extra money that you are making is more than £ 1000 per year.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In that case you although you might be paying your taxes at source, meaning your employer has deducted the tax and NI before paying you the salary. You are required to state your salary in your self-assessment tax return form as shown in your P60.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>This would also mean that you might have utilised your tax free personal allowance which is currently £ 12 500 and is set to increase to £ 12 570.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will be paying taxes according to the tax brackets in which your income falls. To learn more about the tax thresholds <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/march/increase-in-the-personal-allowance-how-does-it-affect-you">click here</a></strong>.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>CAN I CLAIM ANY EXPENSES?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>Yes, very confidently. If you are ready to declare all your income and pay taxes on it you can claim any expenses from HMRC as well.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Claiming expenses mean that you will be.</p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Social Influencer - Will I be taxed?"}],["$","p",null,{"className":"text-white-50","children":"1 March 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","4121","static/chunks/app/blog/social-influencer-will-i-be-taxed/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","4121","static/chunks/app/blog/social-influencer-will-i-be-taxed/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Social Influencer - Will I be taxed? | Taxaccolega\",\"description\":\"Social Influencer - Will I be taxed? Sitting home and making money couldn\",\"datePublished\":\"2021-03-01 12:40:59\",\"dateModified\":\"2021-03-01 12:40:59\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/social-influencer-will-i-be-taxed/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"Social Influencer - Will I be taxed? | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"Social Influencer - Will I be taxed? Sitting home and making money couldn't get any easier as it has now. We have seen lots of success stories of people around…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/social-influencer-will-i-be-taxed/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"Social Influencer - Will I be taxed? | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"Social Influencer - Will I be taxed? Sitting home and making money couldn't get any easier as it has now. We have seen lots of success stories of people around…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/social-influencer-will-i-be-taxed/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2021-03-01 12:40:59"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Social Influencer - Will I be taxed? | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"Social Influencer - Will I be taxed? Sitting home and making money couldn't get any easier as it has now. We have seen lots of success stories of people around…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

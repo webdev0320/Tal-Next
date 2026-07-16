@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","can-i-make-gifts-which-are-exempt-from-tax",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["can-i-make-gifts-which-are-exempt-from-tax",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,"$La"]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]
+f:T170c,
+  Can I make gifts which are exempt from tax
+
+				
+		<p>There is a threshold of <strong>£325 000</strong> below which you don't give any tax. This means that if your estate is valued at £325 000 or below at the time of your death you don't have to pay any tax otherwise you will be paying <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2019/february/inheritance-tax">Inheritance tax</a></strong> at 40 % . This is reduced to 36% if you give at least 10 % of your net estate to charity.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>HMRC has given an opportunity to give gifts to their friends and relatives tax free during their life time. Many people would prefer making use of such tax exempt gifts so they don't end up paying large sums of tax at the time of their death.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Three things to consider when you want to give a gift to your life time are following:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true} --></p>
+<ol><!-- wp:list-item -->
+<li><strong>      1. </strong>Who are you giving the gift to</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>     2. </strong>What is the gift.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>     3. </strong>When are you giving the gift</li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p><strong>1. Who are you giving gift to:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can give a gift to your spouse, Civil partner , a UK registered charity or a political party without paying any tax on it.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>2. What is the value gift?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li><strong>      ● £3000</strong> - This is an annual exemption. This mean you can give away a gift worth of £3000 each tax year without paying any tax on it.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>       ● £250</strong> - you can give a gift of upto £250 to anyone each tax year during your life time and no tax will need to be paid on this amount.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>        ● £1000</strong> - If you are going to a wedding you can make a gift of £1000 per person in each tax year. You can make a tax free gift of <strong>£2500</strong> to your grandchild and <strong>£5000</strong> to your child.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If you are making small gifts from your income to your family and friends it is an exempted gift provided after giving the gift you are able to maintain your standard of living.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The payments made to the elderly or children under 18 that contribute towards their living costs are also considered exempted gifts.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>3. When are you giving the gift?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The timing of giving the gift is very important. This is because if you give the gift to a relative or a friend and die within 7 year of giving that gift a tax liability will arise. This is known as 7 year rule. However, if you die less than 3 years of making the gift the inheritance tax will be paid at 40 % and the gifts made between 3 to 7 years before the death are tax at different rate known as 'taper relief'</p>
+<p><!-- /wp:paragraph --><!-- wp:table --></p>
+<figure>
+<table>
+<thead>
+<tr>
+<th>Years between gift and death</th>
+<th>Tax rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Less than 3</strong></td>
+<td>40%</td>
+</tr>
+<tr>
+<td><strong>3 to 4</strong></td>
+<td>32%</td>
+</tr>
+<tr>
+<td><strong>4 to 5</strong></td>
+<td>24%</td>
+</tr>
+<tr>
+<td><strong>5 to 6</strong></td>
+<td>16%</td>
+</tr>
+<tr>
+<td><strong>6 to 7</strong></td>
+<td>8%</td>
+</tr>
+<tr>
+<td><strong>7 or more</strong></td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --><!-- wp:paragraph --></p>
+<p>While giving a gift you should be familiar with the term <a href="https://www.taxaccolega.co.uk/factsheets/personal-tax/taxation-of-the-family"><strong>Potentially Exempt Transfer</strong></a>: for example if you are thinking of giving your brother a sum of money you transfer the money to his account your brother won't have to declare it to HMRC, if it's within the exempt amount of £ 3000 per year. If it's a larger sum for example £ 30, 000 and you transfer it lump sum in one particular tax year, you can transfer the amount and no tax will be charged on this. However, you need to declare this to HMRC and it will be considered potentially exempt transfer or PET. This means if the person making the transfer dies within 7 years of making the gift this gift will be added to the value of the estate and inheritance tax will be payable on this amount.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>HMRC has introduced these rules so that people don't end up giving gifts on their death bed just to avoid paying inheritance tax. While giving and receiving gifts be ware there could be some Capital gains tax implications as well.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you need help in Estate planning we at <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> can help you with that. We deal with property transfers, inheritance tax arising on property transfers, shares and securities. Please do not hesitate to contact us at <a href="tel:02081270728"><strong>020 8127 0728</strong></a>. For any queries you can fill the <strong><a href="https://www.taxaccolega.co.uk/contact-us">form</a></strong> on our website and we can help you.</p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Can I make gifts which are exempt from tax"}],["$","p",null,{"className":"text-white-50","children":"5 August 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","3695","static/chunks/app/blog/can-i-make-gifts-which-are-exempt-from-tax/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","3695","static/chunks/app/blog/can-i-make-gifts-which-are-exempt-from-tax/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Can I make gifts which are exempt from tax | Taxaccolega\",\"description\":\"Can I make gifts which are exempt from tax There is a threshold of £325 000 below which you don\",\"datePublished\":\"2020-08-05 11:31:17\",\"dateModified\":\"2020-08-05 11:31:17\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/can-i-make-gifts-which-are-exempt-from-tax/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"Can I make gifts which are exempt from tax | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"Can I make gifts which are exempt from tax There is a threshold of £325 000 below which you don't give any tax. This means that if your estate is valued at £32…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/can-i-make-gifts-which-are-exempt-from-tax/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"Can I make gifts which are exempt from tax | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"Can I make gifts which are exempt from tax There is a threshold of £325 000 below which you don't give any tax. This means that if your estate is valued at £32…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/can-i-make-gifts-which-are-exempt-from-tax/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2020-08-05 11:31:17"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Can I make gifts which are exempt from tax | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"Can I make gifts which are exempt from tax There is a threshold of £325 000 below which you don't give any tax. This means that if your estate is valued at £32…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

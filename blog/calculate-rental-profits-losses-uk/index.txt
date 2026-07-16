@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","calculate-rental-profits-losses-uk",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["calculate-rental-profits-losses-uk",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$La","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L6",null,{}]
+f:T1484,
+  How to calculate and Report them?
+
+
+  Profits and Losses from UK Rental 
+				
+		<p><!-- wp:image --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you have rented a property in the UK, you should declare it to HMRC and pay tax on your profits.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you rent a property abroad and you are a UK resident you should be paying tax on it as well but the profits and losses on the rental income from overseas property should be done separately.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>WHAT TO DO IF I HAVE PROFITS?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you have profited from your rental income, you should report it to HMRC in the <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2020/august/as-a-landlord-how-will-i-be-taxed-on-the-rental-income-and-what-tax-deadlines-should-i-be-aware-of">self-assessment tax return</a></strong>. You should register yourself by 5 Oct following the tax year you had rental income and pay tax on it.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>WHAT TO DO IF I AM HAVING A LOSS ON MY RENTAL PROPERTY?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you rent a property and it is making losses you are not required to declare it to HMRC unless you are already required to fill in the self-assessment tax return for some other reason.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p> If you are self-employed and you are already required to fill in the self-assessment tax return because you might be self-employed and running your own business then you should declare your income from all the sources even if it making a loss. However, it should be noted that the loss from the property business cannot be offset against the gain from any other business. It can only be offset either against the gains from the property business in the same tax year or carried forward against the future gains from the same property business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>It is therefore advised that even if the property is making a loss it should be declared to HMRC so that the losses can be automatically carried forward and the loss figure is not challenged by HMRC.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>For example, if you have 2 rental properties one is making a profit and the other one is making a loss you should declare both to the HMRC.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>CALCULATING PROFIT</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>It is very important to know how the profit figure is calculated.</p>
+<p><!-- /wp:paragraph --><!-- wp:table --></p>
+<figure>
+<table>
+<tbody>
+<tr>
+<td> </td>
+<td>Income</td>
+<td>Expenses</td>
+<td>Profit/ Loss</td>
+</tr>
+<tr>
+<td>Property 1</td>
+<td>1000</td>
+<td>500</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Property 2</td>
+<td>2200</td>
+<td>1200</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Property 3</td>
+<td>750</td>
+<td>800</td>
+<td>-50</td>
+</tr>
+<tr>
+<td>Total Income</td>
+<td>3950</td>
+<td>2500</td>
+<td>1450</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --><!-- wp:paragraph --></p>
+<p>If the 'overall figure' from your property business is a profit you will pay tax on it as in the example above and you will be paying tax on it.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The tax you pay will depend on the tax rate band that you fall into.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>When you have income from other sources for example from employment, self-employment, or any other investment you have to add them all together.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Each year every individual is given a free allowance of £12, 500. Up to this amount an individual does not have to pay any income tax. Tax is paid at the rate of basic rate 20% (£12, 501- 50 000), higher rate 40% (£50 001- £ 150 000), Additional rate of 45% (over £150, 000). </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The first £1000 of your income from your rental property is tax-free this is called property allowance. You will pay tax on the income above this.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are looking for accountants in Croydon please free to contact <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> at <a href="tel:02081270728"><strong>020 8127 0728</strong></a>. We have an expert team of property accountants dealing with the renting and sale of a property. We can advise you in all sorts of areas such as Capital Gains Tax, Inheritance Tax, and Stamp Duty Land Tax. For queries message us <strong><a href="https://www.taxaccolega.co.uk/contact-us">here</a></strong> or email us at info@taxaccolega.co.uk and we will get back to you.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Sources: <strong><a href="https://www.gov.uk/renting-out-a-property/paying-tax" target="_blank" rel="noreferrer noopener">https://www.gov.uk/renting-out-a-property/paying-tax</a></strong></p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"UK Rental Income: How to Calculate and Report Profit or Loss"}],["$","p",null,{"className":"text-white-50","children":"1 November 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","7732","static/chunks/app/blog/calculate-rental-profits-losses-uk/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","7732","static/chunks/app/blog/calculate-rental-profits-losses-uk/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"UK Rental Income: How to Calculate and Report Profit or Loss | Taxaccolega\",\"description\":\"How to calculate and Report them? Profits and Losses from UK Rental If you have rented a property in the UK, you should declare it to HMRC and pay tax on your…\",\"datePublished\":\"2020-11-01 12:07:02\",\"dateModified\":\"2020-11-01 12:07:02\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/calculate-rental-profits-losses-uk/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"UK Rental Income: How to Calculate and Report Profit or Loss | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"How to calculate and Report them? Profits and Losses from UK Rental If you have rented a property in the UK, you should declare it to HMRC and pay tax on your…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/calculate-rental-profits-losses-uk/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"UK Rental Income: How to Calculate and Report Profit or Loss | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"How to calculate and Report them? Profits and Losses from UK Rental If you have rented a property in the UK, you should declare it to HMRC and pay tax on your…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/calculate-rental-profits-losses-uk/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2020-11-01 12:07:02"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"UK Rental Income: How to Calculate and Report Profit or Loss | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"How to calculate and Report them? Profits and Losses from UK Rental If you have rented a property in the UK, you should declare it to HMRC and pay tax on your…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

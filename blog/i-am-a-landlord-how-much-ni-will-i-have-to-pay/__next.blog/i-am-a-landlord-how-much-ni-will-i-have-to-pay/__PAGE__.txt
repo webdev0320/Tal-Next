@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5219","static/chunks/app/blog/i-am-a-landlord-how-much-ni-will-i-have-to-pay/page-c7860c4bf7235c4a.js"],""]
+8:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5219","static/chunks/app/blog/i-am-a-landlord-how-much-ni-will-i-have-to-pay/page-c7860c4bf7235c4a.js"],"default"]
+9:I[90484,[],"OutletBoundary"]
+a:"$Sreact.suspense"
+2:T10f1,
+  I am a Landlord-
+
+
+  How much NI will I have to pay? 
+				
+		<p><!-- wp:image --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>When you think of running a business it is very important that you know what costs may be involved so you have a fair idea of how much profits you will make.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you rent a property as a business, you must pay a certain amount to HMRC in the form of income tax and National Insurance. Renting a property is considered a business if all the following applies:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● You buy property for the purpose of renting out.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Renting out properties is your main business and</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● You rent out more than one property.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If the above applies to you it means you must pay NI. If you are an accidental landlord that means you do not have to pay NI even if you advertise for renting out the property or get the repairs done.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are running a business, you will be either running a business as a sole trader or you will be running as a limited company.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading {"level":3} --></p>
+<h3><strong>IF YOU RUN A BUSINESS AS A SOLE TRADER:</strong></h3>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you run a business as a sole trader, you will be paying NI with your self-assessment tax return if your profits for the year are £ 6475 or more. The type of NI you will pay is Class 2 NI. The tax rate for 2020/2021 is £ 3.05 per week. Most people pay their NI contributions through self-assessment.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You are usually required to register yourself for self-assessment when you are earning more than £1000 per year. However, you can register voluntarily even if your profits are less and pay NI voluntarily just to make sure that you get full state pension – which requires a contribution of 35 years.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You must note that the NI is paid when you reach a certain threshold for profits and not for the rent itself.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>To come to a profit figure, you have to deduct all the 'allowable expenses' from the rent that is paid to you. The allowable expenses will include all the costs involved in repairing, replacing and maintenance of the property. This will include repairing of water leaks, replacing of fixtures and fittings, repainting of walls. If you have hired some equipment to carry out the repair work, then you can deduct its cost from the rental income as well which will in turn reduce your taxable profit.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If renting your property is your main business, you are most likely to have your unused personal allowance. For the year 2020/ 2021 the personal allowance is £12 500.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Once you have calculated your rental profit by subtracting your allowable expenses from the rental income, you must subtract personal allowance from the rental profit. The remaining figure is your taxable profit.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading {"level":3} --></p>
+<h3><strong>RUNNING A BUSINESS AS A LIMITED COMPANY</strong></h3>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you are running a business as a limited company, and you are working as an employee you will be paying Class 1 NI through your PAYE system- Employees NI. We will cover that in detail in our next blog.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>We at <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> have an expert team of property accountants if you are looking for accountants in Croydon or accountants in South hall you should contact us at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> and our expert team of accountants will be happy to help you.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Landlord National Insurance in the UK – What You Owe"}],["$","p",null,{"className":"text-white-50","children":"16 February 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TU--D1OteM_PjRebDpOWu"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Landlord National Insurance in the UK – What You Owe | Taxaccolega\",\"description\":\"I am a Landlord- How much NI will I have to pay? When you think of running a business it is very important that you know what costs may be involved so you have…\",\"datePublished\":\"2021-02-16 12:29:15\",\"dateModified\":\"2021-02-16 12:29:15\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/i-am-a-landlord-how-much-ni-will-i-have-to-pay/\"}}"}}]
+5:["$","$L8",null,{}]
+6:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

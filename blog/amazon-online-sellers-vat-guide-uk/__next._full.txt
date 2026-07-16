@@ -1,0 +1,109 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","amazon-online-sellers-vat-guide-uk",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["amazon-online-sellers-vat-guide-uk",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$La","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L6",null,{}]
+f:T1a67,
+  My UK VAT responsibilities if
+
+
+  I am selling online on amazon
+				
+		<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you are selling online you might be selling directly to a customer who is not VAT registered, to a business customer who is VAT registered, and you might also be selling through an online marketplace such as Amazon and Ebay.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The UK VAT responsibilities are slightly different in each case. If the rules get tricky and confusing for you please do not hesitate to contact Taxaccolega and our expert team of e-commerce accountants will be there to help you.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h2><strong>When are you required to register for VAT?</strong></h2>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You are required to register for VAT in the UK if the following applies to you:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● If you are registered as a business in the UK and your business's VAT taxable turnover is more than £85, 000 a year.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>You will have to register for UK VAT if you are an overseas seller and the following applies to you</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>    ● If you are an overseas seller with goods stored in the EU and your total sales to the customers in Northern Ireland are more than £70 000 a year.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● If you are an overseas seller and the online marketplace such as amazon provides you with the VAT details of its business customer.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● If you are an overseas seller <strong>selling goods located in the Northern Island </strong>at the point of sale and s<strong>old to customers in the Northern Island.</strong></li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p> Source: <strong><a href="https://www.gov.uk/guidance/vat-overseas-businesses-using-an-online-marketplace-to-sell-goods-in-the-uk">https://www.gov.uk/guidance/vat-overseas-businesses-using-an-online-marketplace-to-sell-goods-in-the-uk</a></strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can get yourself registered online by following the <strong><a href="https://www.access.service.gov.uk/login/signin/creds">link here</a></strong> or you can do this by post by filling up a <strong><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1017230/VAT1-09-21.pdf">form here</a></strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Once you are registered you will get a VAT registration number. You will have to give it to Amazon or any other marketplace that you are planning to sell on.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You are now responsible for <strong><a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/value-added-tax">collecting VAT</a></strong> from your customers, account for them in the VAT return on a quarterly basis and pay it to HMRC. </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>I have outlined the points which you will have to consider when you are a UK established business, have an online presence and you are selling through an online marketplace. We will discuss how they affect the VAT return in detail in our other blog.</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>     ● The nature of goods that you are selling as it will affect the VAT rate that you will be charging</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● The value of your consignment- This will affect who will be responsible for the VAT( you or the amazon or any other marketplace) This is important as this will have an impact on your VAT return- If the value of the consignment is £135 or less the online marketplace will be responsible to account and charge the VAT at a point of sale.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● The value of your goods that you are selling in the UK</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● The value of the goods that you are selling in the EU</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● The sales that are made directly to your UK customers</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● The sales made directly to your EU customers</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● The sales made through Amazon or any other marketplace to your UK customers</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● The sales made through Amazon or any other marketplace to your EU customers</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● The sales made through Amazon or any other marketplace to UK Business customers</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● The Sales made through Amazon or any other marketplace to the Business customers in the EU.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>In addition to the above information you should also know precisely where your goods are at the point of sale. For that matter you might have to classify your sales in 2 categories:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● UK seller selling goods in the UK at the point of sales to the UK customers</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● An overseas seller( meaning that your business is established outside the UK and goods are either placed in the UK or in the EU at the point of sales) In this case you will still have some UK VAT responsibilities. You can get guidance on this matter</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If you are thinking of starting a business, registering your business in the UK, registering for VAT when selling online, filing VAT returns contact <a href="https://taxaccolega.co.uk/"><strong>Taxaccolega</strong></a>, <strong><a href="https://www.taxaccolega.co.uk/">e-commerce accountants</a></strong> in Croydon, E commerce accountants in London, and our expert team of accountants will be there to help you. Call us on <a href="tel:02081270728"><strong>020 8127 0728</strong></a> or leave us a message <strong><a href="https://www.taxaccolega.co.uk/contact-us">here</a></strong> and we will get back to you,</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"UK VAT Rules for Amazon & Online Sellers Explained"}],["$","p",null,{"className":"text-white-50","children":"27 October 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1373","static/chunks/app/blog/amazon-online-sellers-vat-guide-uk/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1373","static/chunks/app/blog/amazon-online-sellers-vat-guide-uk/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"UK VAT Rules for Amazon & Online Sellers Explained | Taxaccolega\",\"description\":\"My UK VAT responsibilities if I am selling online on amazon If you are selling online you might be selling directly to a customer who is not VAT registered, to…\",\"datePublished\":\"2021-10-27 12:33:51\",\"dateModified\":\"2021-10-27 12:33:51\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/amazon-online-sellers-vat-guide-uk/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"UK VAT Rules for Amazon & Online Sellers Explained | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"My UK VAT responsibilities if I am selling online on amazon If you are selling online you might be selling directly to a customer who is not VAT registered, to…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/amazon-online-sellers-vat-guide-uk/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"UK VAT Rules for Amazon & Online Sellers Explained | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"My UK VAT responsibilities if I am selling online on amazon If you are selling online you might be selling directly to a customer who is not VAT registered, to…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/amazon-online-sellers-vat-guide-uk/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2021-10-27 12:33:51"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"UK VAT Rules for Amazon & Online Sellers Explained | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"My UK VAT responsibilities if I am selling online on amazon If you are selling online you might be selling directly to a customer who is not VAT registered, to…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

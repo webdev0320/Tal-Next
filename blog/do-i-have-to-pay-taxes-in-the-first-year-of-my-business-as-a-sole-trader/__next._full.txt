@@ -1,0 +1,105 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$La",{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+f:T19c0,
+  Do Sole Traders Pay Tax in the First Year?
+
+
+ UK Guide
+				
+		<h2><strong>Do I have to pay taxes in the first year of my business as a sole trader?</strong></h2>
+<p>Did you just start your business in 2020 and now you're wondering how to pay your taxes? At Taxaccolega Chartered Accountants, we offer a range of quality <strong><a href="https://www.taxaccolega.co.uk/">accounting advice</a></strong> to our customers, and we're here to help you this tax season.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The way you pay taxes depends on how you started doing your business. You might have started doing business as either a</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● <a href="https://www.taxaccolega.co.uk/small-businesses/sole-trader-or-limited-company"><strong>Sole trader</strong></a>,</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Partnership or a</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Company</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:heading --></p>
+<h2><strong>SOLE TRADER:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you started your <strong><a href="https://www.taxaccolega.co.uk/factsheets/starting-up-in-business/considerations-when-starting-a-business">business as a sole trader</a></strong> this means that you are self-employed and you are running your own business. If you are self-employed you need to fill in and <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2022/October/4-reasons-why-i-should-submit-my-tax-return-early">submit your tax return</a></strong> and pay tax by 31 Jan following the year that you started running your business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>For example, if you are started your own business in the June 2020, you will pay your tax in Jan 2022.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The tax year runs from 6 April to 5 April. The deadline for the last tax year running from 6 April 2019 to 5 April 2020 is 31 Jan 2021. However, if you started your business during the Covid in Jan 2020, your tax year will end on 5 April 2021. The deadline for registering for Self-Assessment is 31 Oct 2021.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>THE TAXES YOU WILL PAY:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p><a href="https://www.taxaccolega.co.uk/services/taxation"><strong>Tax is an expense</strong></a> which will affect how much you have earned from your business. It's very important to know what taxes you have to pay and when the taxes are due. There are 2 main reasons for this: Firstly so that you have a fair idea about your cash flows and you can plan your finances accordingly and secondly if you are not aware of the taxes that you have to pay and you miss the deadlines you might incur unnecessary penalties.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are a sole trader you have to pay the following taxes:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● Income tax</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Class 2 NI</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Class 4 NI</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● VAT</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● CGT</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:heading --></p>
+<h2><strong>INCOME TAX:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>You will be <strong><a href="https://www.taxaccolega.co.uk/news/latest-news-for-business/archive/news-article/2019/april/changes-to-income-tax-for-2019-20">paying Income Tax</a></strong> on the profits that you earn from the business. You will deduct all the expenses that were incurred in the running of the businesses such as transport cost, printing and stationery from your income (sales).</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>CLASS 2 AND CLASS 4 NI:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If you are self-employed you pay 2 types of National Insurance.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If your profits ( Income-expenses) are £6 475 or more a year you will pay Class 2 NI at the rate of £3.05 a week) and if your profits are £9501 or more till £ 50 000 you will pay Class 2 NI at 9 % of profits and 2% on profits above £50 000.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can pay your NI through <strong><a href="https://www.taxaccolega.co.uk/services/self-assessment-tax-returns">self-assessment tax return</a></strong>. However, if you are a non UK resident and you are self-employed in the UK you won't be filling in your self-assessment tax return HMRC will send you a payment request by the end of Oct. if you don't get one you will have to contact HMRC.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>VAT:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If your business is making a turnover of £85 000 you should register for VAT. If you are not meeting this threshold and you are dealing with other VAT registered business it might be worth registering for VAT voluntarily as you can then claim the VAT that you are paying on the businesses expenses.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you register your business for VAT you will have to send the VAT returns quarterly.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>CGT:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>As a sole trader if you sell any fixtures or fittings, lands and buildings and plant and machinery you will have to pay Capital Gains Tax on it. You might qualify for <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2020/july/holdover-relief">Gift Hold over Relief</a></strong> if you used the business asset for trading or Entrepreneurs` Relief.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>We are <strong><a href="https://www.taxaccolega.co.uk/contact-us">accountants in Croydon</a></strong> and we can help you with your taxes if you are a sole trader or a company and you need help with your accounts and taxes please do not hesitate to contact <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> at <a href="tel:02081270728"><strong>020 8127 0728</strong></a>.</p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Do Sole Traders Pay Tax in the First Year? UK Guide"}],["$","p",null,{"className":"text-white-50","children":"13 December 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","9340","static/chunks/app/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","9340","static/chunks/app/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Do Sole Traders Pay Tax in the First Year? UK Guide | Taxaccolega\",\"description\":\"Do Sole Traders Pay Tax in the First Year? UK Guide Do I have to pay taxes in the first year of my business as a sole trader? Did you just start your business…\",\"datePublished\":\"2020-12-13 12:11:06\",\"dateModified\":\"2020-12-13 12:11:06\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"Do Sole Traders Pay Tax in the First Year? UK Guide | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"Do Sole Traders Pay Tax in the First Year? UK Guide Do I have to pay taxes in the first year of my business as a sole trader? Did you just start your business…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"Do Sole Traders Pay Tax in the First Year? UK Guide | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"Do Sole Traders Pay Tax in the First Year? UK Guide Do I have to pay taxes in the first year of my business as a sole trader? Did you just start your business…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2020-12-13 12:11:06"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Do Sole Traders Pay Tax in the First Year? UK Guide | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"Do Sole Traders Pay Tax in the First Year? UK Guide Do I have to pay taxes in the first year of my business as a sole trader? Did you just start your business…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

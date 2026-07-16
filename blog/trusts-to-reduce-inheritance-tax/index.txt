@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","trusts-to-reduce-inheritance-tax",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["trusts-to-reduce-inheritance-tax",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$La","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L6",null,{}]
+f:T159b,
+  I want to set up a trust,
+
+
+  will it reduce my Inheritance tax bill?
+				
+		<p><!-- wp:image {"align":"center"} --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>The answer is Yes it will. This is because when you set up a trust and transfer your assets which could be your property, land, money, or shares will not be part of your estate on which Inheritance tax is applied. To look for inheritance tax rates <strong><a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/inheritance-tax">click here</a></strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>While you are trying to save up your inheritance tax, the rules involved in setting up the trusts and the way that <strong>i<a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2020/september/what-are-the-tax-implications-if-i-put-my-money-in-a-trust">ncome is taxed</a></strong> could be tricky and you might have to hire an <strong><a href="https://www.taxaccolega.co.uk/contact-us">accountant</a></strong> or a lawyer which can be costly. When you put your assets in the trust there could be income taxes and capital gains taxes and that depends on the type of your asset and the trust that you want to set up. You should take professional advice to assess the overall costs.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>When you put money in the trust , it belongs to the trust and it won't form part of anyone's estate. However, the beneficiaries might have to pay the income tax and the <a href="https://www.taxaccolega.co.uk/factsheets/capital-taxes/capital-gains-tax"><strong>capital gains tax</strong>.</a></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>There are several different types of trusts that can be set up.</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● Bare trusts</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Discretionary trust</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Accumulation trust</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Interest in possession trust</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Mixed trusts</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Settlor interest trust</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Non resident trust</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>All of the above trusts are taxed differently, however, all of them involve a settlor ( the one who puts the assets in the trust),trustee( the one who manages the trust), beneficiary(the person who benefits from the trust)</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You set up trusts for your assets depending on your individual requirements, here we will talk about Bare Trusts and Discretionary trusts.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p> For example a<strong> bare trust</strong> is a simple trust in which you put your assets and they are in the name of the trustee. The beneficiary will have the right to the asset when they are 18 or over. They will be entitled to the capital ( the money) as well as the interest that is being earned on that money. In this type of a trust the trustee must act according to the wishes of the beneficiary when they reach a certain age and therefore the beneficiaries and not the trustees have absolute rights over the funds.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you want to leave your assets to your family or friends and you want to control how it will be used then you can use a <strong>discretionary trust</strong>. In such a trust the trustee has the power to distribute the capital as well as the interest on the capital to the beneficiaries according to their own wishes. They can decide how they want to distribute the funds to the beneficiaries.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If the settler wants they can nominate themselves as a trustee initially, and they can use the funds for their children's education, health or maybe even fund their houses. The trustee responsibility can be passed on to someone else who can continue to act in the favour of the beneficiary. For example, you want your grandchildren to be benefited from the funds so you pass on the trustee responsibility to their parents.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>By setting up trusts you make sure that your wealth is distributed and used by your family and friends the way you want it to be in a tax efficient way. The family will be benefited from the funds without losing their entitlement to the state benefits.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you need any further information contact <strong><a href="https://www.taxaccolega.co.uk/">Taxaccolega</a></strong>, accountants in Croydon, Surrey at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> our expert team of inheritance tax accountants will take care of your <strong><a href="https://www.taxaccolega.co.uk/services/inheritance-tax/estate-and-asset-planning">asset </a></strong><a href="https://www.taxaccolega.co.uk/services/inheritance-tax/estate-and-asset-planning"><strong>and estate plannin</strong><strong>g</strong></a> and account for your inheritance tax liabilities.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Can Setting Up a Trust Reduce Inheritance Tax in the UK?"}],["$","p",null,{"className":"text-white-50","children":"30 October 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","6677","static/chunks/app/blog/trusts-to-reduce-inheritance-tax/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","6677","static/chunks/app/blog/trusts-to-reduce-inheritance-tax/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Can Setting Up a Trust Reduce Inheritance Tax in the UK? | Taxaccolega\",\"description\":\"I want to set up a trust, will it reduce my Inheritance tax bill? The answer is Yes it will. This is because when you set up a trust and transfer your assets w…\",\"datePublished\":\"2021-10-30 12:36:29\",\"dateModified\":\"2021-10-30 12:36:29\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/trusts-to-reduce-inheritance-tax/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"Can Setting Up a Trust Reduce Inheritance Tax in the UK? | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"I want to set up a trust, will it reduce my Inheritance tax bill? The answer is Yes it will. This is because when you set up a trust and transfer your assets w…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/trusts-to-reduce-inheritance-tax/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"Can Setting Up a Trust Reduce Inheritance Tax in the UK? | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"I want to set up a trust, will it reduce my Inheritance tax bill? The answer is Yes it will. This is because when you set up a trust and transfer your assets w…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/trusts-to-reduce-inheritance-tax/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2021-10-30 12:36:29"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Can Setting Up a Trust Reduce Inheritance Tax in the UK? | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"I want to set up a trust, will it reduce my Inheritance tax bill? The answer is Yes it will. This is because when you set up a trust and transfer your assets w…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

@@ -1,0 +1,105 @@
+1:"$Sreact.fragment"
+3:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+4:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+5:I[57121,[],""]
+6:I[74581,[],""]
+7:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+8:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+9:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-63c0e800472628ab.js"],"default"]
+e:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/273832ef06c7e394.css","style"]
+2:T7e0,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"localhost:3000/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"localhost:3000","logo":{"@type":"ImageObject","url":"localhost:3000/images/favicon.png","width":512,"height":512},"image":"localhost:3000/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"localhost:3000/#website","url":"localhost:3000","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"localhost:3000/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"localhost:3000/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","report-covid-grants-loans-self-assessment",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["report-covid-grants-loans-self-assessment",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/273832ef06c7e394.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$La","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$Lb",{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],"$Ld",false]],"m":"$undefined","G":["$e",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TU--D1OteM_PjRebDpOWu"}
+15:I[90484,[],"ViewportBoundary"]
+17:I[90484,[],"MetadataBoundary"]
+18:"$Sreact.suspense"
+a:["$","$L6",null,{}]
+f:T17c2,
+  How do I report my loans and <br>Grants given during Pandemic 
+
+
+  in the self assessment tax return?
+				
+		<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>Loans which were granted to the self-employed during the Pandemic to support their businesses are taxable and therefore they need to be reported in the self assessment tax return.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>There is an exception to this. If the payments made to an individual are by the council and they are the support payments meaning that they were meant to support the council tax payments or the housing benefit you won't have to report them in the self assessment tax return . This is because they are counted as the welfare payments and therefore they are not taxable.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will have to report if you received money from the following grant:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● Self employment income support scheme</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Test and trace or self isolation payments</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Coronavirus job retention scheme</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Eat out to help out</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Coronavirus statutory sick pay rebate</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Coronavirus Business Support Grants</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p><strong>Filling the self employment pages of your tax return</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will be filling self employment - short pages if your turnover including the taxable coronavirus support scheme payments was less than £ 85 000. If the turnover is more than this figure and your business is more complicated for example you have changed your accounting period or your basis period is different from your accounting date etc.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>SEISS payments</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will include this in box 27.1</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If the SEISS payment that you receive relates to self employment and partnership. Apportion the amount on a just and reasonable basis. The total of which should equal the amount received by the individual.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Other Coronavirus support payments</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will have to include the payments from other loans and grants in box 10.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In box 10 you will only include the payments that you received and retained.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you received an incorrect payment which you were not entitled to and you have returned it you will not include it in box 10.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you received a payment from the grant which you were entitled to and you have not returned it either you should include the incorrectly claimed amount in SA 100.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you have received a grant under eat out to help out scheme and you are VAT registered don't add the VAT amount when including the amount in box 10.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Trading Allowance</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>An allowance of £1000 is available for every business. This means that if your earnings for the year are less than £1000 you don't have to report it to HMRC, pay any taxes and fill in the self assessment tax return. However, if your income from self employment and all the miscellaneous income includes SEISS grant even if it is less than £1000 you will have to report it in the self assessment - short pages.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Will I be including the Loans and Grants in Calculating my Trading Profits</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You have 2 options to calculate the trading profits</p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true} --></p>
+<ol><!-- wp:list-item -->
+<li><strong>      1. </strong>Include the total income and deduct the trading allowance. In this case you cannot claim any other allowable expenses against your profit.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>     2. </strong>Deduct allowable expenses and allowances from the total income but you cannot claim the trading allowance in this case. The total receipts from self employment will include the figure from box 10( other Coronavirus Support Payments), however it won't include payments from box 27.1(SEISS grant)</li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If you need help in filling your self assessment tax return, you can contact Taxaccolega, accountants in Croydon, Accountants in London. We can provide you with the accounting services at reasonable rates. We make sure that all your accounting and tax deadlines are met on time in order to avoid any penalties. Do not hesitate to call us at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> or send us a message <strong><a href="https://www.taxaccolega.co.uk/contact-us">here</a></strong> and we will contact you.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Source: <strong><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/974067/sa103s-notes-2021.pdf" target="_blank" rel="noreferrer noopener">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/974067/sa103s-notes-2021.pdf</a></strong></p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					b:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"How to Report COVID Grants & Loans in Self Assessment"}],["$","p",null,{"className":"text-white-50","children":"22 November 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$f"}}]}]}],"$L10","$L11","$L12"]}],null,"$L13"]}]
+14:[]
+c:"$W14"
+d:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+1a:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","6678","static/chunks/app/blog/report-covid-grants-loans-self-assessment/page-c7860c4bf7235c4a.js"],""]
+1b:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","6678","static/chunks/app/blog/report-covid-grants-loans-self-assessment/page-c7860c4bf7235c4a.js"],"default"]
+1c:I[90484,[],"OutletBoundary"]
+10:["$","div",null,{"className":"container mb-5","children":["$","$L1a",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+11:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"How to Report COVID Grants & Loans in Self Assessment | Taxaccolega\",\"description\":\"How do I report my loans and Grants given during Pandemic in the self assessment tax return? Loans which were granted to the self-employed during the Pandemic…\",\"datePublished\":\"2021-11-22 12:29:07\",\"dateModified\":\"2021-11-22 12:29:07\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/report-covid-grants-loans-self-assessment/\"}}"}}]
+12:["$","$L1b",null,{}]
+13:["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1e:I[86869,[],"IconMark"]
+19:[["$","title","0",{"children":"How to Report COVID Grants & Loans in Self Assessment | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"How do I report my loans and Grants given during Pandemic in the self assessment tax return? Loans which were granted to the self-employed during the Pandemic…"}],["$","link","2",{"rel":"author","href":"localhost:3000"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/report-covid-grants-loans-self-assessment/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"How to Report COVID Grants & Loans in Self Assessment | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"How do I report my loans and Grants given during Pandemic in the self assessment tax return? Loans which were granted to the self-employed during the Pandemic…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/report-covid-grants-loans-self-assessment/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2021-11-22 12:29:07"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"How to Report COVID Grants & Loans in Self Assessment | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"How do I report my loans and Grants given during Pandemic in the self assessment tax return? Loans which were granted to the self-employed during the Pandemic…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1e","23",{}]]
+1d:null

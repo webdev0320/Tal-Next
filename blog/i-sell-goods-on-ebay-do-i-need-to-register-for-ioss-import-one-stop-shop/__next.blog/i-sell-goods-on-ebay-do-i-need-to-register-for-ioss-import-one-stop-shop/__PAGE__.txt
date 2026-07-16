@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","230","static/chunks/app/blog/i-sell-goods-on-ebay-do-i-need-to-register-for-ioss-import-one-stop-shop/page-c7860c4bf7235c4a.js"],""]
+8:I[99473,["8500","static/chunks/8500-f62a38ff68ab7f42.js","230","static/chunks/app/blog/i-sell-goods-on-ebay-do-i-need-to-register-for-ioss-import-one-stop-shop/page-c7860c4bf7235c4a.js"],"default"]
+9:I[90484,[],"OutletBoundary"]
+a:"$Sreact.suspense"
+2:Tf5b,
+  I sell goods on Ebay
+
+
+  Do I need to register for Ioss (import one stop shop)?
+				
+		<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you are selling your goods online this means that you are attracting customers from EU and Northern Ireland. If your business is registered in Great Britain and you have your consignments going to the customers in the EU and the value of the goods do not exceed £135 have been given the option to opt for IOSS. If you supply consignments to the Northern Island and the sale value of the goods do not exceed £135 and you are also VAT registered in the UK will be able to pay any VAT due to the HMRC through their IOSS return. They are required to tell HMRC about their IOSS registration number before they can move goods to the Northern Island.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>If I am not registered for VAT?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are a Business registered in Great Britain and you are not VAT registered because you might be below the VAT registration threshold but you are registered for IOSS, in that case you will be able to tell HMRC about the IOSS registration number before you can move your goods to the Northern Island but no VAT will be charged on the goods supplied to the Northern Island.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>What exactly is IOSS?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>IOSS is created for the benefit of the buyer and seller of the goods being transported to the EU and Northern Island. If as a seller you are registered for IOSS your customer will know that the price they are paying includes all the VAT charges and it saves them from the hassle of paying any other hidden charges.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>What are the benefits of registering for IOSS</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Although registering for IOSS is optional there are advantages of IOSS.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The main advantage of IOSS is that there won't be delays at the customs, in contrast if you are not registered for IOSS the products might get stuck at the customs where they ask for the VAT and the handling fees.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Registering for IOSS means that the VAT is charged at the point of sales and your customers will not have to go through the delays. Happy customers mean a successful business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>If You Sell Through Ebay ?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you sell on an online marketplace they must have registered for IOSS. Ebay, amazon and the other marketplaces are responsible for charging, collecting and paying VAT on behalf of the seller. if you are sending your products through the Royal mail they will ask for the market place where their products are sold. The correct IOSS number will be allocated to the item by the Royal Mail, when the parcel arrives at the destination country they would know that VAT has been paid by the information on the package.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Who can help me with IOSS registration?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>IOSS registration can be time consuming, we at Taxaccolega can make it easy for you. You will just have to give us your business details and we will take care of the rest. We are accountants based in Croydon and South hall, call us at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> or drop us a message <strong><a href="https://www.taxaccolega.co.uk/contact-us">here</a></strong> and our team will be happy to help you.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"eBay Sellers Import One Stop Shop | Who Needs to Register?"}],["$","p",null,{"className":"text-white-50","children":"13 July 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TU--D1OteM_PjRebDpOWu"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"eBay Sellers Import One Stop Shop | Who Needs to Register? | Taxaccolega\",\"description\":\"I sell goods on Ebay Do I need to register for Ioss (import one stop shop)? If you are selling your goods online this means that you are attracting customers f…\",\"datePublished\":\"2021-07-13 14:38:59\",\"dateModified\":\"2021-07-13 14:38:59\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/i-sell-goods-on-ebay-do-i-need-to-register-for-ioss-import-one-stop-shop/\"}}"}}]
+5:["$","$L8",null,{}]
+6:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null
