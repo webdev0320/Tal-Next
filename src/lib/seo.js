@@ -29,26 +29,15 @@ export const SITE = {
   },
 };
 
-/** Set NEXT_PUBLIC_ALLOW_INDEXING=true when launching to production. */
-export const ALLOW_INDEXING = process.env.NEXT_PUBLIC_ALLOW_INDEXING === 'true';
+export const ALLOW_INDEXING = true;
 
 export function getRobots() {
-  if (ALLOW_INDEXING) {
-    return {
+  return {
+    index: true,
+    follow: true,
+    googleBot: {
       index: true,
       follow: true,
-      googleBot: { index: true, follow: true },
-    };
-  }
-
-  return {
-    index: false,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
       'max-video-preview': -1,
       'max-image-preview': 'none',
       'max-snippet': -1,
