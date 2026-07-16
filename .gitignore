@@ -15,6 +15,7 @@
 out/
 build/
 
+
 # production
 /build
 
@@ -43,6 +44,7 @@ next-env.d.ts
 
 /dist
 /public/pages.xml
+/public/robots.txt
 .next/app-path-routes-manifest.json
 .next/build-manifest.json
 .next/BUILD_ID
