@@ -26,11 +26,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 1. ADDED: This compiles the code and generates the static 'out' folder
+      - name: Generate sitemap
+        run: node scripts/generate-sitemap.mjs
+
       - name: Build Next.js Application
         run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://www.taxaccolega.co.uk
+          NEXT_PUBLIC_ALLOW_INDEXING: true
 
-      # 2. UPDATED: Explicitly target './out/' since the build step now guarantees its existence
       - name: Deploy to Remote Server
         uses: Burnett01/rsync-deployments@v9
         with:

@@ -18,7 +18,7 @@ const OnlineAccountants = () => {
                     <p className="text-secondary fw-semibold mb-4">To learn more about how we can help you grow your business, <a href="/contact-us/" className="text-brand-orange text-decoration-none">contact us today</a>:</p>
                     
                     <a href="https://www.google.com/search?q=taxaccolega+google+reviews" target="_blank" rel="noreferrer" className="text-decoration-none d-inline-block">
-                        <img src="/wp-content/uploads/2023/06/Google-2-1024x155.webp" alt="Google 5 Star rating link" className="img-fluid rounded shadow-sm" style={{ maxHeight: "45px" }} />
+                        <img src="/images/2023/06/Google-reviews-logo-taxaccolega-1024x157.png" alt="Google 5 Star rating link" className="img-fluid rounded shadow-sm" style={{ maxHeight: "45px" }} />
                     </a>
                 </div>
                 <div className="col-lg-5">

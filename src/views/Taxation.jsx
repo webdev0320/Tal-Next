@@ -282,8 +282,6 @@ const Taxation = () => (
       </div>
     </section>
 
-    <ContactForm source="Taxation" />
-
     {/* ── 11. Third row of service cards (dark) ── */}
     <section className="py-5" style={{ background: '#f8f9fa' }}>
       <div className="container">
@@ -307,10 +305,13 @@ const Taxation = () => (
           ))}
         </div>
       </div>
-    </section>
+    </section>
+
 
     {/* ── 15. Partners strip ── */}
     <Partners />
+
+    <ContactForm source="Taxation" />
   </div>
 );
 
