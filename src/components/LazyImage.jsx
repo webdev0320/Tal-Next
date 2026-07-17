@@ -15,10 +15,10 @@ export default function LazyImage({
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <div className={`relative ${className}`}>
+    <div className={`relative w-full ${className}`}>
       {!loaded && (
         <div
-          className="absolute inset-0 img-skeleton rounded-inherit"
+          className="absolute inset-0 img-skeleton"
           style={{ borderRadius: 'inherit' }}
         />
       )}
@@ -29,7 +29,7 @@ export default function LazyImage({
         height={height}
         sizes={sizes}
         priority={priority}
-        className={`${loaded ? 'img-loaded' : 'opacity-0'} ${className}`}
+        className={`${loaded ? 'img-loaded' : 'opacity-0'} w-full h-auto`}
         onLoad={() => setLoaded(true)}
         {...props}
       />
