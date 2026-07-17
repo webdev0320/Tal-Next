@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[64074,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5772","static/chunks/5772-4524fcf33477fb88.js","9392","static/chunks/app/company-formation/page-b260c7ba71dbd1d4.js"],"default"]
-3:I[90484,[],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TU--D1OteM_PjRebDpOWu"}
-5:null

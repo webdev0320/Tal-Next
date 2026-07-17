@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[47213,["8500","static/chunks/8500-f62a38ff68ab7f42.js","7671","static/chunks/app/payment-confirmation/page-16db5ece4f0caee7.js"],"default"]
-3:I[90484,[],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TU--D1OteM_PjRebDpOWu"}
-5:null
