@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5381","static/chunks/app/blog/buying-a-new-house-before-selling-my-old-home-what-will-be-the-tax-implications/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T1481,
+  Buying a new house before selling my old home 
+
+
+  what will be the tax implications?
+				
+		<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>When you are buying a new house when you already own one you have to think what are you going to do with your house you were living in. If you are a UK resident and this was your main house which you were sharing it with your spouse( in that case it will be the main residence for both of you)and you are buying another one you have to think tax wisely. Do you want to keep your old home? Rent it? Or sell it?. The timing of everything is very important here. And there is no definite answer as to what will save your tax costs. It all depends on your personal situation so it is best to talk to an <a href="https://www.taxaccolega.co.uk/"><strong>expert accountant</strong> </a>who can give you a personalised advice. If you are buying a new house and not selling the old one because you might be thinking of putting it on rent in the future you are likely to consider the following taxes:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● Capital Gains Tax</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Stamp Duty Land Tax</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Income Tax</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p><strong>Capital Gains Tax:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will have to <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/august/6-things-you-should-know-about-reporting-the-capital-gains-tax-when-selling-property-">pay capital gains tax</a></strong> when you sell property which is not your main home, it's used for any commercial purposes and you are letting it.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>So if you buy a new house before selling the old one you will face CGT in any gains that you will make.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Although you won't get a full private residence relief which you get when selling property which is your main home, you will get a relief for the last 9 months that you lived in that property.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The higher or additional tax payers will pay 28% on the gains. If you fall within the basic tax band after deducting your personal allowance of £12 570 and tax free allowance of £12 300 you will be paying 18% on the residential property.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Stamp Duty Land Tax:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will have to pay Stamp Duty Land Tax if you are buying a property for more than £125 000.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The first time buyers <a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2020/july/stampduty-land-tax-holiday-will-i-be-eligible"><strong>get a relief on SDLT</strong> </a>as well but since in this case you are not a first time buyer you won't get that relief.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>This tax needs to be paid within 14 days of completion, a solicitor will usually do this for you however, if they don't do it then you will have to file a return and pay the tax. If you don't do this within 14 days of completion you might face a penalty.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Income Tax</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you receive rent from your property and you are making profit you will be paying income tax on it. To calculate the taxable profit you will deduct all the <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/october/property-income-how-should-i-declare-it-to-hmrc">allowable expenses</a></strong> from your rental income, deduct your personal allowance if it's not being used up against your income from other sources and also don't forget to deduct property allowance. Property allowance is the allowance which you will get on your income from your property. Currently it is £1000.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will report and pay your rental income in the self assessment tax return which will be filled and submitted online by 31 Jan of the following year.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Once you have calculated your capital gains tax, if you have sold your property on or after 6 April 2020 you should report and pay the tax to HMRC within 30 days.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you want to let your property for rent or sell your property and you are concerned about the tax implications you should go for professional advice. We at <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> can provide you with tax advice on your property matters. Call us at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> or drop us a message here and our specialised property accountants in Croydon, London will be happy to help you.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Tax Implications of Buying a New Home Before Selling the Old One"}],["$","p",null,{"className":"text-white-50","children":"19 October 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Tax Implications of Buying a New Home Before Selling the Old One | Taxaccolega\",\"description\":\"Buying a new house before selling my old home what will be the tax implications? When you are buying a new house when you already own one you have to think wha…\",\"datePublished\":\"2021-10-19 12:32:22\",\"dateModified\":\"2021-10-19 12:32:22\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/buying-a-new-house-before-selling-my-old-home-what-will-be-the-tax-implications/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

@@ -1,0 +1,55 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","8427","static/chunks/app/blog/uber-drivers-and-taxation/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T1261,
+  Uber Drivers and taxation
+
+				
+		<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you are working for Uber you are not considered their employees. You are working as a <strong><a href="https://www.taxaccolega.co.uk/self-employed/">self employed person</a></strong> as you set your own working hours and you follow your own business strategies to improve your business. You will be responsible for your own taxes as well. For tax purposes you are considered self employed and you will be paying <a href="https://www.taxaccolega.co.uk/blog/national-insurance-how-much-do-i-have-to-pay/"><strong>National Insurance</strong> </a>and <strong><a href="https://www.taxaccolega.co.uk/taxation/personal-income-tax-professionals-and-chartered-accountants/">Income tax</a></strong> on all the profits that you will make.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Some people tend to confuse income with profits, please note that income is all the earnings that you get as a result of the business that you are doing, in this case it is the Driving service that you are giving as an Uber Driver. However, the profit is the net income which you get after deducting all your expenses. This means that you will deduct all your costs which you incurred and it is directly related to the service that you are providing. For example, in this case one of the costs which you can deduct are the fuel costs. This net income is the taxable profit and you will pay income tax on it.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>When and How should I register for my taxes?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You don't have to register for a <strong><a href="https://www.taxaccolega.co.uk/accounts/self-assessment-tax-returns/">Self Assessment tax return</a></strong> if your income(before deducting any expenses) is less than £1000. If you exceed this threshold you will need to register for a self assessment tax return by 5th October in your business's second tax year.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>As an Uber Driver what expenses can I deduct?</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You should make it your habit that whenever you buy something or use something for your business you should keep a record of it. You can save all the paper receipts in a box, however, you can be a bit more organized and take a picture of all the receipts and save it to your drive. If you have an accountant you can just share that file with them instead of giving them all the paper receipts.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You should also enter your expenses digitally somewhere as you make them. You can either make an excel sheet and enter your expenses there or you can also use a software where you can enter your expenses. This will give you a peace of mind and it will save you lots of time when you are filing your tax return.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Here is a list of expenses that you can deduct from your income:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>       ● Mileage and Business use of your car</li>
+<li>     ● Mobile Phone expenses: The cost of the phone, billing charges, any other accessory essential for the business for example, chargers and mounts. IF you use your phone business and personal use, make sure that you have proper record of your business calls otherwise your claim might not be accepted by <strong><a href="https://www.taxaccolega.co.uk/blog/hmrc-penalties-investigations/">HMRC</a></strong></li>
+<!-- /wp:list-item --><!-- wp:list-item --><!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● Licenses: For example cost of renewing your license.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● Floor mats</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● First aid kits</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● Bottled water</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● Car tool kits</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>       ● Office supplies for example, stationery.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If you are an Uber Driver and you want tax advice or you want an accountant to do your taxes <strong><a href="https://www.taxaccolega.co.uk/contact-us">contact Taxaccolega</a></strong> and Taxaccolega self employed will ask you simple questions and do all the taxes for you. </p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Uber Drivers and taxation"}],["$","p",null,{"className":"text-white-50","children":"12 June 2022 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Uber Drivers and taxation | Taxaccolega\",\"description\":\"Uber Drivers and taxation If you are working for Uber you are not considered their employees. You are working as a self employed person as you set your own wor…\",\"datePublished\":\"2022-06-12 11:51:49\",\"dateModified\":\"2022-06-12 11:51:49\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/uber-drivers-and-taxation/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

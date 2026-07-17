@@ -1,0 +1,62 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","7941","static/chunks/app/blog/amazon-sellers-vat-guide-uk/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T1599,
+  Things I should know about
+
+
+Vat while selling on Amazon.
+				
+		<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>Many e-commerce businesses who are selling on Amazon, find it hard to understand VAT rules on their online sales. Sometimes they are even reluctant to spread their business in Europe because they think that they will have to deal with complicated VAT rules. If you are using the Amazon platform to sell your products then it's best to be confident with all the rules so you can sell to the Amazon clientele worldwide. </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In this blog, I have tried to simplify the rules for you but still if you are unsure you can contact <strong><a href="https://www.taxaccolega.co.uk/search">e-commerce accountants</a></strong> they can explain things to you and also deal with your accounts .</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h2><strong>We will start by understanding what VAT is?</strong></h2>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In simple terms, <strong><a href="https://www.taxaccolega.co.uk/factsheets/vat">VAT</a></strong> is a tax which is collected by the seller from the end consumer and passed on to the tax authorities. The value of VAT is added to the selling price, the price at which the seller sells its products to its customers.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you have your customers in European countries you might have to register for VAT in that particular country as well, however, some rules have been changed and a <strong>n</strong><a href="https://www.gov.uk/government/publications/eu-e-commerce-package"><strong>ew E commerce VAT package introduced in 2021</strong>.</a></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>When you sell your products online you may come across the following scenarios:</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>1.Uk registered business with the product in the UK selling to a customer in the UK:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If your business is registered in the UK and your product is in the UK and selling to the UK customer. The tax rate applied will be 20%.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The seller will be responsible for accounting for VAT . However, if you are drop shipping and the product is coming from outside the UK to the customer in the UK and the value of the product is £135 or less then Amazon marketplace will be responsible for collecting the VAT.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>2.If your business is not UK based</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If your business is not UK based and you are selling your products directly to the customer in the UK through Amazon which is a B2C company. Amazon will collect the VAT for you and account for VAT.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Where Amazon is responsible for collecting VAT you need to make sure that you declare VAT in your VAT return however this does not need to be shown in box 1 figure.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Where Amazon is responsible for collecting VAT the seller won't have to include the VAT in the price of their products. In Fact, the customers will see the VAT value added to the product at the time of the check out.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h2><strong>What is One Stop Shop( OSS)? And what is Import One Stop Shop(IOSS) ?</strong></h2>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>OSS and IOSS are the systems introduced by the new E-commerce VAT package.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>This system helps facilitate the sellers who have customers in more than one Eu country to file the VAT return in one place.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are selling within the EU you will register with OSS and if you are selling to the EU you will have to <a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/august/how-can-i-prepare-my-business-for-ioss"><strong>register with IOSS</strong>.</a></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Amazon is registered for <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/july/i-sell-goods-on-ebay-do-i-need-to-register-for-ioss-import-one-stop-shop">IOSS</a></strong> and therefore if you are selling on Amazon you don't have to register for IOSS, you can use Amazon IOSS number on the customs form which will indicate that the customer has already paid the VAT and therefore no VAT will be charged at the customs.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are an FBA seller that means that your products are stored in the different countries that you are selling you will have to report your VAT in the country you are selling. This may be difficult from an administrative point of view. To facilitate this there is an OSS scheme.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>We at <strong><a href="https://www.taxaccolega.co.uk/">Taxaccolega</a></strong> as e-commerce accountants deal with such VAT on a daily basis. If you have any queries give us a <strong><a href="https://www.taxaccolega.co.uk/contact-us">call here</a></strong> or visit us we are accountants based in Croydon, Surrey.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Amazon Sellers VAT UK Guide – What You Must Know"}],["$","p",null,{"className":"text-white-50","children":"29 October 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Amazon Sellers VAT UK Guide – What You Must Know | Taxaccolega\",\"description\":\"Things I should know about Vat while selling on Amazon. Many e-commerce businesses who are selling on Amazon, find it hard to understand VAT rules on their onl…\",\"datePublished\":\"2021-10-29 12:35:11\",\"dateModified\":\"2021-10-29 12:35:11\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/amazon-sellers-vat-guide-uk/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

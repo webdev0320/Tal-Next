@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1911","static/chunks/app/blog/social-media-influencers-and-endorsers-tax-guide-uk/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T13e9,
+  Social Influencer
+
+
+  How are paid posts, endorsements and other freebies taxes in the UK?
+				
+		<p><!-- wp:image --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>With the increase in the use of social media there is an increase in the form of marketing known as ' influencer marketing' It is a growing industry and according to business insiders it is on track to be worth up to 15 billion dollars by 2022.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are a social influencer creating content on youtube or instagram and influencing thousands and sometimes millions of people it is likely that you are contacted by some brands who want to use your popularity to sell their products. </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Influencer marketing will be in the form of the following:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● Paid posts.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● You might be given some products to review.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● You might be given some free products which you decide to talk about in your content.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>Before you decide you need to pay tax on the paid posts, endorsements and freebies you need to consider some factors which are explained below but as a rule of thumb always make sure that if you are getting any type of income whether its trading or non trading always keep a record of all the income and expenses associated with it incase HMRC raises an enquiry. The factors are as follows:</p>
+<p><!-- /wp:paragraph --><!-- wp:list {"ordered":true} --></p>
+<ol><!-- wp:list-item -->
+<li><strong>      1. Trading Allowance</strong>: <br />Every individual is given a trading allowance of upto £ 1000 which he can earn tax free. This is in addition to the personal allowance. So if you have any income which is below £1000 per year you don't have to declare it to HMRC for tax purposes but always keep a record.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>      2. Can it be converted to money or not</strong>: <br />If you are given a product you need to consider if it can be converted into money or not. If it cannot be converted to money then you won't have to pay tax on it.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>      3. Trading or non trading</strong>:<br />Since Social Influencer is a new field which many people are pursuing as a profession it is quite unclear if their income is trading or non trading. Many people are creating content in their spare time on a casual basis which will be considered non trading. If they are non trading they won't be taxed for the freebies.</li>
+<!-- /wp:list-item --></ol>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p><strong>Tax on Paid Posts</strong>:</p>
+<p>If you are being paid for the posts and your income in one year exceeds the trading allowance then you will have to <a href="https://www.taxaccolega.co.uk/services/self-assessment-tax-returns"><strong>register for self assessment</strong> </a>and <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/march/social-influencer-will-i-be-taxed">pay the taxes</a></strong> according to your income bracket.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Tax if you get a product to review: </strong></p>
+<p>If you are given products which you review online with your followers, HMRC guides that such a transaction will come under <strong>' Barter Transaction'</strong>. It states that any non monetary form of trading income is taxable in the same way and as part of the normal income. However, HMRC realises and states in its Business Income Manual that not everything can be converted into cash. So if you are receiving any product which you advertise online for example a free holiday stay you won't have to pay tax on it. However, if you receive a valuable gift you will have to pay tax on it. It is important that the terms and the value of the gift are clearly agreed with the company sending the gift.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Tax on free gifts: </strong></p>
+<p>If you receive a free gift and there is an obligation attached to it for example advertising about it etc, once you have accepted it, then it becomes taxable. If it is just a gift of a gracious manner then it is non taxable.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>To make sure you are on the same page with HMRC you might consider hiring an accountant who can make things clearer for you. If you are looking for a social media accountants in Croydon, Surrey or South hall contact <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> and our team will give you expert advice tailored to your business.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Social Influencer Tax – How Paid Posts & Freebies Are Taxed in the UK"}],["$","p",null,{"className":"text-white-50","children":"5 April 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Social Influencer Tax – How Paid Posts & Freebies Are Taxed in the UK | Taxaccolega\",\"description\":\"Social Influencer How are paid posts, endorsements and other freebies taxes in the UK? With the increase in the use of social media there is an increase in the…\",\"datePublished\":\"2021-04-05 14:28:49\",\"dateModified\":\"2021-04-05 14:28:49\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/social-media-influencers-and-endorsers-tax-guide-uk/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

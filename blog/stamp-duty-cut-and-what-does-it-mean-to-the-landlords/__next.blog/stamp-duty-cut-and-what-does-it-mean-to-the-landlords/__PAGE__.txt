@@ -1,0 +1,101 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","664","static/chunks/app/blog/stamp-duty-cut-and-what-does-it-mean-to-the-landlords/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T1744,
+  Stamp Duty Cut for Landlords  
+
+
+  What does it mean to the landlords? 
+				
+		<h2><strong>What is stamp duty?</strong></h2>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Stamp duty is a tax which you have to pay when you buy a property over a certain value. The <a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/stamp-duty-and-land-taxes"><strong>stamp duty</strong></a> is paid by the UK residents and also by the non UK residents at a surcharge of <strong>2%</strong> for buying property in the UK which costs more than <strong>£ 40 000.</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>The Stamp duty cut in the mini budget</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>As part of the government's growth plan 2022, the chancellor announced that the stamp duty cuts. The changes are as follows:</p>
+<p><strong>      1. </strong>No tax will be paid by the buyer on the purchase of a property of upto £250 000( which was previously £125 000)</p>
+<p><strong>      2. </strong>The threshold for the first time buyers has increased to £425 000 which was previously £300 000</p>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>This stamp duty cut applies to any purchases that are finalised on or after 22 September 2022. You can also benefit from the stamp duty cuts if you are in the process of buying the house.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you want to know how much stamp duty you will have to pay as first time buyers or as purchasers of additional property go to our<strong> <a href="https://www.taxaccolega.co.uk/resources/online-calculators/stamp-duty-land-tax-calculator">stamp duty tax calculator</a></strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h2><strong>Do the changes apply to the landlord as well?</strong></h2>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>These changes apply to the <strong><a href="https://www.taxaccolega.co.uk/landlords-4/">landlords</a></strong> as well, however, the landlords will continue to pay the additional 3% surcharge on the purchase of an additional property. The 3% surcharge will apply when you are buying a second home as an investment buy to let or a holiday home. However,it will not apply on the purchase of caravans, house boats or mobile homes</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>The 3 year rule</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you buy a second property which will be your main residence now but there was a delay in the selling of your previous property which was your main residence you must have paid the higher rates of the stamp duty as you owned 2 properties at one time. However, there is a 3 year rule, according to which if you sell your previous property within 3 years of buying the new one you can apply for a refund for the additional rates which you paid above the normal stamp duty rates.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h2><strong>How much stamp duty will I pay if I buy a buy-to -let property</strong></h2>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The additional stamp duty will apply to any property which is bought for £40 000 or more.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>How much <strong><a href="https://www.taxaccolega.co.uk/blog/stamp-duty-holiday-eligibility-uk/">stamp duty</a></strong> you pay depends on the price of the property. The thresholds and rates are listed in the table below:</p>
+<p><!-- /wp:paragraph --></p>		
+			<table id="wpr-data-table">
+				<thead>
+					<tr>
+						<th colspan="1">
+																	Property Price / Transfer Value
+						</th>
+						<th colspan="1">
+																	Stamp duty rate
+						</th>
+											</tr>
+				</thead>
+				<tbody>
+									<tr>
+							<td colspan="" rowspan="">
+												Upto £250 000											
+							</td>
+							<td colspan="" rowspan="">
+												3%											
+							</td>
+												</tr>
+			        					<tr>
+							<td colspan="" rowspan="">
+												From £250 000 to £925 000(the rate will apply to £675, 000)											
+							</td>
+							<td colspan="" rowspan="">
+												8%											
+							</td>
+												</tr>
+			        					<tr>
+							<td colspan="" rowspan="">
+												From £925,001 to £1.5 million(the rate will apply to the next £525,000)
+							</td>
+							<td colspan="" rowspan="">
+												13%											
+							</td>
+												</tr>
+			        					<tr>
+							<td colspan="" rowspan="">
+												From £1.5 million above(the rate will apply to the remaining amount)
+							</td>
+							<td colspan="" rowspan="">
+												15%
+							</td>
+												</tr>
+			        				</tbody>
+			</table>
+		<p> </p>
+<h2><strong>Stamp duty <a href="https://www.taxaccolega.co.uk/blog/inheritance-tax-planning-and-business-property-relief/">tax relief</a> for multiple dwellings</strong></h2>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>According to <strong><a href="https://www.taxaccolega.co.uk/blog/hmrc-penalties-investigations/">HMRC</a></strong> you can get a relief when you buy more than one dwellings if a transaction include freehold and leasehold interests in more than one dwelling.This means that if the home buyer is purchasing multiple properties they can claim this relief. Landlords can be benefitted by this relief as well. For more on this relief you can contact Taxaccolga and our property accountants can help you.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Taxaccolega, accountants based in croydon, London specialises in property tax, inheritance tax, social media tax, personal tax and corporation tax. For any queries related to book keeping, tax planning please contact us at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> or email us here</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Stamp Duty Cut for Landlords - What It Means in 2025"}],["$","p",null,{"className":"text-white-50","children":"20 October 2022 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Stamp Duty Cut for Landlords - What It Means in 2025 | Taxaccolega\",\"description\":\"Stamp Duty Cut for Landlords What does it mean to the landlords? What is stamp duty? Stamp duty is a tax which you have to pay when you buy a property over a c…\",\"datePublished\":\"2022-10-20 11:10:32\",\"dateModified\":\"2022-10-20 11:10:32\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/stamp-duty-cut-and-what-does-it-mean-to-the-landlords/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

@@ -1,0 +1,171 @@
+1:"$Sreact.fragment"
+2:I[5121,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+4:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+5:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+6:I[57121,[],""]
+7:I[74581,[],""]
+10:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/e4dbf4fc074e0785.css","style"]
+3:T858,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"https://www.taxaccolega.co.uk/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"https://www.taxaccolega.co.uk","logo":{"@type":"ImageObject","url":"https://www.taxaccolega.co.uk/images/favicon.png","width":512,"height":512},"image":"https://www.taxaccolega.co.uk/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"https://www.taxaccolega.co.uk/#website","url":"https://www.taxaccolega.co.uk","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"https://www.taxaccolega.co.uk/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.taxaccolega.co.uk/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/e4dbf4fc074e0785.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","$L2",null,{}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$3"}}],["$","$L4",null,{}],["$","$L5",null,{}],["$","main",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$L8","$L9","$La"]}]]}]]}],{"children":["$Lb",{"children":["$Lc",{"children":["$Ld",{},null,false,null]},null,false,"$@e"]},null,false,"$@e"]},null,false,null],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"onkYH3UH84lzdCXh94CNd"}
+11:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+12:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+13:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+1a:I[90484,[],"ViewportBoundary"]
+1c:I[90484,[],"MetadataBoundary"]
+1d:"$Sreact.suspense"
+8:["$","$L11",null,{}]
+9:["$","$L12",null,{}]
+a:["$","$L13",null,{}]
+b:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+14:T2d90,
+  VAT Accountants in London
+
+
+  How Taxaccolega Helps Businesses Stay Compliant and Save Money
+				
+<p style="font-size:16px; color:#000; text-align:justify;">
+Many business owners find VAT duties confusing and scary.  Understanding VAT legislation is crucial for Croydon-based small businesses and UK-wide corporations to prevent costly blunders.  Many enterprises seek for VAT accountant near me or VAT accountant London, unsure if they need expert guidance.  As laymen do not have latest updates, DIY filing is risky because VAT law changes regularly and even little mistakes can lead to fines, overpayments, or audits.  A skilled VAT accountant like Taxaccolega can help with technical and practical advice.
+</p>
+															<img width="800" height="500" src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-1024x640.jpg" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-1024x640.jpg 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-600x375.jpg 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-300x188.jpg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-768x480.jpg 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat.jpg 1440w" sizes="(max-width: 800px) 100vw, 800px" />															
+					<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700;800&display=swap" rel="stylesheet">
+<!-- Table of Contents -->
+  <h2 style="color:#1d3c45; font-weight:800;"><strong>Table of Contents</strong></h2>
+  <ul style="list-style:none; padding-left:0;">
+    <li style="font-weight:00;">
+      <strong>
+        <a href="#vat-need" style="color:#1d3c45; text-decoration:none;">
+          Do I Need a VAT Accountant?
+        </a>
+      </strong>
+    </li>
+    <li style="font-weight:00;">
+      <strong>
+        <a href="#vat-expert" style="color:#1d3c45; text-decoration:none;">
+          What an Expert VAT Accountant Does
+        </a>
+      </strong>
+    </li>
+    <li style="font-weight:00;">
+      <strong>
+        <a href="#vat-find" style="color:#1d3c45; text-decoration:none;">
+          Finding a VAT Accountant Near You
+        </a>
+      </strong>
+    </li>
+    <li style="font-weight:00;">
+      <strong>
+        <a href="#taxaccolega-benefits" style="color:#1d3c45; text-decoration:none;">
+          Benefits of Using Taxaccolega
+        </a>
+      </strong>
+    </li>
+    <li style="font-weight:00;">
+      <strong>
+        <a href="#mtd-vat" style="color:#1d3c45; text-decoration:none;">
+          MTD VAT Accounting for Small Businesses
+        </a>
+      </strong>
+    </li>
+    <li style="font-weight:00;">
+      <strong>
+        <a href="#vat-choose" style="color:#1d3c45; text-decoration:none;">
+          Choosing the Right VAT Accountant
+        </a>
+      </strong>
+    </li>
+  </ul>
+					<h2 id="vat-need" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Do I Need a VAT Accountant?	
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        One of the most common questions VAT tax return services firms receive is, if they need a VAT accountant? For some businesses with straightforward sales below the VAT threshold, managing VAT may seem simple. However, as soon as you exceed the threshold, deal with multiple product categories, or operate internationally, VAT complexities multiply. <a href="https://www.taxaccolega.co.uk/blog/making-tax-digital-mtd-for-vat-explained-in-the-uk" 
+   style="color:#d2601a; text-decoration:underline; font-weight:800;">
+   <strong>Making Tax Digital (MTD)</strong>
+</a> has also added an extra layer of requirements, requiring accurate digital records and online submissions. A skilled MTD VAT accountant for small business ensures that your records are compliant, up to date, and ready for <a href="https://www.taxaccolega.co.uk/blog/hmrc-penalties-investigations/" 
+   style="color:#d2601a; text-decoration:underline; font-weight:800;">
+   <strong>HMRC</strong>
+</a> inspection.
+</p>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        Taxaccolega advises numerous clients every year on whether hiring a VAT accountant is necessary. We evaluate the size of your business, the complexity of your transactions, and your risk exposure. Many small business owners realise that having professional oversight not only prevents mistakes but also identifies opportunities to reclaim VAT where possible.
+ </p>				
+					<h2 id="vat-expert" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>What an Expert VAT Accountant Does
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+       An expert VAT accountant does far more than simply filing returns. They review your sales, expenses, and invoices to make sure all VAT is correctly accounted for. They also provide strategic advice, helping you decide on VAT schemes such as flat rate, standard, or cash accounting, depending on what best suits your business. Taxaccolega ensures that clients’ records are accurate and complete, avoiding common pitfalls like incorrectly categorised supplies or missing input VAT claims.
+</p>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        An expert VAT accountant advises on partial exemption calculations, cross-border sales, and import/export VAT requirements beyond compliance.  For our clients, we communicate with HMRC, saving time and hassle.  After grappling with HMRC's guidelines, business owners typically search for do I need a VAT accountant. Knowing <a href="https://www.taxaccolega.co.uk/" style="color:#d2601a; text-decoration:underline; font-weight:800;">
+   <strong>Taxaccolega</strong>
+</a> is handling their compliance quickly brings relief. </p>
+					<h2 id="vat-find" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Finding a VAT Accountant Near You
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        When people search, “VAT accountant near me”, they often get frustrated because there are literally so many, almost innumerable choices. Location or areas wise search can be helpful as it will narrow down the search results, but still professional knowledge and experience so much more important to be gauged but still can't be determined.  Many accountants in London advertise their services and compete to win clients, but not all of them know what small businesses need or how exactly to report VAT online per HMRC.  Taxaccolega has local knowledge in Croydon and London, but they can also serve clients all over the UK.  This flexibility and versatility, along with being the top-ranked chartered accountant firm in the UK ascertains that businesses of all sizes get personalised VAT help without losing quality.
+</p>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+       Another thing to think about is cost.  People often want to know how much it costs to hire a VAT accountant. The price depends on how complicated your return is, how many transactions you have, and whether you want advice.  Taxaccolega is clear about its prices, telling you what is included and making sure there are no hidden costs.  Clients like that professional fees often pay for themselves by finding reclaimable VAT and avoiding expensive mistakes.
+ </p>				
+					<h2 id="taxaccolega-benefits" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Benefits of Using Taxaccolega
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        There are many benefits to hiring a VAT accountant who specialises in this area. First, it makes sure that you follow MTD and other HMRC rules, which helps you avoid fines. Second, it saves time because business owners don't have to keep records; they can focus on growing their business. Third, it gives you peace of mind to know that an expert VAT accountant is looking over all of your transactions.
+</p>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        Strategic planning is another benefit that people often ignore and forget about. Decisions about VAT can have a promising impact on cash flow and overall profits. For instance, using the right VAT scheme, timing, purchases, and sales figures wisely can improve the ROIs and profitabilities. Taxaccolega gives clients advice on these things, using both technical knowledge and real-world business experience with precedents and case studies. A lot of clients who first wonder if they need a VAT accountant quickly see how much better their work is with our firm. They observe how much more accurate, efficient, and stress-free their overall financial management has become.
+ </p>				
+					<h2 id="mtd-vat" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>MTD VAT Accounting for Small Businesses
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        Making Tax Digital is mandatory for most VAT-registered firms.  MTD VAT accountant for small business: how does it work?  You must keep digital records and file VAT returns using compatible software.  Many owners struggle with this change, especially those used to spreadsheets or manual accounting.  Taxaccolega helps clients maintain accurate, compliant, and HMRC-ready records during this shift.
+</p>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        One of the industry top softwares will be finalised from the list; Sage, Quickbooks, BTC software, VT software, and Taxcalc etc. From here, a thorough and rigorous process of respective software’s training, implementation, and making MTD straightforward starts. We also offer continuous assistance, scrutinizing submissions to guarantee the absence of errors. This proactive approach avoids HMRC penalties and helps small businesses manage VAT efficiently.
+ </p>				
+					<h2 id="vat-choose" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Choosing the Right VAT Accountant
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        A firm can be gauged on their experience, client support, and reputation. Since there is no litmus test or tool to check all of these things, simply check reviews at online platforms; first of all Google maps itself, Trustpilot, or any other review platform. Ask about handling complex cases, cross-border transactions, or digital reporting compliance. Taxaccolega meets these criteria, offering personalised service, strategic advice, and clear communication. Whether you are searching for VAT accountant London or need guidance remotely across the UK, our team provides a dependable and knowledgeable resource.
+</p>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        In nutshell, working with Taxaccolega will ensure accurate filings, maximised VAT recovery, and peace of mind. Business owners can focus on growth, innovation, and day-to-day operations while knowing that their VAT compliance is expertly managed. So if a company has once experienced the benefits of professional support, they will always hire a professional VAT accountant.
+ </p>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+        Short answer: yes.
+        <br>
+ Here are the broad categories:
+</p>
+					
+									
+				
+									
+					d:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"VAT Accountants in London"}],["$","p",null,{"className":"text-white-50","children":"29 November 2025 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$14"}}]}]}],"$L15","$L16","$L17"]}],null,"$L18"]}]
+19:[]
+e:"$W19"
+f:["$","$1","h",{"children":[null,["$","$L1a",null,{"children":"$L1b"}],["$","div",null,{"hidden":true,"children":["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.Metadata","children":"$L1e"}]}]}],null]}]
+1f:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","6751","static/chunks/app/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money/page-7026f14096e826a1.js"],""]
+20:I[90484,[],"OutletBoundary"]
+15:["$","div",null,{"className":"container mb-5","children":["$","$L1f",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+16:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"VAT Accountants in London | Taxaccolega\",\"description\":\"VAT Accountants in London How Taxaccolega Helps Businesses Stay Compliant and Save Money Many business owners find VAT duties confusing and scary. Understandin…\",\"datePublished\":\"2025-11-29 07:49:32\",\"dateModified\":\"2025-11-29 07:49:32\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money/\"}}"}}]
+17:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+18:["$","$L20",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@21"}]}]
+1b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+22:I[86869,[],"IconMark"]
+1e:[["$","title","0",{"children":"VAT Accountants in London | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"VAT Accountants in London How Taxaccolega Helps Businesses Stay Compliant and Save Money Many business owners find VAT duties confusing and scary. Understandin…"}],["$","link","2",{"rel":"author","href":"https://www.taxaccolega.co.uk"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"VAT Accountants in London | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"VAT Accountants in London How Taxaccolega Helps Businesses Stay Compliant and Save Money Many business owners find VAT duties confusing and scary. Understandin…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2025-11-29 07:49:32"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"VAT Accountants in London | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"VAT Accountants in London How Taxaccolega Helps Businesses Stay Compliant and Save Money Many business owners find VAT duties confusing and scary. Understandin…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L22","23",{}]]
+21:null

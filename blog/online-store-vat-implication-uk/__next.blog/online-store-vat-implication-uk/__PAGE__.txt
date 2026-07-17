@@ -1,0 +1,65 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","798","static/chunks/app/blog/online-store-vat-implication-uk/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T14c0,
+  I have an online store - 
+
+
+  What are the VAT implications?
+				
+		<p><!-- wp:image --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you are thinking of starting a business online where you will be selling your product through your e store you will have to register your business as usual.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will also have to comply with other legal obligations such as registering yourself for VAT if you cross the threshold of £ 85 000.If you are supplying VAT able supplies and you are not VAT registered you will have to bear heavy penalties.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Being online means that you will be selling products in UK as well as internationally. So when and how you will have to register for VAT?</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>WHEN SHOULD I REGISTER FOR VAT?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>There are different thresholds for online businesses depending on where the business is registered and from where the business is being operated, who the customers are and what the product is which is being sold.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>It is a very simple concept, if you are operating your business from UK you will have to register for UK VAT. Just make sure that you charge the right rate of VAT.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you have an online store you should be aware of the terms such as :</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>        ● Distance Selling: Distance selling means that you are outside UK but in the EU country and you are selling your product to a customer in UK who are not VAT register either because they are selling product which is exempt from VAT or they are individuals or small businesses who are not required to register themselves for VAT.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If the annual sales in distance selling exceeds £ 70, 000 the seller needs to register for UK VAT and charge VAT at the UK rate.</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>     ● Online Market place: If you are selling goods online, you might be operating in an online marketplace. Online marketplace is a website through which anyone can sell the goods. It does not matter if the online market place is established in UK or not, if you have access to the online marketplace or its contents you will be responsible for the online sellers unpaid VAT. And therefore you will have to make sure that the sellers are VAT registered if cross the threshold.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>You don't have to register for VAT if you supply VAT exempt supplies such as equipment for disabled but you will be registering for VAT if you sell VAT exempt items but you are buying items of more than £ 85 000 from EU VAT registered suppliers.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>It is very important that you apply for VAT on time, you should register for VAT as soon as you think that your Vatable supplies will exceed the threshold of £ 85 000 in the next 12 months. Otherwise you won't be able to charge VAT from your buyers as you won't have your VAT number, however, you will be paying VAT to HMRC for this period.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>HOW SHOULD I REGISTER FOR VAT?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>Once you have crossed the threshold, you will have to register by post. By filling the form VAT1A if you are an EU business and distance selling the goods to UK you will have to fill in the form VAT 1A and post it to HMRC. Within 30 days of applying for VAT registration you will get a VAT registration certificate. It will have your VAT number, deadline of your VAT return and payment, and the effective date of VAT registration.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>PENALTIES</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>HMRC defines some serious penalties if you default meaning if you are not able to submit the VAT return on time, or if you made a mistake in your return and you do not correct it within 30 days.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>HOW CAN WE HELP?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>We at <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> can help you register your business for VAT, prepare and submit your returns on time. We make sure that all the deadlines are met. Please feel free to call us at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> or drop us a message <strong><a href="https://www.taxaccolega.co.uk/contact-us">here</a></strong> and we will get back to you.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The above information is extracted from HMRC website: <strong><a href="https://www.gov.uk/vat-businesses" target="_blank" rel="noreferrer noopener">https://www.gov.uk/vat-businesses</a></strong></p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"I have an online store what are the VAT implications?"}],["$","p",null,{"className":"text-white-50","children":"13 November 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"I have an online store what are the VAT implications? | Taxaccolega\",\"description\":\"I have an online store - What are the VAT implications? If you are thinking of starting a business online where you will be selling your product through your e…\",\"datePublished\":\"2020-11-13 12:09:54\",\"dateModified\":\"2020-11-13 12:09:54\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/online-store-vat-implication-uk/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

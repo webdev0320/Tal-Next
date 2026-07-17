@@ -1,0 +1,169 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5342","static/chunks/app/blog/non-uk-domiciled-individuals-tax-changes/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T215c,
+  Tax Changes For
+
+
+  Non-UK Domiciled Individuals
+				
+<p style="font-size:16px; color:#000; text-align:justify;">
+The UK is making some major modifications to how <strong>non-UK domiciled individuals</strong> (generally referred to as “non-doms“) are taxed. From 6 April 2025, These changes are aimed at creating a fairer and more modern tax system while still keeping the UK attractive for global talent and investment. Here’s at <strong>Taxaccolega,</strong> what our clients and readers need to realise if you’re affected and understanding the <strong>new UK tax rules </strong>for <strong>non-UK domiciled individuals.</strong>
+</p>
+					<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700;800&display=swap" rel="stylesheet">
+<h2 style="color:#1d3c45; font-weight:800;">Table of Contents</h2>
+<ul style="list-style:none; padding-left:0;">
+  <li>
+    <a href="#new-4-year-tax-free-rule" style="color:#d2601a; font-weight:800;">
+      A New 4-Year Tax-Free Rule for new Arrivals
+    </a>
+  </li>
+  <li>
+    <a href="#temporary-repatriation-facility" style="color:#d2601a; font-weight:800;">
+      Temporary Repatriation Facility (TRF): A second risk
+    </a>
+  </li>
+  <li>
+    <a href="#capital-gains-tax-rebasing" style="color:#d2601a; font-weight:800;">
+      Capital gains Tax Rebasing
+    </a>
+  </li>
+  <li>
+    <a href="#overseas-workday-relief" style="color:#d2601a; font-weight:800;">
+      Remote places Workday relief (OWR): nevertheless, Going strong
+    </a>
+  </li>
+  <li>
+    <a href="#inheritance-tax" style="color:#d2601a; font-weight:800;">
+      Inheritance Tax (IHT)
+    </a>
+  </li>
+  <li>
+    <a href="#travel-expenses-uk-work" style="color:#d2601a; font-weight:800;">
+      Expenses for Travel to UK for Work
+    </a>
+  </li>
+  <li>
+    <a href="#new-paye-rules" style="color:#d2601a; font-weight:800;">
+      New PAYE rules for Global Employees
+    </a>
+  </li>
+  <li>
+    <a href="#what-should-you-do-now" style="color:#d2601a; font-weight:800;">
+      What Should You Do Now?
+    </a>
+  </li>
+</ul>
+					<h2 id="new-4-year-tax-free-rule" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>A New 4-Year Tax-Free Rule for new Arrivals
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+      <strong>Who Qualifies? </strong>If you’re new to United Kingdom and haven’t been resident within the previous 10 tax years you’re in good fortune.
+</p>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+      <strong>What you get: </strong>100% UK tax comfort on all eligible overseas income and gains <strong>(FIG) </strong>for your first 4 years within the UK.
+</p>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+      <strong>No remittance regulations: </strong>You can keep that money outside the UK or bring it in either way it’s tax-free during those 4 years. <strong>Contact Taxaccolega for non-domiciled status.</strong>
+</p>				
+					<h2 id="temporary-repatriation-facility" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Temporary Repatriation Facility (TRF): A second risk
+</strong>
+</h2>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+      If you’ve been the usage of the remittance basis then there’s a new option but before that what you need to do is get <strong>expert advice on non-domiciled tax planning 2025.</strong> Contact us and we will ensure compliance with <strong>new non-domiciled tax rules in 2025.</strong>
+</p>
+   <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8; padding-left:20px;">
+●   You can bring in foreign income before 6 April 2025 and pay a lower tax rate.<br>
+●   Pay just 12% tax within the first two years, and 15% in the third
+<br>
+●  This option is called the <strong>Temporary Repatriation Facility (TRF)</strong> and is available for 3 years starting in April 2025.
+<br>
+●  That is a first-rate opportunity for people with ancient offshore earnings to clean up their United Kingdom tax role at a significantly decreased fee.
+</p>				
+					<h2 id="capital-gains-tax-rebasing" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Capital gains Tax Rebasing:
+</strong>
+</h2>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+      For disposals of foreign assets on or after 6 April 2025, individuals who’ve now not been United Kingdom domiciled or deemed domiciled before this date and feature claimed the remittance basis for as a minimum one of the tax years from 2017/18 to 2024/25 can choose to rebase the asset to its value as of 5 April 2017, for <strong>Capital gains Tax purposes.</strong>
+</p>
+					<h2 id="overseas-workday-relief" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Remote places Workday relief (OWR): nevertheless, Going strong
+</strong>
+</h2>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
+      OWR isn’t going everywhere but it’s being refreshed beneath the brand new system:
+</p>
+   <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8; padding-left:20px;">
+●   Available for the first 4 years of<strong> UK tax residence</strong> (if eligible under the new<strong> FIG regime)</strong>
+<br>
+●   Applies to overseas employment income earned distant places
+<br>
+●   You can bring that income into the UK later with no extra tax.
+<br>
+●  However now, there’s a cap you can only claim on the lower of £300,000 or 30% of your qualifying work income each year.
+</p>				
+					<h2 id="inheritance-tax" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Inheritance Tax (IHT):
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;padding-left:20px;">
+      The government is also replacing the <strong>domicile-based Inheritance Tax (IHT) rules</strong> with a <strong>residence-based system,</strong> from 6 April 2025:
+    </p>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8; padding-left:20px;">
+●   You’ll be concern to UK <strong>IHT</strong> on global assets in case you’ve been UK resident for 10 out of the last 20 years
+</p>
+					<h2 id="travel-expenses-uk-work" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>Expenses for Travel to UK for Work
+</strong>
+</h2>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;padding-left:20px;">
+      If you’re a non-resident coming to the UK for work, you can claim expenses related to your UK duties:
+</p>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8; padding-left:20px;">
+●   <strong>Non UK residents:</strong> claim for up to 5 years
+<br>
+●   <strong>Non UK residents:</strong> claim for up to 4 years
+</p>
+					<h2 id="new-paye-rules" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>New PAYE rules for Global Employees
+</strong>
+</h2>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8; padding-left:20px;">
+●   From April 2025, employers will no longer apply to<strong> HMRC</strong> to reduce the income they use for UK tax <strong>(PAYE)</strong> for some international employees.
+<br>
+●   Instead, employers will send a simple online form to <strong>HMRC</strong> to say how much income should be taxed.
+<br>
+●   This makes things quicker and easier for both employees and companies.
+</p>
+					<h2 id="what-should-you-do-now" style="font-size:28px; font-weight:400; color:#1d3c45;">
+    <strong>What Should You Do Now?
+</strong>
+</h2>
+    <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;padding-left:20px;">
+      At Taxaccolega, our <strong>expert team</strong> is here to guide you through the changes and help you prepare. We’ll work with you to make sure you’re compliant, tax-efficient, and ready for the new regime.
+</p>
+<p style="font-size:16px; color:#000; text-align:justify; line-height:1.8; padding-left:20px;">
+    <a href="tel:02081270728" style="text-decoration:none;">📞</a>
+    <strong>
+        <a href="https://www.taxaccolega.co.uk/" 
+           style="color:#d2601a; text-decoration:underline;">
+           Contact us today
+        </a>
+    </strong> 
+    to discuss how the upcoming reforms may impact you or your clients.
+</p>				
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Non-UK domiciled individuals tax changes"}],["$","p",null,{"className":"text-white-50","children":"2 May 2025 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Non-UK domiciled individuals tax changes | Taxaccolega\",\"description\":\"Tax Changes For Non-UK Domiciled Individuals The UK is making some major modifications to how non-UK domiciled individuals (generally referred to as “non-doms“…\",\"datePublished\":\"2025-05-02 12:30:48\",\"dateModified\":\"2025-05-02 12:30:48\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/non-uk-domiciled-individuals-tax-changes/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

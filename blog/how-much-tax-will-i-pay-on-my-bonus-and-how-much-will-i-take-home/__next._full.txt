@@ -1,0 +1,170 @@
+1:"$Sreact.fragment"
+2:I[5121,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+4:I[47056,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+5:I[61822,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+6:I[57121,[],""]
+7:I[74581,[],""]
+8:I[39785,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+9:I[45521,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+a:I[66195,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1737","static/chunks/1737-fd000c3ec6105176.js","8489","static/chunks/8489-69f15de5bf1dcaea.js","7177","static/chunks/app/layout-02e338d53910c05a.js"],"default"]
+10:I[27123,[],"default",1]
+:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
+:HL["/_next/static/css/e1420b9e0733b970.css","style"]
+:HL["/_next/static/css/baeea6e32a977433.css","style"]
+:HL["/_next/static/css/e4dbf4fc074e0785.css","style"]
+3:T858,{"@context":"https://schema.org","@graph":[{"@type":["Organization","AccountingService"],"@id":"https://www.taxaccolega.co.uk/#organization","name":"Taxaccolega Chartered Accountants","alternateName":"Taxaccolega","url":"https://www.taxaccolega.co.uk","logo":{"@type":"ImageObject","url":"https://www.taxaccolega.co.uk/images/favicon.png","width":512,"height":512},"image":"https://www.taxaccolega.co.uk/images/favicon.png","telephone":"020 8127 0728","email":"info@taxaccolega.co.uk","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"187a London Road","addressLocality":"Croydon","addressRegion":"Surrey","postalCode":"CR0 2RJ","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.3727,"longitude":-0.0995},"areaServed":{"@type":"Country","name":"United Kingdom"},"priceRange":"££","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:30"}],"sameAs":["https://www.facebook.com/Taxaccolega","https://twitter.com/Taxaccolega","https://www.linkedin.com/company/taxaccolega","https://g.page/taxaccolega"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Accounting & Tax Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Self Assessment Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Corporation Tax Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"VAT Returns"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Payroll Services"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bookkeeping"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company Formation"}}]}},{"@type":"WebSite","@id":"https://www.taxaccolega.co.uk/#website","url":"https://www.taxaccolega.co.uk","name":"Taxaccolega Chartered Accountants","publisher":{"@id":"https://www.taxaccolega.co.uk/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.taxaccolega.co.uk/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}0:{"P":null,"c":["","blog","how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e2b5bb57ae76e18f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e1420b9e0733b970.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/baeea6e32a977433.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/e4dbf4fc074e0785.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-GB","children":[["$","head",null,{"children":["$undefined","$undefined"]}],["$","body",null,{"className":"antialiased","children":[["$","$L2",null,{}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$3"}}],["$","$L4",null,{}],["$","$L5",null,{}],["$","main",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"50px","textAlign":"center"},"children":[["$","h2",null,{"children":"Page Not Found"}],["$","p",null,{"children":"Could not find requested resource"}],["$","a",null,{"href":"/","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}]]}]]}]]}],{"children":["$Lb",{"children":["$Lc",{"children":["$Ld",{},null,false,null]},null,false,"$@e"]},null,false,"$@e"]},null,false,null],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"onkYH3UH84lzdCXh94CNd"}
+17:I[90484,[],"ViewportBoundary"]
+19:I[90484,[],"MetadataBoundary"]
+1a:"$Sreact.suspense"
+b:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+11:T1a8b,
+  How much tax will I pay on my bonus and 
+
+
+  how much will I take home?
+				
+		<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>The bonus you will get is considered your earnings so you will be taxed in the same way as your income.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will pay <a href="https://www.taxaccolega.co.uk/taxation/personal-income-tax-professionals-and-chartered-accountants/"><strong>income tax</strong></a> and <a href="https://www.taxaccolega.co.uk/blog/national-insurance-how-much-do-i-have-to-pay/"><strong>National insurance</strong> </a>on your bonus in addition to that any student loans will also be deducted.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Look at this example below:</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Mr J has an annual income of <strong>£100 000</strong> (which is his base salary) and he received a bonus of <strong>£10 000</strong> in a particular year. How much tax and NI will he pay?</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Income Tax on base salary</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:table --></p>
+<figure>
+<table>
+<tbody>
+<tr>
+<td>Annual income</td>
+<td> £100 000</td>
+</tr>
+<tr>
+<td>Personal Allowance(2022/2023)</td>
+<td>(£ 12 570)</td>
+</tr>
+<tr>
+<td>Taxable income </td>
+<td> £ 87 430</td>
+</tr>
+<tr>
+<td>Tax payable at (40%)</td>
+<td>£ 34 972</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --><!-- wp:paragraph --></p>
+<p>As you can see above Mr J as he is earning <strong>£100 000</strong> he is a higher rate taxpayer and therefore the bonus he will earn will also be taxed at <strong>40%</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Income tax on bonus</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:table --></p>
+<figure>
+<table>
+<tbody>
+<tr>
+<td>Bonus for the year </td>
+<td>£ 10 000</td>
+</tr>
+<tr>
+<td>Tax payable</td>
+<td>£ 4000</td>
+</tr>
+<tr>
+<td>Bonus after income tax</td>
+<td>£ 6000</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --><!-- wp:paragraph --></p>
+<p><strong>National Insurance on bonus</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:table --></p>
+<figure>
+<table>
+<tbody>
+<tr>
+<td>Bonus for the year</td>
+<td>£10000</td>
+</tr>
+<tr>
+<td>National Insurance (after April 2022 is 3.25%)</td>
+<td>£325</td>
+</tr>
+<tr>
+<td>Bonus after deducting NI</td>
+<td>£9675</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --><!-- wp:paragraph --></p>
+<p>If we add Mr J`s bonus for the year to the base salary the total income for the year will cross the <strong>£100 000</strong> threshold. This means that there will be a reduction in the personal allowance,</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The <strong>HMRC</strong> rule is that your personal allowance goes down by <strong>£1</strong> for every <strong>£2</strong> that your <a href="https://www.gov.uk/guidance/adjusted-net-income" target="_blank" rel="noreferrer noopener"><strong>adjusted net income</strong> </a>is above <strong>£100 000.</strong> This means your allowance is 0 if your income is <strong>£125 140</strong> or above.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In the above example Mr J will have to pay an extra income tax on £5000 because of the reduction in his personal allowance due to his income being <strong>£10 000</strong> above <strong>£100 000.</strong> As a result he will be paying extra tax of <strong>£2000 (40% of 5000)</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Look at the summary of the taxes you will be paying on your bonus:</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>£</p>
+<p><!-- /wp:paragraph --><!-- wp:table --></p>
+<figure>
+<table>
+<tbody>
+<tr>
+<td>Income tax on the bonus</td>
+<td>4000</td>
+</tr>
+<tr>
+<td>National Insurance</td>
+<td>325</td>
+</tr>
+<tr>
+<td>Extra tax due to reduction in NI</td>
+<td>2000</td>
+</tr>
+<tr>
+<td><strong>Total Deductions</strong></td>
+<td><strong>6325</strong></td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --><!-- wp:paragraph --></p>
+<p>If you get a bonus of <strong>£10 000</strong> or more and you are a higher rate tax payer you will be bringing home only <strong>£3 675</strong> as cash, paying more than half of your hard work to the treasury.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>However, if you are a basic tax rate payer <strong>(earning between £12 571 to £50 270) </strong>and after getting the bonus you stay in the same band you will be paying tax on the bonus at 20% and you will be able to use your personal allowance fully.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h3><strong>If you are Basic Tax rate Payer</strong></h3>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>For example if you are a basic tax rate payer earning <strong>£40 000</strong> and you get a bonus of <strong>£10 000</strong> in a particular year you will pay income tax of <strong>£2000</strong> on the bonus and NI will be <strong>£1350 £3350</strong> so your take home bonus will be <strong>£6650 </strong>.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<h2><strong>How to save taxes on your bonus?</strong></h2>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>So Tax is a complex topic and how much you pay depends on your individual circumstances. One way to save taxes on your bonus is to put it in your <a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/pensions"><strong>pension</strong></a> pot. Although you will be saving money as you won't have to pay taxes, you will not be getting any cash in hand until you reach your retirement age.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you want to know more about taxes contact <strong><a href="https://www.taxaccolega.co.uk/">Taxaccolega</a> </strong><a href="https://www.taxaccolega.co.uk/contact-us"><strong>here</strong></a> or call us at <strong>020 8127 0728</strong> and our expert team of accountants will be happy to help you by discussing the tax reliefs available to you and can also help in filling your <strong><a href="https://www.taxaccolega.co.uk/accounts/self-assessment-tax-returns/">self assessment and offer information on our </a></strong><a href="https://www.taxaccolega.co.uk/services/annual-accounts"><strong>annual accounts</strong></a> service. We also have a helpful article explaining the <a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2022/December/change-in-the-income-tax-additional-rate-threshold-and-how-can-i-reduce-my-taxes"><strong>change in the income tax additional rate threshold</strong></a> for you to look at!</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					d:["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"How much tax will I pay on my bonus and how much will I take home?"}],["$","p",null,{"className":"text-white-50","children":"12 August 2022 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$11"}}]}]}],"$L12","$L13","$L14"]}],null,"$L15"]}]
+16:[]
+e:"$W16"
+f:["$","$1","h",{"children":[null,["$","$L17",null,{"children":"$L18"}],["$","div",null,{"hidden":true,"children":["$","$L19",null,{"children":["$","$1a",null,{"name":"Next.Metadata","children":"$L1b"}]}]}],null]}]
+1c:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5947","static/chunks/app/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home/page-7026f14096e826a1.js"],""]
+1d:I[90484,[],"OutletBoundary"]
+12:["$","div",null,{"className":"container mb-5","children":["$","$L1c",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+13:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"How much tax will I pay on my bonus and how much will I take home? | Taxaccolega\",\"description\":\"How much tax will I pay on my bonus and how much will I take home? The bonus you will get is considered your earnings so you will be taxed in the same way as y…\",\"datePublished\":\"2022-08-12 11:26:45\",\"dateModified\":\"2022-08-12 11:26:45\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home/\"}}"}}]
+14:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+15:["$","$L1d",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]
+18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1f:I[86869,[],"IconMark"]
+1b:[["$","title","0",{"children":"How much tax will I pay on my bonus and how much will I take home? | Taxaccolega | Taxaccolega"}],["$","meta","1",{"name":"description","content":"How much tax will I pay on my bonus and how much will I take home? The bonus you will get is considered your earnings so you will be taxed in the same way as y…"}],["$","link","2",{"rel":"author","href":"https://www.taxaccolega.co.uk"}],["$","meta","3",{"name":"author","content":"Taxaccolega Chartered Accountants"}],["$","meta","4",{"name":"keywords","content":"accountants london,chartered accountants,tax return,bookkeeping,HMRC,small business accountant"}],["$","meta","5",{"name":"creator","content":"Taxaccolega Chartered Accountants"}],["$","meta","6",{"name":"publisher","content":"Taxaccolega Chartered Accountants"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:none, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Accounting"}],["$","link","10",{"rel":"canonical","href":"https://www.taxaccolega.co.uk/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home/"}],["$","meta","11",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","12",{"property":"og:title","content":"How much tax will I pay on my bonus and how much will I take home? | Taxaccolega"}],["$","meta","13",{"property":"og:description","content":"How much tax will I pay on my bonus and how much will I take home? The bonus you will get is considered your earnings so you will be taxed in the same way as y…"}],["$","meta","14",{"property":"og:url","content":"https://www.taxaccolega.co.uk/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home/"}],["$","meta","15",{"property":"og:site_name","content":"Taxaccolega"}],["$","meta","16",{"property":"og:type","content":"article"}],["$","meta","17",{"property":"article:published_time","content":"2022-08-12 11:26:45"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"How much tax will I pay on my bonus and how much will I take home? | Taxaccolega"}],["$","meta","20",{"name":"twitter:description","content":"How much tax will I pay on my bonus and how much will I take home? The bonus you will get is considered your earnings so you will be taxed in the same way as y…"}],["$","link","21",{"rel":"icon","href":"/images/favicon.png"}],["$","link","22",{"rel":"apple-touch-icon","href":"/images/favicon.png"}],["$","$L1f","23",{}]]
+1e:null

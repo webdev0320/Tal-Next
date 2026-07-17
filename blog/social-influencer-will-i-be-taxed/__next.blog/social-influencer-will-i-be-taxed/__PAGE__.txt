@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","4121","static/chunks/app/blog/social-influencer-will-i-be-taxed/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T1146,
+  Social Influencer - 
+
+
+  Will I be taxed?
+				
+		<p>Sitting home and making money couldn't get any easier as it has now. We have seen lots of success stories of people around us who are making so much money through social media that they have quit their jobs. It is a dream job for many as they can just peruse their hobby such as travel, wood work etc and make money by sharing their experiences.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/phone.jpg" alt="" width="824" height="549" /></p>
+<p>By the sound of it, it seems that its just a hobby that is being pursued however, in reality the more you are getting noticed by the people around you the more chances are that your income will be scrutinised by the HMRC.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>As I always say , when you have money coming in you will have to pay taxes. If you are doing some activity through which you are earning money and you are spending some money so that you are able to do that activity HMRC will consider it a business and you will be liable to pay taxes.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>It is always a good idea to get in touch with an <strong><a href="https://www.taxaccolega.co.uk/factsheets/vat/vat-seven-key-points-for-the-smaller-business">accountant</a></strong> who can advise you on taxes in this area so you are not worried about getting a penalty from HMRC for not reporting your income.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>HOW DO I REPORT MY INCOME</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>You will have to report your income from social media such as YouTube on the self-assessment tax return.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you have income of more than £1000 in a single tax year you will have to register for self-assessment tax return by 5 Oct and fill in the self- assessment tax return and file it by 31 Jan of the following year. See our <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2020/december/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader">blog here</a></strong> to understand the deadlines.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You can register for self-assessment as self-employed online by following the <strong><a href="https://www.gov.uk/register-for-self-assessment/self-employed">link here</a></strong></p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>HOW MUCH TAX WILL I BE PAYING?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>How much tax you will be paying will depend on the income that you are earning.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>When you are a social influencer such as a you tuber, its not always your main job.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>For example, you might have a stable job on which you are paying taxes and you are just uploading videos. The extra money that you are making is more than £ 1000 per year.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>In that case you although you might be paying your taxes at source, meaning your employer has deducted the tax and NI before paying you the salary. You are required to state your salary in your self-assessment tax return form as shown in your P60.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>This would also mean that you might have utilised your tax free personal allowance which is currently £ 12 500 and is set to increase to £ 12 570.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will be paying taxes according to the tax brackets in which your income falls. To learn more about the tax thresholds <strong><a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/march/increase-in-the-personal-allowance-how-does-it-affect-you">click here</a></strong>.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>CAN I CLAIM ANY EXPENSES?</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>Yes, very confidently. If you are ready to declare all your income and pay taxes on it you can claim any expenses from HMRC as well.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Claiming expenses mean that you will be.</p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Social Influencer - Will I be taxed?"}],["$","p",null,{"className":"text-white-50","children":"1 March 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Social Influencer - Will I be taxed? | Taxaccolega\",\"description\":\"Social Influencer - Will I be taxed? Sitting home and making money couldn\",\"datePublished\":\"2021-03-01 12:40:59\",\"dateModified\":\"2021-03-01 12:40:59\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/social-influencer-will-i-be-taxed/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

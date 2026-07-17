@@ -1,0 +1,67 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5048","static/chunks/app/blog/home-baker-business-expenses-you-can-claim-if-you-are-self-employed/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T1792,
+  Home baker business
+
+
+  Expenses you claim if you are self Employed.
+				
+		<p><!-- wp:image {"align":"center"} --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you are thinking of starting a business the first thing that should come to your mind is profitability even if this is your side business. This means that you should keep in mind what costs will incur to run your business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Many people today are turning their hobbies into businesses and earning profit over it. Thanks to social media where you can advertise your product and reach millions of potential customers.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Earning profit means you have to pay taxes. If you are running your business as a sole trader you have to pay taxes through your <strong><a href="https://www.taxaccolega.co.uk/news/latest-news-for-business/archive/news-article/2020/september/self-assessment-deadlines">self assessment tax return</a></strong>. The deadline to submit the self assessment tax return is 31 Oct if you want to submit the paper return and it will be 31 Jan for the online submissions. You will also have to pay any tax that is due to be paid on 31 Jan 2021.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Straight away when you are starting your business you should register yourself with HMRC to let them know that you are starting your business and you are ready to pay any taxes if you earn above £ 1000 from your business which is your trading allowance. The deadline to apply to register yourself as a sole trader with HMRC is 5 Oct 2021.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>There is a whole different procedure if you want to work through a limited company. You contact <strong><a href="https://www.taxaccolega.co.uk/search">Taxaccolega</a></strong> here if you want information about setting up a limited company.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>While you are filling in your self assessment tax return and reporting your earnings you should be fully aware about the expenses that you can claim. This will affect the taxes that you pay.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The expenses will lower your profits earned and therefore the taxes that you pay on your profits. When you are self employed your business is not a separate entity and all the money that you have earned is your profit and you pay income tax on the profits that you have earned.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Remember that the expenses you claim are the costs that were incurred wholly and exclusively for the purpose of the business and trade. HMRC is fair enough not to charge tax on the costs that you incurred, you are only paying the taxes on the profits that you earned. It is very important that you be fair as well by claiming only the reasonable expenses and keeping all the receipts of the expenses that were incurred for the purpose of your business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The expenses can be direct as well as indirect.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>The direct costs incurred that you can claim as expenses would be your</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● Ingredients</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Equipment costs</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>The indirect costs would include:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>        ● Cost of work space: if you are a home baker you might be occupying the space of your home such as the kitchen and that might account for maybe 25%of your house. You can expense the electricity used in that area</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>     ● Telephone costs:it is preferred if you use a different phone for your business calls however if you are using your personal phone for business calls you should keep a separate record for them so you can deduct the cost of the phone calls from the income earned.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>         ● Travel costs: if you are delivering your cakes and confectionery to your clients yourself you can claim the fuel costs and even the proportionate amount of the depreciation cost of the car or the vehicle that you are using. If you are using your own vehicle to get the ingredients for your baking you should keep all the receipts of those trips and claim those costs as expenses.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>        ● Advertisement costs:The costs of advertising can be deducted as expenses. This will include the costs of the flyer etc, this will also include the business cards .</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>          ● Website Costs: If you want a presence online you have to have a website where you can advertise , take orders etc. You will be paying a cost that can be expensed.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Stationery costs-using pens and pencils to pen down orders , recipes etc can be deducted.</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>If you think that all the accounting for your business is a hassle for you and you won't be able to meet the deadlines just contact accounts near you. At <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a>, we have an expert team of accountants who can help you with making accounts and submitting them online. We will even take care of your VATs. Just call us at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> or leave us a message <strong><a href="https://www.taxaccolega.co.uk/contact-us">here</a></strong> and we will get back to you.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Self-Employed Home Baker – What Expenses Can You Claim?"}],["$","p",null,{"className":"text-white-50","children":"16 September 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Self-Employed Home Baker – What Expenses Can You Claim? | Taxaccolega\",\"description\":\"Home baker business Expenses you claim if you are self Employed. If you are thinking of starting a business the first thing that should come to your mind is pr…\",\"datePublished\":\"2021-09-16 14:22:28\",\"dateModified\":\"2021-09-16 14:22:28\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/home-baker-business-expenses-you-can-claim-if-you-are-self-employed/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

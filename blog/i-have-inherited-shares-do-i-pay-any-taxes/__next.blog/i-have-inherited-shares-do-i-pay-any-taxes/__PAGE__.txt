@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","1914","static/chunks/app/blog/i-have-inherited-shares-do-i-pay-any-taxes/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T1350,
+  I have inherited shares
+
+
+  do I pay any taxes
+				
+		<p>If you have inherited shares, you won't have to pay tax at the time of inheriting the shares.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>EXEMPTION</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>If the shares were given to you by your <strong>spouse or a civil partner</strong> who live in UK permanently during their life time you won't have to pay any inheritance tax. This will be considered a gift and any gift made to a spouse or a civil partner are tax exempt.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If the shares were given to you by your parents, family or friends during their life time and their value was within the annual exemption amount of <strong>£3000</strong>, (any unused annual exemption can also carried forward to next year) then no tax will need to be paid on them even if they die within 7 years of giving the gift.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If the shares were given to you by any of your family member or friends during their lifetime of any value and they didn't die within the <strong>7 years of giving the shares</strong> then no tax will need to be paid on receiving the shares.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>INHERITANCE TAX:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>Inheritance tax will need to be paid if the shares given to you by a member of the family or a friend died within 7 years of giving the shares to you as a gift.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Gifts made between 3 to 7 years before dying are taxed on a `sliding scale'. Inheritance tax will be paid at 40 % on all the gifts given within 3 years before death.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>INCOME TAX:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>You will have to pay income tax on any dividends that you will receive from the inherited shares.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Personal allowance:</strong> <br />You are given a personal allowance each tax year. For the current tax year which is from 6 April 2020 to 5 April 2021 the personal allowance is £12, 500. You will only pay income tax on any income received above this amount.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Dividend allowance:</strong> <br />Each year you are given a dividend allowance as well. The dividend allowance for the tax year 2020/2021 is £2000. This means that you can get dividend for up to this amount without paying any tax and you don't even have to tell HMRC about it.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will have to pay tax on any dividend above this amount depending on which tax band you fall into.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading --></p>
+<h2><strong>CAPITAL GAINS TAX:</strong></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>You will have to pay <strong>Capital Gains Tax</strong> when you make a profit on selling the shares. Tax you pay on your gains will depend on which income band you fall into. Basic rate tax payer will pay 10% and higher and additional rate tax payer will pay 20 % CGT.</p>
+<p><!-- /wp:paragraph --><!-- wp:heading {"level":3} --></p>
+<h3><strong>HOW TO WORK OUT CGT:</strong></h3>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<p>When you sell your shares you need to calculate your CGT. This is the difference between the selling price and the price that you paid at the time of purchase. In this case when you have inherited the shares the CGT will be the difference between the `Selling price and the market value'. If you get a gain you need to pay CGT. However, there are different reliefs available which can help you delay the payment of CGT. To find out about such reliefs click <strong><a href="https://www.gov.uk/tax-sell-shares/relief" target="_blank" rel="noreferrer noopener">here</a>.</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you want to know about the relief available to you under EIS you can find more information <strong><a href="https://www.taxaccolega.co.uk/factsheets/personal-tax/enterprise-investment-scheme" target="_blank" rel="noreferrer noopener">here</a>.</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>To find out when to pay these taxes you can read our blog by clicking <strong><a href="https://www.taxaccolega.co.uk/factsheets/personal-tax/personal-tax-when-is-income-tax-and-capital-gains-tax-payable" target="_blank" rel="noreferrer noopener">here</a></strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>We at <a href="https://www.taxaccolega.co.uk/"><strong>Taxaccolega</strong></a> can advise you so you can handle your inherited shares in the most tax efficient manner.</p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Inherited Shares – Do You Pay Tax in the UK?"}],["$","p",null,{"className":"text-white-50","children":"2 August 2020 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Inherited Shares – Do You Pay Tax in the UK? | Taxaccolega\",\"description\":\"I have inherited shares do I pay any taxes If you have inherited shares, you won\",\"datePublished\":\"2020-08-02 11:22:57\",\"dateModified\":\"2020-08-02 11:22:57\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/i-have-inherited-shares-do-i-pay-any-taxes/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

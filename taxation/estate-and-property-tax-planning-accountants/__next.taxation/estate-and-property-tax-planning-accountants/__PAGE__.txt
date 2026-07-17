@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[98292,["8500","static/chunks/8500-f62a38ff68ab7f42.js","4086","static/chunks/4086-86458aa063144971.js","4002","static/chunks/app/taxation/estate-and-property-tax-planning-accountants/page-23492f541f08dc70.js"],"default"]
+3:I[90484,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+5:null

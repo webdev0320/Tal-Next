@@ -1,0 +1,72 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","5827","static/chunks/app/blog/online-tutor-tax-and-expenses-in-uk/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T15d0,
+  Online Tutor - What expenses can I claim and
+
+
+  what taxes do I pay?
+				
+		<p><!-- wp:image --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you are thinking of starting online tutoring you should be well aware of the taxes that the taxman expects you to pay. HMRC expects you to pay taxes if you are earning money above a certain threshold. These thresholds are different for different structures in which the businesses are run.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>From the tax point of view if you are providing the services( in this case tutoring) and earning money from it you are running a business. You can choose how you want to run the business. For example, you can register your business as a sole trader or you can register your business as a company. Both business structures will have different thresholds, different tax rates and different deadlines.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>If you choose to run your business as a Sole Trader</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you chose to run your business as a sole trader you would have to register as a sole trader with HMRC. You are required to register to submit your self assessment tax return if you have earned more than £1000 in a particular tax year. You can register by following the link <strong><a href="https://www.gov.uk/register-for-self-assessment/self-employed">here</a></strong> .You will receive your 10 digit UTR number which you will need for when you will be filing your self assessment tax return. You can do it online before the deadline 31 Jan or you can submit your paper return before 31 Oct of the following year in which you started your business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You should keep proper records of your income and expenses such as bank records, receipts, record of your bills etc. This is to make sure that when you state your profits and expenses you have proper records to back that information.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Income</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Income will include all the tuition fees received during the tax year. You might have some defaulters. We will include only the income received and not the income which is due to be received although you have incurred the related expenses, this means that your tax bill would be a little understated in one particular year although tax on that income can be charged in the following year.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you receive any security you should not consider it as your income, it is your liability which you need to return according to the set terms of the contract.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Expenses that you can claim</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>There are certain costs that you can claim as allowable expenses. This means that you can deduct these expenses from your income which can help reduce your tax bill.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are tutoring online you can claim the following expenses:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>        ● Office costs: This will include stationery costs, costs of your printer, laptop, phone bills, internet costs.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>         ● Financial costs: This will include any bank charges, any insurances etc.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>     ● Advertising Costs: This will include any website costs and other costs involved in advertising.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Professional fees: If you are associated with any professional body and you have to pay any subscriptions, those fees can be deducted as an allowable expense.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Accountancy fees: If you have hired an accountant to manage your account it is an allowable expense</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● Cost of the premises: The heat, light and electricity bills of the area that you use for business purposes. You can hire a <a href="https://www.taxaccolega.co.uk/"><strong>professional accountant</strong> </a>who can calculate that for you,</li>
+<!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p><strong>The taxes that you have to pay</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>As a sole trader you pay the following taxes:</p>
+<p><!-- /wp:paragraph --><!-- wp:list --></p>
+<ul><!-- wp:list-item -->
+<li>      ● Income tax</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>      ● National Insurance: Class 2 and Class 4 NI</li>
+<li>      ● <a href="https://www.taxaccolega.co.uk/news/blog/archive/article/2021/May/tax-due-in-july-as-a-sole-trader-payment-on-account"><strong>Payments on account</strong></a></li>
+<!-- /wp:list-item --><!-- wp:list-item --><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --><!-- wp:paragraph --></p>
+<p>For more information on how to set up a company contact our accountants at <strong><a href="https://www.taxaccolega.co.uk/">Taxaccolega</a></strong> at <a href="tel:02081270728"><strong>020 8127 0728</strong></a> and they can guide you on setting up the company and related taxes.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Online Tutor Tax Guide – Expenses You Can Claim in the UK"}],["$","p",null,{"className":"text-white-50","children":"15 June 2021 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Online Tutor Tax Guide – Expenses You Can Claim in the UK | Taxaccolega\",\"description\":\"Online Tutor - What expenses can I claim and what taxes do I pay? If you are thinking of starting online tutoring you should be well aware of the taxes that th…\",\"datePublished\":\"2021-06-15 14:41:55\",\"dateModified\":\"2021-06-15 14:41:55\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/online-tutor-tax-and-expenses-in-uk/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

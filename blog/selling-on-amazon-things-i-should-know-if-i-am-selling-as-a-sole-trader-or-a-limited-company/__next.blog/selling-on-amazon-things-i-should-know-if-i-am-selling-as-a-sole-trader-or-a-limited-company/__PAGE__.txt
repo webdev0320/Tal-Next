@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+7:I[98500,["8500","static/chunks/8500-f62a38ff68ab7f42.js","9500","static/chunks/app/blog/selling-on-amazon-things-i-should-know-if-i-am-selling-as-a-sole-trader-or-a-limited-company/page-7026f14096e826a1.js"],""]
+8:I[90484,[],"OutletBoundary"]
+9:"$Sreact.suspense"
+2:T12c8,
+  Selling on Amazon - Things I should know if 
+
+
+  I am selling as a sole trader or a limited company
+				
+		<p><!-- wp:image {"align":"center"} --></p>
+<figure></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>The way you run your business online depends on how big the business is. If you are not trading on a regular basis then it might be just convenient and tax efficient to register yourself as a sole trader to run your online business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>However, if your business is widespread or it's just a start but you expect your business to expand then working as a limited company right from the start might be a good option.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Every individual situation is different, every person starting a new business has different circumstances and therefore not one business structure would suit all even if you are running the same size of business.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Let's look at the following points which you should know once you have decided to start your business online.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Costs of Registering the business:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you chose to work as a sole trader you just have to register for a self assessment tax return if you are earning more than £1000 per year. You do not pay anything for registering. You just pay your taxes by 31 Jan of the following year, you will have to fill in your tax return and HMRC will calculate the taxes for you.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>Whereas, if you want to incorporate your business you have to choose a name and register your business with the Company's house. The registration fee is around £12 and the process is not that complicated. You can even hire an <a href="https://www.taxaccolega.co.uk/about-us/advantages-of-having-an-accountant"><strong>accountant</strong> </a>to do this for you.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Registering for taxes:</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will have to pay taxes when your business is making profits but you have to register yourself to let HMRC know that you are doing a business and you have to submit your returns (incase you are a sole trader) or annual accounts (if you are a registered business) even if you are making a loss.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will have to register for self-employment by 5th October in your business's second tax year. You can be fined if you don't do it on time.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are an incorporated business, you can register for corporation tax at the same time as when you register the business with the company's house. Otherwise you can do it at any time within 3 months of starting your <strong><a href="https://www.gov.uk/guidance/corporation-tax-trading-and-non-trading">business</a></strong>.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Registering for VAT</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>You will have to register for<a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/value-added-tax"> <strong>VAT</strong></a> as soon as you meet the registration requirements for VAT. It won't matter if you are running the business as a sole trader or as a limited company .</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>Taxes</strong></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are starting to sell online as a side business while you are already employed in a company you should note that you might be using all your personal allowance so any profits that you will make from your online business you will have to pay <strong><a href="https://www.taxaccolega.co.uk/resources/tax-rates-and-allowances/income-tax">personal taxes</a></strong> on it.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you are not employed anywhere then you can earn upto £12, 570 tax free if you are a sole trader.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>If you run a company you will be paying tax on all your profits but the rate you pay is less than the personal tax.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p>An accountant can help you with the evaluation of your situation and conclude what business structure will work for you. Please contact <strong><a href="https://www.taxaccolega.co.uk/contact-us">Taxaccolega</a></strong>, e-commerce accountants in Croydon and we will be happy to help you.</p>
+<p><!-- /wp:paragraph --></p>		
+					
+									
+				
+									
+					0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-post-page bg-light","children":[["$","header",null,{"className":"py-5 text-center","style":{"background":"linear-gradient(135deg, #1d3c45 0%, #11252b 100%)"},"children":["$","div",null,{"className":"container py-4","children":[["$","h1",null,{"className":"display-4 fw-bold text-white","children":"Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company"}],["$","p",null,{"className":"text-white-50","children":"17 May 2022 | By Shehriyar Lateef"}]]}]}],["$","main",null,{"className":"container py-5","children":["$","article",null,{"className":"card border-0 shadow-sm p-4 p-md-5","children":["$","div",null,{"className":"blog-content","dangerouslySetInnerHTML":{"__html":"$2"}}]}]}],"$L3","$L4","$L5"]}],null,"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"onkYH3UH84lzdCXh94CNd"}
+3:["$","div",null,{"className":"container mb-5","children":["$","$L7",null,{"href":"/blog","className":"btn btn-brand","children":"« Back to Blog"}]}]
+4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company | Taxaccolega\",\"description\":\"Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company The way you run your business online depends on how big the busi…\",\"datePublished\":\"2022-05-17 11:56:59\",\"dateModified\":\"2022-05-17 11:56:59\",\"author\":{\"@type\":\"Person\",\"name\":\"Shehriyar Lateef\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Taxaccolega\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.taxaccolega.co.uk/blog/selling-on-amazon-things-i-should-know-if-i-am-selling-as-a-sole-trader-or-a-limited-company/\"}}"}}]
+5:["$","section",null,{"className":"py-5","children":["$","div",null,{"className":"container py-4 px-4","children":["$","div",null,{"className":"row g-5 align-items-stretch","children":[["$","div",null,{"className":"col-lg-12","children":[["$","h2",null,{"className":"text-brand-dark display-5 mt-2 mb-4 text-center","children":"Your Tax, Our Expertise"}],["$","div",null,{"className":"bg-brand-orange mx-auto my-3","style":{"width":"80px","height":"3px"}}]]}],["$","div",null,{"className":"col-lg-5","children":["$","div",null,{"className":"h-100 p-4 bg-white border border-slate-200 rounded-3 d-flex flex-column justify-content-center","children":[["$","span",null,{"className":"text-[#d2601a] font-semibold tracking-wide uppercase text-xs mb-1 block","children":"Our Promise to Clients"}],["$","h3",null,{"className":"text-[#1D3C45] font-bold mb-2","children":"The promptest response is Guaranteed."}],["$","p",null,{"className":"text-slate-600 fs-6 mb-0","style":{"lineHeight":1.5},"children":"We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you."}]]}]}],["$","div",null,{"className":"col-lg-7","children":["$","div",null,{"className":"card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center","children":[["$","div",null,{"className":"position-absolute rounded-circle","style":{"width":"150px","height":"150px","top":"-50px","right":"-50px","opacity":0.1,"backgroundColor":"#d2601a"}}],["$","h3",null,{"className":"mb-2 text-[#d2601a] font-bold","children":"Get in Touch"}],["$","p",null,{"className":"text-white mb-2 text-sm","children":"Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity."}],["$","p",null,{"className":"text-white mb-3 text-sm","children":"What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders."}],["$","div",null,{"className":"d-flex flex-row flex-wrap justify-content-center gap-3 mb-3","children":[["$","a",null,{"href":"tel:02081270728","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-phone-alt me-2 text-[#d2601a]"}]," 020 8127 0728"]}]}],["$","a",null,{"href":"mailto:info@taxaccolega.co.uk","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fas fa-envelope me-2 text-[#d2601a]"}]," info@taxaccolega.co.uk"]}]}],["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"d-flex align-items-center text-white text-decoration-none","children":["$","span",null,{"className":"fs-6","children":[["$","i",null,{"className":"fab fa-whatsapp me-2 text-[#d2601a]"}]," 074 7117 0484"]}]}]]}],["$","div",null,{"className":"mt-2","children":["$","a",null,{"href":"https://wa.me/447471170484","target":"_blank","rel":"noreferrer","className":"btn w-100 py-2 text-white font-semibold rounded-full","style":{"backgroundColor":"#d2601a"},"children":"Book Free Consultancy"}]}]]}]}]]}]}]}]
+6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

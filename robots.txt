@@ -3,5 +3,5 @@ Allow: /
 Disallow: /api/
 Disallow: /wp-data/
 
-Host: localhost:3000
-Sitemap: localhost:3000/sitemap.xml
+Host: https://www.taxaccolega.co.uk
+Sitemap: https://www.taxaccolega.co.uk/sitemap.xml
