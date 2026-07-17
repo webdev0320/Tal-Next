@@ -1,5 +1,0 @@
-:HL["/_next/static/css/e2b5bb57ae76e18f.css","style"]
-:HL["/_next/static/css/e1420b9e0733b970.css","style"]
-:HL["/_next/static/css/baeea6e32a977433.css","style"]
-:HL["/_next/static/css/e4dbf4fc074e0785.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"blog","param":null,"prefetchHints":0,"slots":{"children":{"name":"how-ai-is-changing-accounting-education","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"onkYH3UH84lzdCXh94CNd"}

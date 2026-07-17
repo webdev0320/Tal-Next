@@ -1,7 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /api/
-Disallow: /wp-data/
-
-Host: https://www.taxaccolega.co.uk
-Sitemap: https://www.taxaccolega.co.uk/sitemap.xml
