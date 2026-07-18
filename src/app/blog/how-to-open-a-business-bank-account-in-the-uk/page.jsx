@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts & Step-by-Step Guide for Startups and Small Businesses | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-to-open-a-business-bank-account-in-the-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2026-03-17 19:04:28",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts & Step-by-Step Guide for Startups and Small Businesses | Taxaccolega",
     description: "How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts Step-by-Step Guide for Startups and Small Businesses Setting up a busines…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">17 March 2026 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget.jpg" alt="How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts & Step-by-Step Guide for Startups and Small Businesses" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   How to Open a Business Bank Account in the UK
 </h1>
 <h2 style="color:#d2601a;font-weight:600;font-size:30px">
@@ -1130,7 +1134,7 @@ Many new businesses have a hard time getting their finances in order in the begi
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -1138,8 +1142,6 @@ Many new businesses have a hard time getting their finances in order in the begi
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts & Step-by-Step Guide for Startups and Small Businesses | Taxaccolega","description":"How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts Step-by-Step Guide for Startups and Small Businesses Setting up a busines…","datePublished":"2026-03-17 19:04:28","dateModified":"2026-03-17 19:04:28","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/how-to-open-a-business-bank-account-in-the-uk/"}}) }} />
       <ContactSection />
     </div>
   );

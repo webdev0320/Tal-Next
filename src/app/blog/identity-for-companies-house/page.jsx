@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Identity for Companies House | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/identity-for-companies-house/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-04-03 20:28:21",
+    
   },
   twitter: {
     card: 'summary_large_image',
     title: "Identity for Companies House | Taxaccolega",
     description: "Ensuring your identity for Companies House is a crucial step in maintaining security. Companies House in the UK have implemented a new requirement individual i…",
+    
   },
 };
 
@@ -32,10 +32,12 @@ export default function Page() {
           <p className="text-white-50">3 April 2025 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Ensuring your identity for Companies House
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -616,7 +618,7 @@ For instance, your profit margin—the amount of money left over after expenses�
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -624,8 +626,6 @@ For instance, your profit margin—the amount of money left over after expenses�
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Identity for Companies House | Taxaccolega","description":"Ensuring your identity for Companies House is a crucial step in maintaining security. Companies House in the UK have implemented a new requirement individual i…","datePublished":"2025-04-03 20:28:21","dateModified":"2025-04-03 20:28:21","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/identity-for-companies-house/"}}) }} />
       <ContactSection />
     </div>
   );

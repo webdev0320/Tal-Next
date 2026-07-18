@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "4 reasons why you should incorporate your property business | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/4-reasons-why-you-should-incorporate-your-property-business/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-02-13 12:15:19",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/property-business.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "4 reasons why you should incorporate your property business | Taxaccolega",
     description: "4 reasons why you should incorporate your property business When we are in any kind of a business we are looking for ways to save taxes. Tax is a cost which ca…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/property-business.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">13 February 2022 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/property-business.jpg" alt="4 reasons why you should incorporate your property business" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   4 reasons
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -79,7 +83,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -87,8 +91,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"4 reasons why you should incorporate your property business | Taxaccolega","description":"4 reasons why you should incorporate your property business When we are in any kind of a business we are looking for ways to save taxes. Tax is a cost which ca…","datePublished":"2022-02-13 12:15:19","dateModified":"2022-02-13 12:15:19","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/4-reasons-why-you-should-incorporate-your-property-business/"}}) }} />
       <ContactSection />
     </div>
   );

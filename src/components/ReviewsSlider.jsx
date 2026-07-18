@@ -24,9 +24,9 @@ export default function ReviewsSlider() {
         <div className="container py-4">
             <div className="text-center max-w-xl mx-auto mb-5">
                 <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Social Proof</span>
-                <h2 className="mt-2 text-brand-dark display-5">Our Recent Google Reviews</h2>
+                <h2 className="mt-2 text-brand-dark text-2xl md:text-3xl lg:text-5xl">Our Recent Google Reviews</h2>
                 <div className="bg-brand-orange mx-auto my-3" style={{ width: "80px", height: "3px" }}></div>
-                <div className="d-flex align-items-center justify-content-center gap-2">
+                <div className="d-flex flex-wrap align-items-center justify-content-center gap-2">
                     <Image src="/images/2023/06/Google-2-300x45.webp" alt="Google 5-star reviews" width={150} height={22} />
                     <span className="fw-semibold text-brand-dark">5.0  |  193 reviews</span>
                 </div>

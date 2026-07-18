@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "What UK Businesses Need to Know About Identity Verification for People and Companies in 2025 | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/what-uk-businesses-need-to-know-about-identity-verification-for-people-and-companies-in-2025/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-09-27 12:04:35",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2023/08/good-news-for-our-company-2022-12-16-14-30-38-utc-scaled.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "What UK Businesses Need to Know About Identity Verification for People and Companies in 2025 | Taxaccolega",
     description: "What UK Businesses Need to Know About Identity Verification for People and Companies in 2025 Table of Contents Why the change is happening Who needs to verify…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2023/08/good-news-for-our-company-2022-12-16-14-30-38-utc-scaled.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">27 September 2025 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2023/08/good-news-for-our-company-2022-12-16-14-30-38-utc-scaled.jpg" alt="What UK Businesses Need to Know About Identity Verification for People and Companies in 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   What UK Businesses Need to Know About 
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:38px">
@@ -255,7 +259,7 @@ We don’t just process documents, we bring context, compliance insight, and pea
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -263,8 +267,6 @@ We don’t just process documents, we bring context, compliance insight, and pea
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"What UK Businesses Need to Know About Identity Verification for People and Companies in 2025 | Taxaccolega","description":"What UK Businesses Need to Know About Identity Verification for People and Companies in 2025 Table of Contents Why the change is happening Who needs to verify…","datePublished":"2025-09-27 12:04:35","dateModified":"2025-09-27 12:04:35","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/what-uk-businesses-need-to-know-about-identity-verification-for-people-and-companies-in-2025/"}}) }} />
       <ContactSection />
     </div>
   );

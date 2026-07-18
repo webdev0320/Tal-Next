@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "R&D Tax Relief – How UK Businesses Can Save Costs | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/research-and-development-tax-relief-and-benefits-in-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-11-16 11:00:24",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/11/r-and-d.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "R&D Tax Relief – How UK Businesses Can Save Costs | Taxaccolega",
     description: "Research and Development Relief How does it save costs? Research and development plays a vital role when it comes to the growth of your business. Every company…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/11/r-and-d.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">16 November 2022 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/11/r-and-d.jpg" alt="R&D Tax Relief – How UK Businesses Can Save Costs" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Research and Development Relief
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -98,7 +102,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -106,8 +110,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"R&D Tax Relief – How UK Businesses Can Save Costs | Taxaccolega","description":"Research and Development Relief How does it save costs? Research and development plays a vital role when it comes to the growth of your business. Every company…","datePublished":"2022-11-16 11:00:24","dateModified":"2022-11-16 11:00:24","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/research-and-development-tax-relief-and-benefits-in-uk/"}}) }} />
       <ContactSection />
     </div>
   );

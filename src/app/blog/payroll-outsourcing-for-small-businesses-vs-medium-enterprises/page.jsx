@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Payroll Outsourcing for Small Businesses vs Medium Enterprises | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/payroll-outsourcing-for-small-businesses-vs-medium-enterprises/",
     siteName: 'Taxaccolega',
     publishedTime: "2026-04-11 17:34:00",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Payroll Outsourcing for Small Businesses vs Medium Enterprises | Taxaccolega",
     description: "Payroll Outsourcing for Small Businesses vs Medium Enterprises Table of Contents Payroll Outsourcing for Small Businesses vs Medium Enterprises Cost Structure…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">11 April 2026 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg" alt="Payroll Outsourcing for Small Businesses vs Medium Enterprises" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
 Payroll Outsourcing for Small Businesses</h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:30px">
  vs Medium Enterprises</h1></h1>				
@@ -1080,7 +1084,7 @@ For businesses that want clarity on payroll outsourcing costs, compliance exposu
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -1088,8 +1092,6 @@ For businesses that want clarity on payroll outsourcing costs, compliance exposu
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Payroll Outsourcing for Small Businesses vs Medium Enterprises | Taxaccolega","description":"Payroll Outsourcing for Small Businesses vs Medium Enterprises Table of Contents Payroll Outsourcing for Small Businesses vs Medium Enterprises Cost Structure…","datePublished":"2026-04-11 17:34:00","dateModified":"2026-04-11 17:34:00","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/payroll-outsourcing-for-small-businesses-vs-medium-enterprises/"}}) }} />
       <ContactSection />
     </div>
   );

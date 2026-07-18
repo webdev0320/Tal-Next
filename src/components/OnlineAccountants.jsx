@@ -6,7 +6,7 @@ export default function OnlineAccountants() {
         <div className="container py-4">
             <div className="text-center max-w-xl mx-auto mb-5">
                 <div className="col-lg-12 flex justify-center">
-                    <h2 className="text-brand-dark display-5 mt-2 mb-4 text-center whitespace-nowrap">The UK's Largest Online Accountants</h2>
+                    <h2 className="text-brand-dark text-2xl md:text-3xl lg:text-5xl mt-2 mb-4 text-center">The UK's Largest Online Accountants</h2>
                 </div>
                 <div className="bg-brand-orange mx-auto my-3" style={{ width: "80px", height: "3px" }}></div>
             </div>

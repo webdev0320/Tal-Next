@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "R&D Tax Relief Regulations 2025: Merged RDEC & ERIS | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/rd-tax-relief-regulations-2025-merged-rdec-eris/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-05-23 09:33:36",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/research-information-graph-search-concept-1-scaled.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "R&D Tax Relief Regulations 2025: Merged RDEC & ERIS | Taxaccolega",
     description: "R D Tax Relief Regulations 2025 Merged RDEC ERIS You might be eligible for Research and Development (R&D) tax relief if your company makes investments in techn…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/research-information-graph-search-concept-1-scaled.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">23 May 2025 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/research-information-graph-search-concept-1-scaled.jpg" alt="R&D Tax Relief Regulations 2025: Merged RDEC & ERIS" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   R&amp;D Tax Relief Regulations 2025
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -268,7 +272,7 @@ If you qualify, you can surrender your loss for a 14.5% cash credit, which is en
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -276,8 +280,6 @@ If you qualify, you can surrender your loss for a 14.5% cash credit, which is en
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"R&D Tax Relief Regulations 2025: Merged RDEC & ERIS | Taxaccolega","description":"R D Tax Relief Regulations 2025 Merged RDEC ERIS You might be eligible for Research and Development (R&D) tax relief if your company makes investments in techn…","datePublished":"2025-05-23 09:33:36","dateModified":"2025-05-23 09:33:36","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/rd-tax-relief-regulations-2025-merged-rdec-eris/"}}) }} />
       <ContactSection />
     </div>
   );

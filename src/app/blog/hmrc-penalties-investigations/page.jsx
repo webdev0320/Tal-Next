@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "HMRC Penalties & Investigations: What You Must Know in 2025 | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/hmrc-penalties-investigations/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-08-04 11:39:43",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/08/Untitled-design-3.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "HMRC Penalties & Investigations: What You Must Know in 2025 | Taxaccolega",
     description: "HMRC Penalties Investigations What You Must Know in 2025 Whether you are a limited company, landlord, or self-employed person, receiving a call from HMRC regar…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/08/Untitled-design-3.webp"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">4 August 2025 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/08/Untitled-design-3.webp" alt="HMRC Penalties & Investigations: What You Must Know in 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:60px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:60px;margin-bottom:10px">
   HMRC Penalties &amp; Investigations
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -567,7 +571,7 @@ Note: HMRC interest charges cannot usually be appealed — they are automatic.
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -575,8 +579,6 @@ Note: HMRC interest charges cannot usually be appealed — they are automatic.
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"HMRC Penalties & Investigations: What You Must Know in 2025 | Taxaccolega","description":"HMRC Penalties Investigations What You Must Know in 2025 Whether you are a limited company, landlord, or self-employed person, receiving a call from HMRC regar…","datePublished":"2025-08-04 11:39:43","dateModified":"2025-08-04 11:39:43","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/hmrc-penalties-investigations/"}}) }} />
       <ContactSection />
     </div>
   );

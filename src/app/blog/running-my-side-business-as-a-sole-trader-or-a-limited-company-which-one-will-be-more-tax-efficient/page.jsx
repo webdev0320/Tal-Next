@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/running-my-side-business-as-a-sole-trader-or-a-limited-company-which-one-will-be-more-tax-efficient/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-06-13 14:40:19",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/side-business.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? | Taxaccolega",
     description: "Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? There is no one answer to this question. Either of the bu…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/side-business.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">13 June 2021 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/side-business.jpg" alt="Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Running my side business as a Sole trader or a Limited Company?
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -124,7 +128,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -132,8 +136,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? | Taxaccolega","description":"Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? There is no one answer to this question. Either of the bu…","datePublished":"2021-06-13 14:40:19","dateModified":"2021-06-13 14:40:19","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/running-my-side-business-as-a-sole-trader-or-a-limited-company-which-one-will-be-more-tax-efficient/"}}) }} />
       <ContactSection />
     </div>
   );

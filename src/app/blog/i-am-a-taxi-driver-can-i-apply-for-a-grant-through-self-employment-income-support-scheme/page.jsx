@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/i-am-a-taxi-driver-can-i-apply-for-a-grant-through-self-employment-income-support-scheme/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-10-04 11:58:15",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/taxi.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? | Taxaccolega",
     description: "I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? If you are a taxi driver, registered as 'Self Employed' with HMRC (yo…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/taxi.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">4 October 2020 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/taxi.jpg" alt="I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   I am a taxi driver
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -75,7 +79,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -83,8 +87,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? | Taxaccolega","description":"I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? If you are a taxi driver, registered as ","datePublished":"2020-10-04 11:58:15","dateModified":"2020-10-04 11:58:15","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/i-am-a-taxi-driver-can-i-apply-for-a-grant-through-self-employment-income-support-scheme/"}}) }} />
       <ContactSection />
     </div>
   );

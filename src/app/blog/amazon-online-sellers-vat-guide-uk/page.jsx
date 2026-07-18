@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "UK VAT Rules for Amazon & Online Sellers Explained | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/amazon-online-sellers-vat-guide-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-10-27 12:33:51",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/uk-vat-Taxes-Company-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "UK VAT Rules for Amazon & Online Sellers Explained | Taxaccolega",
     description: "My UK VAT responsibilities if I am selling online on amazon If you are selling online you might be selling directly to a customer who is not VAT registered, to…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/uk-vat-Taxes-Company-in-Croydon.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">27 October 2021 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/uk-vat-Taxes-Company-in-Croydon.jpg" alt="UK VAT Rules for Amazon & Online Sellers Explained" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   My UK VAT responsibilities if
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -111,7 +115,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -119,8 +123,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"UK VAT Rules for Amazon & Online Sellers Explained | Taxaccolega","description":"My UK VAT responsibilities if I am selling online on amazon If you are selling online you might be selling directly to a customer who is not VAT registered, to…","datePublished":"2021-10-27 12:33:51","dateModified":"2021-10-27 12:33:51","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/amazon-online-sellers-vat-guide-uk/"}}) }} />
       <ContactSection />
     </div>
   );

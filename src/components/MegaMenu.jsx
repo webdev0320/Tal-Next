@@ -100,7 +100,7 @@ const MegaMenu = () => {
   const [activeCategory, setActiveCategory] = useState('Taxation');
 
   return (
-    <div className="absolute top-full left-0 w-[950px] bg-white border border-slate-100 rounded-3xl shadow-xl z-50 flex overflow-hidden">
+    <div className="absolute top-full left-0 w-[950px] max-w-[calc(100vw-2rem)] bg-white border border-slate-100 rounded-3xl shadow-xl z-50 flex overflow-hidden">
       {/* Sidebar - 28% */}
       <div className="w-[28%] bg-slate-50/50 border-r border-slate-100 p-6 space-y-2">
         {Object.keys(menuData).map((category) => (

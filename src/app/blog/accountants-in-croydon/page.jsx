@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Accountants in Croydon | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/accountants-in-croydon/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-05-29 11:59:02",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/accountant-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Accountants in Croydon | Taxaccolega",
     description: "Accountants in Croydon Why do I need an accountant ? You need an accountant not only because they will do your accounts but having an accountant who is dependa…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/accountant-in-Croydon.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">29 May 2022 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/accountant-in-Croydon.jpg" alt="Accountants in Croydon" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Accountants in Croydon
 </h1>
 </h1>				
@@ -88,7 +92,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -96,8 +100,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Accountants in Croydon | Taxaccolega","description":"Accountants in Croydon Why do I need an accountant ? You need an accountant not only because they will do your accounts but having an accountant who is dependa…","datePublished":"2022-05-29 11:59:02","dateModified":"2022-05-29 11:59:02","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/accountants-in-croydon/"}}) }} />
       <ContactSection />
     </div>
   );

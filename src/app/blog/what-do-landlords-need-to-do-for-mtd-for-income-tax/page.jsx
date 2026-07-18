@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "What do landlords need to do for MTD for income tax? | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/what-do-landlords-need-to-do-for-mtd-for-income-tax/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-03-26 12:14:06",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/03/mtd.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "What do landlords need to do for MTD for income tax? | Taxaccolega",
     description: "What do landlords need to do for MTD for income tax? The landlords whose income from the properties for example if their rental income exceeds £10 000 per year…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/03/mtd.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">26 March 2022 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/03/mtd.jpg" alt="What do landlords need to do for MTD for income tax?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   What do landlords need to do 
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -73,7 +77,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -81,8 +85,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"What do landlords need to do for MTD for income tax? | Taxaccolega","description":"What do landlords need to do for MTD for income tax? The landlords whose income from the properties for example if their rental income exceeds £10 000 per year…","datePublished":"2022-03-26 12:14:06","dateModified":"2022-03-26 12:14:06","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/what-do-landlords-need-to-do-for-mtd-for-income-tax/"}}) }} />
       <ContactSection />
     </div>
   );

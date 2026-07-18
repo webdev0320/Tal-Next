@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "What to look for when choosing an accountant | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/what-to-look-for-when-choosing-an-accountant/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-09-13 11:18:45",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/choose-an-accountant.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "What to look for when choosing an accountant | Taxaccolega",
     description: "What to look for when choosing an accountant image A business needs an accountant as early as at the planning stage. I always advise businesses to hire an acco…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/choose-an-accountant.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">13 September 2022 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/choose-an-accountant.jpg" alt="What to look for when choosing an accountant" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   What to look for when choosing an
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:50px">
@@ -73,7 +77,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -81,8 +85,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"What to look for when choosing an accountant | Taxaccolega","description":"What to look for when choosing an accountant image A business needs an accountant as early as at the planning stage. I always advise businesses to hire an acco…","datePublished":"2022-09-13 11:18:45","dateModified":"2022-09-13 11:18:45","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/what-to-look-for-when-choosing-an-accountant/"}}) }} />
       <ContactSection />
     </div>
   );

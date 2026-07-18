@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Trading loss - should I de register as being self-employed? | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/trading-loss-should-i-de-register-as-being-self-employed/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-01-26 12:23:44",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/de-register.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Trading loss - should I de register as being self-employed? | Taxaccolega",
     description: "Trading Loss Should I de Register As A Being Self-Employed? In the past year the performance of many businesses has gone down the graph. Many high street retai…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/de-register.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">26 January 2021 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/de-register.jpg" alt="Trading loss - should I de register as being self-employed?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Trading Loss
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -84,7 +88,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -92,8 +96,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Trading loss - should I de register as being self-employed? | Taxaccolega","description":"Trading Loss Should I de Register As A Being Self-Employed? In the past year the performance of many businesses has gone down the graph. Many high street retai…","datePublished":"2021-01-26 12:23:44","dateModified":"2021-01-26 12:23:44","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/trading-loss-should-i-de-register-as-being-self-employed/"}}) }} />
       <ContactSection />
     </div>
   );

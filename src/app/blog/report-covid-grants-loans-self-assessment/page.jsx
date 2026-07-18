@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "How to Report COVID Grants & Loans in Self Assessment | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/report-covid-grants-loans-self-assessment/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-11-22 12:29:07",
+    
   },
   twitter: {
     card: 'summary_large_image',
     title: "How to Report COVID Grants & Loans in Self Assessment | Taxaccolega",
     description: "How do I report my loans and Grants given during Pandemic in the self assessment tax return? Loans which were granted to the self-employed during the Pandemic…",
+    
   },
 };
 
@@ -32,10 +32,12 @@ export default function Page() {
           <p className="text-white-50">22 November 2021 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   How do I report my loans and <br>Grants given during Pandemic 
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -107,7 +109,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -115,8 +117,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Report COVID Grants & Loans in Self Assessment | Taxaccolega","description":"How do I report my loans and Grants given during Pandemic in the self assessment tax return? Loans which were granted to the self-employed during the Pandemic…","datePublished":"2021-11-22 12:29:07","dateModified":"2021-11-22 12:29:07","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/report-covid-grants-loans-self-assessment/"}}) }} />
       <ContactSection />
     </div>
   );

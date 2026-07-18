@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Mini- budget : How will it affect you? | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/mini-budget-how-will-it-affect-you/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-09-11 11:14:08",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/Mini-Budget-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Mini- budget : How will it affect you? | Taxaccolega",
     description: "Mini- budget How will it affect you? The chancellor announced major tax cuts on Friday as he believes that it will boost the economy. He comes with the agenda…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/Mini-Budget-Croydon.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">11 September 2022 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/Mini-Budget-Croydon.jpg" alt="Mini- budget : How will it affect you?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Mini- budget
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -96,7 +100,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -104,8 +108,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Mini- budget : How will it affect you? | Taxaccolega","description":"Mini- budget How will it affect you? The chancellor announced major tax cuts on Friday as he believes that it will boost the economy. He comes with the agenda…","datePublished":"2022-09-11 11:14:08","dateModified":"2022-09-11 11:14:08","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/mini-budget-how-will-it-affect-you/"}}) }} />
       <ContactSection />
     </div>
   );

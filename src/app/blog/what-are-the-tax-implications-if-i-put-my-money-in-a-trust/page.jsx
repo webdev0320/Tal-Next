@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Tax Implications of Putting Money in a Trust – UK Guide | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/what-are-the-tax-implications-if-i-put-my-money-in-a-trust/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-09-06 11:42:17",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/money-in-trust.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Tax Implications of Putting Money in a Trust – UK Guide | Taxaccolega",
     description: "What are the tax implications? If I put my money in a trust You will be putting money in a trust because of the following reasons: 1. You want your hard earned…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/money-in-trust.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">6 September 2020 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/money-in-trust.jpg" alt="Tax Implications of Putting Money in a Trust – UK Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   What are the tax implications?
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:40px">
@@ -89,7 +93,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -97,8 +101,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Tax Implications of Putting Money in a Trust – UK Guide | Taxaccolega","description":"What are the tax implications? If I put my money in a trust You will be putting money in a trust because of the following reasons: 1. You want your hard earned…","datePublished":"2020-09-06 11:42:17","dateModified":"2020-09-06 11:42:17","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/what-are-the-tax-implications-if-i-put-my-money-in-a-trust/"}}) }} />
       <ContactSection />
     </div>
   );

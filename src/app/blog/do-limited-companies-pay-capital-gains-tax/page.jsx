@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Do Limited Companies Pay Capital Gains Tax in the UK? | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/do-limited-companies-pay-capital-gains-tax/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-08-16 11:27:40",
+    
   },
   twitter: {
     card: 'summary_large_image',
     title: "Do Limited Companies Pay Capital Gains Tax in the UK? | Taxaccolega",
     description: "Do limited companies pay Capital gains tax? The simple answer to this is no! The companies do not pay capital gains tax on the gains they make instead they pay…",
+    
   },
 };
 
@@ -32,10 +32,12 @@ export default function Page() {
           <p className="text-white-50">16 August 2022 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Do limited companies pay
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:50px">
@@ -82,7 +84,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -90,8 +92,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Do Limited Companies Pay Capital Gains Tax in the UK? | Taxaccolega","description":"Do limited companies pay Capital gains tax? The simple answer to this is no! The companies do not pay capital gains tax on the gains they make instead they pay…","datePublished":"2022-08-16 11:27:40","dateModified":"2022-08-16 11:27:40","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/do-limited-companies-pay-capital-gains-tax/"}}) }} />
       <ContactSection />
     </div>
   );

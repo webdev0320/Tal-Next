@@ -32,3 +32,6 @@ next-env.d.ts
 # IDE
 .vscode/
 .idea/
+public/images_links.xml
+public/blogs.json
+public/blogs.json

@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "Self-assessment deadline extended | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/self-assessment-deadline-extended/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-01-13 12:21:15",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/self-assessment-2021.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Self-assessment deadline extended | Taxaccolega",
     description: "Self Assessment Deadline Extended Image HMRC has extended the deadline for filing your self-assessment tax return. You won't get a penalty if you file your sel…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/self-assessment-2021.jpg"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">13 January 2021 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/self-assessment-2021.jpg" alt="Self-assessment deadline extended" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   Self Assessment Deadline Extended Image
 </h1>
 </h1>				
@@ -81,7 +85,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -89,8 +93,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Self-assessment deadline extended | Taxaccolega","description":"Self Assessment Deadline Extended Image HMRC has extended the deadline for filing your self-assessment tax return. You won","datePublished":"2021-01-13 12:21:15","dateModified":"2021-01-13 12:21:15","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/self-assessment-deadline-extended/"}}) }} />
       <ContactSection />
     </div>
   );

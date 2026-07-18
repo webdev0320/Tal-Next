@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "UK Tax Codes Explained the definitive 2025 guide | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/uk-tax-codes-explained/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-12-02 11:09:52",
+    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/uk-tax-code.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "UK Tax Codes Explained the definitive 2025 guide | Taxaccolega",
     description: "UK Tax Codes Explained The Definitive 2025 Guide (with Real Examples and What to Do Next) Understanding your tax code is one of those small things that actuall…",
+    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/uk-tax-code.webp"],
   },
 };
 
@@ -32,10 +32,14 @@ export default function Page() {
           <p className="text-white-50">2 December 2025 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/uk-tax-code.webp" alt="UK Tax Codes Explained the definitive 2025 guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   UK Tax Codes Explained
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:30px">
@@ -536,7 +540,7 @@ Keep in mind that HMRC and payroll software can both make mistakes. Check your c
 					<a href="https://plus.google.com/u/0/100672948850520944033" target="_blank">
 						Icon-google-review
 											</a>
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -544,8 +548,6 @@ Keep in mind that HMRC and payroll software can both make mistakes. Check your c
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"UK Tax Codes Explained the definitive 2025 guide | Taxaccolega","description":"UK Tax Codes Explained The Definitive 2025 Guide (with Real Examples and What to Do Next) Understanding your tax code is one of those small things that actuall…","datePublished":"2025-12-02 11:09:52","dateModified":"2025-12-02 11:09:52","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/uk-tax-codes-explained/"}}) }} />
       <ContactSection />
     </div>
   );

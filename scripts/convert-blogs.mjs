@@ -73,6 +73,7 @@ posts.forEach((post) => {
     || `Expert tax insight: ${post.title}. Advice from Taxaccolega London chartered accountants.`;
 
   const canonicalUrl = `${SITE_URL}/blog/${post.slug}/`;
+  const featuredImageUrl = post.featured_image_url || '';
 
   const pageContent = `import React from 'react';
 import Link from 'next/link';
@@ -89,11 +90,13 @@ export const metadata = {
     url: ${JSON.stringify(canonicalUrl)},
     siteName: 'Taxaccolega',
     publishedTime: ${JSON.stringify(post.date)},
+    ${featuredImageUrl ? `images: [{ url: ${JSON.stringify(featuredImageUrl)} }],` : ''}
   },
   twitter: {
     card: 'summary_large_image',
     title: ${JSON.stringify(metaTitle)},
     description: ${JSON.stringify(metaDescription)},
+    ${featuredImageUrl ? `images: [${JSON.stringify(featuredImageUrl)}],` : ''}
   },
 };
 
@@ -106,6 +109,10 @@ export default function Page() {
           <p className="text-white-50">${formattedDate} | By ${post.author || 'Taxaccolega'}</p>
         </div>
       </header>
+
+      ${featuredImageUrl ? `<div className="container mt-n5" style={{ marginTop: '-2rem' }}>
+        <img src="${featuredImageUrl}" alt="${post.title.replace(/"/g, '&quot;')}" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+      </div>` : ''}
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">

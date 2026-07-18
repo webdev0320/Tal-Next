@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { stripH1 } from '../../../lib/seo-generators';
-import { articleJsonLd } from '../../../lib/jsonld';
 
 export const metadata = {
   title: "How to close a limited Company | Taxaccolega",
@@ -15,11 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-to-close-a-limited-company/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-08-10 11:21:18",
+    
   },
   twitter: {
     card: 'summary_large_image',
     title: "How to close a limited Company | Taxaccolega",
     description: "How to close a limited Company There can be different reasons as to why you want to close your limited company . This could be because one of the following: ●…",
+    
   },
 };
 
@@ -32,10 +32,12 @@ export default function Page() {
           <p className="text-white-50">10 August 2022 | By Shehriyar Lateef</p>
         </div>
       </header>
+
+      
       
       <main className="container py-5">
         <article className="card border-0 shadow-sm p-4 p-md-5">
-          <div className="blog-content" dangerouslySetInnerHTML={{ __html: stripH1(`<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
+          <div className="blog-content" dangerouslySetInnerHTML={{ __html: `<h1><h1 style="color:#1d3c45;font-weight:800;font-size:65px;margin-bottom:10px">
   How to close a 
 </h1>
 <h1 style="color:#d2601a;font-weight:600;font-size:50px">
@@ -105,7 +107,7 @@ export default function Page() {
 									
 				
 									
-					`) }} />
+					` }} />
         </article>
       </main>
 
@@ -113,8 +115,6 @@ export default function Page() {
         <Link href="/blog" className="btn btn-brand">&laquo; Back to Blog</Link>
       </div>
 
-      
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to close a limited Company | Taxaccolega","description":"How to close a limited Company There can be different reasons as to why you want to close your limited company . This could be because one of the following: ●…","datePublished":"2022-08-10 11:21:18","dateModified":"2022-08-10 11:21:18","author":{"@type":"Person","name":"Shehriyar Lateef"},"publisher":{"@type":"Organization","name":"Taxaccolega"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.taxaccolega.co.uk/blog/how-to-close-a-limited-company/"}}) }} />
       <ContactSection />
     </div>
   );

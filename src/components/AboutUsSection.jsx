@@ -29,7 +29,7 @@ export default function AboutUsSection() {
 
         {/* Right Image Column (Sliced Pillar Effect) */}
         <div className="lg:col-span-6">
-          <div className="flex gap-1 h-[450px] bg-white rounded-3xl overflow-hidden shadow-2xl">
+          <div className="flex gap-1 h-[250px] md:h-[350px] lg:h-[450px] bg-white rounded-3xl overflow-hidden shadow-2xl">
             {Array(4).fill(0).map((_, i) => (
               <div 
                 key={i} 

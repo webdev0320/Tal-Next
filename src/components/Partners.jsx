@@ -30,7 +30,7 @@ const Partners = () => {
         <div className="container">
             <div className="text-center max-w-xl mx-auto mb-5">
                 <div className="flex justify-center">
-                    <h4 className="mt-2 text-brand-dark display-5 whitespace-nowrap">Our Clients and Collaborative Partners</h4>
+                    <h4 className="mt-2 text-brand-dark text-2xl md:text-3xl lg:text-5xl">Our Clients and Collaborative Partners</h4>
                 </div>
                 <div className="bg-brand-orange mx-auto my-3" style={{ width: "80px", height: "3px" }}></div>
                 <p className="text-secondary lead fs-6">Trusted by leading organizations and industry experts.</p>

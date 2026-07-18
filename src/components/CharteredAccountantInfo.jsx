@@ -1,10 +1,9 @@
 export default function CharteredAccountantInfo() {
   return (
     <section 
-      className="py-20 relative bg-fixed bg-center bg-cover"
+      className="py-10 lg:py-20 relative bg-center bg-cover"
       style={{ 
-        backgroundImage: "url('/images/2025/08/Awards.webp')",
-        backgroundAttachment: "fixed" 
+        backgroundImage: "url('/images/2025/08/Awards.webp')"
       }}
     >
       {/* Overlay to ensure text readability */}
