@@ -52,7 +52,7 @@ const SoftwareSection = () => {
 
   return (
     <section className="py-0 lg:py-16 bg-slate-50">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-brand-dark text-2xl md:text-3xl lg:text-5xl mt-2 mb-4 text-center">Softwares</h2>
         <div className="bg-brand-orange mx-auto my-3" style={{ width: "80px", height: "3px" }}></div>
         

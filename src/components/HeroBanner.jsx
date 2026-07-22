@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function HeroBanner() {
   return (
     <section className="bg-white py-12 lg:py-20">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         
         {/* Left Content */}
         <div className="space-y-8">

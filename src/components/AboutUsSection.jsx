@@ -6,7 +6,7 @@ export default function AboutUsSection() {
 
   return (
     <section className="py-16 lg:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
         {/* Left Content Column */}
         <div className="lg:col-span-6 space-y-6">

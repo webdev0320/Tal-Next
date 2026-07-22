@@ -69,18 +69,6 @@ const BookkeepingServices = () => {
         </div>
       </header>
 
-      <div className="bg-white border-bottom py-3">
-        <div className="container px-4">
-          <nav aria-label="breadcrumb">
-            <ol className="breadcrumb mb-0 small">
-              <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
-              <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none" style={{ color: '#D2601A' }}>Accounts</Link></li>
-              <li className="breadcrumb-item active text-secondary">Bookkeeping Services For Small and Medium Businesses in UK</li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-
       <section className="d-block d-lg-none py-3 bg-white border-bottom shadow-sm">
         <div className="container">
           <div className="row g-2">

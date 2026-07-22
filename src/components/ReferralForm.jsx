@@ -4,7 +4,7 @@ import React from 'react';
 const ReferralForm = () => {
   return (
     <section id="refer-form" className="py-20 bg-white">
-      <div className="container mx-auto px-6 max-w-4xl">
+      <div className="container mx-auto px-4 max-w-4xl">
         <div className="bg-[#1D3C45] rounded-3xl p-8 lg:p-16 text-white shadow-2xl relative overflow-hidden">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold mb-4">Submit a Referral</h2>

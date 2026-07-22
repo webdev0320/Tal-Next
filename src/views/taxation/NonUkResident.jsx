@@ -15,9 +15,7 @@ export default function NonUkResident() {
 
   return (
     <div className="min-h-screen bg-white">
-      <TaxationLinksBar />
-
-      {/* ── HERO SECTION ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO SECTION Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
@@ -35,9 +33,23 @@ export default function NonUkResident() {
             </div>
           </div>
         </div>
-      </header>
+            </header>
 
-      {/* ── 2. HERO CONTENT SPLIT ── */}
+      {/* Breadcrumb */}
+      <div className="bg-white border-bottom py-3">
+        <div className="container px-4">
+          <nav aria-label="breadcrumb">
+            <ol className="breadcrumb mb-0 small">
+              <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
+              <li className="breadcrumb-item"><Link href="/taxation" className="text-decoration-none" style={{ color: '#D2601A' }}>Taxation</Link></li>
+              <li className="breadcrumb-item active text-secondary">Non-UK Resident Taxation</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <TaxationLinksBar />
+{/* Ã¢â€â‚¬Ã¢â€â‚¬ 2. HERO CONTENT SPLIT Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section className="py-5 border-bottom bg-white">
         <div className="container py-3">
           <div className="row g-5">
@@ -50,7 +62,7 @@ export default function NonUkResident() {
               </div>
               
               <p className="lead text-secondary mb-4" style={{ lineHeight: 1.8 }}>
-                {"Non-UK residents with UK income sources — rental property, employment, pensions, or investments — have specific HMRC reporting obligations that are easily misunderstood."}
+                {"Non-UK residents with UK income sources Ã¢â‚¬â€ rental property, employment, pensions, or investments Ã¢â‚¬â€ have specific HMRC reporting obligations that are easily misunderstood."}
               </p>
               
               <p className="text-secondary mb-5" style={{ lineHeight: 1.8 }}>
@@ -118,7 +130,7 @@ export default function NonUkResident() {
         </div>
       </section>
 
-      {/* ── 3. Toggleable Figma Mockup Display ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 3. Toggleable Figma Mockup Display Ã¢â€â‚¬Ã¢â€â‚¬ */}
       {showMockup && (
         <section className="py-5" style={{ background: '#f1f3f5' }}>
           <div className="container text-center">
@@ -143,10 +155,10 @@ export default function NonUkResident() {
         </section>
       )}
 
-      {/* ── 4. Dynamic Responsive Custom Sections ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 4. Dynamic Responsive Custom Sections Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
 
-      {/* ── 5. FAQs ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 5. FAQs Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-light border-top">
         <div className="container py-4">
@@ -167,7 +179,7 @@ export default function NonUkResident() {
                 
                   <FAQItem 
                     question={"What is the Non-Resident Landlord Scheme?"} 
-                    answer={"The NRLS requires UK letting agents (or tenants paying rent over £100/week) to deduct basic rate tax from rental payments unless HMRC approves the landlord to receive rent gross."} 
+                    answer={"The NRLS requires UK letting agents (or tenants paying rent over Ã‚Â£100/week) to deduct basic rate tax from rental payments unless HMRC approves the landlord to receive rent gross."} 
                     isOpen={openFaq === 1}
                     onClick={() => setOpenFaq(openFaq === 1 ? null : 1)}
                   />
@@ -179,7 +191,7 @@ export default function NonUkResident() {
       </section>
 
 
-      {/* ── 6. Form Section ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 6. Form Section Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section id="contact-section" className="py-5 bg-white">
         <div className="container py-4">
           <div className="row justify-content-center">

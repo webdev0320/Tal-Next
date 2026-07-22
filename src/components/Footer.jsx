@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="container">
             <div className="row g-5 border-bottom border-secondary pb-5 mb-5">
                 <div className="col-md-3">
-                    <img src="/images/logo/Tal Logo.png" alt="TAL Bottom Logo" height="40" className="mb-4" />
+                    <img src="/images/logo/TAL logo White .png" alt="TAL Bottom Logo" height="40" className="mb-4" />
                     <p className="small leading-relaxed">Empowering your financial journey with expertise and precision. Certified ACSP partners for corporate mapping and tax execution.</p>
                 </div>
                 <div className="col-md-3">

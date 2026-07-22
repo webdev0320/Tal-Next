@@ -2,6 +2,11 @@
 @import "tailwindcss/theme.css";
 @import "tailwindcss/utilities.css";
 
+/* Consistent edge spacing — used on all section content wrappers */
+:root {
+  --edge-padding: 1rem;
+}
+
 /* ─── System-wide brand buttons ─── */
 .btn-brand,
 a.btn-brand,

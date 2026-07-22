@@ -15,9 +15,7 @@ export default function TaxInvestigationInsurance() {
 
   return (
     <div className="min-h-screen bg-white">
-      <TaxationLinksBar />
-
-      {/* ── HERO SECTION ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO SECTION Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
@@ -35,9 +33,23 @@ export default function TaxInvestigationInsurance() {
             </div>
           </div>
         </div>
-      </header>
+            </header>
 
-      {/* ── 2. HERO CONTENT SPLIT ── */}
+      {/* Breadcrumb */}
+      <div className="bg-white border-bottom py-3">
+        <div className="container px-4">
+          <nav aria-label="breadcrumb">
+            <ol className="breadcrumb mb-0 small">
+              <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
+              <li className="breadcrumb-item"><Link href="/taxation" className="text-decoration-none" style={{ color: '#D2601A' }}>Taxation</Link></li>
+              <li className="breadcrumb-item active text-secondary">Tax Investigation Insurance UK</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <TaxationLinksBar />
+{/* Ã¢â€â‚¬Ã¢â€â‚¬ 2. HERO CONTENT SPLIT Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section className="py-5 border-bottom bg-white">
         <div className="container py-3">
           <div className="row g-5">
@@ -50,11 +62,11 @@ export default function TaxInvestigationInsurance() {
               </div>
               
               <p className="lead text-secondary mb-4" style={{ lineHeight: 1.8 }}>
-                {"Most people assume a tax investigation starts because something has gone wrong. In many cases, that isn’t how it begins."}
+                {"Most people assume a tax investigation starts because something has gone wrong. In many cases, that isnÃ¢â‚¬â„¢t how it begins."}
               </p>
               
               <p className="text-secondary mb-5" style={{ lineHeight: 1.8 }}>
-                {"Most people assume a tax investigation starts because something has gone wrong.\n\nIn many cases, that isn’t how it begins.\n\nHMRC enquiries are often triggered by patterns, inconsistencies, or routine checks across sectors. A return can be selected even when everything appears correct on the surface. Once that process starts, the focus shifts quickly from “what was submitted” to “how it can be evidenced.”\n\nThat shift is where the real pressure sits.\n\nBecause at that point, the question is no longer about filing — it’s about whether every figure can be supported, explained, and defended.\n\nThis is where tax investigation insurance and specialist support become relevant. Not as a precaution in theory, but as a practical way to manage what happens once an enquiry is already in motion."}
+                {"Most people assume a tax investigation starts because something has gone wrong.\n\nIn many cases, that isnÃ¢â‚¬â„¢t how it begins.\n\nHMRC enquiries are often triggered by patterns, inconsistencies, or routine checks across sectors. A return can be selected even when everything appears correct on the surface. Once that process starts, the focus shifts quickly from Ã¢â‚¬Å“what was submittedÃ¢â‚¬Â to Ã¢â‚¬Å“how it can be evidenced.Ã¢â‚¬Â\n\nThat shift is where the real pressure sits.\n\nBecause at that point, the question is no longer about filing Ã¢â‚¬â€ itÃ¢â‚¬â„¢s about whether every figure can be supported, explained, and defended.\n\nThis is where tax investigation insurance and specialist support become relevant. Not as a precaution in theory, but as a practical way to manage what happens once an enquiry is already in motion."}
               </p>
               
               <div className="p-4 border-start border-brand-orange border-4 bg-light rounded-e-3 mb-4">
@@ -118,7 +130,7 @@ export default function TaxInvestigationInsurance() {
         </div>
       </section>
 
-      {/* ── 3. Toggleable Figma Mockup Display ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 3. Toggleable Figma Mockup Display Ã¢â€â‚¬Ã¢â€â‚¬ */}
       {showMockup && (
         <section className="py-5" style={{ background: '#f1f3f5' }}>
           <div className="container text-center">
@@ -143,10 +155,10 @@ export default function TaxInvestigationInsurance() {
         </section>
       )}
 
-      {/* ── 4. Dynamic Responsive Custom Sections ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 4. Dynamic Responsive Custom Sections Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
 
-      {/* ── 5. FAQs ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 5. FAQs Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-light border-top">
         <div className="container py-4">
@@ -200,7 +212,7 @@ export default function TaxInvestigationInsurance() {
       </section>
 
 
-      {/* ── 6. Form Section ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 6. Form Section Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section id="contact-section" className="py-5 bg-white">
         <div className="container py-4">
           <div className="row justify-content-center">

@@ -6,7 +6,7 @@ export default function SwitchAccountantsCTA() {
         background: "linear-gradient(135deg, #3d5259 0%, #2a383d 100%)" 
       }}
     >
-      <div className="container parallax-content text-white py-16 px-6">
+      <div className="container parallax-content text-white py-16 px-4">
         <div className="row align-items-center g-5" style={{marginBottom:75}}>
           <div className="col-lg-8 pe-lg-5">
             <h2 className="display-5 fw-bold mb-4 brand-font" style={{ lineHeight: 1.25 }}>

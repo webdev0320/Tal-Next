@@ -30,7 +30,7 @@ export default function FAQSection({ faqs: propFaqs }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-16">
                 <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mt-3 mb-6">Frequently Asked Questions</h2>
                 <div className="h-1 w-20 bg-[#d2601a] mx-auto rounded-full"></div>

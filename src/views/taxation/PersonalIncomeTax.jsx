@@ -15,9 +15,7 @@ export default function PersonalIncomeTax() {
 
   return (
     <div className="min-h-screen bg-white">
-      <TaxationLinksBar />
-
-      {/* ── HERO SECTION ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO SECTION Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
@@ -35,9 +33,23 @@ export default function PersonalIncomeTax() {
             </div>
           </div>
         </div>
-      </header>
+            </header>
 
-      {/* ── 2. HERO CONTENT SPLIT ── */}
+      {/* Breadcrumb */}
+      <div className="bg-white border-bottom py-3">
+        <div className="container px-4">
+          <nav aria-label="breadcrumb">
+            <ol className="breadcrumb mb-0 small">
+              <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
+              <li className="breadcrumb-item"><Link href="/taxation" className="text-decoration-none" style={{ color: '#D2601A' }}>Taxation</Link></li>
+              <li className="breadcrumb-item active text-secondary">Personal Income Tax</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <TaxationLinksBar />
+{/* Ã¢â€â‚¬Ã¢â€â‚¬ 2. HERO CONTENT SPLIT Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section className="py-5 border-bottom bg-white">
         <div className="container py-3">
           <div className="row g-5">
@@ -118,7 +130,7 @@ export default function PersonalIncomeTax() {
         </div>
       </section>
 
-      {/* ── 3. Toggleable Figma Mockup Display ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 3. Toggleable Figma Mockup Display Ã¢â€â‚¬Ã¢â€â‚¬ */}
       {showMockup && (
         <section className="py-5" style={{ background: '#f1f3f5' }}>
           <div className="container text-center">
@@ -143,7 +155,7 @@ export default function PersonalIncomeTax() {
         </section>
       )}
 
-      {/* ── 4. Dynamic Responsive Custom Sections ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 4. Dynamic Responsive Custom Sections Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-light border-top border-bottom">
         <div className="container py-4">
@@ -183,7 +195,7 @@ export default function PersonalIncomeTax() {
                   
                     <li className="mb-2 d-flex align-items-start">
                       <i className="fas fa-exclamation-triangle text-danger mt-1 me-3"></i>
-                      <span className="text-secondary">{"High earners losing their personal allowance over the £100,000 threshold"}</span>
+                      <span className="text-secondary">{"High earners losing their personal allowance over the Ã‚Â£100,000 threshold"}</span>
                     </li>
                   
                     <li className="mb-2 d-flex align-items-start">
@@ -226,7 +238,7 @@ export default function PersonalIncomeTax() {
                       <i className="fas fa-check text-brand-orange"></i>
                     </div>
                     <h5 className="fw-bold text-brand-dark mb-3">{"High Earners & Professionals"}</h5>
-                    <p className="text-secondary small mb-0">{"Helping individuals with income over £100k navigate the tapering of the personal allowance, pension contributions, and annual tax-free allowances."}</p>
+                    <p className="text-secondary small mb-0">{"Helping individuals with income over Ã‚Â£100k navigate the tapering of the personal allowance, pension contributions, and annual tax-free allowances."}</p>
                   </div>
                 </div>
               </div>
@@ -248,7 +260,7 @@ export default function PersonalIncomeTax() {
       </section>
 
 
-      {/* ── 5. FAQs ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 5. FAQs Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-light border-top">
         <div className="container py-4">
@@ -262,21 +274,21 @@ export default function PersonalIncomeTax() {
                 
                   <FAQItem 
                     question={"Who needs to file a UK Self Assessment tax return?"} 
-                    answer={"You must file a tax return if you are self-employed with earnings over £1,000, a director of a limited company, have rental income, have income over £100,000, or have undisclosed foreign income."} 
+                    answer={"You must file a tax return if you are self-employed with earnings over Ã‚Â£1,000, a director of a limited company, have rental income, have income over Ã‚Â£100,000, or have undisclosed foreign income."} 
                     isOpen={openFaq === 0}
                     onClick={() => setOpenFaq(openFaq === 0 ? null : 0)}
                   />
                 
                   <FAQItem 
                     question={"How are dividends taxed in the UK?"} 
-                    answer={"Dividends have their own tax-free allowance (£500 for the 24/25 tax year). Above this allowance, they are taxed at dividend tax rates (8.75% for basic rate, 33.75% for higher rate, and 39.35% for additional rate taxpayers)."} 
+                    answer={"Dividends have their own tax-free allowance (Ã‚Â£500 for the 24/25 tax year). Above this allowance, they are taxed at dividend tax rates (8.75% for basic rate, 33.75% for higher rate, and 39.35% for additional rate taxpayers)."} 
                     isOpen={openFaq === 1}
                     onClick={() => setOpenFaq(openFaq === 1 ? null : 1)}
                   />
                 
                   <FAQItem 
                     question={"What is the Personal Savings Allowance?"} 
-                    answer={"The Personal Savings Allowance allows basic rate taxpayers to earn up to £1,000 in savings interest tax-free. Higher rate taxpayers have an allowance of £500, while additional rate taxpayers have no allowance."} 
+                    answer={"The Personal Savings Allowance allows basic rate taxpayers to earn up to Ã‚Â£1,000 in savings interest tax-free. Higher rate taxpayers have an allowance of Ã‚Â£500, while additional rate taxpayers have no allowance."} 
                     isOpen={openFaq === 2}
                     onClick={() => setOpenFaq(openFaq === 2 ? null : 2)}
                   />
@@ -290,7 +302,7 @@ export default function PersonalIncomeTax() {
                 
                   <FAQItem 
                     question={"What happens if I miss the Self Assessment filing deadline?"} 
-                    answer={"Missing the January 31st online deadline results in an immediate £100 penalty. After 3 months, daily penalties of £10 are charged. Interest also accrues on any unpaid tax liabilities from the due date."} 
+                    answer={"Missing the January 31st online deadline results in an immediate Ã‚Â£100 penalty. After 3 months, daily penalties of Ã‚Â£10 are charged. Interest also accrues on any unpaid tax liabilities from the due date."} 
                     isOpen={openFaq === 4}
                     onClick={() => setOpenFaq(openFaq === 4 ? null : 4)}
                   />
@@ -302,7 +314,7 @@ export default function PersonalIncomeTax() {
       </section>
 
 
-      {/* ── 6. Form Section ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 6. Form Section Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section id="contact-section" className="py-5 bg-white">
         <div className="container py-4">
           <div className="row justify-content-center">

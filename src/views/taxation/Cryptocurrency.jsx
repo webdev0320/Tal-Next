@@ -15,9 +15,7 @@ export default function Cryptocurrency() {
 
   return (
     <div className="min-h-screen bg-white">
-      <TaxationLinksBar />
-
-      {/* ── HERO SECTION ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO SECTION Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
@@ -30,14 +28,28 @@ export default function Cryptocurrency() {
                 {"Cryptocurrency Taxation"}
               </h1>
               <p className="lead text-white-50 mb-4" style={{ maxWidth: '680px', fontSize: '1.1rem', lineHeight: 1.6 }}>
-                {"Confidently navigate cryptocurrency with Taxaccolega’s expertise"}
+                {"Confidently navigate cryptocurrency with TaxaccolegaÃ¢â‚¬â„¢s expertise"}
               </p>
             </div>
           </div>
         </div>
-      </header>
+            </header>
 
-      {/* ── 2. HERO CONTENT SPLIT ── */}
+      {/* Breadcrumb */}
+      <div className="bg-white border-bottom py-3">
+        <div className="container px-4">
+          <nav aria-label="breadcrumb">
+            <ol className="breadcrumb mb-0 small">
+              <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
+              <li className="breadcrumb-item"><Link href="/taxation" className="text-decoration-none" style={{ color: '#D2601A' }}>Taxation</Link></li>
+              <li className="breadcrumb-item active text-secondary">Cryptocurrency Taxation</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <TaxationLinksBar />
+{/* Ã¢â€â‚¬Ã¢â€â‚¬ 2. HERO CONTENT SPLIT Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section className="py-5 border-bottom bg-white">
         <div className="container py-3">
           <div className="row g-5">
@@ -54,7 +66,7 @@ export default function Cryptocurrency() {
               </p>
               
               <p className="text-secondary mb-5" style={{ lineHeight: 1.8 }}>
-                {"Throughout that entire period, cryptocurrency activity rarely feels connected to normal taxation. However, HMRC does not see crypto as detached. In many situations, UK tax obligations begin long before money is ever withdrawn into a bank account. At Taxaccolega, we help individuals and businesses across London and the UK understand how crypto tax actually works in practice — not just theoretically, but in relation to real transaction histories, fragmented records, and HMRC reporting."}
+                {"Throughout that entire period, cryptocurrency activity rarely feels connected to normal taxation. However, HMRC does not see crypto as detached. In many situations, UK tax obligations begin long before money is ever withdrawn into a bank account. At Taxaccolega, we help individuals and businesses across London and the UK understand how crypto tax actually works in practice Ã¢â‚¬â€ not just theoretically, but in relation to real transaction histories, fragmented records, and HMRC reporting."}
               </p>
               
               <div className="p-4 border-start border-brand-orange border-4 bg-light rounded-e-3 mb-4">
@@ -118,7 +130,7 @@ export default function Cryptocurrency() {
         </div>
       </section>
 
-      {/* ── 3. Toggleable Figma Mockup Display ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 3. Toggleable Figma Mockup Display Ã¢â€â‚¬Ã¢â€â‚¬ */}
       {showMockup && (
         <section className="py-5" style={{ background: '#f1f3f5' }}>
           <div className="container text-center">
@@ -143,7 +155,7 @@ export default function Cryptocurrency() {
         </section>
       )}
 
-      {/* ── 4. Dynamic Responsive Custom Sections ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 4. Dynamic Responsive Custom Sections Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-light border-top border-bottom">
         <div className="container py-4">
@@ -248,7 +260,7 @@ export default function Cryptocurrency() {
       </section>
 
 
-      {/* ── 5. FAQs ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 5. FAQs Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-light border-top">
         <div className="container py-4">
@@ -309,7 +321,7 @@ export default function Cryptocurrency() {
       </section>
 
 
-      {/* ── 6. Form Section ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 6. Form Section Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section id="contact-section" className="py-5 bg-white">
         <div className="container py-4">
           <div className="row justify-content-center">

@@ -72,7 +72,7 @@ const CryptocurrencyTax = () => {
       <TaxationLinksBar />
 
       {/* Component Index 3: Technical Difficulty Module */}
-      <section className="bg-white container mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+      <section className="bg-white container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency Tax UK – Why Crypto Becomes Difficult to Report</h2>
           <p>The technical side of cryptocurrency often moves faster than the reporting side. People focus on markets, pricing, timing, and volatility. Very few initially focus on transaction reconstruction or future tax reporting. That usually comes later, often when gains become significant or when HMRC cryptocurrency tax letters begin arriving. By then, the transaction trail is rarely simple.</p>
@@ -95,7 +95,7 @@ const CryptocurrencyTax = () => {
 
       {/* Component Index 5: HMRC Interpretation Row Blocks */}
       <section className="bg-[#F9FAFB] py-12">
-        <div className="container mx-auto px-6 space-y-12">
+        <div className="container mx-auto px-4 space-y-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-teal-900">How HMRC Views Cryptocurrency and Taxes</h3>
@@ -124,7 +124,7 @@ const CryptocurrencyTax = () => {
       </section>
 
       {/* Component Index 6: Income Tax vs CGT Classification Panel */}
-      <section className="container mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-12 bg-white">
+      <section className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-12 bg-white">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency and Income Tax – Where Investors Misclassify Activity</h2>
           <p>Not every crypto-related profit falls under capital gains tax. In certain situations, HMRC may instead treat cryptocurrency activity as income. This can apply to mining, staking, token rewards, employment-related crypto, or organised trading activity depending on how the transactions are structured and carried out.</p>
@@ -135,7 +135,7 @@ const CryptocurrencyTax = () => {
       </section>
 
       {/* Component Index 7: Corporate Partner Validation Carousel */}
-      <section className="container mx-auto px-6 py-8">
+      <section className="container mx-auto px-4 py-8">
         <h2 className="text-2xl font-bold text-center text-teal-900 mb-6">Our Clients and Collaborative Partners</h2>
         <div className="flex justify-center gap-6 border-t border-b py-4">
             <div className="w-24 h-12 bg-gray-200"></div>
@@ -147,7 +147,7 @@ const CryptocurrencyTax = () => {
 
       {/* Component Index 8: Enforcement Risk Expansion Framework */}
       <section className="bg-[#F9FAFB] py-12">
-        <div className="container mx-auto px-6 text-center space-y-6">
+        <div className="container mx-auto px-4 text-center space-y-6">
           <h2 className="text-3xl font-bold text-teal-900">Why HMRC Cryptocurrency Tax Investigations Are Increasing</h2>
           <p className="max-w-3xl mx-auto">HMRC cryptocurrency tax avoidance measures have expanded considerably in recent years. Crypto activity is no longer viewed as invisible. International reporting agreements, exchange cooperation, digital audit systems, and data requests have increased HMRC’s visibility into cryptocurrency transactions. Many taxpayers who assumed older activity could not realistically be reviewed are now discovering that HMRC is actively comparing reported income against digital transaction histories.</p>
           <p className="font-semibold text-teal-900">This increasingly overlaps with:</p>
@@ -161,7 +161,7 @@ const CryptocurrencyTax = () => {
       </section>
 
       {/* Component Index 9: Strategic Blind Spot Callout System */}
-      <section className="container mx-auto px-6 py-12">
+      <section className="container mx-auto px-4 py-12">
         <div className="border-2 border-[#EA580C] p-8 space-y-4">
           <h3 className="text-2xl font-bold text-[#EA580C]">Insight Section – Most Crypto Tax Problems Start Years Before HMRC Contacts You</h3>
           <p>The largest cryptocurrency tax liabilities are often created silently. Not through one dramatic mistake, but through small assumptions repeated over time. Someone assumes swapping one token for another is not taxable. Someone believes moving assets through decentralised platforms removes reporting obligations. Someone thinks exchange statements will always remain available later. Someone forgets older wallets entirely.</p>
@@ -180,7 +180,7 @@ const CryptocurrencyTax = () => {
 
       {/* Component Index 10: Corporate Structures and Treasury Management */}
       <section className="bg-[#F9FAFB] py-12">
-        <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
             <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Cryptocurrency-Cryptocurrency-Tax-and-Business-Structures.webp" alt="Cryptocurrency Tax and Business Structures" className="rounded-lg shadow-lg w-full object-cover" />
             <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency Tax and Business Structures</h2>
@@ -193,7 +193,7 @@ const CryptocurrencyTax = () => {
       </section>
       
       {/* Component Index 18: Interactive Dropdown FAQ Accordion */}
-      <section className="container mx-auto px-6 py-12">
+      <section className="container mx-auto px-4 py-12">
         <h2 className="text-2xl font-bold mb-6">Cryptocurrency Tax FAQs</h2>
         <div className="space-y-2">
             {[

@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
 
   return (
     <section className="py-12 lg:py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           {/* Image Column */}
           <div className="lg:col-span-6">

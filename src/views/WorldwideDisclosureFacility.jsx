@@ -57,7 +57,7 @@ const WorldwideDisclosureFacility = () => {
       </header>
 
       {/* Main Content Sections */}
-      <div className="py-16 px-4 md:px-8 bg-white">
+      <div className="py-16 px-4 bg-white">
         {/* [COMPONENT INDEX 3]: Scope */}
         <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
             <div>
@@ -78,7 +78,7 @@ const WorldwideDisclosureFacility = () => {
         </section>
 
         {/* [COMPONENT INDEX 4]: Offshore Vulnerability */}
-        <section className="py-16 px-4 md:px-8 bg-gray-50 mb-16">
+        <section className="py-16 px-4 bg-gray-50 mb-16">
             <div className="max-w-7xl mx-auto space-y-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
@@ -252,7 +252,7 @@ const WorldwideDisclosureFacility = () => {
         </section>
 
         {/* [COMPONENT INDEX 14]: Intervention Framework */}
-        <section className="py-16 px-4 md:px-8 bg-gray-50 mb-16">
+        <section className="py-16 px-4 bg-gray-50 mb-16">
             <div className="max-w-4xl mx-auto bg-white p-8 border-2">
                 <h2 className="text-3xl font-bold text-teal-900 mb-4">What Our Worldwide Disclosure Facility Services Actually Change</h2>
                 <p className="mb-4">This is not simply about reporting offshore tax irregularities. It is about controlling how the disclosure position is understood before HMRC defines it independently. Submitting a disclosure is expected.</p>
