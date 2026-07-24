@@ -34,15 +34,15 @@ export default function ScrollReveal({
   }, [threshold, once]);
 
   return (
-    <div
-      ref={ref}
-      className={`scroll-reveal scroll-reveal--${animation} ${isVisible ? 'scroll-reveal--visible' : ''} ${className}`}
-      style={{
-        '--scroll-delay': `${delay}ms`,
-        '--scroll-duration': `${duration}ms`,
-      }}
-    >
-      {children}
-    </div>
-  );
+  <div
+    ref={ref}
+    className={`max-w-7xl mx-auto px-4 scroll-reveal scroll-reveal--${animation} ${isVisible ? 'scroll-reveal--visible' : ''} ${className}`}
+    style={{
+      '--scroll-delay': `${delay}ms`,
+      '--scroll-duration': `${duration}ms`,
+    }}
+  >
+    {children}
+  </div>
+);
 }
