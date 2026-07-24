@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/making-tax-digital/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-04-04 08:00:45",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house-tax.jpg" }],
+    images: [{ url: "/images/2020/09/house-tax.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Making Tax Digital | Taxaccolega",
     description: "Everything You Need to Know About Making Tax Digital (MTD) for Income Tax Table of Contents The Complete Guide What is the MTD for Income Tax? Digital Record M…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house-tax.jpg"],
+    images: ["/images/2020/09/house-tax.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house-tax.jpg" alt="Making Tax Digital" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/09/house-tax.jpg" alt="Making Tax Digital" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-to-reduce-capital-gains-tax-bill/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-08-01 11:21:01",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/clock.png" }],
+    images: [{ url: "/images/2020/08/clock.png" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Reduce Capital Gains Tax in the UK – 2025 Tax Saving Tips | Taxaccolega",
     description: "How can I Reduce my Capitals Gains Tax Bill? When you sell something you make a profit on for example, if you sell your property, shares, personal possessions…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/clock.png"],
+    images: ["/images/2020/08/clock.png"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/clock.png" alt="Reduce Capital Gains Tax in the UK – 2025 Tax Saving Tips" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/08/clock.png" alt="Reduce Capital Gains Tax in the UK – 2025 Tax Saving Tips" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/is-it-a-good-idea-to-invest-in-btl-property/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-07-18 10:56:15",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/btl-property.jpg" }],
+    images: [{ url: "/images/2024/06/btl-property.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Is Buy-to-Let Worth It in the UK? 2025 Investment Guide | Taxaccolega",
     description: "Is Buy to Let Worth It in the UK? 2025 Investment Guide If you have extra funds and you are looking for some investment you should definitely consider investin…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/btl-property.jpg"],
+    images: ["/images/2024/06/btl-property.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/btl-property.jpg" alt="Is Buy-to-Let Worth It in the UK? 2025 Investment Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/06/btl-property.jpg" alt="Is Buy-to-Let Worth It in the UK? 2025 Investment Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

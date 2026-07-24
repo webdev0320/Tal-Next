@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/non-uk-domiciled-individuals-tax-changes/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-05-02 12:30:48",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/Expat.webp" }],
+    images: [{ url: "/images/2024/06/Expat.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Non-UK domiciled individuals tax changes | Taxaccolega",
     description: "Tax Changes For Non-UK Domiciled Individuals The UK is making some major modifications to how non-UK domiciled individuals (generally referred to as “non-doms“…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/Expat.webp"],
+    images: ["/images/2024/06/Expat.webp"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/Expat.webp" alt="Non-UK domiciled individuals tax changes" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/06/Expat.webp" alt="Non-UK domiciled individuals tax changes" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

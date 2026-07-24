@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/the-complete-uk-crypto-tax-playbook-in-2025/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-12-04 21:52:24",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/The-Future-of-UK-Crypto-Tax-in-2025-and-Beyond.webp" }],
+    images: [{ url: "/images/2025/12/The-Future-of-UK-Crypto-Tax-in-2025-and-Beyond.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "The Complete UK Crypto Tax Playbook in 2025 | Taxaccolega",
     description: "The Complete UK Crypto Tax In 2025 Real Rules, Real Calculations, Real HMRC , Triggers If you trade crypto in the UK, you already know something strange about…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/The-Future-of-UK-Crypto-Tax-in-2025-and-Beyond.webp"],
+    images: ["/images/2025/12/The-Future-of-UK-Crypto-Tax-in-2025-and-Beyond.webp"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/The-Future-of-UK-Crypto-Tax-in-2025-and-Beyond.webp" alt="The Complete UK Crypto Tax Playbook in 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2025/12/The-Future-of-UK-Crypto-Tax-in-2025-and-Beyond.webp" alt="The Complete UK Crypto Tax Playbook in 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">
@@ -59,7 +59,7 @@ What makes this landscape tricky is not the rules themselves. It is that crypto 
 This <a href="https://www.taxaccolega.co.uk/blog/the-complete-uk-crypto-tax-playbook-in-2025/
 " target="_blank" style="color:#1d3c45; text-decoration:underline;"><strong>playbook </strong></a>brings clarity to a space filled with half-explained guidance. It draws from real UK rules, working examples, and the types of situations HMRC frequently investigates. Whether you are using a crypto tax calculator, working it out manually, or preparing for a conversation with a crypto tax accountant, this guide lays out the steps clearly.
 </p>
-															<img width="800" height="584" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.19-PM.webp" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.19-PM.webp 828w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.19-PM-300x219.webp 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.19-PM-768x560.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+															<img width="800" height="584" src="/images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.19-PM.webp" alt="" srcset="/images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.19-PM.webp 828w, /images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.19-PM-300x219.webp 300w, /images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.19-PM-768x560.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />															
 					<!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700;800&display=swap" rel="stylesheet">
 <!-- Table of Contents -->
@@ -276,7 +276,7 @@ The gain on the Ethereum must be calculated instantly.
 <p style="font-size:16px; color:#000; text-align:justify;">
 This is why HMRC is deeply interested in swaps, not just bank withdrawals.
 </p>				
-															<img width="800" height="584" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.17-PM-1.webp" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.17-PM-1.webp 828w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.17-PM-1-300x219.webp 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.17-PM-1-768x560.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+															<img width="800" height="584" src="/images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.17-PM-1.webp" alt="" srcset="/images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.17-PM-1.webp 828w, /images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.17-PM-1-300x219.webp 300w, /images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.17-PM-1-768x560.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />															
 					<h2 id="annual-exempt" style="font-size:28px; font-weight:400; color:#1d3c45;">
     <strong>The Annual Exemption Shrink and Why It Matters in 2025
 </strong>
@@ -617,7 +617,7 @@ If wallets are not matched to you, HMRC asks questions.
 <p style="font-size:16px; color:#000; text-align:justify;">
 Losses must be proven.
 </p>
-															<img width="800" height="584" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.18-PM.webp" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.18-PM.webp 828w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.18-PM-300x219.webp 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-26-at-7.37.18-PM-768x560.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+															<img width="800" height="584" src="/images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.18-PM.webp" alt="" srcset="/images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.18-PM.webp 828w, /images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.18-PM-300x219.webp 300w, /images/2025/12/WhatsApp-Image-2025-12-26-at-7.37.18-PM-768x560.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />															
 					<h2 id="tax-rates" style="font-size:28px; font-weight:400; color:#1d3c45;">
     <strong>What Is the Tax Rate on Crypto Gains
 </strong>

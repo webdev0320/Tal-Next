@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/social-influencer-will-i-be-taxed/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-03-01 12:40:59",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/phone-1.jpg" }],
+    images: [{ url: "/images/2021/03/phone-1.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Social Influencer - Will I be taxed? | Taxaccolega",
     description: "Social Influencer - Will I be taxed? Sitting home and making money couldn't get any easier as it has now. We have seen lots of success stories of people around…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/phone-1.jpg"],
+    images: ["/images/2021/03/phone-1.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/phone-1.jpg" alt="Social Influencer - Will I be taxed?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/03/phone-1.jpg" alt="Social Influencer - Will I be taxed?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">
@@ -47,7 +47,7 @@ export default function Page() {
 </h1></h1>				
 		<p>Sitting home and making money couldn't get any easier as it has now. We have seen lots of success stories of people around us who are making so much money through social media that they have quit their jobs. It is a dream job for many as they can just peruse their hobby such as travel, wood work etc and make money by sharing their experiences.</p>
 <p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
-<p><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/phone.jpg" alt="" width="824" height="549" /></p>
+<p><img src="/images/2024/06/phone.jpg" alt="" width="824" height="549" /></p>
 <p>By the sound of it, it seems that its just a hobby that is being pursued however, in reality the more you are getting noticed by the people around you the more chances are that your income will be scrutinised by the HMRC.</p>
 <p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
 <p>As I always say , when you have money coming in you will have to pay taxes. If you are doing some activity through which you are earning money and you are spending some money so that you are able to do that activity HMRC will consider it a business and you will be liable to pay taxes.</p>

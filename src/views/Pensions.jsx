@@ -21,17 +21,17 @@ const Pensions = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Auto-Enrolment-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Auto-Enrolment-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
                 Accounts Services
               </span>
               <h1 className="display-4 fw-bold text-white mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Auto Enrolment Pension UK – Contributions, Rates & Eligibility
+                Auto Enrolment Pension UK â€“ Contributions, Rates & Eligibility
               </h1>
               <p className="lead text-white-50 mb-4" style={{ maxWidth: '680px', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 Expert Guidance for Auto Enrolment: Tailored Solutions for Seamless Compliance at Taxaccolega.
@@ -44,7 +44,7 @@ const Pensions = () => {
                 <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0 small" style={{ background: 'transparent' }}>
                   <li className="breadcrumb-item"><Link href="/" className="text-decoration-none text-brand-orange">Home</Link></li>
                   <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none text-brand-orange">Accounts</Link></li>
-                  <li className="breadcrumb-item active text-white-50" aria-current="page">Auto Enrolment Pension UK – Contributions, Rates & Eligibility</li>
+                  <li className="breadcrumb-item active text-white-50" aria-current="page">Auto Enrolment Pension UK â€“ Contributions, Rates & Eligibility</li>
                 </ol>
               </nav>
             </div>
@@ -73,7 +73,7 @@ const Pensions = () => {
             <ol className="breadcrumb mb-0 small">
               <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
               <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none" style={{ color: '#D2601A' }}>Accounts</Link></li>
-              <li className="breadcrumb-item active text-secondary">Auto Enrolment Pension UK – Contributions, Rates & Eligibility</li>
+              <li className="breadcrumb-item active text-secondary">Auto Enrolment Pension UK â€“ Contributions, Rates & Eligibility</li>
             </ol>
           </nav>
         </div>
@@ -93,7 +93,7 @@ const Pensions = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -101,7 +101,7 @@ const Pensions = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Expert Guidance for Auto Enrolment: Tailored Solutions for Seamless Compliance at Taxaccolega.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>For many employers, pension compliance does not become stressful when the scheme is first set up.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It becomes stressful three months later.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A new employee joins halfway through a payroll cycle. Someone’s pay changes because overtime suddenly increases. Another employee turns eligible because their earnings cross the threshold for automatic enrolment. An opt-out request arrives after payroll has already been processed. Then re-enrolment dates appear in the background while payroll deadlines are already tight.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A new employee joins halfway through a payroll cycle. Someoneâ€™s pay changes because overtime suddenly increases. Another employee turns eligible because their earnings cross the threshold for automatic enrolment. An opt-out request arrives after payroll has already been processed. Then re-enrolment dates appear in the background while payroll deadlines are already tight.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That is usually when businesses realise pension auto enrolment is not a static setup.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It is a live process connected to every payroll run, every employee change, and every contribution calculation moving through the business.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>On paper, workplace pension rules can appear straightforward. In practice, employers are expected to monitor eligibility, apply automatic enrolment pension contributions correctly, maintain records, reassess workers at the right points, and keep payroll and pension data aligned continuously.</p>
@@ -115,12 +115,12 @@ const Pensions = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Auto Enrolment Pension Contributions UK – Why the Process Becomes Difficult Over Time
+                Auto Enrolment Pension Contributions UK â€“ Why the Process Becomes Difficult Over Time
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The challenge with pension auto enrolment is rarely the first contribution.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The challenge is maintaining consistency as the business changes.</p>
@@ -142,16 +142,16 @@ const Pensions = () => {
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Pension-Auto-Enrolment--Auto-Enrolment-Pension-Contributions-scaled.webp" alt="Auto Enrolment Pension Contributions UK – Why the Process Becomes Difficult Over Time" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Pension-Auto-Enrolment--Auto-Enrolment-Pension-Contributions-scaled.webp" alt="Auto Enrolment Pension Contributions UK â€“ Why the Process Becomes Difficult Over Time" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Pension-Auto-Enrolment--Why-Auto-Enrolment-Problems-Usually-Start-Inside-Payroll.webp" alt="How Pension Auto Enrolment Actually Works in Practice" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -189,9 +189,9 @@ const Pensions = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Auto Enrolment Eligibility and Pension Assessment
@@ -249,9 +249,9 @@ const Pensions = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2024/01/pexels-photo-3756937.jpg" alt="Why Auto Enrolment Problems Usually Start Inside Payroll" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -274,9 +274,9 @@ const Pensions = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Automatic Enrolment Pension Rates and Employer Contributions
@@ -311,9 +311,9 @@ const Pensions = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Pension-Auto-Enrolment--Speak-to-Pension-Auto.webp" alt="Where Pension Auto Enrolment Usually Breaks Down" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -371,7 +371,7 @@ const Pensions = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -404,7 +404,7 @@ const Pensions = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -423,14 +423,14 @@ const Pensions = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>reducing reconciliation issues later</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>monitoring ongoing pension duties rather than only initial setup</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The outcome is not simply “a pension scheme.”</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The outcome is not simply â€œa pension scheme.â€</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The outcome is a cleaner payroll and pension process that remains stable as the business changes.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -453,7 +453,7 @@ const Pensions = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">

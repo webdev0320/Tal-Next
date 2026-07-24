@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/corporation-tax-increase-by-6-will-it-affect-your-property-business/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-03-09 14:51:55",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/landlords-corp-tax.jpg" }],
+    images: [{ url: "/images/2021/03/landlords-corp-tax.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Corporation tax increase by 6% - Will it affect your property business? | Taxaccolega",
     description: "Corporation tax increase by 6% - Will it affect your property business? In the budget it was announced that there will be an increase in the corporation tax by…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/landlords-corp-tax.jpg"],
+    images: ["/images/2021/03/landlords-corp-tax.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/landlords-corp-tax.jpg" alt="Corporation tax increase by 6% - Will it affect your property business?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/03/landlords-corp-tax.jpg" alt="Corporation tax increase by 6% - Will it affect your property business?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

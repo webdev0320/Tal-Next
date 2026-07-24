@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/holdover-relief-capital-gains-tax/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-07-21 11:14:39",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/holdover-relief.jpg" }],
+    images: [{ url: "/images/2020/07/holdover-relief.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Holdover Relief Explained – Capital Gains Tax Guide UK | Taxaccolega",
     description: "Holdover Relief I am selling my business to my friend will holdover relief apply to me? If you are eligible for gift holdover relief or not depends on all indi…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/holdover-relief.jpg"],
+    images: ["/images/2020/07/holdover-relief.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/holdover-relief.jpg" alt="Holdover Relief Explained – Capital Gains Tax Guide UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/07/holdover-relief.jpg" alt="Holdover Relief Explained – Capital Gains Tax Guide UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

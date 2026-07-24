@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/should-i-take-the-directors-loan-and-how-should-i-treat-them-in-my-accounts/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-05-22 11:58:10",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/loan-Taxes-in-Croydon.jpg" }],
+    images: [{ url: "/images/2022/05/loan-Taxes-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Should I take the directors loan? And how should I treat them in my accounts | Taxaccolega",
     description: "Should I take the directors loan And how should I treat the in my accounts What is a Director's loan? In simple words the directors loan is a loan that a direc…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/loan-Taxes-in-Croydon.jpg"],
+    images: ["/images/2022/05/loan-Taxes-in-Croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/loan-Taxes-in-Croydon.jpg" alt="Should I take the directors loan? And how should I treat them in my accounts" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/05/loan-Taxes-in-Croydon.jpg" alt="Should I take the directors loan? And how should I treat them in my accounts" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

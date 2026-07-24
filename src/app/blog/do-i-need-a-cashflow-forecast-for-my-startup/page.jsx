@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/do-i-need-a-cashflow-forecast-for-my-startup/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-02-20 12:18:30",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/cashflow-forecast.jpg" }],
+    images: [{ url: "/images/2022/02/cashflow-forecast.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Do I need a cashflow forecast for my startup? | Taxaccolega",
     description: "Do I need a cashflow forecast for my startup? If you are self-employed or an incorporated company it's very important that you stay on top of your finances. Yo…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/cashflow-forecast.jpg"],
+    images: ["/images/2022/02/cashflow-forecast.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/cashflow-forecast.jpg" alt="Do I need a cashflow forecast for my startup?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/02/cashflow-forecast.jpg" alt="Do I need a cashflow forecast for my startup?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

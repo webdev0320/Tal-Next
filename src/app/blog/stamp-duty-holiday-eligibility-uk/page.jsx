@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/stamp-duty-holiday-eligibility-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-07-13 11:12:19",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/stamp-duty.jpg" }],
+    images: [{ url: "/images/2020/07/stamp-duty.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Stamp Duty Holiday – Are You Eligible in the UK? | Taxaccolega",
     description: "Stamp Duty Holiday Are You Eligible in the UK? The government has increased the stamp duty threshold to £500 000 for property sales on 8 July 2020.The announce…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/stamp-duty.jpg"],
+    images: ["/images/2020/07/stamp-duty.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/stamp-duty.jpg" alt="Stamp Duty Holiday – Are You Eligible in the UK?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/07/stamp-duty.jpg" alt="Stamp Duty Holiday – Are You Eligible in the UK?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

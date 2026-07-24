@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/will-i-have-to-pay-taxes-on-my-state-pension/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-07-10 11:30:13",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/07/state-pension-Taxxaccolega-Charatered-Accountants.jpg" }],
+    images: [{ url: "/images/2022/07/state-pension-Taxxaccolega-Charatered-Accountants.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Will I have to pay taxes on my State Pension? | Taxaccolega",
     description: "Will I have to pay taxes on my State Pension What is a State Pension? State Pension is a weekly income which most people get from the UK government when they r…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/07/state-pension-Taxxaccolega-Charatered-Accountants.jpg"],
+    images: ["/images/2022/07/state-pension-Taxxaccolega-Charatered-Accountants.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/07/state-pension-Taxxaccolega-Charatered-Accountants.jpg" alt="Will I have to pay taxes on my State Pension?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/07/state-pension-Taxxaccolega-Charatered-Accountants.jpg" alt="Will I have to pay taxes on my State Pension?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

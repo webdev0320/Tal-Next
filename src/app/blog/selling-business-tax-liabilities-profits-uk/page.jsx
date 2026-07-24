@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/selling-business-tax-liabilities-profits-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-07-20 11:49:13",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/tax-calculator-Taxes-in-Croydon.jpg" }],
+    images: [{ url: "/images/2020/07/tax-calculator-Taxes-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Selling Your Business in the UK: Tax Liabilities & Profit Maximisation | Taxaccolega",
     description: "Selling Your Business in the UK Tax Liabilities Profit Maximisation I am selling my business- What are my Tax Liabilities and How do I maximize my Profits? Whe…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/tax-calculator-Taxes-in-Croydon.jpg"],
+    images: ["/images/2020/07/tax-calculator-Taxes-in-Croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/tax-calculator-Taxes-in-Croydon.jpg" alt="Selling Your Business in the UK: Tax Liabilities & Profit Maximisation" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/07/tax-calculator-Taxes-in-Croydon.jpg" alt="Selling Your Business in the UK: Tax Liabilities & Profit Maximisation" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

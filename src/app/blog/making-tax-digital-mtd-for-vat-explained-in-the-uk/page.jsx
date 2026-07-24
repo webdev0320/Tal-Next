@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/making-tax-digital-mtd-for-vat-explained-in-the-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-12-20 10:13:27",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/blog-1.webp" }],
+    images: [{ url: "/images/2025/12/blog-1.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Making Tax Digital (MTD) for VAT Explained in the UK: Registration, Software, HMRC Rules and Deadlines | Taxaccolega",
     description: "Making Tax Digital (MTD) for VAT Explained in the UK Registration, Software, HMRC Rules and Deadlines Table of Contents A Complete Guide for Businesses Introdu…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/blog-1.webp"],
+    images: ["/images/2025/12/blog-1.webp"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/blog-1.webp" alt="Making Tax Digital (MTD) for VAT Explained in the UK: Registration, Software, HMRC Rules and Deadlines" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2025/12/blog-1.webp" alt="Making Tax Digital (MTD) for VAT Explained in the UK: Registration, Software, HMRC Rules and Deadlines" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

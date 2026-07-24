@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/i-have-inherited-a-property-should-i-pay-capital-gains-tax-on-it/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-03-05 12:13:34",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/03/cgt-inherited-Taxes-in-Croydon.jpg" }],
+    images: [{ url: "/images/2022/03/cgt-inherited-Taxes-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "I have inherited a property. Should I pay Capital Gains Tax on it? | Taxaccolega",
     description: "I have inherited a property Should I pay Capital Gains Tax on it? What is capital gains tax? Capital gains tax is the tax which you pay when you sell a propert…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/03/cgt-inherited-Taxes-in-Croydon.jpg"],
+    images: ["/images/2022/03/cgt-inherited-Taxes-in-Croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/03/cgt-inherited-Taxes-in-Croydon.jpg" alt="I have inherited a property. Should I pay Capital Gains Tax on it?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/03/cgt-inherited-Taxes-in-Croydon.jpg" alt="I have inherited a property. Should I pay Capital Gains Tax on it?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

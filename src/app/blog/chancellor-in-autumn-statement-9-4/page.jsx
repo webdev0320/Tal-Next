@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/chancellor-in-autumn-statement-9-4/",
     siteName: 'Taxaccolega',
     publishedTime: "2024-01-26 13:06:36",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/startup-849804_1280.jpg" }],
+    images: [{ url: "/images/2024/01/startup-849804_1280.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "VAT Implications Guide for UK Online Store Owners | Taxaccolega",
     description: "VAT Implications Guide for UK Online Store Owners If you are thinking of starting a business online where you will be selling your product through your e store…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/startup-849804_1280.jpg"],
+    images: ["/images/2024/01/startup-849804_1280.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/startup-849804_1280.jpg" alt="VAT Implications Guide for UK Online Store Owners" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/01/startup-849804_1280.jpg" alt="VAT Implications Guide for UK Online Store Owners" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

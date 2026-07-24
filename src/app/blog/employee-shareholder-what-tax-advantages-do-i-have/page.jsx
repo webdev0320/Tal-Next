@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/employee-shareholder-what-tax-advantages-do-i-have/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-11-05 12:21:56",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/11/Tax-advisor-in-Croydon.jpg" }],
+    images: [{ url: "/images/2021/11/Tax-advisor-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Employee shareholder - What tax advantages do I have? | Taxaccolega",
     description: "Employee shareholder What tax advantages do I have? Who is an Employee Shareholder? An employee shareholder is an employee who owns shares in the company that…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/11/Tax-advisor-in-Croydon.jpg"],
+    images: ["/images/2021/11/Tax-advisor-in-Croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/11/Tax-advisor-in-Croydon.jpg" alt="Employee shareholder - What tax advantages do I have?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/11/Tax-advisor-in-Croydon.jpg" alt="Employee shareholder - What tax advantages do I have?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

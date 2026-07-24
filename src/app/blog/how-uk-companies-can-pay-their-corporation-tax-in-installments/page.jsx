@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-uk-companies-can-pay-their-corporation-tax-in-installments/",
     siteName: 'Taxaccolega',
     publishedTime: "2026-03-12 22:28:37",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/blog-us-tax-exempt-hero.jpg" }],
+    images: [{ url: "/images/2024/01/blog-us-tax-exempt-hero.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How UK Companies Can Pay Their Corporation Tax in Installments | Taxaccolega",
     description: "How UK Companies Can Pay Their Corporation Tax in Installments If you own a business in the UK, you know that corporation tax is an important element of keepin…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/blog-us-tax-exempt-hero.jpg"],
+    images: ["/images/2024/01/blog-us-tax-exempt-hero.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/blog-us-tax-exempt-hero.jpg" alt="How UK Companies Can Pay Their Corporation Tax in Installments" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/01/blog-us-tax-exempt-hero.jpg" alt="How UK Companies Can Pay Their Corporation Tax in Installments" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

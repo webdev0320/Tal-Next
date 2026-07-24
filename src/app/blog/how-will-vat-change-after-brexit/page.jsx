@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-will-vat-change-after-brexit/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-11-04 12:08:16",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/11/hmrc.jpg" }],
+    images: [{ url: "/images/2020/11/hmrc.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How will VAT change after Brexit? | Taxaccolega",
     description: "How will VAT change after Brexit? As the transition period of Brexit is coming to an end in Jan 2021, it`s time that businesses who are dealing with EU countri…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/11/hmrc.jpg"],
+    images: ["/images/2020/11/hmrc.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/11/hmrc.jpg" alt="How will VAT change after Brexit?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/11/hmrc.jpg" alt="How will VAT change after Brexit?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

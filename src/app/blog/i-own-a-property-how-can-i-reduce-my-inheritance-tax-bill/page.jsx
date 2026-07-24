@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/i-own-a-property-how-can-i-reduce-my-inheritance-tax-bill/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-06-20 14:42:46",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/inheritance-bill.jpg" }],
+    images: [{ url: "/images/2021/06/inheritance-bill.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "I own a property - how can I reduce my Inheritance tax bill? | Taxaccolega",
     description: "I own a property how can I reduce my Inheritance tax bill? If you own a house, it is part of your estate for inheritance tax purposes and inheritance tax shoul…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/inheritance-bill.jpg"],
+    images: ["/images/2021/06/inheritance-bill.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/inheritance-bill.jpg" alt="I own a property - how can I reduce my Inheritance tax bill?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/06/inheritance-bill.jpg" alt="I own a property - how can I reduce my Inheritance tax bill?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

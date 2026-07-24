@@ -62,7 +62,7 @@ const AccountsSubPage = ({ config }) => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="container position-relative py-5" style={{ zIndex: 2, paddingTop: '7rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '2.5rem' }}>
           <div className="row justify-content-center">
             <div className="col-lg-10 text-center">
               <span className="text-uppercase small fw-bold text-brand-orange d-inline-block mb-2" style={{ letterSpacing: '2px' }}>
@@ -96,8 +96,8 @@ const AccountsSubPage = ({ config }) => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-white">
-        <div className="container py-2">
+      <section className="py-4 bg-white">
+        <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
               {loading ? (
@@ -117,7 +117,7 @@ const AccountsSubPage = ({ config }) => {
       </section>
 
       {config.faqs?.length > 0 && (
-        <section className="py-5 bg-light border-top">
+        <section className="py-4 bg-light border-top">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10">

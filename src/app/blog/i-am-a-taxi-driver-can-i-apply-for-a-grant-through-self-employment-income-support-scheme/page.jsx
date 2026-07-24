@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/i-am-a-taxi-driver-can-i-apply-for-a-grant-through-self-employment-income-support-scheme/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-10-04 11:58:15",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/taxi.jpg" }],
+    images: [{ url: "/images/2020/10/taxi.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? | Taxaccolega",
     description: "I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? If you are a taxi driver, registered as 'Self Employed' with HMRC (yo…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/taxi.jpg"],
+    images: ["/images/2020/10/taxi.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/taxi.jpg" alt="I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/10/taxi.jpg" alt="I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

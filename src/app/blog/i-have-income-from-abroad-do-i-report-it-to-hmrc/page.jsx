@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/i-have-income-from-abroad-do-i-report-it-to-hmrc/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-11-08 12:09:05",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/11/income-from-abroad.jpg" }],
+    images: [{ url: "/images/2020/11/income-from-abroad.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "I have income from abroad do i report it to HMRC? | Taxaccolega",
     description: "I have income from abroad Do i report it to HMRC? In the time of pandemic as the economic uncertainty continues the last thing anyone can think of is giving aw…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/11/income-from-abroad.jpg"],
+    images: ["/images/2020/11/income-from-abroad.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/11/income-from-abroad.jpg" alt="I have income from abroad do i report it to HMRC?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/11/income-from-abroad.jpg" alt="I have income from abroad do i report it to HMRC?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

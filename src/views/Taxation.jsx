@@ -199,7 +199,6 @@ const Taxation = () => (
     <header
       className="position-relative text-white d-flex align-items-center"
       style={{
-        minHeight: '280px',
         backgroundImage: "url('/images/young-asian.webp')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -209,7 +208,7 @@ const Taxation = () => (
         className="position-absolute top-0 start-0 w-100 h-100 bg-brand-dark"
         style={{ opacity: 0.65, zIndex: 1 }}
       />
-      <div className="container position-relative py-5" style={{ zIndex: 2 }}>
+      <div className="container position-relative py-4" style={{ zIndex: 2 }}>
         <h1 className="display-3 fw-bold text-white mb-0">Taxation</h1>
       </div>
     </header>
@@ -230,10 +229,10 @@ const Taxation = () => (
     <ExpertTaxServices taxTags={taxTags} tagRoutes={tagRoutes} />
 
     {/* ── 6. "The experts' choice for Tax Accountant" ── */}
-    <section className="py-5" style={{ background: '#f8f9fa' }}>
+    <section className="py-4" style={{ background: '#f8f9fa' }}>
       <div className="container">
         <h2 className="text-center fw-bold mb-1" style={{ color: '#1a2332' }}>The experts' choice for</h2>
-        <h3 className="text-center mb-5" style={{ color: '#e07b39' }}>Tax Accountant</h3>
+        <h3 className="text-center mb-4" style={{ color: '#e07b39' }}>Tax Accountant</h3>
         <div className="row g-4">
           {primaryServices.map((s) => <LightServiceCard key={s.title} service={s} />)}
         </div>
@@ -241,9 +240,9 @@ const Taxation = () => (
     </section>
 
     {/* ── 7. How do we help in Taxation? ── */}
-    <section className="py-5 bg-white">
+    <section className="py-4 bg-white">
       <div className="container">
-        <div className="row g-5 align-items-center">
+        <div className="row g-4 align-items-center">
           <div className="col-lg-5">
             <img
               src="images/2024/06/taxation.png"
@@ -274,7 +273,7 @@ const Taxation = () => (
     <Partners />
 
     {/* ── 9. Second row of service cards (dark) ── */}
-    <section className="py-5" style={{ background: '#f8f9fa' }}>
+    <section className="py-4" style={{ background: '#f8f9fa' }}>
       <div className="container">
         <div className="row g-4">
           {secondaryServices.map((s) => <DarkServiceCard key={s.title} service={s} />)}
@@ -283,7 +282,7 @@ const Taxation = () => (
     </section>
 
     {/* ── 11. Third row of service cards (dark) ── */}
-    <section className="py-5" style={{ background: '#f8f9fa' }}>
+    <section className="py-4" style={{ background: '#f8f9fa' }}>
       <div className="container">
         <div className="row g-4">
           {tertiaryServices.map((s) => <DarkServiceCard key={s.title} service={s} />)}
@@ -295,7 +294,7 @@ const Taxation = () => (
     <ReviewsSlider />
 
     {/* ── 13. EMI & SEIS cards ── */}
-    <section className="py-5" style={{ background: '#f8f9fa' }}>
+    <section className="py-4" style={{ background: '#f8f9fa' }}>
       <div className="container">
         <div className="row g-4 justify-content-center">
           {emiServices.map((s) => (

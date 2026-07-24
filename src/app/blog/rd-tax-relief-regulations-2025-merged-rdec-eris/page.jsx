@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/rd-tax-relief-regulations-2025-merged-rdec-eris/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-05-23 09:33:36",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/research-information-graph-search-concept-1-scaled.jpg" }],
+    images: [{ url: "/images/2024/11/research-information-graph-search-concept-1-scaled.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "R&D Tax Relief Regulations 2025: Merged RDEC & ERIS | Taxaccolega",
     description: "R D Tax Relief Regulations 2025 Merged RDEC ERIS You might be eligible for Research and Development (R&D) tax relief if your company makes investments in techn…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/research-information-graph-search-concept-1-scaled.jpg"],
+    images: ["/images/2024/11/research-information-graph-search-concept-1-scaled.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/research-information-graph-search-concept-1-scaled.jpg" alt="R&D Tax Relief Regulations 2025: Merged RDEC & ERIS" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/11/research-information-graph-search-concept-1-scaled.jpg" alt="R&D Tax Relief Regulations 2025: Merged RDEC & ERIS" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -36,7 +36,7 @@ const BlogOld = () => {
     {
       id: 'post-4836',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-11/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -46,7 +46,7 @@ const BlogOld = () => {
     {
       id: 'post-4837',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-10/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -56,7 +56,7 @@ const BlogOld = () => {
     {
       id: 'post-4835',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-9/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -66,7 +66,7 @@ const BlogOld = () => {
     {
       id: 'post-4838',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-8/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -76,7 +76,7 @@ const BlogOld = () => {
     {
       id: 'post-4839',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-7/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -86,7 +86,7 @@ const BlogOld = () => {
     {
       id: 'post-4841',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-5/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -96,7 +96,7 @@ const BlogOld = () => {
     {
       id: 'post-4842',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-4/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -106,7 +106,7 @@ const BlogOld = () => {
     {
       id: 'post-4843',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-3/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -116,7 +116,7 @@ const BlogOld = () => {
     {
       id: 'post-4834',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-2/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -126,7 +126,7 @@ const BlogOld = () => {
     {
       id: 'post-4840',
       postLink: '/chancellor-makes-full-expensing-permanent-in-autumn-statement-9-6/',
-      imageUrl: '/wp-content/uploads/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
+      imageUrl: '/images/2024/01/skynews-jeremy-hunt-autumn-statement_6368432.jpg',
       imageAlt: '',
       imageWidth: 768,
       imageHeight: 432,
@@ -136,7 +136,7 @@ const BlogOld = () => {
     {
       id: 'post-4700',
       postLink: '/change-in-the-income-tax-additional-rate-threshold-and-how-can-i-reduce-my-taxes-25/',
-      imageUrl: '/wp-content/uploads/2024/01/l_969072_122642_updates.webp',
+      imageUrl: '/images/2024/01/l_969072_122642_updates.webp',
       imageAlt: '',
       imageWidth: 700,
       imageHeight: 390,
@@ -146,7 +146,7 @@ const BlogOld = () => {
     {
       id: 'post-4702',
       postLink: '/change-in-the-income-tax-additional-rate-threshold-and-how-can-i-reduce-my-taxes-24/',
-      imageUrl: '/wp-content/uploads/2024/01/l_969072_122642_updates.webp',
+      imageUrl: '/images/2024/01/l_969072_122642_updates.webp',
       imageAlt: '',
       imageWidth: 700,
       imageHeight: 390,

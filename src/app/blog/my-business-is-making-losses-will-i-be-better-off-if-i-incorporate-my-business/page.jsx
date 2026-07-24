@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/my-business-is-making-losses-will-i-be-better-off-if-i-incorporate-my-business/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-07-19 11:05:59",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/chess.jpg" }],
+    images: [{ url: "/images/2020/07/chess.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "My business is making losses- Will I be better off if I incorporate my business? | Taxaccolega",
     description: "My business is making losses Will I be better off if I incorporate my business? If you have extra funds and you are looking for some investment you should defi…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/chess.jpg"],
+    images: ["/images/2020/07/chess.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/chess.jpg" alt="My business is making losses- Will I be better off if I incorporate my business?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/07/chess.jpg" alt="My business is making losses- Will I be better off if I incorporate my business?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

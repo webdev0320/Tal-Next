@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/setting-up-a-charity-6-things-you-need-to-know/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-07-14 11:50:04",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/charity-Taxes-Companies-in-Croydon.png" }],
+    images: [{ url: "/images/2020/07/charity-Taxes-Companies-in-Croydon.png" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Setting up a Charity - 6 things you need to know | Taxaccolega",
     description: "Setting up a Charity 6 things you need to know How is my charity different from any incorporated company? The main difference between a charity and a corporate…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/charity-Taxes-Companies-in-Croydon.png"],
+    images: ["/images/2020/07/charity-Taxes-Companies-in-Croydon.png"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/charity-Taxes-Companies-in-Croydon.png" alt="Setting up a Charity - 6 things you need to know" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/07/charity-Taxes-Companies-in-Croydon.png" alt="Setting up a Charity - 6 things you need to know" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

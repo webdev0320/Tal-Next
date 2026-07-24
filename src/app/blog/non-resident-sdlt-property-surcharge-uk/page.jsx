@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/non-resident-sdlt-property-surcharge-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-04-04 14:26:34",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/stamp-duty-2.jpg" }],
+    images: [{ url: "/images/2021/03/stamp-duty-2.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Non‑Resident UK Property Buyer? SDLT Surcharge Explained | Taxaccolega",
     description: "Stamp Duty Land Tax (SDLT) surcharge and the non-resident UK property buyers If you are a non resident interested in buying a residential property in the UK yo…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/stamp-duty-2.jpg"],
+    images: ["/images/2021/03/stamp-duty-2.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/stamp-duty-2.jpg" alt="Non‑Resident UK Property Buyer? SDLT Surcharge Explained" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/03/stamp-duty-2.jpg" alt="Non‑Resident UK Property Buyer? SDLT Surcharge Explained" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

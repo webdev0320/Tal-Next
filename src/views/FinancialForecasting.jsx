@@ -21,10 +21,10 @@ const FinancialForecasting = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Cashflow-Forecasting-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Cashflow-Forecasting-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
@@ -91,7 +91,7 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -105,9 +105,9 @@ const FinancialForecasting = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Most financial pressure starts months before it becomes visible
@@ -118,7 +118,7 @@ const FinancialForecasting = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The difficulty is that these shifts often happen gradually, inside day-to-day operations where nobody notices the wider pattern developing.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That is why financial forecasting matters.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Not because it predicts the future perfectly.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Because it helps businesses understand how today’s decisions are likely to behave once they collide with real operating conditions.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Because it helps businesses understand how todayâ€™s decisions are likely to behave once they collide with real operating conditions.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At Taxaccolega, our financial forecasting services help businesses across London and the UK build financial visibility before commitments become fixed, pressure becomes operational, or growth starts creating instability instead of opportunity.</p>
             </div>
             <div className="col-lg-5">
@@ -130,9 +130,9 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2024/11/edit.2-1.webp" alt="What Financial Forecasting Actually Helps Businesses Understand" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -146,7 +146,7 @@ const FinancialForecasting = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>One of the most common mistakes businesses make is assuming growth automatically improves financial position.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>In reality, growth can increase pressure faster than it increases stability.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>More clients may require more staffing. Increased turnover may increase VAT liabilities. Larger projects may create delayed payment cycles while operational costs rise immediately.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Financial forecasting helps businesses understand whether projected growth is financially sustainable — not simply commercially attractive.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Financial forecasting helps businesses understand whether projected growth is financially sustainable â€” not simply commercially attractive.</p>
               <h3 className="text-brand-orange fw-bold mb-3">Timing usually matters more than totals</h3>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A business may technically be profitable while still struggling financially.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That often happens because revenue timing and cost timing behave differently.</p>
@@ -158,9 +158,9 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What Is Usually Included in a Financial Forecast
@@ -218,9 +218,9 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2024/11/edit.8.jpg" alt="Why Most Financial Forecasts Become Useless Faster Than Businesses Expect" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -231,7 +231,7 @@ const FinancialForecasting = () => {
                 Why Most Financial Forecasts Become Useless Faster Than Businesses Expect
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A forecast usually fails long before anyone realises it has stopped being reliable.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Not because the original numbers were “wrong.”</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Not because the original numbers were â€œwrong.â€</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Because the assumptions underneath the forecast quietly changed while the model stayed frozen.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A business may forecast:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
@@ -249,7 +249,7 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -270,7 +270,7 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -298,14 +298,14 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Where Financial Forecasts Commonly Break Down
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This second table belongs after the “what changes” section because it reinforces why many businesses technically have forecasts but still lack financial clarity.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This second table belongs after the â€œwhat changesâ€ section because it reinforces why many businesses technically have forecasts but still lack financial clarity.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
@@ -358,7 +358,7 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -384,7 +384,7 @@ const FinancialForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -392,7 +392,7 @@ const FinancialForecasting = () => {
                 Speak to Financial Forecasting Consultants London UK
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If business decisions inside your company are increasingly based on assumptions rather than financial visibility, forecasting usually becomes less optional and more operationally necessary.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Financial forecasting services help businesses understand how today’s commitments are likely to affect tomorrow’s financial position before those outcomes become fixed.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Financial forecasting services help businesses understand how todayâ€™s commitments are likely to affect tomorrowâ€™s financial position before those outcomes become fixed.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Taxaccolega provides financial forecasting services, business financial projections, startup financial forecasting, and strategic financial planning support for businesses across London and the UK.</p>
             </div>
           </div>

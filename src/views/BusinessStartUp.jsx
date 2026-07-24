@@ -31,9 +31,9 @@ const BusinessStartUp = () => {
       <img
         width="650"
         height="600"
-        src="/wp-content/uploads/2023/08/Untitled-design-5.png"
+        src="/images/2023/08/Untitled-design-5.png"
         alt="Startup support illustration"
-        srcSet="/wp-content/uploads/2023/08/Untitled-design-5.png 650w, /wp-content/uploads/2023/08/Untitled-design-5-600x554.png 600w, /wp-content/uploads/2023/08/Untitled-design-5-300x277.png 300w"
+        srcSet="/images/2023/08/Untitled-design-5.png 650w, /images/2023/08/Untitled-design-5-600x554.png 600w, /images/2023/08/Untitled-design-5-300x277.png 300w"
         sizes="(max-width: 650px) 100vw, 650px"
         className="mx-auto my-8 rounded-lg shadow-md"
       />
@@ -78,9 +78,9 @@ const BusinessStartUp = () => {
       <img
         width="500"
         height="400"
-        src="/wp-content/uploads/2023/08/Untitled-design-7.png"
+        src="/images/2023/08/Untitled-design-7.png"
         alt="Accountant benefits illustration"
-        srcSet="/wp-content/uploads/2023/08/Untitled-design-7.png 500w, /wp-content/uploads/2023/08/Untitled-design-7-300x240.png 300w"
+        srcSet="/images/2023/08/Untitled-design-7.png 500w, /images/2023/08/Untitled-design-7-300x240.png 300w"
         sizes="(max-width: 500px) 100vw, 500px"
         className="mx-auto my-8 rounded-lg shadow-md"
       />

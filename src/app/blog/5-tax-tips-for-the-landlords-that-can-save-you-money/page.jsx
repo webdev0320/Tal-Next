@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/5-tax-tips-for-the-landlords-that-can-save-you-money/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-09-20 11:15:21",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/landlords-save-money.jpg" }],
+    images: [{ url: "/images/2022/09/landlords-save-money.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "5 Tax tips for the Landlords that can save you money | Taxaccolega",
     description: "5 Tax tips for the Landlords that can save you money When you are a landlord whether a professional or an accidental one you would want to get the maximum fina…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/landlords-save-money.jpg"],
+    images: ["/images/2022/09/landlords-save-money.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/landlords-save-money.jpg" alt="5 Tax tips for the Landlords that can save you money" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/09/landlords-save-money.jpg" alt="5 Tax tips for the Landlords that can save you money" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

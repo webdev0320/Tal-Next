@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/payroll-outsourcing-for-small-businesses-vs-medium-enterprises/",
     siteName: 'Taxaccolega',
     publishedTime: "2026-04-11 17:34:00",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg" }],
+    images: [{ url: "/images/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Payroll Outsourcing for Small Businesses vs Medium Enterprises | Taxaccolega",
     description: "Payroll Outsourcing for Small Businesses vs Medium Enterprises Table of Contents Payroll Outsourcing for Small Businesses vs Medium Enterprises Cost Structure…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg"],
+    images: ["/images/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg" alt="Payroll Outsourcing for Small Businesses vs Medium Enterprises" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2023/10/What-Are-Payroll-Mistakes-That-Require-Retro-Pay.jpg" alt="Payroll Outsourcing for Small Businesses vs Medium Enterprises" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

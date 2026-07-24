@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/inheritance-tax-planning-and-business-property-relief/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-10-26 12:33:10",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/estate-planning-Taxes-Company-in-Croydon.jpg" }],
+    images: [{ url: "/images/2021/10/estate-planning-Taxes-Company-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Inheritance Tax planning and Business Property Relief? | Taxaccolega",
     description: "Inheritance Tax Planning and Business Property Relief? If you own a business, or interest in the business or shares in an unlisted company you will be entitled…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/estate-planning-Taxes-Company-in-Croydon.jpg"],
+    images: ["/images/2021/10/estate-planning-Taxes-Company-in-Croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/estate-planning-Taxes-Company-in-Croydon.jpg" alt="Inheritance Tax planning and Business Property Relief?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/10/estate-planning-Taxes-Company-in-Croydon.jpg" alt="Inheritance Tax planning and Business Property Relief?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -77,20 +77,20 @@ const EmiSchemesPage = () => {
               <p className="mb-4">Instead of issuing immediate shares outright, the business grants options that may be exercised later under defined conditions.</p>
               <p className="font-semibold mb-2">This creates alignment between:</p>
               <ul className="list-unstyled mb-4">
-                <li>● company growth</li>
-                <li>● employee performance</li>
-                <li>● long-term value creation</li>
-                <li>● future business outcomes</li>
+                <li>• company growth</li>
+                <li>• employee performance</li>
+                <li>• long-term value creation</li>
+                <li>• future business outcomes</li>
               </ul>
               <p className="font-semibold mb-2">An EMI share option scheme is particularly common among:</p>
               <ul className="list-unstyled">
-                <li>● startups | ● scaling businesses | ● founder-led companies</li>
-                <li>● technology businesses | ● high-growth companies | ● investment-backed businesses</li>
+                <li>• startups | • scaling businesses | • founder-led companies</li>
+                <li>• technology businesses | • high-growth companies | • investment-backed businesses</li>
               </ul>
               <p className="mt-4">because these companies often need strong employee retention while preserving operational cash.</p>
             </div>
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-EMI-Scheme-Explained.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                <img src="/images/2026/05/Services-Taxation-EMI-Schemes-EMI-Scheme-Explained.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
           </section>
 
@@ -99,7 +99,6 @@ const EmiSchemesPage = () => {
                 <h3 className="text-2xl font-bold mb-4">EMI Schemes and Strategic Alignment</h3>
                 <p className="leading-relaxed text-slate-700 mb-4">An EMI scheme allows qualifying UK businesses to grant selected employees the option to acquire shares under tax-advantaged conditions. It creates alignment between company growth, employee performance, and long-term value creation.</p>
             </div>
-            <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/EMI-Scheme-scaled.webp" alt="EMI Schemes" className="rounded-lg shadow-lg" />
           </section>
 
           <section>
@@ -110,11 +109,11 @@ const EmiSchemesPage = () => {
                   <p>In early-stage businesses, employees often join because of opportunity. As the business matures, expectations shift.</p>
                   <p>Key staff start evaluating:</p>
                   <ul className="list-unstyled space-y-2">
-                    <li>● long-term upside</li>
-                    <li>● ownership participation</li>
-                    <li>● value creation</li>
-                    <li>● future exits</li>
-                    <li>● strategic involvement</li>
+                    <li>• long-term upside</li>
+                    <li>• ownership participation</li>
+                    <li>• value creation</li>
+                    <li>• future exits</li>
+                    <li>• strategic involvement</li>
                   </ul>
                   <p className="font-italic">"Over time, the reporting trail becomes fragmented."</p>
               </div>
@@ -122,11 +121,11 @@ const EmiSchemesPage = () => {
                   <h4 className="text-xl font-bold text-brand-orange">Founders often delay EMI schemes longer than they should</h4>
                   <p>One of the most common EMI scheme mistakes is waiting until:</p>
                   <ul className="list-unstyled space-y-2">
-                    <li>● investment discussions begin</li>
-                    <li>● employees are already considering leaving</li>
-                    <li>● valuations increase sharply</li>
-                    <li>● ownership becomes more complex</li>
-                    <li>● acquisition conversations emerge</li>
+                    <li>• investment discussions begin</li>
+                    <li>• employees are already considering leaving</li>
+                    <li>• valuations increase sharply</li>
+                    <li>• ownership becomes more complex</li>
+                    <li>• acquisition conversations emerge</li>
                   </ul>
               </div>
             </div>
@@ -137,18 +136,18 @@ const EmiSchemesPage = () => {
                 <p>By that point, option structuring usually becomes harder.</p>
                 <p>The earlier an EMI scheme is reviewed, the more flexibility exists around:</p>
                 <ul className="list-unstyled space-y-2">
-                    <li>● valuation</li>
-                    <li>● share structure</li>
-                    <li>● tax efficiency</li>
-                    <li>● employee allocation</li>
-                    <li>● future planning</li>
+                    <li>• valuation</li>
+                    <li>• share structure</li>
+                    <li>• tax efficiency</li>
+                    <li>• employee allocation</li>
+                    <li>• future planning</li>
                 </ul>
             </div>
           </section>
 
           <section className="grid md:grid-cols-2 gap-12 items-center">
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-How-an-EMI-Share-Scheme-Works-in-Practice.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                <img src="/images/2026/05/Services-Taxation-EMI-Schemes-How-an-EMI-Share-Scheme-Works-in-Practice.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
             <div>
               <h3 className="text-3xl font-bold text-slate-950 mb-6">How an EMI Share Scheme Works in Practice</h3>
@@ -156,13 +155,13 @@ const EmiSchemesPage = () => {
               <p className="mb-4">If the company increases in value after the option grant, the employee may benefit from that growth when exercising or selling shares later.</p>
               <p className="font-semibold mb-2">The tax treatment depends heavily on:</p>
               <ul className="list-unstyled mb-4 space-y-1">
-                <li>● EMI scheme eligibility</li>
-                <li>● HMRC valuation agreement</li>
-                <li>● exercise timing</li>
-                <li>● qualifying conditions</li>
-                <li>● disqualifying events</li>
-                <li>● share structure</li>
-                <li>● option terms</li>
+                <li>• EMI scheme eligibility</li>
+                <li>• HMRC valuation agreement</li>
+                <li>• exercise timing</li>
+                <li>• qualifying conditions</li>
+                <li>• disqualifying events</li>
+                <li>• share structure</li>
+                <li>• option terms</li>
               </ul>
               <p className="mb-4">This is why EMI schemes explained online often oversimplify the process.</p>
               <p className="font-semibold">The technical detail underneath the structure matters heavily.</p>
@@ -175,27 +174,27 @@ const EmiSchemesPage = () => {
               <p className="mb-4">Not every company qualifies for an EMI scheme UK structure.</p>
               <p className="font-semibold mb-2">Eligibility depends on multiple conditions involving:</p>
               <ul className="list-unstyled mb-4 space-y-1">
-                <li>● company size</li>
-                <li>● trading activity</li>
-                <li>● gross assets</li>
-                <li>● employee numbers</li>
-                <li>● independence requirements</li>
-                <li>● qualifying trade rules</li>
+                <li>• company size</li>
+                <li>• trading activity</li>
+                <li>• gross assets</li>
+                <li>• employee numbers</li>
+                <li>• independence requirements</li>
+                <li>• qualifying trade rules</li>
               </ul>
               <p className="mb-4">Certain activities may prevent qualification entirely.</p>
               <p className="mb-4">Similarly, employee eligibility must also be assessed carefully.</p>
               <p className="font-semibold mb-2">Issues commonly arise where:</p>
               <ul className="list-unstyled mb-4 space-y-1">
-                <li>● working time requirements are misunderstood</li>
-                <li>● directors hold multiple roles</li>
-                <li>● overseas employees are involved</li>
-                <li>● holding company structures complicate control</li>
-                <li>● part-time arrangements affect qualification</li>
+                <li>• working time requirements are misunderstood</li>
+                <li>• directors hold multiple roles</li>
+                <li>• overseas employees are involved</li>
+                <li>• holding company structures complicate control</li>
+                <li>• part-time arrangements affect qualification</li>
               </ul>
               <p className="mb-4">This is particularly important for EMI scheme holding company structures, where ownership layering can affect EMI qualification unexpectedly.</p>
             </div>
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-EMI-Scheme-Eligibility.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                <img src="/images/2026/05/Services-Taxation-EMI-Schemes-EMI-Scheme-Eligibility.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
           </section>
 
@@ -206,23 +205,23 @@ const EmiSchemesPage = () => {
               <p className="mb-4">That approach can become dangerous if the valuation position lacks proper support.</p>
               <p className="font-semibold mb-2">The agreed valuation affects:</p>
               <ul className="list-unstyled mb-4 space-y-1">
-                <li>● option pricing</li>
-                <li>● future gains</li>
-                <li>● tax exposure</li>
-                <li>● employee upside</li>
-                <li>● future investment positioning</li>
+                <li>• option pricing</li>
+                <li>• future gains</li>
+                <li>• tax exposure</li>
+                <li>• employee upside</li>
+                <li>• future investment positioning</li>
               </ul>
               <p className="font-semibold mb-2">HMRC may later challenge:</p>
               <ul className="list-unstyled mb-4 space-y-1">
-                <li>● growth assumptions</li>
-                <li>● share value calculations</li>
-                <li>● discount treatment</li>
-                <li>● minority share adjustments</li>
-                <li>● marketability considerations</li>
+                <li>• growth assumptions</li>
+                <li>• share value calculations</li>
+                <li>• discount treatment</li>
+                <li>• minority share adjustments</li>
+                <li>• marketability considerations</li>
               </ul>
             </div>
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/EMI-Scheme-scaled.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                <img src="/images/2026/05/EMI-Scheme-scaled.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
           </section>
 
@@ -231,29 +230,29 @@ const EmiSchemesPage = () => {
                   <h3 className="text-3xl font-bold text-slate-950 mb-6">EMI Schemes and SEIS/EIS Investment Structures</h3>
                   <p className="font-semibold mb-2">EMI schemes frequently intersect with:</p>
                   <ul className="list-unstyled mb-4 space-y-1">
-                      <li>● SEIS accounting</li>
-                      <li>● EIS investment structures</li>
-                      <li>● investor protection clauses</li>
-                      <li>● startup funding rounds</li>
+                      <li>• SEIS accounting</li>
+                      <li>• EIS investment structures</li>
+                      <li>• investor protection clauses</li>
+                      <li>• startup funding rounds</li>
                   </ul>
                   <p className="font-semibold mb-2">Because investors often want:</p>
                   <ul className="list-unstyled mb-4 space-y-1">
-                      <li>● clarity over dilution</li>
-                      <li>● structured option pools</li>
-                      <li>● defined ownership rights</li>
-                      <li>● controlled employee participation</li>
+                      <li>• clarity over dilution</li>
+                      <li>• structured option pools</li>
+                      <li>• defined ownership rights</li>
+                      <li>• controlled employee participation</li>
                   </ul>
                   <p className="font-semibold mb-2">This creates a direct relationship between:</p>
                   <ul className="list-unstyled mb-4 space-y-1">
-                      <li>● EMI schemes</li>
-                      <li>● SEIS/EIS accounting</li>
-                      <li>● corporation tax planning</li>
-                      <li>● long-term equity strategy</li>
+                      <li>• EMI schemes</li>
+                      <li>• SEIS/EIS accounting</li>
+                      <li>• corporation tax planning</li>
+                      <li>• long-term equity strategy</li>
                   </ul>
                   <p className="mt-4">Especially where scaling businesses expect future investment rounds or acquisition discussions.</p>
               </div>
               <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                  <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-EMI-Schemes-and-SEIS.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                  <img src="/images/2026/05/Services-Taxation-EMI-Schemes-EMI-Schemes-and-SEIS.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
               </div>
           </section>
 
@@ -283,7 +282,7 @@ const EmiSchemesPage = () => {
 
           <section className="grid md:grid-cols-2 gap-12 items-center">
             <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-What-Our-EMI-Scheme-Services-Actually-Change.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                <img src="/images/2026/05/Services-Taxation-EMI-Schemes-What-Our-EMI-Scheme-Services-Actually-Change.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
             </div>
             <div>
               <h3 className="text-3xl font-bold text-slate-950 mb-6">Insight Section: The Biggest EMI Mistake Usually Happens Before the Scheme Even Starts</h3>
@@ -291,25 +290,25 @@ const EmiSchemesPage = () => {
               <p className="mb-4">In reality, the biggest EMI scheme mistakes often happen during the initial structuring stage.</p>
               <p className="font-semibold mb-2">Founders focus heavily on:</p>
               <ul className="list-unstyled mb-4 space-y-1">
-                <li>● percentage allocation</li>
-                <li>● future exits</li>
-                <li>● employee incentives</li>
+                <li>• percentage allocation</li>
+                <li>• future exits</li>
+                <li>• employee incentives</li>
               </ul>
               <p className="font-semibold mb-2">but underestimate:</p>
               <ul className="list-unstyled mb-4 space-y-1">
-                <li>● valuation methodology</li>
-                <li>● growth timing</li>
-                <li>● investment interaction</li>
-                <li>● share rights</li>
-                <li>● future restructuring impact</li>
+                <li>• valuation methodology</li>
+                <li>• growth timing</li>
+                <li>• investment interaction</li>
+                <li>• share rights</li>
+                <li>• future restructuring impact</li>
               </ul>
               <p className="mb-4">A poorly timed EMI scheme can accidentally reduce the very tax advantages the business intended to create.</p>
               <p className="font-semibold mb-2">For example:</p>
               <ul className="list-unstyled mb-4 space-y-1">
-                <li>● a valuation agreed after major growth milestones</li>
-                <li>● option grants issued before investment restructuring</li>
-                <li>● disqualifying changes after acquisition activity</li>
-                <li>● incorrect employee qualification assumptions</li>
+                <li>• a valuation agreed after major growth milestones</li>
+                <li>• option grants issued before investment restructuring</li>
+                <li>• disqualifying changes after acquisition activity</li>
+                <li>• incorrect employee qualification assumptions</li>
               </ul>
               <p className="mb-4">can materially alter the future tax position.</p>
               <p>That is why strong EMI schemes are usually designed with future events in mind, not only current conditions.</p>
@@ -323,29 +322,29 @@ const EmiSchemesPage = () => {
               <div className="col-md-4">
                 <p className="font-semibold mb-2">Potential advantages may include:</p>
                 <ul className="list-unstyled mb-4 space-y-1">
-                  <li>● reduced income tax exposure</li>
-                  <li>● capital gains treatment improvements</li>
-                  <li>● Business Asset Disposal Relief eligibility</li>
-                  <li>● lower National Insurance exposure</li>
+                  <li>• reduced income tax exposure</li>
+                  <li>• capital gains treatment improvements</li>
+                  <li>• Business Asset Disposal Relief eligibility</li>
+                  <li>• lower National Insurance exposure</li>
                 </ul>
               </div>
               <div className="col-md-4">
                 <p className="font-semibold mb-2">The tax treatment changes significantly depending on:</p>
                 <ul className="list-unstyled mb-4 space-y-1">
-                  <li>● when options are exercised</li>
-                  <li>● whether HMRC requirements remain satisfied</li>
-                  <li>● whether disqualifying events occur</li>
-                  <li>● how shares are structured</li>
-                  <li>● whether valuations were agreed properly</li>
+                  <li>• when options are exercised</li>
+                  <li>• whether HMRC requirements remain satisfied</li>
+                  <li>• whether disqualifying events occur</li>
+                  <li>• how shares are structured</li>
+                  <li>• whether valuations were agreed properly</li>
                 </ul>
               </div>
               <div className="col-md-4">
                 <p className="font-semibold mb-2">This creates a natural connection between EMI schemes and:</p>
                 <ul className="list-unstyled mb-4 space-y-1">
-                  <li>● capital gains tax planning</li>
-                  <li>● income tax advice</li>
-                  <li>● corporation tax strategy</li>
-                  <li>● tax advisory services</li>
+                  <li>• capital gains tax planning</li>
+                  <li>• income tax advice</li>
+                  <li>• corporation tax strategy</li>
+                  <li>• tax advisory services</li>
                 </ul>
                 <p>Because option planning affects multiple tax areas simultaneously.</p>
               </div>
@@ -355,7 +354,7 @@ const EmiSchemesPage = () => {
           <section className="row g-4 align-items-center">
               <div className="col-md-4">
                   <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-What-Our-EMI-Scheme-Services-Actually-Change.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                      <img src="/images/2026/05/Services-Taxation-EMI-Schemes-What-Our-EMI-Scheme-Services-Actually-Change.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
                   </div>
               </div>
               <div className="col-md-8">
@@ -367,24 +366,24 @@ const EmiSchemesPage = () => {
                       <div className="col-md-6">
                           <p className="font-semibold mb-2">The real challenge is designing a structure that:</p>
                           <ul className="list-unstyled mb-4 space-y-1">
-                              <li>● survives future investment</li>
-                              <li>● remains commercially workable</li>
-                              <li>● protects tax efficiency</li>
-                              <li>● aligns employee incentives properly</li>
-                              <li>● withstands HMRC scrutiny</li>
-                              <li>● scales with business growth</li>
+                              <li>• survives future investment</li>
+                              <li>• remains commercially workable</li>
+                              <li>• protects tax efficiency</li>
+                              <li>• aligns employee incentives properly</li>
+                              <li>• withstands HMRC scrutiny</li>
+                              <li>• scales with business growth</li>
                           </ul>
                       </div>
                       <div className="col-md-6">
                           <p className="font-semibold mb-2">Our approach focuses on:</p>
                           <ul className="list-unstyled mb-4 space-y-1">
-                              <li>● strategic EMI scheme planning</li>
-                              <li>● valuation positioning</li>
-                              <li>● HMRC compliance review</li>
-                              <li>● share structure assessment</li>
-                              <li>● growth-stage planning</li>
-                              <li>● future transaction readiness</li>
-                              <li>● employee scenario modelling</li>
+                              <li>• strategic EMI scheme planning</li>
+                              <li>• valuation positioning</li>
+                              <li>• HMRC compliance review</li>
+                              <li>• share structure assessment</li>
+                              <li>• growth-stage planning</li>
+                              <li>• future transaction readiness</li>
+                              <li>• employee scenario modelling</li>
                           </ul>
                       </div>
                   </div>
@@ -399,13 +398,13 @@ const EmiSchemesPage = () => {
                   <h3 className="text-3xl font-bold text-slate-950 mb-6">When Businesses Should Speak to EMI Scheme Advisors</h3>
                   <p className="mb-4">Businesses usually benefit most from EMI advice:</p>
                   <ul className="list-unstyled mb-4 space-y-1">
-                      <li>● before investment rounds</li>
-                      <li>● before rapid growth phases</li>
-                      <li>● before acquisitions</li>
-                      <li>● before key employee exits</li>
-                      <li>● before valuation increases</li>
-                      <li>● before restructuring ownership</li>
-                      <li>● before granting options informally</li>
+                      <li>• before investment rounds</li>
+                      <li>• before rapid growth phases</li>
+                      <li>• before acquisitions</li>
+                      <li>• before key employee exits</li>
+                      <li>• before valuation increases</li>
+                      <li>• before restructuring ownership</li>
+                      <li>• before granting options informally</li>
                   </ul>
                   <p className="mb-4">Once growth accelerates significantly, flexibility narrows.</p>
                   <p className="mb-4 font-semibold">Valuations increase.</p>
@@ -415,7 +414,7 @@ const EmiSchemesPage = () => {
               </div>
               <div className="col-md-4">
                   <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-When-Businesses-Should-Speak-to-EMI-Scheme-Advisors.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                      <img src="/images/2026/05/Services-Taxation-EMI-Schemes-When-Businesses-Should-Speak-to-EMI-Scheme-Advisors.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
                   </div>
               </div>
           </section>
@@ -426,19 +425,19 @@ const EmiSchemesPage = () => {
                   <p className="mb-4">An EMI scheme does not operate independently from the wider business structure.</p>
                   <p className="font-semibold mb-2">It often overlaps with:</p>
                   <ul className="list-unstyled mb-4 space-y-1">
-                      <li>● management accounts</li>
-                      <li>● statutory accounts</li>
-                      <li>● payroll services</li>
-                      <li>● financial forecasting</li>
-                      <li>● corporation tax planning</li>
-                      <li>● share restructuring</li>
-                      <li>● long-term business valuation</li>
+                      <li>• management accounts</li>
+                      <li>• statutory accounts</li>
+                      <li>• payroll services</li>
+                      <li>• financial forecasting</li>
+                      <li>• corporation tax planning</li>
+                      <li>• share restructuring</li>
+                      <li>• long-term business valuation</li>
                   </ul>
                   <p>Because once employee ownership enters the structure, financial reporting and tax planning both become more commercially interconnected.</p>
               </div>
               <div className="col-md-6">
                   <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-EMI-Schemes-and-Wider-Business-Reporting.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                      <img src="/images/2026/05/Services-Taxation-EMI-Schemes-EMI-Schemes-and-Wider-Business-Reporting.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
                   </div>
               </div>
           </section>
@@ -446,7 +445,7 @@ const EmiSchemesPage = () => {
           <section className="row g-4 align-items-center">
               <div className="col-md-6">
                   <div className="bg-slate-200 rounded-lg flex items-center justify-center" style={{ minHeight: '400px' }}>
-                      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-EMI-Schemes-When-Businesses-Should-Speak-to-EMI-Scheme-Advisors.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
+                      <img src="/images/2026/05/Services-Taxation-EMI-Schemes-When-Businesses-Should-Speak-to-EMI-Scheme-Advisors.webp" alt="EMI Scheme" className="rounded-lg shadow-lg w-full object-cover" />
                   </div>
               </div>
               <div className="col-md-6">
@@ -454,14 +453,14 @@ const EmiSchemesPage = () => {
                   <p className="mb-4">If your business is growing and long-term employee retention, equity structuring, or tax-efficient incentives are becoming commercially important, an EMI scheme should be reviewed carefully before decisions become fixed.</p>
                   <p className="font-semibold mb-2">Taxaccolega supports businesses across London and the UK with:</p>
                   <ul className="list-unstyled mb-4 space-y-1">
-                      <li>● EMI share option schemes</li>
-                      <li>● EMI valuation support</li>
-                      <li>● HMRC EMI scheme compliance</li>
-                      <li>● employee share scheme planning</li>
-                      <li>● option structuring</li>
-                      <li>● growth-stage tax planning</li>
-                      <li>● startup equity planning</li>
-                      <li>● SEIS and EIS integration</li>
+                      <li>• EMI share option schemes</li>
+                      <li>• EMI valuation support</li>
+                      <li>• HMRC EMI scheme compliance</li>
+                      <li>• employee share scheme planning</li>
+                      <li>• option structuring</li>
+                      <li>• growth-stage tax planning</li>
+                      <li>• startup equity planning</li>
+                      <li>• SEIS and EIS integration</li>
                   </ul>
                   <p className="mb-4">The goal is not simply creating options on paper.</p>
                   <p className="font-semibold">It is building an EMI structure that remains commercially useful, tax-efficient, and strategically workable as the business evolves.</p>

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/buying-a-car-for-your-limited-company-uk-guide/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-10-01 19:35:00",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/10/WhatsApp-Image-2025-12-29-at-9.56.47-PM.jpeg" }],
+    images: [{ url: "/images/2025/10/WhatsApp-Image-2025-12-29-at-9.56.47-PM.jpeg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Should you buy a car for your limited company? The Best Guide for the UK in 2025 | Taxaccolega",
     description: "Should you buy a car for your limited company? The Best Guide for the UK in 2025 Table of Contents What Buying a Car Through a Limited Company Means Important:…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/10/WhatsApp-Image-2025-12-29-at-9.56.47-PM.jpeg"],
+    images: ["/images/2025/10/WhatsApp-Image-2025-12-29-at-9.56.47-PM.jpeg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/10/WhatsApp-Image-2025-12-29-at-9.56.47-PM.jpeg" alt="Should you buy a car for your limited company? The Best Guide for the UK in 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2025/10/WhatsApp-Image-2025-12-29-at-9.56.47-PM.jpeg" alt="Should you buy a car for your limited company? The Best Guide for the UK in 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">
@@ -149,7 +149,7 @@ By the end, you’ll have a clear plan that shows you how to buy or lease, gives
 <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
        If you are a sole trader or a partner, you can’t claim capital allowances. Instead, you should claim mileage. Sole traders can choose to claim capital allowances or mileage but not both.
     </p>				
-															<img width="800" height="584" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM-1024x747.jpeg" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM-1024x747.jpeg 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM-300x219.jpeg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM-768x560.jpeg 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM.jpeg 1184w" sizes="(max-width: 800px) 100vw, 800px" />															
+															<img width="800" height="584" src="/images/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM-1024x747.jpeg" alt="" srcset="/images/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM-1024x747.jpeg 1024w, /images/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM-300x219.jpeg 300w, /images/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM-768x560.jpeg 768w, /images/2025/12/WhatsApp-Image-2025-12-29-at-9.56.41-PM.jpeg 1184w" sizes="(max-width: 800px) 100vw, 800px" />															
 					<h2 id="benefits" style="font-size:28px; font-weight:400; color:#1d3c45;">
     <strong>Benefits of Buying a Car Through a Limited Company
 </strong>

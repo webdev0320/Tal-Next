@@ -21,17 +21,17 @@ const ManagementAccounts = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Management-Accounts-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Management-Accounts-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
                 Accounts Services
               </span>
               <h1 className="display-4 fw-bold text-white mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Management Accounts UK – Reporting, Analysis & Business Insights
+                Management Accounts UK â€“ Reporting, Analysis & Business Insights
               </h1>
               
               <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mb-4">
@@ -42,7 +42,7 @@ const ManagementAccounts = () => {
                 <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0 small" style={{ background: 'transparent' }}>
                   <li className="breadcrumb-item"><Link href="/" className="text-decoration-none text-brand-orange">Home</Link></li>
                   <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none text-brand-orange">Accounts</Link></li>
-                  <li className="breadcrumb-item active text-white-50" aria-current="page">Management Accounts UK – Reporting, Analysis & Business Insights</li>
+                  <li className="breadcrumb-item active text-white-50" aria-current="page">Management Accounts UK â€“ Reporting, Analysis & Business Insights</li>
                 </ol>
               </nav>
             </div>
@@ -71,7 +71,7 @@ const ManagementAccounts = () => {
             <ol className="breadcrumb mb-0 small">
               <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
               <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none" style={{ color: '#D2601A' }}>Accounts</Link></li>
-              <li className="breadcrumb-item active text-secondary">Management Accounts UK – Reporting, Analysis & Business Insights</li>
+              <li className="breadcrumb-item active text-secondary">Management Accounts UK â€“ Reporting, Analysis & Business Insights</li>
             </ol>
           </nav>
         </div>
@@ -91,9 +91,9 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Businesses rarely struggle because information is unavailable.
@@ -111,9 +111,9 @@ const ManagementAccounts = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Management-Accounts-Why-Businesses-Lose-Financial-Control-scaled.webp" alt="They struggle because nobody can interpret the financial position while decisions are still unfolding." className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -130,15 +130,15 @@ const ManagementAccounts = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Not because the business lacks data.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Because the business lacks a financial structure that explains what the data is actually saying while decisions are still affecting the outcome.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Management accounts are designed to close that gap between activity and understanding.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At Taxaccolega, our management accounting services help businesses across London and the UK turn fragmented financial information into something operationally useful — something that supports decisions before financial pressure becomes visible through year-end accounts or tax filings.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At Taxaccolega, our management accounting services help businesses across London and the UK turn fragmented financial information into something operationally useful â€” something that supports decisions before financial pressure becomes visible through year-end accounts or tax filings.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Management Accounts Are Built for Decision-Making, Not Compliance
@@ -162,9 +162,9 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Management-Accounts-What-Our-Management-Accounting-scaled.webp" alt="How Management Accounting Services Change Financial Visibility" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -191,9 +191,9 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What Management Accounts Usually Include
@@ -251,9 +251,9 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Management-Accounts-Management-Accounts-and-Long.webp" alt="Why Businesses Lose Financial Control Even While Revenue Is Growing" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -291,7 +291,7 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -304,7 +304,7 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -312,7 +312,7 @@ const ManagementAccounts = () => {
                 Where Management Accounts Connect With Tax and Compliance
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is one of the most overlooked patterns in growing businesses.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Profit deterioration usually appears before cashflow pressure — but many businesses only recognise the problem once cash becomes tight.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Profit deterioration usually appears before cashflow pressure â€” but many businesses only recognise the problem once cash becomes tight.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>By that stage:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>supplier pressure has already increased</span></li>
@@ -341,7 +341,7 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -350,8 +350,8 @@ const ManagementAccounts = () => {
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most firms can generate reports.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That alone is not valuable anymore.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is not simply about producing financial reports — it is about creating financial visibility early enough for business decisions to remain flexible. The real difference sits in how reporting is interpreted and structured around operational reality.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At Taxaccolega, management accounting focuses on how the business actually functions commercially — not simply how accounting categories are organised inside software.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is not simply about producing financial reports â€” it is about creating financial visibility early enough for business decisions to remain flexible. The real difference sits in how reporting is interpreted and structured around operational reality.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At Taxaccolega, management accounting focuses on how the business actually functions commercially â€” not simply how accounting categories are organised inside software.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That includes reviewing:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>revenue behaviour across periods</span></li>
@@ -360,21 +360,21 @@ const ManagementAccounts = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>cost structures becoming inefficient</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>financial trends developing quietly beneath overall growth</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The outcome is not simply “more reports.”</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The outcome is not simply â€œmore reports.â€</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It is clearer operational understanding.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Where Management Accounts Commonly Fail
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This second table belongs after the “what changes” section because it reinforces why many businesses already receiving reports still lack meaningful financial control.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This second table belongs after the â€œwhat changesâ€ section because it reinforces why many businesses already receiving reports still lack meaningful financial control.</p>
             </div>
           </div>
           <div className="row justify-content-center mb-5">
@@ -422,14 +422,14 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 When Businesses Usually Need Management Accounts
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most businesses do not initially search for management accounting services because they “want reporting.”</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most businesses do not initially search for management accounting services because they â€œwant reporting.â€</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>They search because something feels financially unclear.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Common triggers include:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
@@ -447,7 +447,7 @@ const ManagementAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">

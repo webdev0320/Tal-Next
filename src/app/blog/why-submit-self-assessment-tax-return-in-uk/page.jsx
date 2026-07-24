@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/why-submit-self-assessment-tax-return-in-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-10-01 11:52:52",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/income-tax.jpg" }],
+    images: [{ url: "/images/2020/10/income-tax.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Why You Must File a Self Assessment Tax Return in the UK | Taxaccolega",
     description: "Why You Must File a Self Assessment Tax Return in the UK 3 Reasons You need to fill in Annual Self-Assessment Tax Return You need to fill in the self-assessmen…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/income-tax.jpg"],
+    images: ["/images/2020/10/income-tax.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/income-tax.jpg" alt="Why You Must File a Self Assessment Tax Return in the UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/10/income-tax.jpg" alt="Why You Must File a Self Assessment Tax Return in the UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

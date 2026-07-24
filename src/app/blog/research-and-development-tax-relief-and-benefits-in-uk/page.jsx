@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/research-and-development-tax-relief-and-benefits-in-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-11-16 11:00:24",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/11/r-and-d.jpg" }],
+    images: [{ url: "/images/2022/11/r-and-d.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "R&D Tax Relief – How UK Businesses Can Save Costs | Taxaccolega",
     description: "Research and Development Relief How does it save costs? Research and development plays a vital role when it comes to the growth of your business. Every company…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/11/r-and-d.jpg"],
+    images: ["/images/2022/11/r-and-d.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/11/r-and-d.jpg" alt="R&D Tax Relief – How UK Businesses Can Save Costs" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/11/r-and-d.jpg" alt="R&D Tax Relief – How UK Businesses Can Save Costs" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">
@@ -58,7 +58,7 @@ export default function Page() {
 <p>      ● You will have to be very organized if you want to get relief.</p>
 <p> </p>
 <p>In Fact the rules are getting even more serious. One of which is you will be required to provide additional information in relation to the claim which will include description of R&amp;D undertaken, breakdown of qualifying costs, details of the agent who advised on the R&amp;D claim and a space for the sign off from the senior officer of the company.</p>
-<p><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/10/Untitled-design-2-300x169.jpg" alt="" width="869" height="490" /></p>
+<p><img src="/images/2024/10/Untitled-design-2-300x169.jpg" alt="" width="869" height="490" /></p>
 <p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
 <p>      ●  Also there is a requirement for the digital submission of all the corporation tax returns that contain R&amp;D claims.</p>
 <p><!-- /wp:paragraph --><!-- wp:paragraph --></p>

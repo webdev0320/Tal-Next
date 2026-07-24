@@ -23,17 +23,17 @@ const ConsolidatedAccounts = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Consolidated-Accounts-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Consolidated-Accounts-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
                 Accounts Services
               </span>
               <h1 className="display-4 fw-bold text-white mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Consolidated Accounts UK – Consolidation Accounting & Financial Statements
+                Consolidated Accounts UK â€“ Consolidation Accounting & Financial Statements
               </h1>
               <p className="lead text-white-50 mb-4" style={{ maxWidth: '680px', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 Streamlined Consolidated Accounts: Clarity and Precision for Your Group Finances at Taxaccolega.
@@ -46,7 +46,7 @@ const ConsolidatedAccounts = () => {
                 <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0 small" style={{ background: 'transparent' }}>
                   <li className="breadcrumb-item"><Link href="/" className="text-decoration-none text-brand-orange">Home</Link></li>
                   <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none text-brand-orange">Accounts</Link></li>
-                  <li className="breadcrumb-item active text-white-50" aria-current="page">Consolidated Accounts UK – Consolidation Accounting & Financial Statements</li>
+                  <li className="breadcrumb-item active text-white-50" aria-current="page">Consolidated Accounts UK â€“ Consolidation Accounting & Financial Statements</li>
                 </ol>
               </nav>
             </div>
@@ -75,7 +75,7 @@ const ConsolidatedAccounts = () => {
             <ol className="breadcrumb mb-0 small">
               <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
               <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none" style={{ color: '#D2601A' }}>Accounts</Link></li>
-              <li className="breadcrumb-item active text-secondary">Consolidated Accounts UK – Consolidation Accounting & Financial Statements</li>
+              <li className="breadcrumb-item active text-secondary">Consolidated Accounts UK â€“ Consolidation Accounting & Financial Statements</li>
             </ol>
           </nav>
         </div>
@@ -95,7 +95,7 @@ const ConsolidatedAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -108,7 +108,7 @@ const ConsolidatedAccounts = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Then the group grows.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Money starts moving between entities. One company invoices another. Shared costs are allocated differently across businesses. Directors move funds between accounts to support operations. Assets sit in one company while revenue flows through another.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That is usually the point where business owners stop looking at companies separately and start asking a different question:</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>“What does the group actually look like as one business?”</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>â€œWhat does the group actually look like as one business?â€</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That question is where consolidated accounts begin.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Not as a technical exercise. Not as an accounting formality. But as the only reliable way to understand how a connected group is really performing.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At Taxaccolega, we prepare consolidated accounts and consolidated financial statements for UK groups that need clearer reporting, stronger financial visibility, and properly aligned group-level reporting across connected entities.</p>
@@ -120,12 +120,12 @@ const ConsolidatedAccounts = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Consolidated Accounts UK – What Consolidation Actually Means
+                Consolidated Accounts UK â€“ What Consolidation Actually Means
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Consolidated accounts combine multiple companies into one reporting position.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Instead of viewing each company separately, consolidation accounting restructures the figures so the group can be seen as a single economic entity.</p>
@@ -146,16 +146,16 @@ const ConsolidatedAccounts = () => {
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2024/11/edit.1-3.jpg" alt="Consolidated Accounts UK – What Consolidation Actually Means" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2024/11/edit.1-3.jpg" alt="Consolidated Accounts UK â€“ What Consolidation Actually Means" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2024/11/edit.2-3.jpg" alt="Why Groups Become Difficult to Read Without Consolidation" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -184,9 +184,9 @@ const ConsolidatedAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What Are Consolidated Financial Statements?
@@ -224,9 +224,9 @@ const ConsolidatedAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2024/11/money-bank-card-keyboard_144627-47420.jpg" alt="What Makes Consolidation Accounting Difficult in Practice" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -255,9 +255,9 @@ const ConsolidatedAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Core Structure Within Consolidated Financial Statements
@@ -315,17 +315,17 @@ const ConsolidatedAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2024/11/magnifying-glass-fallen-coins-infographic-template-1-scaled.jpg" alt="Intercompany Transactions – Where Most Consolidation Problems Begin" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2024/11/magnifying-glass-fallen-coins-infographic-template-1-scaled.jpg" alt="Intercompany Transactions â€“ Where Most Consolidation Problems Begin" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
             <div className="col-lg-7 order-1 order-lg-2">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Intercompany Transactions – Where Most Consolidation Problems Begin
+                Intercompany Transactions â€“ Where Most Consolidation Problems Begin
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Intercompany activity is usually where consolidated accounts become technically sensitive.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>One company records a sale.</p>
@@ -352,9 +352,9 @@ const ConsolidatedAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Consolidated Accounts and Management Visibility
@@ -387,7 +387,7 @@ const ConsolidatedAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -442,7 +442,7 @@ const ConsolidatedAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -461,14 +461,14 @@ const ConsolidatedAccounts = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>identifying mismatches before year-end</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>supporting ongoing group reporting visibility</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The practical result is not simply “a completed set of consolidated financial statements.”</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The practical result is not simply â€œa completed set of consolidated financial statements.â€</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It is a reporting process that remains usable as the group continues growing.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -487,7 +487,7 @@ const ConsolidatedAccounts = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>financial reporting alignment across entities</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The goal is not simply combining companies together on paper.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It is making sure the financial position of the group reflects operational reality — clearly, accurately, and consistently.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It is making sure the financial position of the group reflects operational reality â€” clearly, accurately, and consistently.</p>
             </div>
           </div>
         </div>

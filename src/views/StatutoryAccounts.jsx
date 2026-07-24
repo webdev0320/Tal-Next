@@ -21,17 +21,17 @@ const StatutoryAccounts = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Statutory-Accounts-1-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Statutory-Accounts-1-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
                 Accounts Services
               </span>
               <h1 className="display-4 fw-bold text-white mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Statutory Accounts UK – Preparation, Filing & Reporting
+                Statutory Accounts UK â€“ Preparation, Filing & Reporting
               </h1>
               <p className="lead text-white-50 mb-4" style={{ maxWidth: '680px', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 Reliable Statutory Accounts Services: Ensuring Compliance with Accuracy at Taxaccolega
@@ -44,7 +44,7 @@ const StatutoryAccounts = () => {
                 <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0 small" style={{ background: 'transparent' }}>
                   <li className="breadcrumb-item"><Link href="/" className="text-decoration-none text-brand-orange">Home</Link></li>
                   <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none text-brand-orange">Accounts</Link></li>
-                  <li className="breadcrumb-item active text-white-50" aria-current="page">Statutory Accounts UK – Preparation, Filing & Reporting</li>
+                  <li className="breadcrumb-item active text-white-50" aria-current="page">Statutory Accounts UK â€“ Preparation, Filing & Reporting</li>
                 </ol>
               </nav>
             </div>
@@ -73,7 +73,7 @@ const StatutoryAccounts = () => {
             <ol className="breadcrumb mb-0 small">
               <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
               <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none" style={{ color: '#D2601A' }}>Accounts</Link></li>
-              <li className="breadcrumb-item active text-secondary">Statutory Accounts UK – Preparation, Filing & Reporting</li>
+              <li className="breadcrumb-item active text-secondary">Statutory Accounts UK â€“ Preparation, Filing & Reporting</li>
             </ol>
           </nav>
         </div>
@@ -93,27 +93,27 @@ const StatutoryAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Statutory accounts don’t go wrong suddenly — they fall out of sync
+                Statutory accounts donâ€™t go wrong suddenly â€” they fall out of sync
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most businesses don’t ignore their numbers.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most businesses donâ€™t ignore their numbers.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Transactions are recorded. Invoices go out. Costs are tracked. Bank activity is visible.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>On the surface, everything looks complete.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The problem is not whether data exists.
  The problem is whether everything still connects when it needs to.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Statutory accounts bring everything together into one position — and that’s where gaps appear.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Statutory accounts bring everything together into one position â€” and thatâ€™s where gaps appear.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Figures that seemed fine during the year no longer align.
- Balances don’t reconcile exactly.
- Certain transactions need to be revisited because they were recorded in a way that doesn’t hold under statutory reporting rules.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That’s the point where statutory accounts stop being routine and become something that requires proper handling — because once submitted, they are final, public, and relied upon.</p>
+ Balances donâ€™t reconcile exactly.
+ Certain transactions need to be revisited because they were recorded in a way that doesnâ€™t hold under statutory reporting rules.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Thatâ€™s the point where statutory accounts stop being routine and become something that requires proper handling â€” because once submitted, they are final, public, and relied upon.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2024/11/edit.11.jpg" alt="Statutory accounts don’t go wrong suddenly — they fall out of sync" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2024/11/edit.11.jpg" alt="Statutory accounts donâ€™t go wrong suddenly â€” they fall out of sync" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
           </div>
@@ -122,22 +122,22 @@ const StatutoryAccounts = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2024/06/Accounts-1-scaled.webp" alt="Statutory Accounts UK – Built Around Accuracy, Structure and Compliance" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2024/06/Accounts-1-scaled.webp" alt="Statutory Accounts UK â€“ Built Around Accuracy, Structure and Compliance" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
             <div className="col-lg-7 order-1 order-lg-2">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Statutory Accounts UK – Built Around Accuracy, Structure and Compliance
+                Statutory Accounts UK â€“ Built Around Accuracy, Structure and Compliance
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Statutory accounts are formal financial statements prepared under UK statutory accounting principles and filed with Companies House.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>They are not internal summaries. They are the official version of your financial position.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Our statutory accounts preparation focuses on one outcome:</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>your accounts must hold together — technically, legally, and logically — before they are filed.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>your accounts must hold together â€” technically, legally, and logically â€” before they are filed.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That means:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>figures align with underlying records</span></li>
@@ -150,9 +150,9 @@ const StatutoryAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What Are Statutory Accounts and Why They Carry Weight
@@ -172,8 +172,8 @@ const StatutoryAccounts = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Statutory accounts are only as strong as the records behind them.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If bookkeeping has inconsistencies, they surface here.
  If expense classifications were unclear, they surface here.
- If payroll figures don’t match financial records, they surface here.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is why statutory accounts are directly tied to <Link href="/accounts/bookkeeping-services" className="text-brand-orange fw-semibold text-decoration-none">bookkeeping services for small businesses</Link> — not as a separate function, but as the foundation they rely on.</p>
+ If payroll figures donâ€™t match financial records, they surface here.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is why statutory accounts are directly tied to <Link href="/accounts/bookkeeping-services" className="text-brand-orange fw-semibold text-decoration-none">bookkeeping services for small businesses</Link> â€” not as a separate function, but as the foundation they rely on.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
@@ -184,17 +184,17 @@ const StatutoryAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2024/11/edit.4.jpg" alt="Preparing Statutory Accounts – What Actually Happens" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2024/11/edit.4.jpg" alt="Preparing Statutory Accounts â€“ What Actually Happens" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
             <div className="col-lg-7 order-1 order-lg-2">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Preparing Statutory Accounts – What Actually Happens
+                Preparing Statutory Accounts â€“ What Actually Happens
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Statutory accounts preparation is not a formatting exercise.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It is a process of turning a year of financial activity into a position that is technically correct and internally consistent.</p>
@@ -253,9 +253,9 @@ const StatutoryAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Statutory Accounts Format and Technical Requirements
@@ -285,9 +285,9 @@ const StatutoryAccounts = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2024/11/edit.3-1.webp" alt="Where Statutory Accounts Become Complicated" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -298,20 +298,20 @@ const StatutoryAccounts = () => {
                 Where Statutory Accounts Become Complicated
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Statutory accounts become difficult when:
-       ●   transactions span multiple periods
-       ●   directors take mixed salary and dividends
-       ●   costs are recorded without clear categorisation
-       ●   intercompany transactions exist
-       ●   prior period errors carry forward
+Â  Â  Â  Â â—Â  Â transactions span multiple periods
+Â  Â  Â  Â â—Â  Â directors take mixed salary and dividends
+Â  Â  Â  Â â—Â  Â costs are recorded without clear categorisation
+Â  Â  Â  Â â—Â  Â intercompany transactions exist
+Â  Â  Â  Â â—Â  Â prior period errors carry forward
 These are not rare scenarios. They are common in growing businesses.
 A common example is where director loan balances are recorded inconsistently across the year, creating discrepancies at year-end. Another is where income is recognised in one period but costs are recorded in another, leading to misaligned profit reporting. 
-And this is where a “simple accounts preparation” approach breaks down — because the work is no longer about compiling figures, but about correcting structure.</p>
+And this is where a â€œsimple accounts preparationâ€ approach breaks down â€” because the work is no longer about compiling figures, but about correcting structure.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -322,20 +322,20 @@ And this is where a “simple accounts preparation” approach breaks down — b
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Transactions have been recorded.
  Decisions have been made.
  Classifications are already in place.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If something is wrong at that stage, it is not an adjustment — it is a correction.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If something is wrong at that stage, it is not an adjustment â€” it is a correction.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>And corrections often mean:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>reworking earlier entries</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>revisiting assumptions</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>explaining differences that should not exist</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is why businesses that treat statutory accounts as a year-end task usually experience pressure — because the work actually started long before preparation began.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is why businesses that treat statutory accounts as a year-end task usually experience pressure â€” because the work actually started long before preparation began.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -348,7 +348,7 @@ And this is where a “simple accounts preparation” approach breaks down — b
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -363,7 +363,7 @@ And this is where a “simple accounts preparation” approach breaks down — b
                 <li className="d-flex align-items-start"><CheckIcon /><span>explanations become more complex</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>risk of error increases</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is not about compliance alone — it is about consistency across financial outputs.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is not about compliance alone â€” it is about consistency across financial outputs.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Statutory reporting requires alignment across:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>accounting records</span></li>
@@ -382,7 +382,7 @@ And this is where a “simple accounts preparation” approach breaks down — b
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -416,7 +416,7 @@ And this is where a “simple accounts preparation” approach breaks down — b
                     </tr>
                     <tr className="border-bottom">
                       <td className="py-3 px-4 fw-bold text-brand-dark">Unreconciled balances</td>
-                      <td className="py-3 px-4 text-secondary">Figures don’t match</td>
+                      <td className="py-3 px-4 text-secondary">Figures donâ€™t match</td>
                       <td className="py-3 px-4 text-secondary">Delays and uncertainty</td>
                     </tr>
                     <tr className="border-bottom" style={{ background: '#fcfcfc' }}>
@@ -437,7 +437,7 @@ And this is where a “simple accounts preparation” approach breaks down — b
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -450,8 +450,8 @@ And this is where a “simple accounts preparation” approach breaks down — b
                 <li className="d-flex align-items-start"><CheckIcon /><span>format</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>submit</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is not about preparing accounts for submission — it is about ensuring the structure behind them is correct before they are finalised.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That’s expected.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is not about preparing accounts for submission â€” it is about ensuring the structure behind them is correct before they are finalised.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Thatâ€™s expected.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The difference is in how the data is handled before it reaches that stage.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Our approach focuses on:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
@@ -465,34 +465,34 @@ And this is where a “simple accounts preparation” approach breaks down — b
                 <li className="d-flex align-items-start"><CheckIcon /><span>filing pressure</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>risk of incorrect submission</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The result is not just compliant statutory accounts — but accounts that stand up under scrutiny.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The result is not just compliant statutory accounts â€” but accounts that stand up under scrutiny.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 When You Should Speak to a Statutory Accountant
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You don’t need to wait until year-end pressure builds.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You donâ€™t need to wait until year-end pressure builds.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The right time is when:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>Records no longer fully reconcile</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>Financial reports feel inconsistent</span></li>
-                <li className="d-flex align-items-start"><CheckIcon /><span>You’re unsure how transactions should be treated</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>Youâ€™re unsure how transactions should be treated</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>Deadlines are approaching but data is not aligned</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At that stage, statutory accounts move from preparation to correction — and correction always takes longer.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At that stage, statutory accounts move from preparation to correction â€” and correction always takes longer.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -510,14 +510,14 @@ And this is where a “simple accounts preparation” approach breaks down — b
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Speak to Taxaccolega Statutory Accountant in London UK
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Where statutory issues build across the year, resolving them at year-end often requires revisiting and correcting earlier records — not just finalising accounts. If your year-end is approaching and your accounts are not fully aligned, the issue is not the deadline — it is the structure behind the numbers.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Where statutory issues build across the year, resolving them at year-end often requires revisiting and correcting earlier records â€” not just finalising accounts. If your year-end is approaching and your accounts are not fully aligned, the issue is not the deadline â€” it is the structure behind the numbers.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Statutory accounts need to be prepared once, correctly.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Because once filed:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">

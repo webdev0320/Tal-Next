@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/what-do-i-need-to-do-if-i-want-to-run-my-online-business-through-amazon/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-05-05 11:55:52",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/amazon-boxes-2.jpg" }],
+    images: [{ url: "/images/2022/05/amazon-boxes-2.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "What do I need to do if I want to run my online business through Amazon? | Taxaccolega",
     description: "What do I need to do if I want to run my online business through Amazon? In the previous article we talked about things you need to consider when choosing a bu…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/amazon-boxes-2.jpg"],
+    images: ["/images/2022/05/amazon-boxes-2.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/amazon-boxes-2.jpg" alt="What do I need to do if I want to run my online business through Amazon?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/05/amazon-boxes-2.jpg" alt="What do I need to do if I want to run my online business through Amazon?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

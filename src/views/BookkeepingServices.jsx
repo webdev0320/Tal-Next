@@ -23,10 +23,10 @@ const BookkeepingServices = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Bookkeeping-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Bookkeeping-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
@@ -36,7 +36,7 @@ const BookkeepingServices = () => {
                 Bookkeeping Services For Small and Medium Businesses in UK
               </h1>
               <p className="lead text-white-50 mb-4" style={{ maxWidth: '680px', fontSize: '1.1rem', lineHeight: 1.6 }}>
-                Taxaccolega’s online solutions can simplify your finances, ensuring accuracy and compliance. Book consult.
+                Taxaccolegaâ€™s online solutions can simplify your finances, ensuring accuracy and compliance. Book consult.
               </p>
               <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mb-4">
                 <a href="#contact-block" className="btn btn-brand px-4 py-2 shadow">CONTACT US</a>
@@ -83,22 +83,22 @@ const BookkeepingServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Bookkeeping doesn’t usually fail — it slowly slips out of control
+                Bookkeeping doesnâ€™t usually fail â€” it slowly slips out of control
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Bookkeeping rarely breaks all at once. It slips.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A few invoices don’t get recorded. Some expenses are left for later. Bank transactions don’t fully match what’s in the system. At first, it doesn’t seem like a problem — the business is still running, payments are going through, and nothing feels urgent.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A few invoices donâ€™t get recorded. Some expenses are left for later. Bank transactions donâ€™t fully match whatâ€™s in the system. At first, it doesnâ€™t seem like a problem â€” the business is still running, payments are going through, and nothing feels urgent.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Then at some point, the numbers stop making sense.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You look at your records and realise they no longer reflect what’s actually happening in the business. That’s when bookkeeping stops being a background task and becomes something that needs to be sorted properly.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is where professional bookkeeping services in London and across the UK become relevant — not because bookkeeping is complicated, but because it needs to stay consistent as the business grows.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You look at your records and realise they no longer reflect whatâ€™s actually happening in the business. Thatâ€™s when bookkeeping stops being a background task and becomes something that needs to be sorted properly.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is where professional bookkeeping services in London and across the UK become relevant â€” not because bookkeeping is complicated, but because it needs to stay consistent as the business grows.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-Services-UK.webp" alt="Bookkeeping doesn’t usually fail — it slowly slips out of control" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-Services-UK.webp" alt="Bookkeeping doesnâ€™t usually fail â€” it slowly slips out of control" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
           </div>
@@ -107,45 +107,45 @@ const BookkeepingServices = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Bookkeeping-What-Bookkeeping-Actually-Does-in-a-Running-Business.webp" alt="Bookkeeping Services UK – Built Around Control, Not Just Recording" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Bookkeeping-What-Bookkeeping-Actually-Does-in-a-Running-Business.webp" alt="Bookkeeping Services UK â€“ Built Around Control, Not Just Recording" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
             <div className="col-lg-7 order-1 order-lg-2">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Bookkeeping Services UK – Built Around Control, Not Just Recording
+                Bookkeeping Services UK â€“ Built Around Control, Not Just Recording
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Bookkeeping is often treated as a task — something to complete and move on from. In reality, it’s the foundation of how your business understands its own finances.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Bookkeeping is often treated as a task â€” something to complete and move on from. In reality, itâ€™s the foundation of how your business understands its own finances.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Our bookkeeping services are designed to keep your records:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>accurate</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>up to date</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>usable</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Whether you’re looking for outsourced bookkeeping services, online bookkeeping services, or local bookkeeping services in London, the goal is the same:
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Whether youâ€™re looking for outsourced bookkeeping services, online bookkeeping services, or local bookkeeping services in London, the goal is the same:
  <strong className="text-brand-dark">make sure your financial records stay clear at all times, not just at year-end.</strong></p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What Bookkeeping Actually Does in a Running Business
               </h2>
               <h3 className="text-brand-orange fw-bold mb-3">It turns activity into something measurable</h3>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Every business generates financial activity constantly — sales, expenses, payments, transfers. Bookkeeping is what turns that activity into a structured record.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Without that structure, numbers exist, but they don’t tell you anything useful.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Every business generates financial activity constantly â€” sales, expenses, payments, transfers. Bookkeeping is what turns that activity into a structured record.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Without that structure, numbers exist, but they donâ€™t tell you anything useful.</p>
               <h3 className="text-brand-orange fw-bold mb-3">It keeps everything aligned across your business</h3>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>When bookkeeping is consistent, everything else becomes easier to manage. VAT figures match transactions. Reports reflect actual performance. Decisions are based on real numbers.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>When it isn’t, problems don’t stay isolated — they spread into other areas.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>When it isnâ€™t, problems donâ€™t stay isolated â€” they spread into other areas.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>For example, inaccurate records often lead to issues when preparing <Link href="/taxation/vat-accountants" className="text-brand-orange fw-semibold text-decoration-none">VAT return accountants,</Link> where figures must match underlying transactions.</p>
             </div>
             <div className="col-lg-5">
@@ -157,9 +157,9 @@ const BookkeepingServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-Services-for-Small.webp" alt="Where Bookkeeping Starts to Go Wrong" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -169,7 +169,7 @@ const BookkeepingServices = () => {
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Where Bookkeeping Starts to Go Wrong
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most businesses don’t ignore bookkeeping — they delay it.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most businesses donâ€™t ignore bookkeeping â€” they delay it.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It starts with small gaps:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>transactions not recorded on time</span></li>
@@ -178,7 +178,7 @@ const BookkeepingServices = () => {
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A common example is where bank transactions are imported but not properly categorised, leaving accounts appearing complete but inaccurate. Another is where invoices are recorded but payments are not matched, creating differences between reported income and actual cash received.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Over time, those gaps build into something bigger.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>By the time you need the numbers — whether for reporting, tax, or planning — the records require correction rather than use.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>By the time you need the numbers â€” whether for reporting, tax, or planning â€” the records require correction rather than use.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is also where complications start appearing in areas like <Link href="/taxation/company-tax-return-accountants" className="text-brand-orange fw-semibold text-decoration-none">corporation tax services</Link>, where financial accuracy directly affects tax calculations.</p>
               <h3 className="text-brand-orange fw-bold mb-3">Why Bookkeeping Problems Are Usually Discovered Too Late</h3>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>By the time bookkeeping issues are noticed, they are rarely new. They have usually been building quietly over several periods, only becoming visible when reports are needed or deadlines approach.</p>
@@ -191,15 +191,15 @@ const BookkeepingServices = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>more accounts to manage</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>more reliance on accurate data</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At that stage, bookkeeping becomes less about “keeping records” and more about <strong className="text-brand-dark">maintaining control over financial information</strong>.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At that stage, bookkeeping becomes less about â€œkeeping recordsâ€ and more about <strong className="text-brand-dark">maintaining control over financial information</strong>.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Online Bookkeeping Services and Cloud-Based Systems
@@ -207,10 +207,10 @@ const BookkeepingServices = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Modern bookkeeping in the UK is increasingly handled through cloud-based systems.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Online bookkeeping services allow businesses to:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>access financial data in real time ● monitor transactions continuously ● maintain visibility without relying on manual updates</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>access financial data in real time â— monitor transactions continuously â— maintain visibility without relying on manual updates</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is particularly useful when using platforms like <Link href="/xero" className="text-brand-orange fw-semibold text-decoration-none">Xero</Link>or <Link href="/quickbooks" className="text-brand-orange fw-semibold text-decoration-none">QuickBooks</Link>, where bookkeeping feeds directly into reporting and financial oversight.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Working with an online bookkeeper ensures that data isn’t just entered — it’s structured correctly from the start.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Working with an online bookkeeper ensures that data isnâ€™t just entered â€” itâ€™s structured correctly from the start.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
@@ -221,22 +221,22 @@ const BookkeepingServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-and-Accounting.webp" alt="Outsourced Bookkeeping Services UK – Why Businesses Shift Away from In-House" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-and-Accounting.webp" alt="Outsourced Bookkeeping Services UK â€“ Why Businesses Shift Away from In-House" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
             <div className="col-lg-7 order-1 order-lg-2">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Outsourced Bookkeeping Services UK – Why Businesses Shift Away from In-House
+                Outsourced Bookkeeping Services UK â€“ Why Businesses Shift Away from In-House
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Outsourcing bookkeeping is rarely the first step — it usually happens after internal systems start falling behind.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Outsourcing bookkeeping is rarely the first step â€” it usually happens after internal systems start falling behind.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Businesses typically move to outsourced bookkeeping services when:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>records are no longer consistent ● internal tracking becomes unreliable ● time is being spent fixing errors instead of maintaining accuracy</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>records are no longer consistent â— internal tracking becomes unreliable â— time is being spent fixing errors instead of maintaining accuracy</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Outsourced bookkeeping provides a structured approach where everything is handled continuously, rather than corrected later.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This also supports better visibility through <Link href="/accounts/management-accounts" className="text-brand-orange fw-semibold text-decoration-none">accurate management accounts services</Link>, allowing businesses to understand their position without relying on guesswork.</p>
@@ -245,21 +245,21 @@ const BookkeepingServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Bookkeeping and Accounting – Understanding the Difference
+                Bookkeeping and Accounting â€“ Understanding the Difference
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Bookkeeping and accounting are closely related, but they don’t serve the same purpose.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Bookkeeping and accounting are closely related, but they donâ€™t serve the same purpose.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Bookkeeping creates the records. Accounting uses those records.</p>
               <h3 className="text-brand-orange fw-bold mb-3">Key Differences</h3>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>When bookkeeping is consistent, accounting processes such as <Link href="/accounts/statutory-accounts" className="text-brand-orange fw-semibold text-decoration-none">preparing statutory</Link> <Link href="/accounts/statutory-accounts" className="text-brand-orange fw-semibold text-decoration-none">accounts</Link> preparation become far more straightforward. This distinction becomes critical when records are relied on for tax and reporting, not just internal tracking.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-as-a-Foundation-for-Financial-Planning.webp" alt="Bookkeeping and Accounting – Understanding the Difference" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-as-a-Foundation-for-Financial-Planning.webp" alt="Bookkeeping and Accounting â€“ Understanding the Difference" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
           </div>
@@ -303,9 +303,9 @@ const BookkeepingServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Bookkeeping-Why-Businesses-Use-Professional.webp" alt="Business Bookkeeping Services and Financial Accuracy" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -321,43 +321,43 @@ const BookkeepingServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Bookkeeping Services London – Supporting Compliance Without Pressure
+                Bookkeeping Services London â€“ Supporting Compliance Without Pressure
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Compliance is rarely the immediate concern when bookkeeping starts slipping — but it quickly becomes one.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Compliance is rarely the immediate concern when bookkeeping starts slipping â€” but it quickly becomes one.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>It influences:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>how clearly you understand your business ● how confidently you make decisions ● how smoothly financial processes run</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>how clearly you understand your business â— how confidently you make decisions â— how smoothly financial processes run</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>For example, where businesses operate <strong className="text-brand-dark"><Link href="/accounts/payroll-services" className="text-brand-orange fw-semibold text-decoration-none">structured payroll</Link> <Link href="/accounts/payroll-services" className="text-brand-orange fw-semibold text-decoration-none">services in UK</Link></strong>, accurate bookkeeping ensures that salary payments, expenses, and financial records remain aligned.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Even though payroll operates separately, inconsistencies in bookkeeping often create confusion across both areas.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>They struggle because:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>prepare VAT returns ● complete tax filings ● respond to HMRC queries</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>prepare VAT returns â— complete tax filings â— respond to HMRC queries</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>In more complex situations, such as <Link href="/taxation/tax-investigation-insurance" className="text-brand-orange fw-semibold text-decoration-none">tax investigation support</Link>, properly maintained records can significantly reduce the time and effort needed to resolve issues.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Bookkeeping-When-You-Should-Speak-to-a-Bookkeeper-scaled.webp" alt="Bookkeeping Services London – Supporting Compliance Without Pressure" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Bookkeeping-When-You-Should-Speak-to-a-Bookkeeper-scaled.webp" alt="Bookkeeping Services London â€“ Supporting Compliance Without Pressure" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                What’s Included in Our Bookkeeping Services
+                Whatâ€™s Included in Our Bookkeeping Services
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Our bookkeeping services are designed to cover the full scope of financial record management. This is not just about recording transactions — it is about making sure the records reflect what is actually happening in your business at any point in time.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Our bookkeeping services are designed to cover the full scope of financial record management. This is not just about recording transactions â€” it is about making sure the records reflect what is actually happening in your business at any point in time.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This includes:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>recording financial transactions</span></li>
@@ -368,7 +368,7 @@ const BookkeepingServices = () => {
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Everything is handled consistently so your records are always ready when needed.</p>
               <h3 className="text-brand-orange fw-bold mb-3">Bookkeeping as a Foundation for Financial Planning</h3>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Bookkeeping doesn’t just reflect the past — it supports future decisions.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Bookkeeping doesnâ€™t just reflect the past â€” it supports future decisions.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>When records are accurate, businesses can work with:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>financial forecasting services</span></li>
@@ -380,14 +380,14 @@ const BookkeepingServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Why Businesses Use Professional Bookkeeping Services UK
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most bookkeeping problems don’t come from complexity — they come from inconsistency.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most bookkeeping problems donâ€™t come from complexity â€” they come from inconsistency.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>When records are not maintained properly:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>numbers stop reflecting reality</span></li>
@@ -400,7 +400,7 @@ const BookkeepingServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -410,13 +410,13 @@ const BookkeepingServices = () => {
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>when records no longer match bank activity</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>when VAT figures feel unclear</span></li>
-                <li className="d-flex align-items-start"><CheckIcon /><span>when reports don’t reflect reality</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>when reports donâ€™t reflect reality</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>when time is spent fixing errors</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At that stage, bookkeeping shifts from maintenance to correction.</p>
               <h3 className="text-brand-orange fw-bold mb-3">Speak to Taxaccolega Bookkeepers in London UK</h3>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>When bookkeeping issues build over time, correcting them often means revisiting multiple periods — not just bringing records up to date.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If your records no longer feel clear or consistent, it’s usually a sign they need to be handled more systematically.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>When bookkeeping issues build over time, correcting them often means revisiting multiple periods â€” not just bringing records up to date.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If your records no longer feel clear or consistent, itâ€™s usually a sign they need to be handled more systematically.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Whether you need:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>outsourced bookkeeping services</span></li>

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/ated-2025/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-04-17 13:44:30",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/rear-view-man-seated-armchair-cafe-analyzing-diagrams-charts-before-presentation-scaled.jpg" }],
+    images: [{ url: "/images/2024/11/rear-view-man-seated-armchair-cafe-analyzing-diagrams-charts-before-presentation-scaled.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "ATED 2025 don't miss the 30 april 2025 deadline for ated return filing | Taxaccolega",
     description: "ATED 2025 Don’t Miss the 30 April 2025 deadline for ATED return filing Table of Contents Let Taxaccolega manage It for You! ATED Tax fees for 2025/26 How to fi…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/rear-view-man-seated-armchair-cafe-analyzing-diagrams-charts-before-presentation-scaled.jpg"],
+    images: ["/images/2024/11/rear-view-man-seated-armchair-cafe-analyzing-diagrams-charts-before-presentation-scaled.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/rear-view-man-seated-armchair-cafe-analyzing-diagrams-charts-before-presentation-scaled.jpg" alt="ATED 2025 don't miss the 30 april 2025 deadline for ated return filing" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/11/rear-view-man-seated-armchair-cafe-analyzing-diagrams-charts-before-presentation-scaled.jpg" alt="ATED 2025 don't miss the 30 april 2025 deadline for ated return filing" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

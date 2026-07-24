@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/higher-employer-nics-in-2025/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-05-09 17:37:10",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/bigstock-Man-filling-out-an-employment-16555166.jpg" }],
+    images: [{ url: "/images/2023/10/bigstock-Man-filling-out-an-employment-16555166.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Higher Employer NICs in 2025 Action Plan for Small Businesses | Taxaccolega",
     description: "Higher Employer NICs in 2025 Action Plan for Small Businesses You might be eligible for Research and Development (R&D) tax relief if your company makes investm…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/bigstock-Man-filling-out-an-employment-16555166.jpg"],
+    images: ["/images/2023/10/bigstock-Man-filling-out-an-employment-16555166.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/bigstock-Man-filling-out-an-employment-16555166.jpg" alt="Higher Employer NICs in 2025 Action Plan for Small Businesses" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2023/10/bigstock-Man-filling-out-an-employment-16555166.jpg" alt="Higher Employer NICs in 2025 Action Plan for Small Businesses" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -50,7 +50,7 @@ export default function Page() {
 <p>If you own shares and you want to sell them when they have increased in value you will have to pay <strong><a href="https://www.taxaccolega.co.uk/taxation/capital-gains-tax-accountant/">CGT</a></strong> on the profit that you will make from disposing them</p>
 <p><!-- /wp:paragraph --><!-- wp:heading {"level":3} --></p>
 <h3><strong>1. Making use of the Annual Capital Gains Tax Allowance</strong></h3>
-<p><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2020/10/cgt.jpg" alt="Self- Assessment tax return and Capital Gains Tax" width="829" height="621" /></p>
+<p><img src="/images/2020/10/cgt.jpg" alt="Self- Assessment tax return and Capital Gains Tax" width="829" height="621" /></p>
 <p><!-- /wp:heading --><!-- wp:paragraph --></p>
 <p>Each individual is given an annual allowance of £12 300. If you sell your shares and you earn a profit which is £12 300 or less then you will not have to make any tax on it.</p>
 <p><!-- /wp:paragraph --><!-- wp:heading {"level":3} --></p>

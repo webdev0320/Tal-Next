@@ -50,7 +50,7 @@ const VatAccountants = () => {
     },
     {
       q: 'When do I need a VAT registration accountant?',
-      a: 'You are legally required to register for VAT if your taxable business turnover exceeds the threshold of £90,000 (rolling 12-month period). You can also choose to register voluntarily before reaching the threshold to reclaim input VAT. A VAT registration accountant helps analyze when to register, structures the process, and ensures you select the correct scheme.'
+      a: 'You are legally required to register for VAT if your taxable business turnover exceeds the threshold of Ãƒâ€šÃ‚Â£90,000 (rolling 12-month period). You can also choose to register voluntarily before reaching the threshold to reclaim input VAT. A VAT registration accountant helps analyze when to register, structures the process, and ensures you select the correct scheme.'
     },
     {
       q: 'Can VAT accountants fix previous filing errors?',
@@ -58,11 +58,11 @@ const VatAccountants = () => {
     },
     {
       q: 'What is the Flat Rate VAT scheme?',
-      a: 'The Flat Rate Scheme is a simplified HMRC VAT structure designed for small businesses with an expected turnover under £150,000. Instead of calculating VAT on every purchase and sale, you pay HMRC a fixed percentage of your gross turnover. The percentage depends on your industry sector.'
+      a: 'The Flat Rate Scheme is a simplified HMRC VAT structure designed for small businesses with an expected turnover under Ãƒâ€šÃ‚Â£150,000. Instead of calculating VAT on every purchase and sale, you pay HMRC a fixed percentage of your gross turnover. The percentage depends on your industry sector.'
     },
     {
       q: 'What are the penalties for late VAT filing or payment?',
-      a: 'HMRC operates a points-based system for late submissions and payments. Each late return incurs 1 penalty point. Once a point threshold is reached, you are charged an automatic £200 penalty. Late payments also attract interest charges and percentage-based financial surcharges depending on how late the payment is.'
+      a: 'HMRC operates a points-based system for late submissions and payments. Each late return incurs 1 penalty point. Once a point threshold is reached, you are charged an automatic Ãƒâ€šÃ‚Â£200 penalty. Late payments also attract interest charges and percentage-based financial surcharges depending on how late the payment is.'
     }
   ];
 
@@ -71,8 +71,8 @@ const VatAccountants = () => {
   return (
     <div className="bg-light min-h-screen">
 
-      {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
-      <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ HERO SECTION WITH SIDEBAR OVERLAP ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <header className="position-relative text-white overflow-hidden py-4" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
           <div className="row g-4 align-items-center">
@@ -103,7 +103,7 @@ const VatAccountants = () => {
             </div>
             
             {/* HERO OVERLAPPING SIDEBAR */}
-            <div className="col-lg-4 d-none d-lg-block position-relative" style={{ zIndex: 3 }}>
+            <div className="col-lg-5 d-none d-lg-block position-relative" style={{ zIndex: 3 }}>
               <div className="p-4 rounded-4 shadow-lg" style={{ background: 'linear-gradient(180deg, rgba(232,162,116,0.9) 0%, rgba(212,108,36,0.95) 50%, rgba(184,80,14,1) 100%)' }}>
                 <h5 className="text-white fw-bold mb-4 text-center border-bottom pb-2" style={{ fontFamily: "'Outfit', sans-serif" }}>Quick Navigation</h5>
                 <div className="d-flex flex-column gap-3">
@@ -126,7 +126,7 @@ const VatAccountants = () => {
         </div>
       </header>
 
-      {/* ── BREADCRUMBS & SIDEBAR FOR MOBILE ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ BREADCRUMBS & SIDEBAR FOR MOBILE ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="d-block d-lg-none py-3 bg-white border-bottom shadow-sm">
         <div className="container">
           <div className="row g-2">
@@ -145,26 +145,26 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 1: HOW VAT DEVELOPS ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 1: HOW VAT DEVELOPS ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5">
+          <div className="row g-4">
             <div className="col-lg-8">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">The VAT Progression</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                VAT Rarely Feels Like a Problem at the Beginning — But It Builds Quickly
+                VAT Rarely Feels Like a Problem at the Beginning ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â But It Builds Quickly
               </h2>
               <div className="text-secondary d-flex flex-column gap-3 fs-6" style={{ lineHeight: 1.8 }}>
                 <p>VAT rarely feels like a problem at the beginning. A business starts trading, invoices go out, expenses are paid, and everything appears manageable. Then activity increases.</p>
-                <p>More transactions, more suppliers, more customers — and suddenly VAT starts to feel less straightforward.</p>
-                <p>Figures need to match. Deadlines become tighter. There’s uncertainty around what should actually be reported and when to submit a VAT return UK.</p>
+                <p>More transactions, more suppliers, more customers ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â and suddenly VAT starts to feel less straightforward.</p>
+                <p>Figures need to match. Deadlines become tighter. ThereÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s uncertainty around what should actually be reported and when to submit a VAT return UK.</p>
                 <p className="fw-semibold text-brand-dark bg-light p-3 border-start border-brand-orange border-4 rounded-end">
-                  This is where working with a VAT accountant in London UK becomes relevant. For most businesses, VAT doesn’t become difficult because of the rules — it becomes difficult because of how those rules apply to real business activity.
+                  This is where working with a VAT accountant in London UK becomes relevant. For most businesses, VAT doesnÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t become difficult because of the rules ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â it becomes difficult because of how those rules apply to real business activity.
                 </p>
               </div>
             </div>
             
-            <div className="col-lg-4 d-block d-lg-none">
+            <div className="col-lg-5 d-block d-lg-none">
               <div className="p-4 rounded-4 shadow-lg text-white" style={{ background: 'linear-gradient(180deg, rgba(232,162,116,0.9) 0%, rgba(212,108,36,0.95) 50%, rgba(184,80,14,1) 100%)' }}>
                 <h5 className="fw-bold mb-3 text-center border-bottom pb-2">Quick Navigation</h5>
                 <div className="d-flex flex-column gap-3">
@@ -187,14 +187,14 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 2: ACCURACY COMPLIANCE ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 2: ACCURACY COMPLIANCE ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Strategic VAT Oversight</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                VAT Accountants London – VAT Services Built Around Accuracy
+                VAT Accountants London ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ VAT Services Built Around Accuracy
               </h2>
               <p className="text-secondary mb-4 fs-6" style={{ lineHeight: 1.8 }}>
                 Our VAT services are designed to keep your business fully compliant, your reporting consistent, and your submissions highly accurate.
@@ -209,7 +209,7 @@ const VatAccountants = () => {
               
               <p className="text-secondary" style={{ lineHeight: 1.8 }}>
                 Whether you need a VAT registration accountant, ongoing VAT accounting support, or support to file VAT returns online, the focus stays the same: 
-                <strong className="text-brand-dark d-block mt-2 fs-5">keep records clear before submission — not fix them afterwards.</strong>
+                <strong className="text-brand-dark d-block mt-2 fs-5">keep records clear before submission ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â not fix them afterwards.</strong>
               </p>
             </div>
             
@@ -227,13 +227,13 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 3: TAX BADGES NAV GRID (now using shared TaxationLinksBar) ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 3: TAX BADGES NAV GRID (now using shared TaxationLinksBar) ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <TaxationLinksBar />
 
-      {/* ── SECTION 4: HOW VAT WORKS IN REAL BUSINESS ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 4: HOW VAT WORKS IN REAL BUSINESS ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img 
@@ -251,7 +251,7 @@ const VatAccountants = () => {
                 How VAT Works in Real Business Activity
               </h2>
               <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>
-                In practice, VAT accounting is not just about submitting periodic returns. It’s about understanding how VAT flows through your day-to-day business.
+                In practice, VAT accounting is not just about submitting periodic returns. ItÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s about understanding how VAT flows through your day-to-day business.
               </p>
               
               <ul className="list-unstyled mb-4 d-flex flex-column gap-3 text-secondary" style={{ lineHeight: 1.7 }}>
@@ -283,13 +283,13 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 5: CLIENTS AND PARTNERS ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 5: CLIENTS AND PARTNERS ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <Partners />
 
-      {/* ── SECTION 6: SUBMIT WITH CONFIDENCE ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 6: SUBMIT WITH CONFIDENCE ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Submission Quality</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
@@ -300,7 +300,7 @@ const VatAccountants = () => {
               </p>
               
               <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>
-                Most issues arise before submission — when figures don’t align. A common example is where sales invoices include VAT but purchase invoices are recorded late, creating an overstated liability. Another is where VAT is applied incorrectly on mixed-use expenses, leading to inaccurate input VAT claims.
+                Most issues arise before submission ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â when figures donÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t align. A common example is where sales invoices include VAT but purchase invoices are recorded late, creating an overstated liability. Another is where VAT is applied incorrectly on mixed-use expenses, leading to inaccurate input VAT claims.
               </p>
 
               <div className="p-4 border-start border-brand-orange border-4 bg-light rounded-end mb-4">
@@ -308,12 +308,12 @@ const VatAccountants = () => {
                 <ul className="list-unstyled mb-0 d-flex flex-column gap-2 text-secondary" style={{ fontSize: '0.92rem' }}>
                   <li className="d-flex align-items-center"><WarningIcon /> VAT returns are due and pressure builds</li>
                   <li className="d-flex align-items-center"><WarningIcon /> Figures look correct on the spreadsheet dashboard</li>
-                  <li className="d-flex align-items-center"><WarningIcon /> But final totals don’t fully match underlying records</li>
+                  <li className="d-flex align-items-center"><WarningIcon /> But final totals donÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t fully match underlying records</li>
                 </ul>
               </div>
 
               <p className="text-secondary" style={{ lineHeight: 1.8 }}>
-                This is where working with VAT return accountants becomes critical. It is not about submitting VAT returns — it is about ensuring that the figures behind them reflect your actual business activity before they are filed.
+                This is where working with VAT return accountants becomes critical. It is not about submitting VAT returns ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â it is about ensuring that the figures behind them reflect your actual business activity before they are filed.
               </p>
             </div>
             
@@ -344,10 +344,10 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 7: VAT REGISTRATION ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 7: VAT REGISTRATION ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img 
@@ -362,7 +362,7 @@ const VatAccountants = () => {
             <div className="col-lg-7 order-1 order-lg-2">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Initial Setup Protocols</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                VAT Registration Accountant – Getting Set Up Properly
+                VAT Registration Accountant ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Getting Set Up Properly
               </h2>
               <p className="text-secondary mb-4 fs-6" style={{ lineHeight: 1.8 }}>
                 VAT registration is one of the first stages where early mistakes can carry forward across years. Some businesses register too early. Others delay registration and face severe penalties.
@@ -383,15 +383,15 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 8: WHY WORK WITH VAT ACCOUNTANTS ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 8: WHY WORK WITH VAT ACCOUNTANTS ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="text-center mb-5">
             <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Commercial Advantage</span>
             <h3 className="text-brand-dark display-6 fw-bold mt-2" style={{ fontFamily: "'Outfit', sans-serif" }}>
               Why Businesses Work with VAT Accountants
             </h3>
-            <p className="text-secondary mt-2">Submission is straightforward — but the preparation behind it is where errors build.</p>
+            <p className="text-secondary mt-2">Submission is straightforward ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â but the preparation behind it is where errors build.</p>
           </div>
           
           <div className="row g-4">
@@ -440,16 +440,16 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 9: REVIEWS SLIDER ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 9: REVIEWS SLIDER ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <ReviewsSlider />
 
-      {/* ── SECTION 10: VAT SERVICES INCLUDED GRID ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 10: VAT SERVICES INCLUDED GRID ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="text-center mb-5">
             <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Service Scope</span>
             <h3 className="text-brand-dark display-6 fw-bold mt-2" style={{ fontFamily: "'Outfit', sans-serif" }}>
-              VAT Services Across London and The UK – What’s Included
+              VAT Services Across London and The UK ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ WhatÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s Included
             </h3>
             <p className="text-secondary mt-2">Comprehensive VAT services covering the full compliance cycle, not just submission.</p>
           </div>
@@ -475,15 +475,15 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 11: GROWING BUSINESSES & TIMELINES ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 11: GROWING BUSINESSES & TIMELINES ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5">
+          <div className="row g-4">
             <div className="col-lg-6">
               <div className="card h-100 border-0 shadow-sm rounded-4 p-4 bg-white" style={{ borderTop: '4px solid var(--brand-orange)' }}>
                 <h4 className="fw-bold mb-3 text-brand-dark" style={{ fontFamily: "'Outfit', sans-serif" }}>VAT Specialists for Growing Businesses</h4>
                 <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>
-                  As businesses grow, VAT becomes closely linked to your overall tax structures. It no longer sits separately — it connects with:
+                  As businesses grow, VAT becomes closely linked to your overall tax structures. It no longer sits separately ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â it connects with:
                 </p>
                 <ul className="list-unstyled text-secondary mb-4 d-flex flex-column gap-2">
                   <li className="d-flex align-items-center"><CheckIcon /> income tax decisions & dividend band caps</li>
@@ -498,7 +498,7 @@ const VatAccountants = () => {
             
             <div className="col-lg-6">
               <div className="card h-100 border-0 shadow-sm rounded-4 p-4 bg-white" style={{ borderTop: '4px solid #1d3c45' }}>
-                <h4 className="fw-bold mb-3 text-brand-dark" style={{ fontFamily: "'Outfit', sans-serif" }}>Filing VAT Return UK – Deadlines & Accuracy</h4>
+                <h4 className="fw-bold mb-3 text-brand-dark" style={{ fontFamily: "'Outfit', sans-serif" }}>Filing VAT Return UK ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Deadlines & Accuracy</h4>
                 <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>
                   VAT deadlines are consistent, but they are often missed due to preparation delays rather than computational complexity. Typical problems include:
                 </p>
@@ -516,10 +516,10 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 12: PAYROLL & EXPENDITURES ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 12: PAYROLL & EXPENDITURES ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img 
@@ -537,7 +537,7 @@ const VatAccountants = () => {
                 VAT and Payroll, Expenses, and Business Activity
               </h2>
               <p className="text-secondary mb-4 fs-6" style={{ lineHeight: 1.8 }}>
-                VAT doesn’t operate in isolation. Payments, salaries, and expenses all affect financial reporting — especially where structured payroll services UK are involved.
+                VAT doesnÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t operate in isolation. Payments, salaries, and expenses all affect financial reporting ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â especially where structured payroll services UK are involved.
               </p>
               
               <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>
@@ -555,14 +555,14 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 13: CONTACT FORM BLOCK ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 13: CONTACT FORM BLOCK ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
 
       <ContactForm source="VatAccountants" />
 
-      {/* ── SECTION 14: STATE-DRIVEN FAQS & SIDEBAR ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 14: STATE-DRIVEN FAQS & SIDEBAR ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-white border-bottom">
         <div className="container">
-          <div className="row g-5">
+          <div className="row g-4">
             <div className="col-lg-8">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Knowledge Base</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
@@ -597,7 +597,7 @@ const VatAccountants = () => {
             </div>
             
             {/* Quick Contact sidebar card */}
-            <div className="col-lg-4">
+            <div className="col-lg-5">
               <div className="card border-0 shadow-lg rounded-4 p-4 text-center text-white" style={{ background: '#1d3c45' }}>
                 <h4 className="fw-bold mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>Helpline Desk</h4>
                 <p className="text-white-50 mb-4 small">Tax and disclosure deadlines can arise quickly. Speak directly to an expert tax advisor today.</p>
@@ -634,10 +634,10 @@ const VatAccountants = () => {
         </div>
       </section>
 
-      {/* ── SECTION 15: BOTTOM PARTNERS LOGOS ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 15: BOTTOM PARTNERS LOGOS ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <Partners />
     
-      {(() => { const faqData = faqJsonLd([{"q":"What does a VAT accountant do?","a":"A VAT accountant manages the full VAT life-cycle for your business. This includes registering your company for VAT, choosing the most cost-effective VAT scheme, preparing and reconciling VAT figures, submitting accurate quarterly or monthly VAT returns online to HMRC, and managing any audits or queries from HMRC."},{"q":"How do I submit a VAT return online UK?","a":"All VAT returns must now be submitted electronically using Making Tax Digital (MTD) compatible software. You must link your accounting records, reconcile sales and purchases, generate the 9-box VAT return, and submit it online via the HMRC MTD gateway. A VAT accountant ensures your calculations are fully aligned with your invoices before submitting."},{"q":"When do I need a VAT registration accountant?","a":"You are legally required to register for VAT if your taxable business turnover exceeds the threshold of £90,000 (rolling 12-month period). You can also choose to register voluntarily before reaching the threshold to reclaim input VAT. A VAT registration accountant helps analyze when to register, structures the process, and ensures you select the correct scheme."},{"q":"Can VAT accountants fix previous filing errors?","a":"Yes. If you discover a mistake on a previously submitted VAT return, our VAT accountants can review your transaction history, calculate the adjustments required, and submit the necessary correction notifications (such as form VAT652) to HMRC to resolve the errors cleanly."},{"q":"What is the Flat Rate VAT scheme?","a":"The Flat Rate Scheme is a simplified HMRC VAT structure designed for small businesses with an expected turnover under £150,000. Instead of calculating VAT on every purchase and sale, you pay HMRC a fixed percentage of your gross turnover. The percentage depends on your industry sector."},{"q":"What are the penalties for late VAT filing or payment?","a":"HMRC operates a points-based system for late submissions and payments. Each late return incurs 1 penalty point. Once a point threshold is reached, you are charged an automatic £200 penalty. Late payments also attract interest charges and percentage-based financial surcharges depending on how late the payment is."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
+      {(() => { const faqData = faqJsonLd([{"q":"What does a VAT accountant do?","a":"A VAT accountant manages the full VAT life-cycle for your business. This includes registering your company for VAT, choosing the most cost-effective VAT scheme, preparing and reconciling VAT figures, submitting accurate quarterly or monthly VAT returns online to HMRC, and managing any audits or queries from HMRC."},{"q":"How do I submit a VAT return online UK?","a":"All VAT returns must now be submitted electronically using Making Tax Digital (MTD) compatible software. You must link your accounting records, reconcile sales and purchases, generate the 9-box VAT return, and submit it online via the HMRC MTD gateway. A VAT accountant ensures your calculations are fully aligned with your invoices before submitting."},{"q":"When do I need a VAT registration accountant?","a":"You are legally required to register for VAT if your taxable business turnover exceeds the threshold of Ãƒâ€šÃ‚Â£90,000 (rolling 12-month period). You can also choose to register voluntarily before reaching the threshold to reclaim input VAT. A VAT registration accountant helps analyze when to register, structures the process, and ensures you select the correct scheme."},{"q":"Can VAT accountants fix previous filing errors?","a":"Yes. If you discover a mistake on a previously submitted VAT return, our VAT accountants can review your transaction history, calculate the adjustments required, and submit the necessary correction notifications (such as form VAT652) to HMRC to resolve the errors cleanly."},{"q":"What is the Flat Rate VAT scheme?","a":"The Flat Rate Scheme is a simplified HMRC VAT structure designed for small businesses with an expected turnover under Ãƒâ€šÃ‚Â£150,000. Instead of calculating VAT on every purchase and sale, you pay HMRC a fixed percentage of your gross turnover. The percentage depends on your industry sector."},{"q":"What are the penalties for late VAT filing or payment?","a":"HMRC operates a points-based system for late submissions and payments. Each late return incurs 1 penalty point. Once a point threshold is reached, you are charged an automatic Ãƒâ€šÃ‚Â£200 penalty. Late payments also attract interest charges and percentage-based financial surcharges depending on how late the payment is."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
       </div>
   );
 };

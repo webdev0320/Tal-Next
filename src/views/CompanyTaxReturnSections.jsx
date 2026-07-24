@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { faqJsonLd } from '../lib/jsonld';
 import BreadcrumbJsonLd from '../components/BreadcrumbJsonLd';
 
-/* ── Sidebar Cards ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Sidebar Cards ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const SidebarCards = () => {
   const links = [
     { title: 'Tax\nInvestigation', link: '/taxation/tax-investigation-insurance' },
@@ -25,7 +25,7 @@ export const SidebarCards = () => {
   );
 };
 
-/* ── Tax Links Grid ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Tax Links Grid ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const TaxLinksGrid = () => {
   const taxLinks = [
     { label: 'Corporation Tax', href: '/taxation/company-tax-return-accountants', active: true },
@@ -59,11 +59,11 @@ export const TaxLinksGrid = () => {
   );
 };
 
-/* ── What Corp Tax Involves ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ What Corp Tax Involves ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const WhatItInvolves = () => (
-  <section className="py-5 bg-white">
+  <section className="py-4 bg-white">
     <div className="container">
-      <div className="row g-5 align-items-center">
+      <div className="row g-4 align-items-center">
         <div className="col-lg-5">
           {/* REPLACE: Corporation tax illustration image */}
           <img src="/images/2023/06/calculator-khOE-621x414@LiveMint.webp" alt="Corporation Tax Calculation" className="img-fluid rounded-4 shadow" />
@@ -86,9 +86,9 @@ export const WhatItInvolves = () => (
   </section>
 );
 
-/* ── Company Tax Returns for Ltd ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Company Tax Returns for Ltd ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const LtdCompanyReturns = () => (
-  <section className="py-5 bg-white">
+  <section className="py-4 bg-white">
     <div className="container">
       <h3 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>Company Tax Returns For Limited Companies</h3>
       <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>Every UK limited company is required to submit a company tax return. This involves:</p>
@@ -97,7 +97,7 @@ export const LtdCompanyReturns = () => (
         <li>Calculating taxable profit</li>
         <li>Submitting through HMRC systems</li>
       </ul>
-      <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>But the real work is not in submission — it's in preparation. Everything must match. If one figure changes, everything else needs to follow.</p>
+      <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>But the real work is not in submission ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â it's in preparation. Everything must match. If one figure changes, everything else needs to follow.</p>
       <div className="text-center mb-4 mt-5">
         <h4 className="fw-bold" style={{ color: '#1a2332' }}>Company Tax Return Components</h4>
         <p className="text-secondary">Understanding what makes up your tax submission</p>
@@ -122,18 +122,18 @@ export const LtdCompanyReturns = () => (
   </section>
 );
 
-/* ── Filing Problems Section ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Filing Problems Section ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const FilingProblems = () => (
   <section className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
     <div className="container">
-      <div className="row g-5 align-items-center">
+      <div className="row g-4 align-items-center">
         <div className="col-lg-6">
           {/* REPLACE: Filing problems illustration */}
           <img src="/images/2023/06/Benefits-of-Hiring-an-Accountant-for-a-Small-Business-scaled-1-1024x683.jpg" alt="Filing Corporation Tax Return" className="img-fluid rounded-4 shadow" />
         </div>
         <div className="col-lg-6">
-          <h3 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>Filing Corporation Tax Return Online — Where Problems Usually Appear</h3>
-          <p className="text-secondary" style={{ lineHeight: 1.8 }}>Filing a corporation tax return online is straightforward in process — but not in practice. Most issues appear when:</p>
+          <h3 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>Filing Corporation Tax Return Online ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Where Problems Usually Appear</h3>
+          <p className="text-secondary" style={{ lineHeight: 1.8 }}>Filing a corporation tax return online is straightforward in process ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â but not in practice. Most issues appear when:</p>
           <ul className="text-secondary mb-3">
             <li>Figures don't align</li>
             <li>Adjustments are unclear</li>
@@ -146,12 +146,12 @@ export const FilingProblems = () => (
   </section>
 );
 
-/* ── Deadlines Section ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Deadlines Section ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const DeadlinesSection = () => (
-  <section className="py-5 bg-white">
+  <section className="py-4 bg-white">
     <div className="container">
       <h3 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>Corporation Tax Deadlines, Payments & Penalties</h3>
-      <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>Corporation tax has two key deadlines. Most penalties arise not from complexity — but from timing.</p>
+      <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>Corporation tax has two key deadlines. Most penalties arise not from complexity ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â but from timing.</p>
       <div className="text-center mb-3"><h4 className="fw-bold" style={{ color: '#1a2332' }}>Company Tax Timelines</h4></div>
       <div className="row justify-content-center">
         <div className="col-lg-10">
@@ -172,7 +172,7 @@ export const DeadlinesSection = () => (
   </section>
 );
 
-/* ── Year-End Problems ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Year-End Problems ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const YearEndProblems = () => (
   <section className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
     <div className="container">
@@ -196,11 +196,11 @@ export const YearEndProblems = () => (
   </section>
 );
 
-/* ── Payroll & Expenses ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Payroll & Expenses ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const PayrollExpenses = () => (
-  <section className="py-5 bg-white">
+  <section className="py-4 bg-white">
     <div className="container">
-      <div className="row g-5 align-items-center">
+      <div className="row g-4 align-items-center">
         <div className="col-lg-7">
           <h3 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>Corporation Tax And Payroll, Expenses, And Financial Activity</h3>
           <p className="text-secondary" style={{ lineHeight: 1.8 }}>Payroll plays a significant role in corporation tax. Salary payments reduce profit, but must be structured correctly. Where businesses operate structured payroll services, it becomes easier to ensure:</p>
@@ -216,7 +216,7 @@ export const PayrollExpenses = () => (
   </section>
 );
 
-/* ── Small Business Section ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Small Business Section ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const SmallBusinessSection = () => (
   <section className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
     <div className="container">
@@ -232,14 +232,14 @@ export const SmallBusinessSection = () => (
           </div>
         ))}
       </div>
-      <p className="text-secondary mt-4" style={{ lineHeight: 1.8 }}>Working with small business tax accountants ensures that tax is handled as part of the business process — not as a last-minute task.</p>
+      <p className="text-secondary mt-4" style={{ lineHeight: 1.8 }}>Working with small business tax accountants ensures that tax is handled as part of the business process ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â not as a last-minute task.</p>
     </div>
   </section>
 );
 
-/* ── Services Actually Change ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Services Actually Change ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const ServicesChange = () => (
-  <section className="py-5 bg-white">
+  <section className="py-4 bg-white">
     <div className="container">
       <div className="text-center mb-5">
         <h3 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>What Our Corporation Tax Services Actually Change</h3>
@@ -251,7 +251,7 @@ export const ServicesChange = () => (
           { title: 'Our approach focuses on:', desc: 'Aligning records before calculation, reviewing treatment of income and expenses, identifying issues before submission.' },
           { title: 'This means:', desc: 'Fewer adjustments, a clearer tax position, and a reduced risk of HMRC queries.' },
         ].map((card, i) => (
-          <div key={i} className="col-lg-4 col-md-6">
+          <div key={i} className="col-lg-5 col-md-6">
             <div className="card h-100 border-0 shadow-sm rounded-4 p-4 text-center">
               <h5 className="fw-bold mb-3" style={{ color: '#1a2332' }}>{card.title}</h5>
               <p className="text-secondary mb-0">{card.desc}</p>
@@ -263,11 +263,11 @@ export const ServicesChange = () => (
   </section>
 );
 
-/* ── When To Speak To Advisor ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ When To Speak To Advisor ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const SpeakToAdvisor = () => (
   <section className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
     <div className="container">
-      <div className="row g-5 align-items-center">
+      <div className="row g-4 align-items-center">
         <div className="col-lg-7">
           <h3 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>When You Should Speak To A Corporation Tax Advisor</h3>
           <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most businesses wait until the return is due, figures are finalised, or deadlines are close. That's already late. You should speak to a corporation tax advisor when:</p>
@@ -287,11 +287,11 @@ export const SpeakToAdvisor = () => (
   </section>
 );
 
-/* ── Bottom Two-Column Section ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ Bottom Two-Column Section ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const BottomColumns = () => (
-  <section className="py-5 bg-white">
+  <section className="py-4 bg-white">
     <div className="container">
-      <div className="row g-5">
+      <div className="row g-4">
         <div className="col-lg-6">
           <div className="card h-100 border-0 shadow-sm rounded-4 p-4" style={{ borderTop: '4px solid #d2601a' }}>
             <h4 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>Corporation Tax And Wider Financial Planning</h4>
@@ -305,7 +305,7 @@ export const BottomColumns = () => (
             <h4 className="fw-bold mb-3" style={{ color: '#1a2332', fontFamily: "'Outfit', sans-serif" }}>Speak To Corporation Tax Accountants In London UK</h4>
             <p className="text-secondary" style={{ lineHeight: 1.8 }}>If your corporation tax is only being considered at the point of filing, there's a strong chance opportunities have already been missed. Whether you need:</p>
             <ul className="text-secondary"><li>Company tax return preparation</li><li>Corporation tax filing support</li><li>Ongoing business tax advice</li></ul>
-            <p className="text-secondary" style={{ lineHeight: 1.8 }}>Reviewing it earlier gives you control over the outcome — not just visibility of it.</p>
+            <p className="text-secondary" style={{ lineHeight: 1.8 }}>Reviewing it earlier gives you control over the outcome ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â not just visibility of it.</p>
           </div>
         </div>
       </div>
@@ -313,7 +313,7 @@ export const BottomColumns = () => (
   </section>
 );
 
-/* ── FAQ Section ── */
+/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ FAQ Section ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */
 export const FAQSection = () => {
   const [openIdx, setOpenIdx] = useState(null);
   const faqs = [

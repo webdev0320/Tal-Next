@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/uk-corporation-tax-2025-changes-guide/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-10-10 11:02:34",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/Corporation-tax-changes.jpg" }],
+    images: [{ url: "/images/2022/10/Corporation-tax-changes.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "UK Corporation Tax 2025 - Key Changes & Limited Company Prep | Taxaccolega",
     description: "Corporation tax changes in 2023 and how to prepare for the changes if you run a limited company The government announced that the corporation tax will increase…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/Corporation-tax-changes.jpg"],
+    images: ["/images/2022/10/Corporation-tax-changes.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/Corporation-tax-changes.jpg" alt="UK Corporation Tax 2025 - Key Changes & Limited Company Prep" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/10/Corporation-tax-changes.jpg" alt="UK Corporation Tax 2025 - Key Changes & Limited Company Prep" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -134,12 +134,11 @@ const LightServiceCard = ({ service }) => (
    MAIN PAGE
 ───────────────────────────────────────────── */
 const Accounts = () => (
-  <div>
+  <div className="accounts-landing-page">
     {/* ── 3. Page Hero Banner ── */}
     <header
       className="position-relative text-white d-flex align-items-center"
       style={{
-        minHeight: '280px',
         backgroundImage: "url('/images/young-asian.webp')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -152,7 +151,7 @@ const Accounts = () => (
       <div className="position-absolute end-0 bottom-0" style={{ zIndex: 1, opacity: 0.85 }}>
 
       </div>
-      <div className="container position-relative py-5 text-center text-md-start" style={{ zIndex: 2 }}>
+      <div className="container position-relative py-4 text-center text-md-start" style={{ zIndex: 2 }}>
         <h1 className="display-3 fw-bold text-white mb-1">Accounts</h1>
         <p className="lead text-white-50">Your path to success</p>
       </div>
@@ -171,7 +170,7 @@ const Accounts = () => (
     </div>
 
     {/* ── 5. Cloud Online Accountants Title + Tag Pills ── */}
-    <section className="py-5 bg-white">
+    <section className="py-4 bg-white">
       <div className="container text-center">
         <h2 className="fw-bold mb-2 text-brand-orange">Cloud Online Accountants</h2>
         <h3 className="fw-bold mb-3 text-brand-dark">Services For Limited Companies</h3>
@@ -190,9 +189,9 @@ const Accounts = () => (
     <Partners />
 
     {/* ── 7. "Our Accounts Services" ── */}
-    <section className="py-5" style={{ background: '#f8f9fa' }}>
+    <section className="py-4" style={{ background: '#f8f9fa' }}>
       <div className="container">
-        <h2 className="text-center fw-bold mb-5" style={{ color: '#1a2332' }}>
+        <h2 className="text-center fw-bold mb-4" style={{ color: '#1a2332' }}>
           <span className="text-muted fw-normal">— </span>Our Accounts Services<span className="text-muted fw-normal"> —</span>
         </h2>
         <div className="row g-4">
@@ -202,9 +201,9 @@ const Accounts = () => (
     </section>
 
     {/* ── 8. How Do We Help with Accounting? ── */}
-    <section className="py-5 bg-white">
+    <section className="py-4 bg-white">
       <div className="container">
-        <div className="row g-5 align-items-center">
+        <div className="row g-4 align-items-center">
           <div className="col-lg-5">
             <img
               src="/images/2024/07/accounting.jpg"
@@ -232,7 +231,7 @@ const Accounts = () => (
     </section>
 
     {/* ── 9. Second row of service cards (dark) ── */}
-    <section className="py-5" style={{ background: '#f8f9fa' }}>
+    <section className="py-4" style={{ background: '#f8f9fa' }}>
       <div className="container">
         <div className="row g-4">
           {secondaryServices.map((s) => <DarkServiceCard key={s.title} service={s} />)}
@@ -243,7 +242,7 @@ const Accounts = () => (
     <ContactForm source="Accounts" />
 
     {/* ── 11. Third row of service cards (dark) ── */}
-    <section className="py-5" style={{ background: '#f8f9fa' }}>
+    <section className="py-4" style={{ background: '#f8f9fa' }}>
       <div className="container">
         <div className="row g-4">
           {tertiaryServices.map((s) => <DarkServiceCard key={s.title} service={s} />)}

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-ai-is-changing-accounting-education/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-08-04 11:31:07",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/online-tutor-1.jpg" }],
+    images: [{ url: "/images/2021/06/online-tutor-1.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How AI Is Changing Accounting Education – And How Taxaccolega Is Leading the Way in Croydon, London | Taxaccolega",
     description: "How AI Is Changing Accounting Education – And How Taxaccolega Is Leading the Way in Croydon, London Artificial Intelligence (AI) is changing the way the world…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/online-tutor-1.jpg"],
+    images: ["/images/2021/06/online-tutor-1.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/online-tutor-1.jpg" alt="How AI Is Changing Accounting Education – And How Taxaccolega Is Leading the Way in Croydon, London" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/06/online-tutor-1.jpg" alt="How AI Is Changing Accounting Education – And How Taxaccolega Is Leading the Way in Croydon, London" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/maximise-savings-minimise-tax/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-05-09 17:33:23",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/man-calculating-monthly-savings_23-2148294829.webp" }],
+    images: [{ url: "/images/2024/11/man-calculating-monthly-savings_23-2148294829.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Maximise Savings, Minimise Tax | Taxaccolega",
     description: "Maximise Savings Minimise Tax Table of Contents Capital Allowances for Commercial Property Owners What Are Capital Allowances? How Do Capital Allowances work?…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/man-calculating-monthly-savings_23-2148294829.webp"],
+    images: ["/images/2024/11/man-calculating-monthly-savings_23-2148294829.webp"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/11/man-calculating-monthly-savings_23-2148294829.webp" alt="Maximise Savings, Minimise Tax" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/11/man-calculating-monthly-savings_23-2148294829.webp" alt="Maximise Savings, Minimise Tax" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

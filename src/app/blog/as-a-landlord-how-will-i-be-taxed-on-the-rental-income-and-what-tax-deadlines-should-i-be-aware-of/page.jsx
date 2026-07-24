@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/as-a-landlord-how-will-i-be-taxed-on-the-rental-income-and-what-tax-deadlines-should-i-be-aware-of/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-08-03 11:28:02",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/rental-income.jpg" }],
+    images: [{ url: "/images/2020/08/rental-income.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Landlord Tax Guide: Rental Income & HMRC Deadlines (UK) | Taxaccolega",
     description: "As a landlord, how will I be taxed on the Rental income and What tax deadlines should I be aware of? If you are a landlord there are 2 possible ways you might…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/rental-income.jpg"],
+    images: ["/images/2020/08/rental-income.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/rental-income.jpg" alt="Landlord Tax Guide: Rental Income & HMRC Deadlines (UK)" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/08/rental-income.jpg" alt="Landlord Tax Guide: Rental Income & HMRC Deadlines (UK)" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

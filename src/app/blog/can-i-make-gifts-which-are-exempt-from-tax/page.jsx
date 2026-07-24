@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/can-i-make-gifts-which-are-exempt-from-tax/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-08-05 11:31:17",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/tax-free.jpg" }],
+    images: [{ url: "/images/2020/08/tax-free.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Can I make gifts which are exempt from tax | Taxaccolega",
     description: "Can I make gifts which are exempt from tax There is a threshold of £325 000 below which you don't give any tax. This means that if your estate is valued at £32…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/tax-free.jpg"],
+    images: ["/images/2020/08/tax-free.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/tax-free.jpg" alt="Can I make gifts which are exempt from tax" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/08/tax-free.jpg" alt="Can I make gifts which are exempt from tax" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

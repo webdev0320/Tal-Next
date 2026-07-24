@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/6-things-you-should-know-about-reporting-the-capital-gains-tax-when-selling-property/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-08-20 14:36:21",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/cgt-selling.jpg" }],
+    images: [{ url: "/images/2021/08/cgt-selling.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "6 Things you should know about Reporting the Capital Gains Tax when selling property. | Taxaccolega",
     description: "6 Things you should know about Reporting the Capital Gains Tax when selling property When you are selling an asset, you should keep in mind that you will have…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/cgt-selling.jpg"],
+    images: ["/images/2021/08/cgt-selling.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/cgt-selling.jpg" alt="6 Things you should know about Reporting the Capital Gains Tax when selling property." className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/08/cgt-selling.jpg" alt="6 Things you should know about Reporting the Capital Gains Tax when selling property." className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -9,7 +9,7 @@ const WorldwideDisclosureFacility = () => {
     <div className="bg-white min-h-screen text-gray-900 font-sans">
 
       {/* [COMPONENT INDEX 2]: Hero Section */}
-      <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
+      <header className="position-relative text-white overflow-hidden py-4" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
           <div className="row g-4 align-items-center">
@@ -61,16 +61,16 @@ const WorldwideDisclosureFacility = () => {
         {/* [COMPONENT INDEX 3]: Scope */}
         <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
             <div>
-                <h2 className="text-3xl font-bold text-teal-900 mb-4">HMRC Worldwide Disclosure Facility – What It Actually Covers</h2>
+                <h2 className="text-3xl font-bold text-teal-900 mb-4">HMRC Worldwide Disclosure Facility â€“ What It Actually Covers</h2>
                 <p className="mb-6">The Worldwide Disclosure Facility (WDF) is an HMRC disclosure route designed for taxpayers who need to correct unpaid UK tax connected to offshore matters.</p>
                 <p className="font-semibold mb-2">This can include:</p>
                 <ul className="mb-6 space-y-1">
-                    {['overseas income', 'foreign bank accounts', 'offshore investments', 'overseas rental property', 'non-UK employment income', 'foreign capital gains', 'undeclared inheritance-related assets', 'offshore trusts or structures', 'cryptocurrency activity connected internationally', 'residency-related reporting failures'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                    {['overseas income', 'foreign bank accounts', 'offshore investments', 'overseas rental property', 'non-UK employment income', 'foreign capital gains', 'undeclared inheritance-related assets', 'offshore trusts or structures', 'cryptocurrency activity connected internationally', 'residency-related reporting failures'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                 </ul>
                 <p className="mb-4">The Worldwide Disclosure Facility HMRC process is not limited to intentional tax evasion.</p>
                 <p className="font-semibold mb-2">A significant number of disclosures involve:</p>
                 <ul className="mb-6 space-y-1">
-                    {['misunderstanding residency rules', 'incomplete reporting', 'historic accounting gaps', 'unstructured offshore income', 'foreign tax assumptions', 'inheritance-related omissions', 'property income errors'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                    {['misunderstanding residency rules', 'incomplete reporting', 'historic accounting gaps', 'unstructured offshore income', 'foreign tax assumptions', 'inheritance-related omissions', 'property income errors'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                 </ul>
                 <p className="text-sm font-semibold italic">That distinction matters because behaviour classification directly affects Worldwide Disclosure Facility penalties.</p>
             </div>
@@ -87,7 +87,7 @@ const WorldwideDisclosureFacility = () => {
                         <p className="mb-4">Domestic tax problems are usually easier to track because records exist within one reporting system. Offshore matters are different.</p>
                         <p className="mb-4">Income may pass through:</p>
                         <ul className="mb-4 space-y-1">
-                            {['foreign bank accounts', 'overseas payroll systems', 'international property agents', 'offshore investment platforms', 'multiple currencies', 'different tax jurisdictions'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                            {['foreign bank accounts', 'overseas payroll systems', 'international property agents', 'offshore investment platforms', 'multiple currencies', 'different tax jurisdictions'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                         </ul>
                         <p className="mb-4">Over time, the reporting trail becomes fragmented.</p>
                         <p className="mb-4">One adviser handles UK tax. Another handles overseas tax. Some income is taxed abroad. Some is not. Currency conversion records disappear. Historic paperwork becomes incomplete. The issue develops slowly. That is why many Worldwide Disclosure Facility disclosures involve several years of accumulated reporting inconsistencies rather than one isolated event.</p>
@@ -141,7 +141,7 @@ const WorldwideDisclosureFacility = () => {
         {/* [COMPONENT INDEX 7]: Penalty Matrix */}
         <section className="py-16 px-4 bg-gray-50 text-center mb-16">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-bold text-teal-900 mb-6">Worldwide Disclosure Facility Penalties – What Changes the Outcome</h2>
+                <h2 className="text-3xl font-bold text-teal-900 mb-6">Worldwide Disclosure Facility Penalties â€“ What Changes the Outcome</h2>
                 <p className="mb-4">One of the most misunderstood parts of the Worldwide Disclosure Facility is penalties. Many taxpayers search for: Worldwide Disclosure Facility penalty calculator, Worldwide Disclosure Facility penalty rates, or Worldwide Disclosure Facility penalties, expecting a fixed percentage answer. In reality, penalties depend heavily on behaviour.</p>
                 <p className="mb-4 font-semibold">HMRC typically considers:</p>
                 <div className="flex flex-wrap justify-center gap-2 mb-6 font-semibold">
@@ -162,12 +162,12 @@ const WorldwideDisclosureFacility = () => {
                 <div className="border-2 border-gray-200 p-6 shadow-sm">
                     <h3 className="font-bold text-lg mb-2 text-teal-900">Worldwide Disclosure Facility and Non-UK Resident Taxation</h3>
                     <p className="mb-2">The Worldwide Disclosure Facility (WDF) is an HMRC disclosure route designed for taxpayers who need to correct unpaid UK tax connected to offshore matters. It follows structured statutory tests involving:</p>
-                    <p className="text-orange-600 font-semibold">● days spent in the UK | ● accommodation availability | ● family connections | ● work ties | ● historic residency patterns</p>
+                    <p className="text-orange-600 font-semibold">â— days spent in the UK | â— accommodation availability | â— family connections | â— work ties | â— historic residency patterns</p>
                 </div>
                 <div className="border-2 border-gray-200 p-6 shadow-sm">
                     <h3 className="font-bold text-lg mb-2 text-teal-900">The Residential Integration Pipeline</h3>
                     <p>This creates a natural connection between:</p>
-                    <p className="text-orange-600 font-semibold">● non-UK resident taxation | ● income tax reporting | ● capital gains tax | ● inheritance tax exposure</p>
+                    <p className="text-orange-600 font-semibold">â— non-UK resident taxation | â— income tax reporting | â— capital gains tax | â— inheritance tax exposure</p>
                     <p className="mt-2">Because offshore tax issues are often connected to residency classification errors rather than isolated filing mistakes.</p>
                 </div>
             </div>
@@ -188,11 +188,11 @@ const WorldwideDisclosureFacility = () => {
                     <h2 className="text-2xl font-bold text-teal-900 mb-4">Where Property Owners Commonly Run Into Worldwide Disclosure Problems</h2>
                     <p className="mb-4">Overseas property ownership creates some of the most technically sensitive Worldwide Disclosure Facility cases. Income may pass through:</p>
                     <ul className="mb-4 space-y-1">
-                        {['Rental income was never declared in the UK', 'Foreign taxes were assumed to remove UK obligations', 'Ownership structures changed informally', 'Overseas mortgage interest treatment differed', 'Capital gains on disposal were misunderstood'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                        {['Rental income was never declared in the UK', 'Foreign taxes were assumed to remove UK obligations', 'Ownership structures changed informally', 'Overseas mortgage interest treatment differed', 'Capital gains on disposal were misunderstood'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                     </ul>
                     <p className="mb-4 font-semibold text-gray-800">This overlaps heavily with:</p>
                     <ul className="mb-4 space-y-1">
-                        {['Let Property Campaign disclosures', 'Capital Gains Tax reporting', 'Inheritance Tax planning', 'Self Assessment compliance'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                        {['Let Property Campaign disclosures', 'Capital Gains Tax reporting', 'Inheritance Tax planning', 'Self Assessment compliance'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                     </ul>
                     <p className="text-sm font-semibold italic">In many cases, property owners only realise the reporting issue years later when: refinancing property, selling overseas assets, restructuring ownership, dealing with inheritance matters, or responding to HMRC enquiries.</p>
                 </div>
@@ -204,7 +204,7 @@ const WorldwideDisclosureFacility = () => {
         <section className="py-16 px-4 bg-white mb-16">
             <div className="max-w-4xl mx-auto border-4 border-orange-600 p-8">
                 <h3 className="text-2xl font-bold text-teal-900 mb-4">Insight Section: The Biggest Worldwide Disclosure Mistake Usually Happens Before HMRC Is Contacted</h3>
-                <p className="mb-4">One of the most damaging mistakes taxpayers make is trying to “fix” offshore tax problems informally before understanding the full exposure properly. They amend partial returns, move money between accounts, close offshore structures quickly, submit incomplete explanations, or disclose one issue while unintentionally leaving related issues unresolved.</p>
+                <p className="mb-4">One of the most damaging mistakes taxpayers make is trying to â€œfixâ€ offshore tax problems informally before understanding the full exposure properly. They amend partial returns, move money between accounts, close offshore structures quickly, submit incomplete explanations, or disclose one issue while unintentionally leaving related issues unresolved.</p>
                 <p className="font-semibold text-gray-800">That approach creates a major problem. Because once HMRC receives incomplete or inconsistent disclosure information, later corrections become far more difficult to explain credibly. Strong Worldwide Disclosure Facility cases are rarely built around speed alone. They are built around completeness, consistency, chronology, and evidence. That is why early strategic review matters before disclosure begins.</p>
             </div>
         </section>
@@ -218,7 +218,7 @@ const WorldwideDisclosureFacility = () => {
                     <p className="mb-4">International cryptocurrency activity increasingly overlaps with offshore disclosure work.</p>
                     <p className="mb-4">Particularly where:</p>
                     <ul className="mb-4 space-y-1">
-                        {['exchange accounts were held abroad', 'gains were never converted properly into GBP reporting', 'staking or DeFi income was ignored', 'offshore platforms were assumed outside UK visibility', 'historic crypto transactions lack clear records'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                        {['exchange accounts were held abroad', 'gains were never converted properly into GBP reporting', 'staking or DeFi income was ignored', 'offshore platforms were assumed outside UK visibility', 'historic crypto transactions lack clear records'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                     </ul>
                     <p className="text-sm font-semibold italic">Many taxpayers underestimate how much transaction reconstruction is required before offshore crypto disclosures can be prepared accurately.</p>
                 </div>
@@ -234,17 +234,17 @@ const WorldwideDisclosureFacility = () => {
                 { name: 'Md Sajib Miah', text: "Outstanding and quick service! Really supportive and affordable! As a start up company, they supported us a lot while filling the 1st accounts! Thanks Jazzy Khalid for your kind and prompt response on my needs!" },
                 { name: 'OYINTONYE EMELEDOH', text: "Excellent service from Taxaccolega. Despite my many questions and follow-ups, they remained patient, thorough, and consistently helpful. I really appreciate the effort from the team and the clear guidance throughout. Highly recommended." },
                 { name: 'Joe Schofield', text: "Exactly what it says on the tin. Could not recommend enough! Will be using again! Thank you!!" },
-                { name: 'Krishan Wagay', text: "I can’t recommend my accountant highly enough. Jazzy at Taxaccolega handled my business tax case with exceptional professionalism and attention to detail, and successfully won an appeal on my behalf. Their knowledge, persistence, and clear communication throughout the process gave me real confidence during what could have been a very stressful time. An outstanding service and a true expert in his field. Thanks again Jazzy." },
+                { name: 'Krishan Wagay', text: "I canâ€™t recommend my accountant highly enough. Jazzy at Taxaccolega handled my business tax case with exceptional professionalism and attention to detail, and successfully won an appeal on my behalf. Their knowledge, persistence, and clear communication throughout the process gave me real confidence during what could have been a very stressful time. An outstanding service and a true expert in his field. Thanks again Jazzy." },
                 { name: 'Quentin Asamoah', text: "Very professional, worked with Jazzy from Taxaccolega. Very helpful and patient and was able to clarify the issue I needed assistance with" },
                 { name: 'Hespari Properties', text: "This user only left a rating." },
                 { name: 'Philip James McGoldrick', text: "This user only left a rating." },
                 { name: 'KINICHA DA COSTA', text: "Excellent! Taxccolega Accountants, every year exceed my expectations with their commitment of excellence and expertise. It's a privilege to collaborate with them, so I highly recommend them. Thank you" },
-                { name: 'Abdul Nayeem Mohammed', text: "Excellent service!!! Can’t describe in words thanks to the whole team!!!" },
+                { name: 'Abdul Nayeem Mohammed', text: "Excellent service!!! Canâ€™t describe in words thanks to the whole team!!!" },
                 { name: 'Mr Opinionated', text: "Excellent speedy service! Taxaccolega wasted no time. I worked with Jazzy and he was spectacular always kept me in the loop and worked very efficiently would recommend to all those looking for competent and quick accounting service" }
             ].map(review => (
                 <div key={review.name} className="border-2 p-6 bg-white shadow-sm text-left">
                     <p className="font-bold text-teal-900 mb-1">{review.name}</p>
-                    <p className="text-yellow-500 mb-3">⭐⭐⭐⭐⭐</p>
+                    <p className="text-yellow-500 mb-3">â­â­â­â­â­</p>
                     <p className="text-sm text-gray-700 italic">"{review.text}"</p>
                 </div>
             ))}
@@ -259,11 +259,11 @@ const WorldwideDisclosureFacility = () => {
                 <p className="mb-4 font-semibold">The real difference lies in how the disclosure is prepared, positioned, evidenced, and defended.</p>
                 <p className="mb-4 font-semibold">Our approach focuses on:</p>
                 <ul className="mb-6 space-y-1">
-                    {['reconstructing offshore tax exposure properly', 'identifying connected reporting risks early', 'reviewing behavioural classification carefully', 'structuring disclosures coherently', 'aligning supporting documentation before submission', 'identifying areas where HMRC scrutiny is likely'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                    {['reconstructing offshore tax exposure properly', 'identifying connected reporting risks early', 'reviewing behavioural classification carefully', 'structuring disclosures coherently', 'aligning supporting documentation before submission', 'identifying areas where HMRC scrutiny is likely'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                 </ul>
                 <p className="mb-4 font-semibold">This changes the process materially because strong disclosures reduce:</p>
                 <ul className="mb-6 space-y-1">
-                    {['unnecessary penalty escalation', 'contradictory reporting', 'avoidable HMRC challenge', 'prolonged investigation risk'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                    {['unnecessary penalty escalation', 'contradictory reporting', 'avoidable HMRC challenge', 'prolonged investigation risk'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                 </ul>
                 <p className="font-bold text-lg mb-2">The goal is not simply disclosure.</p>
                 <p className="font-bold text-lg text-teal-900">The goal is controlled resolution.</p>
@@ -279,12 +279,12 @@ const WorldwideDisclosureFacility = () => {
                     <p className="mb-4">Usually, the opposite happens.</p>
                     <p className="mb-4 font-semibold">The strongest time to review offshore disclosure exposure is:</p>
                     <ul className="mb-6 space-y-1">
-                        {['before HMRC contact', 'before investigation begins', 'before offshore assets are transferred', 'before overseas property disposals', 'before residency changes', 'before inheritance restructuring', 'before responding to HMRC correspondence'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                        {['before HMRC contact', 'before investigation begins', 'before offshore assets are transferred', 'before overseas property disposals', 'before residency changes', 'before inheritance restructuring', 'before responding to HMRC correspondence'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                     </ul>
                     <p className="mb-4">Once HMRC opens formal enquiry routes, strategic flexibility reduces significantly.</p>
                     <p className="mb-4 font-semibold">That can affect:</p>
                     <ul className="space-y-1">
-                        {['penalty mitigation', 'behavioural classification', 'negotiation position', 'disclosure scope', 'long-term investigation risk'].map(i => <li key={i} className="font-semibold text-orange-600">● <span className="text-gray-900 font-normal">{i}</span></li>)}
+                        {['penalty mitigation', 'behavioural classification', 'negotiation position', 'disclosure scope', 'long-term investigation risk'].map(i => <li key={i} className="font-semibold text-orange-600">â— <span className="text-gray-900 font-normal">{i}</span></li>)}
                     </ul>
                 </div>
                 <div className="border-2 border-gray-200 h-96 bg-gray-50 flex items-center justify-center font-bold text-gray-500">Operational Workspace Graphic</div>
@@ -328,7 +328,7 @@ const WorldwideDisclosureFacility = () => {
             <h2 className="text-3xl font-bold mb-6">Speak to Worldwide Disclosure Facility Advisors in London UK</h2>
             <p className="mb-6 max-w-2xl mx-auto font-semibold">If offshore income, overseas assets, foreign gains, or historic non-disclosure issues may exist within your tax position, delaying review usually increases risk rather than reducing it. Taxaccolega supports individuals and businesses dealing with:</p>
             <ul className="mb-6 text-orange-400 font-semibold space-y-1">
-                {['HMRC Worldwide Disclosure Facility disclosures', 'offshore income reporting', 'non-UK resident tax issues', 'overseas property income', 'offshore capital gains', 'cryptocurrency tax disclosures', 'Let Property Campaign cases', 'inheritance and offshore estate exposure'].map(i => <li key={i}>● {i}</li>)}
+                {['HMRC Worldwide Disclosure Facility disclosures', 'offshore income reporting', 'non-UK resident tax issues', 'overseas property income', 'offshore capital gains', 'cryptocurrency tax disclosures', 'Let Property Campaign cases', 'inheritance and offshore estate exposure'].map(i => <li key={i}>â— {i}</li>)}
             </ul>
             <p className="font-bold text-lg mb-2">The objective is not simply filing forms.</p>
             <p className="font-bold text-lg">It is bringing the position under control before HMRC controls the direction of the process instead.</p>

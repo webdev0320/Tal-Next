@@ -21,17 +21,17 @@ const PayrollServices = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Payroll-by-scott-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Payroll-by-scott-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
                 Accounts Services
               </span>
               <h1 className="display-4 fw-bold text-white mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Payroll Services UK – HMRC PAYE for Small & Medium Businesses
+                Payroll Services UK â€“ HMRC PAYE for Small & Medium Businesses
               </h1>
               <p className="lead text-white-50 mb-4" style={{ maxWidth: '680px', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 Taxaccolega offer professional payroll services for small businesses wherever you are in the UK to help your employee payroll run smoothly month after month.
@@ -44,7 +44,7 @@ const PayrollServices = () => {
                 <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0 small" style={{ background: 'transparent' }}>
                   <li className="breadcrumb-item"><Link href="/" className="text-decoration-none text-brand-orange">Home</Link></li>
                   <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none text-brand-orange">Accounts</Link></li>
-                  <li className="breadcrumb-item active text-white-50" aria-current="page">Payroll Services UK – HMRC PAYE for Small & Medium Businesses</li>
+                  <li className="breadcrumb-item active text-white-50" aria-current="page">Payroll Services UK â€“ HMRC PAYE for Small & Medium Businesses</li>
                 </ol>
               </nav>
             </div>
@@ -73,7 +73,7 @@ const PayrollServices = () => {
             <ol className="breadcrumb mb-0 small">
               <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
               <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none" style={{ color: '#D2601A' }}>Accounts</Link></li>
-              <li className="breadcrumb-item active text-secondary">Payroll Services UK – HMRC PAYE for Small & Medium Businesses</li>
+              <li className="breadcrumb-item active text-secondary">Payroll Services UK â€“ HMRC PAYE for Small & Medium Businesses</li>
             </ol>
           </nav>
         </div>
@@ -93,9 +93,9 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Payroll problems usually start before payday arrives
@@ -113,9 +113,9 @@ const PayrollServices = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Payroll-Services-How-Payroll-Actually-Functions-Inside-a-Business-scaled.webp" alt="Payroll Services UK Built Around Consistency and Timing" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -135,9 +135,9 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 How Payroll Actually Functions Inside a Business
@@ -153,9 +153,9 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Payroll-Services-Outsourced-Payroll-Services-UK.webp" alt="Payroll sits between employees, HMRC, pensions, and accounts" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -175,9 +175,9 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Small payroll errors rarely stay small
@@ -190,7 +190,7 @@ const PayrollServices = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>overtime or bonus calculations can distort payroll costs over multiple periods</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>By the time the issue is noticed, adjustments usually involve backdating, amended reporting, and employee explanations.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That is why payroll services for small businesses are less about “running payroll software” and more about maintaining accuracy across repeated cycles.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That is why payroll services for small businesses are less about â€œrunning payroll softwareâ€ and more about maintaining accuracy across repeated cycles.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
@@ -201,9 +201,9 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Payroll-Services-Insight-Payroll-pressure-usually.webp" alt="Payroll Services for Small Business UK" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -215,7 +215,7 @@ const PayrollServices = () => {
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Small businesses often assume payroll will remain simple because headcount is low.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That usually changes faster than expected.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The moment staffing structures begin changing regularly, payroll becomes operationally sensitive. Different salaries, holiday pay, directors’ pay, statutory sick pay, maternity payments, pension deductions, and starter/leaver processing all begin interacting at the same time.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The moment staffing structures begin changing regularly, payroll becomes operationally sensitive. Different salaries, holiday pay, directorsâ€™ pay, statutory sick pay, maternity payments, pension deductions, and starter/leaver processing all begin interacting at the same time.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At that stage, payroll becomes closely connected with:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>management accounts services</span></li>
@@ -227,9 +227,9 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Payroll Processing Flow in UK Businesses
@@ -287,17 +287,17 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Payroll-Services-When-Businesses-Should-Move-to-Structured.webp" alt="Outsourced Payroll Services UK – Why Businesses Move Payroll Outside" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Payroll-Services-When-Businesses-Should-Move-to-Structured.webp" alt="Outsourced Payroll Services UK â€“ Why Businesses Move Payroll Outside" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
             <div className="col-lg-7 order-1 order-lg-2">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Outsourced Payroll Services UK – Why Businesses Move Payroll Outside
+                Outsourced Payroll Services UK â€“ Why Businesses Move Payroll Outside
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Businesses rarely outsource payroll because they cannot technically run it.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>They outsource it because payroll begins consuming too much operational attention.</p>
@@ -315,7 +315,7 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -326,7 +326,7 @@ const PayrollServices = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This means payroll is not only about paying staff correctly. It is also about reporting deductions accurately and on time.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Incorrect submissions can create:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>mismatched employee records ● PAYE discrepancies ● unnecessary HMRC follow-up</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>mismatched employee records â— PAYE discrepancies â— unnecessary HMRC follow-up</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This becomes especially important where <Link href="/taxation/personal-income-tax-professionals-and-chartered-accountants" className="text-brand-orange fw-semibold text-decoration-none">payroll links with</Link> <Link href="/taxation/personal-income-tax-professionals-and-chartered-accountants" className="text-brand-orange fw-semibold text-decoration-none">income tax services in UK</Link> because employee tax records and payroll reporting need to remain aligned.</p>
             </div>
@@ -334,7 +334,7 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -344,7 +344,7 @@ const PayrollServices = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Payroll and pensions cannot realistically be separated once employee numbers grow.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Auto enrolment requires:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>eligibility assessment ● contribution calculation</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>eligibility assessment â— contribution calculation</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>ongoing pension reporting</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The difficulty is not the setup itself. The difficulty is maintaining accuracy every payroll cycle as salaries and employee status change.</p>
@@ -355,7 +355,7 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -375,7 +375,7 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -430,7 +430,7 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -440,11 +440,11 @@ const PayrollServices = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Payroll affects much more than salaries.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Wage costs influence:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>business profitability ● tax calculations ● pension liabilities ● year-end reporting ownership history</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>business profitability â— tax calculations â— pension liabilities â— year-end reporting ownership history</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is why payroll data must align with:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>corporation tax services ● financial forecasting services ● cashflow forecasting services</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>corporation tax services â— financial forecasting services â— cashflow forecasting services</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Without accurate payroll figures, forecasts and tax calculations lose reliability quickly. Once payroll figures lose consistency, the impact usually spreads beyond payroll itself into reporting, planning, and compliance.</p>
             </div>
@@ -452,7 +452,7 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -475,7 +475,7 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -496,7 +496,7 @@ const PayrollServices = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -505,7 +505,7 @@ const PayrollServices = () => {
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If payroll is beginning to feel rushed, reactive, or difficult to control internally, it is usually a sign the process has outgrown its current structure.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Payroll services should remove pressure, not create more of it.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Taxaccolega supports businesses across London and the UK with outsourced payroll services, RTI reporting, payroll processing, and pension alignment designed to keep payroll accurate before deadlines arrive — not corrected afterwards.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Taxaccolega supports businesses across London and the UK with outsourced payroll services, RTI reporting, payroll processing, and pension alignment designed to keep payroll accurate before deadlines arrive â€” not corrected afterwards.</p>
             </div>
           </div>
         </div>

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/vat-registration-in-the-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-06-16 08:47:49",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/vat-4184607_640.jpg" }],
+    images: [{ url: "/images/2024/01/vat-4184607_640.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "VAT Registration in the UK | Taxaccolega",
     description: "VAT Registration in the UK Everything You Need to Know Are you unsure if you need to register for VAT if you own a business in London, Croydon? You are not alo…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/vat-4184607_640.jpg"],
+    images: ["/images/2024/01/vat-4184607_640.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/01/vat-4184607_640.jpg" alt="VAT Registration in the UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/01/vat-4184607_640.jpg" alt="VAT Registration in the UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

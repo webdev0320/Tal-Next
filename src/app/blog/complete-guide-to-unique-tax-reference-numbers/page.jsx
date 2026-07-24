@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/complete-guide-to-unique-tax-reference-numbers/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-09-25 13:44:25",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/Taxation.webp" }],
+    images: [{ url: "/images/2024/06/Taxation.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Unique Tax Reference Number | Complete Guide By Taxaccolega | Taxaccolega",
     description: "Complete Guide to Unique Tax Reference Numbers Table of Contents What does a UTR number mean? Who needs a UTR? Where do I look for my UTR? How can I get a UTR…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/Taxation.webp"],
+    images: ["/images/2024/06/Taxation.webp"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2024/06/Taxation.webp" alt="Unique Tax Reference Number | Complete Guide By Taxaccolega" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2024/06/Taxation.webp" alt="Unique Tax Reference Number | Complete Guide By Taxaccolega" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

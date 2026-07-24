@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-to-open-a-business-bank-account-in-the-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2026-03-17 19:04:28",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget.jpg" }],
+    images: [{ url: "/images/2025/12/Autumn-Budget.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts & Step-by-Step Guide for Startups and Small Businesses | Taxaccolega",
     description: "How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts Step-by-Step Guide for Startups and Small Businesses Setting up a busines…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget.jpg"],
+    images: ["/images/2025/12/Autumn-Budget.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget.jpg" alt="How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts & Step-by-Step Guide for Startups and Small Businesses" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2025/12/Autumn-Budget.jpg" alt="How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts & Step-by-Step Guide for Startups and Small Businesses" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

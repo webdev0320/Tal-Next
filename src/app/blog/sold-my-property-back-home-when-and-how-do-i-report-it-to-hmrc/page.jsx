@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-10-13 11:59:36",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/selling-property.jpg" }],
+    images: [{ url: "/images/2020/10/selling-property.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Sold Overseas Property? Report to HMRC the Right Way | Taxaccolega",
     description: "Sold my property back home When and how do I Report it to HMRC? What taxes do you need to pay if you sell your property abroad depends on your living status in…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/selling-property.jpg"],
+    images: ["/images/2020/10/selling-property.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/selling-property.jpg" alt="Sold Overseas Property? Report to HMRC the Right Way" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/10/selling-property.jpg" alt="Sold Overseas Property? Report to HMRC the Right Way" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

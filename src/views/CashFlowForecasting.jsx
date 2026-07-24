@@ -21,17 +21,17 @@ const CashFlowForecasting = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Cashflow-Forecasting-1-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Cashflow-Forecasting-1-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
                 Accounts Services
               </span>
               <h1 className="display-4 fw-bold text-white mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Cash Flow Forecasting UK – Forecasts, Projections & Management
+                Cash Flow Forecasting UK â€“ Forecasts, Projections & Management
               </h1>
               <p className="lead text-white-50 mb-4" style={{ maxWidth: '680px', fontSize: '1.1rem', lineHeight: 1.6 }}>
                 Expert Cashflow Forecasting Services for Optimal Financial Management
@@ -44,7 +44,7 @@ const CashFlowForecasting = () => {
                 <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0 small" style={{ background: 'transparent' }}>
                   <li className="breadcrumb-item"><Link href="/" className="text-decoration-none text-brand-orange">Home</Link></li>
                   <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none text-brand-orange">Accounts</Link></li>
-                  <li className="breadcrumb-item active text-white-50" aria-current="page">Cash Flow Forecasting UK – Forecasts, Projections & Management</li>
+                  <li className="breadcrumb-item active text-white-50" aria-current="page">Cash Flow Forecasting UK â€“ Forecasts, Projections & Management</li>
                 </ol>
               </nav>
             </div>
@@ -73,7 +73,7 @@ const CashFlowForecasting = () => {
             <ol className="breadcrumb mb-0 small">
               <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
               <li className="breadcrumb-item"><Link href="/accounts" className="text-decoration-none" style={{ color: '#D2601A' }}>Accounts</Link></li>
-              <li className="breadcrumb-item active text-secondary">Cash Flow Forecasting UK – Forecasts, Projections & Management</li>
+              <li className="breadcrumb-item active text-secondary">Cash Flow Forecasting UK â€“ Forecasts, Projections & Management</li>
             </ol>
           </nav>
         </div>
@@ -93,7 +93,7 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -106,7 +106,7 @@ const CashFlowForecasting = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A large client pays later than expected. VAT falls due during a slower trading period. Payroll lands before several invoices clear. Stock is purchased earlier than planned to secure pricing. One pressure point overlaps with another, and suddenly a business that looked financially healthy a month earlier is forced into reactive decisions.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That is usually the moment businesses realise profitability and cash position are not the same thing.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Cashflow forecasting exists to close that gap before it turns into pressure.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At Taxaccolega, our cashflow forecasting services are built around how businesses actually operate in real conditions — not around theoretical spreadsheet assumptions. Whether you need a short-term cashflow forecast, ongoing cash flow management and forecasting support, or a structured business cashflow forecast for funding, expansion, staffing, or operational planning, the objective stays practical: create visibility before timing problems start affecting decisions.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At Taxaccolega, our cashflow forecasting services are built around how businesses actually operate in real conditions â€” not around theoretical spreadsheet assumptions. Whether you need a short-term cashflow forecast, ongoing cash flow management and forecasting support, or a structured business cashflow forecast for funding, expansion, staffing, or operational planning, the objective stays practical: create visibility before timing problems start affecting decisions.</p>
               </div>
             </div>
           </div>
@@ -115,9 +115,9 @@ const CashFlowForecasting = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What Cashflow Forecasting Actually Changes Inside a Business
@@ -134,9 +134,9 @@ const CashFlowForecasting = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Revenue recorded today may not arrive for 45 days. A profitable contract may still create short-term cash pressure if supplier payments are front-loaded. Growth itself can increase strain if operational costs rise faster than collections.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Forecasting changes how these decisions are evaluated.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Instead of asking:
- “Can we afford this eventually?”</p>
+ â€œCan we afford this eventually?â€</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The question becomes:
- “Can the business absorb this at the exact time cash leaves?”</p>
+ â€œCan the business absorb this at the exact time cash leaves?â€</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That difference is where many stable businesses either maintain control or start entering reactive financial cycles.</p>
             </div>
             <div className="col-lg-5">
@@ -148,9 +148,9 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Cash-Flow-Forecasting-Why-Profitable-Businesses-Still.webp" alt="Why Profitable Businesses Still Run Into Cashflow Pressure" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -180,9 +180,9 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What a Structured Cashflow Forecast Usually Includes
@@ -234,9 +234,9 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2024/01/pexels-photo-3756937.jpeg" alt="The Difference Between Financial Forecasting and Cashflow Forecasting" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -274,9 +274,9 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Insight Section: Most Cashflow Crises Begin Months Before They Become Visible
@@ -301,7 +301,7 @@ const CashFlowForecasting = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>before collections stabilise at the same pace.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>By the time the pressure becomes visible in the bank account, the decisions creating it are already locked in.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is why reactive forecasting usually arrives late.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The businesses that maintain stronger financial control are normally forecasting before pressure appears — not after.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The businesses that maintain stronger financial control are normally forecasting before pressure appears â€” not after.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
@@ -312,9 +312,9 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Cash-Flow-Forecasting-Speak-to-Cashflow-Forecasting-Consultants.webp" alt="When Businesses Usually Need Cashflow Forecasting Support" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -345,7 +345,7 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -395,7 +395,7 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -428,7 +428,7 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -453,7 +453,7 @@ const CashFlowForecasting = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">

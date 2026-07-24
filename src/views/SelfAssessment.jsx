@@ -21,10 +21,10 @@ const SelfAssessment = () => {
   ];
 
   return (
-    <div className="bg-light min-h-screen">
-      <header className="position-relative text-white overflow-hidden py-5" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Self-Assessment-Tax-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '380px' }}>
+    <div className="accounts-detail-page bg-light min-h-screen">
+      <header className="position-relative text-white overflow-hidden py-4" style={{ backgroundImage: 'linear-gradient(rgba(29, 60, 69, 0.72), rgba(29, 60, 69, 0.82)), url(/images/2026/05/Self-Assessment-Tax-scaled.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
-        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '5rem' }}>
+        <div className="container position-relative py-4" style={{ zIndex: 2, paddingTop: '1.5rem' }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange" style={{ letterSpacing: '2px' }}>
@@ -91,23 +91,23 @@ const SelfAssessment = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Self assessment doesn’t feel urgent — until the deadline is already close
+                Self assessment doesnâ€™t feel urgent â€” until the deadline is already close
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Self assessment rarely starts as a priority.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You know it needs to be done. You’ve got time. The income is there — salary, dividends, rental, maybe some freelance work — but it all feels manageable while it’s spread across the year.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You know it needs to be done. Youâ€™ve got time. The income is there â€” salary, dividends, rental, maybe some freelance work â€” but it all feels manageable while itâ€™s spread across the year.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Then the deadline gets closer.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You log into your HMRC self assessment tax return account, start going through the figures, and realise it’s not as straightforward as it looked. Income sources need to be combined. Some things aren’t clear. Others don’t quite match what you expected.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That’s when it stops being routine and becomes something you don’t want to get wrong.</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is where working with a self assessment tax return accountant in London or across the UK becomes important — not just to file, but to make sure everything behind the return is actually correct.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You log into your HMRC self assessment tax return account, start going through the figures, and realise itâ€™s not as straightforward as it looked. Income sources need to be combined. Some things arenâ€™t clear. Others donâ€™t quite match what you expected.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Thatâ€™s when it stops being routine and becomes something you donâ€™t want to get wrong.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This is where working with a self assessment tax return accountant in London or across the UK becomes important â€” not just to file, but to make sure everything behind the return is actually correct.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Self-Assessment-Tax-Return.webp" alt="Self assessment doesn’t feel urgent — until the deadline is already close" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Self-Assessment-Tax-Return.webp" alt="Self assessment doesnâ€™t feel urgent â€” until the deadline is already close" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
           </div>
@@ -116,19 +116,19 @@ const SelfAssessment = () => {
 
       <AccountsLinksBar />
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
-                <img src="/images/2026/05/Services-Accounts-Self-Assessment-Tax-Return-Who-Needs-to-File-a-Self-Assessment-Tax-Return.webp" alt="Self Assessment Tax Return UK – Built Around Accuracy Under Deadline" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
+                <img src="/images/2026/05/Services-Accounts-Self-Assessment-Tax-Return-Who-Needs-to-File-a-Self-Assessment-Tax-Return.webp" alt="Self Assessment Tax Return UK â€“ Built Around Accuracy Under Deadline" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
               </div>
             </div>
             <div className="col-lg-7 order-1 order-lg-2">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Self Assessment Tax Return UK – Built Around Accuracy Under Deadline
+                Self Assessment Tax Return UK â€“ Built Around Accuracy Under Deadline
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A self assessment tax return is not just a form — it’s a complete picture of your income for the year.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A self assessment tax return is not just a form â€” itâ€™s a complete picture of your income for the year.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Our self assessment tax return services are designed to:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>bring all income sources together clearly</span></li>
@@ -136,20 +136,20 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>file your return accurately and on time</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Whether you need help to file a self assessment tax return online, support with HMRC login and submission, or a dedicated self assessment accountant, the approach stays the same:</p>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}><strong className="text-brand-dark">get the figures right before submission — not corrected afterwards.</strong></p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}><strong className="text-brand-dark">get the figures right before submission â€” not corrected afterwards.</strong></p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What a Self Assessment Tax Return Actually Covers
               </h2>
-              <h3 className="text-brand-orange fw-bold mb-3">It’s where all income meets in one place</h3>
+              <h3 className="text-brand-orange fw-bold mb-3">Itâ€™s where all income meets in one place</h3>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>A self assessment tax return pulls together multiple sources of income that are not fully handled through PAYE.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>This commonly includes:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
@@ -160,8 +160,8 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>capital gains</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Each of these is treated differently, but within self assessment, they must all align.</p>
-              <h3 className="text-brand-orange fw-bold mb-3">It’s not the form — it’s the combination that creates complexity</h3>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most individuals don’t struggle with one income source.</p>
+              <h3 className="text-brand-orange fw-bold mb-3">Itâ€™s not the form â€” itâ€™s the combination that creates complexity</h3>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most individuals donâ€™t struggle with one income source.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>They struggle with how multiple sources interact.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>For example:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
@@ -179,7 +179,7 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>have foreign income</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>dispose of assets creating gains</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Many individuals only realise they need to file after the year has passed — which is where pressure starts building.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Many individuals only realise they need to file after the year has passed â€” which is where pressure starts building.</p>
             </div>
             <div className="col-lg-5">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
@@ -190,9 +190,9 @@ const SelfAssessment = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Self-Assessment-Tax-Return-Filing-a-Self-Assessment-Tax-Return-Online.webp" alt="Self Assessment Tax Return Deadlines and HMRC Requirements" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -204,9 +204,9 @@ const SelfAssessment = () => {
               </h2>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Self assessment operates on fixed deadlines:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>31 January → online filing deadline</span></li>
-                <li className="d-flex align-items-start"><CheckIcon /><span>31 January → payment deadline</span></li>
-                <li className="d-flex align-items-start"><CheckIcon /><span>31 July → second payment on account (if applicable)</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>31 January â†’ online filing deadline</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>31 January â†’ payment deadline</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>31 July â†’ second payment on account (if applicable)</span></li>
               </ul>
               <h3 className="text-brand-orange fw-bold mb-3">Self Assessment Timeline</h3>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Most problems occur when preparation is left too close to these deadlines.</p>
@@ -252,9 +252,9 @@ const SelfAssessment = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Filing a Self Assessment Tax Return Online
@@ -262,7 +262,7 @@ const SelfAssessment = () => {
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Filing online through HMRC systems is now standard.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The process includes:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-start"><CheckIcon /><span>logging into your HMRC self assessment account ● entering all income sources ● calculating tax liability ● submitting the return</span></li>
+                <li className="d-flex align-items-start"><CheckIcon /><span>logging into your HMRC self assessment account â— entering all income sources â— calculating tax liability â— submitting the return</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The system itself is straightforward.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The difficulty comes from:</p>
@@ -281,9 +281,9 @@ const SelfAssessment = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Self-Assessment-Tax-Return-Rental-Income-and-Self-Assessment.webp" alt="Why Most Self Assessment Mistakes Are Only Found After Submission" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -315,15 +315,15 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>corrections require amendments</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>penalties may already apply</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Where records have not been maintained properly across the year, correcting the return later often means rebuilding the position from multiple incomplete sources. This is why self assessment problems are rarely about the form — they are about the <strong className="text-brand-dark">structure behind it</strong>.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Where records have not been maintained properly across the year, correcting the return later often means rebuilding the position from multiple incomplete sources. This is why self assessment problems are rarely about the form â€” they are about the <strong className="text-brand-dark">structure behind it</strong>.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Self Assessment for Company Directors
@@ -361,9 +361,9 @@ const SelfAssessment = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img src="/images/2026/05/Services-Accounts-Self-Assessment-Tax-Return-Self-Assessment-and-Financial-Records.webp" alt="Foreign Income and Reporting Obligations" className="img-fluid rounded-3" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} loading="lazy" />
@@ -392,9 +392,9 @@ const SelfAssessment = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 What Our Self Assessment Tax Return Services Actually Change
@@ -405,7 +405,7 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>submit it to HMRC</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>tell you what you owe</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That’s expected.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Thatâ€™s expected.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>What changes the outcome is what happens before submission.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Our approach focuses on:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
@@ -419,7 +419,7 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>reduced risk of HMRC queries</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>fewer post-submission corrections</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The difference is not in the filing — it’s in the preparation.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>The difference is not in the filing â€” itâ€™s in the preparation.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Handling this correctly requires structured understanding, not just data entry.</p>
             </div>
             <div className="col-lg-5">
@@ -431,7 +431,7 @@ const SelfAssessment = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -444,7 +444,7 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>they are ready to file</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>they realise something is unclear</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>That’s already late.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>Thatâ€™s already late.</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>You should speak to a self assessment tax return accountant when:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>you have multiple income sources</span></li>
@@ -452,15 +452,15 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>you are unsure how something should be reported</span></li>
               </ul>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>At that stage:
- 👉 decisions can still be corrected</p>
+ ðŸ‘‰ decisions can still be corrected</p>
               <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>After submission:
- 👉 they usually cannot</p>
+ ðŸ‘‰ they usually cannot</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
@@ -480,14 +480,14 @@ const SelfAssessment = () => {
         </div>
       </section>
 
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-4 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-10 mx-auto">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Speak to Self Assessment Tax Return Accountants in London UK
               </h2>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If your self assessment tax return is being left until the final stage, there’s a strong chance that:</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>If your self assessment tax return is being left until the final stage, thereâ€™s a strong chance that:</p>
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
                 <li className="d-flex align-items-start"><CheckIcon /><span>opportunities have already been missed</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>income has not been treated optimally</span></li>
@@ -500,7 +500,7 @@ const SelfAssessment = () => {
                 <li className="d-flex align-items-start"><CheckIcon /><span>support with HMRC login and submission</span></li>
                 <li className="d-flex align-items-start"><CheckIcon /><span>ongoing personal tax support</span></li>
               </ul>
-              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>handling it early changes the outcome — and avoids unnecessary cost later.</p>
+              <p className="text-secondary mb-3" style={{ lineHeight: 1.8 }}>handling it early changes the outcome â€” and avoids unnecessary cost later.</p>
             </div>
           </div>
         </div>

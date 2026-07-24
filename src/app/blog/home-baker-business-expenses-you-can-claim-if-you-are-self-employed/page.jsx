@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/home-baker-business-expenses-you-can-claim-if-you-are-self-employed/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-09-16 14:22:28",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/09/home-baker.jpg" }],
+    images: [{ url: "/images/2021/09/home-baker.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Self-Employed Home Baker – What Expenses Can You Claim? | Taxaccolega",
     description: "Home baker business Expenses you claim if you are self Employed. If you are thinking of starting a business the first thing that should come to your mind is pr…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/09/home-baker.jpg"],
+    images: ["/images/2021/09/home-baker.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/09/home-baker.jpg" alt="Self-Employed Home Baker – What Expenses Can You Claim?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/09/home-baker.jpg" alt="Self-Employed Home Baker – What Expenses Can You Claim?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

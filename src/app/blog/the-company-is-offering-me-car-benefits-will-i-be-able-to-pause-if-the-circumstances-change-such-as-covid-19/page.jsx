@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/the-company-is-offering-me-car-benefits-will-i-be-able-to-pause-if-the-circumstances-change-such-as-covid-19/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-04-04 14:30:04",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/car-benefits.jpg" }],
+    images: [{ url: "/images/2021/04/car-benefits.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "The Company is offering me car benefits - will I be able to pause if the circumstances change such as covid-19? | Taxaccolega",
     description: "The Company is offering me car benefits - will I be able to pause if the circumstances change such as covid-19? The combination of salary and benefits in kind…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/car-benefits.jpg"],
+    images: ["/images/2021/04/car-benefits.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/car-benefits.jpg" alt="The Company is offering me car benefits - will I be able to pause if the circumstances change such as covid-19?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/04/car-benefits.jpg" alt="The Company is offering me car benefits - will I be able to pause if the circumstances change such as covid-19?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

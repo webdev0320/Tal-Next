@@ -9,8 +9,8 @@ const CryptocurrencyTax = () => {
   return (
     <div className="w-full bg-white text-gray-800">
       
-      {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
-      <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
+      {/* â”€â”€ HERO SECTION WITH SIDEBAR OVERLAP â”€â”€ */}
+      <header className="position-relative text-white overflow-hidden py-4" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
           <div className="row g-4 align-items-center">
@@ -74,7 +74,7 @@ const CryptocurrencyTax = () => {
       {/* Component Index 3: Technical Difficulty Module */}
       <section className="bg-white container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="space-y-6">
-          <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency Tax UK – Why Crypto Becomes Difficult to Report</h2>
+          <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency Tax UK â€“ Why Crypto Becomes Difficult to Report</h2>
           <p>The technical side of cryptocurrency often moves faster than the reporting side. People focus on markets, pricing, timing, and volatility. Very few initially focus on transaction reconstruction or future tax reporting. That usually comes later, often when gains become significant or when HMRC cryptocurrency tax letters begin arriving. By then, the transaction trail is rarely simple.</p>
           <p className="font-semibold">A taxpayer may have:</p>
           <ul className="space-y-2">
@@ -85,7 +85,7 @@ const CryptocurrencyTax = () => {
               </li>
             ))}
           </ul>
-          <p>The result is that cryptocurrency taxes stop being about “one gain” and become a reconstruction exercise involving timing, valuation, and classification.</p>
+          <p>The result is that cryptocurrency taxes stop being about â€œone gainâ€ and become a reconstruction exercise involving timing, valuation, and classification.</p>
           <p className="text-sm border-t pt-4">This is where many generic cryptocurrency tax calculators and cryptocurrency tax software tools start falling short. They may process raw transaction data, but they cannot always determine how HMRC cryptocurrency tax rules apply to unusual transaction patterns or incomplete records.</p>
         </div>
         <div className="border-4 border-dashed border-gray-300 flex items-center justify-center p-12">
@@ -99,20 +99,20 @@ const CryptocurrencyTax = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-teal-900">How HMRC Views Cryptocurrency and Taxes</h3>
-              <p>One of the most misunderstandings surrounding tax on cryptocurrency UK issues is the belief that tax only applies when profits are cashed out into pounds. In reality, HMRC may still view several crypto activities as taxable even where no traditional withdrawal took place. A disposal can occur through selling, swapping, gifting, or exchanging crypto assets. This means a person can create a capital gains tax cryptocurrency UK liability without ever feeling like they “withdrew profit” in the traditional sense. The gap between what taxpayers emotionally view as profit and what HMRC treats as a taxable event is where most cryptocurrency tax confusion begins. That confusion becomes even more serious when activity spans several tax years.</p>
+              <p>One of the most misunderstandings surrounding tax on cryptocurrency UK issues is the belief that tax only applies when profits are cashed out into pounds. In reality, HMRC may still view several crypto activities as taxable even where no traditional withdrawal took place. A disposal can occur through selling, swapping, gifting, or exchanging crypto assets. This means a person can create a capital gains tax cryptocurrency UK liability without ever feeling like they â€œwithdrew profitâ€ in the traditional sense. The gap between what taxpayers emotionally view as profit and what HMRC treats as a taxable event is where most cryptocurrency tax confusion begins. That confusion becomes even more serious when activity spans several tax years.</p>
             </div>
             <div className="border border-gray-300 bg-white flex items-center justify-center">Token Swap Visual Placer</div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="border border-gray-300 bg-white flex items-center justify-center">Pooling Math Visual Placer</div>
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-teal-900">Capital Gains Tax Cryptocurrency UK – Where Most Reporting Errors Happen</h3>
+              <h3 className="text-2xl font-bold text-teal-900">Capital Gains Tax Cryptocurrency UK â€“ Where Most Reporting Errors Happen</h3>
               <p>For many investors, cryptocurrency capital gains tax UK rules become difficult because gains are rarely isolated into clean transactions. A single crypto holder may acquire the same asset repeatedly over time at different prices, move portions between wallets, exchange tokens rapidly during market volatility, and later dispose of only part of the holding. At that point, the calculation stops being intuitive. Pooling rules, acquisition sequencing, allowable costs, transaction history, and disposal timing all begin affecting the position. Even taxpayers attempting to report honestly often discover later that the gains were calculated incorrectly because the underlying history was incomplete.</p>
               <p className="font-semibold">This becomes particularly common where:</p>
               <ul className="space-y-2">
                 {["exchange histories are missing", "assets were transferred between platforms", "stablecoins were treated incorrectly", "wallet movements were duplicated", "historic acquisition values were never recorded properly"].map((item, i) => (
                   <li key={i} className="flex items-center gap-2">
-                    <span className="text-[#EA580C]">●</span>
+                    <span className="text-[#EA580C]">â—</span>
                     {item}
                   </li>
                 ))}
@@ -126,7 +126,7 @@ const CryptocurrencyTax = () => {
       {/* Component Index 6: Income Tax vs CGT Classification Panel */}
       <section className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-12 bg-white">
         <div className="space-y-4">
-          <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency and Income Tax – Where Investors Misclassify Activity</h2>
+          <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency and Income Tax â€“ Where Investors Misclassify Activity</h2>
           <p>Not every crypto-related profit falls under capital gains tax. In certain situations, HMRC may instead treat cryptocurrency activity as income. This can apply to mining, staking, token rewards, employment-related crypto, or organised trading activity depending on how the transactions are structured and carried out.</p>
           <p>That distinction matters because the tax treatment changes significantly. A person focusing only on capital gains tax cryptocurrency may completely overlook cryptocurrency and income tax exposure arising from rewards or recurring receipts.</p>
           <p className="text-sm pt-4 border-t">This is why cryptocurrency tax advice cannot rely on assumptions or generic online articles alone. The actual transaction behaviour matters more than the label a taxpayer gives themselves.</p>
@@ -149,7 +149,7 @@ const CryptocurrencyTax = () => {
       <section className="bg-[#F9FAFB] py-12">
         <div className="container mx-auto px-4 text-center space-y-6">
           <h2 className="text-3xl font-bold text-teal-900">Why HMRC Cryptocurrency Tax Investigations Are Increasing</h2>
-          <p className="max-w-3xl mx-auto">HMRC cryptocurrency tax avoidance measures have expanded considerably in recent years. Crypto activity is no longer viewed as invisible. International reporting agreements, exchange cooperation, digital audit systems, and data requests have increased HMRC’s visibility into cryptocurrency transactions. Many taxpayers who assumed older activity could not realistically be reviewed are now discovering that HMRC is actively comparing reported income against digital transaction histories.</p>
+          <p className="max-w-3xl mx-auto">HMRC cryptocurrency tax avoidance measures have expanded considerably in recent years. Crypto activity is no longer viewed as invisible. International reporting agreements, exchange cooperation, digital audit systems, and data requests have increased HMRCâ€™s visibility into cryptocurrency transactions. Many taxpayers who assumed older activity could not realistically be reviewed are now discovering that HMRC is actively comparing reported income against digital transaction histories.</p>
           <p className="font-semibold text-teal-900">This increasingly overlaps with:</p>
           <div className="flex flex-wrap justify-center gap-4 text-sm font-semibold uppercase">
             {["tax investigation matters", "worldwide disclosure facility disclosures", "non-UK resident taxation issues", "capital gains tax reporting", "personal income tax compliance"].map((tag, i) => (
@@ -163,9 +163,9 @@ const CryptocurrencyTax = () => {
       {/* Component Index 9: Strategic Blind Spot Callout System */}
       <section className="container mx-auto px-4 py-12">
         <div className="border-2 border-[#EA580C] p-8 space-y-4">
-          <h3 className="text-2xl font-bold text-[#EA580C]">Insight Section – Most Crypto Tax Problems Start Years Before HMRC Contacts You</h3>
+          <h3 className="text-2xl font-bold text-[#EA580C]">Insight Section â€“ Most Crypto Tax Problems Start Years Before HMRC Contacts You</h3>
           <p>The largest cryptocurrency tax liabilities are often created silently. Not through one dramatic mistake, but through small assumptions repeated over time. Someone assumes swapping one token for another is not taxable. Someone believes moving assets through decentralised platforms removes reporting obligations. Someone thinks exchange statements will always remain available later. Someone forgets older wallets entirely.</p>
-          <p>Then eventually, perhaps years later, the taxpayer attempts to calculate gains and realises the transaction history no longer connects properly. That is the point where crypto taxation becomes expensive. Because once records become fragmented across multiple tax years, the position changes from “filing accurately” to “repairing history.” The earlier cryptocurrency tax problems are identified, the more flexibility usually exists around:</p>
+          <p>Then eventually, perhaps years later, the taxpayer attempts to calculate gains and realises the transaction history no longer connects properly. That is the point where crypto taxation becomes expensive. Because once records become fragmented across multiple tax years, the position changes from â€œfiling accuratelyâ€ to â€œrepairing history.â€ The earlier cryptocurrency tax problems are identified, the more flexibility usually exists around:</p>
           <div className="grid grid-cols-2 gap-4">
             <div>
               <p>{"disclosure | reconstruction | penalty mitigation"}</p>
@@ -181,7 +181,7 @@ const CryptocurrencyTax = () => {
       {/* Component Index 10: Corporate Structures and Treasury Management */}
       <section className="bg-[#F9FAFB] py-12">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
-            <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2026/05/Services-Taxation-Cryptocurrency-Cryptocurrency-Tax-and-Business-Structures.webp" alt="Cryptocurrency Tax and Business Structures" className="rounded-lg shadow-lg w-full object-cover" />
+            <img src="/images/2026/05/Services-Taxation-Cryptocurrency-Cryptocurrency-Tax-and-Business-Structures.webp" alt="Cryptocurrency Tax and Business Structures" className="rounded-lg shadow-lg w-full object-cover" />
             <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-teal-900">Cryptocurrency Tax and Business Structures</h2>
                 <p>Cryptocurrency held inside companies creates another layer of complexity entirely. In those situations, the issue is no longer limited to personal capital gains tax. The business may also face corporation tax cryptocurrency implications, accounting treatment considerations, valuation questions, and reporting obligations within statutory accounts.</p>

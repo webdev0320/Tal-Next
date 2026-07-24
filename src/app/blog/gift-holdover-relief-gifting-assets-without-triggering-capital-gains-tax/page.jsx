@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/gift-holdover-relief-gifting-assets-without-triggering-capital-gains-tax/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-12-29 13:16:55",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house.jpg" }],
+    images: [{ url: "/images/2020/09/house.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Gift Holdover Relief gifting assets without triggering capital gains tax | Taxaccolega",
     description: "Gift Holdover Relief Gifting Assets Without Triggering Capital Gains Tax Table of Contents Why Gifting Assets Often Triggers Capital Gains Tax What Gift Holdov…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house.jpg"],
+    images: ["/images/2020/09/house.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house.jpg" alt="Gift Holdover Relief gifting assets without triggering capital gains tax" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/09/house.jpg" alt="Gift Holdover Relief gifting assets without triggering capital gains tax" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

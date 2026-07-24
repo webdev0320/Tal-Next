@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/online-selling-what-is-my-corporate-social-responsibility/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-04-12 14:34:30",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/online-selling.jpg" }],
+    images: [{ url: "/images/2021/04/online-selling.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Online Selling - What is my Corporate Social Responsibility? | Taxaccolega",
     description: "Online Selling What is my Corporate Social Responsibility? When we are setting up our business, we often go through our checklist of legal responsibilities suc…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/online-selling.jpg"],
+    images: ["/images/2021/04/online-selling.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/online-selling.jpg" alt="Online Selling - What is my Corporate Social Responsibility?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/04/online-selling.jpg" alt="Online Selling - What is my Corporate Social Responsibility?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

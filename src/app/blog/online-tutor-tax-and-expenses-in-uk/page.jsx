@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/online-tutor-tax-and-expenses-in-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-06-15 14:41:55",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/online-tutor-1.jpg" }],
+    images: [{ url: "/images/2021/06/online-tutor-1.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Online Tutor Tax Guide – Expenses You Can Claim in the UK | Taxaccolega",
     description: "Online Tutor - What expenses can I claim and what taxes do I pay? If you are thinking of starting online tutoring you should be well aware of the taxes that th…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/online-tutor-1.jpg"],
+    images: ["/images/2021/06/online-tutor-1.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/online-tutor-1.jpg" alt="Online Tutor Tax Guide – Expenses You Can Claim in the UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/06/online-tutor-1.jpg" alt="Online Tutor Tax Guide – Expenses You Can Claim in the UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

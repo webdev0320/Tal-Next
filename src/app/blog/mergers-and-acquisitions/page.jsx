@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/mergers-and-acquisitions/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-07-20 11:08:29",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/mergers-and-acquisitions.jpg" }],
+    images: [{ url: "/images/2020/07/mergers-and-acquisitions.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Mergers and Acquisitions | Taxaccolega",
     description: "Mergers and Acquisitions The impact of coronavirus is significant on the mergers and acquisition deals. As a result of the crisis everything is disrupted, the…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/mergers-and-acquisitions.jpg"],
+    images: ["/images/2020/07/mergers-and-acquisitions.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/mergers-and-acquisitions.jpg" alt="Mergers and Acquisitions" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/07/mergers-and-acquisitions.jpg" alt="Mergers and Acquisitions" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

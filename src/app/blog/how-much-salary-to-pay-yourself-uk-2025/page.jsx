@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-much-salary-to-pay-yourself-uk-2025/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-03-03 14:48:23",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/my-salary.jpg" }],
+    images: [{ url: "/images/2021/03/my-salary.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How Much Salary Should You Pay Yourself in UK 2025? | Taxaccolega",
     description: "How much salary should I give myself in the tax year 2020-2021? In the budget announced in March 2021, the threshold for personal allowance has been increased.…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/my-salary.jpg"],
+    images: ["/images/2021/03/my-salary.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/my-salary.jpg" alt="How Much Salary Should You Pay Yourself in UK 2025?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/03/my-salary.jpg" alt="How Much Salary Should You Pay Yourself in UK 2025?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

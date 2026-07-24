@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/discretionery-trusts/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-09-08 11:45:09",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/trust.jpg" }],
+    images: [{ url: "/images/2020/09/trust.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Discretionery Trusts | Taxaccolega",
     description: "Discretionary Trusts WHAT IS A DISCRETIONARY TRUST? A discretionary trust is one of the trusts which can be set up by an individual to manage their assets. By…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/trust.jpg"],
+    images: ["/images/2020/09/trust.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/trust.jpg" alt="Discretionery Trusts" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/09/trust.jpg" alt="Discretionery Trusts" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

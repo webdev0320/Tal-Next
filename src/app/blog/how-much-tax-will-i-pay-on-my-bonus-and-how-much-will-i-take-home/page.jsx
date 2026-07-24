@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-08-12 11:26:45",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/08/Taxes-in-Croydon.jpg" }],
+    images: [{ url: "/images/2022/08/Taxes-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How much tax will I pay on my bonus and how much will I take home? | Taxaccolega",
     description: "How much tax will I pay on my bonus and how much will I take home? The bonus you will get is considered your earnings so you will be taxed in the same way as y…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/08/Taxes-in-Croydon.jpg"],
+    images: ["/images/2022/08/Taxes-in-Croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/08/Taxes-in-Croydon.jpg" alt="How much tax will I pay on my bonus and how much will I take home?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/08/Taxes-in-Croydon.jpg" alt="How much tax will I pay on my bonus and how much will I take home?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

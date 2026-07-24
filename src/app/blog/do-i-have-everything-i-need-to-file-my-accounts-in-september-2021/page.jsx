@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/do-i-have-everything-i-need-to-file-my-accounts-in-september-2021/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-08-09 14:35:46",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/year-end-accounts.jpg" }],
+    images: [{ url: "/images/2021/08/year-end-accounts.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Do I have everything I need to file my accounts in September 2021? | Taxaccolega",
     description: "Do I have everything I need to file my accounts in September 2021 If you are a private limited Company and your company's financial year end is December 2021,…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/year-end-accounts.jpg"],
+    images: ["/images/2021/08/year-end-accounts.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/year-end-accounts.jpg" alt="Do I have everything I need to file my accounts in September 2021?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/08/year-end-accounts.jpg" alt="Do I have everything I need to file my accounts in September 2021?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

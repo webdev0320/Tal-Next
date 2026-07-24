@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/4-reasons-why-you-should-incorporate-your-property-business/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-02-13 12:15:19",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/property-business.jpg" }],
+    images: [{ url: "/images/2022/02/property-business.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "4 reasons why you should incorporate your property business | Taxaccolega",
     description: "4 reasons why you should incorporate your property business When we are in any kind of a business we are looking for ways to save taxes. Tax is a cost which ca…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/property-business.jpg"],
+    images: ["/images/2022/02/property-business.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/property-business.jpg" alt="4 reasons why you should incorporate your property business" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/02/property-business.jpg" alt="4 reasons why you should incorporate your property business" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

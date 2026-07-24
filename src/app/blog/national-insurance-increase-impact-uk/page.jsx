@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/national-insurance-increase-impact-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-04-20 12:11:33",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/04/ni-increase-Taxes-in-Croydon.jpg" }],
+    images: [{ url: "/images/2022/04/ni-increase-Taxes-in-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "National Insurance Increase – What It Means for You | Taxaccolega",
     description: "Increase in National Insurance How will it affect me? If you are an employer running a payroll for your employees make sure that you pay income tax and Nationa…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/04/ni-increase-Taxes-in-Croydon.jpg"],
+    images: ["/images/2022/04/ni-increase-Taxes-in-Croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/04/ni-increase-Taxes-in-Croydon.jpg" alt="National Insurance Increase – What It Means for You" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/04/ni-increase-Taxes-in-Croydon.jpg" alt="National Insurance Increase – What It Means for You" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

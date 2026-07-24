@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/mini-budget-how-will-it-affect-you/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-09-11 11:14:08",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/Mini-Budget-Croydon.jpg" }],
+    images: [{ url: "/images/2022/09/Mini-Budget-Croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Mini- budget : How will it affect you? | Taxaccolega",
     description: "Mini- budget How will it affect you? The chancellor announced major tax cuts on Friday as he believes that it will boost the economy. He comes with the agenda…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/Mini-Budget-Croydon.jpg"],
+    images: ["/images/2022/09/Mini-Budget-Croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/Mini-Budget-Croydon.jpg" alt="Mini- budget : How will it affect you?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/09/Mini-Budget-Croydon.jpg" alt="Mini- budget : How will it affect you?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

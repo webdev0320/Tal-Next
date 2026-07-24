@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/i-am-a-landlord-how-much-ni-will-i-have-to-pay/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-02-16 12:29:15",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/02/landlord-ni.jpg" }],
+    images: [{ url: "/images/2021/02/landlord-ni.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Landlord National Insurance in the UK – What You Owe | Taxaccolega",
     description: "I am a Landlord- How much NI will I have to pay? When you think of running a business it is very important that you know what costs may be involved so you have…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/02/landlord-ni.jpg"],
+    images: ["/images/2021/02/landlord-ni.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/02/landlord-ni.jpg" alt="Landlord National Insurance in the UK – What You Owe" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/02/landlord-ni.jpg" alt="Landlord National Insurance in the UK – What You Owe" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

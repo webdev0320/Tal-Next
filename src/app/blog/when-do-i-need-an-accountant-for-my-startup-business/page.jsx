@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/when-do-i-need-an-accountant-for-my-startup-business/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-02-13 12:16:51",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/start-up-accountant.jpg" }],
+    images: [{ url: "/images/2022/02/start-up-accountant.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "When do I need an accountant for my startup business? | Taxaccolega",
     description: "When do I need an accountant for my startup business? You are starting a business because you have a brilliant idea which you want to commercialize. You should…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/start-up-accountant.jpg"],
+    images: ["/images/2022/02/start-up-accountant.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/start-up-accountant.jpg" alt="When do I need an accountant for my startup business?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/02/start-up-accountant.jpg" alt="When do I need an accountant for my startup business?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

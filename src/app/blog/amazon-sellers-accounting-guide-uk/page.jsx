@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/amazon-sellers-accounting-guide-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-06-22 11:53:55",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/06/amazon-accounting.jpg" }],
+    images: [{ url: "/images/2022/06/amazon-accounting.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Amazon Accounting Guide for UK Sellers – Tax Made Simple | Taxaccolega",
     description: "How to do Amazon Accounting? When you start your e-commerce business as an Amazon seller you should be confident enough with the way you will do it's accountin…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/06/amazon-accounting.jpg"],
+    images: ["/images/2022/06/amazon-accounting.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/06/amazon-accounting.jpg" alt="Amazon Accounting Guide for UK Sellers – Tax Made Simple" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/06/amazon-accounting.jpg" alt="Amazon Accounting Guide for UK Sellers – Tax Made Simple" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

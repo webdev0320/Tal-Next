@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/my-parents-gifted-me-their-house-what-taxes-do-we-need-to-pay/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-09-05 11:40:54",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house.jpg" }],
+    images: [{ url: "/images/2020/09/house.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Gifted Property from Parents – What Taxes Apply in the UK? | Taxaccolega",
     description: "My parents gifted me their house What taxes do we need to pay? MY PARENTS ARE GIFTING ME THEIR HOME. JUST WANT TO KNOW WHAT TAXES THEY HAVE TO PAY AND WHAT WIL…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house.jpg"],
+    images: ["/images/2020/09/house.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house.jpg" alt="Gifted Property from Parents – What Taxes Apply in the UK?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/09/house.jpg" alt="Gifted Property from Parents – What Taxes Apply in the UK?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/running-my-side-business-as-a-sole-trader-or-a-limited-company-which-one-will-be-more-tax-efficient/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-06-13 14:40:19",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/side-business.jpg" }],
+    images: [{ url: "/images/2021/06/side-business.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? | Taxaccolega",
     description: "Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? There is no one answer to this question. Either of the bu…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/side-business.jpg"],
+    images: ["/images/2021/06/side-business.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/06/side-business.jpg" alt="Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/06/side-business.jpg" alt="Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

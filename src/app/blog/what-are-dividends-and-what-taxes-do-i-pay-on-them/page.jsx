@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/what-are-dividends-and-what-taxes-do-i-pay-on-them/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-09-02 11:38:25",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/dividends.jpg" }],
+    images: [{ url: "/images/2020/09/dividends.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "What are dividends and what taxes do I pay on them? | Taxaccolega",
     description: "What are dividends and What taxes do I pay on them? If you are running a limited company or about to start a business of your own you should be familiar with d…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/dividends.jpg"],
+    images: ["/images/2020/09/dividends.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/dividends.jpg" alt="What are dividends and what taxes do I pay on them?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/09/dividends.jpg" alt="What are dividends and what taxes do I pay on them?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

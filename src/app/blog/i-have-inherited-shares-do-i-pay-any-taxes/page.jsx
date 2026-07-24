@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/i-have-inherited-shares-do-i-pay-any-taxes/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-08-02 11:22:57",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/inheritance-shares.jpg" }],
+    images: [{ url: "/images/2020/08/inheritance-shares.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Inherited Shares – Do You Pay Tax in the UK? | Taxaccolega",
     description: "I have inherited shares do I pay any taxes If you have inherited shares, you won't have to pay tax at the time of inheriting the shares. EXEMPTION If the share…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/inheritance-shares.jpg"],
+    images: ["/images/2020/08/inheritance-shares.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/08/inheritance-shares.jpg" alt="Inherited Shares – Do You Pay Tax in the UK?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/08/inheritance-shares.jpg" alt="Inherited Shares – Do You Pay Tax in the UK?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

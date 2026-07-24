@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/when-will-i-have-to-pay-capital-gains-tax-on-crypto-assets/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-09-22 11:16:29",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/bitcoin.png" }],
+    images: [{ url: "/images/2022/09/bitcoin.png" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "When will I have to pay Capital Gains Tax on Crypto Assets? | Taxaccolega",
     description: "When will I have to pay Capital Gains Tax on Crypto Assets? What are Crypto Assets? Crypto assets also known as cryptocurrency and tokens is a digital currency…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/bitcoin.png"],
+    images: ["/images/2022/09/bitcoin.png"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/09/bitcoin.png" alt="When will I have to pay Capital Gains Tax on Crypto Assets?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/09/bitcoin.png" alt="When will I have to pay Capital Gains Tax on Crypto Assets?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

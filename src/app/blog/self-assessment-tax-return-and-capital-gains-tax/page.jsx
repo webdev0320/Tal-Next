@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/self-assessment-tax-return-and-capital-gains-tax/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-10-14 12:02:08",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/cgt.jpg" }],
+    images: [{ url: "/images/2020/10/cgt.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Self Assessment & Capital Gains Tax – UK Filing Guide | Taxaccolega",
     description: "Self Assessment Tax Return And Capital gains Tax If you have disposed any personal possession such as antiques, jewellery, paintings etc. Which are worth more…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/cgt.jpg"],
+    images: ["/images/2020/10/cgt.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/cgt.jpg" alt="Self Assessment & Capital Gains Tax – UK Filing Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/10/cgt.jpg" alt="Self Assessment & Capital Gains Tax – UK Filing Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

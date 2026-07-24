@@ -58,7 +58,7 @@ const CompanyTaxReturn = () => {
     },
     {
       q: 'What happens if corporation tax is filed late?',
-      a: 'Late filing results in automatic financial penalties starting at £100 and rising. In addition, HMRC charges interest on any late-paid tax.'
+      a: 'Late filing results in automatic financial penalties starting at Ãƒâ€šÃ‚Â£100 and rising. In addition, HMRC charges interest on any late-paid tax.'
     },
     {
       q: 'Can corporation tax be reduced legally?',
@@ -71,8 +71,8 @@ const CompanyTaxReturn = () => {
   return (
     <div className="bg-light min-h-screen">
 
-      {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
-      <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ HERO SECTION WITH SIDEBAR OVERLAP ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <header className="position-relative text-white overflow-hidden py-4" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
           <div className="row g-4 align-items-center">
@@ -103,7 +103,7 @@ const CompanyTaxReturn = () => {
             </div>
             
             {/* HERO OVERLAPPING SIDEBAR */}
-            <div className="col-lg-4 d-none d-lg-block position-relative" style={{ zIndex: 3 }}>
+            <div className="col-lg-5 d-none d-lg-block position-relative" style={{ zIndex: 3 }}>
               <div className="p-4 rounded-4 shadow-lg" style={{ background: 'linear-gradient(180deg, rgba(232,162,116,0.9) 0%, rgba(212,108,36,0.95) 50%, rgba(184,80,14,1) 100%)' }}>
                 <h5 className="text-white fw-bold mb-4 text-center border-bottom pb-2" style={{ fontFamily: "'Outfit', sans-serif" }}>Quick Navigation</h5>
                 <div className="d-flex flex-column gap-3">
@@ -138,7 +138,7 @@ const CompanyTaxReturn = () => {
           </nav>
         </div>
       </div>
-      {/* ── BREADCRUMBS & SIDEBAR FOR MOBILE ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ BREADCRUMBS & SIDEBAR FOR MOBILE ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="d-block d-lg-none py-3 bg-white border-bottom shadow-sm">
         <div className="container">
           <div className="row g-2">
@@ -157,29 +157,29 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 1: HOW IT GOES WRONG ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 1: HOW IT GOES WRONG ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5">
+          <div className="row g-4">
             <div className="col-lg-8">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Corporation Tax Doesn't Usually Go Wrong In One Place — It Goes Wrong Across Everything
+                Corporation Tax Doesn't Usually Go Wrong In One Place ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â It Goes Wrong Across Everything
               </h2>
               <div className="text-secondary d-flex flex-column gap-3 fs-6" style={{ lineHeight: 1.8 }}>
                 <p>Corporation tax rarely becomes a problem because of one mistake.</p>
                 <p>It builds quietly across the year.</p>
-                <p>A few expenses are treated incorrectly. Director payments are structured without full consideration. Financial records don’t fully reflect what’s happening in the business. Nothing feels wrong at the time — everything appears to be working.</p>
+                <p>A few expenses are treated incorrectly. Director payments are structured without full consideration. Financial records donÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t fully reflect whatÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s happening in the business. Nothing feels wrong at the time ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â everything appears to be working.</p>
                 <p>Then the Company Tax Return is due.</p>
                 <p>Suddenly, the numbers need to align. The figures need to make sense. And it becomes clear that what looked manageable throughout the year now needs to be corrected all at once.</p>
                 <p >
-                  That’s where pressure builds.
+                  ThatÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s where pressure builds.
                 </p>
 
-                <p>This is where working with corporation tax accountants in London or across the UK becomes important — not just to file a return, but to ensure everything behind that return is already correct before submission.</p>
+                <p>This is where working with corporation tax accountants in London or across the UK becomes important ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â not just to file a return, but to ensure everything behind that return is already correct before submission.</p>
               </div>
             </div>
             
-            <div className="col-lg-4 d-block d-lg-none">
+            <div className="col-lg-5 d-block d-lg-none">
               <div className="p-4 rounded-4 shadow-lg text-white" style={{ background: 'linear-gradient(180deg, rgba(232,162,116,0.9) 0%, rgba(212,108,36,0.95) 50%, rgba(184,80,14,1) 100%)' }}>
                 <h5 className="fw-bold mb-3 text-center border-bottom pb-2">Quick Navigation</h5>
                 <div className="d-flex flex-column gap-3">
@@ -204,16 +204,16 @@ const CompanyTaxReturn = () => {
 
       <TaxationLinksBar />
 
-      {/* ── SECTION 2: BUILT AROUND ACCURACY ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 2: BUILT AROUND ACCURACY ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Corporation Tax Services UK – Built Around Accuracy Before Submission
+                Corporation Tax Services UK ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Built Around Accuracy Before Submission
               </h2>
               <p className="text-secondary mb-4 fs-6" style={{ lineHeight: 1.8 }}>
-                Corporation tax is not just about filing a return. It’s about making sure the financial position it represents is accurate.
+                Corporation tax is not just about filing a return. ItÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s about making sure the financial position it represents is accurate.
               </p>
               
               <h5 className="fw-bold text-brand-dark mb-3">Our corporation tax services are structured to:</h5>
@@ -243,10 +243,10 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 4: WHAT IT INVOLVES IN PRACTICE ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 4: WHAT IT INVOLVES IN PRACTICE ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img 
@@ -275,7 +275,7 @@ const CompanyTaxReturn = () => {
               </ul>
               
               <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>
-                A common pattern we see is where director loan accounts are used without clear tracking, dividend and salary decisions are made without reviewing tax efficiency, or expenses are recorded without considering whether they are fully allowable. These small gaps don’t usually cause immediate problems — but they tend to surface when the final tax position is being prepared. 
+                A common pattern we see is where director loan accounts are used without clear tracking, dividend and salary decisions are made without reviewing tax efficiency, or expenses are recorded without considering whether they are fully allowable. These small gaps donÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t usually cause immediate problems ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â but they tend to surface when the final tax position is being prepared. 
               </p>
               
               <h5 className="text-brand-dark fw-bold mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>It Depends On Consistency Across Multiple Areas</h5>
@@ -289,9 +289,9 @@ const CompanyTaxReturn = () => {
 
       <Partners />
 
-      <section className="py-5 bg-white">
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Limited Company Protocols</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
@@ -308,7 +308,7 @@ const CompanyTaxReturn = () => {
               </ul>
               
               <p className="text-secondary" style={{ lineHeight: 1.8 }}>
-                But the real work is not in submission — it’s in preparation. If one figure changes, everything else needs to follow.
+                But the real work is not in submission ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â itÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s in preparation. If one figure changes, everything else needs to follow.
               </p>
             </div>
             
@@ -367,10 +367,10 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 7: WHERE PROBLEMS APPEAR ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 7: WHERE PROBLEMS APPEAR ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img 
@@ -385,33 +385,33 @@ const CompanyTaxReturn = () => {
             <div className="col-lg-7 order-1 order-lg-2">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Troubleshooting HMRC Issues</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                Filing Corporation Tax Return Online — Where Problems Usually Appear
+                Filing Corporation Tax Return Online ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Where Problems Usually Appear
               </h2>
               <p className="text-secondary mb-4 fs-6" style={{ lineHeight: 1.8 }}>
-                Filing a corporation tax return online is straightforward in process — but not in practice. Most issues appear when:
+                Filing a corporation tax return online is straightforward in process ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â but not in practice. Most issues appear when:
               </p>
               
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
-                <li className="d-flex align-items-center"><WarningIcon /> figures don’t align across calculations</li>
+                <li className="d-flex align-items-center"><WarningIcon /> figures donÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t align across calculations</li>
                 <li className="d-flex align-items-center"><WarningIcon /> adjustments are unclear or undocumented</li>
                 <li className="d-flex align-items-center"><WarningIcon /> records are incomplete or lack supporting files</li>
               </ul>
               
               <p className="text-secondary" style={{ lineHeight: 1.8 }}>
-                This usually happens when returns are prepared from figures that look complete on the surface but haven’t been fully reviewed against how those figures should be treated for Corporation Tax purposes. This is especially common when businesses attempt to file returns based on partial data rather than structured financial records.
+                This usually happens when returns are prepared from figures that look complete on the surface but havenÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t been fully reviewed against how those figures should be treated for Corporation Tax purposes. This is especially common when businesses attempt to file returns based on partial data rather than structured financial records.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── SECTION 8: REVIEWS SLIDER ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 8: REVIEWS SLIDER ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <ReviewsSlider />
 
-      {/* ── SECTION 9: DEADLINES ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 9: DEADLINES ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Critical Deadlines</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
@@ -427,7 +427,7 @@ const CompanyTaxReturn = () => {
               </ul>
               
               <p className="text-secondary fw-semibold bg-light p-3 border-start border-warning border-4 rounded-end">
-                These deadlines are separate. Most penalties arise not from computational complexity — but from basic timing errors.
+                These deadlines are separate. Most penalties arise not from computational complexity ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â but from basic timing errors.
               </p>
             </div>
             
@@ -481,7 +481,7 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 10: PROBLEMS DISCOVERED AT YEAR-END ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 10: PROBLEMS DISCOVERED AT YEAR-END ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
           <div className="text-center mb-5">
@@ -519,7 +519,7 @@ const CompanyTaxReturn = () => {
                 </div>
                 <div className="p-4 bg-white">
                   <ul className="list-unstyled mb-0 d-flex flex-column gap-3 text-secondary">
-                    <li className="d-flex align-items-start"><WarningIcon /> expenses don’t match strict tax treatment rules</li>
+                    <li className="d-flex align-items-start"><WarningIcon /> expenses donÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t match strict tax treatment rules</li>
                     <li className="d-flex align-items-start"><WarningIcon /> director payments create unexpected tax outcomes</li>
                     <li className="d-flex align-items-start"><WarningIcon /> complex adjustments are required across multiple areas</li>
                   </ul>
@@ -530,15 +530,15 @@ const CompanyTaxReturn = () => {
           
           <div className="mt-4 text-secondary text-center" style={{ lineHeight: 1.8 }}>
             <p>This often includes reworking director payments, correcting expense treatment, or identifying transactions that were recorded correctly in accounts but not treated correctly for tax. By this stage, there is very little flexibility left.</p>
-            <p className="fw-bold text-brand-dark">Decisions that affect corporation tax have already been made — and cannot be reversed. This is why corporation tax issues are rarely solved at the point of filing.</p>
+            <p className="fw-bold text-brand-dark">Decisions that affect corporation tax have already been made ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â and cannot be reversed. This is why corporation tax issues are rarely solved at the point of filing.</p>
           </div>
         </div>
       </section>
 
-      {/* ── SECTION 11: PAYROLL EXPENSES & ACTIVITY ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 11: PAYROLL EXPENSES & ACTIVITY ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img 
@@ -574,10 +574,10 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 12: SMALL BUSINESS SERVICES ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 12: SMALL BUSINESS SERVICES ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Small Business Scale-up</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
@@ -594,7 +594,7 @@ const CompanyTaxReturn = () => {
               </ul>
               
               <p className="text-secondary" style={{ lineHeight: 1.8 }}>
-                Working with small business tax accountants ensures that tax is handled as part of the business process — not as an afterthought.
+                Working with small business tax accountants ensures that tax is handled as part of the business process ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â not as an afterthought.
               </p>
             </div>
             
@@ -612,8 +612,8 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 13: WHAT OUR SERVICES ACTUALLY CHANGE ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 13: WHAT OUR SERVICES ACTUALLY CHANGE ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
           <div className="text-center mb-5">
             <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">The Strategic Advantage</span>
@@ -642,7 +642,7 @@ const CompanyTaxReturn = () => {
                 desc: 'Strategic commercial confidence.'
               }
             ].map((card, i) => (
-              <div key={i} className="col-lg-4 col-md-6">
+              <div key={i} className="col-lg-5 col-md-6">
                 <div 
                   className={`card h-100 border-0 shadow-sm rounded-4 p-4 text-center service-card ${card.featured ? 'border-top border-brand-orange border-4 shadow' : ''}`}
                   style={{ transform: card.featured ? 'scale(1.02)' : 'scale(1)', zIndex: card.featured ? 2 : 1 }}
@@ -668,10 +668,10 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 14: WHEN YOU SHOULD SPEAK TO A CORP TAX ADVISOR ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 14: WHEN YOU SHOULD SPEAK TO A CORP TAX ADVISOR ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row g-4 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="p-2 border rounded-4 shadow-lg bg-white">
                 <img 
@@ -689,7 +689,7 @@ const CompanyTaxReturn = () => {
                 When You Should Speak to a Corporation Tax Advisor
               </h2>
               <p className="text-secondary mb-4 fs-6" style={{ lineHeight: 1.8 }}>
-                Most businesses wait until the return is due, figures are finalised, or deadlines are close. That’s already too late. You should speak to a corporation tax advisor when:
+                Most businesses wait until the return is due, figures are finalised, or deadlines are close. ThatÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s already too late. You should speak to a corporation tax advisor when:
               </p>
               
               <ul className="list-unstyled mb-4 d-flex flex-column gap-2 text-secondary">
@@ -706,10 +706,10 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 15: TWO COLUMNS ── */}
-      <section className="py-5 bg-white">
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 15: TWO COLUMNS ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
+      <section className="py-4 bg-white">
         <div className="container">
-          <div className="row g-5">
+          <div className="row g-4">
             <div className="col-lg-6">
               <div className="card h-100 border-0 shadow-sm rounded-4 p-4" style={{ borderTop: '4px solid var(--brand-orange)' }}>
                 <h4 className="fw-bold mb-3 text-brand-dark" style={{ fontFamily: "'Outfit', sans-serif" }}>Corporation Tax and Wider Financial Planning</h4>
@@ -731,7 +731,7 @@ const CompanyTaxReturn = () => {
               <div className="card h-100 border-0 shadow-sm rounded-4 p-4" style={{ borderTop: '4px solid #1d3c45' }}>
                 <h4 className="fw-bold mb-3 text-brand-dark" style={{ fontFamily: "'Outfit', sans-serif" }}>Speak to Corporation Tax Accountants in London UK</h4>
                 <p className="text-secondary" style={{ lineHeight: 1.8 }}>
-                  If your corporation tax is only being considered at the point of filing, there’s a strong chance opportunities have already been missed. Whether you need:
+                  If your corporation tax is only being considered at the point of filing, thereÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s a strong chance opportunities have already been missed. Whether you need:
                 </p>
                 <ul className="list-unstyled text-secondary mb-4 d-flex flex-column gap-2">
                   <li className="d-flex align-items-center"><CheckIcon /> company tax return preparation</li>
@@ -739,7 +739,7 @@ const CompanyTaxReturn = () => {
                   <li className="d-flex align-items-center"><CheckIcon /> ongoing business tax advice</li>
                 </ul>
                 <p className="text-secondary" style={{ lineHeight: 1.8 }}>
-                  If corporation tax is only reviewed when the return is due, there is very little left to influence. Reviewing it earlier gives you control over the outcome — not just visibility of it.
+                  If corporation tax is only reviewed when the return is due, there is very little left to influence. Reviewing it earlier gives you control over the outcome ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â not just visibility of it.
                 </p>
               </div>
             </div>
@@ -747,14 +747,14 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 16: CONTACT FORM BLOCK ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 16: CONTACT FORM BLOCK ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
 
       <ContactForm source="CompanyTaxReturn" />
 
-      {/* ── SECTION 17: STATE-DRIVEN FAQS & SIDEBAR ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 17: STATE-DRIVEN FAQS & SIDEBAR ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <section className="py-5 bg-white border-bottom">
         <div className="container">
-          <div className="row g-5">
+          <div className="row g-4">
             <div className="col-lg-8">
               <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Knowledge Base</span>
               <h2 className="text-brand-dark display-6 fw-bold mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>
@@ -789,7 +789,7 @@ const CompanyTaxReturn = () => {
             </div>
             
             {/* Quick Contact sidebar card */}
-            <div className="col-lg-4">
+            <div className="col-lg-5">
               <div className="card border-0 shadow-lg rounded-4 p-4 text-center text-white" style={{ background: '#1d3c45' }}>
                 <h4 className="fw-bold mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>Helpline Desk</h4>
                 <p className="text-white-50 mb-4 small">Tax and disclosure deadlines can arise quickly. Speak directly to an expert tax advisor today.</p>
@@ -826,10 +826,10 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 18: DOUBLE LOGOS GRID / CERTIFICATES ── */}
+      {/* ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ SECTION 18: DOUBLE LOGOS GRID / CERTIFICATES ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ */}
       <Partners />
     
-      {(() => { const faqData = faqJsonLd([{"q":"What is corporation tax in the UK?","a":"Corporation tax is the tax paid by UK limited companies on their taxable profits after deducting allowable business expenses and capital allowances."},{"q":"When is corporation tax due?","a":"Payment is due 9 months and 1 day after the end of the accounting period, while the tax return (CT600) itself must be filed within 12 months."},{"q":"How do I file a corporation tax return online?","a":"You complete the CT600 tax return form, attach your company statutory accounts and tax calculations, and submit electronically via HMRC-approved software."},{"q":"Do I need an accountant for corporation tax?","a":"Not legally, but most businesses use chartered accountants to ensure accuracy, leverage tax allowances, stay compliant, and avoid costly HMRC penalties."},{"q":"What happens if corporation tax is filed late?","a":"Late filing results in automatic financial penalties starting at £100 and rising. In addition, HMRC charges interest on any late-paid tax."},{"q":"Can corporation tax be reduced legally?","a":"Yes. Through proper tax planning, utilizing all allowable expenses, claims like R&D tax credits, and correct salary/dividend structuring, tax can be significantly reduced within HMRC rules."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
+      {(() => { const faqData = faqJsonLd([{"q":"What is corporation tax in the UK?","a":"Corporation tax is the tax paid by UK limited companies on their taxable profits after deducting allowable business expenses and capital allowances."},{"q":"When is corporation tax due?","a":"Payment is due 9 months and 1 day after the end of the accounting period, while the tax return (CT600) itself must be filed within 12 months."},{"q":"How do I file a corporation tax return online?","a":"You complete the CT600 tax return form, attach your company statutory accounts and tax calculations, and submit electronically via HMRC-approved software."},{"q":"Do I need an accountant for corporation tax?","a":"Not legally, but most businesses use chartered accountants to ensure accuracy, leverage tax allowances, stay compliant, and avoid costly HMRC penalties."},{"q":"What happens if corporation tax is filed late?","a":"Late filing results in automatic financial penalties starting at Ãƒâ€šÃ‚Â£100 and rising. In addition, HMRC charges interest on any late-paid tax."},{"q":"Can corporation tax be reduced legally?","a":"Yes. Through proper tax planning, utilizing all allowable expenses, claims like R&D tax credits, and correct salary/dividend structuring, tax can be significantly reduced within HMRC rules."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
       </div>
   );
 };

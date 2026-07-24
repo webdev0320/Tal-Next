@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-to-avoid-inheritance-tax-when-the-second-parent-dies/",
     siteName: 'Taxaccolega',
     publishedTime: "2026-03-06 20:13:27",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/stamp-duty.jpg" }],
+    images: [{ url: "/images/2020/07/stamp-duty.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "how to avoid inheritance tax when the second parent dies planning strategies families actually use 2026 | Taxaccolega",
     description: "How to Avoid Inheritance Tax When the Second Parent Dies Planning Strategies Families Actually Use (2026) Table of Contents Why inheritance tax planning usuall…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/stamp-duty.jpg"],
+    images: ["/images/2020/07/stamp-duty.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/stamp-duty.jpg" alt="how to avoid inheritance tax when the second parent dies planning strategies families actually use 2026" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/07/stamp-duty.jpg" alt="how to avoid inheritance tax when the second parent dies planning strategies families actually use 2026" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

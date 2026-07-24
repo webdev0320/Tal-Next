@@ -25,6 +25,14 @@ const Partners = () => {
     { src: "/images/2023/06/Xpert-SM.webp", alt: "Xpert SM", link: "https://xpert-smm.com/" }, 
   ];
 
+  const logoStyle = {
+    width: "auto",
+    height: "auto",
+    maxWidth: "120px",
+    maxHeight: "48px",
+    objectFit: "contain",
+  };
+
   return (
     <section className="py-5">
         <div className="container">
@@ -61,7 +69,7 @@ const Partners = () => {
                                     alt={partner.alt}
                                     width={120}
                                     height={48}
-                                    style={{ maxWidth: "120px", height: "auto" }}
+                                    style={logoStyle}
                                 />
                             </a>
                         ) : (
@@ -70,7 +78,7 @@ const Partners = () => {
                                 alt={partner.alt}
                                 width={120}
                                 height={48}
-                                style={{ maxWidth: "120px", height: "auto" }}
+                                style={logoStyle}
                             />
                         )}
                     </SwiperSlide>

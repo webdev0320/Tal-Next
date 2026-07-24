@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/post-brexit-vat-what-should-you-be-aware-of-if-you-sell-on-e-bay-or-amazon/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-02-13 12:28:13",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/02/amazon.jpg" }],
+    images: [{ url: "/images/2021/02/amazon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Post Brexit VAT- What should you be aware of if you sell on E bay or Amazon | Taxaccolega",
     description: "Post Brexit VAT What should you be aware of if you sell on E bay or Amazon The exit of UK from the EU has affected the trade across the borders. Many small bus…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/02/amazon.jpg"],
+    images: ["/images/2021/02/amazon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/02/amazon.jpg" alt="Post Brexit VAT- What should you be aware of if you sell on E bay or Amazon" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/02/amazon.jpg" alt="Post Brexit VAT- What should you be aware of if you sell on E bay or Amazon" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

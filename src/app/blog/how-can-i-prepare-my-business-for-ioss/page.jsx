@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-can-i-prepare-my-business-for-ioss/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-08-13 14:37:17",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/ioss-2.jpg" }],
+    images: [{ url: "/images/2021/08/ioss-2.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How Can I Prepare My Business for IOSS? | Taxaccolega",
     description: "How Can I Prepare My Business for IOSS? The new VAT policies make sure that the international trade between EU and non-EU states is made easy. As an IOSS regis…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/ioss-2.jpg"],
+    images: ["/images/2021/08/ioss-2.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/08/ioss-2.jpg" alt="How Can I Prepare My Business for IOSS?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/08/ioss-2.jpg" alt="How Can I Prepare My Business for IOSS?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/airbnb-income-what-tax-exemptions-can-i-get/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-03-05 14:49:55",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/airbnb-income.jpg" }],
+    images: [{ url: "/images/2021/03/airbnb-income.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Airbnb income- what tax exemptions can I get? | Taxaccolega",
     description: "Airbnb income what tax exemptions can I get? Airbnb income is taxed in the same way as the any other income is taxed, however, there are some exemptions availa…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/airbnb-income.jpg"],
+    images: ["/images/2021/03/airbnb-income.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/airbnb-income.jpg" alt="Airbnb income- what tax exemptions can I get?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/03/airbnb-income.jpg" alt="Airbnb income- what tax exemptions can I get?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

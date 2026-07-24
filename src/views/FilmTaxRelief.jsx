@@ -30,7 +30,7 @@ const FilmTaxRelief = () => {
             <div>
               <h2 className="text-orange-600 font-bold text-lg mb-2">FTR</h2>
               <p className="mb-4">We specialise in offering comprehensive support for Film Tax Relief (FTR), tailored for filmmakers and production companies throughout the UK. Our team of industry experts is dedicated to navigating the complexities of FTR to maximise your financial benefits and contribute to the growth of the British film sector.</p>
-              <p className="mb-4">We begin with thorough consultations to assess your project’s eligibility for FTR, strategising the most effective approach to optimise your claim and maximise financial returns. Our team manages the meticulous preparation and timely submission of your FTR application to HMRC, ensuring all required documentation is meticulously compiled and submitted in compliance with regulatory standards.</p>
+              <p className="mb-4">We begin with thorough consultations to assess your projectâ€™s eligibility for FTR, strategising the most effective approach to optimise your claim and maximise financial returns. Our team manages the meticulous preparation and timely submission of your FTR application to HMRC, ensuring all required documentation is meticulously compiled and submitted in compliance with regulatory standards.</p>
               <p className="mb-6">Throughout the production process, we provide continuous support to ensure adherence to FTR regulations, including monitoring expenditures, verifying compliance with qualifying conditions, and maintaining essential records crucial for successful claims.</p>
               <button className="bg-teal-900 text-white px-6 py-3 rounded">Contact us</button>
             </div>
@@ -79,7 +79,7 @@ const FilmTaxRelief = () => {
               <div key={i} className="mb-4 border-b border-gray-200">
                 <button onClick={() => toggleFAQ(i)} className="w-full text-left py-4 font-bold">What is Lorem Ipsum?</button>
                 {activeFAQ === i && (
-                  <p className="pb-4 text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                  <p className="pb-4 text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industryâ€™s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 )}
               </div>
             ))}

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/contractor-and-ir-35-when-does-it-apply-to-you/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-03-02 14:22:46",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/ir35-contractor.jpg" }],
+    images: [{ url: "/images/2021/03/ir35-contractor.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Contractor and IR 35 - When does it apply to you? | Taxaccolega",
     description: "Contractor and IR 35 When does it apply to you? As Albert Einstein said on his taxes ..'this is too difficult for a mathematician. It takes a philosopher'. I w…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/ir35-contractor.jpg"],
+    images: ["/images/2021/03/ir35-contractor.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/ir35-contractor.jpg" alt="Contractor and IR 35 - When does it apply to you?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/03/ir35-contractor.jpg" alt="Contractor and IR 35 - When does it apply to you?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

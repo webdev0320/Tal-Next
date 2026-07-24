@@ -70,6 +70,213 @@ button.btn-brand:focus {
   color: #ffffff;
   border-color: #d2601a;
 }
+
+/* Accounts UI refinement */
+.accounts-landing-page,
+.accounts-detail-page {
+  --accounts-container: 1200px;
+  --accounts-section-y: clamp(2.25rem, 4vw, 3.5rem);
+  --accounts-row-gap: clamp(1.5rem, 3vw, 2.75rem);
+  color: #173941;
+}
+
+.accounts-landing-page .container,
+.accounts-detail-page .container {
+  max-width: var(--accounts-container);
+  padding-inline: clamp(1rem, 3vw, 1.5rem);
+}
+
+.accounts-landing-page header,
+.accounts-detail-page > header {
+  min-height: 0 !important;
+  padding-block: clamp(3.25rem, 6vw, 5rem) !important;
+}
+
+.accounts-landing-page header .container,
+.accounts-detail-page > header .container {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.accounts-landing-page section,
+.accounts-detail-page section {
+  padding-top: var(--accounts-section-y) !important;
+  padding-bottom: var(--accounts-section-y) !important;
+}
+
+.accounts-detail-page section.d-block.d-lg-none {
+  padding-top: 0.9rem !important;
+  padding-bottom: 0.9rem !important;
+}
+
+.accounts-landing-page .row,
+.accounts-detail-page .row {
+  --bs-gutter-y: var(--accounts-row-gap);
+}
+
+.accounts-detail-page section .row.align-items-center,
+.accounts-landing-page section .row.align-items-center {
+  align-items: center !important;
+}
+
+.accounts-detail-page h1,
+.accounts-detail-page h2,
+.accounts-detail-page h3,
+.accounts-landing-page h1,
+.accounts-landing-page h2,
+.accounts-landing-page h3 {
+  letter-spacing: 0;
+  line-height: 1.14;
+}
+
+.accounts-detail-page h1 {
+  max-width: 860px;
+}
+
+.accounts-detail-page h2,
+.accounts-landing-page h2 {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+  font-size: clamp(1.65rem, 2.4vw, 2.35rem) !important;
+}
+
+.accounts-detail-page h3,
+.accounts-landing-page h3 {
+  margin-top: 1.2rem !important;
+  margin-bottom: 0.65rem !important;
+}
+
+.accounts-detail-page p,
+.accounts-detail-page li,
+.accounts-landing-page p,
+.accounts-landing-page li {
+  line-height: 1.72 !important;
+}
+
+.accounts-detail-page p,
+.accounts-landing-page p {
+  margin-bottom: 0.85rem !important;
+}
+
+.accounts-detail-page ul,
+.accounts-landing-page ul {
+  margin-bottom: 1.1rem !important;
+}
+
+.accounts-detail-page section .col-lg-7,
+.accounts-landing-page section .col-lg-7 {
+  max-width: 680px;
+}
+
+.accounts-detail-page section .col-lg-5 .p-2,
+.accounts-landing-page section .col-lg-5 .p-2 {
+  width: 100%;
+  max-width: 500px;
+  margin-inline: auto;
+  padding: 0 !important;
+  overflow: hidden;
+  border-radius: 14px !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: 0 18px 40px rgba(23, 57, 65, 0.13) !important;
+}
+
+.accounts-detail-page section .col-lg-5 img,
+.accounts-landing-page section .col-lg-5 img {
+  display: block;
+  width: 100% !important;
+  height: clamp(240px, 28vw, 390px) !important;
+  max-height: 390px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover !important;
+  border-radius: 14px !important;
+}
+
+.accounts-detail-page .table-responsive,
+.accounts-detail-page .accordion-item,
+.accounts-detail-page .card,
+.accounts-landing-page .card {
+  border-radius: 8px !important;
+}
+
+.accounts-landing-page .service-card img {
+  object-fit: cover;
+}
+
+.accounts-landing-page .service-card .card-body {
+  padding: 1.25rem;
+}
+
+.accounts-landing-page .service-card p {
+  line-height: 1.65 !important;
+}
+
+@media (min-width: 992px) {
+  .accounts-detail-page section .row.align-items-center,
+  .accounts-landing-page section .row.align-items-center {
+    display: grid;
+    grid-template-columns: minmax(0, 58%) minmax(320px, 42%);
+    column-gap: var(--accounts-row-gap);
+  }
+
+  .accounts-detail-page section .row.align-items-center > [class*="col-lg-"],
+  .accounts-landing-page section .row.align-items-center > [class*="col-lg-"] {
+    width: auto;
+    max-width: none;
+  }
+
+  .accounts-detail-page section .row.align-items-center > .col-lg-5,
+  .accounts-landing-page section .row.align-items-center > .col-lg-5 {
+    justify-self: center;
+  }
+
+  .accounts-detail-page section .row.align-items-center > .col-lg-5.order-lg-1,
+  .accounts-landing-page section .row.align-items-center > .col-lg-5.order-lg-1 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .accounts-detail-page section .row.align-items-center > .col-lg-7.order-lg-2,
+  .accounts-landing-page section .row.align-items-center > .col-lg-7.order-lg-2 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .accounts-detail-page section .col-lg-10.mx-auto,
+  .accounts-landing-page section .col-lg-10.mx-auto {
+    max-width: 980px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .accounts-detail-page section,
+  .accounts-landing-page section {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .accounts-detail-page section .col-lg-5 img,
+  .accounts-landing-page section .col-lg-5 img {
+    height: clamp(220px, 52vw, 340px) !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .accounts-landing-page header,
+  .accounts-detail-page > header {
+    padding-block: 2.75rem !important;
+  }
+
+  .accounts-detail-page h2,
+  .accounts-landing-page h2 {
+    font-size: 1.45rem !important;
+  }
+
+  .accounts-detail-page section .col-lg-5 img,
+  .accounts-landing-page section .col-lg-5 img {
+    height: 220px !important;
+  }
+}
 /* ─── Brand Design Tokens ─── */
 /* In Tailwind v4, @theme variables generate utility classes automatically:
    --color-brand-dark  →  bg-brand-dark, text-brand-dark, border-brand-dark, etc.

@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/selling-online-do-i-need-an-accountant/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-12-20 12:11:54",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/12/simplicity.jpg" }],
+    images: [{ url: "/images/2020/12/simplicity.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "How to Close a UK Limited Company – Step‑by‑Step Guide | Taxaccolega",
     description: "Selling Online Do I need an accountant? Whether you are a small business or a large enterprise selling your products online, you need to make sure that you kee…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/12/simplicity.jpg"],
+    images: ["/images/2020/12/simplicity.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/12/simplicity.jpg" alt="How to Close a UK Limited Company – Step‑by‑Step Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/12/simplicity.jpg" alt="How to Close a UK Limited Company – Step‑by‑Step Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

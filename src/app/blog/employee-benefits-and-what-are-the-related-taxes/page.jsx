@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/employee-benefits-and-what-are-the-related-taxes/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-04-21 14:35:31",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/employee-benefits.jpg" }],
+    images: [{ url: "/images/2021/04/employee-benefits.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Employee Benefits and what are the related taxes? | Taxaccolega",
     description: "Employee Benefits and what are the related taxes? The announcement in the budget that the income tax thresholds and the personal allowance will be frozen for n…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/employee-benefits.jpg"],
+    images: ["/images/2021/04/employee-benefits.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/04/employee-benefits.jpg" alt="Employee Benefits and what are the related taxes?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/04/employee-benefits.jpg" alt="Employee Benefits and what are the related taxes?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

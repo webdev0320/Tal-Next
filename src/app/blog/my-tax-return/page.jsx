@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/my-tax-return/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-10-11 11:05:33",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/early-tax-return.jpg" }],
+    images: [{ url: "/images/2022/10/early-tax-return.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "4 reasons why I should Submit my tax return early | Taxaccolega",
     description: "4 reasons why I should Submit my tax return early If you started your business as a self employed person or as a sole trader or as a partnership you need to re…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/early-tax-return.jpg"],
+    images: ["/images/2022/10/early-tax-return.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/early-tax-return.jpg" alt="4 reasons why I should Submit my tax return early" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/10/early-tax-return.jpg" alt="4 reasons why I should Submit my tax return early" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

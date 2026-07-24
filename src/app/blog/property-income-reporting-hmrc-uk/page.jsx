@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/property-income-reporting-hmrc-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-10-30 12:39:51",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/property-income-2.jpg" }],
+    images: [{ url: "/images/2021/10/property-income-2.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "UK Property Income - How to Declare to HMRC (2025 Guide) | Taxaccolega",
     description: "Property Income How should I declare it to HMRC? If you own property which you are renting and you are earning a significant amount of income in the form of re…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/property-income-2.jpg"],
+    images: ["/images/2021/10/property-income-2.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/10/property-income-2.jpg" alt="UK Property Income - How to Declare to HMRC (2025 Guide)" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/10/property-income-2.jpg" alt="UK Property Income - How to Declare to HMRC (2025 Guide)" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

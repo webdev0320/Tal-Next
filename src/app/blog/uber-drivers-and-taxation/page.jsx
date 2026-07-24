@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/uber-drivers-and-taxation/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-06-12 11:51:49",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/06/uber-drivers.jpg" }],
+    images: [{ url: "/images/2022/06/uber-drivers.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Uber Drivers and taxation | Taxaccolega",
     description: "Uber Drivers and taxation If you are working for Uber you are not considered their employees. You are working as a self employed person as you set your own wor…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/06/uber-drivers.jpg"],
+    images: ["/images/2022/06/uber-drivers.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/06/uber-drivers.jpg" alt="Uber Drivers and taxation" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/06/uber-drivers.jpg" alt="Uber Drivers and taxation" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

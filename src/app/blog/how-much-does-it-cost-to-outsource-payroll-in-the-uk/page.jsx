@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-much-does-it-cost-to-outsource-payroll-in-the-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2026-04-02 03:09:04",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Tax-Planning-Strategies-That-Actually-Work-in-Crypto-scaled.webp" }],
+    images: [{ url: "/images/2025/12/Tax-Planning-Strategies-That-Actually-Work-in-Crypto-scaled.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "A Complete 2026 Pricing Guide for Businesses | Taxaccolega",
     description: "How Much Does It Cost to Outsource Payroll in the UK? A Complete 2026 Pricing Guide for Businesses Table of Contents What Payroll Outsourcing Actually Means in…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Tax-Planning-Strategies-That-Actually-Work-in-Crypto-scaled.webp"],
+    images: ["/images/2025/12/Tax-Planning-Strategies-That-Actually-Work-in-Crypto-scaled.webp"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/Tax-Planning-Strategies-That-Actually-Work-in-Crypto-scaled.webp" alt="A Complete 2026 Pricing Guide for Businesses" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2025/12/Tax-Planning-Strategies-That-Actually-Work-in-Crypto-scaled.webp" alt="A Complete 2026 Pricing Guide for Businesses" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

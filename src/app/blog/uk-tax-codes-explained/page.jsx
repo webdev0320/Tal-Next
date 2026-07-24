@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/uk-tax-codes-explained/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-12-02 11:09:52",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/uk-tax-code.webp" }],
+    images: [{ url: "/images/2025/12/uk-tax-code.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "UK Tax Codes Explained the definitive 2025 guide | Taxaccolega",
     description: "UK Tax Codes Explained The Definitive 2025 Guide (with Real Examples and What to Do Next) Understanding your tax code is one of those small things that actuall…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/uk-tax-code.webp"],
+    images: ["/images/2025/12/uk-tax-code.webp"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/12/uk-tax-code.webp" alt="UK Tax Codes Explained the definitive 2025 guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2025/12/uk-tax-code.webp" alt="UK Tax Codes Explained the definitive 2025 guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">
@@ -73,7 +73,7 @@ For most people, the number part of the code multiplied by 10 equals the Persona
 <p style="font-size:16px; font-weight:400; color:#000;">
 Why it matters if your code is wrong you pay either too much or too little tax. Overpaying is painful; underpaying can lead to a surprise tax bill later. That’s why checking your code is important — especially if you have multiple jobs, receive benefits, or have recent Self Assessment liabilities.
 </p>
-															<img width="800" height="584" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/tax-code.webp" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/tax-code.webp 828w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/tax-code-300x219.webp 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/tax-code-768x560.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+															<img width="800" height="584" src="/images/2025/12/tax-code.webp" alt="" srcset="/images/2025/12/tax-code.webp 828w, /images/2025/12/tax-code-300x219.webp 300w, /images/2025/12/tax-code-768x560.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />															
 					<h2 id="selfemployed" style="font-size:28px; font-weight:400; color:#1d3c45;"> <strong>2. Do self-employed people receive a tax code?</h2>
 <p style="font-size:16px; font-weight:400; color:#000;">No. If you are self-employed, you use a <strong>Unique Taxpayer Reference</strong> (UTR) and you pay tax via <strong>Self Assessment </strong>. Self-employed people do not have tax codes for their business income because tax for self-employed earnings is not deducted under PAYE.</p>
 <p style="font-size:16px; font-weight:400; color:#000;">That said, if a self-employed person also has a PAYE job, they will have a tax code for that PAYE income. The Self Assessment system will collect tax due on self-employed profit separately — often through a direct bill or via payments on account.</p>

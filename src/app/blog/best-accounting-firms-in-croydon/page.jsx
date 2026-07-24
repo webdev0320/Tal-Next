@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/best-accounting-firms-in-croydon/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-02-15 12:16:15",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/best-accountant-croydon.jpg" }],
+    images: [{ url: "/images/2022/02/best-accountant-croydon.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Best accounting firms in Croydon | Taxaccolega",
     description: "Best accounting firms in Croydon What to look for in an accountant when choosing an accountant for your company. Are they qualified? When choosing an account y…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/best-accountant-croydon.jpg"],
+    images: ["/images/2022/02/best-accountant-croydon.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/02/best-accountant-croydon.jpg" alt="Best accounting firms in Croydon" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/02/best-accountant-croydon.jpg" alt="Best accounting firms in Croydon" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

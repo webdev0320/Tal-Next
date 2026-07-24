@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-12-13 12:11:06",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/12/sole-trader.jpg" }],
+    images: [{ url: "/images/2020/12/sole-trader.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Do Sole Traders Pay Tax in the First Year? UK Guide | Taxaccolega",
     description: "Do Sole Traders Pay Tax in the First Year? UK Guide Do I have to pay taxes in the first year of my business as a sole trader? Did you just start your business…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/12/sole-trader.jpg"],
+    images: ["/images/2020/12/sole-trader.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/12/sole-trader.jpg" alt="Do Sole Traders Pay Tax in the First Year? UK Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/12/sole-trader.jpg" alt="Do Sole Traders Pay Tax in the First Year? UK Guide" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

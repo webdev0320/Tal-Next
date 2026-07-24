@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/setting-up-an-online-store/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-01-18 12:22:06",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/online-shop.jpg" }],
+    images: [{ url: "/images/2021/01/online-shop.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Setting up an online store | Taxaccolega",
     description: "Setting up an online store The e commerce market is currently experiencing a boom all over the world. UK`s e commerce market is one of the biggest markets in E…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/online-shop.jpg"],
+    images: ["/images/2021/01/online-shop.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/online-shop.jpg" alt="Setting up an online store" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/01/online-shop.jpg" alt="Setting up an online store" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

@@ -69,7 +69,7 @@ const AccountServicePage = ({ page }) => {
   return (
     <div className="account-service-shell">
       <section className="account-service-hero text-white">
-        <div className="relative mx-auto grid max-w-7xl gap-8 px-4 py-16 lg:grid-cols-[1.28fr_.72fr] lg:py-20">
+        <div className="relative mx-auto grid max-w-7xl gap-8 px-4 py-12 lg:grid-cols-[1.28fr_.72fr] lg:py-16">
           <div className="relative z-10">
             <div className="account-service-panel mb-5 inline-flex items-center gap-2 border border-white/15 bg-white/10 px-4 py-2 text-xs font-bold uppercase text-[#f4b06c]">
               <Sparkles size={16} />

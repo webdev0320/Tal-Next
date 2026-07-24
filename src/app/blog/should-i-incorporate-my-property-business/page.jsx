@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/should-i-incorporate-my-property-business/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-10-23 12:04:52",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/business-property.jpg" }],
+    images: [{ url: "/images/2020/10/business-property.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Should I incorporate my property business? | Taxaccolega",
     description: "Should I incorporate my property business? Recently, it is noticed that many landlords who were managing their buy to let property personally or through in a p…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/business-property.jpg"],
+    images: ["/images/2020/10/business-property.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/10/business-property.jpg" alt="Should I incorporate my property business?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/10/business-property.jpg" alt="Should I incorporate my property business?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

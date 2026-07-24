@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-11-29 07:49:32",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat.jpg" }],
+    images: [{ url: "/images/2023/10/real-estate-vat.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "VAT Accountants in London | Taxaccolega",
     description: "VAT Accountants in London How Taxaccolega Helps Businesses Stay Compliant and Save Money Many business owners find VAT duties confusing and scary. Understandin…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat.jpg"],
+    images: ["/images/2023/10/real-estate-vat.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat.jpg" alt="VAT Accountants in London" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2023/10/real-estate-vat.jpg" alt="VAT Accountants in London" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">
@@ -48,7 +48,7 @@ export default function Page() {
 <p style="font-size:16px; color:#000; text-align:justify;">
 Many business owners find VAT duties confusing and scary.  Understanding VAT legislation is crucial for Croydon-based small businesses and UK-wide corporations to prevent costly blunders.  Many enterprises seek for VAT accountant near me or VAT accountant London, unsure if they need expert guidance.  As laymen do not have latest updates, DIY filing is risky because VAT law changes regularly and even little mistakes can lead to fines, overpayments, or audits.  A skilled VAT accountant like Taxaccolega can help with technical and practical advice.
 </p>
-															<img width="800" height="500" src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-1024x640.jpg" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-1024x640.jpg 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-600x375.jpg 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-300x188.jpg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat-768x480.jpg 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/real-estate-vat.jpg 1440w" sizes="(max-width: 800px) 100vw, 800px" />															
+															<img width="800" height="500" src="/images/2023/10/real-estate-vat-1024x640.jpg" alt="" srcset="/images/2023/10/real-estate-vat-1024x640.jpg 1024w, /images/2023/10/real-estate-vat-600x375.jpg 600w, /images/2023/10/real-estate-vat-300x188.jpg 300w, /images/2023/10/real-estate-vat-768x480.jpg 768w, /images/2023/10/real-estate-vat.jpg 1440w" sizes="(max-width: 800px) 100vw, 800px" />															
 					<!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700;800&display=swap" rel="stylesheet">
 <!-- Table of Contents -->

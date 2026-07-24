@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/business-asset-disposal-relief/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-07-22 11:16:16",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/business-asset-disposal.jpg" }],
+    images: [{ url: "/images/2020/07/business-asset-disposal.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Business Asset Disposal Relief | Taxaccolega",
     description: "Business Asset Disposal Relief Business Asset disposal relief which was previously known as entrepreneur`s relief is the relief given to individuals who are wo…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/business-asset-disposal.jpg"],
+    images: ["/images/2020/07/business-asset-disposal.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/07/business-asset-disposal.jpg" alt="Business Asset Disposal Relief" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/07/business-asset-disposal.jpg" alt="Business Asset Disposal Relief" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

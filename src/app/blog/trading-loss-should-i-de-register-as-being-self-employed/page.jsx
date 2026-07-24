@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/trading-loss-should-i-de-register-as-being-self-employed/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-01-26 12:23:44",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/de-register.jpg" }],
+    images: [{ url: "/images/2021/01/de-register.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Trading loss - should I de register as being self-employed? | Taxaccolega",
     description: "Trading Loss Should I de Register As A Being Self-Employed? In the past year the performance of many businesses has gone down the graph. Many high street retai…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/de-register.jpg"],
+    images: ["/images/2021/01/de-register.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/de-register.jpg" alt="Trading loss - should I de register as being self-employed?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/01/de-register.jpg" alt="Trading loss - should I de register as being self-employed?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

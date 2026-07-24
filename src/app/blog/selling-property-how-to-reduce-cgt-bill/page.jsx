@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/selling-property-how-to-reduce-cgt-bill/",
     siteName: 'Taxaccolega',
     publishedTime: "2020-09-09 11:47:13",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house-tax.jpg" }],
+    images: [{ url: "/images/2020/09/house-tax.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Selling Property - How to reduce CGT bill? | Taxaccolega",
     description: "Selling Property How to reduce CGT bill? SELLING PROPERTY THAT IS YOUR MAIN RESIDENCE If you are selling property that is not your main residence you will qual…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house-tax.jpg"],
+    images: ["/images/2020/09/house-tax.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2020/09/house-tax.jpg" alt="Selling Property - How to reduce CGT bill?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2020/09/house-tax.jpg" alt="Selling Property - How to reduce CGT bill?" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

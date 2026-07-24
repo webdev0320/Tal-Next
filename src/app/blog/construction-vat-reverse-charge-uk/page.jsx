@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/construction-vat-reverse-charge-uk/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-03-10 14:53:36",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/reverse-charge.jpg" }],
+    images: [{ url: "/images/2021/03/reverse-charge.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Construction VAT Reverse Charge UK – Guide & Rules | Taxaccolega",
     description: "Construction VAT Reverse Charge UK – Guide Rules If you are a UK VAT registered company suppling building and construction services you should be aware that yo…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/reverse-charge.jpg"],
+    images: ["/images/2021/03/reverse-charge.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/reverse-charge.jpg" alt="Construction VAT Reverse Charge UK – Guide & Rules" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/03/reverse-charge.jpg" alt="Construction VAT Reverse Charge UK – Guide & Rules" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

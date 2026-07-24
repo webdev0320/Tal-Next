@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/selling-on-amazon-things-i-should-know-if-i-am-selling-as-a-sole-trader-or-a-limited-company/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-05-17 11:56:59",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/amazon-trader-2.jpg" }],
+    images: [{ url: "/images/2022/05/amazon-trader-2.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company | Taxaccolega",
     description: "Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company The way you run your business online depends on how big the busi…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/amazon-trader-2.jpg"],
+    images: ["/images/2022/05/amazon-trader-2.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/05/amazon-trader-2.jpg" alt="Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/05/amazon-trader-2.jpg" alt="Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

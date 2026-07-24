@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/stamp-duty-cut-and-what-does-it-mean-to-the-landlords/",
     siteName: 'Taxaccolega',
     publishedTime: "2022-10-20 11:10:32",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/stamp-duty-2022-Taxccolega.jpg" }],
+    images: [{ url: "/images/2022/10/stamp-duty-2022-Taxccolega.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Stamp Duty Cut for Landlords - What It Means in 2025 | Taxaccolega",
     description: "Stamp Duty Cut for Landlords What does it mean to the landlords? What is stamp duty? Stamp duty is a tax which you have to pay when you buy a property over a c…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/stamp-duty-2022-Taxccolega.jpg"],
+    images: ["/images/2022/10/stamp-duty-2022-Taxccolega.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2022/10/stamp-duty-2022-Taxccolega.jpg" alt="Stamp Duty Cut for Landlords - What It Means in 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2022/10/stamp-duty-2022-Taxccolega.jpg" alt="Stamp Duty Cut for Landlords - What It Means in 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

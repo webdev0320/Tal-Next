@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/uk-autumn-budget-2025/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-11-14 15:10:15",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2025/11/UK-Autumn-Budget-2025.jpg" }],
+    images: [{ url: "/images/2025/11/UK-Autumn-Budget-2025.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "UK Autumn Budget 2025 | Taxaccolega",
     description: "UK Autumn Budget 2025 When Is It and How It Affects You Every business owner, landlord and individual taxpayer in the UK should sit up and take notice of the u…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2025/11/UK-Autumn-Budget-2025.jpg"],
+    images: ["/images/2025/11/UK-Autumn-Budget-2025.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2025/11/UK-Autumn-Budget-2025.jpg" alt="UK Autumn Budget 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2025/11/UK-Autumn-Budget-2025.jpg" alt="UK Autumn Budget 2025" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">
@@ -186,7 +186,7 @@ Every business owner, landlord and individual taxpayer in the UK should sit up a
     <p style="font-size:16px; color:#000; text-align:justify; line-height:1.8;">
        Commentators at Ernst & Young (EY) suggest that broad based revenue‑raising options are being considered: higher income tax, national insurance, VAT changes, or changes to reliefs. In short: it’s not just “if” tax changes will happen—it’s “how big” and “which parts”.
 </p>				
-															<img width="800" height="584" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget.jpg" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget.jpg 828w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget-300x219.jpg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/12/Autumn-Budget-768x560.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+															<img width="800" height="584" src="/images/2025/12/Autumn-Budget.jpg" alt="" srcset="/images/2025/12/Autumn-Budget.jpg 828w, /images/2025/12/Autumn-Budget-300x219.jpg 300w, /images/2025/12/Autumn-Budget-768x560.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															
 					<h2 id="likely-measures" style="font-size:28px; font-weight:400; color:#1d3c45;">
     <strong>Likely Key Measures of Autumn Budget 2025
 </strong>

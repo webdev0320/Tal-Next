@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/seis-and-eis-tax-relief-london/",
     siteName: 'Taxaccolega',
     publishedTime: "2025-05-30 14:58:25",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/seiss-grant-1.jpg" }],
+    images: [{ url: "/images/2021/03/seiss-grant-1.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "SEIS and EIS tax relief London | Taxaccolega",
     description: "SEIS and EIS Tax Relief London Taxaccolega, London-based accounting firm is dedicated to giving our clients the most recent details on tax relief programs that…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/seiss-grant-1.jpg"],
+    images: ["/images/2021/03/seiss-grant-1.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/03/seiss-grant-1.jpg" alt="SEIS and EIS tax relief London" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/03/seiss-grant-1.jpg" alt="SEIS and EIS tax relief London" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

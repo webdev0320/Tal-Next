@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/how-much-do-accountants-charge-and-why-fees-vary/",
     siteName: 'Taxaccolega',
     publishedTime: "2026-01-14 13:47:52",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2023/06/Simple-Assessments-–-The-Effect-On-Self-Assessment-Tax-Returns-1.webp" }],
+    images: [{ url: "/images/2023/06/Simple-Assessments-–-The-Effect-On-Self-Assessment-Tax-Returns-1.webp" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Tax Return Cost in the UK | Taxaccolega",
     description: "Tax Return Cost in the UK How Much Do Accountants Charge and Why Fees Vary Table of Contents Tax Return Cost in the UK: A Practical Overview Typical Tax Return…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2023/06/Simple-Assessments-–-The-Effect-On-Self-Assessment-Tax-Returns-1.webp"],
+    images: ["/images/2023/06/Simple-Assessments-–-The-Effect-On-Self-Assessment-Tax-Returns-1.webp"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2023/06/Simple-Assessments-–-The-Effect-On-Self-Assessment-Tax-Returns-1.webp" alt="Tax Return Cost in the UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2023/06/Simple-Assessments-–-The-Effect-On-Self-Assessment-Tax-Returns-1.webp" alt="Tax Return Cost in the UK" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">

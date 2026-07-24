@@ -13,13 +13,13 @@ export const metadata = {
     url: "https://www.taxaccolega.co.uk/blog/self-assessment-deadline-extended/",
     siteName: 'Taxaccolega',
     publishedTime: "2021-01-13 12:21:15",
-    images: [{ url: "https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/self-assessment-2021.jpg" }],
+    images: [{ url: "/images/2021/01/self-assessment-2021.jpg" }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Self-assessment deadline extended | Taxaccolega",
     description: "Self Assessment Deadline Extended Image HMRC has extended the deadline for filing your self-assessment tax return. You won't get a penalty if you file your sel…",
-    images: ["https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/self-assessment-2021.jpg"],
+    images: ["/images/2021/01/self-assessment-2021.jpg"],
   },
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       </header>
 
       <div className="container mt-n5" style={{ marginTop: '-2rem' }}>
-        <img src="https://backup.taxaccolega.co.uk/wp-content/uploads/2021/01/self-assessment-2021.jpg" alt="Self-assessment deadline extended" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
+        <img src="/images/2021/01/self-assessment-2021.jpg" alt="Self-assessment deadline extended" className="w-100 rounded shadow-sm" style={{ maxHeight: '450px', objectFit: 'cover' }} />
       </div>
       
       <main className="container py-5">
