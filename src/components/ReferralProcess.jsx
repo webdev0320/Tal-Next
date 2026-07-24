@@ -8,7 +8,7 @@ const ReferralProcess = () => {
   return (
     <>
       <section className="py-20 bg-slate-50">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4">
         <div className="row align-items-stretch g-5">
           <div className="col-lg-6 d-flex flex-column justify-content-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-[#1D3C45] mb-6">Helping You Earn While Helping Others</h2>
@@ -69,7 +69,7 @@ const ReferralProcess = () => {
       <Partners />    
 
       <section className="py-12 bg-white">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4">
           <div className="row align-items-stretch g-5">
             <div className="col-lg-8 d-flex flex-column justify-content-center">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#1D3C45] mb-6">Why Refer to Taxaccolega?</h2>
@@ -104,7 +104,7 @@ const ReferralProcess = () => {
       </section>
 
         <section className="py-12 bg-slate-50">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4">
           <div className="row">
             <div className="col-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#1D3C45] mb-6">Who Can Participate in the Refer and Earn Program?</h2>
@@ -127,7 +127,7 @@ const ReferralProcess = () => {
 
 
       <section className="py-12 bg-white">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4">
           <div className="row">
             <div className="col-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#1D3C45] mb-6">How to Get Started</h2>
@@ -160,7 +160,7 @@ const ReferralProcess = () => {
       
 
       <section className="py-12 bg-white">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4">
           <div className="row align-items-stretch g-5">
             <div className="col-lg-4 d-flex flex-column justify-content-center">
               <div className="rounded-3xl overflow-hidden shadow-2xl">

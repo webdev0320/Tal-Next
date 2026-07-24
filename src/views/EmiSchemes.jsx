@@ -48,6 +48,8 @@ const EmiSchemesPage = () => {
         ]}
       />
 
+      <TaxationLinksBar />
+
       <main className="py-16">
         <div className="container mx-auto px-4 space-y-16">
           <section className="space-y-4 text-slate-700 leading-relaxed">
@@ -92,8 +94,6 @@ const EmiSchemesPage = () => {
             </div>
           </section>
 
-          <TaxationLinksBar />
-
           <section className="grid md:grid-cols-2 gap-12 items-center">
             <div>
                 <h3 className="text-2xl font-bold mb-4">EMI Schemes and Strategic Alignment</h3>
@@ -131,7 +131,7 @@ const EmiSchemesPage = () => {
               </div>
             </div>
             <div className="mt-8 space-y-4">
-                <p>At that stage, an EMI employee share scheme can become commercially important because it changes how employees relate to the company’s growth itself.</p>
+                <p>At that stage, an EMI employee share scheme can become commercially important because it changes how employees relate to the company's growth itself.</p>
                 <p>The employee no longer views success only through salary progression.</p>
                 <p>They begin participating in future equity value as well.</p>
                 <p>By that point, option structuring usually becomes harder.</p>
@@ -389,7 +389,7 @@ const EmiSchemesPage = () => {
                       </div>
                   </div>
                   
-                  <p className="mb-4">The difference is not simply “having an EMI scheme.”</p>
+                  <p className="mb-4">The difference is not simply "having an EMI scheme."</p>
                   <p className="font-semibold">It is having one that still works properly several years later when the business becomes larger, more valuable, and commercially more complex.</p>
               </div>
           </section>
@@ -507,10 +507,10 @@ const EmiSchemesPage = () => {
       <div id="contact-section">
         <ContactForm />
       </div>
-    
+
       <BreadcrumbJsonLd items={[{"name":"Home","url":"https://www.taxaccolega.co.uk/"},{"name":"Taxation","url":"https://www.taxaccolega.co.uk/taxation"},{"name":"EMI Schemes","url":""}]} />
       {(() => { const faqData = faqJsonLd([{"q":"What is an EMI scheme?","a":"An EMI scheme is a tax-advantaged employee share option scheme designed for qualifying UK businesses."},{"q":"How does an EMI share scheme work?","a":"Employees receive options to acquire company shares later under agreed conditions and pricing structures."},{"q":"Who qualifies for an EMI scheme UK?","a":"Eligibility depends on company size, trade activity, employee conditions, and HMRC qualifying rules."},{"q":"What are the benefits of an EMI scheme?","a":"Potential benefits include employee retention, tax efficiency, long-term incentives, and growth alignment."},{"q":"Can HMRC challenge an EMI valuation?","a":"Yes. EMI scheme valuation HMRC reviews are important because unsupported valuations may create future disputes."},{"q":"What happens if an employee leaves an EMI scheme?","a":"The outcome depends on the option agreement, timing, and whether the employee qualifies as a good or bad leaver."},{"q":"When should a company set up an EMI scheme?","a":"Usually before major growth, investment activity, or valuation increases make structuring less flexible."}]); return faqData ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /> : null; })()}
-      </div>
+    </div>
   );
 };
 

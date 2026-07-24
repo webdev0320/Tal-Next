@@ -3,7 +3,7 @@ import React from 'react';
 
 const LandingFooter = () => {
   return (
-    <footer className="py-8 px-8 bg-brand-teal text-white flex justify-between items-center">
+    <footer className="py-8 px-4 bg-brand-teal text-white flex justify-between items-center">
       <div className="flex space-x-4">
         <img src="/images/logo/tal-logo.png" alt="Taxaccolega Logo" height="30" />
       </div>

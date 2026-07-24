@@ -7,7 +7,7 @@ export default function StatsCounter() {
   ];
 
   return (
-    <section className="relative z-10 -mt-16 px-6">
+    <section className="relative z-10 -mt-16 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-slate-100">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

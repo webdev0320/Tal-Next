@@ -23,7 +23,7 @@ const FilmTaxRelief = () => {
         </section>
         <TaxationLinksBar />
         {/* Component Index 3: FTR Core Overview Section */}
-        <section className="container mx-auto px-6 py-12">
+        <section className="container mx-auto px-4 py-12">
           <p className="text-gray-500 mb-6">Home / Taxation / Film tax relief</p>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="bg-gray-200 h-80 rounded-lg flex items-center justify-center text-gray-500">Camera Operator Graphic Scene</div>
@@ -39,7 +39,7 @@ const FilmTaxRelief = () => {
 
         {/* Component Index 4: Collaborative Partner Carousel Strip 1 */}
         <section className="bg-gray-100 py-8">
-          <div className="container mx-auto px-6 text-center">
+          <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl font-bold text-teal-900">Our Clients and Collaborative Partners</h2>
             <div className="flex justify-center space-x-8 mt-6">
               <div className="w-20 h-10 bg-gray-300"></div>
@@ -51,7 +51,7 @@ const FilmTaxRelief = () => {
 
         {/* Component Index 5: The Benefits of Hiring an Accountant Module */}
         <section className="bg-gray-50 py-16">
-          <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+          <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-teal-900 mb-6 border-l-4 border-orange-600 pl-4">The Benefits Of Hiring An Accountant</h2>
               <h3 className="text-xl font-bold mb-2">Eligibility Assessment</h3>
@@ -72,7 +72,7 @@ const FilmTaxRelief = () => {
         </section>
 
         {/* Component Index 6: FAQ Dropdown Accordion Component */}
-        <section className="container mx-auto px-6 py-16 grid md:grid-cols-3 gap-12">
+        <section className="container mx-auto px-4 py-16 grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2">
             <h2 className="text-3xl font-bold text-teal-900 mb-8">FAQs</h2>
             {[1, 2, 3, 4].map((i) => (
@@ -97,7 +97,7 @@ const FilmTaxRelief = () => {
 
         {/* Component Index 7: Verified Google Review Feedback Stacks */}
         <section className="bg-gray-50 py-16">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold text-center mb-8">Our Recent Google Reviews</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
@@ -118,7 +118,7 @@ const FilmTaxRelief = () => {
 
         {/* Component Index 9: Collaborative Partner Carousel Strip 2 */}
         <section className="bg-gray-100 py-8">
-          <div className="container mx-auto px-6 text-center">
+          <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl font-bold text-teal-900">Our Clients and Collaborative Partners</h2>
             <div className="flex justify-center space-x-8 mt-6">
               <div className="w-20 h-10 bg-gray-300"></div>

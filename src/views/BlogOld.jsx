@@ -156,7 +156,7 @@ const BlogOld = () => {
   ];
 
   return (
-    <div className="container mx-auto p-4 sm:p-6 lg:p-8">
+    <div className="container mx-auto p-4">
       {/* Page Title */}
       <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-10 text-center">Blogs</h1>
 

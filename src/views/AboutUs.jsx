@@ -83,7 +83,7 @@ const AboutUs = () => {
       </section>
 
       <section className="py-16 lg:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { icon: "fas fa-home", title: "For Landlords", price: "From £24.50 per month", body: "“Streamlined and Comprehensive Accounting Support at an Unbeatable Price”" },

@@ -9,7 +9,7 @@ export default function CharteredAccountantInfo() {
       {/* Overlay to ensure text readability */}
       <div className="absolute inset-0 bg-[#1D3C45]/80"></div>
       
-      <div className="container relative z-10 px-6">
+      <div className="container relative z-10 px-4">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h2 className="text-3xl lg:text-5xl font-bold mb-8">Chartered Accountant Services</h2>
           <div className="bg-[#d2601a] mx-auto my-6" style={{ width: "80px", height: "4px" }}></div>

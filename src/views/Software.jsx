@@ -1,11 +1,8 @@
 "use client";
 import { useState } from 'react';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
 import ContactForm from '../components/ContactForm';
-import Footer from '../components/Footer';
 
 /* ─────────────────────────────────────────────
    SUB-COMPONENTS
@@ -85,12 +82,6 @@ const Software = () => {
 
   return (
     <div>
-      {/* ── 1. Top bar ── */}
-      <TopBar />
-
-      {/* ── 2. Navbar ── */}
-      <Navbar />
-
       {/* ── 3. Page Hero Banner ── */}
       <header
         className="position-relative text-white d-flex align-items-center"
@@ -279,12 +270,8 @@ const Software = () => {
 
       {/* ── 12. Reviews Slider ── */}
       <ReviewsSlider />
-
-      {/* ── 13. Footer ── */}
-      <Footer />
     </div>
   );
 };
 
 export default Software;
-

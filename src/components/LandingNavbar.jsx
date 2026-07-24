@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const LandingNavbar = () => {
   return (
-    <nav className="flex items-center justify-between py-4 px-8 bg-white border-b border-gray-200">
+    <nav className="flex items-center justify-between py-4 px-4 bg-white border-b border-gray-200">
       <div className="text-2xl font-bold text-brand-teal">
         <img src="/images/logo/tal-logo.png" alt="Taxaccolega Logo" height="60" />
       </div>

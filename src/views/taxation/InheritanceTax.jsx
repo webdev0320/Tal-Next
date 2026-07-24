@@ -15,9 +15,7 @@ export default function InheritanceTax() {
 
   return (
     <div className="min-h-screen bg-white">
-      <TaxationLinksBar />
-
-      {/* ── HERO SECTION ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO SECTION Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
@@ -35,9 +33,23 @@ export default function InheritanceTax() {
             </div>
           </div>
         </div>
-      </header>
+            </header>
 
-      {/* ── 2. HERO CONTENT SPLIT ── */}
+      {/* Breadcrumb */}
+      <div className="bg-white border-bottom py-3">
+        <div className="container px-4">
+          <nav aria-label="breadcrumb">
+            <ol className="breadcrumb mb-0 small">
+              <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
+              <li className="breadcrumb-item"><Link href="/taxation" className="text-decoration-none" style={{ color: '#D2601A' }}>Taxation</Link></li>
+              <li className="breadcrumb-item active text-secondary">Inheritance Tax Planning</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <TaxationLinksBar />
+{/* Ã¢â€â‚¬Ã¢â€â‚¬ 2. HERO CONTENT SPLIT Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section className="py-5 border-bottom bg-white">
         <div className="container py-3">
           <div className="row g-5">
@@ -54,7 +66,7 @@ export default function InheritanceTax() {
               </p>
               
               <p className="text-secondary mb-5" style={{ lineHeight: 1.8 }}>
-                {"Our specialist Inheritance Tax advisors provide comprehensive, tailored planning — from utilising the Nil-Rate Band and Residence Nil-Rate Band, through gifting strategies and trust structures, to reviewing your will in the context of IHT objectives."}
+                {"Our specialist Inheritance Tax advisors provide comprehensive, tailored planning Ã¢â‚¬â€ from utilising the Nil-Rate Band and Residence Nil-Rate Band, through gifting strategies and trust structures, to reviewing your will in the context of IHT objectives."}
               </p>
               
               <div className="p-4 border-start border-brand-orange border-4 bg-light rounded-e-3 mb-4">
@@ -118,7 +130,7 @@ export default function InheritanceTax() {
         </div>
       </section>
 
-      {/* ── 3. Toggleable Figma Mockup Display ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 3. Toggleable Figma Mockup Display Ã¢â€â‚¬Ã¢â€â‚¬ */}
       {showMockup && (
         <section className="py-5" style={{ background: '#f1f3f5' }}>
           <div className="container text-center">
@@ -143,10 +155,10 @@ export default function InheritanceTax() {
         </section>
       )}
 
-      {/* ── 4. Dynamic Responsive Custom Sections ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 4. Dynamic Responsive Custom Sections Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
 
-      {/* ── 5. FAQs ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 5. FAQs Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-light border-top">
         <div className="container py-4">
@@ -160,7 +172,7 @@ export default function InheritanceTax() {
                 
                   <FAQItem 
                     question={"What is Inheritance Tax?"} 
-                    answer={"IHT is charged on estates worth more than the £325,000 Nil-Rate Band at 40%. With a Residence Nil-Rate Band of up to £175,000, careful planning can significantly reduce exposure."} 
+                    answer={"IHT is charged on estates worth more than the Ã‚Â£325,000 Nil-Rate Band at 40%. With a Residence Nil-Rate Band of up to Ã‚Â£175,000, careful planning can significantly reduce exposure."} 
                     isOpen={openFaq === 0}
                     onClick={() => setOpenFaq(openFaq === 0 ? null : 0)}
                   />
@@ -179,7 +191,7 @@ export default function InheritanceTax() {
       </section>
 
 
-      {/* ── 6. Form Section ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 6. Form Section Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section id="contact-section" className="py-5 bg-white">
         <div className="container py-4">
           <div className="row justify-content-center">

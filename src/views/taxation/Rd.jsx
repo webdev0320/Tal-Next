@@ -15,9 +15,7 @@ export default function Rd() {
 
   return (
     <div className="min-h-screen bg-white">
-      <TaxationLinksBar />
-
-      {/* ── HERO SECTION ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO SECTION Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
         <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
@@ -35,9 +33,23 @@ export default function Rd() {
             </div>
           </div>
         </div>
-      </header>
+            </header>
 
-      {/* ── 2. HERO CONTENT SPLIT ── */}
+      {/* Breadcrumb */}
+      <div className="bg-white border-bottom py-3">
+        <div className="container px-4">
+          <nav aria-label="breadcrumb">
+            <ol className="breadcrumb mb-0 small">
+              <li className="breadcrumb-item"><Link href="/" className="text-decoration-none" style={{ color: '#D2601A' }}>Home</Link></li>
+              <li className="breadcrumb-item"><Link href="/taxation" className="text-decoration-none" style={{ color: '#D2601A' }}>Taxation</Link></li>
+              <li className="breadcrumb-item active text-secondary">R&D Tax Credits</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <TaxationLinksBar />
+{/* Ã¢â€â‚¬Ã¢â€â‚¬ 2. HERO CONTENT SPLIT Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section className="py-5 border-bottom bg-white">
         <div className="container py-3">
           <div className="row g-5">
@@ -50,7 +62,7 @@ export default function Rd() {
               </div>
               
               <p className="lead text-secondary mb-4" style={{ lineHeight: 1.8 }}>
-                {"Research and Development (R&D) Tax Credits are one of the most valuable reliefs available to UK companies, yet many qualifying businesses never claim them — often because they don't realise their work qualifies."}
+                {"Research and Development (R&D) Tax Credits are one of the most valuable reliefs available to UK companies, yet many qualifying businesses never claim them Ã¢â‚¬â€ often because they don't realise their work qualifies."}
               </p>
               
               <p className="text-secondary mb-5" style={{ lineHeight: 1.8 }}>
@@ -118,7 +130,7 @@ export default function Rd() {
         </div>
       </section>
 
-      {/* ── 3. Toggleable Figma Mockup Display ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 3. Toggleable Figma Mockup Display Ã¢â€â‚¬Ã¢â€â‚¬ */}
       {showMockup && (
         <section className="py-5" style={{ background: '#f1f3f5' }}>
           <div className="container text-center">
@@ -143,7 +155,7 @@ export default function Rd() {
         </section>
       )}
 
-      {/* ── 4. Dynamic Responsive Custom Sections ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 4. Dynamic Responsive Custom Sections Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-white">
         <div className="container py-4">
@@ -172,7 +184,7 @@ export default function Rd() {
                       <i className="fas fa-check text-brand-orange"></i>
                     </div>
                     <h5 className="fw-bold text-brand-dark mb-3">{"Qualifying Expenditure"}</h5>
-                    <p className="text-secondary small mb-0">{"Staffing costs, subcontractor costs (65% for third parties), consumables, software, and certain cloud computing costs all qualify — if the work meets the technical advancement test."}</p>
+                    <p className="text-secondary small mb-0">{"Staffing costs, subcontractor costs (65% for third parties), consumables, software, and certain cloud computing costs all qualify Ã¢â‚¬â€ if the work meets the technical advancement test."}</p>
                   </div>
                 </div>
               </div>
@@ -194,7 +206,7 @@ export default function Rd() {
       </section>
 
 
-      {/* ── 5. FAQs ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 5. FAQs Ã¢â€â‚¬Ã¢â€â‚¬ */}
       
       <section className="py-5 bg-light border-top">
         <div className="container py-4">
@@ -208,7 +220,7 @@ export default function Rd() {
                 
                   <FAQItem 
                     question={"What activities qualify for R&D tax credits?"} 
-                    answer={"Any work that seeks to resolve scientific or technological uncertainty qualifies — including software development, engineering design, new product development, and process improvement."} 
+                    answer={"Any work that seeks to resolve scientific or technological uncertainty qualifies Ã¢â‚¬â€ including software development, engineering design, new product development, and process improvement."} 
                     isOpen={openFaq === 0}
                     onClick={() => setOpenFaq(openFaq === 0 ? null : 0)}
                   />
@@ -234,7 +246,7 @@ export default function Rd() {
       </section>
 
 
-      {/* ── 6. Form Section ── */}
+      {/* Ã¢â€â‚¬Ã¢â€â‚¬ 6. Form Section Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section id="contact-section" className="py-5 bg-white">
         <div className="container py-4">
           <div className="row justify-content-center">
