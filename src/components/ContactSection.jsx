@@ -1,7 +1,7 @@
 export default function ContactSection() {
   return (
     <section className="py-5">
-        <div className="container py-4 px-4">
+        <div className="container py-4">
             <div className="row g-5 align-items-stretch">
                 {/* Promise Column */}
                 <div className="col-lg-12">

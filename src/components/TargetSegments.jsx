@@ -27,7 +27,7 @@ export default function TargetSegments() {
             <div className="row align-items-center g-5">
                 <div className="col-lg-4 text-center text-lg-start">
                     <h2 className="text-brand-dark display-5 mt-2 mb-4 brand-font">Who Do We Help</h2>
-                    <Image src="/wp-content/uploads/2025/08/Who-Do-We-help-300x268.webp" alt="Industries and sectors Taxaccolega accountants serve" width={300} height={268} className="rounded-4 shadow-sm bg-white p-2 border border-light" />
+                    <Image src="/images/2025/08/Who-Do-We-help-300x268.webp" alt="Industries and sectors Taxaccolega accountants serve" width={300} height={268} className="rounded-4 shadow-sm bg-white p-2 border border-light" />
                 </div>
                 <div className="col-lg-8">
                     <StaggerReveal className="flex flex-wrap gap-4 justify-center lg:justify-start">
