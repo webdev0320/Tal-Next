@@ -5,8 +5,10 @@ import { useState, useEffect } from 'react';
 export default function Loader() {
   const [visible, setVisible] = useState(true);
   const [phase, setPhase] = useState('enter');
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     const minTimer = setTimeout(() => {
       setPhase('exit');
       setTimeout(() => setVisible(false), 700);
@@ -62,7 +64,7 @@ export default function Loader() {
         </div>
       </div>
 
-      {[...Array(12)].map((_, i) => (
+      {mounted && [...Array(12)].map((_, i) => (
         <div
           key={i}
           className="loader-particle"

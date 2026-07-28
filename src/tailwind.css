@@ -7,6 +7,13 @@
   --edge-padding: 1rem;
 }
 
+/* Override Bootstrap container to match Tailwind's max-w-7xl mx-auto px-4 spacing */
+.container {
+  padding-left: var(--edge-padding);
+  padding-right: var(--edge-padding);
+  max-width: 1280px;
+}
+
 /* ─── System-wide brand buttons ─── */
 .btn-brand,
 a.btn-brand,
