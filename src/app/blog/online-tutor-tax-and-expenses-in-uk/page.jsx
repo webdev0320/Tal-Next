@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Online Tutor Tax Guide – Expenses You Can Claim in the UK | Taxaccolega",
   description: "Online Tutor - What expenses can I claim and what taxes do I pay? If you are thinking of starting online tutoring you should be well aware of the taxes that th…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/online-tutor-tax-and-expenses-in-uk/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How will SEISS grant be taxed? | Taxaccolega",
   description: "How will SEISS grant be taxed? The government has supported the self employed throughout the pandemic with a generous grant under 'Self employed -income Suppor…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-will-seiss-grant-be-taxed/" },
   openGraph: {
     type: 'article',

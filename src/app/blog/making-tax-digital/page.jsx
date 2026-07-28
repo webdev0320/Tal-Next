@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Making Tax Digital | Taxaccolega",
   description: "Everything You Need to Know About Making Tax Digital (MTD) for Income Tax Table of Contents The Complete Guide What is the MTD for Income Tax? Digital Record M…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/making-tax-digital/" },
   openGraph: {
     type: 'article',

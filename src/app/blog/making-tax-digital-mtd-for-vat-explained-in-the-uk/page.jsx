@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Making Tax Digital (MTD) for VAT Explained in the UK: Registration, Software, HMRC Rules and Deadlines | Taxaccolega",
   description: "Making Tax Digital (MTD) for VAT Explained in the UK Registration, Software, HMRC Rules and Deadlines Table of Contents A Complete Guide for Businesses Introdu…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/making-tax-digital-mtd-for-vat-explained-in-the-uk/" },
   openGraph: {
     type: 'article',

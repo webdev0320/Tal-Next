@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Stamp Duty Cut for Landlords - What It Means in 2025 | Taxaccolega",
   description: "Stamp Duty Cut for Landlords What does it mean to the landlords? What is stamp duty? Stamp duty is a tax which you have to pay when you buy a property over a c…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/stamp-duty-cut-and-what-does-it-mean-to-the-landlords/" },
   openGraph: {
     type: 'article',

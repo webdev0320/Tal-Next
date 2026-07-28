@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "I have income from abroad do i report it to HMRC? | Taxaccolega",
   description: "I have income from abroad Do i report it to HMRC? In the time of pandemic as the economic uncertainty continues the last thing anyone can think of is giving aw…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-have-income-from-abroad-do-i-report-it-to-hmrc/" },
   openGraph: {
     type: 'article',

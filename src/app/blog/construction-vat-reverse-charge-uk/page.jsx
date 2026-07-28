@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Construction VAT Reverse Charge UK – Guide & Rules | Taxaccolega",
   description: "Construction VAT Reverse Charge UK – Guide Rules If you are a UK VAT registered company suppling building and construction services you should be aware that yo…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/construction-vat-reverse-charge-uk/" },
   openGraph: {
     type: 'article',

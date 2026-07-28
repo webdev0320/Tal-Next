@@ -29,9 +29,19 @@ export const SITE = {
   },
 };
 
-export const ALLOW_INDEXING = true;
+export const ALLOW_INDEXING = process.env.NEXT_PUBLIC_ALLOW_INDEXING !== 'false';
 
 export function getRobots() {
+  if (!ALLOW_INDEXING) {
+    return {
+      index: false,
+      follow: false,
+      googleBot: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
   return {
     index: true,
     follow: true,
@@ -39,7 +49,7 @@ export function getRobots() {
       index: true,
       follow: true,
       'max-video-preview': -1,
-      'max-image-preview': 'none',
+      'max-image-preview': 'large',
       'max-snippet': -1,
     },
   };

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "HMRC Tax Rule Changes April 2026 | Taxaccolega",
   description: "HMRC Tax Rule Changes April 2026 What UK Individuals and Businesses Must Prepare for Now April is when UK tax reality changes, not in theory, but in the day-to…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/hmrc-tax-rule-changes-april-2026/" },
   openGraph: {
     type: 'article',

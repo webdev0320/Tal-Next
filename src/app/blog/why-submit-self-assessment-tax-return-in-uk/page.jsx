@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Why You Must File a Self Assessment Tax Return in the UK | Taxaccolega",
   description: "Why You Must File a Self Assessment Tax Return in the UK 3 Reasons You need to fill in Annual Self-Assessment Tax Return You need to fill in the self-assessmen…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/why-submit-self-assessment-tax-return-in-uk/" },
   openGraph: {
     type: 'article',

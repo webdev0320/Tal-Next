@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Mini- budget : How will it affect you? | Taxaccolega",
   description: "Mini- budget How will it affect you? The chancellor announced major tax cuts on Friday as he believes that it will boost the economy. He comes with the agenda…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/mini-budget-how-will-it-affect-you/" },
   openGraph: {
     type: 'article',

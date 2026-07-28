@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Deadline for Reporting Capital Gains tax - Do I have to report them with the Self assessment Tax Return? | Taxaccolega",
   description: "Deadline for Reporting Capital Gains tax Do I have to report them with the Self assessment Tax Return? How and when you report the capital gains depends on the…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/deadline-for-reporting-capital-gains-tax-do-i-have-to-report-them-with-the-self-assessment-tax-return/" },
   openGraph: {
     type: 'article',

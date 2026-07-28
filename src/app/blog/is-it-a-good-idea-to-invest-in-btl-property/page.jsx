@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Is Buy-to-Let Worth It in the UK? 2025 Investment Guide | Taxaccolega",
   description: "Is Buy to Let Worth It in the UK? 2025 Investment Guide If you have extra funds and you are looking for some investment you should definitely consider investin…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/is-it-a-good-idea-to-invest-in-btl-property/" },
   openGraph: {
     type: 'article',

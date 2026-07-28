@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Unique Tax Reference Number | Complete Guide By Taxaccolega | Taxaccolega",
   description: "Complete Guide to Unique Tax Reference Numbers Table of Contents What does a UTR number mean? Who needs a UTR? Where do I look for my UTR? How can I get a UTR…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/complete-guide-to-unique-tax-reference-numbers/" },
   openGraph: {
     type: 'article',

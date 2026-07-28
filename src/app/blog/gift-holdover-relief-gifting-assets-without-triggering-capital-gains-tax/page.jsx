@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Gift Holdover Relief gifting assets without triggering capital gains tax | Taxaccolega",
   description: "Gift Holdover Relief Gifting Assets Without Triggering Capital Gains Tax Table of Contents Why Gifting Assets Often Triggers Capital Gains Tax What Gift Holdov…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/gift-holdover-relief-gifting-assets-without-triggering-capital-gains-tax/" },
   openGraph: {
     type: 'article',

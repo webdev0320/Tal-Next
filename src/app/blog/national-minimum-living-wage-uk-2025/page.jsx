@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "National Minimum and Living Wage Rates in UK Guide 2025 | Taxaccolega",
   description: "Understanding the National Minimum Wage amp National Living Wage Fair Pay and Workers' Rights – NMW & NLW body { font-family: 'Montserrat Alternates', sans-ser…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/national-minimum-living-wage-uk-2025/" },
   openGraph: {
     type: 'article',

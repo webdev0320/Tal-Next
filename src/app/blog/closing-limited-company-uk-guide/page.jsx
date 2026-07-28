@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "What do I need to do if I want to close my limited company | Taxaccolega",
   description: "What do I need to do if I want to Close my limited Company If you are thinking of closing your company you have to make sure that you are well aware of all the…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/closing-limited-company-uk-guide/" },
   openGraph: {
     type: 'article',

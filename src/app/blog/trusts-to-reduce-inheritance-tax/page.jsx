@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Can Setting Up a Trust Reduce Inheritance Tax in the UK? | Taxaccolega",
   description: "I want to set up a trust, will it reduce my Inheritance tax bill? The answer is Yes it will. This is because when you set up a trust and transfer your assets w…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/trusts-to-reduce-inheritance-tax/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "VAT Accountants in London | Taxaccolega",
   description: "VAT Accountants in London How Taxaccolega Helps Businesses Stay Compliant and Save Money Many business owners find VAT duties confusing and scary. Understandin…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/vat-accountants-in-london-how-taxaccolega-helps-businesses-stay-compliant-and-save-money/" },
   openGraph: {
     type: 'article',

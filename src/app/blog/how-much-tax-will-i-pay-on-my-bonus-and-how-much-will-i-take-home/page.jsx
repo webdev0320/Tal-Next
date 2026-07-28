@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How much tax will I pay on my bonus and how much will I take home? | Taxaccolega",
   description: "How much tax will I pay on my bonus and how much will I take home? The bonus you will get is considered your earnings so you will be taxed in the same way as y…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-much-tax-will-i-pay-on-my-bonus-and-how-much-will-i-take-home/" },
   openGraph: {
     type: 'article',

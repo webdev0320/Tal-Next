@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "A Brand New Post | Taxaccolega",
   description: "A New Test Post By Rizwan This is another new test post added by Rizwan.",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/a-new-post-by-rizwan/" },
   openGraph: {
     type: 'article',

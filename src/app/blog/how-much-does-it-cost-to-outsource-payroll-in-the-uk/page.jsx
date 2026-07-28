@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "A Complete 2026 Pricing Guide for Businesses | Taxaccolega",
   description: "How Much Does It Cost to Outsource Payroll in the UK? A Complete 2026 Pricing Guide for Businesses Table of Contents What Payroll Outsourcing Actually Means in…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-much-does-it-cost-to-outsource-payroll-in-the-uk/" },
   openGraph: {
     type: 'article',

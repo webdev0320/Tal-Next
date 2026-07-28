@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Holdover Relief Explained – Capital Gains Tax Guide UK | Taxaccolega",
   description: "Holdover Relief I am selling my business to my friend will holdover relief apply to me? If you are eligible for gift holdover relief or not depends on all indi…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/holdover-relief-capital-gains-tax/" },
   openGraph: {
     type: 'article',

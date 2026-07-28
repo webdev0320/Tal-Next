@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company | Taxaccolega",
   description: "Selling on Amazon - Things I should know if I am selling as a sole trader or a limited company The way you run your business online depends on how big the busi…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/selling-on-amazon-things-i-should-know-if-i-am-selling-as-a-sole-trader-or-a-limited-company/" },
   openGraph: {
     type: 'article',

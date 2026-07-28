@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? | Taxaccolega",
   description: "I am a taxi driver can I apply for a grant through Self Employment Income Support Scheme? If you are a taxi driver, registered as 'Self Employed' with HMRC (yo…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-am-a-taxi-driver-can-i-apply-for-a-grant-through-self-employment-income-support-scheme/" },
   openGraph: {
     type: 'article',

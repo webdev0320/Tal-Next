@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Maximise Savings, Minimise Tax | Taxaccolega",
   description: "Maximise Savings Minimise Tax Table of Contents Capital Allowances for Commercial Property Owners What Are Capital Allowances? How Do Capital Allowances work?…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/maximise-savings-minimise-tax/" },
   openGraph: {
     type: 'article',

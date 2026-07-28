@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "UK Corporation Tax 2025 - Key Changes & Limited Company Prep | Taxaccolega",
   description: "Corporation tax changes in 2023 and how to prepare for the changes if you run a limited company The government announced that the corporation tax will increase…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/uk-corporation-tax-2025-changes-guide/" },
   openGraph: {
     type: 'article',

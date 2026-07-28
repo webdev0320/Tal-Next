@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How Can I Prepare My Business for IOSS? | Taxaccolega",
   description: "How Can I Prepare My Business for IOSS? The new VAT policies make sure that the international trade between EU and non-EU states is made easy. As an IOSS regis…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-can-i-prepare-my-business-for-ioss/" },
   openGraph: {
     type: 'article',

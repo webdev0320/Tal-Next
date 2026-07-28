@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Non‑Resident UK Property Buyer? SDLT Surcharge Explained | Taxaccolega",
   description: "Stamp Duty Land Tax (SDLT) surcharge and the non-resident UK property buyers If you are a non resident interested in buying a residential property in the UK yo…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/non-resident-sdlt-property-surcharge-uk/" },
   openGraph: {
     type: 'article',

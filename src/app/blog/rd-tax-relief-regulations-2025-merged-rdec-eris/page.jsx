@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "R&D Tax Relief Regulations 2025: Merged RDEC & ERIS | Taxaccolega",
   description: "R D Tax Relief Regulations 2025 Merged RDEC ERIS You might be eligible for Research and Development (R&D) tax relief if your company makes investments in techn…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/rd-tax-relief-regulations-2025-merged-rdec-eris/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "UK Rental Income: How to Calculate and Report Profit or Loss | Taxaccolega",
   description: "How to calculate and Report them? Profits and Losses from UK Rental If you have rented a property in the UK, you should declare it to HMRC and pay tax on your…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/calculate-rental-profits-losses-uk/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "I am renting a room. Can Rent a Room Relief apply to me? | Taxaccolega",
   description: "I am renting a room Can Rent a Room Relief apply to me? When we are filing our self assessment tax return we need to make sure that we claim as much reliefs as…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-am-renting-a-room-can-rent-a-room-relief-apply-to-me/" },
   openGraph: {
     type: 'article',

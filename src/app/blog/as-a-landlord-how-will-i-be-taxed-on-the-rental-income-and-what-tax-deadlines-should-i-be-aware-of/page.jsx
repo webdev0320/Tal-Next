@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Landlord Tax Guide: Rental Income & HMRC Deadlines (UK) | Taxaccolega",
   description: "As a landlord, how will I be taxed on the Rental income and What tax deadlines should I be aware of? If you are a landlord there are 2 possible ways you might…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/as-a-landlord-how-will-i-be-taxed-on-the-rental-income-and-what-tax-deadlines-should-i-be-aware-of/" },
   openGraph: {
     type: 'article',

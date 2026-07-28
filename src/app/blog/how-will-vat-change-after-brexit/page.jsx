@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How will VAT change after Brexit? | Taxaccolega",
   description: "How will VAT change after Brexit? As the transition period of Brexit is coming to an end in Jan 2021, it`s time that businesses who are dealing with EU countri…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-will-vat-change-after-brexit/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Do I need a cashflow forecast for my startup? | Taxaccolega",
   description: "Do I need a cashflow forecast for my startup? If you are self-employed or an incorporated company it's very important that you stay on top of your finances. Yo…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/do-i-need-a-cashflow-forecast-for-my-startup/" },
   openGraph: {
     type: 'article',

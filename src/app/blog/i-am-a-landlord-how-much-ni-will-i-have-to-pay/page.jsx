@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Landlord National Insurance in the UK – What You Owe | Taxaccolega",
   description: "I am a Landlord- How much NI will I have to pay? When you think of running a business it is very important that you know what costs may be involved so you have…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-am-a-landlord-how-much-ni-will-i-have-to-pay/" },
   openGraph: {
     type: 'article',

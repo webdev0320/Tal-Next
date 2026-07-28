@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "I have inherited a property. Should I pay Capital Gains Tax on it? | Taxaccolega",
   description: "I have inherited a property Should I pay Capital Gains Tax on it? What is capital gains tax? Capital gains tax is the tax which you pay when you sell a propert…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-have-inherited-a-property-should-i-pay-capital-gains-tax-on-it/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How can I minimise my taxes on my property income? | Taxaccolega",
   description: "How can I minimise my taxes on my property income? There is a simple rule if you have income you have to report it to HMRC and if you have profits you should p…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-can-i-minimise-my-taxes-on-my-property-income/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Payroll Outsourcing for Small Businesses vs Medium Enterprises | Taxaccolega",
   description: "Payroll Outsourcing for Small Businesses vs Medium Enterprises Table of Contents Payroll Outsourcing for Small Businesses vs Medium Enterprises Cost Structure…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/payroll-outsourcing-for-small-businesses-vs-medium-enterprises/" },
   openGraph: {
     type: 'article',

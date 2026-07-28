@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "What do landlords need to do for MTD for income tax? | Taxaccolega",
   description: "What do landlords need to do for MTD for income tax? The landlords whose income from the properties for example if their rental income exceeds £10 000 per year…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/what-do-landlords-need-to-do-for-mtd-for-income-tax/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Post Brexit VAT- What should you be aware of if you sell on E bay or Amazon | Taxaccolega",
   description: "Post Brexit VAT What should you be aware of if you sell on E bay or Amazon The exit of UK from the EU has affected the trade across the borders. Many small bus…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/post-brexit-vat-what-should-you-be-aware-of-if-you-sell-on-e-bay-or-amazon/" },
   openGraph: {
     type: 'article',

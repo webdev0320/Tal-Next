@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Self Assessment & Capital Gains Tax – UK Filing Guide | Taxaccolega",
   description: "Self Assessment Tax Return And Capital gains Tax If you have disposed any personal possession such as antiques, jewellery, paintings etc. Which are worth more…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/self-assessment-tax-return-and-capital-gains-tax/" },
   openGraph: {
     type: 'article',

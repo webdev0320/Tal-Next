@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Parents Helping You Buy a House? 2 Tax-Smart UK Options | Taxaccolega",
   description: "My parents want to help me buy a house What are the 2 options? It's a good chance for many first time buyers to buy a house. The stamp duty holiday till March…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/my-parents-want-to-help-me-buy-a-house-what-are-the-2-options/" },
   openGraph: {
     type: 'article',

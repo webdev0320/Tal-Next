@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "4 reasons why you should incorporate your property business | Taxaccolega",
   description: "4 reasons why you should incorporate your property business When we are in any kind of a business we are looking for ways to save taxes. Tax is a cost which ca…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/4-reasons-why-you-should-incorporate-your-property-business/" },
   openGraph: {
     type: 'article',

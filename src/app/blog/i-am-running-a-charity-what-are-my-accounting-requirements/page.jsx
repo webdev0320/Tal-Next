@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "I am running a charity - what are my accounting requirements? | Taxaccolega",
   description: "I am running a Charity - What are my accounting requirements? Do I need to prepare my accounts? All charities ( whether they are registered with the commission…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-am-running-a-charity-what-are-my-accounting-requirements/" },
   openGraph: {
     type: 'article',

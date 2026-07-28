@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "UK Property Income - How to Declare to HMRC (2025 Guide) | Taxaccolega",
   description: "Property Income How should I declare it to HMRC? If you own property which you are renting and you are earning a significant amount of income in the form of re…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/property-income-reporting-hmrc-uk/" },
   openGraph: {
     type: 'article',

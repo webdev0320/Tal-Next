@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "National Insurance Increase – What It Means for You | Taxaccolega",
   description: "Increase in National Insurance How will it affect me? If you are an employer running a payroll for your employees make sure that you pay income tax and Nationa…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/national-insurance-increase-impact-uk/" },
   openGraph: {
     type: 'article',

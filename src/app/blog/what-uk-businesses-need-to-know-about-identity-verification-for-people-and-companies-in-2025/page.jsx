@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "What UK Businesses Need to Know About Identity Verification for People and Companies in 2025 | Taxaccolega",
   description: "What UK Businesses Need to Know About Identity Verification for People and Companies in 2025 Table of Contents Why the change is happening Who needs to verify…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/what-uk-businesses-need-to-know-about-identity-verification-for-people-and-companies-in-2025/" },
   openGraph: {
     type: 'article',

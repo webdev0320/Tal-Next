@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Inherited Shares – Do You Pay Tax in the UK? | Taxaccolega",
   description: "I have inherited shares do I pay any taxes If you have inherited shares, you won't have to pay tax at the time of inheriting the shares. EXEMPTION If the share…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-have-inherited-shares-do-i-pay-any-taxes/" },
   openGraph: {
     type: 'article',

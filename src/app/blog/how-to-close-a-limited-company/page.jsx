@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How to close a limited Company | Taxaccolega",
   description: "How to close a limited Company There can be different reasons as to why you want to close your limited company . This could be because one of the following: ●…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-to-close-a-limited-company/" },
   openGraph: {
     type: 'article',

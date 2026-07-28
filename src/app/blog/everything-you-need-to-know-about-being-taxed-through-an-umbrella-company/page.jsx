@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Everything you need to know about being taxed through an umbrella company | Taxaccolega",
   description: "Everything you need to know about being taxed through an umbrella company If you are working through an umbrella company you should make sure that you have the…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/everything-you-need-to-know-about-being-taxed-through-an-umbrella-company/" },
   openGraph: {
     type: 'article',

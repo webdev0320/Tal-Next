@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "My business is making losses- Will I be better off if I incorporate my business? | Taxaccolega",
   description: "My business is making losses Will I be better off if I incorporate my business? If you have extra funds and you are looking for some investment you should defi…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/my-business-is-making-losses-will-i-be-better-off-if-i-incorporate-my-business/" },
   openGraph: {
     type: 'article',

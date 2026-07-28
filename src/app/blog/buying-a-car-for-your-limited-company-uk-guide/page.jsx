@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Should you buy a car for your limited company? The Best Guide for the UK in 2025 | Taxaccolega",
   description: "Should you buy a car for your limited company? The Best Guide for the UK in 2025 Table of Contents What Buying a Car Through a Limited Company Means Important:…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/buying-a-car-for-your-limited-company-uk-guide/" },
   openGraph: {
     type: 'article',

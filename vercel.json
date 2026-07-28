@@ -1,5 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/404.html" }
-  ]
+  "trailingSlash": true,
+  "github": {
+    "enabled": true
+  }
 }

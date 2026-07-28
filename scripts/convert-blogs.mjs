@@ -82,6 +82,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: ${JSON.stringify(metaTitle)},
   description: ${JSON.stringify(metaDescription)},
+  robots: { index: true, follow: true },
   alternates: { canonical: ${JSON.stringify(canonicalUrl)} },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "how to avoid inheritance tax when the second parent dies planning strategies families actually use 2026 | Taxaccolega",
   description: "How to Avoid Inheritance Tax When the Second Parent Dies Planning Strategies Families Actually Use (2026) Table of Contents Why inheritance tax planning usuall…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-to-avoid-inheritance-tax-when-the-second-parent-dies/" },
   openGraph: {
     type: 'article',

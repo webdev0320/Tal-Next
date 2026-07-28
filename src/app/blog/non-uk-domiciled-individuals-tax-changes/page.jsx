@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Non-UK domiciled individuals tax changes | Taxaccolega",
   description: "Tax Changes For Non-UK Domiciled Individuals The UK is making some major modifications to how non-UK domiciled individuals (generally referred to as “non-doms“…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/non-uk-domiciled-individuals-tax-changes/" },
   openGraph: {
     type: 'article',

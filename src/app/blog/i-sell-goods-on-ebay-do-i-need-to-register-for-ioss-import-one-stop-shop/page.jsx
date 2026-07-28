@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "eBay Sellers Import One Stop Shop | Who Needs to Register? | Taxaccolega",
   description: "I sell goods on Ebay Do I need to register for Ioss (import one stop shop)? If you are selling your goods online this means that you are attracting customers f…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-sell-goods-on-ebay-do-i-need-to-register-for-ioss-import-one-stop-shop/" },
   openGraph: {
     type: 'article',

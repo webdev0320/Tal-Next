@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "SEIS and EIS tax relief London | Taxaccolega",
   description: "SEIS and EIS Tax Relief London Taxaccolega, London-based accounting firm is dedicated to giving our clients the most recent details on tax relief programs that…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/seis-and-eis-tax-relief-london/" },
   openGraph: {
     type: 'article',

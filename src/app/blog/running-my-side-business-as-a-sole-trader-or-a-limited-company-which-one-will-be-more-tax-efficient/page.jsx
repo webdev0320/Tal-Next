@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? | Taxaccolega",
   description: "Running my side business as a Sole trader or a Limited Company? Which one will be more tax efficient? There is no one answer to this question. Either of the bu…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/running-my-side-business-as-a-sole-trader-or-a-limited-company-which-one-will-be-more-tax-efficient/" },
   openGraph: {
     type: 'article',

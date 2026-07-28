@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Do Limited Companies Pay Capital Gains Tax in the UK? | Taxaccolega",
   description: "Do limited companies pay Capital gains tax? The simple answer to this is no! The companies do not pay capital gains tax on the gains they make instead they pay…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/do-limited-companies-pay-capital-gains-tax/" },
   openGraph: {
     type: 'article',

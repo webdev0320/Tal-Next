@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Best accounting firms in Croydon | Taxaccolega",
   description: "Best accounting firms in Croydon What to look for in an accountant when choosing an accountant for your company. Are they qualified? When choosing an account y…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/best-accounting-firms-in-croydon/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "ATED 2025 don't miss the 30 april 2025 deadline for ated return filing | Taxaccolega",
   description: "ATED 2025 Don’t Miss the 30 April 2025 deadline for ATED return filing Table of Contents Let Taxaccolega manage It for You! ATED Tax fees for 2025/26 How to fi…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/ated-2025/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Corporation tax increase by 6% - Will it affect your property business? | Taxaccolega",
   description: "Corporation tax increase by 6% - Will it affect your property business? In the budget it was announced that there will be an increase in the corporation tax by…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/corporation-tax-increase-by-6-will-it-affect-your-property-business/" },
   openGraph: {
     type: 'article',

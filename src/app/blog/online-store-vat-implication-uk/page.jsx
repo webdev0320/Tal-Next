@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "I have an online store what are the VAT implications? | Taxaccolega",
   description: "I have an online store - What are the VAT implications? If you are thinking of starting a business online where you will be selling your product through your e…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/online-store-vat-implication-uk/" },
   openGraph: {
     type: 'article',

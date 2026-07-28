@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Social Influencer - Will I be taxed? | Taxaccolega",
   description: "Social Influencer - Will I be taxed? Sitting home and making money couldn't get any easier as it has now. We have seen lots of success stories of people around…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/social-influencer-will-i-be-taxed/" },
   openGraph: {
     type: 'article',

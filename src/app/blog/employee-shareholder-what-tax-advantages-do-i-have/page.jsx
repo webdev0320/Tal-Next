@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Employee shareholder - What tax advantages do I have? | Taxaccolega",
   description: "Employee shareholder What tax advantages do I have? Who is an Employee Shareholder? An employee shareholder is an employee who owns shares in the company that…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/employee-shareholder-what-tax-advantages-do-i-have/" },
   openGraph: {
     type: 'article',

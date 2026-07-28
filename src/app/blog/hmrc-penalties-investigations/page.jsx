@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "HMRC Penalties & Investigations: What You Must Know in 2025 | Taxaccolega",
   description: "HMRC Penalties Investigations What You Must Know in 2025 Whether you are a limited company, landlord, or self-employed person, receiving a call from HMRC regar…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/hmrc-penalties-investigations/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "VAT Registration in the UK | Taxaccolega",
   description: "VAT Registration in the UK Everything You Need to Know Are you unsure if you need to register for VAT if you own a business in London, Croydon? You are not alo…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/vat-registration-in-the-uk/" },
   openGraph: {
     type: 'article',

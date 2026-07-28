@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Reduce Capital Gains Tax in the UK – 2025 Tax Saving Tips | Taxaccolega",
   description: "How can I Reduce my Capitals Gains Tax Bill? When you sell something you make a profit on for example, if you sell your property, shares, personal possessions…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-to-reduce-capital-gains-tax-bill/" },
   openGraph: {
     type: 'article',

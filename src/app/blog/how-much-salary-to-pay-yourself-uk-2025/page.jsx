@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How Much Salary Should You Pay Yourself in UK 2025? | Taxaccolega",
   description: "How much salary should I give myself in the tax year 2020-2021? In the budget announced in March 2021, the threshold for personal allowance has been increased.…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-much-salary-to-pay-yourself-uk-2025/" },
   openGraph: {
     type: 'article',

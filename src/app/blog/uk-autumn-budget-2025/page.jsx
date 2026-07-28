@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "UK Autumn Budget 2025 | Taxaccolega",
   description: "UK Autumn Budget 2025 When Is It and How It Affects You Every business owner, landlord and individual taxpayer in the UK should sit up and take notice of the u…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/uk-autumn-budget-2025/" },
   openGraph: {
     type: 'article',

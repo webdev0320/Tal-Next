@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Do I get any relief if I am a SME and am starting a new business due to covid? | Taxaccolega",
   description: "Do I get any relief if I am a SME and I am starting a new business due to covid? There are many businesses who are planning to develop new products due to Covi…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/do-i-get-any-relief-if-i-am-a-sme-and-am-starting-a-new-business-due-to-covid/" },
   openGraph: {
     type: 'article',

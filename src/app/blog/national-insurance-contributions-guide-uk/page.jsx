@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "National Insurance Contributions – UK Taxpayer Guide | Taxaccolega",
   description: "My National Insurance Contribution and why do I pay them? DO I HAVE TO PAY NATIONAL INSURANCE CONTRIBUTIONS? Yes you will be paying National Insurance Contribu…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/national-insurance-contributions-guide-uk/" },
   openGraph: {
     type: 'article',

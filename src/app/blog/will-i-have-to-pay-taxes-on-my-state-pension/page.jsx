@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Will I have to pay taxes on my State Pension? | Taxaccolega",
   description: "Will I have to pay taxes on my State Pension What is a State Pension? State Pension is a weekly income which most people get from the UK government when they r…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/will-i-have-to-pay-taxes-on-my-state-pension/" },
   openGraph: {
     type: 'article',

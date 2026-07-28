@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "UK Tax Codes Explained the definitive 2025 guide | Taxaccolega",
   description: "UK Tax Codes Explained The Definitive 2025 Guide (with Real Examples and What to Do Next) Understanding your tax code is one of those small things that actuall…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/uk-tax-codes-explained/" },
   openGraph: {
     type: 'article',

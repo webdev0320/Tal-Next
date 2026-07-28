@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Tax Implications of Buying a New Home Before Selling the Old One | Taxaccolega",
   description: "Buying a new house before selling my old home what will be the tax implications? When you are buying a new house when you already own one you have to think wha…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/buying-a-new-house-before-selling-my-old-home-what-will-be-the-tax-implications/" },
   openGraph: {
     type: 'article',

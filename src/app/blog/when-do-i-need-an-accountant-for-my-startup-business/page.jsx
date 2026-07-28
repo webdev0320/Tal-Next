@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "When do I need an accountant for my startup business? | Taxaccolega",
   description: "When do I need an accountant for my startup business? You are starting a business because you have a brilliant idea which you want to commercialize. You should…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/when-do-i-need-an-accountant-for-my-startup-business/" },
   openGraph: {
     type: 'article',

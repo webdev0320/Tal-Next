@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "I own a property - how can I reduce my Inheritance tax bill? | Taxaccolega",
   description: "I own a property how can I reduce my Inheritance tax bill? If you own a house, it is part of your estate for inheritance tax purposes and inheritance tax shoul…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-own-a-property-how-can-i-reduce-my-inheritance-tax-bill/" },
   openGraph: {
     type: 'article',

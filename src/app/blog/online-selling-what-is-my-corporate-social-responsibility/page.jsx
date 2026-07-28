@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Online Selling - What is my Corporate Social Responsibility? | Taxaccolega",
   description: "Online Selling What is my Corporate Social Responsibility? When we are setting up our business, we often go through our checklist of legal responsibilities suc…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/online-selling-what-is-my-corporate-social-responsibility/" },
   openGraph: {
     type: 'article',

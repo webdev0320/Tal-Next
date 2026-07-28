@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "5 Tax tips for the Landlords that can save you money | Taxaccolega",
   description: "5 Tax tips for the Landlords that can save you money When you are a landlord whether a professional or an accidental one you would want to get the maximum fina…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/5-tax-tips-for-the-landlords-that-can-save-you-money/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts & Step-by-Step Guide for Startups and Small Businesses | Taxaccolega",
   description: "How to Open a Business Bank Account in the UK Requirements, Best Banks, Free Accounts Step-by-Step Guide for Startups and Small Businesses Setting up a busines…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-to-open-a-business-bank-account-in-the-uk/" },
   openGraph: {
     type: 'article',

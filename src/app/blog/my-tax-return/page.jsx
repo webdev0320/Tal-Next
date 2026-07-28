@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "4 reasons why I should Submit my tax return early | Taxaccolega",
   description: "4 reasons why I should Submit my tax return early If you started your business as a self employed person or as a sole trader or as a partnership you need to re…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/my-tax-return/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Self-assessment deadline extended | Taxaccolega",
   description: "Self Assessment Deadline Extended Image HMRC has extended the deadline for filing your self-assessment tax return. You won't get a penalty if you file your sel…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/self-assessment-deadline-extended/" },
   openGraph: {
     type: 'article',

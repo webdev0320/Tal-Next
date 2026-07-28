@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Mergers and Acquisitions | Taxaccolega",
   description: "Mergers and Acquisitions The impact of coronavirus is significant on the mergers and acquisition deals. As a result of the crisis everything is disrupted, the…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/mergers-and-acquisitions/" },
   openGraph: {
     type: 'article',

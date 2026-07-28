@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Airbnb income- what tax exemptions can I get? | Taxaccolega",
   description: "Airbnb income what tax exemptions can I get? Airbnb income is taxed in the same way as the any other income is taxed, however, there are some exemptions availa…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/airbnb-income-what-tax-exemptions-can-i-get/" },
   openGraph: {
     type: 'article',

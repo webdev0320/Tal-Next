@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "What will be the consequences if I delay my self assessment tax bill? | Taxaccolega",
   description: "What will be the consequences if I delay my self assessment tax bill? Keeping in mind the increased pressures on the taxpayers as well as agents due to this ne…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/what-will-be-the-consequences-if-i-delay-my-self-assessment-tax-bill/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "What are dividends and what taxes do I pay on them? | Taxaccolega",
   description: "What are dividends and What taxes do I pay on them? If you are running a limited company or about to start a business of your own you should be familiar with d…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/what-are-dividends-and-what-taxes-do-i-pay-on-them/" },
   openGraph: {
     type: 'article',

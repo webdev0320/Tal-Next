@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Amazon Accounting Guide for UK Sellers – Tax Made Simple | Taxaccolega",
   description: "How to do Amazon Accounting? When you start your e-commerce business as an Amazon seller you should be confident enough with the way you will do it's accountin…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/amazon-sellers-accounting-guide-uk/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Can Locum Doctors Work Through a Limited Company? | Taxaccolega",
   description: "I am a Locum Doctor Can I work through a limited Company? If you are a locum doctor and you are looking for some ways to save on the taxes that you pay to HMRC…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/locum-doctor-limited-company-uk/" },
   openGraph: {
     type: 'article',

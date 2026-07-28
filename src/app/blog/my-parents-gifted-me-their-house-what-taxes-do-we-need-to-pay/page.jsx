@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Gifted Property from Parents – What Taxes Apply in the UK? | Taxaccolega",
   description: "My parents gifted me their house What taxes do we need to pay? MY PARENTS ARE GIFTING ME THEIR HOME. JUST WANT TO KNOW WHAT TAXES THEY HAVE TO PAY AND WHAT WIL…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/my-parents-gifted-me-their-house-what-taxes-do-we-need-to-pay/" },
   openGraph: {
     type: 'article',

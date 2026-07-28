@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Social Influencer Tax – How Paid Posts & Freebies Are Taxed in the UK | Taxaccolega",
   description: "Social Influencer How are paid posts, endorsements and other freebies taxes in the UK? With the increase in the use of social media there is an increase in the…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/social-media-influencers-and-endorsers-tax-guide-uk/" },
   openGraph: {
     type: 'article',

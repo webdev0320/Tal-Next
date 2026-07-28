@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Accountants in Croydon | Taxaccolega",
   description: "Accountants in Croydon Why do I need an accountant ? You need an accountant not only because they will do your accounts but having an accountant who is dependa…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/accountants-in-croydon/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Employee Benefits and what are the related taxes? | Taxaccolega",
   description: "Employee Benefits and what are the related taxes? The announcement in the budget that the income tax thresholds and the personal allowance will be frozen for n…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/employee-benefits-and-what-are-the-related-taxes/" },
   openGraph: {
     type: 'article',

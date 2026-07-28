@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "UK VAT Rules for Amazon & Online Sellers Explained | Taxaccolega",
   description: "My UK VAT responsibilities if I am selling online on amazon If you are selling online you might be selling directly to a customer who is not VAT registered, to…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/amazon-online-sellers-vat-guide-uk/" },
   openGraph: {
     type: 'article',

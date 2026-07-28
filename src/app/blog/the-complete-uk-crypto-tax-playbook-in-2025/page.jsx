@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "The Complete UK Crypto Tax Playbook in 2025 | Taxaccolega",
   description: "The Complete UK Crypto Tax In 2025 Real Rules, Real Calculations, Real HMRC , Triggers If you trade crypto in the UK, you already know something strange about…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/the-complete-uk-crypto-tax-playbook-in-2025/" },
   openGraph: {
     type: 'article',

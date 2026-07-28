@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "My taxes if I sell on amazon as a sole trader | Taxaccolega",
   description: "My taxes if I sell on amazon as a sole trader In these days of pandemic and lock down many people are struggling with finances. Although government has been re…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/my-taxes-if-i-sell-on-amazon-as-a-sole-trader/" },
   openGraph: {
     type: 'article',

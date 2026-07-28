@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Should I take the directors loan? And how should I treat them in my accounts | Taxaccolega",
   description: "Should I take the directors loan And how should I treat the in my accounts What is a Director's loan? In simple words the directors loan is a loan that a direc…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/should-i-take-the-directors-loan-and-how-should-i-treat-them-in-my-accounts/" },
   openGraph: {
     type: 'article',

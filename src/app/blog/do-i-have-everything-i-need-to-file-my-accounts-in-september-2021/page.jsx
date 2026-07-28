@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Do I have everything I need to file my accounts in September 2021? | Taxaccolega",
   description: "Do I have everything I need to file my accounts in September 2021 If you are a private limited Company and your company's financial year end is December 2021,…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/do-i-have-everything-i-need-to-file-my-accounts-in-september-2021/" },
   openGraph: {
     type: 'article',

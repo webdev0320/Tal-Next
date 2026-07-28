@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Inheritance Tax planning and Business Property Relief? | Taxaccolega",
   description: "Inheritance Tax Planning and Business Property Relief? If you own a business, or interest in the business or shares in an unlisted company you will be entitled…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/inheritance-tax-planning-and-business-property-relief/" },
   openGraph: {
     type: 'article',

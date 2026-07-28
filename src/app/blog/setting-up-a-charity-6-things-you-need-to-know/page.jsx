@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Setting up a Charity - 6 things you need to know | Taxaccolega",
   description: "Setting up a Charity 6 things you need to know How is my charity different from any incorporated company? The main difference between a charity and a corporate…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/setting-up-a-charity-6-things-you-need-to-know/" },
   openGraph: {
     type: 'article',

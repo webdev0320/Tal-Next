@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "National Insurance- How much do I have to pay? | Taxaccolega",
   description: "National Insurance How much do I have to pay? IS NATIONAL INSURANCE A TAX? You pay National Insurance to HMRC if you are above 16 years old and you are working…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/national-insurance-how-much-do-i-have-to-pay/" },
   openGraph: {
     type: 'article',

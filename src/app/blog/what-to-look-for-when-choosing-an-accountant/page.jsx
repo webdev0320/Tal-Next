@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "What to look for when choosing an accountant | Taxaccolega",
   description: "What to look for when choosing an accountant image A business needs an accountant as early as at the planning stage. I always advise businesses to hire an acco…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/what-to-look-for-when-choosing-an-accountant/" },
   openGraph: {
     type: 'article',

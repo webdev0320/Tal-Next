@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Contractor and IR 35 - When does it apply to you? | Taxaccolega",
   description: "Contractor and IR 35 When does it apply to you? As Albert Einstein said on his taxes ..'this is too difficult for a mathematician. It takes a philosopher'. I w…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/contractor-and-ir-35-when-does-it-apply-to-you/" },
   openGraph: {
     type: 'article',

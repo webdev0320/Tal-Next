@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "4 things you should consider while choosing the company structure of your property business | Taxaccolega",
   description: "4 things you should consider while choosing the company structure of your property business If you run a property business you have 2 options to consider: you…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/4-things-you-should-consider-while-choosing-the-company-structure-of-your-property-business/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Self Assessment Accountant in London | Taxaccolega",
   description: "Self Assessment Accountant in London Complete Guide to Personal Tax Returns, Costs, and Why You May Need One (2026) Table of Contents Why self assessment is no…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/self-assessment-accountant-in-london/" },
   openGraph: {
     type: 'article',

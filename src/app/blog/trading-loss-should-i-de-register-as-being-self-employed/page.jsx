@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Trading loss - should I de register as being self-employed? | Taxaccolega",
   description: "Trading Loss Should I de Register As A Being Self-Employed? In the past year the performance of many businesses has gone down the graph. Many high street retai…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/trading-loss-should-i-de-register-as-being-self-employed/" },
   openGraph: {
     type: 'article',

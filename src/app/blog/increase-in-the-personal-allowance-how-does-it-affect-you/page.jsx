@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How the Personal Allowance Increase Affects You – UK Tax | Taxaccolega",
   description: "Increase in the Personal Allowance- How does it affect you? In the budget last week, the chancellor, Rishi Sunak announced that there will be an increase in th…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/increase-in-the-personal-allowance-how-does-it-affect-you/" },
   openGraph: {
     type: 'article',

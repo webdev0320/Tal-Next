@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Amazon Sellers VAT UK Guide – What You Must Know | Taxaccolega",
   description: "Things I should know about Vat while selling on Amazon. Many e-commerce businesses who are selling on Amazon, find it hard to understand VAT rules on their onl…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/amazon-sellers-vat-guide-uk/" },
   openGraph: {
     type: 'article',

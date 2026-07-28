@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "What do I need to do if I want to run my online business through Amazon? | Taxaccolega",
   description: "What do I need to do if I want to run my online business through Amazon? In the previous article we talked about things you need to consider when choosing a bu…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/what-do-i-need-to-do-if-i-want-to-run-my-online-business-through-amazon/" },
   openGraph: {
     type: 'article',

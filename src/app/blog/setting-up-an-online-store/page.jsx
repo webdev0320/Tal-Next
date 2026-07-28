@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Setting up an online store | Taxaccolega",
   description: "Setting up an online store The e commerce market is currently experiencing a boom all over the world. UK`s e commerce market is one of the biggest markets in E…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/setting-up-an-online-store/" },
   openGraph: {
     type: 'article',

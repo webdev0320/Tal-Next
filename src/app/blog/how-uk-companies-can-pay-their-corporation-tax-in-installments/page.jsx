@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How UK Companies Can Pay Their Corporation Tax in Installments | Taxaccolega",
   description: "How UK Companies Can Pay Their Corporation Tax in Installments If you own a business in the UK, you know that corporation tax is an important element of keepin…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-uk-companies-can-pay-their-corporation-tax-in-installments/" },
   openGraph: {
     type: 'article',

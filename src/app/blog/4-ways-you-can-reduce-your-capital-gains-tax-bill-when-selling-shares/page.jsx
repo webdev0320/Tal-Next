@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Reduce Capital Gains Tax When Selling Shares – 4 Tips | Taxaccolega",
   description: "4 ways you can Reduce your Capital Gains Tax Bill When Selling Shares Images What is Capital Gains Tax? When you make a profit on the sale of an asset (althoug…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/4-ways-you-can-reduce-your-capital-gains-tax-bill-when-selling-shares/" },
   openGraph: {
     type: 'article',

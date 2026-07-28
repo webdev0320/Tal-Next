@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "UK Income Tax Additional Rate Threshold & How to Reduce It | Taxaccolega",
   description: "Income Tax Additional Rate Treshold UK Change in the Income tax Additional Rate threshold and how can't reduce my taxes According to the policy paper published…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/income-tax-additional-rate-threshold-uk/" },
   openGraph: {
     type: 'article',

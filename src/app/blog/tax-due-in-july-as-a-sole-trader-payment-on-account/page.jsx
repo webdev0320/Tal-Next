@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Sole Trader Tax: July Payment on Account Explained | Taxaccolega",
   description: "Tax due in July as a sole trader payment on account If you are self-employed running your own business as a sole trader you will have to pay your income tax th…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/tax-due-in-july-as-a-sole-trader-payment-on-account/" },
   openGraph: {
     type: 'article',

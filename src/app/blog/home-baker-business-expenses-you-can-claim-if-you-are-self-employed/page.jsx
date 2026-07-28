@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Self-Employed Home Baker – What Expenses Can You Claim? | Taxaccolega",
   description: "Home baker business Expenses you claim if you are self Employed. If you are thinking of starting a business the first thing that should come to your mind is pr…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/home-baker-business-expenses-you-can-claim-if-you-are-self-employed/" },
   openGraph: {
     type: 'article',

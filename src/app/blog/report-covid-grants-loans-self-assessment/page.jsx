@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How to Report COVID Grants & Loans in Self Assessment | Taxaccolega",
   description: "How do I report my loans and Grants given during Pandemic in the self assessment tax return? Loans which were granted to the self-employed during the Pandemic…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/report-covid-grants-loans-self-assessment/" },
   openGraph: {
     type: 'article',

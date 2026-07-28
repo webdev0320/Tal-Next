@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Selling Your Business in the UK: Tax Liabilities & Profit Maximisation | Taxaccolega",
   description: "Selling Your Business in the UK Tax Liabilities Profit Maximisation I am selling my business- What are my Tax Liabilities and How do I maximize my Profits? Whe…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/selling-business-tax-liabilities-profits-uk/" },
   openGraph: {
     type: 'article',

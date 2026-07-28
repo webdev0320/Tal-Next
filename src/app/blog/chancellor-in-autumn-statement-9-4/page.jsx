@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "VAT Implications Guide for UK Online Store Owners | Taxaccolega",
   description: "VAT Implications Guide for UK Online Store Owners If you are thinking of starting a business online where you will be selling your product through your e store…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/chancellor-in-autumn-statement-9-4/" },
   openGraph: {
     type: 'article',

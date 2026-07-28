@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Higher Employer NICs in 2025 Action Plan for Small Businesses | Taxaccolega",
   description: "Higher Employer NICs in 2025 Action Plan for Small Businesses You might be eligible for Research and Development (R&D) tax relief if your company makes investm…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/higher-employer-nics-in-2025/" },
   openGraph: {
     type: 'article',

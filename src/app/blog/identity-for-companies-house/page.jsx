@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Identity for Companies House | Taxaccolega",
   description: "Ensuring your identity for Companies House is a crucial step in maintaining security. Companies House in the UK have implemented a new requirement individual i…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/identity-for-companies-house/" },
   openGraph: {
     type: 'article',

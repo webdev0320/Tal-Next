@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "I have crypto currency. Will I be paying taxes on it? | Taxaccolega",
   description: "I have crypto currency Will I be paying taxes on it? How you will be taxed on the cryptocurrency will depend on the nature and use of the crypto asset or the c…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/i-have-crypto-currency-will-i-be-paying-taxes-on-it/" },
   openGraph: {
     type: 'article',

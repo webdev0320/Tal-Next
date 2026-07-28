@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Can I make gifts which are exempt from tax | Taxaccolega",
   description: "Can I make gifts which are exempt from tax There is a threshold of £325 000 below which you don't give any tax. This means that if your estate is valued at £32…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/can-i-make-gifts-which-are-exempt-from-tax/" },
   openGraph: {
     type: 'article',

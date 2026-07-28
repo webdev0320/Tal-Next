@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "4 ways to reduce CGT when selling your property | Taxaccolega",
   description: "4 ways to reduce CGT when selling your property When you are selling your property you just do not want to get rid of it, you want to maximize your profits and…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/4-ways-to-reduce-cgt-when-selling-your-property/" },
   openGraph: {
     type: 'article',

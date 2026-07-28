@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "6 Things you should know about Reporting the Capital Gains Tax when selling property. | Taxaccolega",
   description: "6 Things you should know about Reporting the Capital Gains Tax when selling property When you are selling an asset, you should keep in mind that you will have…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/6-things-you-should-know-about-reporting-the-capital-gains-tax-when-selling-property/" },
   openGraph: {
     type: 'article',

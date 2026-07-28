@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Should I incorporate my property business? | Taxaccolega",
   description: "Should I incorporate my property business? Recently, it is noticed that many landlords who were managing their buy to let property personally or through in a p…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/should-i-incorporate-my-property-business/" },
   openGraph: {
     type: 'article',

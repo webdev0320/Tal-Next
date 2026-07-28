@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "R&D Tax Relief – How UK Businesses Can Save Costs | Taxaccolega",
   description: "Research and Development Relief How does it save costs? Research and development plays a vital role when it comes to the growth of your business. Every company…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/research-and-development-tax-relief-and-benefits-in-uk/" },
   openGraph: {
     type: 'article',

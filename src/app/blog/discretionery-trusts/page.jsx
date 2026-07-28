@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Discretionery Trusts | Taxaccolega",
   description: "Discretionary Trusts WHAT IS A DISCRETIONARY TRUST? A discretionary trust is one of the trusts which can be set up by an individual to manage their assets. By…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/discretionery-trusts/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How to Close a UK Limited Company – Step‑by‑Step Guide | Taxaccolega",
   description: "Selling Online Do I need an accountant? Whether you are a small business or a large enterprise selling your products online, you need to make sure that you kee…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/selling-online-do-i-need-an-accountant/" },
   openGraph: {
     type: 'article',

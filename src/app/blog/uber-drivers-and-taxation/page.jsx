@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Uber Drivers and taxation | Taxaccolega",
   description: "Uber Drivers and taxation If you are working for Uber you are not considered their employees. You are working as a self employed person as you set your own wor…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/uber-drivers-and-taxation/" },
   openGraph: {
     type: 'article',

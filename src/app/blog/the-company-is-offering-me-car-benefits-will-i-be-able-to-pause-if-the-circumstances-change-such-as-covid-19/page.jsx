@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "The Company is offering me car benefits - will I be able to pause if the circumstances change such as covid-19? | Taxaccolega",
   description: "The Company is offering me car benefits - will I be able to pause if the circumstances change such as covid-19? The combination of salary and benefits in kind…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/the-company-is-offering-me-car-benefits-will-i-be-able-to-pause-if-the-circumstances-change-such-as-covid-19/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Business Asset Disposal Relief | Taxaccolega",
   description: "Business Asset Disposal Relief Business Asset disposal relief which was previously known as entrepreneur`s relief is the relief given to individuals who are wo…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/business-asset-disposal-relief/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Sold Overseas Property? Report to HMRC the Right Way | Taxaccolega",
   description: "Sold my property back home When and how do I Report it to HMRC? What taxes do you need to pay if you sell your property abroad depends on your living status in…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/sold-my-property-back-home-when-and-how-do-i-report-it-to-hmrc/" },
   openGraph: {
     type: 'article',

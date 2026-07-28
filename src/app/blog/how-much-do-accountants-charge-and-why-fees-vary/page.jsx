@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Tax Return Cost in the UK | Taxaccolega",
   description: "Tax Return Cost in the UK How Much Do Accountants Charge and Why Fees Vary Table of Contents Tax Return Cost in the UK: A Practical Overview Typical Tax Return…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-much-do-accountants-charge-and-why-fees-vary/" },
   openGraph: {
     type: 'article',

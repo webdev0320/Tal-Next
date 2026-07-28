@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Stamp Duty Holiday – Are You Eligible in the UK? | Taxaccolega",
   description: "Stamp Duty Holiday Are You Eligible in the UK? The government has increased the stamp duty threshold to £500 000 for property sales on 8 July 2020.The announce…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/stamp-duty-holiday-eligibility-uk/" },
   openGraph: {
     type: 'article',

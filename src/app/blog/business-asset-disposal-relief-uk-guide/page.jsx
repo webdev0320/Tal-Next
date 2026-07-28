@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Business Asset Disposal Relief (BADR) – UK Tax Guide | Taxaccolega",
   description: "Business Asset Disposal Relief- What you need to know? Entrepreneurs relief which is now known as Business Asset Disposal Relief is one of the reliefs availabl…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/business-asset-disposal-relief-uk-guide/" },
   openGraph: {
     type: 'article',

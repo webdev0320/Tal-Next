@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Can You Claim Entrepreneurs' Relief on Property Sales in the UK? | Taxaccolega",
   description: "Selling Property Can I claim Entrepreneurs Relief on its disposal? If you are selling property which is furnished and used for commercial purposes, you have a…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/selling-property-can-i-claim-entrepreneurs-relief-on-its-disposal/" },
   openGraph: {
     type: 'article',

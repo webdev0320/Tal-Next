@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "When will I have to pay Capital Gains Tax on Crypto Assets? | Taxaccolega",
   description: "When will I have to pay Capital Gains Tax on Crypto Assets? What are Crypto Assets? Crypto assets also known as cryptocurrency and tokens is a digital currency…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/when-will-i-have-to-pay-capital-gains-tax-on-crypto-assets/" },
   openGraph: {
     type: 'article',

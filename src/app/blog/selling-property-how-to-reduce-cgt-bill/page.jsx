@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Selling Property - How to reduce CGT bill? | Taxaccolega",
   description: "Selling Property How to reduce CGT bill? SELLING PROPERTY THAT IS YOUR MAIN RESIDENCE If you are selling property that is not your main residence you will qual…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/selling-property-how-to-reduce-cgt-bill/" },
   openGraph: {
     type: 'article',

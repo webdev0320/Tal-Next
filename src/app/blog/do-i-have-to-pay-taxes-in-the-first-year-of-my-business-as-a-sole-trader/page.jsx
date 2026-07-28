@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Do Sole Traders Pay Tax in the First Year? UK Guide | Taxaccolega",
   description: "Do Sole Traders Pay Tax in the First Year? UK Guide Do I have to pay taxes in the first year of my business as a sole trader? Did you just start your business…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/do-i-have-to-pay-taxes-in-the-first-year-of-my-business-as-a-sole-trader/" },
   openGraph: {
     type: 'article',

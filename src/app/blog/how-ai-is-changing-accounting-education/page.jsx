@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "How AI Is Changing Accounting Education – And How Taxaccolega Is Leading the Way in Croydon, London | Taxaccolega",
   description: "How AI Is Changing Accounting Education – And How Taxaccolega Is Leading the Way in Croydon, London Artificial Intelligence (AI) is changing the way the world…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/how-ai-is-changing-accounting-education/" },
   openGraph: {
     type: 'article',

@@ -5,6 +5,7 @@ import ContactSection from '../../../components/ContactSection';
 export const metadata = {
   title: "Tax Implications of Putting Money in a Trust – UK Guide | Taxaccolega",
   description: "What are the tax implications? If I put my money in a trust You will be putting money in a trust because of the following reasons: 1. You want your hard earned…",
+  robots: { index: true, follow: true },
   alternates: { canonical: "https://www.taxaccolega.co.uk/blog/what-are-the-tax-implications-if-i-put-my-money-in-a-trust/" },
   openGraph: {
     type: 'article',
