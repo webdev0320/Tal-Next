@@ -14,11 +14,11 @@ const beasties = new Beasties({
   publicPath: '/',
   preload: 'media',
   noscriptFallback: true,
-  pruneSource: false,
+  pruneSource: true,
   compress: true,
   logLevel: 'warn',
   mergeStylesheets: true,
-  inlineThreshold: 500000,
+  inlineThreshold: 8192,
 });
 
 let count = 0;
