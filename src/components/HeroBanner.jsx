@@ -77,7 +77,7 @@ export default function HeroBanner() {
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent z-10"></div>
           
           <Image
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800"
+            src="/images/hero-team.webp"
             alt="Taxaccolega chartered accountants team collaborating in a modern London office"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"

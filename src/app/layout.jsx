@@ -31,7 +31,6 @@ export default function RootLayout({ children }) {
       <head>
         <Analytics />
         <meta name="google-site-verification" content="LVXkLoL3h9hRA_dNK2JMNtJEZTStezytJnyeB_7jwkA" />
-        <link rel="preconnect" href="https://images.unsplash.com" />
       </head>
       <body className="antialiased">
         <JsonLd />
