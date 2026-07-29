@@ -817,8 +817,8 @@ const CompanyTaxReturn = () => {
                 </div>
 
                 <div className="d-flex justify-content-center gap-3 mt-2">
-                  <a href="https://www.facebook.com/Taxaccolega" target="_blank" rel="noreferrer" className="footer-social-icon bg-white bg-opacity-10"><i className="fab fa-facebook-f"></i></a>
-                  <a href="https://twitter.com/Taxaccolega" target="_blank" rel="noreferrer" className="footer-social-icon bg-white bg-opacity-10"><i className="fab fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/Taxaccolega" target="_blank" rel="noreferrer" aria-label="Facebook" className="footer-social-icon bg-white bg-opacity-10"><i className="fab fa-facebook-f"></i></a>
+                  <a href="https://twitter.com/Taxaccolega" target="_blank" rel="noreferrer" aria-label="Twitter" className="footer-social-icon bg-white bg-opacity-10"><i className="fab fa-twitter"></i></a>
                 </div>
               </div>
             </div>

@@ -36,11 +36,11 @@ const Footer = () => {
                 <div className="col-md-3">
                     <h5 className="text-white mb-4">Connect</h5>
                     <div className="flex gap-3">
-                        <a href="https://www.facebook.com/Taxaccolega/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/Taxaccolega/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-instagram"></i></a>
-                        <a href="https://x.com/taxaccolega" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/company/taxaccolega/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.tiktok.com/@taxaccolega" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/Taxaccolega/" target="_blank" rel="noreferrer" aria-label="Facebook" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/Taxaccolega/" target="_blank" rel="noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-instagram"></i></a>
+                        <a href="https://x.com/taxaccolega" target="_blank" rel="noreferrer" aria-label="Twitter" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/taxaccolega/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.tiktok.com/@taxaccolega" target="_blank" rel="noreferrer" aria-label="TikTok" className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-[#d2601a] text-white transition-all"><i className="fab fa-tiktok"></i></a>
                     </div>
                 </div>
             </div>
