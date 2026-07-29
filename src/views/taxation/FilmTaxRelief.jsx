@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import filmImg from '../../assets/taxation-film-tax-relief.png';
+import filmImg from '../../assets/taxation-film-tax-relief.webp';
 
 
 export default function FilmTaxRelief() {

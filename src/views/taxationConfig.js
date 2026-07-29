@@ -1,22 +1,22 @@
 "use client";
 // Import the new taxation assets
-import cryptoImg from '../assets/taxation-cryptocurrency.png';
-import filmImg from '../assets/taxation-film-tax-relief.png';
-import letPropertyImg from '../assets/taxation-let-property-campaign.png';
-import personalIncomeImg from '../assets/taxation-personal-income-tax-professionals-and-chartered-accountants.png';
-import worldwideImg from '../assets/taxation-worldwide-disclosure-facility.png';
+import cryptoImg from '../assets/taxation-cryptocurrency.webp';
+import filmImg from '../assets/taxation-film-tax-relief.webp';
+import letPropertyImg from '../assets/taxation-let-property-campaign.webp';
+import personalIncomeImg from '../assets/taxation-personal-income-tax-professionals-and-chartered-accountants.webp';
+import worldwideImg from '../assets/taxation-worldwide-disclosure-facility.webp';
 
 // New imports
-import companyTaxReturnImg from '../assets/taxation-company-tax-return.png';
-import vatAccountantsImg from '../assets/taxation-vat-accountants.png';
-import inheritanceTaxImg from '../assets/taxation-inheritance-tax.png';
-// import taxInvestigationImg from '../assets/taxation-tax-investigation.png';
+import companyTaxReturnImg from '../assets/taxation-company-tax-return.webp';
+import vatAccountantsImg from '../assets/taxation-vat-accountants.webp';
+import inheritanceTaxImg from '../assets/taxation-inheritance-tax.webp';
+// import taxInvestigationImg from '../assets/taxation-tax-investigation.webp';
 const taxInvestigationImg = 'https://placehold.co/800x600?text=Tax+Investigation';
-import capitalGainsTaxImg from '../assets/taxation-capital-gains-tax.png';
-import estatePropertyTaxImg from '../assets/taxation-estate-tax-planning.png';
-import taxAdvisorsImg from '../assets/taxation-tax-advisors.png';
+import capitalGainsTaxImg from '../assets/taxation-capital-gains-tax.webp';
+import estatePropertyTaxImg from '../assets/taxation-estate-tax-planning.webp';
+import taxAdvisorsImg from '../assets/taxation-tax-advisors.webp';
 // Reusing an existing taxation image for EMI and SEIS as no specific assets were provided for them in the list.
-import emiSeisPlaceholderImg from '../assets/taxation-company-tax-return.png';
+import emiSeisPlaceholderImg from '../assets/taxation-company-tax-return.webp';
 
 
 export const taxationConfig = {

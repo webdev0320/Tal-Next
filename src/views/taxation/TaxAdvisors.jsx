@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import taxAdvisorsImg from '../../assets/taxation-tax-advisors.png';
+import taxAdvisorsImg from '../../assets/taxation-tax-advisors.webp';
 
 
 export default function TaxAdvisors() {

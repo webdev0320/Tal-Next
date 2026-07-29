@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import inheritanceTaxImg from '../../assets/taxation-inheritance-tax.png';
+import inheritanceTaxImg from '../../assets/taxation-inheritance-tax.webp';
 
 
 export default function InheritanceTaxPlanning() {

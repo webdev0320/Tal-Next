@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import letPropertyImg from '../../assets/taxation-let-property-campaign.png';
+import letPropertyImg from '../../assets/taxation-let-property-campaign.webp';
 
 
 export default function LetProperty() {

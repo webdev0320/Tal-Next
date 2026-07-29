@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import personalIncomeImg from '../../assets/taxation-personal-income-tax-professionals-and-chartered-accountants.png';
+import personalIncomeImg from '../../assets/taxation-personal-income-tax-professionals-and-chartered-accountants.webp';
 
 
 export default function IncomeTax() {

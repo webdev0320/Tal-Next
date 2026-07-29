@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import estatePropertyTaxImg from '../../assets/taxation-estate-tax-planning.png';
+import estatePropertyTaxImg from '../../assets/taxation-estate-tax-planning.webp';
 
 
 export default function EstatePropertyTaxPlanning() {

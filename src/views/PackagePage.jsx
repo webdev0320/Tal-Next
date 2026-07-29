@@ -4,11 +4,11 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 // react-router-dom removed
 
-import charitiesImg from '../assets/packages-contractor-ltd-pricing.png'; // Fallback
-import contractorImg from '../assets/packages-contractor-ltd-pricing.png';
-import landlordsImg from '../assets/packages-landlords-3.png';
-import ltdCompanyImg from '../assets/packages-ltd-company-pricing.png';
-import spvsLtdImg from '../assets/packages-spvs-ltd-pricing.png';
+import charitiesImg from '../assets/packages-contractor-ltd-pricing.webp'; // Fallback
+import contractorImg from '../assets/packages-contractor-ltd-pricing.webp';
+import landlordsImg from '../assets/packages-landlords-3.webp';
+import ltdCompanyImg from '../assets/packages-ltd-company-pricing.webp';
+import spvsLtdImg from '../assets/packages-spvs-ltd-pricing.webp';
 
 const packagesConfig = {
   'sole-trader': {

@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import companyTaxReturnImg from '../../assets/taxation-company-tax-return.png';
+import companyTaxReturnImg from '../../assets/taxation-company-tax-return.webp';
 
 
 export default function CorporateTaxReturn() {

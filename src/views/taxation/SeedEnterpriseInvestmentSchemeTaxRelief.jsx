@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import emiSeisPlaceholderImg from '../../assets/taxation-company-tax-return.png';
+import emiSeisPlaceholderImg from '../../assets/taxation-company-tax-return.webp';
 
 
 export default function SeedEnterpriseInvestmentSchemeTaxRelief() {

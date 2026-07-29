@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import vatAccountantsImg from '../../assets/taxation-vat-accountants.png';
+import vatAccountantsImg from '../../assets/taxation-vat-accountants.webp';
 
 
 export default function VatAccountants() {

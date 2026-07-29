@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import cryptoImg from '../../assets/taxation-cryptocurrency.png';
+import cryptoImg from '../../assets/taxation-cryptocurrency.webp';
 
 
 export default function Cryptocurrency() {

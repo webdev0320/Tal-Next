@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import worldwideImg from '../../assets/taxation-worldwide-disclosure-facility.png';
+import worldwideImg from '../../assets/taxation-worldwide-disclosure-facility.webp';
 
 
 export default function WorldwideDisclosure() {

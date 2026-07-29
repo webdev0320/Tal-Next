@@ -6,7 +6,7 @@ import Link from 'next/link';
 import TaxationLinksBar from '../../components/TaxationLinksBar';
 import ContactForm from '../../components/ContactForm';
 import FAQItem from '../../components/FAQItem';
-import capitalGainsTaxImg from '../../assets/taxation-capital-gains-tax.png';
+import capitalGainsTaxImg from '../../assets/taxation-capital-gains-tax.webp';
 
 
 export default function CapitalGainsTax() {
