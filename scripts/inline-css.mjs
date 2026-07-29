@@ -14,7 +14,7 @@ const beasties = new Beasties({
   publicPath: '/',
   preload: 'media',
   noscriptFallback: true,
-  pruneSource: true,
+  pruneSource: false,
   compress: true,
   logLevel: 'warn',
   mergeStylesheets: true,
