@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-3">
           {/* Logo */}
           <Link href="/" onClick={closeAll} className="shrink-0">
-            <img src="/images/logo/Tal Logo.png" alt="TAL Logo" className="h-12 w-auto" />
+            <img src="/images/logo/Tal-Logo.webp" alt="TAL Logo" width="186" height="48" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop nav */}

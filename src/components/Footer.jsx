@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="container">
             <div className="row g-5 border-bottom border-secondary pb-5 mb-5">
                 <div className="col-md-3">
-                    <img src="/images/logo/TAL logo White .png" alt="TAL Bottom Logo" height="40" className="mb-4" />
+                    <img src="/images/logo/TAL-logo-white.webp" alt="TAL Bottom Logo" width="124" height="40" className="mb-4" />
                     <p className="small leading-relaxed">Empowering your financial journey with expertise and precision. Certified ACSP partners for corporate mapping and tax execution.</p>
                 </div>
                 <div className="col-md-3">
@@ -29,8 +29,8 @@ const Footer = () => {
                 <div className="col-md-3">
                     <h5 className="text-white mb-4">Compliance Matrix</h5>
                     <div className="d-flex gap-3">
-                        <img src="/images/2023/06/ICA.webp" alt="ICAEW" height="40" className="bg-white p-1 rounded" />
-                        <img src="/images/2023/06/ACCA-1.webp" alt="ACCA" height="40" className="bg-white p-1 rounded" />
+                        <img src="/images/2023/06/ICA-sm.webp" alt="ICAEW" width="86" height="40" className="bg-white p-1 rounded" />
+                        <img src="/images/2023/06/ACCA-1-sm.webp" alt="ACCA" width="121" height="40" className="bg-white p-1 rounded" />
                     </div>
                 </div>
                 <div className="col-md-3">
