@@ -20,6 +20,9 @@ export default function RootLayout({ children }) {
       <head>
         <Analytics />
         <meta name="google-site-verification" content="LVXkLoL3h9hRA_dNK2JMNtJEZTStezytJnyeB_7jwkA" />
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
       </head>
       <body className="antialiased">
         <Loader />

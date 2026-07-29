@@ -485,7 +485,7 @@ html {
 }
 
 .loader-overlay.loader-exit {
-  animation: loaderFadeOut 0.7s ease-in forwards;
+  animation: loaderFadeOut 0.4s ease-in forwards;
 }
 
 .loader-bg-pattern {

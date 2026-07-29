@@ -9,25 +9,18 @@ export default function Loader() {
 
   useEffect(() => {
     setMounted(true);
-    const minTimer = setTimeout(() => {
-      setPhase('exit');
-      setTimeout(() => setVisible(false), 700);
-    }, 2000);
 
-    const handleLoad = () => {
-      clearTimeout(minTimer);
+    const hideLoader = () => {
       setPhase('exit');
-      setTimeout(() => setVisible(false), 700);
+      setTimeout(() => setVisible(false), 400);
     };
 
     if (document.readyState === 'complete') {
-      handleLoad();
+      hideLoader();
     } else {
-      window.addEventListener('load', handleLoad);
-      return () => window.removeEventListener('load', handleLoad);
+      window.addEventListener('load', hideLoader);
+      return () => window.removeEventListener('load', hideLoader);
     }
-
-    return () => clearTimeout(minTimer);
   }, []);
 
   if (!visible) return null;
