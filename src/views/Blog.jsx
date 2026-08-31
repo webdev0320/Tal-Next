@@ -1,36 +1,13 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import ContactSection from '../components/ContactSection';
 
-const Blog = () => {
-  const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 15;
-
-  useEffect(() => {
-    fetch('/blogs.json')
-      .then(response => response.json())
-      .then(data => {
-        // Sort posts by date descending (latest first)
-        const sortedPosts = data.posts.sort((a, b) => new Date(b.date) - new Date(a.date));
-        setPosts(sortedPosts);
-        setLoading(false);
-      })
-      .catch(error => {
-        console.error('Error fetching blog posts:', error);
-        setLoading(false);
-      });
-  }, []);
-
-  // Pagination logic
+const Blog = ({ posts = [], currentPage = 1, postsPerPage = 15 }) => {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
   const totalPages = Math.ceil(posts.length / postsPerPage);
-
-  if (loading) return <div className="container py-5 text-center">Loading...</div>;
 
   return (
     <div className="bg-light">
@@ -69,17 +46,31 @@ const Blog = () => {
           {/* Pagination Controls */}
           <nav className="mt-5" aria-label="Blog pagination">
             <ul className="pagination justify-content-center">
-              <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
-                <button className="page-link" onClick={() => setCurrentPage(currentPage - 1)}>&laquo; Previous</button>
-              </li>
-              {[...Array(totalPages)].map((_, i) => (
-                <li key={i} className={`page-item ${currentPage === i + 1 ? 'active' : ''}`}>
-                  <button className="page-link" onClick={() => setCurrentPage(i + 1)}>{i + 1}</button>
+              {currentPage > 1 && (
+                <li className="page-item">
+                  <Link
+                    className="page-link"
+                    href={currentPage === 2 ? '/blog/' : `/blog/page/${currentPage - 1}/`}
+                    rel="prev"
+                  >
+                    &laquo; Previous
+                  </Link>
+                </li>
+              )}
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                <li key={page} className={`page-item ${currentPage === page ? 'active' : ''}`}>
+                  <Link className="page-link" href={page === 1 ? '/blog/' : `/blog/page/${page}/`}>
+                    {page}
+                  </Link>
                 </li>
               ))}
-              <li className={`page-item ${currentPage === totalPages ? 'disabled' : ''}`}>
-                <button className="page-link" onClick={() => setCurrentPage(currentPage + 1)}>Next &raquo;</button>
-              </li>
+              {currentPage < totalPages && (
+                <li className="page-item">
+                  <Link className="page-link" href={`/blog/page/${currentPage + 1}/`} rel="next">
+                    Next &raquo;
+                  </Link>
+                </li>
+              )}
             </ul>
           </nav>
         </section>
