@@ -3,6 +3,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FloatingConsultationButton from '../components/FloatingConsultationButton';
+import ScrollProgress from '../components/ScrollProgress';
 import IDVerificationModal from '../components/IDVerificationModal';
 import JsonLd from '../components/JsonLd';
 import Analytics from '../components/Analytics';
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="LVXkLoL3h9hRA_dNK2JMNtJEZTStezytJnyeB_7jwkA" />
       </head>
       <body className="antialiased">
+        <ScrollProgress />
         <JsonLd />
         <TopBar />
         <Navbar />
