@@ -252,7 +252,7 @@ const IndustriesMegaMenu = () => {
             <span className="text-base font-bold text-slate-800">{activeCategory}</span>
           </div>
           <Link
-            href={active.to}
+            href="/industries"
             className="text-xs font-semibold text-orange-600 hover:text-[#243d45] no-underline transition-colors"
           >
             View all →

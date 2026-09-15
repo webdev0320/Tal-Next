@@ -84,7 +84,7 @@ const MobileMenu = ({ services, industries, packages, onNavigate }) => {
         ))}
       </SectionItem>
 
-      <SectionItem title="Who We Assist" to="/industries/technology-accountants/">
+      <SectionItem title="Who We Assist" to="/industries">
         {Object.keys(industries).map((category) => (
           <CategoryGroup key={category} name={category} data={industries[category]} onNavigate={onNavigate} />
         ))}

@@ -504,6 +504,79 @@ html {
   animation: fadeIn 0.2s ease-out both;
 }
 
+/* ─── Industry Sidebar ─── */
+.industry-sidebar-link {
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.industry-sidebar-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 3px;
+  height: 0;
+  background: #d2601a;
+  border-radius: 0 2px 2px 0;
+  transform: translateY(-50%);
+  transition: height 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.industry-sidebar-link:hover::before,
+.industry-sidebar-link.is-active::before {
+  height: 55%;
+}
+
+.industry-sidebar-link:hover .industry-sidebar-icon {
+  transform: scale(1.25) translateX(2px);
+}
+
+.industry-sidebar-link.is-active .industry-sidebar-icon {
+  transform: scale(1.15);
+}
+
+.industry-sidebar-icon {
+  transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.industry-sidebar-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.industry-sidebar-card:hover {
+  box-shadow: 0 8px 30px -10px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+/* ─── Industry pill link hover ─── */
+.pill-hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pill-hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px -6px rgba(210,96,26,0.35);
+}
+
+/* ─── Category card hover ─── */
+.card-hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 36px -12px rgba(0,0,0,0.18);
+}
+
+.card-hover-lift:hover .card-brand-icon {
+  transform: scale(1.12) rotate(-3deg);
+}
+
+.card-brand-icon {
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
 /* Nav link underline sweep */
 .nav-link {
   position: relative;
@@ -546,6 +619,15 @@ html {
     animation-duration: 0.01ms !important;
     animation-delay: 0ms !important;
     opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .industry-sidebar-link,
+  .industry-sidebar-icon,
+  .pill-hover-lift,
+  .card-hover-lift,
+  .card-brand-icon {
+    transition: none !important;
     transform: none !important;
   }
 }

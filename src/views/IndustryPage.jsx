@@ -6,7 +6,32 @@ import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
 import ContactForm from '../components/ContactForm';
 import IndustryLinksBar from '../components/IndustryLinksBar';
+import IndustriesSidebar from '../components/IndustriesSidebar';
+import ScrollReveal from '../components/ScrollReveal';
+import { industriesMenuData } from '../components/IndustriesMegaMenu';
 import { CheckIcon } from '../components/accounts/AccountsPageIcons';
+
+const normalizePath = (path) => path.replace(/\/+$/, '');
+
+const getParentCategory = (slug) => {
+  const slugPath = `/industries/${slug}`;
+
+  for (const [category, data] of Object.entries(industriesMenuData)) {
+    if (normalizePath(data.to) === slugPath) {
+      return { category, link: data.to };
+    }
+
+    const isSubPage = data.sections.some((section) =>
+      section.items.some((item) => normalizePath(item.to) === slugPath)
+    );
+
+    if (isSubPage) {
+      return { category, link: data.to };
+    }
+  }
+
+  return null;
+};
 
 const WHY_CHOOSE_ITEMS = [
   {
@@ -137,6 +162,7 @@ const IndustryPage = ({ pageData }) => {
       }
     : { background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)' };
   const pageSectionImages = pageData.sectionImages || [];
+  const parentCategory = getParentCategory(pageData.slug);
 
   return (
     <div className="bg-light min-h-screen">
@@ -158,24 +184,24 @@ const IndustryPage = ({ pageData }) => {
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
               <span
-                className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange"
+                className="text-uppercase small tracking-wider fw-bold mb-2 d-inline-block text-brand-orange hero-enter"
                 style={{ letterSpacing: '2px' }}
               >
                 Industry Services
               </span>
               <h1
-                className="display-4 fw-bold text-white mb-3"
+                className="display-4 fw-bold text-white mb-3 hero-enter-delay-1"
                 style={{ fontFamily: "'Outfit', sans-serif" }}
               >
                 {pageData.title}
               </h1>
               <p
-                className="lead text-white-50 mb-4"
+                className="lead text-white-50 mb-4 hero-enter-delay-2"
                 style={{ maxWidth: '680px', fontSize: '1.1rem', lineHeight: 1.6 }}
               >
                 {pageData.subtitle}
               </p>
-              <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mb-4">
+              <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mb-4 hero-enter-delay-3">
                 <a href="#contact-block" className="btn btn-brand px-4 py-2 shadow">
                   CONTACT US
                 </a>
@@ -186,21 +212,6 @@ const IndustryPage = ({ pageData }) => {
                   Schedule a Call
                 </a>
               </div>
-              <nav aria-label="breadcrumb">
-                <ol
-                  className="breadcrumb justify-content-center justify-content-lg-start mb-0 small"
-                  style={{ background: 'transparent' }}
-                >
-                  <li className="breadcrumb-item">
-                    <Link href="/" className="text-decoration-none text-brand-orange">
-                      Home
-                    </Link>
-                  </li>
-                  <li className="breadcrumb-item active text-white-50" aria-current="page">
-                    {pageData.title}
-                  </li>
-                </ol>
-              </nav>
             </div>
             <div className="col-lg-4 d-none d-lg-block position-relative" style={{ zIndex: 3 }}>
               <div
@@ -221,14 +232,14 @@ const IndustryPage = ({ pageData }) => {
                     <Link
                       key={idx}
                       href={item.link}
-                      className="card border-0 shadow rounded-3 p-3 text-decoration-none bg-white"
+                      className="card border-0 shadow rounded-3 p-3 text-decoration-none bg-white card-hover-lift"
                       style={{ transition: 'all 0.3s' }}
                     >
                       <div className="d-flex justify-content-between align-items-center">
                         <span className="fw-bold text-brand-dark" style={{ fontSize: '0.95rem' }}>
                           {item.title}
                         </span>
-                        <span className="text-brand-orange fw-bold">READ MORE &raquo;</span>
+                        <span className="text-brand-orange fw-bold" style={{ transition: 'transform 0.3s ease' }}>READ MORE &raquo;</span>
                       </div>
                     </Link>
                   ))}
@@ -248,6 +259,18 @@ const IndustryPage = ({ pageData }) => {
                   Home
                 </Link>
               </li>
+              <li className="breadcrumb-item">
+                <Link href="/industries" className="text-decoration-none" style={{ color: '#D2601A' }}>
+                  Industries
+                </Link>
+              </li>
+              {parentCategory && normalizePath(parentCategory.link) !== `/industries/${pageData.slug}` && (
+                <li className="breadcrumb-item">
+                  <Link href={parentCategory.link} className="text-decoration-none" style={{ color: '#D2601A' }}>
+                    {parentCategory.category}
+                  </Link>
+                </li>
+              )}
               <li className="breadcrumb-item active text-secondary">{pageData.title}</li>
             </ol>
           </nav>
@@ -261,7 +284,7 @@ const IndustryPage = ({ pageData }) => {
               <div className="col-4" key={idx}>
                 <Link
                   href={item.link}
-                  className="btn btn-sm btn-outline-dark w-100 text-truncate fw-semibold"
+                  className="btn btn-sm btn-outline-dark w-100 text-truncate fw-semibold pill-hover-lift"
                   style={{ fontSize: '0.75rem' }}
                 >
                   {item.title}
@@ -272,36 +295,51 @@ const IndustryPage = ({ pageData }) => {
         </div>
       </section>
 
-      {pageData.sections.map((section, index) => (
-        <div key={`${section.title}-${index}`}>
-          <SectionBlock
-            section={section}
-            index={index}
-            pageSectionImages={pageSectionImages}
-            pageTitle={pageData.title}
-          />
-          {index === 0 && <IndustryLinksBar />}
-        </div>
-      ))}
+<div className="container py-5">
+        <div className="row g-4">
+          <div className="col-lg-9">
+            {pageData.sections.map((section, index) => (
+              <div key={`${section.title}-${index}`}>
+                <ScrollReveal animation={index % 2 === 0 ? 'fade-left' : 'fade-right'} delay={index % 2 === 0 ? 0 : 80}>
+                  <SectionBlock
+                    section={section}
+                    index={index}
+                    pageSectionImages={pageSectionImages}
+                    pageTitle={pageData.title}
+                  />
+                </ScrollReveal>
+                {index === 0 && <IndustryLinksBar />}
+              </div>
+            ))}
 
-      {pageData.sections.length === 0 && <IndustryLinksBar />}
+            {pageData.sections.length === 0 && <IndustryLinksBar />}
+          </div>
+          <div className="col-lg-3">
+            <IndustriesSidebar />
+          </div>
+        </div>
+      </div>
 
       <section className="py-5 bg-white">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 text-center">
-              <img
-                src="/images/2025/08/book-a-call-or-meeting.webp"
-                alt="Why Choose Us"
-                className="img-fluid rounded-3 shadow-sm"
-                style={{ maxHeight: '420px', objectFit: 'cover' }}
-              />
+              <ScrollReveal animation="fade-left">
+                <img
+                  src="/images/2025/08/book-a-call-or-meeting.webp"
+                  alt="Why Choose Us"
+                  className="img-fluid rounded-3 shadow-sm"
+                  style={{ maxHeight: '420px', objectFit: 'cover' }}
+                />
+              </ScrollReveal>
             </div>
             <div className="col-lg-7">
-              <span className="text-muted text-uppercase small tracking-wider">Services</span>
-              <h3 className="fw-bold mb-4" style={{ color: '#1a2332' }}>
-                Why Choose Us
-              </h3>
+              <ScrollReveal animation="fade-right">
+                <span className="text-muted text-uppercase small tracking-wider">Services</span>
+                <h3 className="fw-bold mb-4" style={{ color: '#1a2332' }}>
+                  Why Choose Us
+                </h3>
+              </ScrollReveal>
               <div className="accordion" id="chooseAccordion">
                 {WHY_CHOOSE_ITEMS.map((item, idx) => {
                   const id = idx + 1;
@@ -310,7 +348,7 @@ const IndustryPage = ({ pageData }) => {
                   return (
                     <div
                       key={id}
-                      className="accordion-item border mb-2 rounded-3 overflow-hidden shadow-sm"
+                      className="accordion-item border mb-2 rounded-3 overflow-hidden shadow-sm card-hover-lift"
                       style={{ background: '#fff' }}
                     >
                       <h2 className="accordion-header">
@@ -323,6 +361,7 @@ const IndustryPage = ({ pageData }) => {
                             color: isOpen ? '#fff' : '#1a2332',
                             boxShadow: 'none',
                             padding: '16px 20px',
+                            transition: 'background 0.3s ease, color 0.3s ease',
                           }}
                         >
                           {item.title}
@@ -354,20 +393,22 @@ const IndustryPage = ({ pageData }) => {
           <div className="container">
             <div className="row g-5">
               <div className="col-lg-8">
-                <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">
-                  Knowledge Base
-                </span>
-                <h2
-                  className="text-brand-dark display-6 fw-bold mt-2 mb-4"
-                  style={{ fontFamily: "'Outfit', sans-serif" }}
-                >
-                  Frequently Asked Questions
-                </h2>
+                <ScrollReveal animation="fade-up">
+                  <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">
+                    Knowledge Base
+                  </span>
+                  <h2
+                    className="text-brand-dark display-6 fw-bold mt-2 mb-4"
+                    style={{ fontFamily: "'Outfit', sans-serif" }}
+                  >
+                    Frequently Asked Questions
+                  </h2>
+                </ScrollReveal>
                 <div className="accordion-custom">
                   {pageData.faqs.map((faq, idx) => (
                     <div
                       key={idx}
-                      className="accordion-item border rounded-3 mb-3 overflow-hidden shadow-sm"
+                      className="accordion-item border rounded-3 mb-3 overflow-hidden shadow-sm card-hover-lift"
                     >
                       <button
                         className="btn w-100 text-start p-4 d-flex justify-content-between align-items-center"
