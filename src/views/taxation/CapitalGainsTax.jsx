@@ -15,9 +15,15 @@ export default function CapitalGainsTax() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO SECTION Ã¢â€â‚¬Ã¢â€â‚¬ */}
-      <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
-        <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>
+      {/* Hero Section */}
+      <header className="position-relative text-white overflow-hidden py-5" style={{ 
+        backgroundImage: 'url(/images/banners/Capital%20Gain%20tax%20Banner%2001.webp)', 
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        minHeight: '380px'
+      }}>
+        <div className="position-absolute w-100 h-100" style={{ background: 'linear-gradient(135deg, rgba(29, 60, 69, 0.9) 0%, rgba(17, 37, 43, 0.95) 100%)', top: 0, left: 0, zIndex: 1 }}></div>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
           <div className="row g-4 align-items-center">
             <div className="col-lg-8 text-center text-lg-start">
@@ -256,34 +262,7 @@ export default function CapitalGainsTax() {
 
       {/* Ã¢â€â‚¬Ã¢â€â‚¬ 6. Form Section Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section id="contact-section" className="py-5 bg-white">
-        <div className="container py-4">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="card border-0 shadow-lg rounded-4 overflow-hidden">
-                <div className="row g-0">
-                  <div className="col-md-5 bg-brand text-white p-5 d-flex flex-column justify-content-center" style={{ background: '#1d3c45' }}>
-                    <h3 className="fw-bold mb-4">Request a Callback</h3>
-                    <p className="mb-4 text-white-50">Provide your details and one of our chartered accountants will contact you to discuss your specific requirements.</p>
-                    <ul className="list-unstyled mb-0">
-                      <li className="mb-3 d-flex align-items-center gap-3">
-                        <i className="fas fa-check-circle text-brand-orange"></i> Free initial consultation
-                      </li>
-                      <li className="mb-3 d-flex align-items-center gap-3">
-                        <i className="fas fa-check-circle text-brand-orange"></i> Confidential advice
-                      </li>
-                      <li className="d-flex align-items-center gap-3">
-                        <i className="fas fa-check-circle text-brand-orange"></i> No obligation quote
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-md-7 p-5 bg-white">
-                    <ContactForm />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ContactForm />
       </section>
     </div>
   );
