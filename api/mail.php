@@ -11,10 +11,28 @@
  *   { "status": "success"|"error", "message": "..." }
  */
 
-header("Access-Control-Allow-Origin: https://taxaccolega.co.uk");
-header("Content-Type: application/json; charset=UTF-8");
-header("Access-Control-Allow-Methods: POST");
-header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
+/**
+ * CORS: reflect the request origin only when it is on the allow-list.
+ * This keeps the endpoint usable from local dev and www variants without
+ * opening it up as an open relay for arbitrary origins.
+ */
+$allowedOrigins = [
+    'https://taxaccolega.co.uk',
+    'https://www.taxaccolega.co.uk',
+    'http://taxaccolega.co.uk',
+    'http://www.taxaccolega.co.uk',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+];
+$requestOrigin = isset($_SERVER['HTTP_ORIGIN']) ? rtrim($_SERVER['HTTP_ORIGIN'], '/') : '';
+
+if (in_array($requestOrigin, $allowedOrigins, true)) {
+    header('Access-Control-Allow-Origin: ' . $requestOrigin);
+    header('Vary: Origin');
+}
+header('Content-Type: application/json; charset=UTF-8');
+header('Access-Control-Allow-Methods: POST');
+header('Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
@@ -30,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 /* ------------------------------------------------------------------ */
 /* Configuration                                                       */
 /* ------------------------------------------------------------------ */
-const ADMIN_EMAIL   = 'mohammad.arbaz001@gmail.com';
+const ADMIN_EMAIL   = 'info@taxaccolega.co.uk';
 const FROM_NAME     = 'Taxaccolega';
 const BRAND_URL     = 'https://taxaccolega.co.uk';
 const LOGO_URL      = 'https://taxaccolega.co.uk/images/logo/tal-logo.png';
