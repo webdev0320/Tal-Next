@@ -53,8 +53,8 @@ export const taxationSeo = {
     description: "SEIS tax relief UK specialists. Expert advice on the Seed Enterprise Investment Scheme, income tax relief, CGT benefits & investment planning.",
   },
   'vat-accountants': {
-    title: "VAT Accountants UK, Submit VAT Returns Online - Taxaccolega",
-    description: "VAT accountants UK specialists. Submit VAT returns online, HMRC filing, registration & VAT services. Accurate, compliant and reliable support.",
+    title: "VAT Accountants London | VAT Returns, VAT Registration & VAT Services UK",
+    description: "VAT accountants London UK. VAT returns, VAT registration, VAT accounting & filing VAT returns online. Accurate, compliant and reliable support.",
   },
   'inheritance-tax-planning': {
     title: "Inheritance Tax Planning, Advice by Specialists - Taxaccolega",
