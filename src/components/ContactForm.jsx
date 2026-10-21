@@ -1,6 +1,10 @@
 "use client";
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import Script from 'next/script';
+
+const RECAPTCHA_SITE_KEY =
+  process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || '6LcFHvotAAAAAOYvM4GTtunTkKxnj5_uPeYtmaqq';
 
 const initialFormData = {
   name: '',
@@ -12,6 +16,82 @@ const initialFormData = {
 const ContactForm = ({ source = 'Website contact form' }) => {
   const [formData, setFormData] = useState(initialFormData);
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
+  const [recaptchaToken, setRecaptchaToken] = useState('');
+  const [captchaError, setCaptchaError] = useState('');
+  const recaptchaContainerRef = useRef(null);
+  const recaptchaWidgetIdRef = useRef(null);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const renderWidget = () => {
+      const grecaptcha = window.grecaptcha;
+
+      if (cancelled || !recaptchaContainerRef.current || recaptchaWidgetIdRef.current !== null) {
+        return true;
+      }
+
+      if (!grecaptcha || typeof grecaptcha.render !== 'function') {
+        return false;
+      }
+
+      try {
+        recaptchaWidgetIdRef.current = grecaptcha.render(recaptchaContainerRef.current, {
+          sitekey: RECAPTCHA_SITE_KEY,
+          callback: (token) => {
+            setRecaptchaToken(token);
+            setCaptchaError('');
+          },
+          'expired-callback': () => setRecaptchaToken(''),
+          'error-callback': () => {
+            setRecaptchaToken('');
+            setCaptchaError('reCAPTCHA could not be loaded. Please refresh and try again.');
+          },
+        });
+      } catch (err) {
+        console.error('reCAPTCHA render error:', err);
+        setCaptchaError('reCAPTCHA could not be loaded. Please refresh and try again.');
+      }
+
+      return true;
+    };
+
+    if (renderWidget()) {
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    const interval = window.setInterval(() => {
+      if (renderWidget()) {
+        window.clearInterval(interval);
+      }
+    }, 300);
+
+    const timeout = window.setTimeout(() => {
+      window.clearInterval(interval);
+      if (!cancelled && recaptchaWidgetIdRef.current === null) {
+        setCaptchaError('reCAPTCHA could not be loaded. Please refresh and try again.');
+      }
+    }, 15000);
+
+    return () => {
+      cancelled = true;
+      window.clearInterval(interval);
+      window.clearTimeout(timeout);
+    };
+  }, []);
+
+  const resetRecaptcha = () => {
+    setRecaptchaToken('');
+    if (
+      recaptchaWidgetIdRef.current !== null &&
+      window.grecaptcha &&
+      typeof window.grecaptcha.reset === 'function'
+    ) {
+      window.grecaptcha.reset(recaptchaWidgetIdRef.current);
+    }
+  };
 
   const handleChange = (event) => {
     setFormData((current) => ({
@@ -22,6 +102,13 @@ const ContactForm = ({ source = 'Website contact form' }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
+    if (!recaptchaToken) {
+      setCaptchaError('Please complete the reCAPTCHA verification before sending.');
+      return;
+    }
+
+    setCaptchaError('');
     setStatus('loading');
 
     try {
@@ -33,6 +120,7 @@ const ContactForm = ({ source = 'Website contact form' }) => {
           email: formData.email,
           phone: formData.phone,
           message: `${formData.message}\n\n(Source: ${source})`,
+          recaptchaToken,
         }),
       });
 
@@ -44,14 +132,20 @@ const ContactForm = ({ source = 'Website contact form' }) => {
 
       setStatus('success');
       setFormData(initialFormData);
+      resetRecaptcha();
     } catch (err) {
       console.error('Contact form error:', err);
       setStatus('error');
+      resetRecaptcha();
     }
   };
 
   return (
     <section id="contact-block" className="py-12 bg-white">
+      <Script
+        src="https://www.google.com/recaptcha/api.js?render=explicit"
+        strategy="afterInteractive"
+      />
       <div className="container py-4">
         <div className="grid md:grid-cols-2 gap-8 items-stretch">
 
@@ -216,6 +310,12 @@ const ContactForm = ({ source = 'Website contact form' }) => {
                     placeholder="How can we assist you today?"
                     required
                   />
+                </div>
+                <div>
+                  <div ref={recaptchaContainerRef} className="min-h-[78px]" />
+                  {captchaError && (
+                    <p className="text-sm text-red-600 mt-1">{captchaError}</p>
+                  )}
                 </div>
                 <button
                   type="submit"

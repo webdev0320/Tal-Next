@@ -72,6 +72,10 @@ const SMTP_FROM_NAME     = 'TaxAccolega';
 const SMTP_VERIFY_PEER   = false; // shared hosts often lack a CA bundle; set true for stricter TLS
 const SMTP_TIMEOUT       = 30;
 
+/* --- Google reCAPTCHA --- */
+define('RECAPTCHA_SECRET', getenv('RECAPTCHA_SECRET') ?: '6LcFHvotAAAAAI_Jcj_aJcevSxjNGMu2Gtf8GXxF');
+const RECAPTCHA_VERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify';
+
 /* ------------------------------------------------------------------ */
 /* Input                                                               */
 /* ------------------------------------------------------------------ */
@@ -84,6 +88,10 @@ $name    = isset($data['name'])    ? trim((string) $data['name'])    : '';
 $email   = isset($data['email'])   ? trim((string) $data['email'])   : '';
 $phone   = isset($data['phone'])   ? trim((string) $data['phone'])   : '';
 $message = isset($data['message']) ? trim((string) $data['message']) : '';
+
+$recaptchaToken = isset($data['recaptchaToken'])
+    ? trim((string) $data['recaptchaToken'])
+    : (isset($data['g-recaptcha-response']) ? trim((string) $data['g-recaptcha-response']) : '');
 
 // Strip tags from free text, then validate the address.
 $name    = strip_tags($name);
@@ -328,6 +336,70 @@ function send_email(string $to, string $subject, string $text, string $html, ?st
         error_log('[ContactFormMailer] Failed to send to ' . $to . ': ' . $e->getMessage());
         return false;
     }
+}
+
+/**
+ * Verify a reCAPTCHA response token with Google's siteverify endpoint.
+ */
+function verify_recaptcha(string $token): bool
+{
+    if ($token === '') {
+        return false;
+    }
+
+    $payload = http_build_query([
+        'secret'   => RECAPTCHA_SECRET,
+        'response' => $token,
+        'remoteip' => isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '',
+    ]);
+
+    $response = false;
+
+    if (function_exists('curl_init')) {
+        $ch = curl_init(RECAPTCHA_VERIFY_URL);
+        curl_setopt_array($ch, [
+            CURLOPT_POST           => true,
+            CURLOPT_POSTFIELDS     => $payload,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT        => 10,
+            CURLOPT_HTTPHEADER     => ['Content-Type: application/x-www-form-urlencoded'],
+        ]);
+        $response = curl_exec($ch);
+        curl_close($ch);
+    } else {
+        $ctx = stream_context_create([
+            'http' => [
+                'method'        => 'POST',
+                'header'        => "Content-Type: application/x-www-form-urlencoded\r\n",
+                'content'       => $payload,
+                'timeout'       => 10,
+                'ignore_errors' => true,
+            ],
+        ]);
+        $response = @file_get_contents(RECAPTCHA_VERIFY_URL, false, $ctx);
+    }
+
+    if (!is_string($response) || $response === '') {
+        error_log('[ContactFormMailer] reCAPTCHA verification request failed.');
+        return false;
+    }
+
+    $result = json_decode($response, true);
+    if (!is_array($result) || empty($result['success'])) {
+        error_log('[ContactFormMailer] reCAPTCHA rejected: ' . $response);
+        return false;
+    }
+
+    return true;
+}
+
+if (!verify_recaptcha($recaptchaToken)) {
+    http_response_code(400);
+    echo json_encode([
+        "status"  => "error",
+        "message" => "reCAPTCHA verification failed. Please complete the challenge and try again.",
+    ]);
+    exit();
 }
 
 /* ------------------------------------------------------------------ */
