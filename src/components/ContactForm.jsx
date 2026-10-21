@@ -20,37 +20,62 @@ const ContactForm = ({ source = 'Website contact form' }) => {
   const [captchaError, setCaptchaError] = useState('');
   const recaptchaContainerRef = useRef(null);
   const recaptchaWidgetIdRef = useRef(null);
+  const recaptchaModeRef = useRef(null); // 'v2' | 'v3'
 
   useEffect(() => {
     let cancelled = false;
 
+    const handleToken = (token) => {
+      setRecaptchaToken(token);
+      setCaptchaError('');
+    };
+
+    const handleError = () => {
+      setRecaptchaToken('');
+      setCaptchaError('reCAPTCHA could not be loaded. Please refresh the page and try again.');
+    };
+
+    // reCAPTCHA v3 (invisible) — used when the site key is not a v2 checkbox key.
+    const runV3 = (grecaptcha) => {
+      recaptchaModeRef.current = 'v3';
+      grecaptcha.ready(() => {
+        if (cancelled) return;
+        grecaptcha
+          .execute(RECAPTCHA_SITE_KEY, { action: 'contact' })
+          .then(handleToken)
+          .catch((err) => {
+            console.error('reCAPTCHA v3 execute error:', err);
+            handleError();
+          });
+      });
+    };
+
     const renderWidget = () => {
       const grecaptcha = window.grecaptcha;
 
-      if (cancelled || !recaptchaContainerRef.current || recaptchaWidgetIdRef.current !== null) {
+      if (cancelled || !grecaptcha || recaptchaModeRef.current !== null) {
         return true;
       }
 
-      if (!grecaptcha || typeof grecaptcha.render !== 'function') {
+      if (typeof grecaptcha.render !== 'function') {
         return false;
+      }
+
+      if (!recaptchaContainerRef.current) {
+        return true;
       }
 
       try {
         recaptchaWidgetIdRef.current = grecaptcha.render(recaptchaContainerRef.current, {
           sitekey: RECAPTCHA_SITE_KEY,
-          callback: (token) => {
-            setRecaptchaToken(token);
-            setCaptchaError('');
-          },
+          callback: handleToken,
           'expired-callback': () => setRecaptchaToken(''),
-          'error-callback': () => {
-            setRecaptchaToken('');
-            setCaptchaError('reCAPTCHA could not be loaded. Please refresh and try again.');
-          },
+          'error-callback': handleError,
         });
+        recaptchaModeRef.current = 'v2';
       } catch (err) {
-        console.error('reCAPTCHA render error:', err);
-        setCaptchaError('reCAPTCHA could not be loaded. Please refresh and try again.');
+        console.warn('reCAPTCHA checkbox render failed, falling back to invisible mode:', err);
+        runV3(grecaptcha);
       }
 
       return true;
@@ -66,14 +91,14 @@ const ContactForm = ({ source = 'Website contact form' }) => {
       if (renderWidget()) {
         window.clearInterval(interval);
       }
-    }, 300);
+    }, 250);
 
     const timeout = window.setTimeout(() => {
       window.clearInterval(interval);
-      if (!cancelled && recaptchaWidgetIdRef.current === null) {
-        setCaptchaError('reCAPTCHA could not be loaded. Please refresh and try again.');
+      if (!cancelled && recaptchaModeRef.current === null) {
+        handleError();
       }
-    }, 15000);
+    }, 20000);
 
     return () => {
       cancelled = true;
@@ -84,12 +109,27 @@ const ContactForm = ({ source = 'Website contact form' }) => {
 
   const resetRecaptcha = () => {
     setRecaptchaToken('');
-    if (
-      recaptchaWidgetIdRef.current !== null &&
-      window.grecaptcha &&
-      typeof window.grecaptcha.reset === 'function'
-    ) {
-      window.grecaptcha.reset(recaptchaWidgetIdRef.current);
+    const grecaptcha = window.grecaptcha;
+
+    if (!grecaptcha) return;
+
+    if (recaptchaModeRef.current === 'v2') {
+      if (recaptchaWidgetIdRef.current !== null && typeof grecaptcha.reset === 'function') {
+        grecaptcha.reset(recaptchaWidgetIdRef.current);
+      }
+      return;
+    }
+
+    if (recaptchaModeRef.current === 'v3' && typeof grecaptcha.execute === 'function') {
+      grecaptcha.ready(() => {
+        grecaptcha
+          .execute(RECAPTCHA_SITE_KEY, { action: 'contact' })
+          .then((token) => {
+            setRecaptchaToken(token);
+            setCaptchaError('');
+          })
+          .catch(() => setRecaptchaToken(''));
+      });
     }
   };
 

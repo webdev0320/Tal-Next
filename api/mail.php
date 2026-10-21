@@ -390,6 +390,17 @@ function verify_recaptcha(string $token): bool
         return false;
     }
 
+    // Score/action are only present for invisible reCAPTCHA v3 responses.
+    if (isset($result['score']) && (float) $result['score'] < 0.5) {
+        error_log('[ContactFormMailer] reCAPTCHA score too low: ' . $response);
+        return false;
+    }
+
+    if (isset($result['action']) && $result['action'] !== 'contact') {
+        error_log('[ContactFormMailer] reCAPTCHA action mismatch: ' . $response);
+        return false;
+    }
+
     return true;
 }
 
