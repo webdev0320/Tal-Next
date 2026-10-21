@@ -5,7 +5,7 @@ const POSTS_PER_PAGE = 15;
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.taxaccolega.co.uk',
+  siteUrl: 'https://taxaccolega.co.uk',
   generateRobotsTxt: true,
   outDir: 'out',
   transform: async (config, path) => {
