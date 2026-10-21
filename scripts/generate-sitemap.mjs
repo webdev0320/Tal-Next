@@ -74,23 +74,8 @@ if (fs.existsSync(blogsPath)) {
     .map((post) => ({ url: `/blog/${post.slug}`, lastmod: post.date }));
 }
 
-// ---- 4. Industry pages (slugs from src/data/industriesConfig.js) ----
-const industrySlugs = [
-  'it-professionals',
-  'real-estate',
-  'ecommerce',
-  'construction',
-  'automobile',
-  'restaurants',
-  'wholesellers-retailers',
-  'healthcare-professionals',
-  'leisure-industry',
-  'non-uk-resident-taxation',
-  'logistics',
-  'expatriates',
-  // 'charities' has its own dedicated route at /charities (already in staticRoutes),
-  // so it's excluded here to avoid a duplicate /industries/charities entry.
-];
+// ---- 4. Industry pages (legacy slugs removed: pages now live under *-accountants) ----
+const industrySlugs = [];
 const industryRoutes = industrySlugs.map((slug) => `/industries/${slug}`);
 
 // ---- Build final URL list ----

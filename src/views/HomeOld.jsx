@@ -139,20 +139,20 @@ const HomeOld = () => {
   ];
 
   const industriesWeHelp = [
-    { title: "IT Professional", href: "/industries/it-professionals/" },
-    { title: "Construction", href: "/industries/construction/" },
-    { title: "Hospitality", href: "/industries/hospitality/" },
-    { title: "Auto Mobile", href: "/industries/automobile/" },
-    { title: "Non-UK-Resident", href: "/industries/non-uk-resident-taxation/" },
-    { title: "Real Estate", href: "/industries/real-estate/" },
-    { title: "Restaurants", href: "/industries/restaurants/" },
-    { title: "Ecommerce", href: "/industries/ecommerce/" },
-    { title: "Health Care", href: "/industries/healthcare-professionals/" },
-    { title: "Charity", href: "/industries/charity/" },
-    { title: "Wholesale & Retailers", href: "/industries/wholesellers-retailers/" },
-    { title: "Expatriates", href: "/industries/expatriates/" },
-    { title: "Leisure Industry", href: "/industries/leisure-industry/" },
-    { title: "Logistics", href: "/industries/logistics/" },
+    { title: "IT Professional", href: "/industries/it-contractor-accountants/" },
+    { title: "Construction", href: "/industries/construction-accountants/" },
+    { title: "Hospitality", href: "/industries/hospitality-accountants/" },
+    { title: "Auto Mobile", href: "/industries/automotive-accountants/" },
+    { title: "Non-UK-Resident", href: "/taxation/non-uk-resident-taxation/" },
+    { title: "Real Estate", href: "/industries/real-estate-accountants/" },
+    { title: "Restaurants", href: "/industries/restaurant-accountants/" },
+    { title: "Ecommerce", href: "/industries/ecommerce-accountants/" },
+    { title: "Health Care", href: "/industries/healthcare-accountants/" },
+    { title: "Charity", href: "/industries/charity-accountants/" },
+    { title: "Wholesale & Retailers", href: "/industries/wholesale-accountants/" },
+    { title: "Expatriates", href: "/taxation/non-uk-resident/" },
+    { title: "Leisure Industry", href: "/industries/leisure-accountants/" },
+    { title: "Logistics", href: "/industries/logistics-accountants/" },
   ];
 
   const softwareTabs = [

@@ -53,16 +53,16 @@ const ContactForm = ({ source = 'Website contact form' }) => {
     const renderWidget = () => {
       const grecaptcha = window.grecaptcha;
 
-      if (cancelled || !grecaptcha || recaptchaModeRef.current !== null) {
+      if (cancelled || recaptchaModeRef.current !== null) {
         return true;
       }
 
-      if (typeof grecaptcha.render !== 'function') {
+      if (!grecaptcha || typeof grecaptcha.render !== 'function') {
         return false;
       }
 
       if (!recaptchaContainerRef.current) {
-        return true;
+        return false;
       }
 
       try {

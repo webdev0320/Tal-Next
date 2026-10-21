@@ -71,12 +71,7 @@ const existingStaticPaths = [
   '/hairdressers-beauty-barbers', '/jewellers', '/construction-builders',
   '/media-creative-industries', '/optician-optometrists', '/autumn-budget-2024',
   '/core-package', '/spvs', '/payment-confirmation', '/payment-failed', '/team-member', '/testimonial',
-  // industries
-  '/industries/automobile', '/industries/charities', '/industries/charity', '/industries/construction',
-  '/industries/ecommerce', '/industries/expatriates', '/industries/healthcare-professionals',
-  '/industries/hospitality', '/industries/it-professionals', '/industries/leisure-industry',
-  '/industries/logistics', '/industries/non-uk-resident-taxation', '/industries/real-estate',
-  '/industries/restaurants', '/industries/wholesellers-retailers',
+  // industries (legacy slugs removed: pages replaced by *-accountants routes)
 ];
 
 let staticPagesCode = `/** @typedef {{ title: string, description: string, keywords?: string[], image?: string, type?: 'website'|'article' }} StaticPageSeo */

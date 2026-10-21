@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build --webpack && next-sitemap --config next-sitemap.config.cjs && node scripts/inline-css.mjs",
+    "build": "next build --webpack && next-sitemap --config next-sitemap.config.cjs && node scripts/copy-api.mjs && node scripts/inline-css.mjs",
     "start": "next start",
     "lint": "next lint"
   },

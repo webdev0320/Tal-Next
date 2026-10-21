@@ -9,7 +9,7 @@ export function listIndustrySlugs() {
 
 /**
  * @param {string} slug
- * @returns {import('../data/industryPages/restaurants.js').default | null}
+ * @returns {import('../data/industryPages/restaurant-accountants.js').default | null}
  */
 export function getIndustryPageData(slug) {
   return industryPages[slug] || null;

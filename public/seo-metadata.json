@@ -24,11 +24,6 @@
     "description": "",
     "keywords": []
   },
-  "/industries/charities": {
-    "title": "Charities",
-    "description": "",
-    "keywords": []
-  },
   "/taxation": {
     "title": "Tax Accountants Services in Croydon, London and the UK",
     "description": "Tax services in Croydon, London & UK. From tax advice to corporation to capital gains to inheritance and VAT tax, SEIS to EMI schemes, we can be your trusted partners.",
@@ -344,71 +339,6 @@
     "description": "",
     "keywords": []
   },
-  "/industries/it-professionals": {
-    "title": "IT Professionals",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/real-estate": {
-    "title": "Real Estate",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/healthcare-professionals": {
-    "title": "Healthcare Professionals",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/ecommerce": {
-    "title": "Ecommerce",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/logistics": {
-    "title": "Logistics",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/expatriates": {
-    "title": "Expatriates",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/non-uk-resident-taxation": {
-    "title": "Non-UK Resident Taxation​",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/restaurants": {
-    "title": "Restaurants",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/construction": {
-    "title": "Construction",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/automobile": {
-    "title": "Automobile",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/wholesellers-retailers": {
-    "title": "Wholesellers & Retailers",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/leisure-industry": {
-    "title": "Leisure Industry",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/hospitality": {
-    "title": "Hospitality",
-    "description": "",
-    "keywords": []
-  },
   "/landlords-2": {
     "title": "Landlords",
     "description": "",
@@ -481,11 +411,6 @@
   },
   "/software-2": {
     "title": "Software",
-    "description": "",
-    "keywords": []
-  },
-  "/industries/charity": {
-    "title": "Charity",
     "description": "",
     "keywords": []
   },

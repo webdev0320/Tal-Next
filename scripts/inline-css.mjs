@@ -1,12 +1,25 @@
 import Beasties from 'beasties';
-import { readFileSync, writeFileSync, globSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const outDir = path.join(__dirname, '..', 'out');
 
-const htmlFiles = globSync('**/*.html', { cwd: outDir });
+const findHtmlFiles = (dir) => {
+  const files = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...findHtmlFiles(fullPath));
+    } else if (entry.isFile() && entry.name.endsWith('.html')) {
+      files.push(path.relative(outDir, fullPath));
+    }
+  }
+  return files;
+};
+
+const htmlFiles = findHtmlFiles(outDir);
 console.log(`Found ${htmlFiles.length} HTML files to process...`);
 
 const beasties = new Beasties({

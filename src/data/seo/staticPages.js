@@ -412,51 +412,6 @@ export const staticPages = {
     description: "Read what our clients say about Taxaccolega. Trusted reviews from UK business owners, landlords and contractors who use our accounting services.",
     keywords: ["taxaccolega reviews", "accountant testimonials uk", "client reviews"],
   },
-  '/industries/automobile': {
-    title: "Automobile",
-  },
-  '/industries/charities': {
-    title: "Charities",
-  },
-  '/industries/charity': {
-    title: "Charity",
-  },
-  '/industries/construction': {
-    title: "Construction",
-  },
-  '/industries/ecommerce': {
-    title: "Ecommerce",
-  },
-  '/industries/expatriates': {
-    title: "Expatriates",
-  },
-  '/industries/healthcare-professionals': {
-    title: "Healthcare Professionals",
-  },
-  '/industries/hospitality': {
-    title: "Hospitality",
-  },
-  '/industries/it-professionals': {
-    title: "IT Professionals",
-  },
-  '/industries/leisure-industry': {
-    title: "Leisure Industry",
-  },
-  '/industries/logistics': {
-    title: "Logistics",
-  },
-  '/industries/non-uk-resident-taxation': {
-    title: "Non-UK Resident Taxation​",
-  },
-  '/industries/real-estate': {
-    title: "Real Estate",
-  },
-  '/industries/restaurants': {
-    title: "Restaurants",
-  },
-  '/industries/wholesellers-retailers': {
-    title: "Wholesellers & Retailers",
-  },
 };
 
 /**

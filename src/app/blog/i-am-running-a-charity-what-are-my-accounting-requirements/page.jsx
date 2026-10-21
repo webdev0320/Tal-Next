@@ -59,7 +59,7 @@ export default function Page() {
 <p>The accrual accounts include information like</p>
 <p><!-- /wp:paragraph --><!-- wp:list --></p>
 <ul><!-- wp:list-item -->
-<li>       ● How did your <strong><a href="https://www.taxaccolega.co.uk/industries/charity/">charity</a></strong> gets its money</li>
+<li>       ● How did your <strong><a href="https://www.taxaccolega.co.uk/industries/charity-accountants/">charity</a></strong> gets its money</li>
 <!-- /wp:list-item --><!-- wp:list-item -->
 <li>       ● How your charity gets its money</li>
 <!-- /wp:list-item --><!-- wp:list-item -->

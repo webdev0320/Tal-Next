@@ -5,20 +5,20 @@ import StaggerReveal from './StaggerReveal';
 
 export default function TargetSegments() {
   const industries = [
-    { icon: "fas fa-laptop-code", name: "IT Professional", link: "/industries/it-professionals" },
-    { icon: "fas fa-hard-hat", name: "Construction", link: "/industries/construction" },
-    { icon: "fas fa-hotel", name: "Hospitality", link: "/industries/hospitality" },
-    { icon: "fas fa-car", name: "Auto Mobile", link: "/industries/automobile" },
-    { icon: "fas fa-globe-europe", name: "Non-UK-Resident", link: "/industries/non-uk-resident-taxation" },
-    { icon: "fas fa-building", name: "Real Estate", link: "/industries/real-estate" },
-    { icon: "fas fa-utensils", name: "Restaurants", link: "/industries/restaurants" },
-    { icon: "fas fa-shopping-cart", name: "Ecommerce", link: "/industries/ecommerce" },
-    { icon: "fas fa-user-md", name: "Health Care", link: "/industries/healthcare-professionals" },
-    { icon: "fas fa-hand-holding-heart", name: "Charity", link: "/charities" },
-    { icon: "fas fa-store", name: "Wholesale & Retailers", link: "/industries/wholesellers-retailers" },
-    { icon: "fas fa-passport", name: "Expatriates", link: "/industries/expatriates" },
-    { icon: "fas fa-dumbbell", name: "Leisure Industry", link: "/industries/leisure-industry" },
-    { icon: "fas fa-truck-moving", name: "Logistics", link: "/industries/logistics" },
+    { icon: "fas fa-laptop-code", name: "IT Professional", link: "/industries/it-contractor-accountants" },
+    { icon: "fas fa-hard-hat", name: "Construction", link: "/industries/construction-accountants" },
+    { icon: "fas fa-hotel", name: "Hospitality", link: "/industries/hospitality-accountants" },
+    { icon: "fas fa-car", name: "Auto Mobile", link: "/industries/automotive-accountants" },
+    { icon: "fas fa-globe-europe", name: "Non-UK-Resident", link: "/taxation/non-uk-resident-taxation" },
+    { icon: "fas fa-building", name: "Real Estate", link: "/industries/real-estate-accountants" },
+    { icon: "fas fa-utensils", name: "Restaurants", link: "/industries/restaurant-accountants" },
+    { icon: "fas fa-shopping-cart", name: "Ecommerce", link: "/industries/ecommerce-accountants" },
+    { icon: "fas fa-user-md", name: "Health Care", link: "/industries/healthcare-accountants" },
+    { icon: "fas fa-hand-holding-heart", name: "Charity", link: "/industries/charity-accountants" },
+    { icon: "fas fa-store", name: "Wholesale & Retailers", link: "/industries/wholesale-accountants" },
+    { icon: "fas fa-passport", name: "Expatriates", link: "/taxation/non-uk-resident" },
+    { icon: "fas fa-dumbbell", name: "Leisure Industry", link: "/industries/leisure-accountants" },
+    { icon: "fas fa-truck-moving", name: "Logistics", link: "/industries/logistics-accountants" },
   ];
 
   return (
