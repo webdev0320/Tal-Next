@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 import Script from 'next/script';
 
 const RECAPTCHA_SITE_KEY =
@@ -13,125 +13,39 @@ const initialFormData = {
   message: '',
 };
 
+const waitForRecaptcha = () =>
+  new Promise((resolve, reject) => {
+    let attempts = 0;
+
+    const check = () => {
+      const grecaptcha = window.grecaptcha;
+
+      if (grecaptcha && typeof grecaptcha.execute === 'function') {
+        grecaptcha.ready(() => resolve(grecaptcha));
+        return;
+      }
+
+      attempts += 1;
+      if (attempts > 80) {
+        reject(new Error('reCAPTCHA failed to load'));
+        return;
+      }
+
+      window.setTimeout(check, 250);
+    };
+
+    check();
+  });
+
+const executeRecaptcha = async () => {
+  const grecaptcha = await waitForRecaptcha();
+  return grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: 'contact' });
+};
+
 const ContactForm = ({ source = 'Website contact form' }) => {
   const [formData, setFormData] = useState(initialFormData);
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
-  const [recaptchaToken, setRecaptchaToken] = useState('');
   const [captchaError, setCaptchaError] = useState('');
-  const recaptchaContainerRef = useRef(null);
-  const recaptchaWidgetIdRef = useRef(null);
-  const recaptchaModeRef = useRef(null); // 'v2' | 'v3'
-
-  useEffect(() => {
-    let cancelled = false;
-
-    const handleToken = (token) => {
-      setRecaptchaToken(token);
-      setCaptchaError('');
-    };
-
-    const handleError = () => {
-      setRecaptchaToken('');
-      setCaptchaError('reCAPTCHA could not be loaded. Please refresh the page and try again.');
-    };
-
-    // reCAPTCHA v3 (invisible) — used when the site key is not a v2 checkbox key.
-    const runV3 = (grecaptcha) => {
-      recaptchaModeRef.current = 'v3';
-      grecaptcha.ready(() => {
-        if (cancelled) return;
-        grecaptcha
-          .execute(RECAPTCHA_SITE_KEY, { action: 'contact' })
-          .then(handleToken)
-          .catch((err) => {
-            console.error('reCAPTCHA v3 execute error:', err);
-            handleError();
-          });
-      });
-    };
-
-    const renderWidget = () => {
-      const grecaptcha = window.grecaptcha;
-
-      if (cancelled || recaptchaModeRef.current !== null) {
-        return true;
-      }
-
-      if (!grecaptcha || typeof grecaptcha.render !== 'function') {
-        return false;
-      }
-
-      if (!recaptchaContainerRef.current) {
-        return false;
-      }
-
-      try {
-        recaptchaWidgetIdRef.current = grecaptcha.render(recaptchaContainerRef.current, {
-          sitekey: RECAPTCHA_SITE_KEY,
-          callback: handleToken,
-          'expired-callback': () => setRecaptchaToken(''),
-          'error-callback': handleError,
-        });
-        recaptchaModeRef.current = 'v2';
-      } catch (err) {
-        console.warn('reCAPTCHA checkbox render failed, falling back to invisible mode:', err);
-        runV3(grecaptcha);
-      }
-
-      return true;
-    };
-
-    if (renderWidget()) {
-      return () => {
-        cancelled = true;
-      };
-    }
-
-    const interval = window.setInterval(() => {
-      if (renderWidget()) {
-        window.clearInterval(interval);
-      }
-    }, 250);
-
-    const timeout = window.setTimeout(() => {
-      window.clearInterval(interval);
-      if (!cancelled && recaptchaModeRef.current === null) {
-        handleError();
-      }
-    }, 20000);
-
-    return () => {
-      cancelled = true;
-      window.clearInterval(interval);
-      window.clearTimeout(timeout);
-    };
-  }, []);
-
-  const resetRecaptcha = () => {
-    setRecaptchaToken('');
-    const grecaptcha = window.grecaptcha;
-
-    if (!grecaptcha) return;
-
-    if (recaptchaModeRef.current === 'v2') {
-      if (recaptchaWidgetIdRef.current !== null && typeof grecaptcha.reset === 'function') {
-        grecaptcha.reset(recaptchaWidgetIdRef.current);
-      }
-      return;
-    }
-
-    if (recaptchaModeRef.current === 'v3' && typeof grecaptcha.execute === 'function') {
-      grecaptcha.ready(() => {
-        grecaptcha
-          .execute(RECAPTCHA_SITE_KEY, { action: 'contact' })
-          .then((token) => {
-            setRecaptchaToken(token);
-            setCaptchaError('');
-          })
-          .catch(() => setRecaptchaToken(''));
-      });
-    }
-  };
 
   const handleChange = (event) => {
     setFormData((current) => ({
@@ -143,13 +57,19 @@ const ContactForm = ({ source = 'Website contact form' }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    if (!recaptchaToken) {
-      setCaptchaError('Please complete the reCAPTCHA verification before sending.');
-      return;
-    }
-
     setCaptchaError('');
     setStatus('loading');
+
+    let recaptchaToken;
+
+    try {
+      recaptchaToken = await executeRecaptcha();
+    } catch (err) {
+      console.error('reCAPTCHA execute error:', err);
+      setStatus('idle');
+      setCaptchaError('reCAPTCHA could not be loaded. Please refresh the page and try again.');
+      return;
+    }
 
     try {
       const res = await fetch('https://taxaccolega.co.uk/api/mail.php', {
@@ -172,18 +92,16 @@ const ContactForm = ({ source = 'Website contact form' }) => {
 
       setStatus('success');
       setFormData(initialFormData);
-      resetRecaptcha();
     } catch (err) {
       console.error('Contact form error:', err);
       setStatus('error');
-      resetRecaptcha();
     }
   };
 
   return (
     <section id="contact-block" className="py-12 bg-white">
       <Script
-        src="https://www.google.com/recaptcha/api.js?render=explicit"
+        src={`https://www.google.com/recaptcha/api.js?render=${RECAPTCHA_SITE_KEY}`}
         strategy="afterInteractive"
       />
       <div className="container py-4">
@@ -352,9 +270,29 @@ const ContactForm = ({ source = 'Website contact form' }) => {
                   />
                 </div>
                 <div>
-                  <div ref={recaptchaContainerRef} className="min-h-[78px]" />
-                  {captchaError && (
+                  {captchaError ? (
                     <p className="text-sm text-red-600 mt-1">{captchaError}</p>
+                  ) : (
+                    <p className="text-xs text-slate-400">
+                      Protected by reCAPTCHA —{' '}
+                      <a
+                        href="https://policies.google.com/privacy"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="underline"
+                      >
+                        Privacy
+                      </a>{' '}
+                      &amp;{' '}
+                      <a
+                        href="https://policies.google.com/terms"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="underline"
+                      >
+                        Terms
+                      </a>
+                    </p>
                   )}
                 </div>
                 <button
