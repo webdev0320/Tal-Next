@@ -6,6 +6,29 @@ import { packagesSeo } from '../data/seo/packagesSeo.js';
 import fs from 'fs';
 import path from 'path';
 
+const allowedTaxationPaths = new Set([
+  '/taxation',
+  '/taxation/capital-gains-tax-accountants',
+  '/taxation/company-tax-return-accountants',
+  '/taxation/cryptocurrency',
+  '/taxation/emi-schemes',
+  '/taxation/estate-property-tax-planning',
+  '/taxation/film-tax-relief',
+  '/taxation/inheritance-tax-planning',
+  '/taxation/let-property-campaign',
+  '/taxation/non-uk-resident-taxation',
+  '/taxation/personal-income-tax-professionals-and-chartered-accountants',
+  '/taxation/rd',
+  '/taxation/seis-tax-relief',
+  '/taxation/tax-advisors',
+  '/taxation/tax-investigation-insurance',
+  '/taxation/vat-accountants',
+  '/taxation/worldwide-disclosure-facility',
+]);
+
+const isAllowedTaxationPath = (urlPath) =>
+  !urlPath.startsWith('/taxation') || allowedTaxationPaths.has(urlPath);
+
 /** @returns {Promise<import('next').MetadataRoute.Sitemap>} */
 export default async function sitemap() {
   const routes = [];
@@ -31,7 +54,7 @@ export default async function sitemap() {
   addRoute('/', 1.0, 'daily');
 
   // 2. Static pages defined in staticPages.js
-  const staticPaths = Object.keys(staticPages);
+  const staticPaths = Object.keys(staticPages).filter(isAllowedTaxationPath);
   for (const routePath of staticPaths) {
     // Determine priority
     let priority = 0.8;
@@ -44,7 +67,9 @@ export default async function sitemap() {
   }
 
   // 3. Taxation sub-pages
-  const taxationSlugs = Object.keys(taxationSeo);
+  const taxationSlugs = Object.keys(taxationSeo).filter((slug) =>
+    isAllowedTaxationPath(`/taxation/${slug}`)
+  );
   for (const slug of taxationSlugs) {
     addRoute(`/taxation/${slug}`, 0.8, 'weekly');
   }
