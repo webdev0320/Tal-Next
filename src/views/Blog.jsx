@@ -26,7 +26,7 @@ const Blog = ({ posts = [], currentPage = 1, postsPerPage = 15 }) => {
                 <div className="card h-100 border-0 shadow-sm hover-shadow transition" style={{ transition: 'all 0.3s' }}>
                   <div className="position-relative overflow-hidden bg-light" style={{ height: '200px' }}>
                     <img 
-                      src={post.featured_image_url || (post.content.match(/<img[^>]+src="([^">]+)"/i)?.[1]) || '/images/logo/tal-logo.png'} 
+                      src={post.featured_image_url || (post.content?.match(/<img[^>]+src="([^">]+)"/i)?.[1]) || '/images/logo/tal-logo.png'} 
                       alt={post.title} 
                       className="w-100 h-100 object-fit-cover" 
                       style={{ objectFit: 'cover' }}

@@ -19,9 +19,13 @@ module.exports = {
     };
   },
   additionalPaths: async (config) => {
+    // Same source as the blog routes: the admin CMS snapshot, else blogs.json
+    const cmsPath = path.join(process.cwd(), 'src', 'data', 'cms.json');
     const blogsPath = path.join(process.cwd(), 'public', 'blogs.json');
-    const blogsData = JSON.parse(fs.readFileSync(blogsPath, 'utf-8'));
-    const totalPages = Math.ceil(blogsData.posts.length / POSTS_PER_PAGE);
+    const postCount = fs.existsSync(cmsPath)
+      ? JSON.parse(fs.readFileSync(cmsPath, 'utf-8')).posts.length
+      : JSON.parse(fs.readFileSync(blogsPath, 'utf-8')).posts.length;
+    const totalPages = Math.ceil(postCount / POSTS_PER_PAGE);
 
     const paths = [];
     for (let page = 2; page <= totalPages; page += 1) {

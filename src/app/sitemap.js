@@ -3,8 +3,7 @@ import { SITE } from '../lib/seo.js';
 import { staticPages } from '../data/seo/staticPages.js';
 import { taxationSeo } from '../data/seo/taxationSeo.js';
 import { packagesSeo } from '../data/seo/packagesSeo.js';
-import fs from 'fs';
-import path from 'path';
+import { getPosts } from '../lib/cms.js';
 
 const allowedTaxationPaths = new Set([
   '/taxation',
@@ -80,18 +79,10 @@ export default async function sitemap() {
     addRoute(`/packages/${slug}`, 0.8, 'weekly');
   }
 
-  // 5. Dynamic blog posts (loaded from generated blog-seo.json database)
-  try {
-    const blogSeoPath = path.join(process.cwd(), 'public/blog-seo.json');
-    if (fs.existsSync(blogSeoPath)) {
-      const blogSeo = JSON.parse(fs.readFileSync(blogSeoPath, 'utf8'));
-      const blogSlugs = Object.keys(blogSeo);
-      for (const slug of blogSlugs) {
-        addRoute(`/blog/${slug}`, 0.6, 'monthly');
-      }
-    }
-  } catch (e) {
-    console.error('Error processing blog pages in sitemap:', e);
+  // 5. Blog posts (from the admin CMS snapshot, or blogs.json without one)
+  for (const post of getPosts()) {
+    if (post.seo?.robots?.index === false) continue;
+    addRoute(`/blog/${post.slug}`, 0.6, 'monthly');
   }
 
   return routes;
