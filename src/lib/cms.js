@@ -1,28 +1,19 @@
 /**
- * Build-time access to content managed in the Laravel admin (admin-panel).
+ * Build-time access to the blog posts in public/blogs.json.
  *
- * Reads the snapshot written by scripts/fetch-cms.mjs (src/data/cms.json).
- * Without a snapshot, blog posts fall back to public/blogs.json and no
- * admin SEO overrides are applied. Server-only: uses fs. Page SEO overrides
- * live in ./cms-seo.js, which is safe to import from client code.
+ * The Next.js app is fully self-contained: it no longer calls the Laravel
+ * admin-panel API or reads any CMS snapshot. The committed JSON file is the
+ * single source of truth for blog content. Server-only: uses fs.
  */
 
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
-export { seoToMetadata } from './cms-seo.js';
-
-let _cms;
 let _posts;
 
-function readJson(file) {
-  const p = path.join(process.cwd(), file);
-  return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : null;
-}
-
-function loadCms() {
-  if (_cms === undefined) _cms = readJson('src/data/cms.json');
-  return _cms;
+function readBlogs() {
+  const p = path.join(process.cwd(), 'public/blogs.json');
+  return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : { posts: [] };
 }
 
 function firstImage(html) {
@@ -42,18 +33,16 @@ function fromBlogsJson(post) {
     category: post.categories?.[0] || null,
     published_at: post.date ? new Date(post.date.replace(' ', 'T')).toISOString() : null,
     updated_at: null,
-    seo: null,
   };
 }
 
 /** All published posts, newest first. */
 export function getPosts() {
   if (!_posts) {
-    const cms = loadCms();
-    const posts = cms?.posts ?? (readJson('public/blogs.json')?.posts ?? []).map(fromBlogsJson);
+    const posts = (readBlogs().posts ?? []).map(fromBlogsJson);
     const sorted = [...posts].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
     const link = (p) => (p ? { title: p.title, slug: p.slug, path: `/blog/${p.slug}/` } : null);
-    // previous = older post, next = newer post (same as the API's single-post endpoint)
+    // previous = older post, next = newer post
     _posts = sorted.map((p, i) => ({ ...p, previous: link(sorted[i + 1]), next: link(sorted[i - 1]) }));
   }
   return _posts;

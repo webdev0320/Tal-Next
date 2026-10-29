@@ -71,52 +71,77 @@ const CategoryGroup = ({ name, data, onNavigate }) => {
   );
 };
 
-const MobileMenu = ({ services, industries, packages, onNavigate }) => {
+const defaultMenu = [
+  { id: 'home', title: 'Home', url: '/', type: 'custom', children: [] },
+  { id: 'services', title: 'Services', url: '/taxation', type: 'custom', children: [] },
+  { id: 'industries', title: 'Who We Assist', url: '/industries', type: 'custom', children: [] },
+  { id: 'packages', title: 'Packages', url: '/packages', type: 'custom', children: [] },
+  { id: 'blog', title: 'Blog', url: '/blog', type: 'custom', children: [] },
+  { id: 'about', title: 'About Us', url: '/about-us', type: 'custom', children: [] },
+  { id: 'contact', title: 'Contact Us', url: '/contact-us', type: 'custom', children: [] },
+];
+
+const isServices = (item) => /service/i.test(item.title || '');
+const isIndustries = (item) => /assist|industr/i.test(item.title || '');
+const isPackages = (item) => /package/i.test(item.title || '');
+const isContact = (item) => /contact/i.test(item.title || '');
+
+const MobileMenu = ({ menuItems = defaultMenu, services, industries, packages, onNavigate }) => {
   return (
     <div className="lg:hidden mobile-menu-enter pb-4 border-t border-slate-100 max-h-[calc(100vh-90px)] overflow-y-auto">
-      <Link href="/" onClick={onNavigate} className="block px-2 py-3 text-slate-700 font-semibold no-underline border-b border-slate-100">
-        Home
-      </Link>
-
-      <SectionItem title="Services" to="/taxation">
-        {Object.keys(services).map((category) => (
-          <CategoryGroup key={category} name={category} data={services[category]} onNavigate={onNavigate} />
-        ))}
-      </SectionItem>
-
-      <SectionItem title="Who We Assist" to="/industries">
-        {Object.keys(industries).map((category) => (
-          <CategoryGroup key={category} name={category} data={industries[category]} onNavigate={onNavigate} />
-        ))}
-      </SectionItem>
-
-      <SectionItem title="Packages" to="/packages/ltd-company-pricing">
-        {packages.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            onClick={onNavigate}
-            className="block py-2 pl-3 text-sm text-slate-500 no-underline hover:text-[#d2601a]"
-          >
-            {item.label}
+      {menuItems.map((item) => {
+        if (isServices(item)) {
+          return (
+            <SectionItem key={item.id} title={item.title} to={item.url}>
+              {Object.keys(services).map((category) => (
+                <CategoryGroup key={category} name={category} data={services[category]} onNavigate={onNavigate} />
+              ))}
+            </SectionItem>
+          );
+        }
+        if (isIndustries(item)) {
+          return (
+            <SectionItem key={item.id} title={item.title} to={item.url}>
+              {Object.keys(industries).map((category) => (
+                <CategoryGroup key={category} name={category} data={industries[category]} onNavigate={onNavigate} />
+              ))}
+            </SectionItem>
+          );
+        }
+        if (isPackages(item)) {
+          return (
+            <SectionItem key={item.id} title={item.title} to={item.url}>
+              {packages.map((pkg) => (
+                <Link
+                  key={pkg.href}
+                  href={pkg.href}
+                  onClick={onNavigate}
+                  className="block py-2 pl-3 text-sm text-slate-500 no-underline hover:text-[#d2601a]"
+                >
+                  {pkg.label}
+                </Link>
+              ))}
+            </SectionItem>
+          );
+        }
+        if (isContact(item)) {
+          return (
+            <Link
+              key={item.id}
+              href={item.url}
+              onClick={onNavigate}
+              className="block text-center mt-4 bg-[#d2601a] text-white font-semibold px-5 py-3 rounded-lg no-underline"
+            >
+              {item.title}
+            </Link>
+          );
+        }
+        return (
+          <Link key={item.id} href={item.url} onClick={onNavigate} className="block px-2 py-3 text-slate-700 font-semibold no-underline border-b border-slate-100">
+            {item.title}
           </Link>
-        ))}
-      </SectionItem>
-
-      <Link href="/blog" onClick={onNavigate} className="block px-2 py-3 text-slate-700 font-semibold no-underline border-b border-slate-100">
-        Blog
-      </Link>
-      <Link href="/about-us" onClick={onNavigate} className="block px-2 py-3 text-slate-700 font-semibold no-underline border-b border-slate-100">
-        About Us
-      </Link>
-
-      <Link
-        href="/contact-us"
-        onClick={onNavigate}
-        className="block text-center mt-4 bg-[#d2601a] text-white font-semibold px-5 py-3 rounded-lg no-underline"
-      >
-        Contact Us
-      </Link>
+        );
+      })}
     </div>
   );
 };

@@ -36,5 +36,3 @@ public/images_links.xml
 public/blogs.json
 public/blogs.json
 
-# admin CMS snapshot (scripts/fetch-cms.mjs)
-src/data/cms.json

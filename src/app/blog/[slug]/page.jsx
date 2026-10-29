@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
-import { getPost, getPosts, seoToMetadata } from '../../../lib/cms';
+import { getPost, getPosts } from '../../../lib/cms';
 import { createMetadata, stripHtml } from '../../../lib/seo';
 
 export const dynamicParams = false;
@@ -12,7 +12,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const post = getPost(slug);
-  if (post.seo) return seoToMetadata(post.seo);
+  if (!post) return {};
 
   return createMetadata({
     title: post.title,
@@ -38,13 +38,6 @@ export default async function Page({ params }) {
 
   return (
     <div className="blog-post-page bg-light">
-      {post.seo?.schema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(post.seo.schema).replace(/</g, '\\u003c') }}
-        />
-      )}
-
       <header className="py-5 text-center" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)' }}>
         <div className="container py-4">
           <h1 className="display-4 fw-bold text-white">{post.title}</h1>

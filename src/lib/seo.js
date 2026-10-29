@@ -1,7 +1,6 @@
 /** @typedef {import('next').Metadata} Metadata */
 
 import { getStaticPageSeo } from '../data/seo/staticPages.js';
-import { pageSeoOverrides } from './cms-seo.js';
 
 export const SITE = {
   name: 'Taxaccolega',
@@ -140,14 +139,7 @@ export function createMetadata({
     },
   };
 
-  // SEO an editor set on the matching page in the admin takes precedence.
-  const overrides = pageSeoOverrides(path);
-  return {
-    ...metadata,
-    ...overrides,
-    openGraph: { ...metadata.openGraph, ...overrides.openGraph },
-    twitter: { ...metadata.twitter, ...overrides.twitter },
-  };
+  return metadata;
 }
 
 /**

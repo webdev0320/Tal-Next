@@ -79,9 +79,8 @@ export default async function sitemap() {
     addRoute(`/packages/${slug}`, 0.8, 'weekly');
   }
 
-  // 5. Blog posts (from the admin CMS snapshot, or blogs.json without one)
+  // 5. Blog posts (from public/blogs.json)
   for (const post of getPosts()) {
-    if (post.seo?.robots?.index === false) continue;
     addRoute(`/blog/${post.slug}`, 0.6, 'monthly');
   }
 

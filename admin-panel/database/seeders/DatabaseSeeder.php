@@ -47,6 +47,9 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
+        // Sync industry pages using dedicated seeder
+        $this->call(IndustryPagesSeeder::class);
+
         Post::firstOrCreate(
             ['slug' => 'welcome-to-our-blog'],
             [
@@ -60,6 +63,7 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
+        // Industry pages (synced via IndustryPagesSeeder)
         $location = MenuLocation::firstOrCreate(
             ['handle' => 'header'],
             ['name' => 'Header']
@@ -87,6 +91,8 @@ class DatabaseSeeder extends Seeder
         };
 
         $createItem('Home', '/');
+
+        $this->call(IndustryPagesSeeder::class);
         $servicesParent = $createItem('Services', '/taxation');
         foreach ($extract['servicesItems'] as $item) {
             $createItem($item['label'], $item['to'], $servicesParent->id);

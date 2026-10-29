@@ -71,14 +71,14 @@ Output the `schema` object as-is inside `<script type="application/ld+json">`.
 
 ## How the Next.js site uses this
 
-The site is a static export, so admin changes go live only after the site is rebuilt (`npm run build`).
+The Next.js frontend is currently **disconnected** from this admin panel. It makes no API calls and reads no CMS snapshot:
 
-1. `scripts/fetch-cms.mjs` runs first (`npm run fetch-cms`). It reads `CMS_API_URL`, falling back to `NEXT_PUBLIC_API_URL` and then `http://127.0.0.1:8000`, and writes two files:
-   - `src/data/cms.json`: all published posts, with content and SEO. It is gitignored.
-   - `src/data/cms-pages.json`: SEO an editor set on pages, keyed by path. It is small and committed.
-2. **Blog**: `/blog`, `/blog/page/N` and `/blog/{slug}` are generated from `cms.json` (`src/lib/cms.js`). Each post uses the admin's resolved SEO and schema. If the API was unreachable and there is no snapshot, the build falls back to `public/blogs.json`. To fail the build instead, set `CMS_REQUIRED=true`.
-3. **Pages**: the site's pages are still React views. When an admin page has the same path (for example `about-us`), any SEO fields an editor set there override the hand-written SEO for that route (`src/lib/cms-seo.js`, applied in `createMetadata`). Fields left on their defaults keep the hand-written values. Page *content* from the admin is not rendered yet.
-4. The sitemap lists posts from the same snapshot and leaves out noindexed posts.
+- The header menu is static (`src/components/Navbar.jsx`).
+- Blog pages build from the committed `public/blogs.json` (`src/lib/cms.js`).
+- Page SEO uses the hand-written data in `src/data/seo/`.
+- `npm run build` no longer fetches from this app.
+
+Admin changes therefore do not reach the website until the integration is reintroduced. The API endpoints documented above remain available for the admin UI and any future integration.
 
 ## Notes
 

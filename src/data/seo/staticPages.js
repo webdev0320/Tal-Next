@@ -386,6 +386,12 @@ export const staticPages = {
     description: "Detailed analysis of Autumn Budget 2024 tax changes for UK businesses, landlords and employees. Key announcements on NIC, CGT and inheritance tax.",
     keywords: ["autumn budget 2024", "budget 2024 tax changes", "uk budget 2024"],
   },
+  '/uk-budget-2026-tax-changes': {
+    title: "UK Budget 2026: Tax Changes and What They Mean for You",
+    description: "UK Budget 2026 explained: the key tax changes for individuals, landlords, directors and small businesses, when they start, and what to review now.",
+    keywords: ["uk budget 2026", "budget 2026 tax changes", "savings income tax 2027", "badr lifetime limit", "founders relief", "property income tax rates"],
+    type: "article",
+  },
   '/core-package': {
     title: "Core Accounting Package UK | Essential Business Accounts",
     description: "Core accounting package for UK businesses. Essential annual accounts, corporation tax, payroll and bookkeeping support at a fixed monthly fee.",
