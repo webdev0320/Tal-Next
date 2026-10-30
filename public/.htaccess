@@ -36,6 +36,10 @@
 
 RewriteEngine On
 
+# Redirect www to non-www (canonical: https://taxaccolega.co.uk)
+RewriteCond %{HTTP_HOST} ^www\.taxaccolega\.co\.uk$ [NC]
+RewriteRule ^(.*)$ https://taxaccolega.co.uk/$1 [R=301,L]
+
 # Serve real files and directories directly
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
