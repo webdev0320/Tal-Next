@@ -103,7 +103,7 @@ const SwitchAccountant = () => {
               3. Notify your current accountant about the switch (we can handle this on your behalf).
               4. We’ll gather all necessary accounting records and information from your previous accountant.
               5. We’ll set you up on FreeAgent, and you’ll be ready to experience the comprehensive Taxaccolega Accounting Service.</p>
-              <a href="https://www.taxaccolega.co.uk/contact-us/" className="btn btn-brand mt-4">Contact us</a>
+              <a href="https://taxaccolega.co.uk/contact-us/" className="btn btn-brand mt-4">Contact us</a>
             </div>
           </div>
         </div>

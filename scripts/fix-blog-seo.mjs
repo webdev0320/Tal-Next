@@ -34,7 +34,7 @@ function processFile(filePath, slug) {
   
   const title = titleMatch ? titleMatch[1] : '';
   const description = descMatch ? descMatch[1] : '';
-  const url = canonicalMatch ? canonicalMatch[1] : `https://www.taxaccolega.co.uk/blog/${slug}/`;
+  const url = canonicalMatch ? canonicalMatch[1] : `https://taxaccolega.co.uk/blog/${slug}/`;
   const date = publishedMatch ? publishedMatch[1] : '';
 
   // 3. Wrap dangerouslySetInnerHTML content with stripH1

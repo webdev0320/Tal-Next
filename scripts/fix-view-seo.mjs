@@ -64,7 +64,7 @@ function processFile(filePath) {
     const itemRegex = /\{\s*label:\s*['"](.+?)['"]\s*,\s*link:\s*['"](.+?)['"]/g;
     let m;
     while ((m = itemRegex.exec(breadcrumbStr)) !== null) {
-      items.push({ name: m[1], url: `https://www.taxaccolega.co.uk${m[2]}` });
+      items.push({ name: m[1], url: `https://taxaccolega.co.uk${m[2]}` });
     }
     // Also handle active items (no link)
     const activeRegex = /\{\s*label:\s*['"](.+?)['"]\s*,\s*active:\s*true/g;

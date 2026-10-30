@@ -4,73 +4,73 @@
 
 ## Services
 
-- [Annual Accounts](https://www.taxaccolega.co.uk/accounts/annual-accounts): Statutory annual accounts preparation and filing
-- [Bookkeeping](https://www.taxaccolega.co.uk/accounts/bookkeeping): Ongoing bookkeeping and record-keeping services
-- [Management Accounts](https://www.taxaccolega.co.uk/accounts/management-accounts): Monthly/quarterly management reporting
-- [Statutory Accounts](https://www.taxaccolega.co.uk/accounts/statutory-accounts): Statutory accounts for limited companies
-- [Payroll Services](https://www.taxaccolega.co.uk/accounts/payroll-services): Payroll processing and RTI submissions
-- [Self-Assessment](https://www.taxaccolega.co.uk/accounts/self-assessment): HMRC self-assessment tax return preparation and filing
-- [HMRC Self-Assessment Tax Returns](https://www.taxaccolega.co.uk/accounts/hmrc-self-assessment-tax-returns-accountant): Specialist self-assessment filing
-- [Cash Flow Forecasting](https://www.taxaccolega.co.uk/accounts/cash-flow-forecasting): Cash flow projections and analysis
-- [Financial Forecasting](https://www.taxaccolega.co.uk/accounts/financial-forecasting): Financial planning and forecasting
-- [Consolidated Accounts](https://www.taxaccolega.co.uk/accounts/consolidated-accounts): Group consolidated accounts
-- [Auto-Enrolment Pensions](https://www.taxaccolega.co.uk/accounts/auto-enrolment-pension-contributions): Workplace pension compliance
+- [Annual Accounts](https://taxaccolega.co.uk/accounts/annual-accounts): Statutory annual accounts preparation and filing
+- [Bookkeeping](https://taxaccolega.co.uk/accounts/bookkeeping): Ongoing bookkeeping and record-keeping services
+- [Management Accounts](https://taxaccolega.co.uk/accounts/management-accounts): Monthly/quarterly management reporting
+- [Statutory Accounts](https://taxaccolega.co.uk/accounts/statutory-accounts): Statutory accounts for limited companies
+- [Payroll Services](https://taxaccolega.co.uk/accounts/payroll-services): Payroll processing and RTI submissions
+- [Self-Assessment](https://taxaccolega.co.uk/accounts/self-assessment): HMRC self-assessment tax return preparation and filing
+- [HMRC Self-Assessment Tax Returns](https://taxaccolega.co.uk/accounts/hmrc-self-assessment-tax-returns-accountant): Specialist self-assessment filing
+- [Cash Flow Forecasting](https://taxaccolega.co.uk/accounts/cash-flow-forecasting): Cash flow projections and analysis
+- [Financial Forecasting](https://taxaccolega.co.uk/accounts/financial-forecasting): Financial planning and forecasting
+- [Consolidated Accounts](https://taxaccolega.co.uk/accounts/consolidated-accounts): Group consolidated accounts
+- [Auto-Enrolment Pensions](https://taxaccolega.co.uk/accounts/auto-enrolment-pension-contributions): Workplace pension compliance
 
 ## Industries
 
-- [Amazon Sellers](https://www.taxaccolega.co.uk/amazon-seller)
-- [Contractors](https://www.taxaccolega.co.uk/contractors)
-- [Construction & Builders](https://www.taxaccolega.co.uk/construction-builders)
-- [Dentists](https://www.taxaccolega.co.uk/dentists)
-- [Freelancers](https://www.taxaccolega.co.uk/freelancers)
-- [Furnished Holiday Lettings](https://www.taxaccolega.co.uk/furnished-holiday-letting)
-- [Hairdressers, Beauty & Barbers](https://www.taxaccolega.co.uk/hairdressers-beauty-barbers)
-- [Hotels, Restaurants & Bars](https://www.taxaccolega.co.uk/hotels-restaurants-bars)
-- [Jewellers](https://www.taxaccolega.co.uk/jewellers)
-- [Legal & Solicitors](https://www.taxaccolega.co.uk/legal)
-- [Media & Creative Industries](https://www.taxaccolega.co.uk/media-creative-industries)
-- [Real Estate](https://www.taxaccolega.co.uk/industries/real-estate)
-- [Restaurants](https://www.taxaccolega.co.uk/industries/restaurants)
-- [Retailers & Wholesalers](https://www.taxaccolega.co.uk/industries/wholesellers-retailers)
-- [Banks](https://www.taxaccolega.co.uk/banks)
-- [E-commerce](https://www.taxaccolega.co.uk/btc-software)
+- [Amazon Sellers](https://taxaccolega.co.uk/amazon-seller)
+- [Contractors](https://taxaccolega.co.uk/contractors)
+- [Construction & Builders](https://taxaccolega.co.uk/construction-builders)
+- [Dentists](https://taxaccolega.co.uk/dentists)
+- [Freelancers](https://taxaccolega.co.uk/freelancers)
+- [Furnished Holiday Lettings](https://taxaccolega.co.uk/furnished-holiday-letting)
+- [Hairdressers, Beauty & Barbers](https://taxaccolega.co.uk/hairdressers-beauty-barbers)
+- [Hotels, Restaurants & Bars](https://taxaccolega.co.uk/hotels-restaurants-bars)
+- [Jewellers](https://taxaccolega.co.uk/jewellers)
+- [Legal & Solicitors](https://taxaccolega.co.uk/legal)
+- [Media & Creative Industries](https://taxaccolega.co.uk/media-creative-industries)
+- [Real Estate](https://taxaccolega.co.uk/industries/real-estate)
+- [Restaurants](https://taxaccolega.co.uk/industries/restaurants)
+- [Retailers & Wholesalers](https://taxaccolega.co.uk/industries/wholesellers-retailers)
+- [Banks](https://taxaccolega.co.uk/banks)
+- [E-commerce](https://taxaccolega.co.uk/btc-software)
 
 ## Key Pages
 
-- [Home](https://www.taxaccolega.co.uk/)
-- [About Us](https://www.taxaccolega.co.uk/about-us)
-- [Pricing](https://www.taxaccolega.co.uk/pricing)
-- [Accounts Overview](https://www.taxaccolega.co.uk/accounts)
-- [Contact Us](https://www.taxaccolega.co.uk/contact-us)
-- [Blog](https://www.taxaccolega.co.uk/blog)
-- [Testimonials](https://www.taxaccolega.co.uk/testimonial)
-- [Privacy Policy](https://www.taxaccolega.co.uk/privacy-policy)
-- [Company Formation](https://www.taxaccolega.co.uk/company-formation)
-- [Business Plan](https://www.taxaccolega.co.uk/business-plan)
-- [Business Start-Up](https://www.taxaccolega.co.uk/business-start-up)
-- [Company Secretarial](https://www.taxaccolega.co.uk/company-secretarial)
-- [IR35 Contractors Review](https://www.taxaccolega.co.uk/ir35-contractors-review)
-- [Construction Industry Scheme](https://www.taxaccolega.co.uk/construction-industry-scheme)
-- [Tax Calculator](https://www.taxaccolega.co.uk/taxcalc)
+- [Home](https://taxaccolega.co.uk/)
+- [About Us](https://taxaccolega.co.uk/about-us)
+- [Pricing](https://taxaccolega.co.uk/pricing)
+- [Accounts Overview](https://taxaccolega.co.uk/accounts)
+- [Contact Us](https://taxaccolega.co.uk/contact-us)
+- [Blog](https://taxaccolega.co.uk/blog)
+- [Testimonials](https://taxaccolega.co.uk/testimonial)
+- [Privacy Policy](https://taxaccolega.co.uk/privacy-policy)
+- [Company Formation](https://taxaccolega.co.uk/company-formation)
+- [Business Plan](https://taxaccolega.co.uk/business-plan)
+- [Business Start-Up](https://taxaccolega.co.uk/business-start-up)
+- [Company Secretarial](https://taxaccolega.co.uk/company-secretarial)
+- [IR35 Contractors Review](https://taxaccolega.co.uk/ir35-contractors-review)
+- [Construction Industry Scheme](https://taxaccolega.co.uk/construction-industry-scheme)
+- [Tax Calculator](https://taxaccolega.co.uk/taxcalc)
 
 ## Pricing Packages
 
-- [Limited Company](https://www.taxaccolega.co.uk/packages/ltd-company)
-- [Limited Company Pricing](https://www.taxaccolega.co.uk/packages/ltd-company-pricing)
-- [Sole Trader](https://www.taxaccolega.co.uk/packages/sole-trader)
-- [Sole Trader Pricing](https://www.taxaccolega.co.uk/packages/sole-trader-pricing)
-- [SPVS Ltd](https://www.taxaccolega.co.uk/packages/spvs-ltd)
-- [SPVS Ltd Pricing](https://www.taxaccolega.co.uk/packages/spvs-ltd-pricing)
-- [Core Package](https://www.taxaccolega.co.uk/core-package)
+- [Limited Company](https://taxaccolega.co.uk/packages/ltd-company)
+- [Limited Company Pricing](https://taxaccolega.co.uk/packages/ltd-company-pricing)
+- [Sole Trader](https://taxaccolega.co.uk/packages/sole-trader)
+- [Sole Trader Pricing](https://taxaccolega.co.uk/packages/sole-trader-pricing)
+- [SPVS Ltd](https://taxaccolega.co.uk/packages/spvs-ltd)
+- [SPVS Ltd Pricing](https://taxaccolega.co.uk/packages/spvs-ltd-pricing)
+- [Core Package](https://taxaccolega.co.uk/core-package)
 
 ## Blog
 
-- [Accounting & Tax Guide](https://www.taxaccolega.co.uk/blog): UK tax deadlines, capital gains tax, self-assessment, property tax, contractor/IR35, crypto tax, Amazon sellers VAT, limited company guides, MTD updates, and more
+- [Accounting & Tax Guide](https://taxaccolega.co.uk/blog): UK tax deadlines, capital gains tax, self-assessment, property tax, contractor/IR35, crypto tax, Amazon sellers VAT, limited company guides, MTD updates, and more
 
 ## Optional
 
-- [Testimonials](https://www.taxaccolega.co.uk/testimonial)
-- [Awards & Accolades](https://www.taxaccolega.co.uk/awards-accolades-accreditations)
-- [Team Members](https://www.taxaccolega.co.uk/team-member)
-- [Payment Confirmation](https://www.taxaccolega.co.uk/payment-confirmation)
-- [Payment Failed](https://www.taxaccolega.co.uk/payment-failed)
+- [Testimonials](https://taxaccolega.co.uk/testimonial)
+- [Awards & Accolades](https://taxaccolega.co.uk/awards-accolades-accreditations)
+- [Team Members](https://taxaccolega.co.uk/team-member)
+- [Payment Confirmation](https://taxaccolega.co.uk/payment-confirmation)
+- [Payment Failed](https://taxaccolega.co.uk/payment-failed)

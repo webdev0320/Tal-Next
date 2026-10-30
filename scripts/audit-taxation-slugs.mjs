@@ -78,7 +78,7 @@ missing.forEach(s => {
 });
 
 // Now search pages.xml for each missing slug
-const DOMAIN = 'https://www.taxaccolega.co.uk';
+const DOMAIN = 'https://taxaccolega.co.uk';
 const xmlPath = path.join(ROOT, 'public', 'pages.xml');
 console.log('\nSearching pages.xml …');
 const xml = fs.readFileSync(xmlPath, 'utf8');

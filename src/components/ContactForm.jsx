@@ -72,7 +72,7 @@ const ContactForm = ({ source = 'Website contact form' }) => {
     }
 
     try {
-      const res = await fetch('https://taxaccolega.co.uk/api/mail.php', {
+      const res = await fetch('/api/mail.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

@@ -5,7 +5,7 @@ const reviewSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'Taxaccolega Chartered Accountants',
-  url: 'https://www.taxaccolega.co.uk',
+  url: 'https://taxaccolega.co.uk',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '5.0',

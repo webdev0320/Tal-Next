@@ -169,7 +169,7 @@ const ConstructionIndustryScheme = () => {
       <ContactForm source="ConstructionIndustryScheme" />
       <ReviewsSlider />
     
-      <BreadcrumbJsonLd items={[{"name":"Home","url":"https://www.taxaccolega.co.uk/"},{"name":"Construction Industry Scheme","url":""}]} />
+      <BreadcrumbJsonLd items={[{"name":"Home","url":"https://taxaccolega.co.uk/"},{"name":"Construction Industry Scheme","url":""}]} />
       </div>
   );
 };

@@ -2,5 +2,18 @@
   "trailingSlash": true,
   "github": {
     "enabled": true
-  }
+  },
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.taxaccolega.co.uk"
+        }
+      ],
+      "destination": "https://taxaccolega.co.uk/:path*",
+      "permanent": true
+    }
+  ]
 }

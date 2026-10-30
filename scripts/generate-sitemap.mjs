@@ -5,7 +5,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.taxaccolega.co.uk';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://taxaccolega.co.uk';
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
 
 // ---- 1. Static routes (copied from App.jsx, excluding dynamic :slug routes & catch-all) ----

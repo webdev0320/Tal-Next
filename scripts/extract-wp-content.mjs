@@ -68,7 +68,7 @@ const TARGET_PATHS = [
   '/id-verification-form-for-companies-house/thank-you',
 ];
 
-const DOMAIN = 'https://www.taxaccolega.co.uk';
+const DOMAIN = 'https://taxaccolega.co.uk';
 
 function normalisePath(url) {
   let p = url.replace(/^https?:\/\/[^/]+/, '').toLowerCase();

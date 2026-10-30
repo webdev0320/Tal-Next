@@ -809,8 +809,8 @@ const UkBudget2026 = () => {
 
       <BreadcrumbJsonLd
         items={[
-          { name: 'Home', url: 'https://www.taxaccolega.co.uk/' },
-          { name: 'UK Budget 2026', url: 'https://www.taxaccolega.co.uk/uk-budget-2026-tax-changes/' },
+          { name: 'Home', url: 'https://taxaccolega.co.uk/' },
+          { name: 'UK Budget 2026', url: 'https://taxaccolega.co.uk/uk-budget-2026-tax-changes/' },
         ]}
       />
       {faqSchema && (

@@ -56,7 +56,7 @@ function processFile(filePath) {
     const itemRegex = /\{\s*label:\s*['"](.+?)['"]\s*,\s*link:\s*['"](.+?)['"]/g;
     let m;
     while ((m = itemRegex.exec(breadcrumbStr)) !== null) {
-      items.push({ name: m[1], url: `https://www.taxaccolega.co.uk${m[2]}` });
+      items.push({ name: m[1], url: `https://taxaccolega.co.uk${m[2]}` });
     }
     const activeRegex = /\{\s*label:\s*['"](.+?)['"]\s*,\s*active:\s*true/g;
     while ((m = activeRegex.exec(breadcrumbStr)) !== null) {
@@ -74,7 +74,7 @@ function processFile(filePath) {
     const itemRegex = /\{\s*label:\s*['"](.+?)['"]\s*,\s*link:\s*['"](.+?)['"]/g;
     let m;
     while ((m = itemRegex.exec(breadcrumbsArrayMatch[0])) !== null) {
-      items.push({ name: m[1], url: `https://www.taxaccolega.co.uk${m[2]}` });
+      items.push({ name: m[1], url: `https://taxaccolega.co.uk${m[2]}` });
     }
     const activeRegex = /\{\s*label:\s*['"](.+?)['"]\s*,\s*active:\s*true/g;
     while ((m = activeRegex.exec(breadcrumbsArrayMatch[0])) !== null) {

@@ -668,8 +668,8 @@ const ConsolidatedAccounts = () => {
 
       <Partners />
       <BreadcrumbJsonLd items={[
-        { name: 'Home', url: 'https://www.taxaccolega.co.uk' },
-        { name: 'Accounts', url: 'https://www.taxaccolega.co.uk/accounts/' },
+        { name: 'Home', url: 'https://taxaccolega.co.uk' },
+        { name: 'Accounts', url: 'https://taxaccolega.co.uk/accounts/' },
         { name: 'Consolidated Accounts', url: '' }
       ]} />
       {(() => { const faqData = faqJsonLd([

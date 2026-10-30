@@ -17,7 +17,7 @@ while ((match = itemRegex.exec(fileContent)) !== null) {
   let link = linkMatch[1].trim();
 
   let urlPath = link
-    .replace('https://www.taxaccolega.co.uk', '')
+    .replace('https://taxaccolega.co.uk', '')
     .replace('http://localhost:3000', '');
   if (!urlPath.startsWith('/')) urlPath = '/' + urlPath;
   if (urlPath.endsWith('/') && urlPath.length > 1) urlPath = urlPath.slice(0, -1);

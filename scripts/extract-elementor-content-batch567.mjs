@@ -23,7 +23,7 @@ const TARGET_PATHS = [
   '/team-member', '/testimonial',
 ];
 
-const DOMAIN = 'https://www.taxaccolega.co.uk';
+const DOMAIN = 'https://taxaccolega.co.uk';
 
 function stripHtml(html) {
   return (html || '')

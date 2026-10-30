@@ -20,7 +20,7 @@ const blogSeoData = fs.existsSync(blogSeoPath)
 
 const posts = blogsData.posts || [];
 const outputBlogDir = path.join(__dirname, '../src/app/blog');
-const SITE_URL = 'https://www.taxaccolega.co.uk';
+const SITE_URL = 'https://taxaccolega.co.uk';
 
 function stripHtml(html, maxLen = 160) {
   const text = String(html || '')
