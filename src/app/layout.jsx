@@ -30,6 +30,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en-GB" className={`${inter.variable} ${outfit.variable}`}>
       <head>
+        {/* Fallback: send www visitors to the non-www site (server 301 in .htaccess is the primary fix) */}
+        <script dangerouslySetInnerHTML={{ __html: "if(location.hostname==='www.taxaccolega.co.uk'){location.replace('https://taxaccolega.co.uk'+location.pathname+location.search+location.hash)}" }} />
         <Analytics />
         <meta name="google-site-verification" content="LVXkLoL3h9hRA_dNK2JMNtJEZTStezytJnyeB_7jwkA" />
       </head>
