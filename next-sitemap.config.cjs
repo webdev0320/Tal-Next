@@ -116,7 +116,6 @@ const ALLOWED_PATHS = [
   '/blog/amazon-online-sellers-vat-guide-uk/',
   '/blog/amazon-sellers-accounting-guide-uk/',
   '/blog/amazon-sellers-vat-guide-uk/',
-  '/blog/a-new-post-by-rizwan/',
   '/blog/as-a-landlord-how-will-i-be-taxed-on-the-rental-income-and-what-tax-deadlines-should-i-be-aware-of/',
   '/blog/ated-2025/',
   '/blog/best-accounting-firms-in-croydon/',
