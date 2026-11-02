@@ -23,29 +23,34 @@ const Blog = ({ posts = [], currentPage = 1, postsPerPage = 15 }) => {
           <div className="row g-4">
             {currentPosts.map((post, index) => (
               <div className="col-md-4" key={post.id || index}>
-                <div className="card h-100 border-0 shadow-sm hover-shadow transition" style={{ transition: 'all 0.3s' }}>
-                  <div className="position-relative overflow-hidden bg-light" style={{ height: '200px' }}>
-                    <img 
-                      src={post.featured_image_url || (post.content?.match(/<img[^>]+src="([^">]+)"/i)?.[1]) || '/images/logo/tal-logo.png'} 
-                      alt={post.title} 
-                      className="w-100 h-100 object-fit-cover" 
-                      style={{ objectFit: 'cover' }}
-                      onError={(e) => { e.target.onerror = null; e.target.src = '/images/logo/tal-logo.png'; }}
-                    />
+                <Link
+                  href={`/blog/${post.slug}`}
+                  className="text-decoration-none d-block h-100 blog-card-link"
+                >
+                  <div className="card h-100 border-0">
+                    <div className="position-relative overflow-hidden bg-light" style={{ height: '200px' }}>
+                      <img 
+                        src={post.featured_image_url || (post.content?.match(/<img[^>]+src="([^">]+)"/i)?.[1]) || '/images/logo/tal-logo.png'} 
+                        alt={post.title} 
+                        className="w-100 h-100 object-fit-cover" 
+                        style={{ objectFit: 'cover' }}
+                        onError={(e) => { e.target.onerror = null; e.target.src = '/images/logo/tal-logo.png'; }}
+                      />
+                    </div>
+                    <div className="card-body p-4 d-flex flex-column">
+                      <h5 className="card-title fw-bold text-brand-dark mb-3">{post.title}</h5>
+                      <p className="card-text text-muted small mb-4">{new Date(post.date).toLocaleDateString()}</p>
+                      <span className="text-brand-orange fw-bold mt-auto">Read More &raquo;</span>
+                    </div>
                   </div>
-                  <div className="card-body p-4">
-                    <h5 className="card-title fw-bold text-brand-dark mb-3">{post.title}</h5>
-                    <p className="card-text text-muted small mb-4">{new Date(post.date).toLocaleDateString()}</p>
-                    <Link href={`/blog/${post.slug}`} className="text-brand-orange fw-bold text-decoration-none">Read More &raquo;</Link>
-                  </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>
 
           {/* Pagination Controls */}
           <nav className="mt-5" aria-label="Blog pagination">
-            <ul className="pagination justify-content-center">
+            <ul className="pagination justify-content-center blog-pagination">
               {currentPage > 1 && (
                 <li className="page-item">
                   <Link

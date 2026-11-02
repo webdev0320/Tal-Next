@@ -20,12 +20,51 @@ function firstImage(html) {
   return String(html || '').match(/<img[^>]+src="([^">]+)"/i)?.[1] || null;
 }
 
+/**
+ * The WordPress export left page chrome inside many posts: whole embedded
+ * HTML documents (the ID verification popup form with its own <style> rules
+ * such as `button { color: #fff !important }`), share icons and popup buttons.
+ * Those leak into the site header and layout, so strip them at build time.
+ */
+function cleanContent(html) {
+  let c = String(html || '');
+  // Embedded documents: drop the ones that carry the popup form, unwrap the rest.
+  c = c.replace(/<!DOCTYPE html>[\s\S]*?<\/html>/gi, (doc) => {
+    if (/<form[\s>]|idForm|openPopupBtn|closePopupBtn/i.test(doc)) return '';
+    const body = doc.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+    return body ? body[1] : doc.replace(/<head[\s\S]*?<\/head>/gi, '');
+  });
+  return c
+    .replace(/<!DOCTYPE[^>]*>/gi, '')
+    .replace(/<head[\s\S]*?<\/head>/gi, '')
+    .replace(/<\/?(html|body)[^>]*>/gi, '')
+    .replace(/<(style|script|noscript)[^>]*>[\s\S]*?<\/\1>/gi, '')
+    .replace(/<form[\s\S]*?<\/form>/gi, '')
+    .replace(/<(link|meta)[^>]*>/gi, '')
+    .replace(/<button[^>]*id="?(openPopupBtn|closePopupBtn)"?[^>]*>[\s\S]*?<\/button>/gi, '')
+    .replace(/<a[^>]+href="https?:\/\/(www\.)?(facebook\.com|twitter\.com|plus\.google\.com)[^"]*"[^>]*>[\s\S]*?<\/a>/gi, '')
+    .replace(/\[wpforms[^\]]*\]/gi, '')
+    .replace(/Book a free Consultancy|Related Posts/gi, '')
+    // Close <strong>/<b>/<em> tags left open inside a heading, paragraph or list item,
+    // otherwise the browser carries the bold/italic on through the rest of the post.
+    .replace(/(<(h[1-6]|p|li)\b[^>]*>)([\s\S]*?)(<\/\2>)/gi, (m, open, tag, inner, close) => {
+      let fixed = inner;
+      for (const t of ['strong', 'b', 'em']) {
+        const opened = (inner.match(new RegExp(`<${t}(\\s[^>]*)?>`, 'gi')) || []).length;
+        const closed = (inner.match(new RegExp(`</${t}>`, 'gi')) || []).length;
+        if (opened > closed) fixed += `</${t}>`.repeat(opened - closed);
+      }
+      return open + fixed + close;
+    })
+    .trim();
+}
+
 function fromBlogsJson(post) {
   return {
     id: post.id,
     title: post.title,
     slug: post.slug,
-    content: post.content || '',
+    content: cleanContent(post.content),
     excerpt: post.excerpt || '',
     featured_image: post.featured_image_url || null,
     featured_image_alt: post.title,
