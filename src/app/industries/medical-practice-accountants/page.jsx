@@ -3,11 +3,7 @@ import { metadataForIndustrySlug } from '../../../lib/seo-generators';
 import { industryPages } from '../../../data/industryPages/index.js';
 
 export const metadata = {
-  ...metadataForIndustrySlug("medical-practice-accountants"),
-  robots: {
-    index: false,
-    follow: true,
-  },
+  ...metadataForIndustrySlug("medical-practice-accountants"),
 };
 
 export default function Page() {
