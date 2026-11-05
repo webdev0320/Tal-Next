@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use App\Support\Seo\SeoResolver;
 use App\Support\Seo\SeoSettings;
 use Illuminate\Database\Eloquent\Model;
@@ -37,7 +37,7 @@ class SitemapController extends Controller
         abort_unless($this->enabled(), 404);
 
         $maps = [
-            'post-sitemap.xml' => Post::published()->max('updated_at'),
+            'post-sitemap.xml' => BlogPost::published()->max('updated_at'),
             'page-sitemap.xml' => Page::published()->max('updated_at'),
         ];
         if (SeoSettings::get('sitemap_include_categories', true) && ! SeoSettings::get('categories_noindex')) {
@@ -58,7 +58,7 @@ class SitemapController extends Controller
     {
         abort_unless($this->enabled(), 404);
 
-        $posts = Post::published()->with('seo')->latest('updated_at')->get();
+        $posts = BlogPost::published()->with('seo')->latest('updated_at')->get();
         $blogUrl = SeoSettings::siteUrl(SeoSettings::get('blog_base', 'blog'));
 
         return $this->xml($this->urlset($posts, [['loc' => $blogUrl, 'lastmod' => $posts->max('updated_at')]]));

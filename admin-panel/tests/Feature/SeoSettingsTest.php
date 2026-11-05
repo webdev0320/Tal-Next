@@ -5,7 +5,7 @@ namespace Tests\Feature;
 use App\Filament\Pages\SeoSettingsPage;
 use App\Filament\Widgets\SeoOverview;
 use App\Filament\Widgets\StatsOverview;
-use App\Models\Post;
+use App\Models\BlogPost;
 use App\Models\User;
 use App\Support\Seo\SeoSettings;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -38,7 +38,7 @@ class SeoSettingsTest extends TestCase
 
         $this->assertSame('https://www.taxaccolega.co.uk', SeoSettings::get('site_url'));
 
-        $post = Post::create(['title' => 'Hello', 'slug' => 'hello', 'status' => 'published']);
+        $post = BlogPost::create(['title' => 'Hello', 'slug' => 'hello', 'status' => 'published']);
         $this->assertSame('Hello - Taxaccolega Blog', $post->resolvedSeo()['title']);
         $this->assertSame('https://www.taxaccolega.co.uk/blog/hello/', $post->resolvedSeo()['canonical']);
     }

@@ -36,6 +36,17 @@ class PagesTable
                     ->weight('medium')
                     ->formatStateUsing(fn (string $state, Page $record) => ($record->parent_id ? '— ' : '').$state)
                     ->description(fn (Page $record) => '/'.ltrim($record->frontendPath().'/', '/')),
+                TextColumn::make('url')
+                    ->label('URL')
+                    ->searchable()
+                    ->sortable()
+                    ->copyable()
+                    ->toggleable(),
+                TextColumn::make('type')
+                    ->badge()
+                    ->formatStateUsing(fn (?string $state) => Page::TYPES[$state] ?? $state)
+                    ->sortable()
+                    ->toggleable(),
                 TextColumn::make('status')
                     ->badge()
                     ->formatStateUsing(fn (string $state) => Page::STATUSES[$state] ?? Str::headline($state))
@@ -62,6 +73,7 @@ class PagesTable
             ])
             ->filters([
                 SelectFilter::make('status')->options(Page::STATUSES),
+                SelectFilter::make('type')->options(Page::TYPES),
                 SelectFilter::make('parent')->relationship('parent', 'title')->label('Parent page'),
                 SeoColumns::filter(),
             ])

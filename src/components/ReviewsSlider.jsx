@@ -20,7 +20,7 @@ export default function ReviewsSlider() {
   ];
 
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 bg-light" data-shortcode="reviews_slider">
         <div className="container py-4">
             <div className="text-center max-w-xl mx-auto mb-5">
                 <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Social Proof</span>

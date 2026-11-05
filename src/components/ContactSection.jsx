@@ -1,6 +1,6 @@
 export default function ContactSection() {
   return (
-    <section className="py-5">
+    <section className="py-5" data-shortcode="contact_section">
         <div className="container py-4">
             <div className="row g-5 align-items-stretch">
                 {/* Promise Column */}

@@ -51,7 +51,7 @@ return new class extends Migration
         });
 
         $now = now();
-        foreach (['pages' => 'App\\Models\\Page', 'posts' => 'App\\Models\\Post'] as $tableName => $class) {
+        foreach (['pages' => 'App\\Models\\Page', 'blog_posts' => 'App\\Models\\BlogPost'] as $tableName => $class) {
             if (! Schema::hasColumn($tableName, 'meta_title')) {
                 continue;
             }
@@ -87,7 +87,7 @@ return new class extends Migration
 
     public function down(): void
     {
-        foreach (['pages' => 'App\\Models\\Page', 'posts' => 'App\\Models\\Post'] as $tableName => $class) {
+        foreach (['pages' => 'App\\Models\\Page', 'blog_posts' => 'App\\Models\\BlogPost'] as $tableName => $class) {
             Schema::table($tableName, function (Blueprint $table) {
                 $table->string('meta_title')->nullable();
                 $table->text('meta_description')->nullable();

@@ -3,7 +3,7 @@
 namespace App\Filament\Resources;
 
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
@@ -106,7 +106,7 @@ class CombinedContentResource extends Resource
                     Action::make('edit')
                         ->label('Edit')
                         ->icon('heroicon-pencil')
-                        ->url(fn (mixed $record) => '/admin/' . ($record['type'] === 'page' ? 'pages' : 'posts') . '/' . ($record['id'] ?? ''))
+                        ->url(fn (mixed $record) => '/admin/' . ($record['type'] === 'page' ? 'pages' : 'blog-posts') . '/' . ($record['id'] ?? ''))
                         ->openUrlInNewTab(),
                     DeleteAction::make()
                         ->label('Delete')
@@ -115,7 +115,7 @@ class CombinedContentResource extends Resource
                         ->confirmButtonText('Delete')
                         ->action(fn (mixed $record) => match ($record['type']) {
                             'page' => Page::find($record['id'])?->delete(),
-                            'post' => Post::find($record['id'])?->delete(),
+                            'post' => BlogPost::find($record['id'])?->delete(),
                         }),
                 ]),
             ]);
@@ -137,7 +137,7 @@ class CombinedContentResource extends Resource
             ->from(['pages' => (new Page())->getQuery()->fromSql])
             ->union(
                 Builder::query()
-                    ->from(['posts' => (new Post())->getQuery()->fromSql])
+                    ->from(['posts' => (new BlogPost())->getQuery()->fromSql])
             )
             ->orderBy('title');
     }
@@ -145,7 +145,7 @@ class CombinedContentResource extends Resource
     public static function getNavigationBadge(): ?string
     {
         $pages = Page::count();
-        $posts = Post::count();
+        $posts = BlogPost::count();
 
         return "{$pages} Pages, {$posts} Posts";
     }

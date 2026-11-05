@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use App\Support\Seo\SeoResolver;
 use App\Support\Seo\SeoSettings;
 use Illuminate\Http\JsonResponse;
@@ -31,13 +31,15 @@ class ContentController extends Controller
 
     public function pages(Request $request): JsonResponse
     {
-        $pages = Page::published()->with(['seo', 'parent'])->orderBy('sort_order')->orderBy('title')->get();
+        $pages = Page::published()->with(['seo', 'parent'])
+            ->when($request->boolean('full'), fn ($q) => $q->with('pageContent'))
+            ->orderBy('sort_order')->orderBy('title')->get();
         // full=1 adds content + resolved SEO (see posts()).
         $full = $request->boolean('full');
 
         return $this->json([
             'data' => $pages->map(fn (Page $p) => $full
-                ? array_merge($this->pageSummary($p), ['content' => $p->content, 'seo' => $p->resolvedSeo()])
+                ? array_merge($this->pageSummary($p), ['content' => $p->content, 'json_ld' => $p->pageContent?->json_ld ?? [], 'seo' => $p->resolvedSeo()])
                 : $this->pageSummary($p)
             )->values(),
         ]);
@@ -47,18 +49,20 @@ class ContentController extends Controller
     public function page(string $path): JsonResponse
     {
         $path = trim($path, '/');
-        $slug = Str::afterLast($path, '/') ?: 'home';
+        $query = fn () => Page::published()->with(['seo', 'parent', 'pageContent', 'children' => fn ($q) => $q->published()]);
 
-        $page = Page::published()->with(['seo', 'parent', 'children' => fn ($q) => $q->published()])
-            ->where('slug', $slug)
-            ->first();
+        // Exact URL match first; fall back to a bare slug for pages without a stored url.
+        $page = $query()->where('url', '/'.$path)->first()
+            ?? $query()->where('slug', Str::afterLast($path, '/') ?: 'home')->get()
+                ->first(fn (Page $p) => $path === '' || $p->frontendPath() === $path || $p->slug === $path);
 
-        if (! $page || ($path !== '' && $page->frontendPath() !== $path && $page->slug !== $path)) {
+        if (! $page) {
             return $this->json(['message' => 'Page not found.'], 404);
         }
 
         return $this->json(['data' => array_merge($this->pageSummary($page), [
-            'content' => $page->content,
+            'content' => $page->content,          // HTML; may contain [shortcodes]
+            'json_ld' => $page->pageContent?->json_ld ?? [],
             'children' => $page->children->map(fn (Page $c) => $this->pageSummary($c))->values(),
             'seo' => $page->resolvedSeo(),
         ])]);
@@ -86,7 +90,8 @@ class ContentController extends Controller
     {
         $perPage = min(100, max(1, (int) $request->integer('per_page', 15)));
 
-        $query = Post::published()
+        $query = BlogPost::published()
+            ->where('kind', 'post')
             ->with(['seo', 'category', 'author'])
             ->when($request->filled('category'), fn ($q) => $q->whereHas('category', fn ($c) => $c->where('slug', $request->string('category'))))
             ->when($request->boolean('featured'), fn ($q) => $q->where('is_featured', true))
@@ -104,7 +109,7 @@ class ContentController extends Controller
             $full = $request->boolean('full');
 
             return $this->json([
-                'data' => $posts->map(fn (Post $p) => $full
+                'data' => $posts->map(fn (BlogPost $p) => $full
                     ? array_merge($this->postSummary($p), ['content' => $p->content, 'seo' => $p->resolvedSeo()])
                     : $this->postSummary($p)
                 )->values(),
@@ -115,7 +120,7 @@ class ContentController extends Controller
         $paginator = $query->paginate($perPage)->withQueryString();
 
         return $this->json([
-            'data' => collect($paginator->items())->map(fn (Post $p) => $this->postSummary($p))->values(),
+            'data' => collect($paginator->items())->map(fn (BlogPost $p) => $this->postSummary($p))->values(),
             'meta' => [
                 'current_page' => $paginator->currentPage(),
                 'last_page' => $paginator->lastPage(),
@@ -128,30 +133,30 @@ class ContentController extends Controller
 
     public function post(string $slug): JsonResponse
     {
-        $post = Post::published()->with(['seo', 'category', 'author'])->where('slug', $slug)->first();
+        $post = BlogPost::published()->where('kind', 'post')->with(['seo', 'category', 'author'])->where('slug', $slug)->first();
 
         if (! $post) {
-            return $this->json(['message' => 'Post not found.'], 404);
+            return $this->json(['message' => 'BlogPost not found.'], 404);
         }
 
-        $related = Post::published()->with(['category'])
+        $related = BlogPost::published()->where('kind', 'post')->with(['category'])
             ->whereKeyNot($post->id)
             ->when($post->category_id, fn ($q) => $q->where('category_id', $post->category_id))
             ->latest('published_at')->limit(3)->get();
 
-        $previous = Post::published()->where('published_at', '<', $post->published_at)->latest('published_at')->first(['id', 'title', 'slug']);
-        $next = Post::published()->where('published_at', '>', $post->published_at)->oldest('published_at')->first(['id', 'title', 'slug']);
+        $previous = BlogPost::published()->where('kind', 'post')->where('published_at', '<', $post->published_at)->latest('published_at')->first(['id', 'title', 'slug']);
+        $next = BlogPost::published()->where('kind', 'post')->where('published_at', '>', $post->published_at)->oldest('published_at')->first(['id', 'title', 'slug']);
 
         return $this->json(['data' => array_merge($this->postSummary($post), [
             'content' => $post->content,
             'seo' => $post->resolvedSeo(),
-            'related' => $related->map(fn (Post $p) => $this->postSummary($p))->values(),
+            'related' => $related->map(fn (BlogPost $p) => $this->postSummary($p))->values(),
             'previous' => $previous ? ['title' => $previous->title, 'slug' => $previous->slug, 'path' => '/'.$previous->frontendPath().'/'] : null,
             'next' => $next ? ['title' => $next->title, 'slug' => $next->slug, 'path' => '/'.$next->frontendPath().'/'] : null,
         ])]);
     }
 
-    protected function postSummary(Post $post): array
+    protected function postSummary(BlogPost $post): array
     {
         $resolver = SeoResolver::for($post);
 

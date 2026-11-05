@@ -43,7 +43,7 @@ return [
     | Each model must use the HasMenuItems trait.
     */
     'model_sources' => [
-        // \App\Models\Post::class,
+        // \App\Models\BlogPost::class,
         // \App\Models\Page::class,
     ],
 

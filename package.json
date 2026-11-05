@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build --webpack && node scripts/copy-api.mjs && node scripts/inline-css.mjs",
+    "build": "next build --webpack && node scripts/copy-api.mjs",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "blog:sync": "node scripts/export-blog-posts.mjs"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,4573 @@
+[
+  {
+    "url": "/",
+    "slug": "home",
+    "title": "Chartered Accountants London | Tax & Accounting Firm Online UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/about-us",
+    "slug": "about-us",
+    "title": "About Us | London Chartered Accountants",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/accounts",
+    "slug": "accounts",
+    "title": "Online Accountants | Cloud Based Accounting Services Packages UK",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/annual-accounts",
+    "slug": "annual-accounts",
+    "title": "Annual Accounts Preparation & Filing UK",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/auto-enrolment-pension-contributions",
+    "slug": "auto-enrolment-pension-contributions",
+    "title": "Auto Enrolment Pension UK | Contributions and Rates - Taxaccolega",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/bookkeeping",
+    "slug": "bookkeeping",
+    "title": "Bookkeeping",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/bookkeeping-services",
+    "slug": "bookkeeping-services",
+    "title": "Bookkeeping Services, Small and Medium Businesses - Taxaccolega",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-barking",
+    "slug": "bookkeeping-services-barking",
+    "title": "Bookkeeping Services Barking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-beckenham",
+    "slug": "bookkeeping-services-beckenham",
+    "title": "Bookkeeping Services Beckenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-bexley",
+    "slug": "bookkeeping-services-bexley",
+    "title": "Bookkeeping Services Bexley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-brixton",
+    "slug": "bookkeeping-services-brixton",
+    "title": "Bookkeeping Services Brixton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-bromley",
+    "slug": "bookkeeping-services-bromley",
+    "title": "Bookkeeping Services Bromley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-dartford",
+    "slug": "bookkeeping-services-dartford",
+    "title": "Bookkeeping Services Dartford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-east-london",
+    "slug": "bookkeeping-services-east-london",
+    "title": "Bookkeeping Services East London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-enfield",
+    "slug": "bookkeeping-services-enfield",
+    "title": "Bookkeeping Services Enfield",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-erith",
+    "slug": "bookkeeping-services-erith",
+    "title": "Bookkeeping Services Erith",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-aidgate",
+    "slug": "bookkeeping-services-for-small-business-aidgate",
+    "title": "Bookkeeping Services For Small Business Aidgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-aldgate-east",
+    "slug": "bookkeeping-services-for-small-business-aldgate-east",
+    "title": "Bookkeeping Services For Small Business Aldgate East",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-angel",
+    "slug": "bookkeeping-services-for-small-business-angel",
+    "title": "Bookkeeping Services For Small Business Angel",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-baker-street",
+    "slug": "bookkeeping-services-for-small-business-baker-street",
+    "title": "Bookkeeping Services For Small Business Baker Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-barbican",
+    "slug": "bookkeeping-services-for-small-business-barbican",
+    "title": "Bookkeeping Services For Small Business Barbican",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-bayswater",
+    "slug": "bookkeeping-services-for-small-business-bayswater",
+    "title": "Bookkeeping Services For Small Business Bayswater",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-blackfriars",
+    "slug": "bookkeeping-services-for-small-business-blackfriars",
+    "title": "Bookkeeping Services For Small Business Blackfriars",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-bond-street",
+    "slug": "bookkeeping-services-for-small-business-bond-street",
+    "title": "Bookkeeping Services For Small Business Bond Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-borough",
+    "slug": "bookkeeping-services-for-small-business-borough",
+    "title": "Bookkeeping Services For Small Business Borough",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-canan-street",
+    "slug": "bookkeeping-services-for-small-business-canan-street",
+    "title": "Bookkeeping Services For Small Business Canan Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-chancery-lane",
+    "slug": "bookkeeping-services-for-small-business-chancery-lane",
+    "title": "Bookkeeping Services For Small Business Chancery Lane",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-charing-cross",
+    "slug": "bookkeeping-services-for-small-business-charing-cross",
+    "title": "Bookkeeping Services For Small Business Charing Cross",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-convent-garden",
+    "slug": "bookkeeping-services-for-small-business-convent-garden",
+    "title": "Bookkeeping Services For Small Business Convent Garden",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-edgeware-road",
+    "slug": "bookkeeping-services-for-small-business-edgeware-road",
+    "title": "Bookkeeping Services For Small Business Edgeware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-edgware-road",
+    "slug": "bookkeeping-services-for-small-business-edgware-road",
+    "title": "Bookkeeping Services For Small Business Edgware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-embankment",
+    "slug": "bookkeeping-services-for-small-business-embankment",
+    "title": "Bookkeeping Services For Small Business Embankment",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-euston",
+    "slug": "bookkeeping-services-for-small-business-euston",
+    "title": "Bookkeeping Services For Small Business Euston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-euston-square",
+    "slug": "bookkeeping-services-for-small-business-euston-square",
+    "title": "Bookkeeping Services For Small Business Euston Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-farringdon",
+    "slug": "bookkeeping-services-for-small-business-farringdon",
+    "title": "Bookkeeping Services For Small Business Farringdon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-gloucester-road",
+    "slug": "bookkeeping-services-for-small-business-gloucester-road",
+    "title": "Bookkeeping Services For Small Business Gloucester Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-goodge-street",
+    "slug": "bookkeeping-services-for-small-business-goodge-street",
+    "title": "Bookkeeping Services For Small Business Goodge Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-great-portland-street",
+    "slug": "bookkeeping-services-for-small-business-great-portland-street",
+    "title": "Bookkeeping Services For Small Business Great Portland Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-green-park",
+    "slug": "bookkeeping-services-for-small-business-green-park",
+    "title": "Bookkeeping Services For Small Business Green Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-high-street",
+    "slug": "bookkeeping-services-for-small-business-high-street",
+    "title": "Bookkeeping Services For Small Business High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-high-street-kensington",
+    "slug": "bookkeeping-services-for-small-business-high-street-kensington",
+    "title": "Bookkeeping Services For Small Business High Street Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-holbom",
+    "slug": "bookkeeping-services-for-small-business-holbom",
+    "title": "Bookkeeping Services For Small Business Holbom",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-hoxton",
+    "slug": "bookkeeping-services-for-small-business-hoxton",
+    "title": "Bookkeeping Services For Small Business Hoxton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-hyde-park-corner",
+    "slug": "bookkeeping-services-for-small-business-hyde-park-corner",
+    "title": "Bookkeeping Services For Small Business Hyde Park Corner",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-kings-cross-st-pancras",
+    "slug": "bookkeeping-services-for-small-business-kings-cross-st-pancras",
+    "title": "Bookkeeping Services For Small Business Kings Cross St Pancras",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-knightsbridge",
+    "slug": "bookkeeping-services-for-small-business-knightsbridge",
+    "title": "Bookkeeping Services For Small Business Knightsbridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-lambeth-north",
+    "slug": "bookkeeping-services-for-small-business-lambeth-north",
+    "title": "Bookkeeping Services For Small Business Lambeth North",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-lancaster-gate",
+    "slug": "bookkeeping-services-for-small-business-lancaster-gate",
+    "title": "Bookkeeping Services For Small Business Lancaster Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-leiscester-square",
+    "slug": "bookkeeping-services-for-small-business-leiscester-square",
+    "title": "Bookkeeping Services For Small Business Leiscester Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-liverpool-street",
+    "slug": "bookkeeping-services-for-small-business-liverpool-street",
+    "title": "Bookkeeping Services For Small Business Liverpool Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-london-bridge",
+    "slug": "bookkeeping-services-for-small-business-london-bridge",
+    "title": "Bookkeeping Services For Small Business London Bridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-mansion-house",
+    "slug": "bookkeeping-services-for-small-business-mansion-house",
+    "title": "Bookkeeping Services For Small Business Mansion House",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-marble-arch",
+    "slug": "bookkeeping-services-for-small-business-marble-arch",
+    "title": "Bookkeeping Services For Small Business Marble Arch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-marylebone",
+    "slug": "bookkeeping-services-for-small-business-marylebone",
+    "title": "Bookkeeping Services For Small Business Marylebone",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-monument",
+    "slug": "bookkeeping-services-for-small-business-monument",
+    "title": "Bookkeeping Services For Small Business Monument",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-moorgate",
+    "slug": "bookkeeping-services-for-small-business-moorgate",
+    "title": "Bookkeeping Services For Small Business Moorgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-nothing-hill-gate",
+    "slug": "bookkeeping-services-for-small-business-nothing-hill-gate",
+    "title": "Bookkeeping Services For Small Business Nothing Hill Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-oxford-circus",
+    "slug": "bookkeeping-services-for-small-business-oxford-circus",
+    "title": "Bookkeeping Services For Small Business Oxford Circus",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-paddington",
+    "slug": "bookkeeping-services-for-small-business-paddington",
+    "title": "Bookkeeping Services For Small Business Paddington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-picadility-road",
+    "slug": "bookkeeping-services-for-small-business-picadility-road",
+    "title": "Bookkeeping Services For Small Business Picadility Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-pimlico",
+    "slug": "bookkeeping-services-for-small-business-pimlico",
+    "title": "Bookkeeping Services For Small Business Pimlico",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-queensway",
+    "slug": "bookkeeping-services-for-small-business-queensway",
+    "title": "Bookkeeping Services For Small Business Queensway",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-regents-park",
+    "slug": "bookkeeping-services-for-small-business-regents-park",
+    "title": "Bookkeeping Services For Small Business Regents Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-rusell-square",
+    "slug": "bookkeeping-services-for-small-business-rusell-square",
+    "title": "Bookkeeping Services For Small Business Rusell Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-shoreditch-high-street",
+    "slug": "bookkeeping-services-for-small-business-shoreditch-high-street",
+    "title": "Bookkeeping Services For Small Business Shoreditch High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-solane-square",
+    "slug": "bookkeeping-services-for-small-business-solane-square",
+    "title": "Bookkeeping Services For Small Business Solane Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-south-kensington",
+    "slug": "bookkeeping-services-for-small-business-south-kensington",
+    "title": "Bookkeeping Services For Small Business South Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-southwark",
+    "slug": "bookkeeping-services-for-small-business-southwark",
+    "title": "Bookkeeping Services For Small Business Southwark",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-st-james-park",
+    "slug": "bookkeeping-services-for-small-business-st-james-park",
+    "title": "Bookkeeping Services For Small Business St James Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-st-pauls-bank",
+    "slug": "bookkeeping-services-for-small-business-st-pauls-bank",
+    "title": "Bookkeeping Services For Small Business St Pauls Bank",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-temple",
+    "slug": "bookkeeping-services-for-small-business-temple",
+    "title": "Bookkeeping Services For Small Business Temple",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-tottenham-court-road",
+    "slug": "bookkeeping-services-for-small-business-tottenham-court-road",
+    "title": "Bookkeeping Services For Small Business Tottenham Court Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-tower-hill",
+    "slug": "bookkeeping-services-for-small-business-tower-hill",
+    "title": "Bookkeeping Services For Small Business Tower Hill",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-warren-street",
+    "slug": "bookkeeping-services-for-small-business-warren-street",
+    "title": "Bookkeeping Services For Small Business Warren Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-waterloo",
+    "slug": "bookkeeping-services-for-small-business-waterloo",
+    "title": "Bookkeeping Services For Small Business Waterloo",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-for-small-business-westminster",
+    "slug": "bookkeeping-services-for-small-business-westminster",
+    "title": "Bookkeeping Services For Small Business Westminster",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-guildford",
+    "slug": "bookkeeping-services-guildford",
+    "title": "Bookkeeping Services Guildford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-harlow",
+    "slug": "bookkeeping-services-harlow",
+    "title": "Bookkeeping Services Harlow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-harrow",
+    "slug": "bookkeeping-services-harrow",
+    "title": "Bookkeeping Services Harrow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-hornchruch",
+    "slug": "bookkeeping-services-hornchruch",
+    "title": "Bookkeeping Services Hornchruch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-hounslow",
+    "slug": "bookkeeping-services-hounslow",
+    "title": "Bookkeeping Services Hounslow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-kingston",
+    "slug": "bookkeeping-services-kingston",
+    "title": "Bookkeeping Services Kingston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-romford",
+    "slug": "bookkeeping-services-romford",
+    "title": "Bookkeeping Services Romford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-south-london",
+    "slug": "bookkeeping-services-south-london",
+    "title": "Bookkeeping Services South London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-staines",
+    "slug": "bookkeeping-services-staines",
+    "title": "Bookkeeping Services Staines",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-streatham",
+    "slug": "bookkeeping-services-streatham",
+    "title": "Bookkeeping Services Streatham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-sutton",
+    "slug": "bookkeeping-services-sutton",
+    "title": "Bookkeeping Services Sutton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-thornton-heath",
+    "slug": "bookkeeping-services-thornton-heath",
+    "title": "Bookkeeping Services Thornton Heath",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-twickenham",
+    "slug": "bookkeeping-services-twickenham",
+    "title": "Bookkeeping Services Twickenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-watford",
+    "slug": "bookkeeping-services-watford",
+    "title": "Bookkeeping Services Watford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-wimbledon",
+    "slug": "bookkeeping-services-wimbledon",
+    "title": "Bookkeeping Services Wimbledon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/bookkeeping-services-woking",
+    "slug": "bookkeeping-services-woking",
+    "title": "Bookkeeping Services Woking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/cash-flow-forecasting",
+    "slug": "cash-flow-forecasting",
+    "title": "Cash Flow Forecasting UK | Projections & Management - Taxaccolega",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/consolidated-accounts",
+    "slug": "consolidated-accounts",
+    "title": "Consolidated Accounts UK | Financial Statements - Taxaccolega",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/financial-forecasting",
+    "slug": "financial-forecasting",
+    "title": "Financial Forecasting UK | Projections & Business Planning - Taxaccolega",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/hmrc-self-assessment-tax-returns-accountant",
+    "slug": "hmrc-self-assessment-tax-returns-accountant",
+    "title": "Self Assessment Tax Return Accountants UK",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/management-accounts",
+    "slug": "management-accounts",
+    "title": "Management Accounts UK | Reporting & Business Insights - Taxaccolega",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/payroll-services",
+    "slug": "payroll-services",
+    "title": "Payroll Services UK | HMRC PAYE & RTI Filing - Taxaccolega",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/self-assessment",
+    "slug": "self-assessment",
+    "title": "Self Assessment",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-aidgate",
+    "slug": "self-assessment-tax-return-accountant-aidgate",
+    "title": "Self Assessment Tax Return Accountant Aidgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-aldgate-east",
+    "slug": "self-assessment-tax-return-accountant-aldgate-east",
+    "title": "Self Assessment Tax Return Accountant Aldgate East",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-ambeth-north",
+    "slug": "self-assessment-tax-return-accountant-ambeth-north",
+    "title": "Self Assessment Tax Return Accountant Ambeth North",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-angel",
+    "slug": "self-assessment-tax-return-accountant-angel",
+    "title": "Self Assessment Tax Return Accountant Angel",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-baker-street",
+    "slug": "self-assessment-tax-return-accountant-baker-street",
+    "title": "Self Assessment Tax Return Accountant Baker Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-barbican",
+    "slug": "self-assessment-tax-return-accountant-barbican",
+    "title": "Self Assessment Tax Return Accountant Barbican",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-bayswater",
+    "slug": "self-assessment-tax-return-accountant-bayswater",
+    "title": "Self Assessment Tax Return Accountant Bayswater",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-beckenham",
+    "slug": "self-assessment-tax-return-accountant-beckenham",
+    "title": "Self Assessment Tax Return Accountant Beckenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-bexley",
+    "slug": "self-assessment-tax-return-accountant-bexley",
+    "title": "Self Assessment Tax Return Accountant Bexley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-blackfriars",
+    "slug": "self-assessment-tax-return-accountant-blackfriars",
+    "title": "Self Assessment Tax Return Accountant Blackfriars",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-bond-street",
+    "slug": "self-assessment-tax-return-accountant-bond-street",
+    "title": "Self Assessment Tax Return Accountant Bond Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-borough",
+    "slug": "self-assessment-tax-return-accountant-borough",
+    "title": "Self Assessment Tax Return Accountant Borough",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-brixton",
+    "slug": "self-assessment-tax-return-accountant-brixton",
+    "title": "Self Assessment Tax Return Accountant Brixton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-bromley",
+    "slug": "self-assessment-tax-return-accountant-bromley",
+    "title": "Self Assessment Tax Return Accountant Bromley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-canan-street",
+    "slug": "self-assessment-tax-return-accountant-canan-street",
+    "title": "Self Assessment Tax Return Accountant Canan Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-chancery-lane",
+    "slug": "self-assessment-tax-return-accountant-chancery-lane",
+    "title": "Self Assessment Tax Return Accountant Chancery Lane",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-charing-cross",
+    "slug": "self-assessment-tax-return-accountant-charing-cross",
+    "title": "Self Assessment Tax Return Accountant Charing Cross",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-convent-garden",
+    "slug": "self-assessment-tax-return-accountant-convent-garden",
+    "title": "Self Assessment Tax Return Accountant Convent Garden",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-dartford",
+    "slug": "self-assessment-tax-return-accountant-dartford",
+    "title": "Self Assessment Tax Return Accountant Dartford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-east-london",
+    "slug": "self-assessment-tax-return-accountant-east-london",
+    "title": "Self Assessment Tax Return Accountant East London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-edgeware-road",
+    "slug": "self-assessment-tax-return-accountant-edgeware-road",
+    "title": "Self Assessment Tax Return Accountant Edgeware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-edgware-road",
+    "slug": "self-assessment-tax-return-accountant-edgware-road",
+    "title": "Self Assessment Tax Return Accountant Edgware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-embankment",
+    "slug": "self-assessment-tax-return-accountant-embankment",
+    "title": "Self Assessment Tax Return Accountant Embankment",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-enfield",
+    "slug": "self-assessment-tax-return-accountant-enfield",
+    "title": "Self Assessment Tax Return Accountant Enfield",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-erith",
+    "slug": "self-assessment-tax-return-accountant-erith",
+    "title": "Self Assessment Tax Return Accountant Erith",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-euston",
+    "slug": "self-assessment-tax-return-accountant-euston",
+    "title": "Self Assessment Tax Return Accountant Euston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-euston-square",
+    "slug": "self-assessment-tax-return-accountant-euston-square",
+    "title": "Self Assessment Tax Return Accountant Euston Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-farringdon",
+    "slug": "self-assessment-tax-return-accountant-farringdon",
+    "title": "Self Assessment Tax Return Accountant Farringdon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-gloucester-road",
+    "slug": "self-assessment-tax-return-accountant-gloucester-road",
+    "title": "Self Assessment Tax Return Accountant Gloucester Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-goodge-street",
+    "slug": "self-assessment-tax-return-accountant-goodge-street",
+    "title": "Self Assessment Tax Return Accountant Goodge Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-great-portland-street",
+    "slug": "self-assessment-tax-return-accountant-great-portland-street",
+    "title": "Self Assessment Tax Return Accountant Great Portland Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-green-park",
+    "slug": "self-assessment-tax-return-accountant-green-park",
+    "title": "Self Assessment Tax Return Accountant Green Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-guildford",
+    "slug": "self-assessment-tax-return-accountant-guildford",
+    "title": "Self Assessment Tax Return Accountant Guildford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-harlow",
+    "slug": "self-assessment-tax-return-accountant-harlow",
+    "title": "Self Assessment Tax Return Accountant Harlow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-harrow",
+    "slug": "self-assessment-tax-return-accountant-harrow",
+    "title": "Self Assessment Tax Return Accountant Harrow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-high-street",
+    "slug": "self-assessment-tax-return-accountant-high-street",
+    "title": "Self Assessment Tax Return Accountant High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-high-street-kensington",
+    "slug": "self-assessment-tax-return-accountant-high-street-kensington",
+    "title": "Self Assessment Tax Return Accountant High Street Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-holbom",
+    "slug": "self-assessment-tax-return-accountant-holbom",
+    "title": "Self Assessment Tax Return Accountant Holbom",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-hornchurch",
+    "slug": "self-assessment-tax-return-accountant-hornchurch",
+    "title": "Self Assessment Tax Return Accountant Hornchurch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-hounslow",
+    "slug": "self-assessment-tax-return-accountant-hounslow",
+    "title": "Self Assessment Tax Return Accountant Hounslow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-hoxton",
+    "slug": "self-assessment-tax-return-accountant-hoxton",
+    "title": "Self Assessment Tax Return Accountant Hoxton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-hyde-park-corner",
+    "slug": "self-assessment-tax-return-accountant-hyde-park-corner",
+    "title": "Self Assessment Tax Return Accountant Hyde Park Corner",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-kings-cross-st-pancras",
+    "slug": "self-assessment-tax-return-accountant-kings-cross-st-pancras",
+    "title": "Self Assessment Tax Return Accountant Kings Cross St Pancras",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-kingston",
+    "slug": "self-assessment-tax-return-accountant-kingston",
+    "title": "Self Assessment Tax Return Accountant Kingston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-knightsbridge",
+    "slug": "self-assessment-tax-return-accountant-knightsbridge",
+    "title": "Self Assessment Tax Return Accountant Knightsbridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-lancaster-gate",
+    "slug": "self-assessment-tax-return-accountant-lancaster-gate",
+    "title": "Self Assessment Tax Return Accountant Lancaster Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-leiscester-square",
+    "slug": "self-assessment-tax-return-accountant-leiscester-square",
+    "title": "Self Assessment Tax Return Accountant Leiscester Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-liverpool-street",
+    "slug": "self-assessment-tax-return-accountant-liverpool-street",
+    "title": "Self Assessment Tax Return Accountant Liverpool Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-london-bridge",
+    "slug": "self-assessment-tax-return-accountant-london-bridge",
+    "title": "Self Assessment Tax Return Accountant London Bridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-mansion-house",
+    "slug": "self-assessment-tax-return-accountant-mansion-house",
+    "title": "Self Assessment Tax Return Accountant Mansion House",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-marble-arch",
+    "slug": "self-assessment-tax-return-accountant-marble-arch",
+    "title": "Self Assessment Tax Return Accountant Marble Arch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-marylebone",
+    "slug": "self-assessment-tax-return-accountant-marylebone",
+    "title": "Self Assessment Tax Return Accountant Marylebone",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-monument",
+    "slug": "self-assessment-tax-return-accountant-monument",
+    "title": "Self Assessment Tax Return Accountant Monument",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-moorgate",
+    "slug": "self-assessment-tax-return-accountant-moorgate",
+    "title": "Self Assessment Tax Return Accountant Moorgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-nothing-hill-gate",
+    "slug": "self-assessment-tax-return-accountant-nothing-hill-gate",
+    "title": "Self Assessment Tax Return Accountant Nothing Hill Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-oxford-circus",
+    "slug": "self-assessment-tax-return-accountant-oxford-circus",
+    "title": "Self Assessment Tax Return Accountant Oxford Circus",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-paddington",
+    "slug": "self-assessment-tax-return-accountant-paddington",
+    "title": "Self Assessment Tax Return Accountant Paddington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-picadility-road",
+    "slug": "self-assessment-tax-return-accountant-picadility-road",
+    "title": "Self Assessment Tax Return Accountant Picadility Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-pimlico",
+    "slug": "self-assessment-tax-return-accountant-pimlico",
+    "title": "Self Assessment Tax Return Accountant Pimlico",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-queensway",
+    "slug": "self-assessment-tax-return-accountant-queensway",
+    "title": "Self Assessment Tax Return Accountant Queensway",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-regents-park",
+    "slug": "self-assessment-tax-return-accountant-regents-park",
+    "title": "Self Assessment Tax Return Accountant Regents Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-romford",
+    "slug": "self-assessment-tax-return-accountant-romford",
+    "title": "Self Assessment Tax Return Accountant Romford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-rusell-square",
+    "slug": "self-assessment-tax-return-accountant-rusell-square",
+    "title": "Self Assessment Tax Return Accountant Rusell Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-shoreditch-high-street",
+    "slug": "self-assessment-tax-return-accountant-shoreditch-high-street",
+    "title": "Self Assessment Tax Return Accountant Shoreditch High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-solane-square",
+    "slug": "self-assessment-tax-return-accountant-solane-square",
+    "title": "Self Assessment Tax Return Accountant Solane Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-south-kensington",
+    "slug": "self-assessment-tax-return-accountant-south-kensington",
+    "title": "Self Assessment Tax Return Accountant South Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-south-london",
+    "slug": "self-assessment-tax-return-accountant-south-london",
+    "title": "Self Assessment Tax Return Accountant South London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-southwark",
+    "slug": "self-assessment-tax-return-accountant-southwark",
+    "title": "Self Assessment Tax Return Accountant Southwark",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-st-james-park",
+    "slug": "self-assessment-tax-return-accountant-st-james-park",
+    "title": "Self Assessment Tax Return Accountant St James Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-st-pauls-bank",
+    "slug": "self-assessment-tax-return-accountant-st-pauls-bank",
+    "title": "Self Assessment Tax Return Accountant St Pauls Bank",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-staines",
+    "slug": "self-assessment-tax-return-accountant-staines",
+    "title": "Self Assessment Tax Return Accountant Staines",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-streatham",
+    "slug": "self-assessment-tax-return-accountant-streatham",
+    "title": "Self Assessment Tax Return Accountant Streatham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-sutton",
+    "slug": "self-assessment-tax-return-accountant-sutton",
+    "title": "Self Assessment Tax Return Accountant Sutton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-temple",
+    "slug": "self-assessment-tax-return-accountant-temple",
+    "title": "Self Assessment Tax Return Accountant Temple",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-thornton-heath",
+    "slug": "self-assessment-tax-return-accountant-thornton-heath",
+    "title": "Self Assessment Tax Return Accountant Thornton Heath",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-tottenham-court-road",
+    "slug": "self-assessment-tax-return-accountant-tottenham-court-road",
+    "title": "Self Assessment Tax Return Accountant Tottenham Court Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-tower-hill",
+    "slug": "self-assessment-tax-return-accountant-tower-hill",
+    "title": "Self Assessment Tax Return Accountant Tower Hill",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-twickenham",
+    "slug": "self-assessment-tax-return-accountant-twickenham",
+    "title": "Self Assessment Tax Return Accountant Twickenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-warren-street",
+    "slug": "self-assessment-tax-return-accountant-warren-street",
+    "title": "Self Assessment Tax Return Accountant Warren Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-waterloo",
+    "slug": "self-assessment-tax-return-accountant-waterloo",
+    "title": "Self Assessment Tax Return Accountant Waterloo",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-watford",
+    "slug": "self-assessment-tax-return-accountant-watford",
+    "title": "Self Assessment Tax Return Accountant Watford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-westminster",
+    "slug": "self-assessment-tax-return-accountant-westminster",
+    "title": "Self Assessment Tax Return Accountant Westminster",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-wimbledon",
+    "slug": "self-assessment-tax-return-accountant-wimbledon",
+    "title": "Self Assessment Tax Return Accountant Wimbledon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountant-woking",
+    "slug": "self-assessment-tax-return-accountant-woking",
+    "title": "Self Assessment Tax Return Accountant Woking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountants",
+    "slug": "self-assessment-tax-return-accountants",
+    "title": "Self Assessment Tax Return Accountants",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-return-accountants-barking",
+    "slug": "self-assessment-tax-return-accountants-barking",
+    "title": "Self Assessment Tax Return Accountants Barking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/self-assessment-tax-returns",
+    "slug": "self-assessment-tax-returns",
+    "title": "Self Assessment Tax Returns",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/accounts/statutory-accounts",
+    "slug": "statutory-accounts",
+    "title": "Statutory Accounts UK | Preparation, Filing & Reporting - Taxaccolega",
+    "type": "account",
+    "status": "published"
+  },
+  {
+    "url": "/amazon-seller",
+    "slug": "amazon-seller",
+    "title": "Amazon Seller Accountants UK | FBA Tax & VAT",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/anna",
+    "slug": "anna",
+    "title": "ANNA Money Business Account | UK Business Banking",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/autumn-budget-2024",
+    "slug": "autumn-budget-2024",
+    "title": "Autumn Budget 2024 | Key Tax Changes for UK Businesses",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/awards-accolades-accreditations",
+    "slug": "awards-accolades-accreditations",
+    "title": "Awards, Accolades & Accreditations | Taxaccolega",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/bank",
+    "slug": "bank",
+    "title": "Bank",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/banks",
+    "slug": "banks",
+    "title": "Banks",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/blog-old",
+    "slug": "blog-old",
+    "title": "Blog Old",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/btc-software",
+    "slug": "btc-software",
+    "title": "BTC Software UK | Tax & Accounts Software",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/business-plan",
+    "slug": "business-plan",
+    "title": "Business Plan Services | Financial Projections UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/business-start-up",
+    "slug": "business-start-up",
+    "title": "Business Start-Up Accountants UK | New Company Support",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/company-formation",
+    "slug": "company-formation",
+    "title": "Company Formation Services UK | Register a Limited Company",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/company-secretarial",
+    "slug": "company-secretarial",
+    "title": "Company Secretarial Services UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/construction-builders",
+    "slug": "construction-builders",
+    "title": "Accountants for Builders & Construction UK | CIS Tax",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/construction-industry-scheme",
+    "slug": "construction-industry-scheme",
+    "title": "Construction Industry Scheme (CIS) Accountants UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/contact-us",
+    "slug": "contact-us",
+    "title": "Contact Us | Book a Free Consultation",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/contractors",
+    "slug": "contractors",
+    "title": "Contractor Accountants UK | IR35-Aware Services",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/contractors-insurance",
+    "slug": "contractors-insurance",
+    "title": "Contractors Insurance Guidance UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/core-package",
+    "slug": "core-package",
+    "title": "Core Accounting Package UK | Essential Business Accounts",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/dentists",
+    "slug": "dentists",
+    "title": "Accountants for Dentists UK | Dental Practice Accounting",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/dext",
+    "slug": "dext",
+    "title": "Dext (Receipt Bank) UK | Paperless Bookkeeping",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/dropshipping",
+    "slug": "dropshipping",
+    "title": "Dropshipping Accountants UK | Online Business Tax",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/e-commerce",
+    "slug": "e-commerce",
+    "title": "E-Commerce Accountants UK | Online Business Tax",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/ebay-seller",
+    "slug": "ebay-seller",
+    "title": "eBay Seller Accountants UK | Marketplace Tax",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/employment-agreement",
+    "slug": "employment-agreement",
+    "title": "Employment Agreement & Contract Services",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/flow",
+    "slug": "flow",
+    "title": "Flow Finance UK | Business Cash Flow Management",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/freeagent",
+    "slug": "freeagent",
+    "title": "FreeAgent Accountants UK | FreeAgent Setup & Support",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/freelancers",
+    "slug": "freelancers",
+    "title": "Accountants for Freelancers UK | Freelance Tax Support",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/furnished-holiday-letting",
+    "slug": "furnished-holiday-letting",
+    "title": "Furnished Holiday Letting Accountants UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/hairdressers-beauty-barbers",
+    "slug": "hairdressers-beauty-barbers",
+    "title": "Accountants for Hairdressers, Beauty & Barbers UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/home-old",
+    "slug": "home-old",
+    "title": "Home Old",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/hotels-restaurants-bars",
+    "slug": "hotels-restaurants-bars",
+    "title": "Accountants for Hotels, Restaurants & Bars UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/id-verification-form-for-companies-house",
+    "slug": "id-verification-form-for-companies-house",
+    "title": "Id Verification Form For Companies House",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/id-verification-form-for-companies-house/thank-you",
+    "slug": "thank-you",
+    "title": "Thank You",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries",
+    "slug": "industries",
+    "title": "Industries",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/amazon-seller-accountants",
+    "slug": "amazon-seller-accountants",
+    "title": "Amazon Seller Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/automobile",
+    "slug": "automobile",
+    "title": "Automobile",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/automotive-accountants",
+    "slug": "automotive-accountants",
+    "title": "Automotive Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/bar-accountants",
+    "slug": "bar-accountants",
+    "title": "Bar Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/builder-accountants",
+    "slug": "builder-accountants",
+    "title": "Builder Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/cafe-accountants",
+    "slug": "cafe-accountants",
+    "title": "Cafe Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/car-dealership-accountants",
+    "slug": "car-dealership-accountants",
+    "title": "Car Dealership Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/charities",
+    "slug": "charities",
+    "title": "Charities",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/charity",
+    "slug": "charity",
+    "title": "Charity",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/charity-accountants",
+    "slug": "charity-accountants",
+    "title": "Charity Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/cic-accountants",
+    "slug": "cic-accountants",
+    "title": "CIC Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/civil-engineering-accountants",
+    "slug": "civil-engineering-accountants",
+    "title": "Civil Engineering Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/construction",
+    "slug": "construction",
+    "title": "Construction",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/construction-accountants",
+    "slug": "construction-accountants",
+    "title": "Construction Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/consultant-accountants",
+    "slug": "consultant-accountants",
+    "title": "Consultant Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/contractor-accountants",
+    "slug": "contractor-accountants",
+    "title": "Contractor Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/courier-accountants",
+    "slug": "courier-accountants",
+    "title": "Courier Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/creative-agency-accountants",
+    "slug": "creative-agency-accountants",
+    "title": "Creative Agency Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/dental-accountants",
+    "slug": "dental-accountants",
+    "title": "Dental Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/digital-agency-accountants",
+    "slug": "digital-agency-accountants",
+    "title": "Digital Agency Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/doctor-accountants",
+    "slug": "doctor-accountants",
+    "title": "Doctor Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/ecommerce",
+    "slug": "ecommerce",
+    "title": "Ecommerce",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/ecommerce-accountants",
+    "slug": "ecommerce-accountants",
+    "title": "E-commerce Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/engineering-accountants",
+    "slug": "engineering-accountants",
+    "title": "Engineering Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/estate-agent-accountants",
+    "slug": "estate-agent-accountants",
+    "title": "Estate Agent Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/event-venue-accountants",
+    "slug": "event-venue-accountants",
+    "title": "Event Venue Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/expatriates",
+    "slug": "expatriates",
+    "title": "Expatriates",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/food-business-accountants",
+    "slug": "food-business-accountants",
+    "title": "Food Business Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/freight-accountants",
+    "slug": "freight-accountants",
+    "title": "Freight Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/healthcare-accountants",
+    "slug": "healthcare-accountants",
+    "title": "Healthcare Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/healthcare-professionals",
+    "slug": "healthcare-professionals",
+    "title": "Healthcare Professionals",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/hospitality",
+    "slug": "hospitality",
+    "title": "Hospitality",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/hospitality-accountants",
+    "slug": "hospitality-accountants",
+    "title": "Hospitality Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/hotel-accountants",
+    "slug": "hotel-accountants",
+    "title": "Hotel Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/influencer-accountants",
+    "slug": "influencer-accountants",
+    "title": "Influencer Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/it-contractor-accountants",
+    "slug": "it-contractor-accountants",
+    "title": "IT Contractor Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/it-professionals",
+    "slug": "it-professionals",
+    "title": "It Professionals",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/landlord-accountants",
+    "slug": "landlord-accountants",
+    "title": "Landlord Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/law-firm-accountants",
+    "slug": "law-firm-accountants",
+    "title": "Law Firm Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/leisure-accountants",
+    "slug": "leisure-accountants",
+    "title": "Leisure Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/leisure-industry",
+    "slug": "leisure-industry",
+    "title": "Leisure Industry",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/locum-accountants",
+    "slug": "locum-accountants",
+    "title": "Locum Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/logistics",
+    "slug": "logistics",
+    "title": "Logistics",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/logistics-accountants",
+    "slug": "logistics-accountants",
+    "title": "Logistics Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/marketing-accountants",
+    "slug": "marketing-accountants",
+    "title": "Marketing Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/marketing-agency-accountants",
+    "slug": "marketing-agency-accountants",
+    "title": "Marketing Agency Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/media-accountants",
+    "slug": "media-accountants",
+    "title": "Media Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/medical-practice-accountants",
+    "slug": "medical-practice-accountants",
+    "title": "Medical Practice Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/motor-trade-accountants",
+    "slug": "motor-trade-accountants",
+    "title": "Motor Trade Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/non-uk-resident-taxation",
+    "slug": "non-uk-resident-taxation",
+    "title": "Non Uk Resident Taxation",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/nonprofit-accountants",
+    "slug": "nonprofit-accountants",
+    "title": "Nonprofit Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/online-retail-accountants",
+    "slug": "online-retail-accountants",
+    "title": "Online Retail Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/pharmacy-accountants",
+    "slug": "pharmacy-accountants",
+    "title": "Pharmacy Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/private-client-accountants",
+    "slug": "private-client-accountants",
+    "title": "Private Client Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/professional-service-accountants",
+    "slug": "professional-service-accountants",
+    "title": "Professional Service Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/property-accountants",
+    "slug": "property-accountants",
+    "title": "Property Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/property-developer-accountants",
+    "slug": "property-developer-accountants",
+    "title": "Property Developer Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/property-investor-accountants",
+    "slug": "property-investor-accountants",
+    "title": "Property Investor Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/pub-accountants",
+    "slug": "pub-accountants",
+    "title": "Pub Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/real-estate",
+    "slug": "real-estate",
+    "title": "Real Estate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/real-estate-accountants",
+    "slug": "real-estate-accountants",
+    "title": "Real Estate Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/recruitment-accountants",
+    "slug": "recruitment-accountants",
+    "title": "Recruitment Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/restaurant-accountants",
+    "slug": "restaurant-accountants",
+    "title": "Restaurant Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/restaurants",
+    "slug": "restaurants",
+    "title": "Restaurants",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/industries/retail-accountants",
+    "slug": "retail-accountants",
+    "title": "Retail Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/saas-accountants",
+    "slug": "saas-accountants",
+    "title": "SaaS Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/school-accountants",
+    "slug": "school-accountants",
+    "title": "School Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/shopify-accountants",
+    "slug": "shopify-accountants",
+    "title": "Shopify Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/software-company-accountants",
+    "slug": "software-company-accountants",
+    "title": "Software Company Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/solicitor-accountants",
+    "slug": "solicitor-accountants",
+    "title": "Solicitor Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/startup-accountants",
+    "slug": "startup-accountants",
+    "title": "Startup Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/takeaway-accountants",
+    "slug": "takeaway-accountants",
+    "title": "Takeaway Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/technology-accountants",
+    "slug": "technology-accountants",
+    "title": "Technology Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/trade-accountants",
+    "slug": "trade-accountants",
+    "title": "Trade Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/training-provider-accountants",
+    "slug": "training-provider-accountants",
+    "title": "Training Provider Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/transport-accountants",
+    "slug": "transport-accountants",
+    "title": "Transport Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/veterinary-accountants",
+    "slug": "veterinary-accountants",
+    "title": "Veterinary Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/wholesale-accountants",
+    "slug": "wholesale-accountants",
+    "title": "Wholesale Accountants",
+    "type": "industry",
+    "status": "published"
+  },
+  {
+    "url": "/industries/wholesellers-retailers",
+    "slug": "wholesellers-retailers",
+    "title": "Wholesellers Retailers",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/ir35-contractors-review",
+    "slug": "ir35-contractors-review",
+    "title": "IR35 Status Review for UK Contractors",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/jewellers",
+    "slug": "jewellers",
+    "title": "Accountants for Jewellers UK | Retail Jewellery Tax",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/landlords",
+    "slug": "landlords",
+    "title": "Landlords",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/landlords-2",
+    "slug": "landlords-2",
+    "title": "Landlords 2",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/landlords-4",
+    "slug": "landlords-4",
+    "title": "Landlords 4",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/legal",
+    "slug": "legal",
+    "title": "Legal Information & Terms | Taxaccolega",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/limited-company",
+    "slug": "limited-company",
+    "title": "Limited Company",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/ltd-company",
+    "slug": "ltd-company",
+    "title": "Ltd Company",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/media-creative-industries",
+    "slug": "media-creative-industries",
+    "title": "Accountants for Media & Creative Industries UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/mettle",
+    "slug": "mettle",
+    "title": "Mettle Business Account | NatWest for Sole Traders",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/monzo",
+    "slug": "monzo",
+    "title": "Monzo Business Account UK | Business Banking",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/non-resident",
+    "slug": "non-resident",
+    "title": "Non Resident",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/non-uk-resident",
+    "slug": "non-uk-resident",
+    "title": "Non Uk Resident",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/optician-optometrists",
+    "slug": "optician-optometrists",
+    "title": "Accountants for Opticians & Optometrists UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/packages",
+    "slug": "packages",
+    "title": "Packages",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/packages/charities",
+    "slug": "charities",
+    "title": "Charities",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/charities-pricing",
+    "slug": "charities-pricing",
+    "title": "Charities",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/contractor-ltd",
+    "slug": "contractor-ltd",
+    "title": "Contractor Ltd",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/contractor-ltd-pricing",
+    "slug": "contractor-ltd-pricing",
+    "title": "Contractor - LTD - pricing",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/landlords",
+    "slug": "landlords",
+    "title": "Landlords",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/landlords-3",
+    "slug": "landlords-3",
+    "title": "Landlords",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/ltd-company",
+    "slug": "ltd-company",
+    "title": "Ltd Company",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/ltd-company-pricing",
+    "slug": "ltd-company-pricing",
+    "title": "LTD Company",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/sole-trader",
+    "slug": "sole-trader",
+    "title": "Sole Trader",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/sole-trader-pricing",
+    "slug": "sole-trader-pricing",
+    "title": "Sole Trader Pricing",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/spvs-ltd",
+    "slug": "spvs-ltd",
+    "title": "Spvs Ltd",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/packages/spvs-ltd-pricing",
+    "slug": "spvs-ltd-pricing",
+    "title": "SPVs - LTD",
+    "type": "package",
+    "status": "published"
+  },
+  {
+    "url": "/payment-confirmation",
+    "slug": "payment-confirmation",
+    "title": "Payment Confirmation",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/payment-failed",
+    "slug": "payment-failed",
+    "title": "Payment Failed",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/pricing",
+    "slug": "pricing",
+    "title": "Accounting Fees & Pricing | Fixed-Fee Packages UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/privacy-policy",
+    "slug": "privacy-policy",
+    "title": "Privacy Policy | Taxaccolega",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/property-landlords",
+    "slug": "property-landlords",
+    "title": "Landlord Accountants UK | Property Tax Services",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/quickbooks",
+    "slug": "quickbooks",
+    "title": "QuickBooks Accountants UK | QuickBooks Setup & Support",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/refer-a-friend",
+    "slug": "refer-a-friend",
+    "title": "Refer A Friend",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/refer-and-earn",
+    "slug": "refer-and-earn",
+    "title": "Refer and Earn | Client Referral Rewards",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/registered-address",
+    "slug": "registered-address",
+    "title": "Registered Office Address Service UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/revolut",
+    "slug": "revolut",
+    "title": "Revolut Business Account UK | Business Banking",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/saas",
+    "slug": "saas",
+    "title": "SaaS Company Accountants UK | Tech Business Tax",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/sage",
+    "slug": "sage",
+    "title": "Sage Accountants UK | Sage Business Cloud Support",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/schedule-a-phone-call-or-video-meeting",
+    "slug": "schedule-a-phone-call-or-video-meeting",
+    "title": "Schedule a Call | Free Accountant Consultation",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/self-employed",
+    "slug": "self-employed",
+    "title": "Self-Employed Accountants UK | Sole Trader Support",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/share-transfer",
+    "slug": "share-transfer",
+    "title": "Share Transfer & Company Share Changes",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/shop-products",
+    "slug": "shop-products",
+    "title": "Shop Products",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/shopify",
+    "slug": "shopify",
+    "title": "Shopify Accountants UK | E-Commerce Tax Support",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/small-business",
+    "slug": "small-business",
+    "title": "Small Business Accountants UK | SME Accounting Services",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/software",
+    "slug": "software",
+    "title": "Accounting Software Setup & Integration UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/software-2",
+    "slug": "software-2",
+    "title": "Software 2",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/sole-trader-pricing",
+    "slug": "sole-trader-pricing",
+    "title": "Sole Trader Pricing",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/sole-traders",
+    "slug": "sole-traders",
+    "title": "Sole Traders",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/sole-traders-package",
+    "slug": "sole-traders-package",
+    "title": "Sole Traders Package",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/spvs",
+    "slug": "spvs",
+    "title": "SPV Company Accountants UK | Property SPV Tax",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/spvs-ltd",
+    "slug": "spvs-ltd",
+    "title": "Spvs Ltd",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/spvs-residential",
+    "slug": "spvs-residential",
+    "title": "Spvs Residential",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/starling",
+    "slug": "starling",
+    "title": "Starling Bank Business Account UK | Award-Winning Banking",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/start-ups-basic",
+    "slug": "start-ups-basic",
+    "title": "Basic Start-Up Accounting Package UK",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/switch-accountant",
+    "slug": "switch-accountant",
+    "title": "Switch Accountant | Hassle-Free Transfer",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/taxation",
+    "slug": "taxation",
+    "title": "Tax Accountants Services in Croydon, London and the UK",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/capital-gains-tax",
+    "slug": "capital-gains-tax",
+    "title": "Capital Gains Tax",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant",
+    "slug": "capital-gains-tax-accountant",
+    "title": "Capital Gains Tax Accountant",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-aidgate",
+    "slug": "capital-gains-tax-accountant-aidgate",
+    "title": "Capital Gains Tax Accountant Aidgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-aldgate-east",
+    "slug": "capital-gains-tax-accountant-aldgate-east",
+    "title": "Capital Gains Tax Accountant Aldgate East",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-angel",
+    "slug": "capital-gains-tax-accountant-angel",
+    "title": "Capital Gains Tax Accountant Angel",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-baker-street",
+    "slug": "capital-gains-tax-accountant-baker-street",
+    "title": "Capital Gains Tax Accountant Baker Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-barbican",
+    "slug": "capital-gains-tax-accountant-barbican",
+    "title": "Capital Gains Tax Accountant Barbican",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-bayswater",
+    "slug": "capital-gains-tax-accountant-bayswater",
+    "title": "Capital Gains Tax Accountant Bayswater",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-blackfriars",
+    "slug": "capital-gains-tax-accountant-blackfriars",
+    "title": "Capital Gains Tax Accountant Blackfriars",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-bond-street",
+    "slug": "capital-gains-tax-accountant-bond-street",
+    "title": "Capital Gains Tax Accountant Bond Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-borough",
+    "slug": "capital-gains-tax-accountant-borough",
+    "title": "Capital Gains Tax Accountant Borough",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-canan-street",
+    "slug": "capital-gains-tax-accountant-canan-street",
+    "title": "Capital Gains Tax Accountant Canan Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-chancery-lane",
+    "slug": "capital-gains-tax-accountant-chancery-lane",
+    "title": "Capital Gains Tax Accountant Chancery Lane",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-charing-cross",
+    "slug": "capital-gains-tax-accountant-charing-cross",
+    "title": "Capital Gains Tax Accountant Charing Cross",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-convent-garden",
+    "slug": "capital-gains-tax-accountant-convent-garden",
+    "title": "Capital Gains Tax Accountant Convent Garden",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-edgeware-road",
+    "slug": "capital-gains-tax-accountant-edgeware-road",
+    "title": "Capital Gains Tax Accountant Edgeware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-edgware-road",
+    "slug": "capital-gains-tax-accountant-edgware-road",
+    "title": "Capital Gains Tax Accountant Edgware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-embankment",
+    "slug": "capital-gains-tax-accountant-embankment",
+    "title": "Capital Gains Tax Accountant Embankment",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-euston",
+    "slug": "capital-gains-tax-accountant-euston",
+    "title": "Capital Gains Tax Accountant Euston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-euston-square",
+    "slug": "capital-gains-tax-accountant-euston-square",
+    "title": "Capital Gains Tax Accountant Euston Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-farringdon",
+    "slug": "capital-gains-tax-accountant-farringdon",
+    "title": "Capital Gains Tax Accountant Farringdon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-gloucester-road",
+    "slug": "capital-gains-tax-accountant-gloucester-road",
+    "title": "Capital Gains Tax Accountant Gloucester Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-goodge-street",
+    "slug": "capital-gains-tax-accountant-goodge-street",
+    "title": "Capital Gains Tax Accountant Goodge Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-great-portland-street",
+    "slug": "capital-gains-tax-accountant-great-portland-street",
+    "title": "Capital Gains Tax Accountant Great Portland Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-green-park",
+    "slug": "capital-gains-tax-accountant-green-park",
+    "title": "Capital Gains Tax Accountant Green Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-high-street",
+    "slug": "capital-gains-tax-accountant-high-street",
+    "title": "Capital Gains Tax Accountant High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-high-street-kensington",
+    "slug": "capital-gains-tax-accountant-high-street-kensington",
+    "title": "Capital Gains Tax Accountant High Street Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-holbom",
+    "slug": "capital-gains-tax-accountant-holbom",
+    "title": "Capital Gains Tax Accountant Holbom",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-hoxton",
+    "slug": "capital-gains-tax-accountant-hoxton",
+    "title": "Capital Gains Tax Accountant Hoxton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-hyde-park-corner",
+    "slug": "capital-gains-tax-accountant-hyde-park-corner",
+    "title": "Capital Gains Tax Accountant Hyde Park Corner",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-kings-cross-st-pancras",
+    "slug": "capital-gains-tax-accountant-kings-cross-st-pancras",
+    "title": "Capital Gains Tax Accountant Kings Cross St Pancras",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-knightsbridge",
+    "slug": "capital-gains-tax-accountant-knightsbridge",
+    "title": "Capital Gains Tax Accountant Knightsbridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-lambeth-north",
+    "slug": "capital-gains-tax-accountant-lambeth-north",
+    "title": "Capital Gains Tax Accountant Lambeth North",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-lancaster-gate",
+    "slug": "capital-gains-tax-accountant-lancaster-gate",
+    "title": "Capital Gains Tax Accountant Lancaster Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-leiscester-square",
+    "slug": "capital-gains-tax-accountant-leiscester-square",
+    "title": "Capital Gains Tax Accountant Leiscester Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-liverpool-street",
+    "slug": "capital-gains-tax-accountant-liverpool-street",
+    "title": "Capital Gains Tax Accountant Liverpool Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-london-bridge",
+    "slug": "capital-gains-tax-accountant-london-bridge",
+    "title": "Capital Gains Tax Accountant London Bridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-mansion-house",
+    "slug": "capital-gains-tax-accountant-mansion-house",
+    "title": "Capital Gains Tax Accountant Mansion House",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-marble-arch",
+    "slug": "capital-gains-tax-accountant-marble-arch",
+    "title": "Capital Gains Tax Accountant Marble Arch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-marylebone",
+    "slug": "capital-gains-tax-accountant-marylebone",
+    "title": "Capital Gains Tax Accountant Marylebone",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-monument",
+    "slug": "capital-gains-tax-accountant-monument",
+    "title": "Capital Gains Tax Accountant Monument",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-moorgate",
+    "slug": "capital-gains-tax-accountant-moorgate",
+    "title": "Capital Gains Tax Accountant Moorgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-nothing-hill-gate",
+    "slug": "capital-gains-tax-accountant-nothing-hill-gate",
+    "title": "Capital Gains Tax Accountant Nothing Hill Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-oxford-circus",
+    "slug": "capital-gains-tax-accountant-oxford-circus",
+    "title": "Capital Gains Tax Accountant Oxford Circus",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-paddington",
+    "slug": "capital-gains-tax-accountant-paddington",
+    "title": "Capital Gains Tax Accountant Paddington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-picadility-road",
+    "slug": "capital-gains-tax-accountant-picadility-road",
+    "title": "Capital Gains Tax Accountant Picadility Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-pimlico",
+    "slug": "capital-gains-tax-accountant-pimlico",
+    "title": "Capital Gains Tax Accountant Pimlico",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-queensway",
+    "slug": "capital-gains-tax-accountant-queensway",
+    "title": "Capital Gains Tax Accountant Queensway",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-regents-park",
+    "slug": "capital-gains-tax-accountant-regents-park",
+    "title": "Capital Gains Tax Accountant Regents Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-rusell-square",
+    "slug": "capital-gains-tax-accountant-rusell-square",
+    "title": "Capital Gains Tax Accountant Rusell Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-shoreditch-high-street",
+    "slug": "capital-gains-tax-accountant-shoreditch-high-street",
+    "title": "Capital Gains Tax Accountant Shoreditch High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-solane-square",
+    "slug": "capital-gains-tax-accountant-solane-square",
+    "title": "Capital Gains Tax Accountant Solane Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-south-kensington",
+    "slug": "capital-gains-tax-accountant-south-kensington",
+    "title": "Capital Gains Tax Accountant South Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-southwark",
+    "slug": "capital-gains-tax-accountant-southwark",
+    "title": "Capital Gains Tax Accountant Southwark",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-st-james-park",
+    "slug": "capital-gains-tax-accountant-st-james-park",
+    "title": "Capital Gains Tax Accountant St James Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-st-pauls-bank",
+    "slug": "capital-gains-tax-accountant-st-pauls-bank",
+    "title": "Capital Gains Tax Accountant St Pauls Bank",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-temple",
+    "slug": "capital-gains-tax-accountant-temple",
+    "title": "Capital Gains Tax Accountant Temple",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-tottenham-court-road",
+    "slug": "capital-gains-tax-accountant-tottenham-court-road",
+    "title": "Capital Gains Tax Accountant Tottenham Court Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-tower-hill",
+    "slug": "capital-gains-tax-accountant-tower-hill",
+    "title": "Capital Gains Tax Accountant Tower Hill",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-warren-street",
+    "slug": "capital-gains-tax-accountant-warren-street",
+    "title": "Capital Gains Tax Accountant Warren Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-waterloo",
+    "slug": "capital-gains-tax-accountant-waterloo",
+    "title": "Capital Gains Tax Accountant Waterloo",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountant-westminster",
+    "slug": "capital-gains-tax-accountant-westminster",
+    "title": "Capital Gains Tax Accountant Westminster",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants",
+    "slug": "capital-gains-tax-accountants",
+    "title": "Capital Gains Tax Accountants",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-barking",
+    "slug": "capital-gains-tax-accountants-barking",
+    "title": "Capital Gains Tax Accountants Barking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-beckenham",
+    "slug": "capital-gains-tax-accountants-beckenham",
+    "title": "Capital Gains Tax Accountants Beckenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-bexley",
+    "slug": "capital-gains-tax-accountants-bexley",
+    "title": "Capital Gains Tax Accountants Bexley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-brixton",
+    "slug": "capital-gains-tax-accountants-brixton",
+    "title": "Capital Gains Tax Accountants Brixton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-bromley",
+    "slug": "capital-gains-tax-accountants-bromley",
+    "title": "Capital Gains Tax Accountants Bromley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-dartford",
+    "slug": "capital-gains-tax-accountants-dartford",
+    "title": "Capital Gains Tax Accountants Dartford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-east-london",
+    "slug": "capital-gains-tax-accountants-east-london",
+    "title": "Capital Gains Tax Accountants East London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-enfield",
+    "slug": "capital-gains-tax-accountants-enfield",
+    "title": "Capital Gains Tax Accountants Enfield",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-erith",
+    "slug": "capital-gains-tax-accountants-erith",
+    "title": "Capital Gains Tax Accountants Erith",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-guildford",
+    "slug": "capital-gains-tax-accountants-guildford",
+    "title": "Capital Gains Tax Accountants Guildford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-harlow",
+    "slug": "capital-gains-tax-accountants-harlow",
+    "title": "Capital Gains Tax Accountants Harlow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-harrow",
+    "slug": "capital-gains-tax-accountants-harrow",
+    "title": "Capital Gains Tax Accountants Harrow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-hornchurch",
+    "slug": "capital-gains-tax-accountants-hornchurch",
+    "title": "Capital Gains Tax Accountants Hornchurch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-hounslow",
+    "slug": "capital-gains-tax-accountants-hounslow",
+    "title": "Capital Gains Tax Accountants Hounslow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-kingston",
+    "slug": "capital-gains-tax-accountants-kingston",
+    "title": "Capital Gains Tax Accountants Kingston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-romford",
+    "slug": "capital-gains-tax-accountants-romford",
+    "title": "Capital Gains Tax Accountants Romford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-south-london",
+    "slug": "capital-gains-tax-accountants-south-london",
+    "title": "Capital Gains Tax Accountants South London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-staines",
+    "slug": "capital-gains-tax-accountants-staines",
+    "title": "Capital Gains Tax Accountants Staines",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-streatham",
+    "slug": "capital-gains-tax-accountants-streatham",
+    "title": "Capital Gains Tax Accountants Streatham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-sutton",
+    "slug": "capital-gains-tax-accountants-sutton",
+    "title": "Capital Gains Tax Accountants Sutton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-thornton-heath",
+    "slug": "capital-gains-tax-accountants-thornton-heath",
+    "title": "Capital Gains Tax Accountants Thornton Heath",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-twickenham",
+    "slug": "capital-gains-tax-accountants-twickenham",
+    "title": "Capital Gains Tax Accountants Twickenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-watford",
+    "slug": "capital-gains-tax-accountants-watford",
+    "title": "Capital Gains Tax Accountants Watford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-wimbledon",
+    "slug": "capital-gains-tax-accountants-wimbledon",
+    "title": "Capital Gains Tax Accountants Wimbledon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/capital-gains-tax-accountants-woking",
+    "slug": "capital-gains-tax-accountants-woking",
+    "title": "Capital Gains Tax Accountants Woking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/company-tax-return-accountants",
+    "slug": "company-tax-return-accountants",
+    "title": "Company Tax Return Accountants | Corporation Tax - Taxaccolega",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/corporate-tax-return",
+    "slug": "corporate-tax-return",
+    "title": "Company Tax Return Accountants | Corporation Tax - Taxaccolega",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/cryptocurrency",
+    "slug": "cryptocurrency",
+    "title": "Cryptocurrency Tax Accountants UK | Crypto Tax Returns",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/emi-schemes",
+    "slug": "emi-schemes",
+    "title": "EMI Schemes",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/estate-and-property-tax-planning-accountants",
+    "slug": "estate-and-property-tax-planning-accountants",
+    "title": "Estate And Property Tax Planning Accountants",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/estate-property-tax-planning",
+    "slug": "estate-property-tax-planning",
+    "title": "Estate Property Tax Planning",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/estate-tax",
+    "slug": "estate-tax",
+    "title": "Estate Tax",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/film-tax-relief",
+    "slug": "film-tax-relief",
+    "title": "Film Tax Relief",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/income-tax",
+    "slug": "income-tax",
+    "title": "Personal Income Tax Accountants, Tax Advisors - Taxaccolega",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax",
+    "slug": "inheritance-tax",
+    "title": "Inheritance Tax Planning, Advice by Specialists - Taxaccolega",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-accountant",
+    "slug": "inheritance-tax-accountant",
+    "title": "Inheritance Tax Accountant",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning",
+    "slug": "inheritance-tax-planning",
+    "title": "Inheritance Tax Planning, Advice by Specialists - Taxaccolega",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors",
+    "slug": "inheritance-tax-planning-advisors",
+    "title": "Inheritance Tax Planning, Advice by Specialists - Taxaccolega",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-aidgate",
+    "slug": "inheritance-tax-planning-advisors-aidgate",
+    "title": "Inheritance Tax Planning Advisors Aidgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-aldgate-east",
+    "slug": "inheritance-tax-planning-advisors-aldgate-east",
+    "title": "Inheritance Tax Planning Advisors Aldgate East",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-angel",
+    "slug": "inheritance-tax-planning-advisors-angel",
+    "title": "Inheritance Tax Planning Advisors Angel",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-baker-street",
+    "slug": "inheritance-tax-planning-advisors-baker-street",
+    "title": "Inheritance Tax Planning Advisors Baker Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-barbican",
+    "slug": "inheritance-tax-planning-advisors-barbican",
+    "title": "Inheritance Tax Planning Advisors Barbican",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-bayswater",
+    "slug": "inheritance-tax-planning-advisors-bayswater",
+    "title": "Inheritance Tax Planning Advisors Bayswater",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-bexley",
+    "slug": "inheritance-tax-planning-advisors-bexley",
+    "title": "Inheritance Tax Planning Advisors Bexley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-blackfriars",
+    "slug": "inheritance-tax-planning-advisors-blackfriars",
+    "title": "Inheritance Tax Planning Advisors Blackfriars",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-bond-street",
+    "slug": "inheritance-tax-planning-advisors-bond-street",
+    "title": "Inheritance Tax Planning Advisors Bond Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-borough",
+    "slug": "inheritance-tax-planning-advisors-borough",
+    "title": "Inheritance Tax Planning Advisors Borough",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-canan-street",
+    "slug": "inheritance-tax-planning-advisors-canan-street",
+    "title": "Inheritance Tax Planning Advisors Canan Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-chancery-lane",
+    "slug": "inheritance-tax-planning-advisors-chancery-lane",
+    "title": "Inheritance Tax Planning Advisors Chancery Lane",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-charing-cross",
+    "slug": "inheritance-tax-planning-advisors-charing-cross",
+    "title": "Inheritance Tax Planning Advisors Charing Cross",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-convent-garden",
+    "slug": "inheritance-tax-planning-advisors-convent-garden",
+    "title": "Inheritance Tax Planning Advisors Convent Garden",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-edgeware-road",
+    "slug": "inheritance-tax-planning-advisors-edgeware-road",
+    "title": "Inheritance Tax Planning Advisors Edgeware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-edgware-road",
+    "slug": "inheritance-tax-planning-advisors-edgware-road",
+    "title": "Inheritance Tax Planning Advisors Edgware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-embankment",
+    "slug": "inheritance-tax-planning-advisors-embankment",
+    "title": "Inheritance Tax Planning Advisors Embankment",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-euston",
+    "slug": "inheritance-tax-planning-advisors-euston",
+    "title": "Inheritance Tax Planning Advisors Euston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-euston-square",
+    "slug": "inheritance-tax-planning-advisors-euston-square",
+    "title": "Inheritance Tax Planning Advisors Euston Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-farringdon",
+    "slug": "inheritance-tax-planning-advisors-farringdon",
+    "title": "Inheritance Tax Planning Advisors Farringdon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-gloucester-road",
+    "slug": "inheritance-tax-planning-advisors-gloucester-road",
+    "title": "Inheritance Tax Planning Advisors Gloucester Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-goodge-street",
+    "slug": "inheritance-tax-planning-advisors-goodge-street",
+    "title": "Inheritance Tax Planning Advisors Goodge Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-great-portland-street",
+    "slug": "inheritance-tax-planning-advisors-great-portland-street",
+    "title": "Inheritance Tax Planning Advisors Great Portland Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-green-park",
+    "slug": "inheritance-tax-planning-advisors-green-park",
+    "title": "Inheritance Tax Planning Advisors Green Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-high-street",
+    "slug": "inheritance-tax-planning-advisors-high-street",
+    "title": "Inheritance Tax Planning Advisors High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-high-street-kensington",
+    "slug": "inheritance-tax-planning-advisors-high-street-kensington",
+    "title": "Inheritance Tax Planning Advisors High Street Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-holbom",
+    "slug": "inheritance-tax-planning-advisors-holbom",
+    "title": "Inheritance Tax Planning Advisors Holbom",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-hoxton",
+    "slug": "inheritance-tax-planning-advisors-hoxton",
+    "title": "Inheritance Tax Planning Advisors Hoxton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-hyde-park-corner",
+    "slug": "inheritance-tax-planning-advisors-hyde-park-corner",
+    "title": "Inheritance Tax Planning Advisors Hyde Park Corner",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-kings-cross-st-pancras",
+    "slug": "inheritance-tax-planning-advisors-kings-cross-st-pancras",
+    "title": "Inheritance Tax Planning Advisors Kings Cross St Pancras",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-knightsbridge",
+    "slug": "inheritance-tax-planning-advisors-knightsbridge",
+    "title": "Inheritance Tax Planning Advisors Knightsbridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-lambeth-north",
+    "slug": "inheritance-tax-planning-advisors-lambeth-north",
+    "title": "Inheritance Tax Planning Advisors Lambeth North",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-lancaster-gate",
+    "slug": "inheritance-tax-planning-advisors-lancaster-gate",
+    "title": "Inheritance Tax Planning Advisors Lancaster Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-leiscester-square",
+    "slug": "inheritance-tax-planning-advisors-leiscester-square",
+    "title": "Inheritance Tax Planning Advisors Leiscester Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-liverpool-street",
+    "slug": "inheritance-tax-planning-advisors-liverpool-street",
+    "title": "Inheritance Tax Planning Advisors Liverpool Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-london-bridge",
+    "slug": "inheritance-tax-planning-advisors-london-bridge",
+    "title": "Inheritance Tax Planning Advisors London Bridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-mansion-house",
+    "slug": "inheritance-tax-planning-advisors-mansion-house",
+    "title": "Inheritance Tax Planning Advisors Mansion House",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-marble-arch",
+    "slug": "inheritance-tax-planning-advisors-marble-arch",
+    "title": "Inheritance Tax Planning Advisors Marble Arch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-marylebone",
+    "slug": "inheritance-tax-planning-advisors-marylebone",
+    "title": "Inheritance Tax Planning Advisors Marylebone",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-monument",
+    "slug": "inheritance-tax-planning-advisors-monument",
+    "title": "Inheritance Tax Planning Advisors Monument",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-moorgate",
+    "slug": "inheritance-tax-planning-advisors-moorgate",
+    "title": "Inheritance Tax Planning Advisors Moorgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-nothing-hill-gate",
+    "slug": "inheritance-tax-planning-advisors-nothing-hill-gate",
+    "title": "Inheritance Tax Planning Advisors Nothing Hill Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-oxford-circus",
+    "slug": "inheritance-tax-planning-advisors-oxford-circus",
+    "title": "Inheritance Tax Planning Advisors Oxford Circus",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-paddington",
+    "slug": "inheritance-tax-planning-advisors-paddington",
+    "title": "Inheritance Tax Planning Advisors Paddington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-picadility-road",
+    "slug": "inheritance-tax-planning-advisors-picadility-road",
+    "title": "Inheritance Tax Planning Advisors Picadility Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-pimlico",
+    "slug": "inheritance-tax-planning-advisors-pimlico",
+    "title": "Inheritance Tax Planning Advisors Pimlico",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-queensway",
+    "slug": "inheritance-tax-planning-advisors-queensway",
+    "title": "Inheritance Tax Planning Advisors Queensway",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-regents-park",
+    "slug": "inheritance-tax-planning-advisors-regents-park",
+    "title": "Inheritance Tax Planning Advisors Regents Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-rusell-square",
+    "slug": "inheritance-tax-planning-advisors-rusell-square",
+    "title": "Inheritance Tax Planning Advisors Rusell Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-shoreditch-high-street",
+    "slug": "inheritance-tax-planning-advisors-shoreditch-high-street",
+    "title": "Inheritance Tax Planning Advisors Shoreditch High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-solane-square",
+    "slug": "inheritance-tax-planning-advisors-solane-square",
+    "title": "Inheritance Tax Planning Advisors Solane Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-south-kensington",
+    "slug": "inheritance-tax-planning-advisors-south-kensington",
+    "title": "Inheritance Tax Planning Advisors South Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-southwark",
+    "slug": "inheritance-tax-planning-advisors-southwark",
+    "title": "Inheritance Tax Planning Advisors Southwark",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-st-james-park",
+    "slug": "inheritance-tax-planning-advisors-st-james-park",
+    "title": "Inheritance Tax Planning Advisors St James Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-st-pauls-bank",
+    "slug": "inheritance-tax-planning-advisors-st-pauls-bank",
+    "title": "Inheritance Tax Planning Advisors St Pauls Bank",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-temple",
+    "slug": "inheritance-tax-planning-advisors-temple",
+    "title": "Inheritance Tax Planning Advisors Temple",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-tottenham-court-road",
+    "slug": "inheritance-tax-planning-advisors-tottenham-court-road",
+    "title": "Inheritance Tax Planning Advisors Tottenham Court Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-tower-hill",
+    "slug": "inheritance-tax-planning-advisors-tower-hill",
+    "title": "Inheritance Tax Planning Advisors Tower Hill",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-warren-street",
+    "slug": "inheritance-tax-planning-advisors-warren-street",
+    "title": "Inheritance Tax Planning Advisors Warren Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-waterloo",
+    "slug": "inheritance-tax-planning-advisors-waterloo",
+    "title": "Inheritance Tax Planning Advisors Waterloo",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-advisors-westminster",
+    "slug": "inheritance-tax-planning-advisors-westminster",
+    "title": "Inheritance Tax Planning Advisors Westminster",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-barking",
+    "slug": "inheritance-tax-planning-barking",
+    "title": "Inheritance Tax Planning Barking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-beckenham",
+    "slug": "inheritance-tax-planning-beckenham",
+    "title": "Inheritance Tax Planning Beckenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-brixton",
+    "slug": "inheritance-tax-planning-brixton",
+    "title": "Inheritance Tax Planning Brixton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-bromley",
+    "slug": "inheritance-tax-planning-bromley",
+    "title": "Inheritance Tax Planning Bromley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-dartford",
+    "slug": "inheritance-tax-planning-dartford",
+    "title": "Inheritance Tax Planning Dartford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-east-london",
+    "slug": "inheritance-tax-planning-east-london",
+    "title": "Inheritance Tax Planning East London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-enfield",
+    "slug": "inheritance-tax-planning-enfield",
+    "title": "Inheritance Tax Planning Enfield",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-erith",
+    "slug": "inheritance-tax-planning-erith",
+    "title": "Inheritance Tax Planning Erith",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-guildford",
+    "slug": "inheritance-tax-planning-guildford",
+    "title": "Inheritance Tax Planning Guildford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-harlow",
+    "slug": "inheritance-tax-planning-harlow",
+    "title": "Inheritance Tax Planning Harlow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-harrow",
+    "slug": "inheritance-tax-planning-harrow",
+    "title": "Inheritance Tax Planning Harrow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-hornchurch",
+    "slug": "inheritance-tax-planning-hornchurch",
+    "title": "Inheritance Tax Planning Hornchurch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-hounslow",
+    "slug": "inheritance-tax-planning-hounslow",
+    "title": "Inheritance Tax Planning Hounslow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-kingston",
+    "slug": "inheritance-tax-planning-kingston",
+    "title": "Inheritance Tax Planning Kingston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-romford",
+    "slug": "inheritance-tax-planning-romford",
+    "title": "Inheritance Tax Planning Romford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-south-london",
+    "slug": "inheritance-tax-planning-south-london",
+    "title": "Inheritance Tax Planning South London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-staines",
+    "slug": "inheritance-tax-planning-staines",
+    "title": "Inheritance Tax Planning Staines",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-streatham",
+    "slug": "inheritance-tax-planning-streatham",
+    "title": "Inheritance Tax Planning Streatham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-sutton",
+    "slug": "inheritance-tax-planning-sutton",
+    "title": "Inheritance Tax Planning Sutton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-thornton-heath",
+    "slug": "inheritance-tax-planning-thornton-heath",
+    "title": "Inheritance Tax Planning Thornton Heath",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-twickenham",
+    "slug": "inheritance-tax-planning-twickenham",
+    "title": "Inheritance Tax Planning Twickenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-watford",
+    "slug": "inheritance-tax-planning-watford",
+    "title": "Inheritance Tax Planning Watford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-wimbledon",
+    "slug": "inheritance-tax-planning-wimbledon",
+    "title": "Inheritance Tax Planning Wimbledon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/inheritance-tax-planning-woking",
+    "slug": "inheritance-tax-planning-woking",
+    "title": "Inheritance Tax Planning Woking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/let-property",
+    "slug": "let-property",
+    "title": "Let Property Campaign | HMRC Landlord Disclosure",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/let-property-campaign",
+    "slug": "let-property-campaign",
+    "title": "Let Property Campaign | HMRC Landlord Disclosure",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/non-uk-resident",
+    "slug": "non-uk-resident",
+    "title": "Non Uk Resident",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/non-uk-resident-taxation",
+    "slug": "non-uk-resident-taxation",
+    "title": "Non Uk Resident Taxation",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/personal-income-tax",
+    "slug": "personal-income-tax",
+    "title": "Personal Income Tax Accountants, Tax Advisors - Taxaccolega",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-advisors-barbican",
+    "slug": "personal-income-tax-accountants-advisors-barbican",
+    "title": "Personal Income Tax Accountants Advisors Barbican",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-advisors-farringdon",
+    "slug": "personal-income-tax-accountants-advisors-farringdon",
+    "title": "Personal Income Tax Accountants Advisors Farringdon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-aidgate",
+    "slug": "personal-income-tax-accountants-aidgate",
+    "title": "Personal Income Tax Accountants Aidgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-aldgate-east",
+    "slug": "personal-income-tax-accountants-aldgate-east",
+    "title": "Personal Income Tax Accountants Aldgate East",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-angel",
+    "slug": "personal-income-tax-accountants-angel",
+    "title": "Personal Income Tax Accountants Angel",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-baker-street",
+    "slug": "personal-income-tax-accountants-baker-street",
+    "title": "Personal Income Tax Accountants Baker Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-barking",
+    "slug": "personal-income-tax-accountants-barking",
+    "title": "Personal Income Tax Accountants Barking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-bayswater",
+    "slug": "personal-income-tax-accountants-bayswater",
+    "title": "Personal Income Tax Accountants Bayswater",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-beckenham",
+    "slug": "personal-income-tax-accountants-beckenham",
+    "title": "Personal Income Tax Accountants Beckenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-bexley",
+    "slug": "personal-income-tax-accountants-bexley",
+    "title": "Personal Income Tax Accountants Bexley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-blackfriars",
+    "slug": "personal-income-tax-accountants-blackfriars",
+    "title": "Personal Income Tax Accountants Blackfriars",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-bond-street",
+    "slug": "personal-income-tax-accountants-bond-street",
+    "title": "Personal Income Tax Accountants Bond Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-borough",
+    "slug": "personal-income-tax-accountants-borough",
+    "title": "Personal Income Tax Accountants Borough",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-brixton",
+    "slug": "personal-income-tax-accountants-brixton",
+    "title": "Personal Income Tax Accountants Brixton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-bromley",
+    "slug": "personal-income-tax-accountants-bromley",
+    "title": "Personal Income Tax Accountants Bromley",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-canan-street",
+    "slug": "personal-income-tax-accountants-canan-street",
+    "title": "Personal Income Tax Accountants Canan Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-chancery-lane",
+    "slug": "personal-income-tax-accountants-chancery-lane",
+    "title": "Personal Income Tax Accountants Chancery Lane",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-charing-cross",
+    "slug": "personal-income-tax-accountants-charing-cross",
+    "title": "Personal Income Tax Accountants Charing Cross",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-convent-garden",
+    "slug": "personal-income-tax-accountants-convent-garden",
+    "title": "Personal Income Tax Accountants Convent Garden",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-dartford",
+    "slug": "personal-income-tax-accountants-dartford",
+    "title": "Personal Income Tax Accountants Dartford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-east-london",
+    "slug": "personal-income-tax-accountants-east-london",
+    "title": "Personal Income Tax Accountants East London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-edgeware-road",
+    "slug": "personal-income-tax-accountants-edgeware-road",
+    "title": "Personal Income Tax Accountants Edgeware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-edgware-road",
+    "slug": "personal-income-tax-accountants-edgware-road",
+    "title": "Personal Income Tax Accountants Edgware Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-embankment",
+    "slug": "personal-income-tax-accountants-embankment",
+    "title": "Personal Income Tax Accountants Embankment",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-enfield",
+    "slug": "personal-income-tax-accountants-enfield",
+    "title": "Personal Income Tax Accountants Enfield",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-erith",
+    "slug": "personal-income-tax-accountants-erith",
+    "title": "Personal Income Tax Accountants Erith",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-euston",
+    "slug": "personal-income-tax-accountants-euston",
+    "title": "Personal Income Tax Accountants Euston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-euston-square",
+    "slug": "personal-income-tax-accountants-euston-square",
+    "title": "Personal Income Tax Accountants Euston Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-gloucester-road",
+    "slug": "personal-income-tax-accountants-gloucester-road",
+    "title": "Personal Income Tax Accountants Gloucester Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-goodge-street",
+    "slug": "personal-income-tax-accountants-goodge-street",
+    "title": "Personal Income Tax Accountants Goodge Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-great-portland-street",
+    "slug": "personal-income-tax-accountants-great-portland-street",
+    "title": "Personal Income Tax Accountants Great Portland Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-green-park",
+    "slug": "personal-income-tax-accountants-green-park",
+    "title": "Personal Income Tax Accountants Green Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-guildford",
+    "slug": "personal-income-tax-accountants-guildford",
+    "title": "Personal Income Tax Accountants Guildford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-harlow",
+    "slug": "personal-income-tax-accountants-harlow",
+    "title": "Personal Income Tax Accountants Harlow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-harrow",
+    "slug": "personal-income-tax-accountants-harrow",
+    "title": "Personal Income Tax Accountants Harrow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-high-street",
+    "slug": "personal-income-tax-accountants-high-street",
+    "title": "Personal Income Tax Accountants High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-high-street-kensington",
+    "slug": "personal-income-tax-accountants-high-street-kensington",
+    "title": "Personal Income Tax Accountants High Street Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-holbom",
+    "slug": "personal-income-tax-accountants-holbom",
+    "title": "Personal Income Tax Accountants Holbom",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-hornchurch",
+    "slug": "personal-income-tax-accountants-hornchurch",
+    "title": "Personal Income Tax Accountants Hornchurch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-hounslow",
+    "slug": "personal-income-tax-accountants-hounslow",
+    "title": "Personal Income Tax Accountants Hounslow",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-hoxton",
+    "slug": "personal-income-tax-accountants-hoxton",
+    "title": "Personal Income Tax Accountants Hoxton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-hyde-park-corner",
+    "slug": "personal-income-tax-accountants-hyde-park-corner",
+    "title": "Personal Income Tax Accountants Hyde Park Corner",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-kings-cross-st-pancras",
+    "slug": "personal-income-tax-accountants-kings-cross-st-pancras",
+    "title": "Personal Income Tax Accountants Kings Cross St Pancras",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-kingston",
+    "slug": "personal-income-tax-accountants-kingston",
+    "title": "Personal Income Tax Accountants Kingston",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-knightsbridge",
+    "slug": "personal-income-tax-accountants-knightsbridge",
+    "title": "Personal Income Tax Accountants Knightsbridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-lambeth-north",
+    "slug": "personal-income-tax-accountants-lambeth-north",
+    "title": "Personal Income Tax Accountants Lambeth North",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-lancaster-gate",
+    "slug": "personal-income-tax-accountants-lancaster-gate",
+    "title": "Personal Income Tax Accountants Lancaster Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-leiscester-square",
+    "slug": "personal-income-tax-accountants-leiscester-square",
+    "title": "Personal Income Tax Accountants Leiscester Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-liverpool-street",
+    "slug": "personal-income-tax-accountants-liverpool-street",
+    "title": "Personal Income Tax Accountants Liverpool Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-london-bridge",
+    "slug": "personal-income-tax-accountants-london-bridge",
+    "title": "Personal Income Tax Accountants London Bridge",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-mansion-house",
+    "slug": "personal-income-tax-accountants-mansion-house",
+    "title": "Personal Income Tax Accountants Mansion House",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-marble-arch",
+    "slug": "personal-income-tax-accountants-marble-arch",
+    "title": "Personal Income Tax Accountants Marble Arch",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-marylebone",
+    "slug": "personal-income-tax-accountants-marylebone",
+    "title": "Personal Income Tax Accountants Marylebone",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-monument",
+    "slug": "personal-income-tax-accountants-monument",
+    "title": "Personal Income Tax Accountants Monument",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-moorgate",
+    "slug": "personal-income-tax-accountants-moorgate",
+    "title": "Personal Income Tax Accountants Moorgate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-nothing-hill-gate",
+    "slug": "personal-income-tax-accountants-nothing-hill-gate",
+    "title": "Personal Income Tax Accountants Nothing Hill Gate",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-oxford-circus",
+    "slug": "personal-income-tax-accountants-oxford-circus",
+    "title": "Personal Income Tax Accountants Oxford Circus",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-paddington",
+    "slug": "personal-income-tax-accountants-paddington",
+    "title": "Personal Income Tax Accountants Paddington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-picadility-road",
+    "slug": "personal-income-tax-accountants-picadility-road",
+    "title": "Personal Income Tax Accountants Picadility Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-pimlico",
+    "slug": "personal-income-tax-accountants-pimlico",
+    "title": "Personal Income Tax Accountants Pimlico",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-queensway",
+    "slug": "personal-income-tax-accountants-queensway",
+    "title": "Personal Income Tax Accountants Queensway",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-regents-park",
+    "slug": "personal-income-tax-accountants-regents-park",
+    "title": "Personal Income Tax Accountants Regents Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-romford",
+    "slug": "personal-income-tax-accountants-romford",
+    "title": "Personal Income Tax Accountants Romford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-rusell-square",
+    "slug": "personal-income-tax-accountants-rusell-square",
+    "title": "Personal Income Tax Accountants Rusell Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-shoreditch-high-street",
+    "slug": "personal-income-tax-accountants-shoreditch-high-street",
+    "title": "Personal Income Tax Accountants Shoreditch High Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-solane-square",
+    "slug": "personal-income-tax-accountants-solane-square",
+    "title": "Personal Income Tax Accountants Solane Square",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-south-kensington",
+    "slug": "personal-income-tax-accountants-south-kensington",
+    "title": "Personal Income Tax Accountants South Kensington",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-south-london",
+    "slug": "personal-income-tax-accountants-south-london",
+    "title": "Personal Income Tax Accountants South London",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-southwark",
+    "slug": "personal-income-tax-accountants-southwark",
+    "title": "Personal Income Tax Accountants Southwark",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-st-james-park",
+    "slug": "personal-income-tax-accountants-st-james-park",
+    "title": "Personal Income Tax Accountants St James Park",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-st-pauls-bank",
+    "slug": "personal-income-tax-accountants-st-pauls-bank",
+    "title": "Personal Income Tax Accountants St Pauls Bank",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-staines",
+    "slug": "personal-income-tax-accountants-staines",
+    "title": "Personal Income Tax Accountants Staines",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-streatham",
+    "slug": "personal-income-tax-accountants-streatham",
+    "title": "Personal Income Tax Accountants Streatham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-sutton",
+    "slug": "personal-income-tax-accountants-sutton",
+    "title": "Personal Income Tax Accountants Sutton",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-temple",
+    "slug": "personal-income-tax-accountants-temple",
+    "title": "Personal Income Tax Accountants Temple",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-thornton-heath",
+    "slug": "personal-income-tax-accountants-thornton-heath",
+    "title": "Personal Income Tax Accountants Thornton Heath",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-tottenham-court-road",
+    "slug": "personal-income-tax-accountants-tottenham-court-road",
+    "title": "Personal Income Tax Accountants Tottenham Court Road",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-tower-hill",
+    "slug": "personal-income-tax-accountants-tower-hill",
+    "title": "Personal Income Tax Accountants Tower Hill",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-twickenham",
+    "slug": "personal-income-tax-accountants-twickenham",
+    "title": "Personal Income Tax Accountants Twickenham",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-warren-street",
+    "slug": "personal-income-tax-accountants-warren-street",
+    "title": "Personal Income Tax Accountants Warren Street",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-waterloo",
+    "slug": "personal-income-tax-accountants-waterloo",
+    "title": "Personal Income Tax Accountants Waterloo",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-watford",
+    "slug": "personal-income-tax-accountants-watford",
+    "title": "Personal Income Tax Accountants Watford",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-westminster",
+    "slug": "personal-income-tax-accountants-westminster",
+    "title": "Personal Income Tax Accountants Westminster",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-wimbledon",
+    "slug": "personal-income-tax-accountants-wimbledon",
+    "title": "Personal Income Tax Accountants Wimbledon",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-accountants-woking",
+    "slug": "personal-income-tax-accountants-woking",
+    "title": "Personal Income Tax Accountants Woking",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/personal-income-tax-professionals-and-chartered-accountants",
+    "slug": "personal-income-tax-professionals-and-chartered-accountants",
+    "title": "Personal Income Tax Accountants, Tax Advisors - Taxaccolega",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/property-tax",
+    "slug": "property-tax",
+    "title": "Property Tax",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/rd",
+    "slug": "rd",
+    "title": "Rd",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/seed-enterprise-investment-scheme-tax-relief",
+    "slug": "seed-enterprise-investment-scheme-tax-relief",
+    "title": "Seed Enterprise Investment Scheme Tax Relief",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/seis-tax-relief",
+    "slug": "seis-tax-relief",
+    "title": "Seis Tax Relief",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/self-assessment-tax-return-accountant-forest-hill",
+    "slug": "self-assessment-tax-return-accountant-forest-hill",
+    "title": "Self Assessment Tax Return Accountant Forest Hill",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/tax-advisors",
+    "slug": "tax-advisors",
+    "title": "Tax Advisors",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/tax-investigation",
+    "slug": "tax-investigation",
+    "title": "Tax Investigation",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/tax-investigation-insurance",
+    "slug": "tax-investigation-insurance",
+    "title": "Tax Investigation Insurance",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/vat-accountants",
+    "slug": "vat-accountants",
+    "title": "VAT Accountants London | VAT Returns, VAT Registration & VAT Services UK",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxation/worldwide-disclosure",
+    "slug": "worldwide-disclosure",
+    "title": "Worldwide Disclosure Facility | HMRC Offshore Tax",
+    "type": "redirect",
+    "status": "draft"
+  },
+  {
+    "url": "/taxation/worldwide-disclosure-facility",
+    "slug": "worldwide-disclosure-facility",
+    "title": "Worldwide Disclosure Facility | HMRC Offshore Tax",
+    "type": "taxation",
+    "status": "published"
+  },
+  {
+    "url": "/taxcalc",
+    "slug": "taxcalc",
+    "title": "TaxCalc Software UK | Tax Return Software",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/team-member",
+    "slug": "team-member",
+    "title": "Our Team | Taxaccolega Chartered Accountants",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/testimonial",
+    "slug": "testimonial",
+    "title": "Client Testimonials | Taxaccolega Reviews",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/thank-you-transaction-result",
+    "slug": "thank-you-transaction-result",
+    "title": "Thank You Transaction Result",
+    "type": "legacy",
+    "status": "draft"
+  },
+  {
+    "url": "/tide",
+    "slug": "tide",
+    "title": "Tide Business Account | UK Business Banking",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/uk-budget-2026-tax-changes",
+    "slug": "uk-budget-2026-tax-changes",
+    "title": "UK Budget 2026: Tax Changes and What They Mean for You",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/woocommerce",
+    "slug": "woocommerce",
+    "title": "WooCommerce Accountants UK | WordPress Store Tax",
+    "type": "page",
+    "status": "published"
+  },
+  {
+    "url": "/xero",
+    "slug": "xero",
+    "title": "Xero Accountants UK | Certified Xero Partners",
+    "type": "page",
+    "status": "published"
+  }
+]

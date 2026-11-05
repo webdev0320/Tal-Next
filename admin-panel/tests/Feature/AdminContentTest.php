@@ -6,12 +6,12 @@ use App\Filament\Resources\Categories\Pages\CreateCategory;
 use App\Filament\Resources\Pages\Pages\CreatePage;
 use App\Filament\Resources\Pages\Pages\EditPage;
 use App\Filament\Resources\Pages\Pages\ListPages;
-use App\Filament\Resources\Posts\Pages\CreatePost;
-use App\Filament\Resources\Posts\Pages\EditPost;
-use App\Filament\Resources\Posts\Pages\ListPosts;
+use App\Filament\Resources\BlogPosts\Pages\CreateBlogPost;
+use App\Filament\Resources\BlogPosts\Pages\EditBlogPost;
+use App\Filament\Resources\BlogPosts\Pages\ListBlogPosts;
 use App\Models\Category;
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Livewire\Livewire;
@@ -38,11 +38,11 @@ class AdminContentTest extends TestCase
 
     public function test_list_pages_render(): void
     {
-        Post::create(['title' => 'Hello', 'slug' => 'hello', 'status' => 'published']);
+        BlogPost::create(['title' => 'Hello', 'slug' => 'hello', 'status' => 'published']);
         Page::create(['title' => 'About', 'slug' => 'about', 'status' => 'draft']);
 
-        Livewire::test(ListPosts::class)->assertOk()->assertSee('Hello');
-        Livewire::test(ListPosts::class, ['activeTab' => 'trash'])->assertOk()->assertDontSee('Hello');
+        Livewire::test(ListBlogPosts::class)->assertOk()->assertSee('Hello');
+        Livewire::test(ListBlogPosts::class, ['activeTab' => 'trash'])->assertOk()->assertDontSee('Hello');
         Livewire::test(ListPages::class)->assertOk()->assertSee('About');
     }
 
@@ -50,7 +50,7 @@ class AdminContentTest extends TestCase
     {
         $category = Category::create(['name' => 'Tax', 'slug' => 'tax']);
 
-        Livewire::test(CreatePost::class)
+        Livewire::test(CreateBlogPost::class)
             ->fillForm([
                 'title' => 'Capital gains tax guide',
                 'slug' => 'capital-gains-tax-guide',
@@ -69,7 +69,7 @@ class AdminContentTest extends TestCase
             ->call('create')
             ->assertHasNoFormErrors();
 
-        $post = Post::where('slug', 'capital-gains-tax-guide')->firstOrFail();
+        $post = BlogPost::where('slug', 'capital-gains-tax-guide')->firstOrFail();
         $this->assertStringContainsString('<h2>How capital gains tax works</h2>', $post->content);
         $this->assertSame('capital gains tax', $post->seo->focus_keyword);
         $this->assertNotNull($post->seo->seo_score);
@@ -80,9 +80,9 @@ class AdminContentTest extends TestCase
 
     public function test_edit_post_keeps_slug_and_updates_seo(): void
     {
-        $post = Post::create(['title' => 'Old', 'slug' => 'old-url', 'content' => '<p>Hi</p>', 'status' => 'draft']);
+        $post = BlogPost::create(['title' => 'Old', 'slug' => 'old-url', 'content' => '<p>Hi</p>', 'status' => 'draft']);
 
-        Livewire::test(EditPost::class, ['record' => $post->getRouteKey()])
+        Livewire::test(EditBlogPost::class, ['record' => $post->getRouteKey()])
             ->assertOk()
             ->assertSee('Readability')
             ->fillForm(['title' => 'New title', 'seo.focus_keyword' => 'new title'])

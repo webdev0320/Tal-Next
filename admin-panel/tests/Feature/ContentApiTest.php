@@ -4,7 +4,7 @@ namespace Tests\Feature;
 
 use App\Models\Category;
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use App\Support\Seo\SeoSettings;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -16,12 +16,12 @@ class ContentApiTest extends TestCase
     public function test_posts_api_returns_only_published_with_seo(): void
     {
         $cat = Category::create(['name' => 'Tax', 'slug' => 'tax']);
-        $live = Post::create(['title' => 'Live post', 'slug' => 'live-post', 'status' => 'published', 'category_id' => $cat->id,
+        $live = BlogPost::create(['title' => 'Live post', 'slug' => 'live-post', 'status' => 'published', 'category_id' => $cat->id,
             'content' => '<p>Body</p>', 'published_at' => now()->subDay(), 'featured_image_url' => 'https://example.com/a.jpg']);
         $live->seo()->create(['focus_keyword' => 'live', 'description' => 'Custom description']);
-        Post::create(['title' => 'Draft post', 'slug' => 'draft-post', 'status' => 'draft']);
-        Post::create(['title' => 'Future post', 'slug' => 'future-post', 'status' => 'scheduled', 'published_at' => now()->addDay()]);
-        Post::create(['title' => 'Due post', 'slug' => 'due-post', 'status' => 'scheduled', 'published_at' => now()->subMinute()]);
+        BlogPost::create(['title' => 'Draft post', 'slug' => 'draft-post', 'status' => 'draft']);
+        BlogPost::create(['title' => 'Future post', 'slug' => 'future-post', 'status' => 'scheduled', 'published_at' => now()->addDay()]);
+        BlogPost::create(['title' => 'Due post', 'slug' => 'due-post', 'status' => 'scheduled', 'published_at' => now()->subMinute()]);
 
         $this->getJson('/api/posts')
             ->assertOk()
@@ -62,8 +62,8 @@ class ContentApiTest extends TestCase
 
     public function test_seo_settings_sitemaps_and_robots(): void
     {
-        $p = Post::create(['title' => 'Indexed', 'slug' => 'indexed', 'status' => 'published']);
-        $hidden = Post::create(['title' => 'Hidden', 'slug' => 'hidden', 'status' => 'published']);
+        $p = BlogPost::create(['title' => 'Indexed', 'slug' => 'indexed', 'status' => 'published']);
+        $hidden = BlogPost::create(['title' => 'Hidden', 'slug' => 'hidden', 'status' => 'published']);
         $hidden->seo()->create(['robots_index' => 'noindex']);
         Page::create(['title' => 'About', 'slug' => 'about-us', 'status' => 'published']);
         Category::create(['name' => 'Tax', 'slug' => 'tax']);

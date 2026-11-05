@@ -25,7 +25,8 @@ class PageForm
                     Section::make()
                         ->schema([
                             ContentFields::title(),
-                            ContentFields::slug(),
+                            // Pages are unique by URL, not slug (e.g. /landlords and /packages/landlords).
+                            ContentFields::slug(unique: false),
                             ContentFields::editorMode(),
                             ...ContentFields::editors(),
                         ]),
@@ -49,6 +50,18 @@ class PageForm
                     Section::make('Page attributes')
                         ->icon('heroicon-o-squares-2x2')
                         ->schema([
+                            TextInput::make('url')
+                                ->label('URL path')
+                                ->placeholder('/about-us')
+                                ->helperText('Leave empty to build it from the parent and slug.')
+                                ->maxLength(255)
+                                ->unique(ignoreRecord: true)
+                                ->dehydrateStateUsing(fn (?string $state) => filled($state) ? '/'.trim($state, '/') : null),
+                            Select::make('type')
+                                ->options(Page::TYPES)
+                                ->default('page')
+                                ->selectablePlaceholder(false)
+                                ->required(),
                             Select::make('parent_id')
                                 ->label('Parent page')
                                 ->relationship(

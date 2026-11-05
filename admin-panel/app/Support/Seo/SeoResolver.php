@@ -4,7 +4,7 @@ namespace App\Support\Seo;
 
 use App\Models\Category;
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -31,7 +31,7 @@ class SeoResolver
     public function type(): string
     {
         return match (true) {
-            $this->record instanceof Post => 'post',
+            $this->record instanceof BlogPost => 'post',
             $this->record instanceof Category => 'category',
             default => 'page',
         };
@@ -72,9 +72,9 @@ class SeoResolver
             'tagline' => $s['tagline'] ?? '',
             'sep' => $s['separator'] ?? '|',
             'excerpt' => $this->excerpt(),
-            'category' => $r instanceof Post ? ($r->category?->name ?? '') : '',
-            'primary_category' => $r instanceof Post ? ($r->category?->name ?? '') : '',
-            'author' => $r instanceof Post ? ($r->author?->name ?? '') : '',
+            'category' => $r instanceof BlogPost ? ($r->category?->name ?? '') : '',
+            'primary_category' => $r instanceof BlogPost ? ($r->category?->name ?? '') : '',
+            'author' => $r instanceof BlogPost ? ($r->author?->name ?? '') : '',
             'date' => optional($r->published_at ?? $r->created_at ?? null)?->format('j F Y') ?? '',
             'modified' => optional($r->updated_at ?? null)?->format('j F Y') ?? '',
             'currentyear' => now()->format('Y'),
@@ -192,7 +192,7 @@ class SeoResolver
         $crumbs = [$home];
         $r = $this->record;
 
-        if ($r instanceof Post) {
+        if ($r instanceof BlogPost) {
             $crumbs[] = ['name' => 'Blog', 'url' => SeoSettings::siteUrl($this->settings['blog_base'] ?? 'blog')];
         }
         if ($r instanceof Page) {
@@ -287,7 +287,7 @@ class SeoResolver
             ])->all(),
         ];
 
-        if ($this->record instanceof Post) {
+        if ($this->record instanceof BlogPost) {
             $articleType = $this->record->seo?->schema_article_type ?: ($s['default_post_schema'] ?? 'BlogPosting');
             if ($articleType !== 'None') {
                 $author = $this->record->author;
@@ -334,16 +334,16 @@ class SeoResolver
             'focus_keyword' => $seo?->focus_keyword,
             'is_cornerstone' => (bool) $seo?->is_cornerstone,
             'open_graph' => array_filter([
-                'type' => $this->record instanceof Post ? 'article' : 'website',
+                'type' => $this->record instanceof BlogPost ? 'article' : 'website',
                 'locale' => str_replace('-', '_', $this->settings['site_language'] ?? 'en_GB'),
                 'site_name' => $this->settings['site_name'],
                 'title' => $seo?->og_title ? $this->replaceVars($seo->og_title) : $title,
                 'description' => $seo?->og_description ?: $description,
                 'url' => $this->canonical(),
                 'image' => $image,
-                'published_time' => $this->record instanceof Post ? optional($this->record->published_at)?->toIso8601String() : null,
+                'published_time' => $this->record instanceof BlogPost ? optional($this->record->published_at)?->toIso8601String() : null,
                 'modified_time' => optional($this->record->updated_at)?->toIso8601String(),
-                'section' => $this->record instanceof Post ? $this->record->category?->name : null,
+                'section' => $this->record instanceof BlogPost ? $this->record->category?->name : null,
             ]),
             'twitter' => array_filter([
                 'card' => 'summary_large_image',

@@ -2,9 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Models\Category;
-use App\Models\Page;
-use App\Models\Post;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use NoteBrainsLab\FilamentMenuManager\Models\Menu;
@@ -15,7 +12,7 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        $admin = User::firstOrCreate(
+        User::firstOrCreate(
             ['email' => 'admin@example.com'],
             [
                 'name' => 'Admin',
@@ -24,46 +21,13 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        $category = Category::firstOrCreate(
-            ['slug' => 'accounting'],
-            ['name' => 'Accounting', 'description' => 'Accounting articles and updates.']
-        );
-
-        Page::firstOrCreate(
-            ['slug' => 'home'],
-            [
-                'title' => 'Home',
-                'content' => '<p>Welcome to our website.</p>',
-                'status' => 'published',
-            ]
-        );
-
-        Page::firstOrCreate(
-            ['slug' => 'about-us'],
-            [
-                'title' => 'About Us',
-                'content' => '<p>About our company.</p>',
-                'status' => 'published',
-            ]
-        );
-
-        // Sync industry pages using dedicated seeder
+        // Every URL the website serves (+ legacy WordPress URLs), industry page metadata, then page bodies.
+        $this->call(PageUrlsSeeder::class);
         $this->call(IndustryPagesSeeder::class);
+        $this->call(PagesContentSeeder::class); // rendered HTML of each page -> pages_content
+        $this->call(BlogPostsSeeder::class);    // blog URLs + WordPress import -> blog_posts / blog_contents
+        $this->call(ProfessionalSeoSeeder::class); // professional SEO settings -> seo_meta
 
-        Post::firstOrCreate(
-            ['slug' => 'welcome-to-our-blog'],
-            [
-                'title' => 'Welcome to Our Blog',
-                'excerpt' => 'This is the first blog post.',
-                'content' => '<p>Hello world! This is your first blog post.</p>',
-                'category_id' => $category->id,
-                'author_id' => $admin->id,
-                'status' => 'published',
-                'published_at' => now(),
-            ]
-        );
-
-        // Industry pages (synced via IndustryPagesSeeder)
         $location = MenuLocation::firstOrCreate(
             ['handle' => 'header'],
             ['name' => 'Header']
@@ -92,7 +56,6 @@ class DatabaseSeeder extends Seeder
 
         $createItem('Home', '/');
 
-        $this->call(IndustryPagesSeeder::class);
         $servicesParent = $createItem('Services', '/taxation');
         foreach ($extract['servicesItems'] as $item) {
             $createItem($item['label'], $item['to'], $servicesParent->id);

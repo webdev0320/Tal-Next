@@ -2,9 +2,9 @@
 
 namespace App\Filament\Widgets;
 
-use App\Filament\Resources\Posts\PostResource;
+use App\Filament\Resources\BlogPosts\BlogPostResource;
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use App\Models\SeoMeta;
 use Filament\Widgets\StatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
@@ -22,7 +22,7 @@ class SeoOverview extends StatsOverviewWidget
 
     protected function getStats(): array
     {
-        $types = [Post::class, Page::class];
+        $types = [BlogPost::class, Page::class];
 
         $published = fn ($q) => $q->whereIn('seoable_type', $types)
             ->whereHasMorph('seoable', $types, fn ($m) => $m->where('status', 'published'));
@@ -33,11 +33,11 @@ class SeoOverview extends StatsOverviewWidget
         $ok = (clone $withKeyphrase)->whereBetween('seo_score', [40, 69])->count();
         $bad = (clone $withKeyphrase)->where('seo_score', '<', 40)->count();
 
-        $totalPublished = Post::where('status', 'published')->count() + Page::where('status', 'published')->count();
+        $totalPublished = BlogPost::where('kind', 'post')->where('status', 'published')->count() + Page::where('status', 'published')->count();
         $noKeyphrase = max(0, $totalPublished - $good - $ok - $bad);
         $noindex = SeoMeta::query()->tap($published)->where('robots_index', 'noindex')->count();
 
-        $postsUrl = PostResource::getUrl('index');
+        $postsUrl = BlogPostResource::getUrl('index');
 
         return [
             Stat::make('Good SEO score', $good)->color('success')->description('Score 70+')->descriptionIcon('heroicon-s-check-circle')

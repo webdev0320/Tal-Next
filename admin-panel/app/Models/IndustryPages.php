@@ -2,10 +2,8 @@
 
 namespace App\Models;
 
-use App\Filament\Resources\Pages\PageResource;
 use App\Models\Concerns\HasSeo;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Str;
 
 class IndustryPages extends Model
@@ -22,7 +20,7 @@ class IndustryPages extends Model
     ];
 
     protected $fillable = [
-        'title', 'slug', 'content', 'content_html', 'editor_mode',
+        'title', 'slug', 'url', 'type',
         'featured_image', 'status', 'published_at', 'sort_order',
     ];
 
@@ -32,7 +30,6 @@ class IndustryPages extends Model
     ];
 
     protected $attributes = [
-        'editor_mode' => 'visual',
         'status' => 'draft',
     ];
 
@@ -44,12 +41,6 @@ class IndustryPages extends Model
     public function isPubliclyVisible(): bool
     {
         return $this->status === 'published' && ! $this->trashed();
-    }
-
-    /** Virtual field used by the HTML code editor in the admin. */
-    public function setContentHtmlAttribute(?string $value): void
-    {
-        $this->attributes['content'] = $value;
     }
 
     public function featuredImageUrl(): ?string
@@ -75,6 +66,12 @@ class IndustryPages extends Model
         return $this->title;
     }
 
+    /** Full path on the website; stored explicitly by the seeder. */
+    public function frontendPath(): string
+    {
+        return trim((string) $this->url, '/');
+    }
+
     /** Get the menu URL for the page. */
     public function getMenuUrl(): string
     {
@@ -93,76 +90,93 @@ class IndustryPages extends Model
         return null;
     }
 
+    /** Absolute path to the Next.js industry page data files. */
+    public static function sourceDirectory(): string
+    {
+        return base_path('../src/data/industryPages');
+    }
+
+    /**
+     * Extract the page object exported by one data file.
+     *
+     * The files have the shape `const page = {...};\n\nexport default page;`
+     * and are generated with JSON.stringify, so the literal itself is valid JSON.
+     *
+     * @return array<string, mixed>|null
+     */
+    public static function parseFile(string $file): ?array
+    {
+        $contents = @file_get_contents($file);
+
+        if ($contents === false) {
+            return null;
+        }
+
+        if (! preg_match('/export\s+default\s+(\w+)\s*;/', $contents, $matches)) {
+            return null;
+        }
+
+        $variable = preg_quote($matches[1], '/');
+
+        if (! preg_match('/const\s+' . $variable . '\s*=\s*(\{[\s\S]*?\})\s*;\s*export/', $contents, $assignment)) {
+            return null;
+        }
+
+        $data = json_decode($assignment[1], true);
+
+        return is_array($data) && isset($data['slug']) ? $data : null;
+    }
+
     /** Sync industry pages from src/data/industryPages to the database. */
     public static function sync(): void
     {
-        $pagesDir = database_path('../src/data/industryPages');
-        
-        if (!is_dir($pagesDir)) {
+        $pagesDir = self::sourceDirectory();
+
+        if (! is_dir($pagesDir)) {
             echo "Industry pages directory not found: {$pagesDir}\n";
+
             return;
         }
 
-        $files = glob($pagesDir . '/*.js');
-        
-        if (!$files) {
+        $files = glob($pagesDir . '/*.js') ?: [];
+
+        if ($files === []) {
             echo "No industry page files found.\n";
+
             return;
         }
 
         foreach ($files as $file) {
             $slug = basename($file, '.js');
-            
-            // Read and parse the industry page data
-            $content = file_get_contents($file);
-            
-            // Extract the default export object - format: "const page = {...}; export default page;"
-            if (preg_match('/export default (\w+);/', $content, $matches)) {
-                $varName = $matches[1];
-                if (preg_match_new('/const ' . $varName . '\s*=\s*({[\\s\\S]*?});\s*export/', $content, $assignMatches)) {
-                    try {
-                        $pageData = json_decode('(' . $assignMatches[1] . ')', true);
-                        
-                        if (!$pageData || !isset($pageData['slug'])) {
-                            echo "✗ Failed to extract data for: {$slug}\n";
-                            continue;
-                        }
-                        
-                        // Prepare the page data for database insertion
-                        $title = $pageData['title'] ?? ucfirst(str_replace('-', ' ', $slug));
-                        $content = $pageData['sections'] ? json_encode($pageData['sections']) : '';
-                        $status = 'published';
-                        $sortOrder = (int)($pageData['slug'] === 'home' ? 0 : 1);
-                        
-                        // Check if page already exists
-                        $existing = self::where('slug', $slug)->first();
-                        
-                        if ($existing) {
-                            // Update existing page
-                            $existing->title = $title;
-                            $existing->content = $content;
-                            $existing->status = $status;
-                            $existing->sort_order = $sortOrder;
-                            $existing->save();
-                            echo "✓ Updated: {$slug}\n";
-                        } else {
-                            // Create new page
-                            self::create([
-                                'title' => $title,
-                                'slug' => $slug,
-                                'content' => $content,
-                                'status' => $status,
-                                'sort_order' => $sortOrder,
-                            ]);
-                            echo "✓ Created: {$slug}\n";
-                        }
-                    } catch (Exception $e) {
-                        echo "✗ Error parsing {$slug}: " . $e->getMessage() . "\n";
-                    }
-                }
+
+            // index.js aggregates the imports and has no default export.
+            if ($slug === 'index') {
+                continue;
             }
+
+            $pageData = self::parseFile($file);
+
+            if ($pageData === null) {
+                echo "✗ Failed to extract data for: {$slug}\n";
+
+                continue;
+            }
+
+            $page = self::updateOrCreate(
+                ['url' => '/industries/'.$slug],
+                [
+                    'slug' => $slug,
+                    'type' => 'industry',
+                    'title' => $pageData['title'] ?? Str::headline(str_replace('-', ' ', $slug)),
+                    'featured_image' => filled($pageData['heroImage'] ?? null) ? $pageData['heroImage'] : null,
+                    'status' => 'published',
+                    'sort_order' => $pageData['slug'] === 'home' ? 0 : 1,
+                ]
+            );
+
+            echo ($page->wasRecentlyCreated ? '  ✓ Created: ' : '  ✓ Updated: ') . $slug . "\n";
         }
-        
+
         echo "\nSync complete.\n";
     }
 }

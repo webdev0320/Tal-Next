@@ -99,7 +99,7 @@ const ContactForm = ({ source = 'Website contact form' }) => {
   };
 
   return (
-    <section id="contact-block" className="py-12 bg-white">
+    <section id="contact-block" className="py-12 bg-white" data-shortcode="contact_form">
       <Script
         src={`https://www.google.com/recaptcha/api.js?render=${RECAPTCHA_SITE_KEY}`}
         strategy="afterInteractive"

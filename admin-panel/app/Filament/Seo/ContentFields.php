@@ -34,7 +34,7 @@ class ContentFields
             });
     }
 
-    public static function slug(string $prefixPath = ''): TextInput
+    public static function slug(string $prefixPath = '', bool $unique = true): TextInput
     {
         $prefix = rtrim(SeoSettings::siteUrl($prefixPath), '/').'/';
 
@@ -44,7 +44,7 @@ class ContentFields
             ->required()
             ->maxLength(191)
             ->rule('alpha_dash')
-            ->unique(ignoreRecord: true)
+            ->when($unique, fn (TextInput $field) => $field->unique(ignoreRecord: true))
             ->live(onBlur: true)
             ->afterStateUpdated(fn (?string $state, Set $set) => $set('slug', Str::slug((string) $state)))
             ->helperText('Changing the slug of published content changes its URL — add a redirect on the website if you do.');

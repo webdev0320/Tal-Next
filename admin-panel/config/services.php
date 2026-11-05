@@ -4,6 +4,25 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Next.js frontend sync
+    |--------------------------------------------------------------------------
+    |
+    | When a blog post is saved in the admin, the site's public/blogs.json is
+    | refreshed automatically (FRONTEND_SYNC_ENABLED=true). Set
+    | FRONTEND_AUTO_BUILD=true to also run the Next.js production build after
+    | every export; leave false if the deploy pipeline builds separately.
+    |
+    */
+
+    'frontend_sync' => [
+        'enabled' => env('FRONTEND_SYNC_ENABLED', true),
+        'auto_build' => env('FRONTEND_AUTO_BUILD', false),
+        'api_url' => env('FRONTEND_ADMIN_API_URL', 'http://127.0.0.1:8000'),
+        'npm_binary' => env('FRONTEND_NPM_BINARY', 'npm'),
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Third Party Services
     |--------------------------------------------------------------------------
     |

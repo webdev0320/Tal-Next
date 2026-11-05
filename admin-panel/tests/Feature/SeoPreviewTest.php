@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use App\Filament\Resources\Posts\Pages\CreatePost;
+use App\Filament\Resources\BlogPosts\Pages\CreateBlogPost;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Livewire\Livewire;
@@ -16,7 +16,7 @@ class SeoPreviewTest extends TestCase
     {
         $this->actingAs(User::factory()->create());
 
-        Livewire::test(CreatePost::class)
+        Livewire::test(CreateBlogPost::class)
             ->fillForm([
                 'title' => 'Unique preview headline',
                 'slug' => 'unique-preview-headline',

@@ -4,7 +4,7 @@ namespace App\Filament\Seo;
 
 use App\Models\Category;
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use App\Models\SeoMeta;
 use App\Models\User;
 use App\Support\Seo\SeoAnalyzer;
@@ -28,7 +28,7 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Reusable Yoast-style SEO box for any model using the HasSeo trait.
  *
- * Usage: SeoPanel::make(Post::class) inside a resource form.
+ * Usage: SeoPanel::make(BlogPost::class) inside a resource form.
  * The parent form must have "title"/"name", "slug" and "content"/"description" fields.
  */
 class SeoPanel
@@ -160,7 +160,7 @@ class SeoPanel
                 ]),
         ];
 
-        if ($modelClass === Post::class) {
+        if ($modelClass === BlogPost::class) {
             $advanced[] = Select::make('schema_article_type')
                 ->label('Schema article type')
                 ->placeholder('Default')
@@ -223,7 +223,7 @@ class SeoPanel
             ]);
         }
 
-        if ($modelClass === Post::class) {
+        if ($modelClass === BlogPost::class) {
             $record->forceFill([
                 'excerpt' => $parent('excerpt'),
                 'published_at' => $parent('published_at'),
@@ -276,7 +276,7 @@ class SeoPanel
                 'title' => $resolver->title(),
                 'description' => $resolver->description(),
                 'url' => $resolver->canonical(),
-                'date' => $modelClass === Post::class && $record->published_at ? $record->published_at->format('j M Y') : null,
+                'date' => $modelClass === BlogPost::class && $record->published_at ? $record->published_at->format('j M Y') : null,
                 'keyword' => $get('focus_keyword'),
             ];
         } catch (\Throwable $e) {
@@ -331,7 +331,7 @@ class SeoPanel
     public static function defaultTemplate(string $modelClass, string $field): string
     {
         $type = match ($modelClass) {
-            Post::class => 'post',
+            BlogPost::class => 'post',
             Category::class => 'category',
             default => 'page',
         };

@@ -4,7 +4,7 @@ namespace App\Filament\Widgets;
 
 use App\Models\Category;
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use Filament\Widgets\StatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 
@@ -14,11 +14,11 @@ class StatsOverview extends StatsOverviewWidget
 
     protected function getStats(): array
     {
-        $scheduled = Post::where('status', 'scheduled')->where('published_at', '>', now())->count();
+        $scheduled = BlogPost::where('kind', 'post')->where('status', 'scheduled')->where('published_at', '>', now())->count();
 
         return [
-            Stat::make('Published posts', Post::published()->count())
-                ->description(Post::whereIn('status', ['draft', 'pending'])->count().' drafts · '.$scheduled.' scheduled')
+            Stat::make('Published posts', BlogPost::where('kind', 'post')->published()->count())
+                ->description(BlogPost::where('kind', 'post')->whereIn('status', ['draft', 'pending'])->count().' drafts · '.$scheduled.' scheduled')
                 ->icon('heroicon-o-newspaper'),
             Stat::make('Pages', Page::where('status', 'published')->count())
                 ->description(Page::where('status', 'draft')->count().' drafts')

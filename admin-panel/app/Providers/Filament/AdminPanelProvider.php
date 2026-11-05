@@ -3,7 +3,7 @@
 namespace App\Providers\Filament;
 
 use App\Models\Page;
-use App\Models\Post;
+use App\Models\BlogPost;
 use App\Filament\Resources\CombinedContentResource;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
@@ -43,7 +43,7 @@ class AdminPanelProvider extends PanelProvider
             ->plugin(
                 FilamentMenuManagerPlugin::make()
                     ->locations(['header' => 'Header'])
-                    ->modelSources([Page::class, Post::class])
+                    ->modelSources([Page::class, BlogPost::class])
                     ->navigationGroup('Content')
                     ->navigationLabel('Manage Header Menu')
             )

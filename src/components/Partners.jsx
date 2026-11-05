@@ -26,7 +26,7 @@ const Partners = () => {
   ];
 
   return (
-    <section className="py-5">
+    <section className="py-5" data-shortcode="partners">
         <div className="container">
             <div className="text-center max-w-xl mx-auto mb-5">
                 <div className="flex justify-center">

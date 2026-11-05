@@ -2,28 +2,62 @@
 
 This file explains how to manage pages, blog posts and Yoast-style SEO in the Filament admin, and which API the Next.js site reads from.
 
+## Page URL registry
+
+The `pages` table is the canonical list of every non-blog URL on the site — the 173 Next.js static routes, static redirect stubs (`public/taxation/*/index.html`) and **all legacy WordPress URLs from `public/page_urls.json`**. Each row has:
+
+- `url` (unique, e.g. `/accounts/bookkeeping-services`) — the canonical path
+- `type` — `page | industry | account | taxation | package | redirect | legacy`
+- `status` — legacy/redirect rows are seeded as **draft** (they no longer exist as real pages); everything else is published
+
+Page bodies (HTML with shortcodes like `[contact_form]`/`[reviews_slider]`, and the extracted JSON-LD) live in `pages_content`, one row per page.
+
+```bash
+# Regenerate the URL list after adding/removing routes
+node scripts/generate-page-urls.mjs      # writes seeders/data/page-urls.json + blog-posts.json
+php artisan db:seed --class=PageUrlsSeeder
+
+# Re-import page bodies from the static export
+npm run build && node scripts/export-page-content.mjs
+php artisan db:seed --class=PagesContentSeeder      # keeps admin edits unless PAGES_CONTENT_OVERWRITE=1
+
+# Backfill professional SEO settings for every URL (idempotent with the committed manifest)
+node scripts/generate-professional-seo.mjs
+php artisan db:seed --class=ProfessionalSeoSeeder
+```
+
+Professional SEO backfill uses `public/seo-metadata.json`, `src/data/seo/staticPages.js`, the industry/accounts page data and `public/blog-seo.json`, then writes complete `seo_meta` rows for all 803 URLs (title, description, focus keyword, related keywords, robots, breadcrumb title, schema types, OG/Twitter fields, cornerstone flags). Legacy/redirect rows and the internal test post are marked noindex; current pages and `/blog` are indexable. Re-run it after route changes.
+
+## Blog content tables
+
+The 150 blog URLs live in dedicated tables, not in `pages`:
+
+- **`blog_posts`** — URL registry + post metadata: `url` (unique), `slug`, `kind` (`post` | `archive` — `/blog` and `/blog/page/2`…`/10` are archive rows), `title`, `excerpt`, `category_id`, `author_id`, `featured_image`/`featured_image_url`, `is_featured`, `status`, `published_at`, soft deletes.
+- **`blog_contents`** — the editable HTML body of each post (same shortcode convention as pages), plus extracted JSON-LD. `source` is `wp-import` or `admin`.
+
+Import / re-import from the WordPress export:
+
+```bash
+php artisan db:seed --class=BlogPostsSeeder
+```
+
+`BlogPostsSeeder` reads `public/blogs.json` (bodies, excerpts, authors, categories, dates, featured images) and `public/blog-seo.json` (SEO title/description per slug). The 140 posts all exist in the export, so a fresh migrate + seed imports everything. Each author becomes a user with a random password; **Settings → Users → reset password** to let anyone log in.
+
+`php artisan migrate:fresh --seed` rebuilds everything: **653 page rows** (187 current + 466 legacy) and **150 blog rows** (140 posts + 10 archives), **173 page bodies** in `pages_content`, **140 blog bodies** in `blog_contents`, and **803 `seo_meta` rows** (professional titles, descriptions, keywords, robots, breadcrumbs, OG/Twitter and schema). (Only statically exported pages and the published WordPress posts have bodies; legacy/redirect/archives intentionally have none.)
+
 ## Setup after pulling these changes
 
 ```bash
 cd admin-panel
-php artisan migrate                 # adds seo_meta + settings tables and new post/page columns
+php artisan migrate:fresh --seed    # full rebuild (drops and recreates all tables)
 php artisan storage:link            # needed for uploaded images (featured / social images)
-php artisan content:import-blogs    # imports ../public/blogs.json (140 posts) + current SEO meta
 ```
+
+If you don't want to wipe the database, run the seeders individually instead (`php artisan db:seed --class=PageUrlsSeeder`, `php artisan db:seed --class=PagesContentSeeder`, `php artisan db:seed --class=BlogPostsSeeder`, `php artisan db:seed --class=ProfessionalSeoSeeder`). Note the Page/Blog URL seeders are `updateOrCreate` — they overwrite seeded titles/slugs/URLs but never touch `*_contents` bodies for rows whose `source` is `admin`.
 
 The migration moves the existing `meta_title` / `meta_description` values into the new `seo_meta` table, then drops those two columns.
 
-`content:import-blogs` options:
-
-| Option | Meaning |
-|---|---|
-| `--dry-run` | Show what would happen without writing anything |
-| `--update` | Overwrite posts that already exist. By default, existing slugs are skipped |
-| `--category=blog` | Put every post in one category instead of the WordPress month categories |
-| `--no-meta` | Don't import SEO title/description from `src/app/blog/*/page.jsx` |
-| `--json=` / `--jsx=` | Custom paths to `blogs.json` / the blog route folder |
-
-Imported posts open in the **HTML** editor, because the visual editor would strip their inline WordPress/Elementor styles. Each post author is created as a user with a random password. To let an author log in, reset their password under Settings → Users.
+Imported posts open in the **HTML** editor, because the visual editor would strip their inline WordPress/Elementor styles.
 
 ## Admin features
 
@@ -51,6 +85,8 @@ Template variables: `%%title%% %%sitename%% %%sep%% %%tagline%% %%excerpt%% %%ca
 | `GET /api/seo/settings` | Global settings: site, home, blog, organization, social, verification, analytics |
 | `GET /api/seo/robots.txt` | Generated robots.txt |
 | `GET /sitemap_index.xml`, `/post-sitemap.xml`, `/page-sitemap.xml`, `/category-sitemap.xml` | XML sitemaps (noindex and canonicalised items are excluded) |
+
+`/api/posts*` is backed by the `blog_posts` / `blog_contents` tables.
 
 Every `seo` object has this shape, ready to map onto Next.js `generateMetadata`:
 

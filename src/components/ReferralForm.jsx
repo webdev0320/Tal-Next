@@ -3,7 +3,7 @@ import React from 'react';
 
 const ReferralForm = () => {
   return (
-    <section id="refer-form" className="py-20 bg-white">
+    <section id="refer-form" className="py-20 bg-white" data-shortcode="referral_form">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="bg-[#1D3C45] rounded-3xl p-8 lg:p-16 text-white shadow-2xl relative overflow-hidden">
           <div className="text-center mb-10">
