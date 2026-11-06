@@ -25,29 +25,17 @@ class SyncFrontendBlogContent implements ShouldQueue
     {
         $frontendDir = dirname(__DIR__, 3); // repo root (admin-panel/..)
 
-        // 1. Export DB content -> public/blogs.json
-        $export = new Process(
-            ['node', 'scripts/export-blog-posts.mjs'],
+        // Export DB content -> public/blogs.json, then commit & push so the
+        // git-based frontend deployment (Vercel) rebuilds the site.
+        $publish = new Process(
+            ['node', 'scripts/publish-blogs.mjs'],
             $frontendDir,
             ['ADMIN_API_URL' => config('services.frontend_sync.api_url')],
             null,
             120,
         );
-        $export->mustRun();
-        Log::channel('stack')->info('Frontend blog export finished', ['output' => $export->getOutput()]);
-
-        // 2. Optional full static rebuild of the Next.js site
-        if (config('services.frontend_sync.auto_build')) {
-            $build = new Process(
-                [config('services.frontend_sync.npm_binary', 'npm'), 'run', 'build'],
-                $frontendDir,
-                null,
-                null,
-                600,
-            );
-            $build->mustRun();
-            Log::channel('stack')->info('Frontend rebuild finished', ['output' => $build->getOutput()]);
-        }
+        $publish->mustRun();
+        Log::channel('stack')->info('Frontend blog publish finished', ['output' => $publish->getOutput()]);
     }
 
     public function failed(\Throwable $e): void

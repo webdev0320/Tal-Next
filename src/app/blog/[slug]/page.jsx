@@ -3,15 +3,17 @@ import ContactSection from '../../../components/ContactSection';
 import { getPost, getPosts } from '../../../lib/cms';
 import { createMetadata, stripHtml } from '../../../lib/seo';
 
-export const dynamicParams = false;
+// ISR: pages are cached and refreshed via the /api/revalidate webhook (and a
+// 60s time-based safety net). New slugs are still pre-built at deploy time.
+export const revalidate = 60;
 
-export function generateStaticParams() {
-  return getPosts().map((post) => ({ slug: post.slug }));
+export async function generateStaticParams() {
+  return (await getPosts()).map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = await getPost(slug);
   if (!post) return {};
 
   return createMetadata({
@@ -31,7 +33,8 @@ function formatDate(iso) {
 
 export default async function Page({ params }) {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = await getPost(slug);
+  if (!post) notFound();
   const byline = [formatDate(post.published_at), post.author?.name && `By ${post.author.name}`]
     .filter(Boolean)
     .join(' | ');

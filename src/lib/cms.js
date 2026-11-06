@@ -1,20 +1,23 @@
 /**
- * Build-time access to the blog posts in public/blogs.json.
+ * Blog data source for the frontend.
  *
- * The Next.js app is fully self-contained: it no longer calls the Laravel
- * admin-panel API or reads any CMS snapshot. The committed JSON file is the
- * single source of truth for blog content. Server-only: uses fs.
+ * ISR mode (primary): fetches published posts live from the Laravel admin API
+ * (`ADMIN_API_URL/api/posts?all=1&full=1`) and lets Next.js cache them with
+ * `next: { revalidate, tags: ['blog-posts'] }`. When the admin panel saves a
+ * post it calls the frontend's /api/revalidate webhook, which drops the cache
+ * so the next visitor sees the change immediately.
+ *
+ * Fallback: if the API is unreachable (e.g. backend not running), pages render
+ * from the committed public/blogs.json snapshot so the site never breaks.
+ *
+ * Server-only: uses fs + Next.js fetch caching.
  */
 
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
-let _posts;
-
-function readBlogs() {
-  const p = path.join(process.cwd(), 'public/blogs.json');
-  return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : { posts: [] };
-}
+const ADMIN_API_URL = (process.env.ADMIN_API_URL || 'http://127.0.0.1:8000/api').replace(/\/+$/, '');
+const REVALIDATE_SECONDS = Number(process.env.BLOG_REVALIDATE || 60);
 
 function firstImage(html) {
   return String(html || '').match(/<img[^>]+src="([^">]+)"/i)?.[1] || null;
@@ -24,7 +27,7 @@ function firstImage(html) {
  * The WordPress export left page chrome inside many posts: whole embedded
  * HTML documents (the ID verification popup form with its own <style> rules
  * such as `button { color: #fff !important }`), share icons and popup buttons.
- * Those leak into the site header and layout, so strip them at build time.
+ * Those leak into the site header and layout, so strip them at render time.
  */
 function cleanContent(html) {
   let c = String(html || '');
@@ -59,6 +62,29 @@ function cleanContent(html) {
     .trim();
 }
 
+function toIso(date) {
+  const d = new Date(String(date || '').replace(' ', 'T'));
+  return Number.isNaN(d.getTime()) ? null : d.toISOString();
+}
+
+/** Normalise one post from the admin API response. */
+function fromApiPost(post) {
+  return {
+    id: post.id,
+    title: post.title,
+    slug: post.slug,
+    content: cleanContent(post.content),
+    excerpt: post.excerpt || '',
+    featured_image: post.featured_image || post.featured_image_url || null,
+    featured_image_alt: post.title,
+    author: post.author ? { name: post.author.name || post.author } : null,
+    category: post.category || post.categories?.[0] || null,
+    published_at: toIso(post.published_at),
+    updated_at: null,
+  };
+}
+
+/** Normalise one post from the public/blogs.json fallback snapshot. */
 function fromBlogsJson(post) {
   return {
     id: post.id,
@@ -70,31 +96,65 @@ function fromBlogsJson(post) {
     featured_image_alt: post.title,
     author: post.author ? { name: post.author } : null,
     category: post.categories?.[0] || null,
-    published_at: post.date ? new Date(post.date.replace(' ', 'T')).toISOString() : null,
+    published_at: toIso(post.date),
     updated_at: null,
   };
 }
 
-/** All published posts, newest first. */
-export function getPosts() {
-  if (!_posts) {
-    const posts = (readBlogs().posts ?? []).map(fromBlogsJson);
-    const sorted = [...posts].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-    const link = (p) => (p ? { title: p.title, slug: p.slug, path: `/blog/${p.slug}/` } : null);
-    // previous = older post, next = newer post
-    _posts = sorted.map((p, i) => ({ ...p, previous: link(sorted[i + 1]), next: link(sorted[i - 1]) }));
+function linkPosts(sorted) {
+  const link = (p) => (p ? { title: p.title, slug: p.slug, path: `/blog/${p.slug}/` } : null);
+  // previous = older post, next = newer post
+  return sorted.map((p, i) => ({ ...p, previous: link(sorted[i + 1]), next: link(sorted[i - 1]) }));
+}
+
+function sortByDate(posts) {
+  return [...posts].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+}
+
+/** Fallback snapshot in public/blogs.json (same shape the export script writes). */
+function readBlogsJson() {
+  const p = path.join(process.cwd(), 'public/blogs.json');
+  if (!existsSync(p)) return [];
+  try {
+    const raw = JSON.parse(readFileSync(p, 'utf8'));
+    return (raw.posts ?? []).map(fromBlogsJson);
+  } catch {
+    return [];
   }
-  return _posts;
+}
+
+/**
+ * All published posts, newest first. Cached by Next.js' fetch cache with the
+ * `blog-posts` tag and revalidated every REVALIDATE_SECONDS (60s default).
+ */
+export async function getPosts() {
+  try {
+    const res = await fetch(`${ADMIN_API_URL}/posts?all=1&full=1`, {
+      next: { revalidate: REVALIDATE_SECONDS, tags: ['blog-posts'] },
+      headers: { Accept: 'application/json' },
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!res.ok) throw new Error(`API ${res.status}`);
+    const { data } = await res.json();
+    if (!Array.isArray(data) || data.length === 0) throw new Error('API returned no posts');
+    return linkPosts(sortByDate(data.map(fromApiPost)));
+  } catch (err) {
+    // API down (e.g. backend not running locally) -> serve the committed snapshot.
+    console.warn(`[cms] API unavailable (${err.message}); falling back to public/blogs.json`);
+    return linkPosts(sortByDate(readBlogsJson()));
+  }
 }
 
 /** @param {string} slug */
-export function getPost(slug) {
-  return getPosts().find((p) => p.slug === slug) || null;
+export async function getPost(slug) {
+  const posts = await getPosts();
+  return posts.find((p) => p.slug === slug) || null;
 }
 
 /** Lightweight post summaries for the blog listing (no content shipped to the client). */
-export function getPostSummaries() {
-  return getPosts().map((p) => ({
+export async function getPostSummaries() {
+  const posts = await getPosts();
+  return posts.map((p) => ({
     id: p.id,
     slug: p.slug,
     title: p.title,

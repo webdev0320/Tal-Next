@@ -16,9 +16,10 @@ return [
 
     'frontend_sync' => [
         'enabled' => env('FRONTEND_SYNC_ENABLED', true),
-        'auto_build' => env('FRONTEND_AUTO_BUILD', false),
-        'api_url' => env('FRONTEND_ADMIN_API_URL', 'http://127.0.0.1:8000'),
-        'npm_binary' => env('FRONTEND_NPM_BINARY', 'npm'),
+        // Next.js frontend base URL for the ISR revalidate webhook.
+        'frontend_url' => env('FRONTEND_URL', 'http://127.0.0.1:3000'),
+        // Must match REVALIDATE_TOKEN in the frontend's environment.
+        'revalidate_token' => env('FRONTEND_REVALIDATE_TOKEN', ''),
     ],
 
     /*

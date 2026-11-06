@@ -6,6 +6,8 @@ export const metadata = metadataForPath('/blog');
 
 const POSTS_PER_PAGE = 15;
 
-export default function Page() {
-  return <Blog posts={getPostSummaries()} currentPage={1} postsPerPage={POSTS_PER_PAGE} />;
+export const revalidate = 60;
+
+export default async function Page() {
+  return <Blog posts={await getPostSummaries()} currentPage={1} postsPerPage={POSTS_PER_PAGE} />;
 }

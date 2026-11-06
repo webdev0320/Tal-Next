@@ -2,12 +2,12 @@ import { createMetadata } from '../../../../lib/seo';
 import { getPostSummaries } from '../../../../lib/cms';
 import Blog from '../../../../views/Blog';
 
-export const dynamicParams = false;
+export const revalidate = 60;
 
 const POSTS_PER_PAGE = 15;
 
-export function generateStaticParams() {
-  const totalPages = Math.ceil(getPostSummaries().length / POSTS_PER_PAGE);
+export async function generateStaticParams() {
+  const totalPages = Math.ceil((await getPostSummaries()).length / POSTS_PER_PAGE);
   return Array.from({ length: totalPages - 1 }, (_, i) => ({ page: String(i + 2) }));
 }
 
@@ -24,5 +24,5 @@ export async function generateMetadata({ params }) {
 
 export default async function Page({ params }) {
   const { page } = await params;
-  return <Blog posts={getPostSummaries()} currentPage={Number(page)} postsPerPage={POSTS_PER_PAGE} />;
+  return <Blog posts={await getPostSummaries()} currentPage={Number(page)} postsPerPage={POSTS_PER_PAGE} />;
 }

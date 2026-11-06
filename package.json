@@ -8,7 +8,8 @@
     "build": "next build --webpack && node scripts/copy-api.mjs",
     "start": "next start",
     "lint": "next lint",
-    "blog:sync": "node scripts/export-blog-posts.mjs"
+    "blog:sync": "node scripts/export-blog-posts.mjs",
+    "blog:publish": "node scripts/publish-blogs.mjs"
   },
   "keywords": [],
   "author": "",
