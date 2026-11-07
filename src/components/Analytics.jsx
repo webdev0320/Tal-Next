@@ -1,18 +1,29 @@
 import Script from 'next/script';
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
-const GSC_VERIFICATION = process.env.NEXT_PUBLIC_GSC_SITE_VERIFICATION;
+import { verificationTags } from '../lib/seo-settings';
 
-export default function Analytics() {
+/**
+ * Webmaster verification + analytics, driven by the admin's SEO settings
+ * (Filament → SEO Settings → Webmaster/Analytics) with env-var fallbacks:
+ *   - verification: google/bing/yandex/pinterest → meta tags
+ *   - analytics.ga_measurement_id (or NEXT_PUBLIC_GA_ID) → GA4 gtag.js
+ *   - analytics.gtm_container_id (or NEXT_PUBLIC_GTM_ID) → GTM
+ */
+export default function Analytics({ verification = {}, analytics = {} } = {}) {
+  const gaId = analytics.ga_measurement_id || process.env.NEXT_PUBLIC_GA_ID;
+  const gtmId = analytics.gtm_container_id || process.env.NEXT_PUBLIC_GTM_ID;
+  const tags = verificationTags(verification);
+
   return (
     <>
-      {GSC_VERIFICATION && (
-        <meta name="google-site-verification" content={GSC_VERIFICATION} />
-      )}
-      {GA_ID && (
+      {tags.map(({ name, content }) => (
+        <meta key={name} name={name} content={content} />
+      ))}
+
+      {gaId && (
         <>
           <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
             strategy="afterInteractive"
           />
           <Script id="google-analytics" strategy="afterInteractive">
@@ -20,12 +31,24 @@ export default function Analytics() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', '${GA_ID}', {
+              gtag('config', '${gaId}', {
                 page_path: window.location.pathname,
               });
             `}
           </Script>
         </>
+      )}
+
+      {gtmId && (
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','${gtmId}');
+          `}
+        </Script>
       )}
     </>
   );

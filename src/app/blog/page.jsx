@@ -1,8 +1,10 @@
-import { metadataForPath } from '../../lib/seo';
+import { buildBlogIndexMetadata } from '../../lib/seo-settings';
 import { getPostSummaries } from '../../lib/cms';
 import Blog from '../../views/Blog';
 
-export const metadata = metadataForPath('/blog');
+export async function generateMetadata() {
+  return buildBlogIndexMetadata();
+}
 
 const POSTS_PER_PAGE = 15;
 

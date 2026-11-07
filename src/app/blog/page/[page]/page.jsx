@@ -1,5 +1,5 @@
-import { createMetadata } from '../../../../lib/seo';
 import { getPostSummaries } from '../../../../lib/cms';
+import { buildBlogIndexMetadata } from '../../../../lib/seo-settings';
 import Blog from '../../../../views/Blog';
 
 export const revalidate = 60;
@@ -13,13 +13,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { page } = await params;
-  const pageNum = Number(page);
-  const url = `/blog/page/${page}/`;
-  return createMetadata({
-    title: `Blog - Page ${pageNum}`,
-    description: `Insights & Knowledge from Taxaccolega - Blog archive page ${pageNum}. Expert tax advice, accounting guides, and business insights.`,
-    path: url,
-  });
+  return buildBlogIndexMetadata({ pageNumber: Number(page) });
 }
 
 export default async function Page({ params }) {

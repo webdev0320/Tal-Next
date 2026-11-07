@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import ContactSection from '../../../components/ContactSection';
 import { getPost, getPosts } from '../../../lib/cms';
-import { createMetadata, stripHtml } from '../../../lib/seo';
+import { buildPostMetadata } from '../../../lib/seo-settings';
 
 // ISR: pages are cached and refreshed via the /api/revalidate webhook (and a
 // 60s time-based safety net). New slugs are still pre-built at deploy time.
@@ -16,13 +16,7 @@ export async function generateMetadata({ params }) {
   const post = await getPost(slug);
   if (!post) return {};
 
-  return createMetadata({
-    title: post.title,
-    description: stripHtml(post.excerpt || post.content),
-    path: `/blog/${post.slug}/`,
-    image: post.featured_image || undefined,
-    type: 'article',
-  });
+  return buildPostMetadata(post);
 }
 
 function formatDate(iso) {

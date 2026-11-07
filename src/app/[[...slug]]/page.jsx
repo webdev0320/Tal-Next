@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import CmsPageContent from '../../components/CmsPageContent';
 import { SITE } from '../../lib/seo';
 import { getPageByPath, pathFromSlug } from '../../lib/pages';
+import { getGlobalSeo, resolveRobots } from '../../lib/seo-settings';
 
 export const revalidate = 60;
 
@@ -15,6 +16,7 @@ export async function generateMetadata({ params }) {
     return { title: 'Page not found | Taxaccolega' };
   }
 
+  const { indexing } = await getGlobalSeo();
   const seo = page.data.seo;
   const image = seo.open_graph?.image ?? SITE.defaultImage;
 
@@ -38,10 +40,7 @@ export async function generateMetadata({ params }) {
       description: seo.twitter?.description ?? seo.description,
       images: image ? [image] : [],
     },
-    robots: {
-      index: seo.robots?.index ?? false,
-      follow: seo.robots?.follow ?? false,
-    },
+    robots: resolveRobots(indexing, 'pages', seo.robots?.index !== false),
   };
 }
 
