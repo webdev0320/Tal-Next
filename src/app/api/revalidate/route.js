@@ -1,5 +1,5 @@
 /**
- * Webhook the Laravel admin panel calls after every blog save/delete so the
+ * Webhook the Laravel admin panel calls after every blog or menu save so the
  * ISR cache is dropped and the next visitor sees the change immediately.
  *
  * Protected by the REVALIDATE_TOKEN header. When REVALIDATE_TOKEN is not set
@@ -18,8 +18,9 @@ export async function POST(req) {
   }
 
   revalidateTag('blog-posts');
+  revalidateTag('header-menu');
 
-  return NextResponse.json({ revalidated: true, tags: ['blog-posts'], now: Date.now() });
+  return NextResponse.json({ revalidated: true, tags: ['blog-posts', 'header-menu'], now: Date.now() });
 }
 
 export async function GET() {

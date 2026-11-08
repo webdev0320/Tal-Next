@@ -8,6 +8,7 @@ import IDVerificationModal from '../components/IDVerificationModal';
 import JsonLd from '../components/JsonLd';
 import Analytics from '../components/Analytics';
 import { buildRootMetadata, getGlobalSeo } from '../lib/seo-settings';
+import { getHeaderMenu } from '../lib/menu';
 import '../tailwind.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -29,7 +30,7 @@ export async function generateMetadata() {
 }
 
 export default async function RootLayout({ children }) {
-  const seoSettings = await getGlobalSeo();
+  const [seoSettings, menuItems] = await Promise.all([getGlobalSeo(), getHeaderMenu()]);
 
   return (
     <html lang={seoSettings.site?.language || 'en-GB'} className={`${inter.variable} ${outfit.variable}`}>
@@ -42,7 +43,7 @@ export default async function RootLayout({ children }) {
         <ScrollProgress />
         <JsonLd org={seoSettings.organization} social={seoSettings.social} />
         <TopBar />
-        <Navbar />
+        <Navbar menuItems={menuItems} />
         <main>
           {children}
         </main>

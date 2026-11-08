@@ -5,6 +5,7 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 import MegaMenu, { servicesMenuData } from './MegaMenu';
 import IndustriesMegaMenu, { industriesMenuData } from './IndustriesMegaMenu';
 import MobileMenu from './MobileMenu';
+import { fallbackMenu as defaultMenu } from '../lib/menu';
 
 const packageLinks = [
   { href: '/packages/sole-trader-pricing', label: 'Sole Trader' },
@@ -15,25 +16,13 @@ const packageLinks = [
   { href: '/packages/charities-pricing', label: 'Charities & Non-Profits' },
 ];
 
-const defaultMenu = [
-  { id: 'home', title: 'Home', url: '/', type: 'custom', children: [] },
-  { id: 'services', title: 'Services', url: '/taxation', type: 'custom', children: [] },
-  { id: 'industries', title: 'Who We Assist', url: '/industries', type: 'custom', children: [] },
-  { id: 'packages', title: 'Packages', url: '/packages', type: 'custom', children: [] },
-  { id: 'blog', title: 'Blog', url: '/blog', type: 'custom', children: [] },
-  { id: 'about', title: 'About Us', url: '/about-us', type: 'custom', children: [] },
-  { id: 'contact', title: 'Contact Us', url: '/contact-us', type: 'custom', children: [] },
-];
-
 const isServices = (item) => /service/i.test(item.title || '');
 const isIndustries = (item) => /assist|industr/i.test(item.title || '');
 const isPackages = (item) => /package/i.test(item.title || '');
 const isContact = (item) => /contact/i.test(item.title || '');
 const isHome = (item) => /^home$/i.test((item.title || '').trim());
 
-const Navbar = () => {
-  // Menu is fully static: the app no longer calls the admin-panel API.
-  const menuItems = defaultMenu;
+const Navbar = ({ menuItems = defaultMenu }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [showMegaMenu, setShowMegaMenu] = useState(false);
   const [showIndustriesMegaMenu, setShowIndustriesMegaMenu] = useState(false);
