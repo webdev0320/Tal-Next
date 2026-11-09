@@ -3,10 +3,10 @@ name: Build and Deploy to public_html
 on:
   push:
     branches:
-      - main
+      - v2-branch
 
 concurrency:
-  group: deploy-main
+  group: deploy-v2-branch
   cancel-in-progress: true
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
         uses: Burnett01/rsync-deployments@v9
         with:
           switches: -avzr --delete
-          path: ./out/ 
+          path: ./out/
           remote_path: /home/taxaccolega.co.uk/public_html
           remote_host: ${{ secrets.SERVER_HOST }}
           remote_user: ${{ secrets.SERVER_USER }}
