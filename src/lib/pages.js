@@ -185,3 +185,17 @@ export async function getPageByPath(path = '') {
     return fallbackPage(urlPath);
   }
 }
+
+/**
+ * Every published page path ("/", "/about-us", "/accounts/bookkeeping", ...)
+ * from the admin API. Used by generateStaticParams for the static export.
+ * Throws if the API is unreachable so a build never silently drops pages.
+ */
+export async function getPagePaths() {
+  const { data } = await fetchJson('/pages');
+  const paths = new Set(['/']);
+  for (const page of Array.isArray(data) ? data : []) {
+    if (page?.path) paths.add(normalizePath(page.path));
+  }
+  return [...paths];
+}

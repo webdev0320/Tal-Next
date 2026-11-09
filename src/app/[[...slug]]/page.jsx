@@ -2,10 +2,17 @@ import { notFound } from 'next/navigation';
 
 import CmsPageContent from '../../components/CmsPageContent';
 import { SITE } from '../../lib/seo';
-import { getPageByPath, pathFromSlug } from '../../lib/pages';
+import { getPageByPath, getPagePaths, pathFromSlug } from '../../lib/pages';
 import { getGlobalSeo, resolveRobots } from '../../lib/seo-settings';
 
-export const revalidate = 60;
+
+// Static export: every published CMS page is generated at build time.
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const paths = await getPagePaths();
+  return paths.map((path) => ({ slug: path === '/' ? [] : path.split('/').filter(Boolean) }));
+}
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;

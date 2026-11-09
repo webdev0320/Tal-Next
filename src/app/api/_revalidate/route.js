@@ -1,3 +1,7 @@
+// Disabled: the live site is a static export (no Node server), so this
+// route cannot run. The leading underscore keeps it out of the build.
+// Restore by renaming the folder back to "revalidate" if the site ever runs as a Next.js server.
+
 /**
  * Webhook the Laravel admin panel calls after every blog or menu save so the
  * ISR cache is dropped and the next visitor sees the change immediately.

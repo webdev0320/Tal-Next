@@ -3,9 +3,8 @@ import ContactSection from '../../../components/ContactSection';
 import { getPost, getPosts } from '../../../lib/cms';
 import { buildPostMetadata } from '../../../lib/seo-settings';
 
-// ISR: pages are cached and refreshed via the /api/revalidate webhook (and a
-// 60s time-based safety net). New slugs are still pre-built at deploy time.
-export const revalidate = 60;
+// Static export: every post page is generated at build time.
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return (await getPosts()).map((post) => ({ slug: post.slug }));

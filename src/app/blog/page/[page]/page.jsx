@@ -2,7 +2,7 @@ import { getPostSummaries } from '../../../../lib/cms';
 import { buildBlogIndexMetadata } from '../../../../lib/seo-settings';
 import Blog from '../../../../views/Blog';
 
-export const revalidate = 60;
+export const dynamicParams = false;
 
 const POSTS_PER_PAGE = 15;
 
