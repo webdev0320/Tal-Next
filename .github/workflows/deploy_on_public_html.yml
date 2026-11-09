@@ -4,10 +4,18 @@ on:
   push:
     branches:
       - v2-branch
+  # Started by the Laravel admin after posts, pages, SEO or the menu are saved.
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Why this deploy was started'
+        required: false
+        default: 'manual'
 
+# One deploy at a time; a newer request waits instead of cancelling an upload halfway.
 concurrency:
   group: deploy-v2-branch
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
