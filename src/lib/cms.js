@@ -138,7 +138,10 @@ async function fetchPostsFromApi() {
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
       const res = await fetch(`${ADMIN_API_URL}/posts?all=1&full=1`, {
-        cache: 'no-store',
+        // Must be cacheable: 'no-store' marks the page dynamic, which a static
+        // export refuses. The ~10 MB response is over Next.js' 2 MB data-cache
+        // limit, so it is never actually stored (and never served stale).
+        cache: 'force-cache',
         headers: { Accept: 'application/json' },
         signal: AbortSignal.timeout(60000),
       });
