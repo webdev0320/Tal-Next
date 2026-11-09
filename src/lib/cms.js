@@ -1,11 +1,9 @@
 /**
  * Blog data source for the frontend.
  *
- * ISR mode (primary): fetches published posts live from the Laravel admin API
- * (`ADMIN_API_URL/api/posts?all=1&full=1`) and lets Next.js cache them with
- * `next: { revalidate, tags: ['blog-posts'] }`. When the admin panel saves a
- * post it calls the frontend's /api/revalidate webhook, which drops the cache
- * so the next visitor sees the change immediately.
+ * Static export: posts are fetched from the Laravel admin API
+ * (`ADMIN_API_URL/posts?all=1&full=1`) once per build. Saving a post in the
+ * admin starts the GitHub Actions deploy, which rebuilds the site.
  *
  * Fallback: if the API is unreachable (e.g. backend not running), pages render
  * from the committed public/blogs.json snapshot so the site never breaks.
@@ -17,7 +15,6 @@ import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
 const ADMIN_API_URL = (process.env.ADMIN_API_URL || 'http://127.0.0.1:8000/api').replace(/\/+$/, '');
-const REVALIDATE_SECONDS = Number(process.env.BLOG_REVALIDATE || 60);
 
 function firstImage(html) {
   return String(html || '').match(/<img[^>]+src="([^">]+)"/i)?.[1] || null;
@@ -124,25 +121,50 @@ function readBlogsJson() {
 }
 
 /**
- * All published posts, newest first. Cached by Next.js' fetch cache with the
- * `blog-posts` tag and revalidated every REVALIDATE_SECONDS (60s default).
+ * All published posts, newest first, fetched ONCE per build process.
+ *
+ * The full posts payload is ~10 MB and takes several seconds, and Next.js can't
+ * cache anything over 2 MB, so without this every page re-downloaded it, hit
+ * the old 5s timeout, and silently fell back to the stale public/blogs.json.
+ *
+ * On CI (GitHub Actions sets CI=true) a failed API call fails the build
+ * instead, so outdated content is never deployed. Locally it still falls
+ * back to public/blogs.json so `npm run dev` works without the backend.
  */
-export async function getPosts() {
-  try {
-    const res = await fetch(`${ADMIN_API_URL}/posts?all=1&full=1`, {
-      next: { revalidate: REVALIDATE_SECONDS, tags: ['blog-posts'] },
-      headers: { Accept: 'application/json' },
-      signal: AbortSignal.timeout(5000),
-    });
-    if (!res.ok) throw new Error(`API ${res.status}`);
-    const { data } = await res.json();
-    if (!Array.isArray(data) || data.length === 0) throw new Error('API returned no posts');
-    return linkPosts(sortByDate(data.map(fromApiPost)));
-  } catch (err) {
-    // API down (e.g. backend not running locally) -> serve the committed snapshot.
-    console.warn(`[cms] API unavailable (${err.message}); falling back to public/blogs.json`);
-    return linkPosts(sortByDate(readBlogsJson()));
+let postsPromise;
+
+async function fetchPostsFromApi() {
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(`${ADMIN_API_URL}/posts?all=1&full=1`, {
+        cache: 'no-store',
+        headers: { Accept: 'application/json' },
+        signal: AbortSignal.timeout(60000),
+      });
+      if (!res.ok) throw new Error(`API ${res.status}`);
+      const { data } = await res.json();
+      if (!Array.isArray(data) || data.length === 0) throw new Error('API returned no posts');
+      return linkPosts(sortByDate(data.map(fromApiPost)));
+    } catch (err) {
+      lastError = err;
+      console.warn(`[cms] posts API attempt ${attempt} failed: ${err.message}`);
+    }
   }
+  throw lastError;
+}
+
+export function getPosts() {
+  if (!postsPromise) {
+    postsPromise = fetchPostsFromApi().catch((err) => {
+      if (process.env.CI) {
+        throw new Error(`[cms] posts API unavailable on CI (${err.message}); refusing to build from stale public/blogs.json`);
+      }
+      console.warn(`[cms] API unavailable (${err.message}); falling back to public/blogs.json`);
+      return linkPosts(sortByDate(readBlogsJson()));
+    });
+  }
+  return postsPromise;
 }
 
 /** @param {string} slug */

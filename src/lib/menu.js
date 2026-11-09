@@ -50,7 +50,7 @@ export async function getHeaderMenu() {
     const res = await fetch(`${ADMIN_API_URL}/header-menu`, {
       next: { revalidate: MENU_REVALIDATE_SECONDS, tags: ['header-menu'] },
       headers: { Accept: 'application/json' },
-      signal: AbortSignal.timeout(5000),
+      signal: AbortSignal.timeout(30000),
     });
     if (!res.ok) throw new Error(`API ${res.status}`);
     const { data, menu } = await res.json();

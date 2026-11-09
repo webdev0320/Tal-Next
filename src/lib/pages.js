@@ -44,7 +44,7 @@ async function fetchJson(pathname, { revalidate = 60 } = {}) {
     next: { revalidate },
     headers: { Accept: 'application/json' },
     // Be kind to the fallback: never let a hung backend hold a request forever.
-    signal: AbortSignal.timeout(5000),
+    signal: AbortSignal.timeout(30000),
   });
 
   if (!res.ok) {
