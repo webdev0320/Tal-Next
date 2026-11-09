@@ -26,7 +26,7 @@ export const fallbackMenu = [
   { id: 'contact', title: 'Contact Us', url: '/contact-us', type: 'custom', children: [] },
 ];
 
-function normaliseItems(items) {
+export function normaliseItems(items) {
   return (Array.isArray(items) ? items : [])
     .filter((item) => item && item.title)
     .map((item, index) => ({

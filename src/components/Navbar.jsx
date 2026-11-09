@@ -6,6 +6,7 @@ import MegaMenu, { servicesMenuData } from './MegaMenu';
 import IndustriesMegaMenu, { industriesMenuData } from './IndustriesMegaMenu';
 import MobileMenu from './MobileMenu';
 import { fallbackMenu as defaultMenu } from '../lib/menu';
+import useLiveMenu from '../lib/useLiveMenu';
 
 const packageLinks = [
   { href: '/packages/sole-trader-pricing', label: 'Sole Trader' },
@@ -16,13 +17,20 @@ const packageLinks = [
   { href: '/packages/charities-pricing', label: 'Charities & Non-Profits' },
 ];
 
+/** Packages dropdown: children set on the admin Menu Manager, else the built-in list. */
+const packageLinksFor = (item) =>
+  item.children && item.children.length > 0
+    ? item.children.map((c) => ({ href: c.url, label: c.title }))
+    : packageLinks;
+
 const isServices = (item) => /service/i.test(item.title || '');
 const isIndustries = (item) => /assist|industr/i.test(item.title || '');
 const isPackages = (item) => /package/i.test(item.title || '');
 const isContact = (item) => /contact/i.test(item.title || '');
 const isHome = (item) => /^home$/i.test((item.title || '').trim());
 
-const Navbar = ({ menuItems = defaultMenu }) => {
+const Navbar = ({ menuItems: initialMenuItems = defaultMenu }) => {
+  const menuItems = useLiveMenu(initialMenuItems);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [showMegaMenu, setShowMegaMenu] = useState(false);
   const [showIndustriesMegaMenu, setShowIndustriesMegaMenu] = useState(false);
@@ -82,7 +90,7 @@ const Navbar = ({ menuItems = defaultMenu }) => {
                       {item.title} <ChevronDown size={14} />
                     </button>
                     <ul className="absolute left-0 top-full hidden group-hover:block bg-white border border-slate-100 rounded-xl shadow-xl p-2 w-64 z-50 list-none m-0">
-                      {packageLinks.map((pkg) => (
+                      {packageLinksFor(item).map((pkg) => (
                         <li key={pkg.href}>
                           <Link
                             href={pkg.href}

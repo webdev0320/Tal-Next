@@ -111,7 +111,10 @@ const MobileMenu = ({ menuItems = defaultMenu, services, industries, packages, o
         if (isPackages(item)) {
           return (
             <SectionItem key={item.id} title={item.title} to={item.url}>
-              {packages.map((pkg) => (
+              {(item.children && item.children.length > 0
+                ? item.children.map((c) => ({ href: c.url, label: c.title }))
+                : packages
+              ).map((pkg) => (
                 <Link
                   key={pkg.href}
                   href={pkg.href}
